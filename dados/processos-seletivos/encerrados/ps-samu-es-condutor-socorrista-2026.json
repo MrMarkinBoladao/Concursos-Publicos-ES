@@ -1,0 +1,81 @@
+{
+  "id": "ps-samu-es-condutor-socorrista-2026",
+  "orgao": "Comissão Permanente de Processos Seletivos do SAMU 192/ES - Provedoria da Irmandade da Santa Casa de Misericórdia de Vitória",
+  "orgao_sigla": "SAMU 192/ES",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Condutor Socorrista",
+      "area": "Saúde - urgência e emergência",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio completo",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 2.655,67, acrescida de ticket de R$ 30,00 por plantão e adicional de insalubridade",
+      "jornada": "180 horas mensais, em plantões de 12 horas diurnas ou noturnas, escala 12x36"
+    }
+  ],
+  "vagas_imediatas_total": 0,
+  "cadastro_reserva": true,
+  "escolaridade": "nível médio completo",
+  "remuneracao": {
+    "minima": 2655.67,
+    "maxima": 2655.67,
+    "descricao": "R$ 2.655,67, acrescida de ticket de R$ 30,00 por plantão e adicional de insalubridade"
+  },
+  "beneficios": [
+    "Ticket de R$ 30,00 por plantão",
+    "Adicional de insalubridade"
+  ],
+  "jornada": "180 horas mensais, em plantões de 12 horas diurnas ou noturnas, escala 12x36",
+  "edital_numero": "não informado",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": "2026-09-13",
+    "taxa": "não informado",
+    "local": "não informado",
+    "isencao": "não informado",
+    "observacao": "Prazo de inscrição encerrado em 13/09/2026. Data de início não informada pela fonte."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "Comissão Permanente de Processos Seletivos do SAMU 192/ES",
+  "status": "inscricoes_encerradas",
+  "regime": "nao_informado",
+  "validade": "não informado",
+  "links": {
+    "edital": "não informado",
+    "pagina_oficial": "não informado",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "A Gazeta - ES tem 10 seleções e concursos abertos com salário de mais de R$ 6 mil",
+      "url": "https://www.agazeta.com.br/concursos/es-tem-10-selecoes-e-concursos-abertos-com-salario-de-mais-de-r-6-mil-0926",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-13",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento do prazo de inscrição."
+    },
+    {
+      "data": "2026-09-22",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, já encerrado, para fins de histórico."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "ESCOPO: o SAMU 192/ES é serviço público de urgência, mas a seleção é conduzida pela Provedoria da Irmandade da Santa Casa de Misericórdia de Vitória, entidade privada sem fins lucrativos que opera o serviço. A esfera foi classificada como 'estadual' por se tratar de serviço público estadual de atendimento móvel de urgência; o regime de contratação não foi informado e pode não ser estatutário. Seleção exclusivamente para cadastro de reserva. Registro baseado em fonte de imprensa única. PENDÊNCIA: localizar o edital para confirmar órgão contratante, regime e etapas."
+}

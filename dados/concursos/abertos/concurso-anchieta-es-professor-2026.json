@@ -1,0 +1,210 @@
+{
+  "id": "concurso-anchieta-es-professor-2026",
+  "orgao": "Prefeitura Municipal de Anchieta",
+  "orgao_sigla": "PMA",
+  "esfera": "municipal",
+  "municipio": "Anchieta",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "PEB I - Professor de Educação Básica - Educação Infantil BNCC",
+      "area": "Educação",
+      "vagas_imediatas": 25,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 3.600,00 a R$ 8.640,00 conforme jornada e titulação",
+      "jornada": "25 a 40 horas semanais"
+    },
+    {
+      "nome": "PEB II - Professor de Educação Básica - Ensino Fundamental - Anos Iniciais (1º ao 5º ano)",
+      "area": "Educação",
+      "vagas_imediatas": 15,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 3.600,00 a R$ 8.640,00 conforme jornada e titulação",
+      "jornada": "25 a 40 horas semanais"
+    },
+    {
+      "nome": "PEB III - Professor de Educação Básica - Anos Finais - Língua Portuguesa",
+      "area": "Educação",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 3.600,00 a R$ 8.640,00 conforme jornada e titulação",
+      "jornada": "25 a 40 horas semanais"
+    },
+    {
+      "nome": "PEB III - Professor de Educação Básica - Anos Finais - Matemática",
+      "area": "Educação",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 3.600,00 a R$ 8.640,00 conforme jornada e titulação",
+      "jornada": "25 a 40 horas semanais"
+    },
+    {
+      "nome": "PEB III - Professor de Educação Básica - Anos Finais - História",
+      "area": "Educação",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 3.600,00 a R$ 8.640,00 conforme jornada e titulação",
+      "jornada": "25 a 40 horas semanais"
+    },
+    {
+      "nome": "PEB III - Professor de Educação Básica - Anos Finais - Geografia",
+      "area": "Educação",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 3.600,00 a R$ 8.640,00 conforme jornada e titulação",
+      "jornada": "25 a 40 horas semanais"
+    },
+    {
+      "nome": "PEB III - Professor de Educação Básica - Anos Finais - Ciências",
+      "area": "Educação",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 3.600,00 a R$ 8.640,00 conforme jornada e titulação",
+      "jornada": "25 a 40 horas semanais"
+    },
+    {
+      "nome": "PEB III - Professor de Educação Básica - Anos Finais - Língua Inglesa",
+      "area": "Educação",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 3.600,00 a R$ 8.640,00 conforme jornada e titulação",
+      "jornada": "25 a 40 horas semanais"
+    },
+    {
+      "nome": "PEB III - Professor de Educação Básica - Anos Finais - Educação Física",
+      "area": "Educação",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 3.600,00 a R$ 8.640,00 conforme jornada e titulação",
+      "jornada": "25 a 40 horas semanais"
+    },
+    {
+      "nome": "PEB III - Professor de Educação Básica - Anos Finais - Arte",
+      "area": "Educação",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 3.600,00 a R$ 8.640,00 conforme jornada e titulação",
+      "jornada": "25 a 40 horas semanais"
+    },
+    {
+      "nome": "PEB VI - Professor de Educação Básica - Pedagogo (25h)",
+      "area": "Educação",
+      "vagas_imediatas": 12,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 3.600,00 a R$ 8.640,00 conforme jornada e titulação",
+      "jornada": "25 horas semanais"
+    },
+    {
+      "nome": "PEB VI - Professor de Educação Básica - Pedagogo (40h)",
+      "area": "Educação",
+      "vagas_imediatas": 8,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 3.600,00 a R$ 8.640,00 conforme jornada e titulação",
+      "jornada": "40 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 64,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 3600.0,
+    "maxima": 8640.0,
+    "descricao": "R$ 3.600,00 a R$ 8.640,00, conforme carga horária e titulação (graduação, especialização, mestrado ou doutorado)"
+  },
+  "beneficios": [],
+  "jornada": "25 a 40 horas semanais",
+  "edital_numero": "Concurso Público nº 001/2026",
+  "publicacao": "2026-09-10",
+  "inscricoes": {
+    "inicio": "2026-09-21",
+    "fim": "2026-10-07",
+    "taxa": "R$ 100,00 para todos os cargos",
+    "local": "https://www.idcap.org.br",
+    "isencao": "Solicitação nos dias 21 e 22 de setembro de 2026, conforme critérios do edital",
+    "observacao": "não informado"
+  },
+  "prova": {
+    "objetiva": "2026-11-29",
+    "outras_etapas": [
+      "Prova discursiva (redação) — 29/11/2026",
+      "Prova de títulos",
+      "Avaliação biopsicossocial (candidatos PcD)",
+      "Procedimento de heteroidentificação (vagas reservadas)"
+    ],
+    "observacao": "Provas objetiva e discursiva previstas para o mesmo dia."
+  },
+  "banca": "IDCAP - Instituto de Desenvolvimento e Capacitação",
+  "status": "inscricoes_abertas",
+  "regime": "nao_informado",
+  "validade": "2 anos, prorrogável por igual período, a contar da homologação do resultado final",
+  "links": {
+    "edital": "https://integrado.selecao.net.br/informacoes/254/",
+    "pagina_oficial": "https://www.anchieta.es.gov.br/",
+    "banca": "https://idcap.selecao.net.br/"
+  },
+  "fontes": [
+    {
+      "titulo": "Prefeitura de Anchieta - ES abre concurso público para professores",
+      "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-anchieta-es-abre-concurso-publico-para-professores",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Instituto ACCESS/Integrado - página do concurso (edital e inscrições)",
+      "url": "https://integrado.selecao.net.br/informacoes/254/",
+      "tipo": "banca",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "A Tribuna Online - Doze novos concursos com 451 vagas no ES",
+      "url": "https://tribunaonline.com.br/concursos/doze-novos-concursos-com-451-vagas-no-es-330678",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-10",
+      "status": "edital_publicado",
+      "observacao": "Publicação do edital de abertura do Concurso Público nº 001/2026."
+    },
+    {
+      "data": "2026-09-21",
+      "status": "inscricoes_abertas",
+      "observacao": "Início do período de inscrições."
+    },
+    {
+      "data": "2026-09-22",
+      "status": "inscricoes_abertas",
+      "observacao": "Primeiro registro no repositório."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "Os cargos marcados com vagas_imediatas igual a 0 são exclusivamente para cadastro de reserva, conforme o edital. A soma das vagas imediatas por cargo (64) confere com o total divulgado. Não foi localizada a relação de benefícios no material consultado."
+}

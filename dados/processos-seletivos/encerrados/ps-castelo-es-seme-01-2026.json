@@ -1,0 +1,84 @@
+{
+  "id": "ps-castelo-es-seme-01-2026",
+  "orgao": "Prefeitura Municipal de Castelo - Secretaria Municipal de Educação (SEME)",
+  "orgao_sigla": "PMC/SEME",
+  "esfera": "municipal",
+  "municipio": "Castelo",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Professor, Pedagogo, Motorista D, Secretário Escolar, Assistente de Serviço de Educação e Servente/Merendeira",
+      "area": "Educação",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental, médio e superior",
+      "requisitos": "não informado",
+      "remuneracao": "Até R$ 4.049,98, conforme o cargo",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": 0,
+  "cadastro_reserva": true,
+  "escolaridade": "nível fundamental, médio e superior",
+  "remuneracao": {
+    "minima": null,
+    "maxima": 4049.98,
+    "descricao": "Até R$ 4.049,98, conforme o cargo"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "Edital SEME nº 01/2026",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": "2026-09-15",
+    "taxa": "não informado",
+    "local": "https://educacao.castelo.es.gov.br/processos-seletivos",
+    "isencao": "não informado",
+    "observacao": "Inscrições até às 17h do dia 15/09/2026. Data de início não informada pela fonte."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "não informado",
+  "links": {
+    "edital": "https://educacao.castelo.es.gov.br/processos-seletivos",
+    "pagina_oficial": "https://educacao.castelo.es.gov.br/processos-seletivos",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "A Tribuna Online - Doze novos concursos com 451 vagas no ES",
+      "url": "https://tribunaonline.com.br/concursos/doze-novos-concursos-com-451-vagas-no-es-330678",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Prefeitura de Castelo - Processos Seletivos da Educação",
+      "url": "https://educacao.castelo.es.gov.br/processos-seletivos",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-15",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 17h."
+    },
+    {
+      "data": "2026-09-22",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, já encerrado, para fins de histórico."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "Seleção para reserva técnica, sem vagas de provimento imediato. Registro complementar ao edital SEME nº 02/2026 (id ps-castelo-es-seme-02-2026), que segue com inscrições abertas até 24/09/2026. A fonte descreveu os dois editais em conjunto; a atribuição de cargos a cada edital não foi detalhada e permanece como pendência de validação no edital íntegro."
+}

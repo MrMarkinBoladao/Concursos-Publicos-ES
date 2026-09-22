@@ -1,0 +1,115 @@
+{
+  "id": "concurso-camara-cachoeiro-itapemirim-es-2026",
+  "orgao": "Câmara Municipal de Cachoeiro de Itapemirim",
+  "orgao_sigla": "não informado",
+  "esfera": "municipal",
+  "municipio": "Cachoeiro de Itapemirim",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Procurador",
+      "area": "Jurídica",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "Faixa de R$ 3.250,00 a R$ 6.711,07 considerando os cargos do certame",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Analista Legislativo",
+      "area": "Legislativa",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "Faixa de R$ 3.250,00 a R$ 6.711,07 considerando os cargos do certame",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Auditor Interno Público",
+      "area": "Controle interno",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "Faixa de R$ 3.250,00 a R$ 6.711,07 considerando os cargos do certame",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": null,
+  "cadastro_reserva": null,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 3250.0,
+    "maxima": 6711.07,
+    "descricao": "R$ 3.250,00 a R$ 6.711,07, conforme o cargo"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "não informado",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": null,
+    "taxa": "não informado",
+    "local": "não informado",
+    "isencao": "não informado",
+    "observacao": "Edital ainda não publicado na data da verificação."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "Instituto ACCESS",
+  "status": "autorizado",
+  "regime": "estatutario",
+  "validade": "não informado",
+  "links": {
+    "edital": "não informado",
+    "pagina_oficial": "não informado",
+    "banca": "https://access.selecao.net.br/"
+  },
+  "fontes": [
+    {
+      "titulo": "Concurso Câmara Cachoeiro de Itapemirim (Estratégia Concursos)",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-camara-de-cachoeiro-de-itapemirim-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Concurso da Câmara de Cachoeiro avança e banca é contratada",
+      "url": "https://folhadoes.com/concurso-da-camara-de-cachoeiro-avanca-e-banca-e-contratada/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Concursos ES: editais previstos para 2026 (tabela de concursos com banca definida)",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concursos-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-03",
+      "status": "autorizado",
+      "observacao": "Instituto ACCESS definido oficialmente como banca organizadora do certame."
+    },
+    {
+      "data": "2026-09-10",
+      "status": "autorizado",
+      "observacao": "Conclusão do planejamento e contratação da banca noticiadas pela imprensa local."
+    },
+    {
+      "data": "2026-09-22",
+      "status": "autorizado",
+      "observacao": "Primeiro registro no repositório. Edital ainda não publicado."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "DIVERGÊNCIA NÃO RESOLVIDA no número de vagas: o Estratégia Concursos indica 15 vagas para este certame, enquanto uma página do Instituto ACCESS consultada em busca menciona '32 vagas (32 imediatas + CR)' — não foi possível confirmar se essa página se refere a este mesmo concurso ou a outro certame da banca. Por isso vagas_imediatas_total permanece null. PENDÊNCIA: confirmar o quadro de vagas quando o edital for publicado, em access.selecao.net.br, e localizar a página oficial da Câmara Municipal de Cachoeiro de Itapemirim. Nota: o nome oficial do município é 'Cachoeiro de Itapemirim' conforme a grafia usada pelas fontes consultadas."
+}

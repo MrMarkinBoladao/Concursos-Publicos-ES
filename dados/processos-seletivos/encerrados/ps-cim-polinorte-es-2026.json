@@ -1,0 +1,78 @@
+{
+  "id": "ps-cim-polinorte-es-2026",
+  "orgao": "Consórcio Público da Região Polinorte",
+  "orgao_sigla": "CIM Polinorte",
+  "esfera": "intermunicipal",
+  "municipio": "Diversos (ES) - Linhares e região",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Analista Técnico em Meio Ambiente, Auxiliar Administrativo (Rede Cuidar), Enfermeiro Diarista (Rede Cuidar), Enfermeiro Plantonista (UPAI), Farmacêutico Plantonista, Agente Administrativo da Câmara Setorial de Saúde, Oficial Administrativo (Compras Compartilhadas), Recepcionista, Técnico de Enfermagem Diarista (Rede Cuidar), Técnico em Enfermagem Plantonista (UPAI), Técnico em Meio Ambiente, Motorista de Ambulância e Técnico em Radiologia",
+      "area": "Saúde e meio ambiente",
+      "vagas_imediatas": 5,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio, técnico e superior",
+      "requisitos": "não informado",
+      "remuneracao": "Até R$ 4.870,14, conforme o cargo",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": 5,
+  "cadastro_reserva": true,
+  "escolaridade": "nível médio, técnico e superior",
+  "remuneracao": {
+    "minima": null,
+    "maxima": 4870.14,
+    "descricao": "Até R$ 4.870,14, conforme o cargo"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "não informado",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": "2026-09-16",
+    "taxa": "não informado",
+    "local": "Presencial, das 8h às 11h e das 13h às 16h, na sede do Consórcio Público da Região Polinorte; na Unidade de Cuidado Integral à Saúde - Rede Cuidar Central; e na UPAI 24 horas de Linhares",
+    "isencao": "não informado",
+    "observacao": "Inscrições presenciais em três locais, até 16/09/2026. Data de início não informada pela fonte."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "não informado",
+  "links": {
+    "edital": "não informado",
+    "pagina_oficial": "não informado",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "A Tribuna Online - Doze novos concursos com 451 vagas no ES",
+      "url": "https://tribunaonline.com.br/concursos/doze-novos-concursos-com-451-vagas-no-es-330678",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-16",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições presenciais."
+    },
+    {
+      "data": "2026-09-22",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, já encerrado, para fins de histórico."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "Consórcio público intermunicipal com atuação em saúde e meio ambiente na região de Linhares/ES, daí a esfera 'intermunicipal'. Registro baseado em fonte única de imprensa (prioridade 4). Os 13 cargos citados foram agrupados em um único item porque a fonte não informa a distribuição das 5 vagas imediatas entre eles. PENDÊNCIA: localizar o edital e a página oficial do consórcio para desmembrar os cargos e completar escolaridade, remuneração e etapas."
+}

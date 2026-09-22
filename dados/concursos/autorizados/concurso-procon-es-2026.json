@@ -1,0 +1,85 @@
+{
+  "id": "concurso-procon-es-2026",
+  "orgao": "Instituto Estadual de Proteção e Defesa do Consumidor do Espírito Santo",
+  "orgao_sigla": "Procon-ES",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Agente em Defesa do Consumidor",
+      "area": "Defesa do consumidor / fiscalização",
+      "vagas_imediatas": 20,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 7.547,78 a R$ 13.228,23",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": 20,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 7547.78,
+    "maxima": 13228.23,
+    "descricao": "R$ 7.547,78 a R$ 13.228,23"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "não informado",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": null,
+    "taxa": "não informado",
+    "local": "não informado",
+    "isencao": "não informado",
+    "observacao": "Edital ainda não publicado na data da verificação."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "não informado",
+  "status": "autorizado",
+  "regime": "estatutario",
+  "validade": "não informado",
+  "links": {
+    "edital": "não informado",
+    "pagina_oficial": "https://procon.es.gov.br/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Concursos ES: editais previstos para 2026 (tabela de concursos com comissão formada)",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concursos-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Concurso Procon ES avança com contratação de serviços",
+      "url": "https://folha.qconcursos.com/n/concurso-procon-es-2026-banca-avanco-contratacao",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Concurso Procon ES: banca definida internamente",
+      "url": "https://blog.grancursosonline.com.br/concurso-procon-es-banca-definida-internamente/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-22",
+      "status": "autorizado",
+      "observacao": "Primeiro registro no repositório. Comissão formada e contratação de serviços em andamento; edital não publicado."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "Certame com comissão formada e contratação de serviços já iniciada, previsto no orçamento de 2026, com 20 vagas mais cadastro de reserva para Agente em Defesa do Consumidor. É a maior remuneração entre os certames estaduais em preparação (teto de R$ 13.228,23). Fontes mencionam 'banca definida internamente', sem identificar a organizadora — por isso o campo banca permanece 'não informado'. ACOMPANHAR: procon.es.gov.br e o Diário Oficial do Estado."
+}

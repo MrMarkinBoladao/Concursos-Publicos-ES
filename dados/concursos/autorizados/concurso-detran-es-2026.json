@@ -1,0 +1,95 @@
+{
+  "id": "concurso-detran-es-2026",
+  "orgao": "Departamento Estadual de Trânsito do Espírito Santo",
+  "orgao_sigla": "Detran-ES",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Assistente de Trânsito",
+      "area": "Trânsito - administrativa",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "nível médio",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 2.409,75",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Analista de Trânsito",
+      "area": "Trânsito - técnica",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 5.179,94",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": 94,
+  "cadastro_reserva": null,
+  "escolaridade": "nível médio e superior",
+  "remuneracao": {
+    "minima": 2409.75,
+    "maxima": 5179.94,
+    "descricao": "R$ 2.409,75 para Assistente de Trânsito e R$ 5.179,94 para Analista de Trânsito"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "não informado",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": null,
+    "taxa": "não informado",
+    "local": "não informado",
+    "isencao": "não informado",
+    "observacao": "Edital ainda não publicado na data da verificação."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "não informado",
+  "status": "autorizado",
+  "regime": "estatutario",
+  "validade": "não informado",
+  "links": {
+    "edital": "não informado",
+    "pagina_oficial": "https://detran.es.gov.br/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Concursos ES: editais previstos para 2026 (tabela de concursos com comissão formada)",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concursos-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Concurso Detran ES: edital na LOA 2026; comissão formada",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-detran-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Concurso Detran ES: comissão formada, edital previsto na LOA 2026",
+      "url": "https://www.novaconcursos.com.br/portal/concursos/concurso-detran-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-22",
+      "status": "autorizado",
+      "observacao": "Primeiro registro no repositório. Comissão formada e edital previsto na LOA 2026; sem publicação."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "Certame com comissão organizadora formada (segundo as fontes, desde 2019) e previsão na Lei Orçamentária Anual de 2026, sem banca contratada nem edital publicado. Total de 94 vagas previstas; a divisão entre Assistente e Analista de Trânsito não foi informada. ACOMPANHAR: detran.es.gov.br e o Diário Oficial do Estado."
+}

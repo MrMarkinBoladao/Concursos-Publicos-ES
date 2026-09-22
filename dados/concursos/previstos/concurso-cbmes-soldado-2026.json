@@ -1,0 +1,73 @@
+{
+  "id": "concurso-cbmes-soldado-2026",
+  "orgao": "Corpo de Bombeiros Militar do Espírito Santo",
+  "orgao_sigla": "CBMES",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Soldado",
+      "area": "Segurança pública / defesa civil",
+      "vagas_imediatas": 100,
+      "cadastro_reserva": null,
+      "escolaridade": "nível médio",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 3.735,79 após a formação",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": 100,
+  "cadastro_reserva": null,
+  "escolaridade": "nível médio",
+  "remuneracao": {
+    "minima": 3735.79,
+    "maxima": 3735.79,
+    "descricao": "R$ 3.735,79 após a conclusão do curso de formação"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "não informado",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": null,
+    "taxa": "não informado",
+    "local": "não informado",
+    "isencao": "não informado",
+    "observacao": "Certame anunciado, sem edital publicado."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "não informado",
+  "status": "previsto",
+  "regime": "estatutario",
+  "validade": "não informado",
+  "links": {
+    "edital": "não informado",
+    "pagina_oficial": "https://cb.es.gov.br/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Concursos ES: editais previstos para 2026 (tabela de concursos previstos/aguardados)",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concursos-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-22",
+      "status": "previsto",
+      "observacao": "Primeiro registro no repositório. Certame anunciado, sem autorização formal confirmada."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "Certame ANUNCIADO, com 100 vagas previstas para Soldado de nível médio. A remuneração de R$ 3.735,79 vale após a conclusão do curso de formação; o valor pago durante a formação não foi informado. Sem banca, cronograma ou autorização formal confirmada. Registro baseado em fonte única de imprensa especializada — tratar como expectativa, não como certeza. ACOMPANHAR: cb.es.gov.br e o Diário Oficial do Estado."
+}

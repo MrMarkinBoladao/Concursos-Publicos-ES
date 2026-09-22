@@ -1,0 +1,130 @@
+{
+  "id": "concurso-pm-es-soldado-2026",
+  "orgao": "Polícia Militar do Estado do Espírito Santo",
+  "orgao_sigla": "PMES",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Soldado Combatente",
+      "area": "Segurança pública",
+      "vagas_imediatas": 1000,
+      "cadastro_reserva": null,
+      "escolaridade": "nível médio",
+      "requisitos": "Idade entre 18 e 28 anos; CNH categoria B; altura mínima de 1,60 m (homens) e 1,55 m (mulheres)",
+      "remuneracao": "R$ 2.010,40 durante o Curso de Formação; R$ 5.713,99 (subsídio bruto) após promoção a Soldado, ambos com R$ 800,00 de auxílio-alimentação",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Soldado Músico",
+      "area": "Segurança pública",
+      "vagas_imediatas": 8,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio",
+      "requisitos": "Idade entre 18 e 28 anos; CNH categoria B; altura mínima de 1,60 m (homens) e 1,55 m (mulheres)",
+      "remuneracao": "R$ 2.010,40 durante o Curso de Formação; R$ 5.713,99 (subsídio bruto) após promoção a Soldado, ambos com R$ 800,00 de auxílio-alimentação",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": 1008,
+  "cadastro_reserva": true,
+  "escolaridade": "nível médio",
+  "remuneracao": {
+    "minima": 2010.4,
+    "maxima": 5713.99,
+    "descricao": "R$ 2.010,40 como Aluno Soldado durante o Curso de Formação e R$ 5.713,99 após a promoção a Soldado, ambos com acréscimo de R$ 800,00 de auxílio-alimentação"
+  },
+  "beneficios": [
+    "Auxílio-alimentação de R$ 800,00"
+  ],
+  "jornada": "não informado",
+  "edital_numero": "não informado",
+  "publicacao": "2026-05-27",
+  "inscricoes": {
+    "inicio": "2026-06-08",
+    "fim": "2026-08-10",
+    "taxa": "R$ 130,00",
+    "local": "https://www.idecan.org.br/",
+    "isencao": "não informado",
+    "observacao": "Prazo original de inscrição ia até 08/07/2026 e foi prorrogado para 10/08/2026 por retificação do cronograma."
+  },
+  "prova": {
+    "objetiva": "2026-09-27",
+    "outras_etapas": [
+      "Prova de redação — 27/09/2026, mesmo dia da objetiva"
+    ],
+    "observacao": "Data da prova originalmente prevista para antes de setembro e adiada para 27/09/2026 em razão da prorrogação das inscrições. Provas aplicadas em diversas regiões do Espírito Santo."
+  },
+  "banca": "IDECAN",
+  "status": "inscricoes_encerradas",
+  "regime": "estatutario",
+  "validade": "não informado",
+  "links": {
+    "edital": "https://www.idecan.org.br/",
+    "pagina_oficial": "https://pm.es.gov.br/",
+    "banca": "https://www.idecan.org.br/"
+  },
+  "fontes": [
+    {
+      "titulo": "Concurso PM ES: 1.008 vagas para Soldado e R$ 5,7 mil",
+      "url": "https://blog.grancursosonline.com.br/concurso-pm-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Edital PM ES SAIU! Concurso oferta 1.008 vagas e R$ 5,7 mil",
+      "url": "https://blog.grancursosonline.com.br/concurso-pm-es-edital-publicado-2026/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Edital do concurso PM ES publicado: são mais de mil vagas",
+      "url": "https://www.direcaoconcursos.com.br/noticias/edital-concurso-pm-es-publicado",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Concurso PM ES: inscrições encerradas para soldado",
+      "url": "https://magistrarcursos.com.br/blog/concurso-pm-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2025-08-01",
+      "status": "autorizado",
+      "observacao": "Certame autorizado pelo governador do Estado em agosto de 2025, com 1.000 vagas para Soldado. Dia exato da autorização não informado pelas fontes."
+    },
+    {
+      "data": "2026-03-01",
+      "status": "autorizado",
+      "observacao": "IDECAN confirmado como banca organizadora. Dia exato não informado pelas fontes."
+    },
+    {
+      "data": "2026-05-27",
+      "status": "edital_publicado",
+      "observacao": "Publicação oficial do edital para Soldado Combatente e Soldado Músico."
+    },
+    {
+      "data": "2026-06-08",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições, com prazo original até 08/07/2026."
+    },
+    {
+      "data": "2026-08-10",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições após prorrogação; prova remarcada para 27/09/2026."
+    },
+    {
+      "data": "2026-09-22",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório. Prova objetiva agendada para 27/09/2026."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "ETAPA IMINENTE: prova objetiva e de redação marcadas para 27/09/2026, cinco dias após esta verificação — acompanhar a divulgação dos locais de prova no site do IDECAN. Registro mantido em 'encerrados' porque o critério de diretório é o status das inscrições, não o encerramento do certame: o concurso segue em andamento. Número do edital e URL direta não confirmados; consultar o site do IDECAN e da PMES. Havia notícia (23/04/2026) de autorização de 3 certames para praças, incluindo PM ES Saúde — os demais, se confirmados, devem gerar registros próprios."
+}

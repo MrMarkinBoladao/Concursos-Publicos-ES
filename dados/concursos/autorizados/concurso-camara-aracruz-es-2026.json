@@ -1,0 +1,79 @@
+{
+  "id": "concurso-camara-aracruz-es-2026",
+  "orgao": "Câmara Municipal de Aracruz",
+  "orgao_sigla": "não informado",
+  "esfera": "municipal",
+  "municipio": "Aracruz",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Diversos cargos (não detalhados pelas fontes)",
+      "area": "Legislativa e administrativa",
+      "vagas_imediatas": 9,
+      "cadastro_reserva": null,
+      "escolaridade": "nível médio e superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 2.494,28 a R$ 5.680,88",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": 9,
+  "cadastro_reserva": null,
+  "escolaridade": "nível médio e superior",
+  "remuneracao": {
+    "minima": 2494.28,
+    "maxima": 5680.88,
+    "descricao": "R$ 2.494,28 a R$ 5.680,88, conforme o cargo"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "não informado",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": null,
+    "taxa": "não informado",
+    "local": "não informado",
+    "isencao": "não informado",
+    "observacao": "Edital ainda não publicado na data da verificação."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "não informado",
+  "status": "autorizado",
+  "regime": "estatutario",
+  "validade": "não informado",
+  "links": {
+    "edital": "não informado",
+    "pagina_oficial": "https://www.aracruz.es.leg.br/transparencia/concurso-publico",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Concursos ES: editais previstos para 2026 (tabela de concursos autorizados)",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concursos-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Câmara Municipal de Aracruz - Concurso Público (página oficial de transparência)",
+      "url": "https://www.aracruz.es.leg.br/transparencia/concurso-publico",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-22",
+      "status": "autorizado",
+      "observacao": "Primeiro registro no repositório, a partir da relação de concursos autorizados do ES. Edital ainda não publicado."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "Concurso classificado como AUTORIZADO pelas fontes especializadas, com 9 vagas para cargos de níveis médio e superior. A relação de cargos, a banca e o cronograma não foram divulgados. Não confundir com o Concurso Público nº 001/2026 da PREFEITURA de Aracruz (id concurso-aracruz-es-semge-001-2026), que é certame distinto, do Executivo municipal, já em fase de resultados. ACOMPANHAR: a página oficial de transparência da Câmara."
+}

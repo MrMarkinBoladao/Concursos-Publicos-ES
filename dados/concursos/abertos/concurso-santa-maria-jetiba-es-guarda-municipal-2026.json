@@ -1,0 +1,108 @@
+{
+  "id": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
+  "orgao": "Prefeitura Municipal de Santa Maria de Jetibá",
+  "orgao_sigla": "PMSMJ",
+  "esfera": "municipal",
+  "municipio": "Santa Maria de Jetibá",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Guarda Municipal",
+      "area": "Segurança pública",
+      "vagas_imediatas": 30,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio completo",
+      "requisitos": "Ensino médio completo; idade entre 18 e 40 anos",
+      "remuneracao": "Subsídio inicial de R$ 3.763,26, acrescido de auxílio-alimentação de R$ 750,00 e adicional por tempo de serviço",
+      "jornada": "40 horas semanais, com escalas e plantões conforme necessidade do serviço"
+    }
+  ],
+  "vagas_imediatas_total": 30,
+  "cadastro_reserva": true,
+  "escolaridade": "nível médio completo",
+  "remuneracao": {
+    "minima": 3763.26,
+    "maxima": 3763.26,
+    "descricao": "Subsídio inicial de R$ 3.763,26, mais auxílio-alimentação de R$ 750,00 e adicional por tempo de serviço"
+  },
+  "beneficios": [
+    "Auxílio-alimentação de R$ 750,00",
+    "Adicional por tempo de serviço",
+    "Possibilidade de progressão de carreira e de funções de confiança"
+  ],
+  "jornada": "40 horas semanais, com escalas e plantões",
+  "edital_numero": "Edital nº 001/2026",
+  "publicacao": "2026-09-09",
+  "inscricoes": {
+    "inicio": "2026-09-14",
+    "fim": "2026-10-21",
+    "taxa": "R$ 150,00",
+    "local": "https://www.institutoconsulplan.org.br/pref-smj-guarda2026",
+    "isencao": "Pedido entre 14 e 16 de setembro de 2026, conforme condições previstas em lei",
+    "observacao": "Inscrições exclusivamente pela internet, das 16h do dia 14/09/2026 às 16h do dia 21/10/2026."
+  },
+  "prova": {
+    "objetiva": "2026-12-13",
+    "outras_etapas": [
+      "Avaliação biopsicossocial",
+      "Teste de aptidão física",
+      "Avaliação médica com exames laboratoriais e complementares",
+      "Exame toxicológico",
+      "Avaliação psicológica",
+      "Investigação social",
+      "Avaliação de títulos",
+      "Curso de formação"
+    ],
+    "observacao": "Seleção composta por nove etapas."
+  },
+  "banca": "Instituto Consulplan",
+  "status": "inscricoes_abertas",
+  "regime": "estatutario",
+  "validade": "2 anos a contar da homologação do resultado final, prorrogável uma única vez por igual período",
+  "links": {
+    "edital": "https://www.institutoconsulplan.org.br/pref-smj-guarda2026",
+    "pagina_oficial": "https://www.pmsmj.es.gov.br/",
+    "banca": "https://www.institutoconsulplan.org.br/"
+  },
+  "fontes": [
+    {
+      "titulo": "Prefeitura de Santa Maria de Jetibá - ES abre concurso público com vagas para guardas municipais",
+      "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-santa-maria-de-jetiba-es-abre-concurso-publico-com-vagas-para-guardas-municipais",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Prefeitura de Santa Maria de Jetibá ES publica concurso para guarda municipal com 50 vagas",
+      "url": "https://folha.qconcursos.com/n/prefeitura-de-santa-maria-de-jetiba-es-publica-concurso-para-guarda-municipal-com-50-vagas",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "A Gazeta - Seis concursos e seleções abertas com salário de mais de R$ 8 mil",
+      "url": "https://www.agazeta.com.br/concursos/seis-concursos-e-selecoes-abertas-com-salario-de-mais-de-r-8-mil-0926",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-09",
+      "status": "edital_publicado",
+      "observacao": "Publicação do Edital nº 001/2026 para a Guarda Municipal."
+    },
+    {
+      "data": "2026-09-14",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições às 16h."
+    },
+    {
+      "data": "2026-09-22",
+      "status": "inscricoes_abertas",
+      "observacao": "Primeiro registro no repositório."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "DIVERGÊNCIA ENTRE FONTES no prazo de inscrição: PCI Concursos e A Gazeta informam encerramento em 21/10/2026 às 16h; A Tribuna Online (14/09/2026) indicou 'até 16h do dia 21', sem especificar o mês. Adotado 21/10/2026 por ser a informação de duas fontes independentes e compatível com a prova em 13/12/2026 — CONFIRMAR no edital oficial antes de contar com o prazo. Distribuição das 30 vagas imediatas: 22 ampla concorrência, 2 PcD, 5 negros, 1 indígena; mais 20 para cadastro de reserva (total 50)."
+}

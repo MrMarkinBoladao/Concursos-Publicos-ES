@@ -1,0 +1,73 @@
+{
+  "id": "concurso-codeg-guarapari-es-2026",
+  "orgao": "Companhia de Desenvolvimento de Guarapari (CODEG)",
+  "orgao_sigla": "CODEG",
+  "esfera": "municipal",
+  "municipio": "Guarapari",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "não informado",
+      "area": "não informado",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 1.805,42 a R$ 2.912,00 conforme o último edital do órgão",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": null,
+  "cadastro_reserva": null,
+  "escolaridade": "não informado",
+  "remuneracao": {
+    "minima": 1805.42,
+    "maxima": 2912.0,
+    "descricao": "R$ 1.805,42 a R$ 2.912,00 — valores do ÚLTIMO EDITAL do órgão, não do certame em preparação"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "não informado",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": null,
+    "taxa": "não informado",
+    "local": "não informado",
+    "isencao": "não informado",
+    "observacao": "Edital ainda não publicado na data da verificação."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "não informado",
+  "status": "autorizado",
+  "regime": "nao_informado",
+  "validade": "não informado",
+  "links": {
+    "edital": "não informado",
+    "pagina_oficial": "não informado",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Concursos ES: editais previstos para 2026 (tabela de concursos com comissão formada)",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concursos-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-22",
+      "status": "autorizado",
+      "observacao": "Primeiro registro no repositório. Comissão formada; cargos, vagas e edital não divulgados."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "REGISTRO COM DADOS MÍNIMOS: a única informação disponível é que a comissão organizadora foi formada. Cargos, número de vagas, escolaridade e requisitos não foram divulgados. ATENÇÃO: a faixa de R$ 1.805,42 a R$ 2.912,00 refere-se expressamente ao ÚLTIMO EDITAL da CODEG e NÃO deve ser apresentada como remuneração do certame em preparação. Registro baseado em fonte única de imprensa especializada. PENDÊNCIA: localizar a página oficial da CODEG e confirmar a existência e o estágio do certame."
+}
