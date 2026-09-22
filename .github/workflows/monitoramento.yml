@@ -1,0 +1,147 @@
+name: Monitoramento de concursos ES
+
+# Valida os dados, regenera o README e prepara o resumo de e-mail.
+#
+# SEGURANCA: nenhuma credencial neste arquivo. As credenciais de SMTP vem de
+# GitHub Secrets e sao injetadas apenas no passo de envio. O token do GitHub
+# usado para commitar e o GITHUB_TOKEN efemero da propria execucao.
+
+on:
+  schedule:
+    # Todos os dias as 09:00 e as 18:00 (horario de Brasilia, UTC-3).
+    - cron: "0 12 * * *"
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+    inputs:
+      forcar_email:
+        description: "Regerar o resumo ignorando o estado de envios anterior"
+        type: boolean
+        default: false
+  pull_request:
+    paths:
+      - "dados/**"
+      - "ferramentas/**"
+      - "README.md"
+  push:
+    branches: [main]
+    paths:
+      - "dados/**"
+      - "ferramentas/**"
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    name: Validar dados
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validar registros
+        run: python3 ferramentas/validar.py
+
+      - name: Conferir se o README esta sincronizado com os dados
+        run: python3 ferramentas/gerar_readme.py --check
+
+  atualizar:
+    name: Atualizar README e preparar e-mail
+    # Só escreve no repositorio em execucao agendada ou manual, nunca em PR.
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    needs: validar
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      tem_novidade: ${{ steps.email.outputs.tem_novidade }}
+      arquivo_email: ${{ steps.email.outputs.arquivo }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Regenerar tabelas do README
+        run: python3 ferramentas/gerar_readme.py
+
+      - name: Preparar resumo de e-mail
+        id: email
+        run: |
+          set +e
+          if [ "${{ inputs.forcar_email }}" = "true" ]; then
+            python3 ferramentas/gerar_email.py --forcar
+          else
+            python3 ferramentas/gerar_email.py
+          fi
+          codigo=$?
+          set -e
+          # 0 = ha novidade a enviar; 2 = nada mudou; qualquer outro = erro real.
+          if [ "$codigo" = "0" ]; then
+            echo "tem_novidade=true" >> "$GITHUB_OUTPUT"
+            echo "arquivo=email/$(date -u +%Y-%m-%d)-resumo.md" >> "$GITHUB_OUTPUT"
+          elif [ "$codigo" = "2" ]; then
+            echo "tem_novidade=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "::error::gerar_email.py falhou com codigo $codigo"
+            exit "$codigo"
+          fi
+
+      - name: Revalidar depois das alteracoes
+        run: python3 ferramentas/validar.py
+
+      - name: Commitar alteracoes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "Nenhuma alteracao a commitar."
+            exit 0
+          fi
+          git add README.md email/ relatorios/ dados/ historico/
+          git commit -m "update: atualiza resumo de concursos do ES ($(date -u +%Y-%m-%d))"
+          git push
+
+  enviar_email:
+    name: Enviar resumo por e-mail
+    needs: atualizar
+    if: needs.atualizar.outputs.tem_novidade == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      # As credenciais vem exclusivamente de GitHub Secrets. Configure em
+      # Settings > Secrets and variables > Actions:
+      #   SMTP_SERVIDOR, SMTP_PORTA, SMTP_USUARIO, SMTP_SENHA,
+      #   EMAIL_DESTINATARIO, EMAIL_REMETENTE
+      # O passo e ignorado sem erro se os secrets nao estiverem configurados,
+      # para que o repositorio funcione sem e-mail.
+      - name: Verificar configuracao de SMTP
+        id: check
+        env:
+          SMTP_SERVIDOR: ${{ secrets.SMTP_SERVIDOR }}
+        run: |
+          if [ -z "$SMTP_SERVIDOR" ]; then
+            echo "configurado=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::SMTP nao configurado. O resumo foi gerado em email/ e versionado, mas nao enviado."
+          else
+            echo "configurado=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Enviar
+        if: steps.check.outputs.configurado == 'true'
+        env:
+          SMTP_SERVIDOR: ${{ secrets.SMTP_SERVIDOR }}
+          SMTP_PORTA: ${{ secrets.SMTP_PORTA }}
+          SMTP_USUARIO: ${{ secrets.SMTP_USUARIO }}
+          SMTP_SENHA: ${{ secrets.SMTP_SENHA }}
+          EMAIL_DESTINATARIO: ${{ secrets.EMAIL_DESTINATARIO }}
+          EMAIL_REMETENTE: ${{ secrets.EMAIL_REMETENTE }}
+          ARQUIVO_RESUMO: ${{ needs.atualizar.outputs.arquivo_email }}
+        run: python3 ferramentas/enviar_email.py
