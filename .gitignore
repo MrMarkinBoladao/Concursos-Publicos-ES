@@ -1,0 +1,25 @@
+# Segredos — NUNCA versionar credenciais, tokens ou chaves
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credenciais*.json
+segredos*.json
+cookies.txt
+
+# Estado local do gerador de e-mail (evita reenvio de conteúdo idêntico)
+# O arquivo é versionado de propósito; a linha abaixo existe apenas para
+# documentar que caches locais não devem entrar no repositório.
+email/.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Sistema operacional / editores
+.DS_Store
+Thumbs.db
+*.swp

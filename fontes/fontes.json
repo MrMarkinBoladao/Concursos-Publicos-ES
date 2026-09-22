@@ -1,0 +1,297 @@
+{
+  "descricao": "Registro das fontes consultadas pelo monitoramento de concursos e processos seletivos do Espirito Santo (ES). Prioridade 1 = maior confiabilidade.",
+  "escopo": "Exclusivamente Espirito Santo (ES): orgaos federais, estaduais e municipais com vagas, lotacao ou oportunidade efetivamente relacionada ao ES.",
+  "ultima_atualizacao": "2026-09-22",
+  "fontes": [
+    {
+      "id": "diario-oficial-es",
+      "nome": "Diario Oficial do Estado do Espirito Santo",
+      "url": "https://dio.es.gov.br/",
+      "tipo": "diario_oficial",
+      "esfera": "estadual",
+      "prioridade": 1
+    },
+    {
+      "id": "dou",
+      "nome": "Diario Oficial da Uniao",
+      "url": "https://www.in.gov.br/",
+      "tipo": "diario_oficial",
+      "esfera": "federal",
+      "prioridade": 1
+    },
+    {
+      "id": "amunes-dom",
+      "nome": "Diario Oficial dos Municipios do Espirito Santo (AMUNES)",
+      "url": "https://ioes.dio.es.gov.br/",
+      "tipo": "diario_oficial",
+      "esfera": "municipal",
+      "prioridade": 1,
+      "observacao": "Publicacoes municipais tambem aparecem nos diarios proprios de cada prefeitura."
+    },
+    {
+      "id": "selecao-es",
+      "nome": "Portal Selecao ES - Governo do Estado do Espirito Santo",
+      "url": "https://selecao.es.gov.br/",
+      "tipo": "oficial",
+      "esfera": "estadual",
+      "prioridade": 1,
+      "observacao": "Portal unico dos processos seletivos do Estado (SEDU, SESA e demais orgaos)."
+    },
+    {
+      "id": "sedu-es",
+      "nome": "Secretaria de Estado da Educacao do Espirito Santo (SEDU)",
+      "url": "https://sedu.es.gov.br/processos-seletivos",
+      "tipo": "oficial",
+      "esfera": "estadual",
+      "prioridade": 1
+    },
+    {
+      "id": "sesa-es",
+      "nome": "Secretaria de Estado da Saude do Espirito Santo (SESA)",
+      "url": "https://saude.es.gov.br/",
+      "tipo": "oficial",
+      "esfera": "estadual",
+      "prioridade": 1
+    },
+    {
+      "id": "seger-es",
+      "nome": "Secretaria de Estado de Gestao e Recursos Humanos (SEGER)",
+      "url": "https://seger.es.gov.br/",
+      "tipo": "oficial",
+      "esfera": "estadual",
+      "prioridade": 1,
+      "observacao": "Autoriza e coordena os concursos do Executivo estadual."
+    },
+    {
+      "id": "pc-es",
+      "nome": "Policia Civil do Espirito Santo - Concursos",
+      "url": "https://pc.es.gov.br/concursos",
+      "tipo": "oficial",
+      "esfera": "estadual",
+      "prioridade": 1
+    },
+    {
+      "id": "pm-es",
+      "nome": "Policia Militar do Espirito Santo",
+      "url": "https://pm.es.gov.br/",
+      "tipo": "oficial",
+      "esfera": "estadual",
+      "prioridade": 1
+    },
+    {
+      "id": "mpes",
+      "nome": "Ministerio Publico do Estado do Espirito Santo",
+      "url": "https://mpes.mp.br/concursos/",
+      "tipo": "oficial",
+      "esfera": "estadual",
+      "prioridade": 1
+    },
+    {
+      "id": "tjes",
+      "nome": "Tribunal de Justica do Espirito Santo",
+      "url": "https://www.tjes.jus.br/",
+      "tipo": "oficial",
+      "esfera": "estadual",
+      "prioridade": 1
+    },
+    {
+      "id": "ipajm",
+      "nome": "IPAJM - Instituto de Previdencia dos Servidores do Estado do ES",
+      "url": "https://ipajm.es.gov.br/concursos-publicos",
+      "tipo": "oficial",
+      "esfera": "estadual",
+      "prioridade": 1
+    },
+    {
+      "id": "idaf-es",
+      "nome": "IDAF - Instituto de Defesa Agropecuaria e Florestal do ES",
+      "url": "https://idaf.es.gov.br/",
+      "tipo": "oficial",
+      "esfera": "estadual",
+      "prioridade": 1
+    },
+    {
+      "id": "detran-es",
+      "nome": "Detran ES - Departamento Estadual de Transito",
+      "url": "https://detran.es.gov.br/",
+      "tipo": "oficial",
+      "esfera": "estadual",
+      "prioridade": 1
+    },
+    {
+      "id": "prefeitura-vitoria",
+      "nome": "Prefeitura de Vitoria",
+      "url": "https://www.vitoria.es.gov.br/",
+      "tipo": "oficial",
+      "esfera": "municipal",
+      "prioridade": 1
+    },
+    {
+      "id": "prefeitura-anchieta",
+      "nome": "Prefeitura de Anchieta",
+      "url": "https://www.anchieta.es.gov.br/",
+      "tipo": "oficial",
+      "esfera": "municipal",
+      "prioridade": 1
+    },
+    {
+      "id": "prefeitura-santa-maria-jetiba",
+      "nome": "Prefeitura de Santa Maria de Jetiba",
+      "url": "https://www.pmsmj.es.gov.br/",
+      "tipo": "oficial",
+      "esfera": "municipal",
+      "prioridade": 1
+    },
+    {
+      "id": "prefeitura-castelo",
+      "nome": "Prefeitura de Castelo - Processos Seletivos da Educacao",
+      "url": "https://educacao.castelo.es.gov.br/processos-seletivos",
+      "tipo": "oficial",
+      "esfera": "municipal",
+      "prioridade": 1
+    },
+    {
+      "id": "prefeitura-aracruz",
+      "nome": "Prefeitura de Aracruz",
+      "url": "https://www.aracruz.es.gov.br/",
+      "tipo": "oficial",
+      "esfera": "municipal",
+      "prioridade": 1
+    },
+    {
+      "id": "camara-aracruz",
+      "nome": "Camara Municipal de Aracruz - Concurso Publico",
+      "url": "https://www.aracruz.es.leg.br/transparencia/concurso-publico",
+      "tipo": "oficial",
+      "esfera": "municipal",
+      "prioridade": 1
+    },
+    {
+      "id": "prefeitura-cachoeiro",
+      "nome": "Prefeitura de Cachoeiro de Itapemirim - Editais",
+      "url": "https://www.cachoeiro.es.gov.br/editais/",
+      "tipo": "oficial",
+      "esfera": "municipal",
+      "prioridade": 1
+    },
+    {
+      "id": "prefeitura-vila-velha",
+      "nome": "Prefeitura de Vila Velha",
+      "url": "https://www.vilavelha.es.gov.br/",
+      "tipo": "oficial",
+      "esfera": "municipal",
+      "prioridade": 1
+    },
+    {
+      "id": "crf-es",
+      "nome": "Conselho Regional de Farmacia do Espirito Santo (CRF-ES)",
+      "url": "https://www.crf-es.org.br/",
+      "tipo": "oficial",
+      "esfera": "federal",
+      "prioridade": 1
+    },
+    {
+      "id": "cref22-es",
+      "nome": "Conselho Regional de Educacao Fisica da 22a Regiao (CREF22/ES)",
+      "url": "https://www.cref22.org.br/",
+      "tipo": "oficial",
+      "esfera": "federal",
+      "prioridade": 1
+    },
+    {
+      "id": "ufes",
+      "nome": "Universidade Federal do Espirito Santo (UFES) - Concursos",
+      "url": "https://progep.ufes.br/concursos",
+      "tipo": "oficial",
+      "esfera": "federal",
+      "prioridade": 1
+    },
+    {
+      "id": "ifes",
+      "nome": "Instituto Federal do Espirito Santo (IFES) - Processos Seletivos",
+      "url": "https://www.ifes.edu.br/processos-seletivos",
+      "tipo": "oficial",
+      "esfera": "federal",
+      "prioridade": 1
+    },
+    {
+      "id": "idcap",
+      "nome": "IDCAP - Instituto de Desenvolvimento e Capacitacao",
+      "url": "https://idcap.selecao.net.br/",
+      "tipo": "banca",
+      "prioridade": 2,
+      "observacao": "Banca recorrente em editais municipais do ES (Vitoria, Anchieta, Aracruz)."
+    },
+    {
+      "id": "consulplan",
+      "nome": "Instituto Consulplan",
+      "url": "https://www.institutoconsulplan.org.br/",
+      "tipo": "banca",
+      "prioridade": 2
+    },
+    {
+      "id": "ibade",
+      "nome": "IBADE - Instituto Brasileiro de Apoio e Desenvolvimento Executivo",
+      "url": "https://www.ibade.org.br/",
+      "tipo": "banca",
+      "prioridade": 2
+    },
+    {
+      "id": "ibest",
+      "nome": "Instituto IBEST",
+      "url": "https://institutoibest.selecao.net.br/",
+      "tipo": "banca",
+      "prioridade": 2
+    },
+    {
+      "id": "idecan",
+      "nome": "IDECAN",
+      "url": "https://www.idecan.org.br/",
+      "tipo": "banca",
+      "prioridade": 2
+    },
+    {
+      "id": "access",
+      "nome": "Instituto ACCESS",
+      "url": "https://access.selecao.net.br/",
+      "tipo": "banca",
+      "prioridade": 2
+    },
+    {
+      "id": "fundatec",
+      "nome": "Fundatec",
+      "url": "https://www.fundatec.org.br/portal/concursos/",
+      "tipo": "banca",
+      "prioridade": 2
+    },
+    {
+      "id": "pciconcursos-es",
+      "nome": "PCI Concursos - Espirito Santo",
+      "url": "https://www.pciconcursos.com.br/concursos/es/",
+      "tipo": "portal_concursos",
+      "prioridade": 3
+    },
+    {
+      "id": "qconcursos",
+      "nome": "Folha Dirigida / QConcursos",
+      "url": "https://folha.qconcursos.com/",
+      "tipo": "portal_concursos",
+      "prioridade": 3
+    },
+    {
+      "id": "agazeta-concursos",
+      "nome": "A Gazeta - Concursos",
+      "url": "https://www.agazeta.com.br/concursos",
+      "tipo": "imprensa",
+      "prioridade": 4,
+      "observacao": "Publica balanco periodico dos certames abertos no ES; util para descoberta, nao para confirmacao de datas."
+    },
+    {
+      "id": "tribunaonline-concursos",
+      "nome": "A Tribuna Online - Concursos",
+      "url": "https://tribunaonline.com.br/concursos",
+      "tipo": "imprensa",
+      "prioridade": 4
+    }
+  ]
+}
