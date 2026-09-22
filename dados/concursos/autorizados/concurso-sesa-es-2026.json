@@ -1,0 +1,79 @@
+{
+  "id": "concurso-sesa-es-2026",
+  "orgao": "Secretaria de Estado da Saúde do Espírito Santo",
+  "orgao_sigla": "SESA",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Diversos cargos da área da saúde (não detalhados pelas fontes)",
+      "area": "Saúde",
+      "vagas_imediatas": 688,
+      "cadastro_reserva": null,
+      "escolaridade": "nível médio, técnico e superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 2.629,08 a R$ 11.173,61",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": 688,
+  "cadastro_reserva": null,
+  "escolaridade": "nível médio, técnico e superior",
+  "remuneracao": {
+    "minima": 2629.08,
+    "maxima": 11173.61,
+    "descricao": "R$ 2.629,08 a R$ 11.173,61, conforme o cargo"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "não informado",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": null,
+    "taxa": "não informado",
+    "local": "não informado",
+    "isencao": "não informado",
+    "observacao": "Edital ainda não publicado na data da verificação."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "não informado",
+  "status": "autorizado",
+  "regime": "estatutario",
+  "validade": "não informado",
+  "links": {
+    "edital": "não informado",
+    "pagina_oficial": "https://saude.es.gov.br/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Concursos ES: editais previstos para 2026 (tabela de concursos com comissão formada)",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concursos-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Concurso SESA ES: comissão formada; inicial até R$ 12 mil",
+      "url": "https://blog.grancursosonline.com.br/concurso-sesa-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-22",
+      "status": "autorizado",
+      "observacao": "Primeiro registro no repositório. Comissão organizadora formada; edital ainda não publicado."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "É o maior certame estadual em preparação no ES, com 688 vagas previstas. Classificado como 'autorizado' porque a comissão organizadora já foi formada e o certame consta na previsão orçamentária de 2026, ainda sem banca contratada nem edital. Seria o primeiro concurso da SESA em cerca de 12 anos. O Gran Cursos noticia 'inicial até R$ 12 mil', acima do teto de R$ 11.173,61 citado pelo Estratégia Concursos — divergência registrada, provavelmente por arredondamento ou inclusão de gratificações. A relação de cargos não foi divulgada. ACOMPANHAR: saude.es.gov.br e o Diário Oficial do Estado."
+}

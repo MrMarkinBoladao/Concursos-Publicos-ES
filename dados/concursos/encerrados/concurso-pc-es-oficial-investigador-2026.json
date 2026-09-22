@@ -1,0 +1,118 @@
+{
+  "id": "concurso-pc-es-oficial-investigador-2026",
+  "orgao": "Polícia Civil do Estado do Espírito Santo / Secretaria de Estado da Segurança Pública e Defesa Social",
+  "orgao_sigla": "PCES",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Oficial Investigador de Polícia",
+      "area": "Segurança pública - investigação",
+      "vagas_imediatas": 1052,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior em qualquer área",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 8.539,34 (salário inicial)",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": 1052,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior em qualquer área",
+  "remuneracao": {
+    "minima": 8539.34,
+    "maxima": 8539.34,
+    "descricao": "Salário inicial de R$ 8.539,34"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "não informado",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": "2025-10-16",
+    "fim": "2025-11-16",
+    "taxa": "não informado",
+    "local": "https://www.ibade.org.br/",
+    "isencao": "não informado",
+    "observacao": "Total de 49.139 inscritos divulgado em dezembro de 2025, o que resulta em cerca de 46,71 candidatos por vaga."
+  },
+  "prova": {
+    "objetiva": "2026-02-01",
+    "outras_etapas": [
+      "Teste de Aptidão Física (TAF)"
+    ],
+    "observacao": "Gabarito preliminar divulgado em 02/02/2026; recursos em 03 e 04/02/2026. Resultado final da prova objetiva publicado em abril de 2026. Convocação para o TAF ampliada para 3.156 candidatos (três vezes o número de vagas)."
+  },
+  "banca": "IBADE",
+  "status": "prova_realizada",
+  "regime": "estatutario",
+  "validade": "não informado",
+  "links": {
+    "edital": "https://pc.es.gov.br/concursos",
+    "pagina_oficial": "https://pc.es.gov.br/concursos",
+    "banca": "https://www.ibade.org.br/"
+  },
+  "fontes": [
+    {
+      "titulo": "Polícia Civil do ES - Concursos (página oficial)",
+      "url": "https://pc.es.gov.br/concursos",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Concurso Polícia Civil ES: 1.052 vagas; resultado final da objetiva",
+      "url": "https://blog.grancursosonline.com.br/concurso-policia-civil-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Concurso Polícia Civil ES amplia convocação para o TAF",
+      "url": "https://blog.grancursosonline.com.br/concurso-policia-civil-es-amplia-convocacao-taf-2026/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Concurso PC ES: resultados são divulgados",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-policia-civil-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2025-10-16",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições para o cargo de Oficial Investigador de Polícia."
+    },
+    {
+      "data": "2025-11-16",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições, com 49.139 candidatos."
+    },
+    {
+      "data": "2026-02-01",
+      "status": "prova_realizada",
+      "observacao": "Aplicação da prova objetiva pelo IBADE."
+    },
+    {
+      "data": "2026-03-03",
+      "status": "prova_realizada",
+      "observacao": "Ampliação da convocação para o TAF de duas para três vezes o número de vagas (3.156 candidatos), anunciada pelo governador."
+    },
+    {
+      "data": "2026-04-01",
+      "status": "prova_realizada",
+      "observacao": "Divulgação do resultado final da prova objetiva. Dia exato não informado pelas fontes."
+    },
+    {
+      "data": "2026-09-22",
+      "status": "prova_realizada",
+      "observacao": "Primeiro registro no repositório, para fins de histórico. Certame em fase de etapas posteriores."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "Registro histórico de certame em andamento: inscrições encerraram em 16/11/2025 e o concurso segue nas etapas seguintes à objetiva (TAF e demais). Primeira seleção da PC ES para o cargo de Oficial Investigador de Polícia. Número do edital, data de publicação, taxa e cronograma das etapas restantes não localizados nas fontes consultadas — verificar em pc.es.gov.br/concursos. As datas de 01/04/2026 e 01/08/2025 em historico_status usam o dia 1 como marcador de mês quando a fonte informa apenas o mês; ver campo observacao de cada entrada."
+}

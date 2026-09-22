@@ -1,0 +1,79 @@
+{
+  "id": "ps-sedu-es-coordenador-pedagogico-32-2025",
+  "orgao": "Secretaria de Estado da Educação do Espírito Santo",
+  "orgao_sigla": "SEDU",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Coordenador Pedagógico",
+      "area": "Educação - gestão pedagógica",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": null,
+  "cadastro_reserva": null,
+  "escolaridade": "não informado",
+  "remuneracao": {
+    "minima": null,
+    "maxima": null,
+    "descricao": "não informado"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "Edital de Cadastramento nº 32/2025 - SEDU",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": "2026-09-30",
+    "taxa": "não informado",
+    "local": "https://selecao.es.gov.br/",
+    "isencao": "não informado",
+    "observacao": "Inscrições até 30/09/2026 às 17:00, conforme o portal Seleção ES."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "Trata-se da fase preliminar (cadastramento) do processo seletivo para Coordenador Pedagógico."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_abertas",
+  "regime": "designacao_temporaria",
+  "validade": "não informado",
+  "links": {
+    "edital": "https://selecao.es.gov.br/",
+    "pagina_oficial": "https://sedu.es.gov.br/processos-seletivos",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Portal Seleção ES - Inscrições Abertas",
+      "url": "https://selecao.es.gov.br/",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "SEDU - Processos Seletivos",
+      "url": "https://sedu.es.gov.br/processos-seletivos",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-22",
+      "status": "inscricoes_abertas",
+      "observacao": "Primeiro registro no repositório, a partir da listagem oficial do portal Seleção ES."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "PRAZO CURTO: inscrições encerram em 30/09/2026 às 17h. Registro criado a partir da listagem do portal oficial Seleção ES, que traz apenas órgão, título do edital e prazo. Vagas, escolaridade, requisitos, remuneração e etapas precisam ser extraídos do edital íntegro em selecao.es.gov.br — mantidos como 'não informado'/null para não inventar dados."
+}

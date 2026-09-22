@@ -1,0 +1,106 @@
+{
+  "id": "concurso-aracruz-es-semge-001-2026",
+  "orgao": "Prefeitura Municipal de Aracruz - Secretaria Municipal de Gestão (SEMGE)",
+  "orgao_sigla": "PMA/SEMGE",
+  "esfera": "municipal",
+  "municipio": "Aracruz",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Diversos cargos das áreas Administrativa, Saúde, Fiscalização, Engenharia e Educação",
+      "area": "Diversas",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental, médio, técnico e superior",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": null,
+  "cadastro_reserva": true,
+  "escolaridade": "nível fundamental, médio, técnico e superior",
+  "remuneracao": {
+    "minima": null,
+    "maxima": 6200.0,
+    "descricao": "Fontes divergem; o teto citado é de aproximadamente R$ 6,2 mil. Ver observacoes."
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "Concurso Público nº 001/2026",
+  "publicacao": "2026-02-27",
+  "inscricoes": {
+    "inicio": null,
+    "fim": null,
+    "taxa": "não informado",
+    "local": "https://idcap.selecao.net.br/informacoes/227/",
+    "isencao": "não informado",
+    "observacao": "Início das inscrições foi adiado pela Retificação 2, de 10/03/2026. Datas exatas não confirmadas nas fontes consultadas."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "Etapas alteradas pela Retificação 2, de 10/03/2026. Resultados divulgados; datas não confirmadas nas fontes consultadas."
+  },
+  "banca": "IDCAP - Instituto de Desenvolvimento e Capacitação",
+  "status": "prova_realizada",
+  "regime": "estatutario",
+  "validade": "não informado",
+  "links": {
+    "edital": "https://idcap.selecao.net.br/informacoes/227/",
+    "pagina_oficial": "https://www.aracruz.es.gov.br/",
+    "banca": "https://idcap.selecao.net.br/"
+  },
+  "fontes": [
+    {
+      "titulo": "IDCAP - página do Concurso Público 001/2026 de Aracruz (edital atualizado em 01/07/2026)",
+      "url": "https://idcap.selecao.net.br/informacoes/227/",
+      "tipo": "banca",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Prefeitura de Aracruz - ES abre concurso com vagas em diversos níveis de escolaridade",
+      "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-aracruz-es-abre-concurso-com-vagas-em-diversos-niveis-de-escolaridade",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Concurso Prefeitura de Aracruz: resultados disponíveis",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-aracruz/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Concurso Prefeitura de Aracruz ES oferece mais de 60 vagas imediatas",
+      "url": "https://folha.qconcursos.com/n/concurso-prefeitura-de-aracruz-es-oferece-mais-de-60-vagas-imediatas",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-02-27",
+      "status": "edital_publicado",
+      "observacao": "Publicação do edital do Concurso Público nº 001/2026 pela SEMGE."
+    },
+    {
+      "data": "2026-03-10",
+      "status": "edital_publicado",
+      "observacao": "Retificação 2: adiamento do início das inscrições e alteração do quadro de vagas, das etapas de prova e do cronograma."
+    },
+    {
+      "data": "2026-07-01",
+      "status": "prova_realizada",
+      "observacao": "Edital atualizado na página da banca; resultados divulgados conforme acompanhamento especializado."
+    },
+    {
+      "data": "2026-09-22",
+      "status": "prova_realizada",
+      "observacao": "Primeiro registro no repositório, para fins de histórico."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "DIVERGÊNCIA NÃO RESOLVIDA no número de vagas: as fontes citam 48 vagas imediatas, 'mais de 60' e 86 vagas imediatas, em momentos diferentes — a Retificação 2 (10/03/2026) alterou expressamente o quadro de vagas, o que explica parte da discrepância. Por isso vagas_imediatas_total está null em vez de um número possivelmente errado. Também não foi possível confirmar datas de inscrição e de prova. PENDÊNCIA: extrair o quadro definitivo do edital consolidado em idcap.selecao.net.br/informacoes/227/ e atualizar este registro. Registro mantido no histórico por ser certame de 2026 já em fase de resultados."
+}

@@ -1,0 +1,107 @@
+{
+  "id": "concurso-mp-es-servidor-2026",
+  "orgao": "Ministério Público do Estado do Espírito Santo",
+  "orgao_sigla": "MPES",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Agente (diversas especialidades do quadro administrativo)",
+      "area": "Administrativa",
+      "vagas_imediatas": 60,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio e superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 5.073,26 a R$ 10.453,81",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": 60,
+  "cadastro_reserva": true,
+  "escolaridade": "nível médio e superior",
+  "remuneracao": {
+    "minima": 5073.26,
+    "maxima": 10453.81,
+    "descricao": "R$ 5.073,26 a R$ 10.453,81, conforme o cargo"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "3º Concurso Público para servidor do MPES",
+  "publicacao": "2026-03-12",
+  "inscricoes": {
+    "inicio": "2026-03-12",
+    "fim": "2026-04-09",
+    "taxa": "R$ 95,00 a R$ 120,00, conforme o cargo",
+    "local": "não informado",
+    "isencao": "não informado",
+    "observacao": "Inscrições das 16h de 12/03/2026 às 16h de 09/04/2026."
+  },
+  "prova": {
+    "objetiva": "2026-05-31",
+    "outras_etapas": [
+      "Prova discursiva — 31/05/2026, mesmo dia da objetiva"
+    ],
+    "observacao": "Provas objetiva e discursiva previstas para 31/05/2026, em locais divulgados posteriormente."
+  },
+  "banca": "não informado",
+  "status": "prova_realizada",
+  "regime": "estatutario",
+  "validade": "não informado",
+  "links": {
+    "edital": "https://mpes.mp.br/noticias/2026/03/12/ministerio-publico-publica-edital-do-3o-concurso-publico-para-servidor-da-instituicao/",
+    "pagina_oficial": "https://mpes.mp.br/concursos/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Ministério Público publica edital do 3º Concurso Público para servidor da instituição",
+      "url": "https://mpes.mp.br/noticias/2026/03/12/ministerio-publico-publica-edital-do-3o-concurso-publico-para-servidor-da-instituicao/",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Concurso MP ES: edital publicado, vagas de níveis médio e superior com salários acima de R$ 10,4 mil",
+      "url": "https://www.direcaoconcursos.com.br/noticias/concurso-mp-es-edital-publicado-2026",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Edital MP ES SAIU! Concurso oferta inicial até R$ 10 mil",
+      "url": "https://blog.grancursosonline.com.br/concurso-mp-es-edital-publicado-2026/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-03-12",
+      "status": "edital_publicado",
+      "observacao": "Publicação do edital do 3º Concurso Público para servidor, anunciada pelo próprio MPES."
+    },
+    {
+      "data": "2026-03-12",
+      "status": "inscricoes_abertas",
+      "observacao": "Inscrições abertas a partir das 16h do mesmo dia da publicação."
+    },
+    {
+      "data": "2026-04-09",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 16h."
+    },
+    {
+      "data": "2026-05-31",
+      "status": "prova_realizada",
+      "observacao": "Data prevista no edital para as provas objetiva e discursiva. Realização não reconfirmada nesta verificação."
+    },
+    {
+      "data": "2026-09-22",
+      "status": "prova_realizada",
+      "observacao": "Primeiro registro no repositório, para fins de histórico."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "Registro histórico: inscrições encerradas em 09/04/2026. O status 'prova_realizada' baseia-se na data prevista no edital (31/05/2026) e NÃO foi reconfirmado com o resultado oficial nesta verificação — validar no portal de concursos do MPES antes de tratar o certame como concluído. Banca organizadora e detalhamento por cargo não localizados nas fontes consultadas."
+}

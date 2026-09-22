@@ -1,0 +1,105 @@
+{
+  "id": "ps-vitoria-es-professor-educacao-especial-021-2026",
+  "orgao": "Prefeitura Municipal de Vitória - Secretaria de Gestão e Planejamento (SEGES)",
+  "orgao_sigla": "PMV/SEGES",
+  "esfera": "municipal",
+  "municipio": "Vitória",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Professor de Educação Básica Especial - Bilíngue (Libras)",
+      "area": "Educação especial",
+      "vagas_imediatas": 15,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Licenciatura plena na área específica de atuação",
+      "remuneracao": "Até R$ 7.338,21, conforme titulação e jornada",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Professor de Educação Básica Especial - Deficiência Visual",
+      "area": "Educação especial",
+      "vagas_imediatas": 10,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Licenciatura plena na área específica de atuação",
+      "remuneracao": "Até R$ 7.338,21, conforme titulação e jornada",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": 25,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": null,
+    "maxima": 7338.21,
+    "descricao": "Até R$ 7.338,21, conforme titulação e jornada"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "Edital nº 021/2026 - SEGES",
+  "publicacao": "2026-09-10",
+  "inscricoes": {
+    "inicio": "2026-09-16",
+    "fim": "2026-09-27",
+    "taxa": "não informado",
+    "local": "https://integrado.selecao.net.br/informacoes/256/",
+    "isencao": "não informado",
+    "observacao": "não informado"
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "IDCAP - Instituto de Desenvolvimento e Capacitação",
+  "status": "inscricoes_abertas",
+  "regime": "designacao_temporaria",
+  "validade": "não informado",
+  "links": {
+    "edital": "https://integrado.selecao.net.br/informacoes/256/",
+    "pagina_oficial": "https://www.vitoria.es.gov.br/",
+    "banca": "https://idcap.selecao.net.br/"
+  },
+  "fontes": [
+    {
+      "titulo": "A Tribuna Online - Doze novos concursos com 451 vagas no ES",
+      "url": "https://tribunaonline.com.br/concursos/doze-novos-concursos-com-451-vagas-no-es-330678",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Prefeitura de Vitória abre 335 vagas para professores com salários até R$ 7,3 mil",
+      "url": "https://viacarreira.com/prefeitura-de-vitoria-abre-335-vagas-para-professores-com-salarios-ate-r-73-mil/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "A Gazeta - Seis concursos e seleções abertas com salário de mais de R$ 8 mil",
+      "url": "https://www.agazeta.com.br/concursos/seis-concursos-e-selecoes-abertas-com-salario-de-mais-de-r-8-mil-0926",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-10",
+      "status": "edital_publicado",
+      "observacao": "Publicação dos editais 021/2026 e 022/2026 pela SEGES no Diário Oficial do Município."
+    },
+    {
+      "data": "2026-09-16",
+      "status": "inscricoes_abertas",
+      "observacao": "Início do período de inscrições."
+    },
+    {
+      "data": "2026-09-22",
+      "status": "inscricoes_abertas",
+      "observacao": "Primeiro registro no repositório."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "PRAZO CURTO: inscrições encerram em 27/09/2026 (5 dias após a última verificação). Dados de taxa, jornada, etapas e validade não localizados nas fontes consultadas — consultar o edital íntegro no link da banca. A divisão 15 Libras + 10 deficiência visual vem da Via Carreira; A Tribuna informa o total de 25 vagas, compatível."
+}

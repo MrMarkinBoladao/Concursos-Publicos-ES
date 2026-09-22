@@ -1,0 +1,73 @@
+{
+  "id": "concurso-dpe-es-2026",
+  "orgao": "Defensoria Pública do Estado do Espírito Santo",
+  "orgao_sigla": "DPE-ES",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "não informado",
+      "area": "não informado",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 1.826,22 a R$ 5.469,13",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": null,
+  "cadastro_reserva": null,
+  "escolaridade": "não informado",
+  "remuneracao": {
+    "minima": 1826.22,
+    "maxima": 5469.13,
+    "descricao": "R$ 1.826,22 a R$ 5.469,13"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "não informado",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": null,
+    "taxa": "não informado",
+    "local": "não informado",
+    "isencao": "não informado",
+    "observacao": "Certame sem edital publicado."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "não informado",
+  "status": "previsto",
+  "regime": "estatutario",
+  "validade": "não informado",
+  "links": {
+    "edital": "não informado",
+    "pagina_oficial": "https://www.defensoria.es.def.br/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Concursos ES: editais previstos para 2026 (tabela de concursos previstos/aguardados)",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concursos-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-22",
+      "status": "previsto",
+      "observacao": "Primeiro registro no repositório. Certame apenas previsto, sem autorização formal."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "REGISTRO COM DADOS MÍNIMOS: certame classificado apenas como 'previsto', sem cargos, escolaridade, vagas, banca ou cronograma divulgados. A faixa de R$ 1.826,22 a R$ 5.469,13 sugere cargos de apoio administrativo em diversos níveis, mas essa leitura NÃO está confirmada pela fonte. Registro baseado em fonte única de imprensa especializada. ACOMPANHAR: site da Defensoria Pública do ES."
+}

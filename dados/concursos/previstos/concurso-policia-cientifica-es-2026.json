@@ -1,0 +1,79 @@
+{
+  "id": "concurso-policia-cientifica-es-2026",
+  "orgao": "Polícia Científica do Espírito Santo",
+  "orgao_sigla": "não informado",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "não informado",
+      "area": "Perícia criminal / segurança pública",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 6.060,16 a R$ 8.539,34",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": null,
+  "cadastro_reserva": null,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 6060.16,
+    "maxima": 8539.34,
+    "descricao": "R$ 6.060,16 a R$ 8.539,34"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "não informado",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": null,
+    "taxa": "não informado",
+    "local": "não informado",
+    "isencao": "não informado",
+    "observacao": "Certame anunciado, sem edital publicado."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "não informado",
+  "status": "previsto",
+  "regime": "estatutario",
+  "validade": "não informado",
+  "links": {
+    "edital": "não informado",
+    "pagina_oficial": "https://sesp.es.gov.br/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Concursos ES: editais previstos para 2026 (tabela de concursos previstos/aguardados)",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concursos-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "ES prepara concurso para a Polícia Científica em 2026; estrutura legal avança",
+      "url": "https://www.pciconcursos.com.br/previstos/es-prepara-concurso-para-a-policia-cientifica-em-2026-estrutura-legal-avanca",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-22",
+      "status": "previsto",
+      "observacao": "Primeiro registro no repositório. Estrutura legal em avanço; sem autorização formal do certame."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "Certame ANUNCIADO, em estágio de construção da estrutura legal da nova Polícia Científica do ES — ainda depende da consolidação institucional do órgão antes da autorização do concurso. Cargos e número de vagas não divulgados. A remuneração informada (R$ 6.060,16 a R$ 8.539,34) é uma faixa de referência das carreiras periciais, não um valor confirmado em edital. ACOMPANHAR: Secretaria de Estado da Segurança Pública e Defesa Social (SESP) e o Diário Oficial do Estado."
+}

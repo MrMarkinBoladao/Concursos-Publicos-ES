@@ -1,0 +1,73 @@
+{
+  "id": "concurso-seger-es-analista-executivo-2026",
+  "orgao": "Secretaria de Estado de Gestão e Recursos Humanos do Espírito Santo",
+  "orgao_sigla": "SEGER",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Analista do Executivo",
+      "area": "Administrativa / gestão pública",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 7.547,78",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": null,
+  "cadastro_reserva": null,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 7547.78,
+    "maxima": 7547.78,
+    "descricao": "R$ 7.547,78"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "não informado",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": null,
+    "taxa": "não informado",
+    "local": "não informado",
+    "isencao": "não informado",
+    "observacao": "Edital ainda não publicado na data da verificação."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "não informado",
+  "status": "autorizado",
+  "regime": "estatutario",
+  "validade": "não informado",
+  "links": {
+    "edital": "não informado",
+    "pagina_oficial": "https://seger.es.gov.br/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Concursos ES: editais previstos para 2026 (tabela de concursos com comissão formada)",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concursos-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-22",
+      "status": "autorizado",
+      "observacao": "Primeiro registro no repositório. Comissão formada; número de vagas e edital não divulgados."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "Certame com comissão organizadora formada para o cargo de Analista do Executivo, com remuneração de R$ 7.547,78. O número de vagas não foi divulgado (null, não zero). Registro baseado em fonte única de imprensa especializada. Relevante notar que a SEGER é o próprio órgão que coordena os concursos do Executivo estadual do ES. ACOMPANHAR: seger.es.gov.br e o Diário Oficial do Estado."
+}

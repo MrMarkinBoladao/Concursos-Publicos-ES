@@ -1,0 +1,134 @@
+{
+  "id": "ps-castelo-es-seme-02-2026",
+  "orgao": "Prefeitura Municipal de Castelo - Secretaria Municipal de Educação (SEME)",
+  "orgao_sigla": "PMC/SEME",
+  "esfera": "municipal",
+  "municipio": "Castelo",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Professor",
+      "area": "Educação",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "Até R$ 4.049,98",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Pedagogo",
+      "area": "Educação",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "Até R$ 4.049,98",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Motorista categoria D",
+      "area": "Transporte escolar",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "não informado",
+      "requisitos": "CNH categoria D",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Secretário Escolar",
+      "area": "Educação - administrativo",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Assistente de Serviço de Educação",
+      "area": "Educação - apoio",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Servente / Merendeira",
+      "area": "Educação - apoio",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": 0,
+  "cadastro_reserva": true,
+  "escolaridade": "nível fundamental, médio e superior",
+  "remuneracao": {
+    "minima": null,
+    "maxima": 4049.98,
+    "descricao": "Até R$ 4.049,98, conforme o cargo"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "Edital SEME nº 02/2026",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": "2026-09-21",
+    "fim": "2026-09-24",
+    "taxa": "não informado",
+    "local": "https://educacao.castelo.es.gov.br/processos-seletivos",
+    "isencao": "não informado",
+    "observacao": "Inscrições de 21 a 24 de setembro de 2026, até às 17h."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "não informado",
+  "status": "inscricoes_abertas",
+  "regime": "designacao_temporaria",
+  "validade": "não informado",
+  "links": {
+    "edital": "https://educacao.castelo.es.gov.br/processos-seletivos",
+    "pagina_oficial": "https://educacao.castelo.es.gov.br/processos-seletivos",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "A Tribuna Online - Doze novos concursos com 451 vagas no ES",
+      "url": "https://tribunaonline.com.br/concursos/doze-novos-concursos-com-451-vagas-no-es-330678",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Prefeitura de Castelo - Processos Seletivos da Educação",
+      "url": "https://educacao.castelo.es.gov.br/processos-seletivos",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-21",
+      "status": "inscricoes_abertas",
+      "observacao": "Início do período de inscrições do edital SEME 02/2026."
+    },
+    {
+      "data": "2026-09-22",
+      "status": "inscricoes_abertas",
+      "observacao": "Primeiro registro no repositório."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "PRAZO MUITO CURTO: inscrições encerram em 24/09/2026 às 17h (2 dias após a última verificação). Seleção destinada a reserva técnica — não há vagas de provimento imediato, daí vagas_imediatas_total = 0. A correspondência entre cada cargo e sua escolaridade/remuneração específica não foi detalhada pela fonte; os valores por cargo são 'não informado' exceto onde a fonte foi explícita. O edital SEME nº 01/2026, com inscrições até 15/09/2026, está registrado separadamente em dados/processos-seletivos/encerrados/."
+}

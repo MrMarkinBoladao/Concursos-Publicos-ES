@@ -1,0 +1,178 @@
+{
+  "id": "ps-vitoria-es-professores-007-008-2026",
+  "orgao": "Prefeitura Municipal de Vitória - Secretaria de Gestão e Planejamento (SEGES)",
+  "orgao_sigla": "PMV/SEGES",
+  "esfera": "municipal",
+  "municipio": "Vitória",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Professor de Educação Básica III - Educação Especial: Bilíngue",
+      "area": "Educação especial",
+      "vagas_imediatas": 15,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Licenciatura Plena)",
+      "requisitos": "Licenciatura plena na área específica de atuação",
+      "remuneracao": "R$ 3.281,63 a R$ 7.338,21, conforme titulação",
+      "jornada": "25h, 40h ou 44h semanais, conforme a função"
+    },
+    {
+      "nome": "Professor de Educação Básica III - Educação Especial: Deficiência Visual",
+      "area": "Educação especial",
+      "vagas_imediatas": 10,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Licenciatura Plena)",
+      "requisitos": "Licenciatura plena na área específica de atuação",
+      "remuneracao": "R$ 3.281,63 a R$ 7.338,21, conforme titulação",
+      "jornada": "25h, 40h ou 44h semanais, conforme a função"
+    },
+    {
+      "nome": "Professor de Educação Básica III - Educação Artística",
+      "area": "Educação",
+      "vagas_imediatas": 3,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Licenciatura Plena)",
+      "requisitos": "Licenciatura plena na área específica de atuação",
+      "remuneracao": "R$ 3.281,63 a R$ 7.338,21, conforme titulação",
+      "jornada": "25h, 40h ou 44h semanais, conforme a função"
+    },
+    {
+      "nome": "Professor de Educação Básica III - Dinamizador de Educação Artística",
+      "area": "Educação",
+      "vagas_imediatas": 30,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Licenciatura Plena)",
+      "requisitos": "Licenciatura plena na área específica de atuação",
+      "remuneracao": "R$ 3.281,63 a R$ 7.338,21, conforme titulação",
+      "jornada": "25h, 40h ou 44h semanais, conforme a função"
+    },
+    {
+      "nome": "Professor de Educação Básica III - Língua Portuguesa",
+      "area": "Educação",
+      "vagas_imediatas": 30,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Licenciatura Plena)",
+      "requisitos": "Licenciatura plena na área específica de atuação",
+      "remuneracao": "R$ 3.281,63 a R$ 7.338,21, conforme titulação",
+      "jornada": "25h, 40h ou 44h semanais, conforme a função"
+    },
+    {
+      "nome": "Professor de Educação Básica III - Língua Inglesa",
+      "area": "Educação",
+      "vagas_imediatas": 5,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Licenciatura Plena)",
+      "requisitos": "Licenciatura plena na área específica de atuação",
+      "remuneracao": "R$ 3.281,63 a R$ 7.338,21, conforme titulação",
+      "jornada": "25h, 40h ou 44h semanais, conforme a função"
+    },
+    {
+      "nome": "Professor de Educação Básica III - Matemática",
+      "area": "Educação",
+      "vagas_imediatas": 10,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Licenciatura Plena)",
+      "requisitos": "Licenciatura plena na área específica de atuação",
+      "remuneracao": "R$ 3.281,63 a R$ 7.338,21, conforme titulação",
+      "jornada": "25h, 40h ou 44h semanais, conforme a função"
+    },
+    {
+      "nome": "Professor de Educação Básica IV - Função Pedagógica",
+      "area": "Educação - gestão pedagógica",
+      "vagas_imediatas": 25,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Licenciatura Plena)",
+      "requisitos": "Licenciatura plena na área específica de atuação",
+      "remuneracao": "R$ 3.281,63 a R$ 7.338,21, conforme titulação",
+      "jornada": "25h, 40h ou 44h semanais, conforme a função"
+    },
+    {
+      "nome": "Professor de Educação Básica IV - Coordenador de Turno",
+      "area": "Educação - gestão escolar",
+      "vagas_imediatas": 15,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Licenciatura Plena)",
+      "requisitos": "Licenciatura plena na área específica de atuação",
+      "remuneracao": "R$ 3.281,63 a R$ 7.338,21, conforme titulação",
+      "jornada": "25h, 40h ou 44h semanais, conforme a função"
+    }
+  ],
+  "vagas_imediatas_total": 143,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior (Licenciatura Plena)",
+  "remuneracao": {
+    "minima": 3281.63,
+    "maxima": 7338.21,
+    "descricao": "R$ 3.281,63 a R$ 7.338,21, de acordo com a titulação (licenciatura, especialização, mestrado ou doutorado)"
+  },
+  "beneficios": [],
+  "jornada": "25h, 40h ou 44h semanais, conforme a função",
+  "edital_numero": "Processos Seletivos Qualificados nº 007/2026 e nº 008/2026 - SEGES",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": "2026-04-07",
+    "fim": "2026-04-21",
+    "taxa": "R$ 60,00 para todas as funções",
+    "local": "https://idcap.selecao.net.br/",
+    "isencao": "Candidatos de baixa renda, conforme Lei Municipal nº 9.972/2023, com solicitação entre 7 e 8 de abril de 2026",
+    "observacao": "Pagamento da taxa até 22/04/2026."
+  },
+  "prova": {
+    "objetiva": "2026-05-17",
+    "outras_etapas": [
+      "Prova prática para os cargos de Educação Especial — 07/06/2026",
+      "Perícia médica (candidatos PcD)",
+      "Procedimento de heteroidentificação (candidatos negros)",
+      "Comprovação de vínculo étnico/comunitário (candidatos indígenas)"
+    ],
+    "observacao": "Prova objetiva aplicada em 17/05/2026, das 8h às 11h, em Vitória/ES."
+  },
+  "banca": "IDCAP - Instituto de Desenvolvimento e Capacitação",
+  "status": "prova_realizada",
+  "regime": "designacao_temporaria",
+  "validade": "1 ano a partir da homologação do resultado final, prorrogável uma única vez por igual período",
+  "links": {
+    "edital": "https://idcap.selecao.net.br/",
+    "pagina_oficial": "https://www.vitoria.es.gov.br/",
+    "banca": "https://idcap.selecao.net.br/"
+  },
+  "fontes": [
+    {
+      "titulo": "Prefeitura de Vitória - ES abre seleções com salários de até R$ 7,3 mil para professores",
+      "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-vitoria-es-abre-selecoes-com-salarios-de-ate-7-3-mil-para-professores",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-04-07",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições dos PS Qualificados 007/2026 e 008/2026."
+    },
+    {
+      "data": "2026-04-21",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições."
+    },
+    {
+      "data": "2026-05-17",
+      "status": "prova_realizada",
+      "observacao": "Aplicação da prova objetiva em Vitória/ES."
+    },
+    {
+      "data": "2026-06-07",
+      "status": "prova_realizada",
+      "observacao": "Prova prática dos cargos de Educação Especial."
+    },
+    {
+      "data": "2026-09-22",
+      "status": "prova_realizada",
+      "observacao": "Primeiro registro no repositório, para fins de histórico."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "REGISTRO CONSOLIDADO: a fonte descreve em conjunto os editais nº 007/2026 e nº 008/2026 e não indica qual cargo pertence a qual edital, por isso os dois foram registrados em um único arquivo. PENDÊNCIA: obter os editais separados e desmembrar em dois registros, mantendo este id como referência histórica. Não confundir com os PS nº 021/2026 e 022/2026, de setembro de 2026, que estão em dados/processos-seletivos/abertos/ — são certames distintos do mesmo órgão, com quadro de vagas maior. As 143 vagas imediatas são a soma do quadro detalhado pela fonte."
+}

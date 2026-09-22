@@ -1,0 +1,116 @@
+{
+  "id": "concurso-ipajm-es-previdenciario-2026",
+  "orgao": "Instituto de Previdência dos Servidores do Estado do Espírito Santo",
+  "orgao_sigla": "IPAJM",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Médico Perito Previdenciário",
+      "area": "Saúde / perícia previdenciária",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 8.477,66",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Assistente Social Previdenciário",
+      "area": "Assistência social",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 8.477,66",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Psicólogo Previdenciário",
+      "area": "Psicologia",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 8.477,66",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": 5,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 8477.66,
+    "maxima": 8477.66,
+    "descricao": "R$ 8.477,66 conforme o Estratégia Concursos; A Tribuna Online cita 'salário de R$ 8,1 mil'. Ver observacoes."
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "não informado",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": null,
+    "taxa": "não informado",
+    "local": "não informado",
+    "isencao": "não informado",
+    "observacao": "Edital ainda não publicado. Expectativa de publicação em outubro de 2026, conforme cronograma previsto."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "Fundatec",
+  "status": "autorizado",
+  "regime": "estatutario",
+  "validade": "não informado",
+  "links": {
+    "edital": "não informado",
+    "pagina_oficial": "https://ipajm.es.gov.br/concursos-publicos",
+    "banca": "https://www.fundatec.org.br/portal/concursos/"
+  },
+  "fontes": [
+    {
+      "titulo": "Concurso IPAJM ES 2026 (Estratégia Concursos)",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-ipajm-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Concurso IPAJM ES: definida banca organizadora para cargos de nível superior",
+      "url": "https://jcconcursos.com.br/noticia/concursos/concurso-ipajm-es-definida-banca-organizadora-para-cargos-de-nivel-superior-145525",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "A Tribuna Online - Concurso no ES com salário de R$ 8,1 mil define banca organizadora",
+      "url": "https://tribunaonline.com.br/concursos/concurso-no-es-com-salario-de-r-81-mil-define-banca-organizadora-331026",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "IPAJM - Concursos Públicos (página oficial)",
+      "url": "https://ipajm.es.gov.br/concursos-publicos",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-17",
+      "status": "autorizado",
+      "observacao": "Fundatec definida como banca organizadora, conforme documento publicado no Portal Nacional de Contratações Públicas (PNCP)."
+    },
+    {
+      "data": "2026-09-22",
+      "status": "autorizado",
+      "observacao": "Primeiro registro no repositório. Edital ainda não publicado; expectativa para outubro de 2026."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "NOVIDADE RECENTE: banca (Fundatec) definida em 17/09/2026, cinco dias antes desta verificação, com edital esperado para outubro de 2026 — é o certame estadual com publicação mais próxima entre os autorizados. DIVERGÊNCIA de remuneração: R$ 8.477,66 (Estratégia Concursos) x 'R$ 8,1 mil' (A Tribuna Online); adotado o valor mais específico, com a divergência registrada. As 5 vagas imediatas são o total do certame; a divisão entre os três cargos não foi informada. ACOMPANHAR: ipajm.es.gov.br/concursos-publicos e o portal da Fundatec."
+}

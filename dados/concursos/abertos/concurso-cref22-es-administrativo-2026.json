@@ -1,0 +1,115 @@
+{
+  "id": "concurso-cref22-es-administrativo-2026",
+  "orgao": "Conselho Regional de Educação Física da 22ª Região",
+  "orgao_sigla": "CREF22/ES",
+  "esfera": "federal",
+  "municipio": "Vitória",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Advogado I",
+      "area": "Jurídica",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em Direito, registro ativo e regular na OAB e CNH categoria B",
+      "remuneracao": "R$ 5.500,00",
+      "jornada": "44 horas semanais"
+    },
+    {
+      "nome": "Analista Administrativo I",
+      "area": "Administrativa",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em Administração, registro ativo e regular no CRA e CNH categoria B",
+      "remuneracao": "R$ 5.000,00",
+      "jornada": "44 horas semanais"
+    },
+    {
+      "nome": "Contador I",
+      "area": "Contábil",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em Ciências Contábeis, registro ativo e regular no CRC e CNH categoria B",
+      "remuneracao": "R$ 5.000,00",
+      "jornada": "44 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 2,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 5000.0,
+    "maxima": 5500.0,
+    "descricao": "R$ 5.000,00 a R$ 5.500,00, conforme o cargo, além de benefícios"
+  },
+  "beneficios": [
+    "Vale-alimentação",
+    "Vale-transporte",
+    "Plano de saúde"
+  ],
+  "jornada": "44 horas semanais",
+  "edital_numero": "não informado",
+  "publicacao": "2026-09-18",
+  "inscricoes": {
+    "inicio": "2026-09-21",
+    "fim": "2026-10-20",
+    "taxa": "R$ 90,00",
+    "local": "https://www.ibade.org.br",
+    "isencao": "Solicitação em 28 e 29 de setembro de 2026 (CadÚnico, família de baixa renda e doadores de medula óssea). Resultado em 07/10/2026; recursos em 08 e 09/10/2026",
+    "observacao": "Boleto pode ser pago até 21/10/2026. Cada candidato pode confirmar apenas uma inscrição, pois as provas de todos os cargos ocorrem no mesmo turno."
+  },
+  "prova": {
+    "objetiva": "2026-12-13",
+    "outras_etapas": [
+      "Prova discursiva/redação — 13/12/2026, mesmo dia e turno da objetiva"
+    ],
+    "observacao": "Prova objetiva com 50 questões (Língua Portuguesa 10, Raciocínio Lógico 5, Legislação e Ética na Administração Pública 5, Conhecimentos Específicos 30), total de 100 pontos. Eliminação com menos de 50% do total ou nota zero em qualquer disciplina. Redação dissertativa de 20 a 30 linhas, máximo 20 pontos, aprovação com no mínimo 10 pontos. Duração total: 4 horas, em Vitória/ES. Resultado final previsto para 24/03/2027."
+  },
+  "banca": "IBADE - Instituto Brasileiro de Apoio e Desenvolvimento Executivo",
+  "status": "inscricoes_abertas",
+  "regime": "clt",
+  "validade": "2 anos a contar da publicação da homologação do resultado final, prorrogável uma vez por igual período",
+  "links": {
+    "edital": "https://www.ibade.org.br/",
+    "pagina_oficial": "https://www.cref22.org.br/",
+    "banca": "https://www.ibade.org.br/"
+  },
+  "fontes": [
+    {
+      "titulo": "Edital CREF ES: SAIU! Inscrições começam em 21/09",
+      "url": "https://blog.grancursosonline.com.br/concurso-cref-es-edital-publicado-2026/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "A Tribuna Online - Conselho de Educação Física no ES abre concurso com salários até R$ 5,5 mil",
+      "url": "https://tribunaonline.com.br/concursos/conselho-de-educacao-fisica-no-es-abre-concurso-com-salarios-ate-r-55-mil-330993",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-18",
+      "status": "edital_publicado",
+      "observacao": "Divulgação do edital de abertura pelo CREF22/ES e IBADE."
+    },
+    {
+      "data": "2026-09-21",
+      "status": "inscricoes_abertas",
+      "observacao": "Início do período de inscrições."
+    },
+    {
+      "data": "2026-09-22",
+      "status": "inscricoes_abertas",
+      "observacao": "Primeiro registro no repositório."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "PENDÊNCIA DE VALIDAÇÃO: número do edital e URL direta do edital ainda não confirmados em fonte oficial ou da banca — os dados vieram de veículos especializados. Consultar o site do IBADE e do CREF22/ES para obter o edital íntegro. A data de publicação (18/09/2026) foi inferida da divulgação das fontes. Conselho de fiscalização profissional é autarquia federal, daí a esfera 'federal' com lotação em Vitória/ES. Analista Administrativo I é exclusivamente cadastro de reserva. O edital admite ampliação do número de vagas durante a validade, conforme disponibilidade orçamentária."
+}

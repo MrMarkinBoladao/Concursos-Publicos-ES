@@ -1,0 +1,100 @@
+{
+  "id": "concurso-crf-es-advogado-2026",
+  "orgao": "Conselho Regional de Farmácia do Estado do Espírito Santo",
+  "orgao_sigla": "CRF-ES",
+  "esfera": "federal",
+  "municipio": "Vitória",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Advogado",
+      "area": "Jurídica",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em Direito e registro na OAB",
+      "remuneracao": "R$ 3.000,00",
+      "jornada": "20 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 1,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 3000.0,
+    "maxima": 3000.0,
+    "descricao": "R$ 3.000,00, acrescido de benefícios"
+  },
+  "beneficios": [
+    "Vale-alimentação/refeição",
+    "Plano de saúde",
+    "Plano odontológico",
+    "Auxílio-transporte"
+  ],
+  "jornada": "20 horas semanais",
+  "edital_numero": "Edital nº 001/2026",
+  "publicacao": "2026-08-25",
+  "inscricoes": {
+    "inicio": "2026-08-27",
+    "fim": "2026-10-05",
+    "taxa": "R$ 90,00",
+    "local": "https://www.institutoibest.org.br",
+    "isencao": "Solicitação nos dias 26 e 27 de agosto de 2026, das 10h do primeiro dia às 20h do último, para candidatos amparados por legislação específica",
+    "observacao": "Inscrições de 27/08/2026 às 9h até 05/10/2026 às 23h59, exclusivamente pela internet."
+  },
+  "prova": {
+    "objetiva": "2026-11-01",
+    "outras_etapas": [],
+    "observacao": "Prova objetiva de caráter eliminatório e classificatório, no turno da manhã, em Vitória/ES. Etapa única."
+  },
+  "banca": "Instituto IBEST",
+  "status": "inscricoes_abertas",
+  "regime": "clt",
+  "validade": "2 anos a contar da homologação do resultado final, prorrogável uma única vez por igual período",
+  "links": {
+    "edital": "https://institutoibest.selecao.net.br/informacoes/62/",
+    "pagina_oficial": "https://www.crf-es.org.br/",
+    "banca": "https://institutoibest.selecao.net.br/"
+  },
+  "fontes": [
+    {
+      "titulo": "CRF - ES abre concurso público para o cargo de Advogado",
+      "url": "https://www.pciconcursos.com.br/noticias/crf-es-abre-concurso-publico-para-o-cargo-de-advogado",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Conselho Regional de Farmácia do ES abre concurso com 1 vaga para advogado",
+      "url": "https://folha.qconcursos.com/n/conselho-regional-de-farmacia-do-estado-do-espirito-santo-abre-concurso-com-1-vaga-para-advogado",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Instituto IBEST - página do concurso CRF-ES",
+      "url": "https://institutoibest.selecao.net.br/informacoes/62/",
+      "tipo": "banca",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-08-25",
+      "status": "edital_publicado",
+      "observacao": "Publicação do Edital nº 001/2026."
+    },
+    {
+      "data": "2026-08-27",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições às 9h."
+    },
+    {
+      "data": "2026-09-22",
+      "status": "inscricoes_abertas",
+      "observacao": "Primeiro registro no repositório."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "Conselho de fiscalização profissional é autarquia federal — por isso a esfera é 'federal', ainda que a abrangência do certame seja estadual (ES). Divergência de apresentação entre fontes: alguns veículos anunciam '30 vagas' somando 1 vaga imediata + 29 de cadastro de reserva; o edital prevê 1 vaga de provimento imediato. A data de publicação (25/08/2026) foi inferida da divulgação das fontes e do prazo de isenção (26 e 27/08) — CONFIRMAR no edital oficial."
+}

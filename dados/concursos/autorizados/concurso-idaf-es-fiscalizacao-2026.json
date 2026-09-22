@@ -1,0 +1,105 @@
+{
+  "id": "concurso-idaf-es-fiscalizacao-2026",
+  "orgao": "Instituto de Defesa Agropecuária e Florestal do Espírito Santo",
+  "orgao_sigla": "IDAF",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Técnico de Fiscalização e Desenvolvimento Agropecuário",
+      "area": "Fiscalização agropecuária",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível técnico",
+      "requisitos": "não informado",
+      "remuneracao": "Faixa de R$ 3.828,59 a R$ 7.547,78 considerando os dois cargos do certame",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Fiscal Estadual Agropecuário",
+      "area": "Fiscalização agropecuária",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "Faixa de R$ 3.828,59 a R$ 7.547,78 considerando os dois cargos do certame",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": 14,
+  "cadastro_reserva": true,
+  "escolaridade": "nível técnico e superior",
+  "remuneracao": {
+    "minima": 3828.59,
+    "maxima": 7547.78,
+    "descricao": "R$ 3.828,59 a R$ 7.547,78, conforme o cargo"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "não informado",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": null,
+    "taxa": "não informado",
+    "local": "não informado",
+    "isencao": "não informado",
+    "observacao": "Edital ainda não publicado na data da verificação."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "IDCAP - Instituto de Desenvolvimento e Capacitação",
+  "status": "autorizado",
+  "regime": "estatutario",
+  "validade": "não informado",
+  "links": {
+    "edital": "não informado",
+    "pagina_oficial": "https://idaf.es.gov.br/",
+    "banca": "https://idcap.selecao.net.br/"
+  },
+  "fontes": [
+    {
+      "titulo": "Concursos ES: editais previstos para 2026 (tabela de concursos com banca definida)",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concursos-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "Concurso Idaf ES tem banca contratada e edital já pode sair",
+      "url": "https://folha.qconcursos.com/n/concurso-idaf-es-2026-banca-contratada",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "A Gazeta - Idaf vai abrir concurso público com salário de mais de R$ 8 mil",
+      "url": "https://www.agazeta.com.br/concursos/idaf-vai-abrir-concurso-publico-com-salario-de-mais-de-r-8-mil-0726",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-02-10",
+      "status": "autorizado",
+      "observacao": "IDCAP definido como banca organizadora do novo edital."
+    },
+    {
+      "data": "2026-08-10",
+      "status": "autorizado",
+      "observacao": "Contrato entre IDAF e IDCAP formalizado; edital considerado iminente pelas fontes especializadas."
+    },
+    {
+      "data": "2026-09-22",
+      "status": "autorizado",
+      "observacao": "Primeiro registro no repositório. Edital ainda não publicado."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "Certame previsto na LOA 2026 do Espírito Santo, com banca contratada (IDCAP) desde agosto de 2026 — edital considerado iminente, mas ainda não publicado em 22/09/2026. As 14 vagas imediatas são o total do certame; a divisão entre os dois cargos não foi informada pelas fontes, daí vagas_imediatas por cargo em null. A Gazeta noticiou salários que 'podem passar de R$ 8 mil', valor acima do teto de R$ 7.547,78 citado pelo Estratégia Concursos — divergência não resolvida, provavelmente por incluir gratificações. ACOMPANHAR: publicação do edital em idaf.es.gov.br e no site do IDCAP."
+}

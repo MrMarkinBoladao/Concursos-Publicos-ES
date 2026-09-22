@@ -1,0 +1,73 @@
+{
+  "id": "concurso-banestes-2026",
+  "orgao": "Banco do Estado do Espírito Santo (Banestes)",
+  "orgao_sigla": "Banestes",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "não informado",
+      "area": "Bancária / administrativa",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "nível médio e técnico",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 4.141,50 e R$ 5.363,81",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": null,
+  "cadastro_reserva": null,
+  "escolaridade": "nível médio e técnico",
+  "remuneracao": {
+    "minima": 4141.5,
+    "maxima": 5363.81,
+    "descricao": "R$ 4.141,50 e R$ 5.363,81, conforme o cargo"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "não informado",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": null,
+    "taxa": "não informado",
+    "local": "não informado",
+    "isencao": "não informado",
+    "observacao": "Certame anunciado, sem edital publicado."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "não informado",
+  "status": "previsto",
+  "regime": "clt",
+  "validade": "não informado",
+  "links": {
+    "edital": "não informado",
+    "pagina_oficial": "https://www.banestes.com.br/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Concursos ES: editais previstos para 2026 (tabela de concursos previstos/aguardados)",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concursos-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-22",
+      "status": "previsto",
+      "observacao": "Primeiro registro no repositório. Certame anunciado, sem autorização formal confirmada."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "Certame ANUNCIADO para cargos de níveis médio e técnico, com remunerações de R$ 4.141,50 e R$ 5.363,81 — valores atrativos para o nível de escolaridade exigido. Cargos específicos, número de vagas, banca e cronograma não divulgados. O regime foi registrado como 'clt' porque o Banestes é sociedade de economia mista, mas isso NÃO foi confirmado pela fonte para este certame. ACOMPANHAR: banestes.com.br."
+}

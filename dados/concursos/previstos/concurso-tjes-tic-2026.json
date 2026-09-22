@@ -1,0 +1,73 @@
+{
+  "id": "concurso-tjes-tic-2026",
+  "orgao": "Tribunal de Justiça do Estado do Espírito Santo",
+  "orgao_sigla": "TJES",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Cargos da área de Tecnologia da Informação e Comunicação (TIC)",
+      "area": "Tecnologia da informação",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "A partir de R$ 5.618,75; teto não confirmado (ver observacoes)",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": null,
+  "cadastro_reserva": null,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 5618.75,
+    "maxima": null,
+    "descricao": "A partir de R$ 5.618,75. O teto informado pela fonte está com erro tipográfico evidente e não foi adotado — ver observacoes."
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "não informado",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": null,
+    "taxa": "não informado",
+    "local": "não informado",
+    "isencao": "não informado",
+    "observacao": "Certame sem edital publicado. Autorização descrita pela fonte como esperada 'em breve'."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "não informado",
+  "status": "previsto",
+  "regime": "estatutario",
+  "validade": "não informado",
+  "links": {
+    "edital": "não informado",
+    "pagina_oficial": "https://www.tjes.jus.br/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Concursos ES: editais previstos para 2026 (tabela de concursos previstos/aguardados)",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concursos-es/",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-22",
+      "status": "previsto",
+      "observacao": "Primeiro registro no repositório. Autorização do certame descrita como esperada em breve."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "ERRO NA FONTE: a tabela consultada informa a faixa 'R$ 5.618,75 a R$ 11.5178,01'. O segundo valor é tipograficamente inválido (dígitos a mais) e provavelmente deveria ser R$ 11.517,80 ou R$ 15.178,01 — como não é possível determinar qual, remuneracao.maxima foi deixado em null em vez de registrar um número incorreto. PENDÊNCIA: confirmar a tabela remuneratória dos cargos de TIC do TJES em fonte oficial. Certame previsto para a área de Tecnologia da Informação, com autorização aguardada; cargos específicos e número de vagas não divulgados. ACOMPANHAR: tjes.jus.br."
+}

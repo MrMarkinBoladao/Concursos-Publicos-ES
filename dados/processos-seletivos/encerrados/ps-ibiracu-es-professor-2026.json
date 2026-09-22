@@ -1,0 +1,89 @@
+{
+  "id": "ps-ibiracu-es-professor-2026",
+  "orgao": "Prefeitura Municipal de Ibiraçu",
+  "orgao_sigla": "não informado",
+  "esfera": "municipal",
+  "municipio": "Ibiraçu",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Professor e Professor Pedagogo (escolas de tempo integral)",
+      "area": "Educação",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 5.857,00 para jornada de 40 horas semanais",
+      "jornada": "40 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 1,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": null,
+    "maxima": 5857.0,
+    "descricao": "R$ 5.857,00 para jornada de 40 horas semanais"
+  },
+  "beneficios": [],
+  "jornada": "40 horas semanais",
+  "edital_numero": "não informado",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": "2026-09-11",
+    "fim": "2026-09-21",
+    "taxa": "não informado",
+    "local": "https://educacao.ibiracu.sisp.com.br",
+    "isencao": "não informado",
+    "observacao": "Inscrições de 11 a 21 de setembro de 2026, até às 18h."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "não informado",
+  "links": {
+    "edital": "https://educacao.ibiracu.sisp.com.br",
+    "pagina_oficial": "https://www.ibiracu.es.gov.br/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "A Tribuna Online - Doze novos concursos com 451 vagas no ES",
+      "url": "https://tribunaonline.com.br/concursos/doze-novos-concursos-com-451-vagas-no-es-330678",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "A Gazeta - ES tem 10 seleções e concursos abertos com salário de mais de R$ 6 mil",
+      "url": "https://www.agazeta.com.br/concursos/es-tem-10-selecoes-e-concursos-abertos-com-salario-de-mais-de-r-6-mil-0926",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-22"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-11",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições para atuação em escolas de tempo integral da rede municipal."
+    },
+    {
+      "data": "2026-09-21",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 18h."
+    },
+    {
+      "data": "2026-09-22",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, já encerrado, para fins de histórico."
+    }
+  ],
+  "ultima_verificacao": "2026-09-22",
+  "ultima_atualizacao": "2026-09-22",
+  "observacoes": "Encerrado em 21/09/2026, um dia antes desta verificação — registrado para histórico e para permitir alerta antecipado em edições futuras da seleção. Número do edital, etapas e banca não localizados nas fontes consultadas."
+}
