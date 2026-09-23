@@ -42,6 +42,34 @@ ainda não está no repositório"**, sem se passar por dado conferido.
 | `selecao-es` | `oficial` | Processos seletivos estaduais, com datas de inscrição reais. Endpoint JSON `POST /processos-seletivos/busca` do portal Seleção ES |
 | `concursosnobrasil-es` | `portal_concursos` | Órgão e vagas de certames do ES, inclusive municipais que não passam pelo Seleção ES. Serve para **descobrir**, não para confirmar |
 
+## Cobertura medida
+
+Cobertura aferida comparando os achados com os registros que têm inscrições abertas
+em `dados/` — ou seja, quanto da curadoria humana a coleta consegue reencontrar
+sozinha:
+
+| Recorte | Cobertura |
+| ------- | --------- |
+| Processos seletivos estaduais | 3/3 |
+| Concursos federais (conselhos) | 2/2 |
+| Concursos municipais | 2/2 |
+| **Processos seletivos municipais** | **1/3** |
+
+O ponto fraco é conhecido e tem causa estrutural: o Seleção ES cobre **apenas o
+Estado**, então processos seletivos de prefeitura dependem só do portal de terceiros.
+Nos dois casos não detectados:
+
+- **Castelo** simplesmente não é listado pelo portal.
+- **Vitória** aparece em **uma linha** do portal, que agrega três editais distintos
+  (021, 022 e 007/008). Um item de origem não consegue casar com três registros —
+  não é falha de casamento, é granularidade da fonte.
+
+Não existe fonte única e estruturada para os municípios do ES: cada prefeitura
+publica por conta própria. O caminho natural seria minerar o Diário Oficial dos
+Municípios (`ioes.dio.es.gov.br`), que tem busca sobre um backend Elasticsearch —
+mas devolve texto corrido de publicação, não campos, e exigiria extração pesada com
+alto risco de ruído. Ficou fora de escopo deliberadamente.
+
 ## Janela de relevância
 
 O Seleção ES devolve o acervo inteiro desde 2015 (mais de 250 processos). A coleta
@@ -67,3 +95,14 @@ python3 ferramentas/coletar.py --janela-dias 365  # amplia a janela
 
 Uma fonte fora do ar **não interrompe** a execução: o erro fica registrado em
 `fontes_consultadas` e a coleta segue com as demais.
+
+## Detecção de coletor quebrado
+
+O risco mais traiçoeiro numa coleta é o silencioso: o site muda de layout, a extração
+passa a devolver **zero itens sem erro nenhum**, e o monitoramento segue "verde"
+enquanto para de descobrir. Foi assim que a API pública que inspirou este coletor
+morreu sem ninguém notar.
+
+Por isso, quando uma fonte responde sem erro mas devolve zero itens **tendo trazido
+itens na coleta anterior**, ela é marcada com `suspeita_extracao_vazia`, emite aviso
+na execução do Actions e vira aviso do `validar.py`.

@@ -460,6 +460,13 @@ def valida_descobertas(rel):
                 "fonte %s falhou na ultima coleta: %s"
                 % (fonte.get("id"), fonte.get("erro")),
             )
+        elif fonte.get("suspeita_extracao_vazia"):
+            rel.aviso(
+                rotulo,
+                "fonte %s respondeu sem erro mas nao devolveu nenhum item; "
+                "possivel mudanca de layout — conferir ferramentas/coletar.py"
+                % fonte.get("id"),
+            )
 
     return len(achados)
 

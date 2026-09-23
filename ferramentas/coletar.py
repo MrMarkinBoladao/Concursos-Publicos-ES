@@ -580,21 +580,35 @@ def main() -> int:
     achados = []
     houve_sucesso = False
 
+    # Quantos achados cada fonte trouxe na ultima coleta. Serve para detectar
+    # parser quebrado: a fonte responde 200, o codigo nao levanta erro, mas o
+    # HTML mudou e a extracao passa a devolver zero.
+    contagem_anterior = {}
+    for previo in anterior.values():
+        fid = previo.get("fonte_id")
+        contagem_anterior[fid] = contagem_anterior.get(fid, 0) + 1
+
     for fonte_id in escolhidas:
         meta = catalogo.get(fonte_id, {})
         try:
             brutos = FONTES[fonte_id]()
             houve_sucesso = True
             achados.extend(brutos)
-            relatorio_fontes.append(
-                {
-                    "id": fonte_id,
-                    "nome": meta.get("nome", fonte_id),
-                    "tipo": meta.get("tipo", comum.AUSENTE),
-                    "status": "ok",
-                    "achados": len(brutos),
-                }
-            )
+            registro_fonte = {
+                "id": fonte_id,
+                "nome": meta.get("nome", fonte_id),
+                "tipo": meta.get("tipo", comum.AUSENTE),
+                "status": "ok",
+                "achados": len(brutos),
+            }
+            if not brutos and contagem_anterior.get(fonte_id):
+                registro_fonte["suspeita_extracao_vazia"] = True
+                print(
+                    "::warning::fonte %s respondeu sem erro mas devolveu 0 itens "
+                    "(antes tinha %d). Possivel mudanca de layout: conferir o "
+                    "coletor." % (fonte_id, contagem_anterior[fonte_id])
+                )
+            relatorio_fontes.append(registro_fonte)
             print("  %-22s ok: %d achados" % (fonte_id, len(brutos)))
         except (urllib.error.URLError, OSError, ValueError, RuntimeError) as erro:
             relatorio_fontes.append(
@@ -612,6 +626,9 @@ def main() -> int:
 
     if not houve_sucesso:
         print("ERRO: nenhuma fonte respondeu.", file=sys.stderr)
+        # Anotacao visivel no resumo da execucao do GitHub Actions, para que uma
+        # coleta que parou de funcionar nao passe despercebida.
+        print("::error::nenhuma fonte respondeu nesta coleta")
         if args.exigir_fonte:
             return 1
 
@@ -620,7 +637,18 @@ def main() -> int:
     finais = []
     vistos = set()
     descartados_antigos = 0
+    descartados_invalidos = 0
     for achado in achados:
+        # Um achado sem chave nao pode ser comparado entre execucoes. Descartar
+        # com aviso e melhor que derrubar a coleta inteira: se um dia o parser
+        # de uma fonte produzir lixo, as demais fontes seguem funcionando.
+        if not isinstance(achado, dict) or not achado.get("chave"):
+            descartados_invalidos += 1
+            print(
+                "::warning::achado invalido descartado (sem chave) da fonte %s"
+                % (achado.get("fonte_id") if isinstance(achado, dict) else "?")
+            )
+            continue
         chave = achado["chave"]
         if chave in vistos:
             continue
@@ -631,7 +659,7 @@ def main() -> int:
             descartados_antigos += 1
             continue
 
-        meta = catalogo.get(achado["fonte_id"], {})
+        meta = catalogo.get(achado.get("fonte_id"), {})
         achado["fonte_tipo"] = meta.get("tipo", comum.AUSENTE)
         achado["uf"] = "ES"
         achado["status_estimado"] = status_estimado(achado, referencia)
@@ -699,6 +727,8 @@ def main() -> int:
             "Fora da janela de %d dias (descartados): %d"
             % (args.janela_dias, descartados_antigos)
         )
+    if descartados_invalidos:
+        print("Achados invalidos descartados: %d" % descartados_invalidos)
     for achado in novos:
         print(
             "  NOVO [%s] %s — %s"
