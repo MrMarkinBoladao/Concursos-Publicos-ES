@@ -13,7 +13,9 @@ Uso:
 from __future__ import annotations
 
 import argparse
+import datetime as dt
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -24,10 +26,29 @@ INICIO = "<!-- INICIO:TABELAS -->"
 FIM = "<!-- FIM:TABELAS -->"
 CAMINHO_README = os.path.join(comum.RAIZ, "README.md")
 
+# Usado por --check para reconstruir o bloco com a MESMA data de referencia que
+# gerou o README atual. Sem isso, o --check falharia todo dia seguinte apenas
+# porque o relogio avancou, mesmo sem nenhuma mudanca em dados/.
+PADRAO_REFERENCIA = re.compile(
+    r"\|\s*Última verificação das fontes\s*\|\s*\*\*(\d{2})/(\d{2})/(\d{4})\*\*\s*\|"
+)
+
 AVISO_GERADO = (
     "<!-- Bloco gerado automaticamente por ferramentas/gerar_readme.py. "
     "Nao edite a mao: as alteracoes serao sobrescritas. -->"
 )
+
+
+def referencia_registrada(texto_readme):
+    """Data de referencia gravada no README atual, ou None se ausente/invalida."""
+    achado = PADRAO_REFERENCIA.search(texto_readme)
+    if not achado:
+        return None
+    dia, mes, ano = (int(p) for p in achado.groups())
+    try:
+        return dt.date(ano, mes, dia)
+    except ValueError:
+        return None
 
 
 def _celula(texto) -> str:
@@ -241,13 +262,13 @@ def main() -> int:
     parser.add_argument(
         "--check",
         action="store_true",
-        help="nao escreve; retorna 1 se o README estiver desatualizado",
+        help=(
+            "nao escreve; retorna 1 se o README estiver dessincronizado dos dados. "
+            "Reaproveita a data de referencia gravada no proprio README, para nao "
+            "falhar apenas porque o dia mudou"
+        ),
     )
     args = parser.parse_args()
-
-    referencia = comum.hoje()
-    registros = comum.carregar_registros()
-    bloco = monta_bloco(registros, referencia)
 
     if not os.path.exists(CAMINHO_README):
         print("ERRO: README.md nao encontrado em %s" % CAMINHO_README, file=sys.stderr)
@@ -263,15 +284,33 @@ def main() -> int:
         )
         return 1
 
+    # Em --check a comparacao precisa ser estavel no tempo: o bloco embute a data
+    # do dia e contagens "encerra em N dias", entao gerar com hoje() acusaria
+    # diferenca todo dia seguinte. Comparamos com a data que gerou o README.
+    if args.check:
+        referencia = referencia_registrada(atual) or comum.hoje()
+    else:
+        referencia = comum.hoje()
+
+    registros = comum.carregar_registros()
+    bloco = monta_bloco(registros, referencia)
+
     antes = atual.split(INICIO)[0]
     depois = atual.split(FIM)[1]
     novo = antes + bloco + depois
 
     if args.check:
         if novo != atual:
-            print("README.md esta desatualizado. Rode: python3 ferramentas/gerar_readme.py")
+            print(
+                "README.md esta dessincronizado dos dados (referencia %s). "
+                "Rode: python3 ferramentas/gerar_readme.py"
+                % referencia.strftime("%d/%m/%Y")
+            )
             return 1
-        print("README.md esta atualizado.")
+        print(
+            "README.md esta sincronizado com os dados (referencia %s)."
+            % referencia.strftime("%d/%m/%Y")
+        )
         return 0
 
     if novo == atual:
