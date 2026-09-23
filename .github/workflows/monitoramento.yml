@@ -56,15 +56,27 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      issues: write
     outputs:
       tem_novidade: ${{ steps.email.outputs.tem_novidade }}
       arquivo_email: ${{ steps.email.outputs.arquivo }}
+      novos_achados: ${{ steps.coleta.outputs.novos }}
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
+      # Coleta antes de gerar o README, para que as descobertas do dia entrem
+      # na secao "Detectado automaticamente". Uma fonte fora do ar nao derruba
+      # o passo: coletar.py registra o erro e segue com as demais.
+      - name: Coletar fontes automaticas
+        id: coleta
+        run: |
+          python3 ferramentas/coletar.py \
+            --saida-github "$GITHUB_OUTPUT" \
+            --relatorio-md "$RUNNER_TEMP/novos-achados.md"
 
       - name: Regenerar tabelas do README
         run: python3 ferramentas/gerar_readme.py
@@ -101,7 +113,7 @@ jobs:
           # Estaciona PRIMEIRO e só depois verifica se há algo a commitar. O
           # inverso (git diff --quiet antes do add) ignora arquivos novos ainda
           # nao rastreados, como email/<data>-resumo.md e relatorios/diarios/*.
-          git add -A README.md email/ relatorios/ dados/ historico/
+          git add -A README.md email/ relatorios/ dados/ historico/ descobertas/
           if git diff --cached --quiet; then
             echo "Nenhuma alteracao a commitar."
             exit 0
@@ -118,6 +130,37 @@ jobs:
           done
           echo "::error::nao foi possivel enviar o commit para o main"
           exit 1
+
+      # Notificacao sem intervencao: quando a coleta acha algo que nao esta em
+      # dados/, abre uma issue com a lista. Roda depois do commit para que os
+      # links do relatorio ja existam no repositorio.
+      - name: Abrir issue com os achados novos
+        if: steps.coleta.outputs.novos != '0' && steps.coleta.outputs.novos != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CORPO: ${{ runner.temp }}/novos-achados.md
+        run: |
+          # Garante o label antes de usa-lo. Se ja existe, a API responde 422 e
+          # o '|| true' mantem o passo seguindo.
+          gh api "repos/${GITHUB_REPOSITORY}/labels" \
+            -f name="coleta-automatica" \
+            -f color="1d76db" \
+            -f description="Achados da coleta automatica pendentes de conferencia" \
+            >/dev/null 2>&1 || true
+
+          titulo="Coleta automatica: ${{ steps.coleta.outputs.novos }} nova(s) oportunidade(s) do ES — $(date -u +%Y-%m-%d)"
+          if url=$(gh api "repos/${GITHUB_REPOSITORY}/issues" \
+                     -f title="$titulo" \
+                     -F body=@"$CORPO" \
+                     -f "labels[]=coleta-automatica" \
+                     --jq '.html_url'); then
+            echo "Issue aberta: $url"
+            echo "### Achados novos: [$titulo]($url)" >> "$GITHUB_STEP_SUMMARY"
+          else
+            # A atualizacao de dados ja foi commitada com sucesso; nao faz
+            # sentido reprovar a execucao por causa da notificacao.
+            echo "::warning::nao foi possivel abrir a issue (issues desabilitadas ou sem permissao). Os achados estao em descobertas/descobertas.json"
+          fi
 
   enviar_email:
     name: Enviar resumo por e-mail

@@ -35,7 +35,8 @@
       "tipo": "oficial",
       "esfera": "estadual",
       "prioridade": 1,
-      "observacao": "Portal unico dos processos seletivos do Estado (SEDU, SESA e demais orgaos)."
+      "coletada_automaticamente": true,
+      "observacao": "Portal unico dos processos seletivos do Estado (SEDU, SESA e demais orgaos). Lido por ferramentas/coletar.py via POST /processos-seletivos/busca, que devolve o acervo completo em JSON."
     },
     {
       "id": "sedu-es",
@@ -270,6 +271,15 @@
       "url": "https://www.pciconcursos.com.br/concursos/es/",
       "tipo": "portal_concursos",
       "prioridade": 3
+    },
+    {
+      "id": "concursosnobrasil-es",
+      "nome": "Concursos no Brasil - Espirito Santo",
+      "url": "https://concursosnobrasil.com/concursos/es",
+      "tipo": "portal_concursos",
+      "prioridade": 3,
+      "coletada_automaticamente": true,
+      "observacao": "Lida por ferramentas/coletar.py. Serve para descobrir certames municipais que nao passam pelo Selecao ES. Itens nacionais sao descartados pelo padrao do link."
     },
     {
       "id": "qconcursos",

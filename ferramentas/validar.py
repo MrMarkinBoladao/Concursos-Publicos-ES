@@ -358,6 +358,112 @@ def valida_duplicidade(rel, registros):
             )
 
 
+CAMINHO_DESCOBERTAS = os.path.join(comum.RAIZ, "descobertas", "descobertas.json")
+
+CAMPOS_DESCOBERTA = [
+    "chave",
+    "fonte_id",
+    "orgao",
+    "titulo",
+    "url",
+    "primeira_deteccao",
+    "ultima_deteccao",
+    "no_repositorio",
+]
+
+
+def valida_descobertas(rel):
+    """Confere a saida de ferramentas/coletar.py.
+
+    A coleta grava sem revisao humana, entao o pipeline precisa reprovar se ela
+    produzir lixo: chave repetida, campo faltando, data invalida, tipo de fonte
+    fora do vocabulario ou referencia a um registro de dados/ inexistente.
+    O arquivo e opcional — a coleta pode nunca ter rodado.
+    """
+    if not os.path.exists(CAMINHO_DESCOBERTAS):
+        return 0
+
+    rotulo = os.path.relpath(CAMINHO_DESCOBERTAS, comum.RAIZ)
+    try:
+        with open(CAMINHO_DESCOBERTAS, encoding="utf-8") as fh:
+            dados = json.load(fh)
+    except ValueError as exc:
+        rel.erro(rotulo, "JSON invalido: %s" % exc)
+        return 0
+
+    if not isinstance(dados, dict):
+        rel.erro(rotulo, "raiz deve ser um objeto")
+        return 0
+
+    _valida_data(rel, rotulo, "gerado_em", dados.get("gerado_em"), obrigatorio=True)
+
+    achados = dados.get("achados")
+    if not isinstance(achados, list):
+        rel.erro(rotulo, "campo 'achados' ausente ou nao e lista")
+        return 0
+
+    ids_validos = {reg.get("id") for _, reg in comum.carregar_registros()}
+    vistas = set()
+
+    for achado in achados:
+        if not isinstance(achado, dict):
+            rel.erro(rotulo, "achado que nao e objeto: %r" % (achado,))
+            continue
+
+        chave = achado.get("chave")
+        alvo = "%s[%s]" % (rotulo, chave or "sem-chave")
+
+        for campo in CAMPOS_DESCOBERTA:
+            if campo not in achado:
+                rel.erro(alvo, "campo obrigatorio ausente: '%s'" % campo)
+
+        if chave:
+            if chave in vistas:
+                rel.erro(alvo, "chave repetida entre achados")
+            vistas.add(chave)
+
+        for rotulo_data in ("primeira_deteccao", "ultima_deteccao"):
+            _valida_data(rel, alvo, rotulo_data, achado.get(rotulo_data))
+        inscricoes = achado.get("inscricoes") or {}
+        _valida_data(rel, alvo, "inscricoes.inicio", inscricoes.get("inicio"))
+        _valida_data(rel, alvo, "inscricoes.fim", inscricoes.get("fim"))
+
+        tipo_fonte = achado.get("fonte_tipo")
+        if tipo_fonte and tipo_fonte != comum.AUSENTE:
+            if tipo_fonte not in comum.TIPOS_FONTE_VALIDOS:
+                rel.erro(alvo, "fonte_tipo invalido: %r" % tipo_fonte)
+
+        estimado = achado.get("status_estimado")
+        if estimado and estimado not in comum.STATUS_VALIDOS:
+            rel.erro(alvo, "status_estimado fora do vocabulario: %r" % estimado)
+
+        url = achado.get("url") or ""
+        if url and not url.startswith(("http://", "https://")):
+            rel.erro(alvo, "url deve ser absoluta: %r" % url)
+
+        registro = achado.get("registro_repositorio")
+        if achado.get("no_repositorio"):
+            if not registro:
+                rel.erro(alvo, "no_repositorio=true sem registro_repositorio")
+            elif registro not in ids_validos:
+                rel.erro(
+                    alvo,
+                    "registro_repositorio aponta para id inexistente: %r" % registro,
+                )
+        elif registro:
+            rel.erro(alvo, "registro_repositorio preenchido com no_repositorio=false")
+
+    for fonte in dados.get("fontes_consultadas") or []:
+        if fonte.get("status") == "erro":
+            rel.aviso(
+                rotulo,
+                "fonte %s falhou na ultima coleta: %s"
+                % (fonte.get("id"), fonte.get("erro")),
+            )
+
+    return len(achados)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Valida os dados de concursos do ES.")
     parser.add_argument("--json", action="store_true", help="saida em JSON")
@@ -385,12 +491,14 @@ def main() -> int:
         valida_coerencia_vagas(rel, arquivo, reg)
 
     valida_duplicidade(rel, registros)
+    total_descobertas = valida_descobertas(rel)
 
     if args.json:
         print(
             json.dumps(
                 {
                     "registros": len(registros),
+                    "descobertas": total_descobertas,
                     "erros": rel.erros,
                     "avisos": rel.avisos,
                 },
@@ -400,6 +508,7 @@ def main() -> int:
         )
     else:
         print("Registros analisados: %d" % len(registros))
+        print("Descobertas analisadas: %d" % total_descobertas)
         print("Erros: %d | Avisos: %d" % (len(rel.erros), len(rel.avisos)))
         if rel.erros:
             print("\n--- ERROS (reprovam a validacao) ---")

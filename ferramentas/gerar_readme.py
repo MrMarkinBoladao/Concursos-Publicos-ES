@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import json
 import os
 import re
 import sys
@@ -25,6 +26,10 @@ import comum  # noqa: E402
 INICIO = "<!-- INICIO:TABELAS -->"
 FIM = "<!-- FIM:TABELAS -->"
 CAMINHO_README = os.path.join(comum.RAIZ, "README.md")
+CAMINHO_DESCOBERTAS = os.path.join(comum.RAIZ, "descobertas", "descobertas.json")
+
+# Quantas descobertas pendentes listar no README antes de resumir o excedente.
+LIMITE_DESCOBERTAS = 25
 
 # Usado por --check para reconstruir o bloco com a MESMA data de referencia que
 # gerou o README atual. Sem isso, o --check falharia todo dia seguinte apenas
@@ -178,6 +183,81 @@ def tabela_historico(encerrados):
     return "\n".join(linhas)
 
 
+def carregar_descobertas():
+    """Achados pendentes da coleta automatica. Lista vazia se nao houver arquivo.
+
+    Nunca falha: a coleta e opcional e o README precisa ser gerado mesmo quando
+    descobertas/ ainda nao existe.
+    """
+    try:
+        with open(CAMINHO_DESCOBERTAS, encoding="utf-8") as fh:
+            dados = json.load(fh)
+    except (OSError, ValueError):
+        return []
+    return [
+        a
+        for a in dados.get("achados", [])
+        if not a.get("no_repositorio") and not a.get("ausente_na_fonte")
+    ]
+
+
+ROTULOS_STATUS_ESTIMADO = {
+    "inscricoes_abertas": "Inscrições abertas",
+    "edital_publicado": "Inscrições não iniciadas",
+    "inscricoes_encerradas": "Inscrições encerradas",
+    "previsto": "Previsto",
+    "autorizado": "Autorizado",
+}
+
+
+def tabela_descobertas(achados):
+    """Achados da coleta automatica ainda sem registro curado em dados/."""
+    if not achados:
+        return (
+            "_Nenhuma pendência: tudo que as fontes automáticas listam já tem "
+            "registro em `dados/`._"
+        )
+
+    ordenados = sorted(
+        achados,
+        key=lambda a: (
+            (a.get("inscricoes") or {}).get("fim") or "",
+            a.get("primeira_deteccao") or "",
+        ),
+        reverse=True,
+    )
+    linhas = [
+        "| Órgão | Oportunidade | Situação na fonte | Inscrições até | Fonte |",
+        "| ----- | ------------ | ----------------- | -------------- | ----- |",
+    ]
+    for achado in ordenados[:LIMITE_DESCOBERTAS]:
+        sigla = achado.get("orgao_sigla")
+        orgao = sigla if sigla and sigla != comum.AUSENTE else achado.get("orgao")
+        situacao = ROTULOS_STATUS_ESTIMADO.get(
+            achado.get("status_estimado"), comum.AUSENTE
+        )
+        linhas.append(
+            "| %s | %s | %s | %s | %s |"
+            % (
+                _celula(orgao),
+                comum.md_link(
+                    _celula(achado.get("titulo")), achado.get("url") or ""
+                )
+                or _celula(achado.get("titulo")),
+                situacao,
+                comum.br_data((achado.get("inscricoes") or {}).get("fim")),
+                _celula(achado.get("fonte_tipo")),
+            )
+        )
+    if len(ordenados) > LIMITE_DESCOBERTAS:
+        linhas.append("")
+        linhas.append(
+            "_E mais %d achado(s). Lista completa em `descobertas/descobertas.json`._"
+            % (len(ordenados) - LIMITE_DESCOBERTAS)
+        )
+    return "\n".join(linhas)
+
+
 def _chave_prazo(reg):
     """Ordena por prazo de inscricao, jogando os sem prazo para o fim."""
     fim = comum.data_ou_none(reg.get("inscricoes", {}).get("fim"))
@@ -215,6 +295,7 @@ def monta_bloco(registros, referencia):
         r.get("vagas_imediatas_total") or 0
         for r in concursos_abertos + seletivos_abertos
     )
+    descobertas = carregar_descobertas()
 
     partes = [
         INICIO,
@@ -230,6 +311,7 @@ def monta_bloco(registros, referencia):
         "| Vagas imediatas em aberto | %d |" % total_vagas,
         "| Concursos previstos / autorizados | %d |" % len(proximos),
         "| Registros históricos (encerrados ou em andamento) | %d |" % len(encerrados),
+        "| Descobertas automáticas pendentes de conferência | %d |" % len(descobertas),
         "",
         "## Concursos com inscrições abertas",
         "",
@@ -249,6 +331,15 @@ def monta_bloco(registros, referencia):
         "encerradas pode seguir em andamento nas etapas seguintes.",
         "",
         tabela_historico(encerrados),
+        "",
+        "## Detectado automaticamente — ainda não conferido",
+        "",
+        "> **Atenção:** esta seção é saída bruta de `ferramentas/coletar.py`. Os itens",
+        "> abaixo foram vistos nas fontes mas **não passaram por conferência do edital**",
+        "> e por isso não estão nas tabelas acima. Trate como pista, não como dado.",
+        "> Detalhes em [`descobertas/`](descobertas/).",
+        "",
+        tabela_descobertas(descobertas),
         "",
         "_Dados atualizados em %s. Os valores são um resumo: consulte sempre o edital"
         " oficial antes de se inscrever._" % referencia.strftime("%d/%m/%Y"),
