@@ -20,12 +20,13 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **22/09/2026** |
+| Última verificação das fontes | **23/09/2026** |
 | Oportunidades monitoradas | 37 |
 | Com inscrições abertas | 10 |
 | Vagas imediatas em aberto | 432 |
 | Concursos previstos / autorizados | 16 |
 | Registros históricos (encerrados ou em andamento) | 11 |
+| Descobertas automáticas pendentes de conferência | 9 |
 
 ## Concursos com inscrições abertas
 
@@ -61,12 +62,12 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Inscrições até | Fonte |
 | ----- | ----- | ----: | -------------- | ----- |
-| PMC/SEME | Professor; Pedagogo e mais 4 cargos | CR | 24/09/2026 **(encerra em 2 dias)** | [fonte](https://educacao.castelo.es.gov.br/processos-seletivos) |
-| PMV/SEGES | Professor de Educação Básica (diversas áreas) | 310 + CR | 27/09/2026 (encerra em 5 dias) | [fonte](https://integrado.selecao.net.br/informacoes/255/) |
-| PMV/SEGES | Professor de Educação Básica Especial - Bilíngue (Libras); Professor de Educação Básica Especial - Deficiência Visual | 25 + CR | 27/09/2026 (encerra em 5 dias) | [fonte](https://integrado.selecao.net.br/informacoes/256/) |
-| SEDU | CASF - Coordenador de Atendimento e Suporte às Famílias | não informado | 30/09/2026 | [fonte](https://selecao.es.gov.br/) |
-| SEDU | Coordenador Pedagógico | não informado | 30/09/2026 | [fonte](https://selecao.es.gov.br/) |
-| SEDU | Diretor Escolar | não informado | 30/09/2026 | [fonte](https://selecao.es.gov.br/) |
+| PMC/SEME | Professor; Pedagogo e mais 4 cargos | CR | 24/09/2026 **(encerra em 1 dia)** | [fonte](https://educacao.castelo.es.gov.br/processos-seletivos) |
+| PMV/SEGES | Professor de Educação Básica (diversas áreas) | 310 + CR | 27/09/2026 (encerra em 4 dias) | [fonte](https://integrado.selecao.net.br/informacoes/255/) |
+| PMV/SEGES | Professor de Educação Básica Especial - Bilíngue (Libras); Professor de Educação Básica Especial - Deficiência Visual | 25 + CR | 27/09/2026 (encerra em 4 dias) | [fonte](https://integrado.selecao.net.br/informacoes/256/) |
+| SEDU | CASF - Coordenador de Atendimento e Suporte às Famílias | não informado | 30/09/2026 (encerra em 7 dias) | [fonte](https://selecao.es.gov.br/) |
+| SEDU | Coordenador Pedagógico | não informado | 30/09/2026 (encerra em 7 dias) | [fonte](https://selecao.es.gov.br/) |
+| SEDU | Diretor Escolar | não informado | 30/09/2026 (encerra em 7 dias) | [fonte](https://selecao.es.gov.br/) |
 
 ## Histórico (inscrições encerradas)
 
@@ -87,7 +88,26 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | MPES | Agente (diversas especialidades do quadro administrativo) | 60 + CR | Prova realizada | 09/04/2026 | [fonte](https://mpes.mp.br/noticias/2026/03/12/ministerio-publico-publica-edital-do-3o-concurso-publico-para-servidor-da-instituicao/) |
 | PCES | Oficial Investigador de Polícia | 1052 + CR | Prova realizada | 16/11/2025 | [fonte](https://pc.es.gov.br/concursos) |
 
-_Dados atualizados em 22/09/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+## Detectado automaticamente — ainda não conferido
+
+> **Atenção:** esta seção é saída bruta de `ferramentas/coletar.py`. Os itens
+> abaixo foram vistos nas fontes mas **não passaram por conferência do edital**
+> e por isso não estão nas tabelas acima. Trate como pista, não como dado.
+> Detalhes em [`descobertas/`](descobertas/).
+
+| Órgão | Oportunidade | Situação na fonte | Inscrições até | Fonte |
+| ----- | ------------ | ----------------- | -------------- | ----- |
+| SEDU | [SEDU - EDITAL 30/2026 - Professores Não Habilitados](https://selecao.es.gov.br/processo-seletivo/8e16fcd1-5849-4d79-a699-9a998286fc78/sedu-edital-302026-professores-nao-habilitados) | Inscrições encerradas | 02/09/2026 | oficial |
+| SEDU | [SEDU - EDITAL 29/2026 - Professores de Educação Profissional Técnica](https://selecao.es.gov.br/processo-seletivo/89ddd78b-d37d-49dc-831e-4dbb6b3c3033/sedu-edital-292026-professores-educacao-profissional-tecnica) | Inscrições encerradas | 26/08/2026 | oficial |
+| SEDU | [SEDU - EDITAL 28/2026 - Profissional de Apoio Escolar (Cuidador)](https://selecao.es.gov.br/processo-seletivo/0323e48a-a50e-4b55-9f94-b7cd807fc8fe/sedu-edital-282026-profissional-apoio-escolar-cuidador) | Inscrições encerradas | 21/08/2026 | oficial |
+| TJES | [PROCESSO SELETIVO SIMPLIFICADO/TJES Nº 01/2026](https://selecao.es.gov.br/processo-seletivo/6301e86a-9ec3-4462-b6fa-9e6e42c6a970/processo-seletivo-simplificadotjes-n-012026) | Inscrições encerradas | 16/08/2026 | oficial |
+| SEDU | [SEDU - EDITAL 24/2026 - Professores Habilitados](https://selecao.es.gov.br/processo-seletivo/c3c96fb9-7a5d-4748-8e58-7059ead9a6f3/sedu-edital-242026-professores-habilitados) | Inscrições encerradas | 12/08/2026 | oficial |
+| PMES | [DS/PMES EDITAL 002/2026 - Processo Seletivo para Contratação de Médico Psiquiatra DT](https://selecao.es.gov.br/processo-seletivo/31ecf819-cee1-4b39-92f9-8d2d4d94d517/dspmes-edital-0022026-processo-seletivo-contratacao-medico-psiquiatra-dt) | Inscrições encerradas | 16/07/2026 | oficial |
+| SESM | [SESM - PROCESSO SELETIVO - EDITAL nº 01/2026 - TECNICO DE NIVEL SUPERIOR.](https://selecao.es.gov.br/processo-seletivo/5db44a7f-5d7a-4d75-953d-b5880ed2dedf/sesm-processo-seletivo-edital-n-012026-tecnico-nivel-superior) | Inscrições encerradas | 04/07/2026 | oficial |
+| ARIES | [ARIES](https://concursosnobrasil.com/concursos/es/2026/02/03/aries-es-divulga-edital-de-processo-seletivo-com-salario-de-r-4-mil/) | não informado | não informado | portal_concursos |
+| Prefeitura de Santa Teresa | [Prefeitura de Santa Teresa](https://concursosnobrasil.com/concursos/es/2026/09/21/prefeitura-de-santa-teresa-es-divulga-editais-de-processo-seletivo/) | não informado | não informado | portal_concursos |
+
+_Dados atualizados em 23/09/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
@@ -112,9 +132,11 @@ _Dados atualizados em 22/09/2026. Os valores são um resumo: consulte sempre o e
 │   ├── semanais/
 │   └── mensais/
 ├── email/                        # resumos preparados para envio
+├── descobertas/                  # quarentena da coleta automática (não curado)
+│   └── descobertas.json          # achados das fontes, com data de detecção
 ├── fontes/
 │   └── fontes.json               # fontes monitoradas, com tipo e prioridade
-└── ferramentas/                  # validação e geração (Python 3, sem dependências)
+└── ferramentas/                  # coleta, validação e geração (Python 3, sem dependências)
 ```
 
 Cada oportunidade é **um arquivo JSON**, nomeado com seu identificador único e
@@ -141,6 +163,11 @@ formação). O campo `status` faz essa distinção.
 Python 3.9+ sem dependências externas.
 
 ```bash
+# Coleta as fontes automáticas e grava os achados em descobertas/
+python3 ferramentas/coletar.py
+python3 ferramentas/coletar.py --dry-run           # relata sem gravar
+python3 ferramentas/coletar.py --fonte selecao-es  # apenas uma fonte
+
 # Valida estrutura, vocabulários, coerência de datas, escopo (ES) e duplicidade
 python3 ferramentas/validar.py
 
@@ -162,6 +189,32 @@ O gerador de e-mail guarda uma impressão digital dos campos relevantes de cada
 oportunidade em `email/.estado-envios.json`. Reencontrar a mesma oportunidade sem
 alteração **não** gera novo alerta; mudança de prazo, de vagas, de banca ou de
 status gera.
+
+## Coleta automática
+
+O workflow em `.github/workflows/monitoramento.yml` roda duas vezes por dia e
+executa `ferramentas/coletar.py`, que consulta:
+
+| Fonte | Tipo | O que entrega |
+| ----- | ---- | ------------- |
+| Portal Seleção ES | `oficial` | Processos seletivos estaduais com datas de inscrição reais, via endpoint JSON do portal |
+| Concursos no Brasil (ES) | `portal_concursos` | Órgão e vagas de certames do ES, inclusive municipais que não passam pelo Seleção ES |
+
+**A coleta não escreve em `dados/`.** O [`ESQUEMA.md`](dados/ESQUEMA.md) proíbe
+inventar informação e exige cerca de 30 campos por registro — cargos, remuneração,
+jornada, requisitos, banca, validade. Nenhuma listagem fornece isso. Despejar o
+resultado da raspagem em `dados/` significaria preencher o resto com chute.
+
+Então os achados param em [`descobertas/`](descobertas/) e aparecem no README em
+seção própria, rotulada como não conferida. Quando a coleta encontra algo que ainda
+não tem registro, o workflow **abre uma issue automaticamente** com a lista.
+
+Promover um achado a registro curado é trabalho humano: abrir o edital na fonte
+oficial e preencher o registro conforme o esquema. A coleta então reconhece o
+achado e passa a marcá-lo como `no_repositorio`.
+
+Uma fonte fora do ar **não interrompe** a execução — o erro fica registrado em
+`fontes_consultadas` e vira aviso do validador.
 
 ## Rotina de atualização
 
