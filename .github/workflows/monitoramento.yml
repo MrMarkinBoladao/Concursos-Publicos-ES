@@ -98,13 +98,26 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet; then
+          # Estaciona PRIMEIRO e só depois verifica se há algo a commitar. O
+          # inverso (git diff --quiet antes do add) ignora arquivos novos ainda
+          # nao rastreados, como email/<data>-resumo.md e relatorios/diarios/*.
+          git add -A README.md email/ relatorios/ dados/ historico/
+          if git diff --cached --quiet; then
             echo "Nenhuma alteracao a commitar."
             exit 0
           fi
-          git add README.md email/ relatorios/ dados/ historico/
           git commit -m "update: atualiza resumo de concursos do ES ($(date -u +%Y-%m-%d))"
-          git push
+          # Corrida com outro push no main: rebaseia e tenta de novo.
+          for tentativa in 1 2 3; do
+            if git push; then
+              echo "Push concluido na tentativa $tentativa."
+              exit 0
+            fi
+            echo "Push falhou; sincronizando com origin/main e tentando novamente."
+            git pull --rebase --autostash origin main || exit 1
+          done
+          echo "::error::nao foi possivel enviar o commit para o main"
+          exit 1
 
   enviar_email:
     name: Enviar resumo por e-mail
