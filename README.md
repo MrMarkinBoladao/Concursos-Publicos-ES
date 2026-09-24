@@ -20,7 +20,7 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **23/09/2026** |
+| Última verificação das fontes | **24/09/2026** |
 | Oportunidades monitoradas | 37 |
 | Com inscrições abertas | 10 |
 | Vagas imediatas em aberto | 432 |
@@ -62,12 +62,12 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Inscrições até | Fonte |
 | ----- | ----- | ----: | -------------- | ----- |
-| PMC/SEME | Professor; Pedagogo e mais 4 cargos | CR | 24/09/2026 **(encerra em 1 dia)** | [fonte](https://educacao.castelo.es.gov.br/processos-seletivos) |
-| PMV/SEGES | Professor de Educação Básica (diversas áreas) | 310 + CR | 27/09/2026 (encerra em 4 dias) | [fonte](https://integrado.selecao.net.br/informacoes/255/) |
-| PMV/SEGES | Professor de Educação Básica Especial - Bilíngue (Libras); Professor de Educação Básica Especial - Deficiência Visual | 25 + CR | 27/09/2026 (encerra em 4 dias) | [fonte](https://integrado.selecao.net.br/informacoes/256/) |
-| SEDU | CASF - Coordenador de Atendimento e Suporte às Famílias | não informado | 30/09/2026 (encerra em 7 dias) | [fonte](https://selecao.es.gov.br/) |
-| SEDU | Coordenador Pedagógico | não informado | 30/09/2026 (encerra em 7 dias) | [fonte](https://selecao.es.gov.br/) |
-| SEDU | Diretor Escolar | não informado | 30/09/2026 (encerra em 7 dias) | [fonte](https://selecao.es.gov.br/) |
+| PMC/SEME | Professor; Pedagogo e mais 4 cargos | CR | 24/09/2026 **(encerra em 0 dias)** | [fonte](https://educacao.castelo.es.gov.br/processos-seletivos) |
+| PMV/SEGES | Professor de Educação Básica (diversas áreas) | 310 + CR | 27/09/2026 **(encerra em 3 dias)** | [fonte](https://integrado.selecao.net.br/informacoes/255/) |
+| PMV/SEGES | Professor de Educação Básica Especial - Bilíngue (Libras); Professor de Educação Básica Especial - Deficiência Visual | 25 + CR | 27/09/2026 **(encerra em 3 dias)** | [fonte](https://integrado.selecao.net.br/informacoes/256/) |
+| SEDU | CASF - Coordenador de Atendimento e Suporte às Famílias | não informado | 30/09/2026 (encerra em 6 dias) | [fonte](https://selecao.es.gov.br/) |
+| SEDU | Coordenador Pedagógico | não informado | 30/09/2026 (encerra em 6 dias) | [fonte](https://selecao.es.gov.br/) |
+| SEDU | Diretor Escolar | não informado | 30/09/2026 (encerra em 6 dias) | [fonte](https://selecao.es.gov.br/) |
 
 ## Histórico (inscrições encerradas)
 
@@ -107,7 +107,7 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | ARIES | [ARIES](https://concursosnobrasil.com/concursos/es/2026/02/03/aries-es-divulga-edital-de-processo-seletivo-com-salario-de-r-4-mil/) | não informado | não informado | portal_concursos |
 | Prefeitura de Santa Teresa | [Prefeitura de Santa Teresa](https://concursosnobrasil.com/concursos/es/2026/09/21/prefeitura-de-santa-teresa-es-divulga-editais-de-processo-seletivo/) | não informado | não informado | portal_concursos |
 
-_Dados atualizados em 23/09/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 24/09/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
