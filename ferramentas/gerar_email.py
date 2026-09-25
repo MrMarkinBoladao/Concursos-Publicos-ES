@@ -30,6 +30,7 @@ import comum  # noqa: E402
 
 DIR_EMAIL = os.path.join(comum.RAIZ, "email")
 CAMINHO_ESTADO = os.path.join(DIR_EMAIL, ".estado-envios.json")
+CAMINHO_DESCOBERTAS = os.path.join(comum.RAIZ, "descobertas", "descobertas.json")
 
 # Prazo, em dias, que caracteriza "encerrando em breve". Dez dias dao margem
 # para separar documentacao, pedir isencao de taxa e pagar o boleto.
@@ -61,28 +62,31 @@ def impressao_digital(reg) -> str:
 
 
 def carregar_estado():
+    """Devolve (impressoes dos registros, chaves de achados ja anunciados)."""
     if not os.path.exists(CAMINHO_ESTADO):
-        return {}
+        return {}, {}
     try:
         with open(CAMINHO_ESTADO, encoding="utf-8") as fh:
-            return json.load(fh).get("impressoes", {})
+            estado = json.load(fh)
     except (json.JSONDecodeError, OSError):
         # Estado corrompido: trata como primeira execucao em vez de falhar.
-        return {}
+        return {}, {}
+    return estado.get("impressoes", {}), estado.get("descobertas", {})
 
 
-def gravar_estado(impressoes, referencia):
+def gravar_estado(impressoes, descobertas, referencia):
     os.makedirs(DIR_EMAIL, exist_ok=True)
     with open(CAMINHO_ESTADO, "w", encoding="utf-8") as fh:
         json.dump(
             {
                 "descricao": (
-                    "Impressoes digitais das oportunidades no ultimo resumo enviado. "
-                    "Usado para nao reenviar informacao identica. Nao contem dados "
-                    "sensiveis nem credenciais."
+                    "Impressoes digitais das oportunidades e chaves dos achados da "
+                    "coleta no ultimo resumo enviado. Usado para nao reenviar "
+                    "informacao identica. Nao contem dados sensiveis nem credenciais."
                 ),
                 "ultima_geracao": referencia.isoformat(),
                 "impressoes": impressoes,
+                "descobertas": descobertas,
             },
             fh,
             ensure_ascii=False,
@@ -90,6 +94,80 @@ def gravar_estado(impressoes, referencia):
             sort_keys=True,
         )
         fh.write("\n")
+
+
+def carregar_descobertas():
+    """Achados da coleta automatica. Lista vazia se o arquivo nao existir."""
+    if not os.path.exists(CAMINHO_DESCOBERTAS):
+        return []
+    try:
+        with open(CAMINHO_DESCOBERTAS, encoding="utf-8") as fh:
+            return json.load(fh).get("achados") or []
+    except (json.JSONDecodeError, OSError):
+        return []
+
+
+def classificar_descobertas(achados, referencia, conhecidas, forcar):
+    """Separa os achados ainda nao anunciados por e-mail.
+
+    Entra no resumo o achado que (a) ainda nao tem registro curado em dados/,
+    (b) nunca foi anunciado e (c) foi detectado pela primeira vez na janela de
+    novidade. Todos os pendentes entram no estado, para que um achado antigo nao
+    seja anunciado como novidade em execucoes futuras.
+    """
+    novos = []
+    estado = {}
+    for achado in achados:
+        if achado.get("no_repositorio"):
+            # Ja existe registro curado: o alerta sai pelo registro, nao aqui.
+            continue
+        chave = achado.get("chave")
+        if not chave:
+            continue
+        deteccao = comum.data_ou_none(achado.get("primeira_deteccao"))
+        estado[chave] = achado.get("primeira_deteccao")
+        if chave in conhecidas and not forcar:
+            continue
+        if deteccao is not None and (referencia - deteccao).days > JANELA_NOVIDADE:
+            continue
+        # Oportunidade com prazo de inscricao vencido nao e "nova vaga": fica
+        # registrada em descobertas/ para historico, mas nao entra no e-mail.
+        fim = comum.data_ou_none((achado.get("inscricoes") or {}).get("fim"))
+        if fim is not None and fim < referencia:
+            continue
+        novos.append(achado)
+
+    novos.sort(key=lambda a: (a.get("primeira_deteccao") or "", a.get("orgao") or ""))
+    return novos, estado
+
+
+def _item_descoberta(achado):
+    """Formata um achado da coleta como item de lista do e-mail."""
+    rotulo = achado.get("orgao") or achado.get("titulo") or comum.AUSENTE
+    linhas = ["- **%s**" % rotulo]
+
+    titulo = achado.get("titulo")
+    if titulo and titulo != rotulo:
+        linhas.append("  - %s" % titulo)
+
+    detalhes = []
+    vagas = achado.get("vagas_informadas")
+    if vagas:
+        detalhes.append("Vagas informadas pela fonte: %s" % vagas)
+    fim = (achado.get("inscricoes") or {}).get("fim")
+    if fim:
+        detalhes.append("Inscrições até %s" % comum.br_data(fim))
+    situacao = achado.get("situacao_portal")
+    if situacao:
+        detalhes.append("Situação na fonte: %s" % situacao)
+    if detalhes:
+        linhas.append("  - " + " | ".join(detalhes))
+
+    linhas.append(
+        "  - Fonte (%s): %s"
+        % (achado.get("fonte_tipo") or comum.AUSENTE, achado.get("url") or comum.AUSENTE)
+    )
+    return "\n".join(linhas)
 
 
 def _item(reg, referencia, nota=None):
@@ -224,7 +302,8 @@ def classificar(registros, referencia, conhecidas, forcar):
     return secoes, impressoes, novidades
 
 
-def monta_email(secoes, referencia, total_registros):
+def monta_email(secoes, referencia, total_registros, achados=None):
+    achados = achados or []
     ordem = [
         ("encerrando", "1. Inscrições encerrando em breve (até %d dias)" % JANELA_URGENTE),
         ("abertos", "2. Concursos com inscrições abertas"),
@@ -237,9 +316,12 @@ def monta_email(secoes, referencia, total_registros):
     total = sum(len(secoes[chave]) for chave, _ in ordem)
     urgentes = len(secoes["encerrando"])
 
-    assunto = "Concursos ES %s — %d atualizações%s" % (
+    assunto = "Concursos ES %s — %d atualizações%s%s" % (
         referencia.strftime("%d/%m"),
         total,
+        (", %d achado%s novo%s" % (len(achados), "" if len(achados) == 1 else "s", "" if len(achados) == 1 else "s"))
+        if achados
+        else "",
         (", %d com prazo curto" % urgentes) if urgentes else "",
     )
 
@@ -268,6 +350,23 @@ def monta_email(secoes, referencia, total_registros):
                 partes.append(_item(reg, referencia, nota))
         partes.append("")
 
+    # A coleta automatica encontra oportunidades antes de existir registro curado.
+    # Vao para o fim do e-mail, com o aviso de que nao passaram por conferencia.
+    partes.append("## 7. Detectado automaticamente — ainda não conferido")
+    partes.append("")
+    if not achados:
+        partes.append("_Sem novidades nesta seção._")
+    else:
+        partes += [
+            "Oportunidades vistas nas fontes que **ainda não têm registro conferido**",
+            "no monitoramento. São pistas: o edital não foi lido, e cargos, vagas e",
+            "prazos podem estar incompletos ou errados. Confira na fonte antes de agir.",
+            "",
+        ]
+        for achado in achados:
+            partes.append(_item_descoberta(achado))
+    partes.append("")
+
     partes += [
         "---",
         "",
@@ -290,18 +389,23 @@ def main() -> int:
 
     referencia = comum.hoje()
     registros = comum.carregar_registros()
-    conhecidas = {} if args.forcar else carregar_estado()
+    conhecidas, descobertas_conhecidas = carregar_estado()
+    if args.forcar:
+        conhecidas = {}
 
     secoes, impressoes, novidades = classificar(registros, referencia, conhecidas, args.forcar)
+    achados_novos, estado_descobertas = classificar_descobertas(
+        carregar_descobertas(), referencia, descobertas_conhecidas, args.forcar
+    )
 
-    if novidades == 0:
+    if novidades == 0 and not achados_novos:
         print(
             "Nenhuma novidade ou alteracao relevante desde o ultimo resumo. "
             "Nada a enviar (%d oportunidades verificadas)." % len(registros)
         )
         return 2
 
-    assunto, corpo = monta_email(secoes, referencia, len(registros))
+    assunto, corpo = monta_email(secoes, referencia, len(registros), achados_novos)
 
     destino = args.saida or os.path.join(
         DIR_EMAIL, "%s-resumo.md" % referencia.isoformat()
@@ -311,11 +415,16 @@ def main() -> int:
         fh.write(corpo + "\n")
 
     if not args.dry_run:
-        gravar_estado(impressoes, referencia)
+        gravar_estado(impressoes, estado_descobertas, referencia)
 
     print("Resumo gerado: %s" % os.path.relpath(destino, comum.RAIZ))
     print("Assunto: %s" % assunto)
     print("Itens com novidade: %d de %d oportunidades." % (novidades, len(registros)))
+    if achados_novos:
+        print(
+            "Achados da coleta ainda nao conferidos incluidos no resumo: %d."
+            % len(achados_novos)
+        )
     if args.dry_run:
         print("(dry-run: estado de envios nao atualizado)")
     return 0

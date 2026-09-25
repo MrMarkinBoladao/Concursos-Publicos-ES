@@ -8,13 +8,27 @@ name: Monitoramento de concursos ES
 
 on:
   schedule:
-    # Todos os dias as 09:00 e as 18:00 (horario de Brasilia, UTC-3).
-    - cron: "0 12 * * *"
-    - cron: "0 21 * * *"
+    # Todos os dias as 08:00 no horario de Brasilia (UTC-3, sem horario de verao).
+    # O agendamento do GitHub Actions usa UTC: 11:00 UTC = 08:00 em Brasilia.
+    # Execucoes agendadas podem sair alguns minutos depois do horario em picos de
+    # fila do GitHub; o horario nao e garantido ao minuto.
+    - cron: "0 11 * * *"
   workflow_dispatch:
     inputs:
       forcar_email:
         description: "Regerar o resumo ignorando o estado de envios anterior"
+        type: boolean
+        default: false
+      forcar_relatorio:
+        description: "Regerar os relatorios mesmo que o arquivo do periodo ja exista"
+        type: boolean
+        default: false
+      gerar_semanal:
+        description: "Gerar tambem o relatorio da ultima semana fechada"
+        type: boolean
+        default: false
+      gerar_mensal:
+        description: "Gerar tambem o relatorio do ultimo mes fechado"
         type: boolean
         default: false
   pull_request:
@@ -80,6 +94,27 @@ jobs:
 
       - name: Regenerar tabelas do README
         run: python3 ferramentas/gerar_readme.py
+
+      # Diario todos os dias; semanal na segunda-feira (fecha a semana anterior);
+      # mensal no dia 1 (fecha o mes anterior). Um relatorio escrito a mao nao e
+      # sobrescrito: gerar_relatorio.py so reescreve o que ele mesmo gerou.
+      - name: Gerar relatorios
+        env:
+          FORCAR: ${{ inputs.forcar_relatorio && '--forcar' || '' }}
+        run: |
+          set -euo pipefail
+          dia_da_semana=$(date -u +%u)   # 1 = segunda
+          dia_do_mes=$(date -u +%d)
+
+          python3 ferramentas/gerar_relatorio.py --tipo diario $FORCAR
+
+          if [ "$dia_da_semana" = "1" ] || [ "${{ inputs.gerar_semanal }}" = "true" ]; then
+            python3 ferramentas/gerar_relatorio.py --tipo semanal $FORCAR
+          fi
+
+          if [ "$dia_do_mes" = "01" ] || [ "${{ inputs.gerar_mensal }}" = "true" ]; then
+            python3 ferramentas/gerar_relatorio.py --tipo mensal $FORCAR
+          fi
 
       - name: Preparar resumo de e-mail
         id: email
@@ -173,19 +208,38 @@ jobs:
           ref: main
 
       # As credenciais vem exclusivamente de GitHub Secrets. Configure em
-      # Settings > Secrets and variables > Actions:
-      #   SMTP_SERVIDOR, SMTP_PORTA, SMTP_USUARIO, SMTP_SENHA,
-      #   EMAIL_DESTINATARIO, EMAIL_REMETENTE
+      # Settings > Secrets and variables > Actions > New repository secret:
+      #   SMTP_SERVIDOR        obrigatorio  ex.: smtp.gmail.com
+      #   SMTP_USUARIO         obrigatorio  usuario de autenticacao no SMTP
+      #   SMTP_SENHA           obrigatorio  senha de aplicativo / token SMTP
+      #   EMAIL_DESTINATARIO   obrigatorio  quem recebe (varios, separados por virgula)
+      #   SMTP_PORTA           opcional     587 (STARTTLS, padrao) ou 465 (SSL)
+      #   EMAIL_REMETENTE      opcional     padrao: o proprio SMTP_USUARIO
+      #
+      # O destinatario vai em SECRET, e nao em variable, de proposito: este
+      # repositorio e publico e os logs de execucao tambem sao. Valor de secret
+      # aparece mascarado no log; valor de variable aparece em texto puro.
+      #
       # O passo e ignorado sem erro se os secrets nao estiverem configurados,
       # para que o repositorio funcione sem e-mail.
       - name: Verificar configuracao de SMTP
         id: check
         env:
           SMTP_SERVIDOR: ${{ secrets.SMTP_SERVIDOR }}
+          SMTP_USUARIO: ${{ secrets.SMTP_USUARIO }}
+          SMTP_SENHA: ${{ secrets.SMTP_SENHA }}
+          EMAIL_DESTINATARIO: ${{ secrets.EMAIL_DESTINATARIO }}
         run: |
-          if [ -z "$SMTP_SERVIDOR" ]; then
+          faltando=""
+          for nome in SMTP_SERVIDOR SMTP_USUARIO SMTP_SENHA EMAIL_DESTINATARIO; do
+            # Checa se a variavel esta vazia sem ecoar o conteudo dela.
+            if [ -z "$(printenv "$nome")" ]; then
+              faltando="$faltando $nome"
+            fi
+          done
+          if [ -n "$faltando" ]; then
             echo "configurado=false" >> "$GITHUB_OUTPUT"
-            echo "::notice::SMTP nao configurado. O resumo foi gerado em email/ e versionado, mas nao enviado."
+            echo "::notice::E-mail nao enviado: secrets ausentes ->$faltando. O resumo foi gerado em email/ e versionado no repositorio."
           else
             echo "configurado=true" >> "$GITHUB_OUTPUT"
           fi

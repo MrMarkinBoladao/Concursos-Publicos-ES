@@ -184,6 +184,14 @@ python3 ferramentas/gerar_readme.py --check   # falha se estiver desatualizado
 # Monta o resumo de e-mail, sem repetir informação já enviada
 python3 ferramentas/gerar_email.py
 python3 ferramentas/gerar_email.py --forcar   # ignora o estado anterior
+
+# Gera os relatórios de relatorios/ (período sempre fechado)
+python3 ferramentas/gerar_relatorio.py                 # diário de hoje
+python3 ferramentas/gerar_relatorio.py --tipo semanal   # última semana fechada
+python3 ferramentas/gerar_relatorio.py --tipo mensal    # último mês fechado
+
+# Envia por SMTP o resumo já gerado (credenciais só por variável de ambiente)
+python3 ferramentas/enviar_email.py
 ```
 
 O validador distingue **erros** (reprovam: JSON inválido, status incoerente com o
@@ -194,12 +202,52 @@ divergente do total declarado).
 O gerador de e-mail guarda uma impressão digital dos campos relevantes de cada
 oportunidade em `email/.estado-envios.json`. Reencontrar a mesma oportunidade sem
 alteração **não** gera novo alerta; mudança de prazo, de vagas, de banca ou de
-status gera.
+status gera. O resumo também traz, em seção separada e rotulada como não
+conferida, os achados novos da coleta que ainda não têm registro curado — desde
+que o prazo de inscrição não tenha vencido.
+
+O gerador de relatórios nunca sobrescreve um relatório escrito à mão: ele
+reconhece os arquivos que ele mesmo produziu por uma marca no rodapé. Detalhes em
+[`relatorios/README.md`](relatorios/README.md).
+
+## Automação
+
+O workflow em `.github/workflows/monitoramento.yml` roda **todos os dias às 8h**
+(horário de Brasília; `cron: "0 11 * * *"`, porque o agendamento do GitHub usa
+UTC) e também pode ser disparado à mão em **Actions > Monitoramento de concursos
+ES > Run workflow**.
+
+A cada execução agendada ou manual, o workflow:
+
+1. valida os registros e confere se o README está sincronizado;
+2. roda `coletar.py` e grava os achados em `descobertas/`;
+3. regenera as tabelas do README;
+4. gera o relatório diário — e o semanal na segunda-feira, o mensal no dia 1º;
+5. monta o resumo de e-mail e o envia, se houver novidade e SMTP configurado;
+6. commita o resultado no `main`;
+7. abre uma issue quando a coleta encontra algo sem registro correspondente.
+
+Em pull request, só o passo de validação roda: o workflow nunca escreve no
+repositório a partir de um PR.
+
+> **Atenção com o agendamento.** O GitHub não garante o minuto exato da execução
+> agendada — em horários de fila, ela sai alguns minutos depois. E workflows
+> agendados de repositório público podem ser desativados automaticamente após
+> longos períodos sem atividade; se isso acontecer, o GitHub avisa por e-mail e
+> basta reativar em Actions.
+
+### O que a automação não faz
+
+A coleta encontra **pistas**; ela não produz registro curado. Preencher os cerca
+de 30 campos do esquema exige abrir o edital, ler o quadro de cargos e decidir o
+que fazer quando duas fontes divergem. Isso não é raspagem: é leitura e
+julgamento. O workflow, por isso, para na issue e no e-mail de alerta — a
+promoção de um achado a registro em `dados/` continua sendo trabalho humano
+(ou de uma sessão de agente), disparado por quem lê o alerta.
 
 ## Coleta automática
 
-O workflow em `.github/workflows/monitoramento.yml` roda duas vezes por dia e
-executa `ferramentas/coletar.py`, que consulta:
+`ferramentas/coletar.py` consulta:
 
 | Fonte | Tipo | O que entrega |
 | ----- | ---- | ------------- |
@@ -221,6 +269,61 @@ achado e passa a marcá-lo como `no_repositorio`.
 
 Uma fonte fora do ar **não interrompe** a execução — o erro fica registrado em
 `fontes_consultadas` e vira aviso do validador.
+
+## Alertas por e-mail
+
+O e-mail sai na execução das 8h **somente quando há novidade**: oportunidade nova,
+mudança de prazo, de vagas, de banca ou de status, ou achado novo da coleta ainda
+não conferido. Nada mudou, nada é enviado — e o mesmo item não é reenviado sem
+alteração.
+
+O resumo é gravado em `email/AAAA-MM-DD-resumo.md` e versionado, então o histórico
+de alertas fica auditável mesmo que o envio falhe.
+
+### Configurar
+
+Em **Settings > Secrets and variables > Actions > New repository secret**:
+
+| Secret | Obrigatório | Conteúdo |
+| ------ | ----------- | -------- |
+| `SMTP_SERVIDOR` | sim | host do servidor SMTP |
+| `SMTP_USUARIO` | sim | usuário de autenticação |
+| `SMTP_SENHA` | sim | senha de aplicativo ou token SMTP |
+| `EMAIL_DESTINATARIO` | sim | quem recebe; vários separados por vírgula |
+| `SMTP_PORTA` | não | `587` (STARTTLS, padrão) ou `465` (SSL) |
+| `EMAIL_REMETENTE` | não | padrão: o próprio `SMTP_USUARIO` |
+
+Sem esses secrets o workflow **não falha**: ele registra um aviso e segue, com o
+resumo gerado no repositório mas sem envio.
+
+O destinatário vai em *secret*, não em *variable*, porque este repositório é
+público — e os logs de execução também. Secret aparece mascarado no log; variable
+aparece em texto puro. Por isso nenhum endereço de e-mail é escrito no workflow
+nem em arquivo versionado.
+
+### Sobre o remetente
+
+Receber em qualquer endereço funciona, inclusive Proton Mail. **Enviar** pelo
+Proton, não: contas pessoais só acessam SMTP pelo Proton Mail Bridge, que é um
+aplicativo de desktop e não roda no GitHub Actions, e os tokens de SMTP do Proton
+exigem plano Business com domínio próprio
+([documentação do Proton](https://proton.me/support/smtp-submission)).
+
+Use como remetente uma conta que ofereça SMTP direto — Gmail com senha de
+aplicativo, ou um serviço transacional (Brevo, Resend, Mailgun e similares têm
+plano gratuito) — e deixe o endereço Proton apenas em `EMAIL_DESTINATARIO`.
+
+### Testar antes de esperar as 8h
+
+```bash
+export SMTP_SERVIDOR=... SMTP_USUARIO=... SMTP_SENHA=...
+export EMAIL_DESTINATARIO=voce@exemplo.com
+python3 ferramentas/gerar_email.py --forcar   # gera o resumo do dia
+python3 ferramentas/enviar_email.py           # envia
+```
+
+Pelo GitHub: **Actions > Monitoramento de concursos ES > Run workflow**, marcando
+`forcar_email` para ignorar o estado de envios e montar um resumo cheio.
 
 ## Rotina de atualização
 
