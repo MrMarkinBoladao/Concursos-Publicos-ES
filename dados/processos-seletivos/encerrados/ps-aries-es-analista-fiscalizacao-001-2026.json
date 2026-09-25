@@ -1,0 +1,93 @@
+{
+  "id": "ps-aries-es-analista-fiscalizacao-001-2026",
+  "orgao": "Agência Reguladora Intermunicipal de Saneamento Básico do Espírito Santo",
+  "orgao_sigla": "ARIES",
+  "esfera": "intermunicipal",
+  "municipio": "Vitória",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Analista de Fiscalização e Regulação (Engenharia Civil, Sanitária ou Ambiental)",
+      "area": "Saneamento básico - fiscalização e regulação",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Ensino superior completo em Engenharia Civil, Sanitária ou Ambiental, registro no respectivo conselho de classe, CNH categoria B e disponibilidade para viagens durante a contratação",
+      "remuneracao": "R$ 4.021,99 de vencimento base",
+      "jornada": "40 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 1,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 4021.99,
+    "maxima": 4021.99,
+    "descricao": "Vencimento base de R$ 4.021,99 para 40 horas semanais, mais vale-alimentação de R$ 1.121,00"
+  },
+  "beneficios": [
+    "Vale-alimentação de R$ 1.121,00"
+  ],
+  "jornada": "40 horas semanais",
+  "edital_numero": "Processo Seletivo Simplificado ARIES nº 001/2026",
+  "publicacao": "2026-02-02",
+  "inscricoes": {
+    "inicio": "2026-02-03",
+    "fim": "2026-02-28",
+    "taxa": "não informado",
+    "local": "selecoes@aries.agr.br",
+    "isencao": "não informado",
+    "observacao": "Inscrição por e-mail, com envio de currículo e comprovantes para selecoes@aries.agr.br. Sede da agência: Avenida Adalberto Simão Nader, 1501, República, Vitória (ES)."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "1ª etapa - análise de documentação e títulos (graduação, especialização, mestrado, doutorado, cursos de capacitação e experiência profissional)",
+      "2ª etapa - prova oral em formato de entrevista técnica online"
+    ],
+    "observacao": "Contratação pelo regime da CLT, com fundamento no art. 37, IX, da Constituição Federal e nas resoluções da própria agência."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "clt",
+  "validade": "não informado",
+  "links": {
+    "edital": "https://aries.agr.br/transparencia/processos-seletivos/156-processo-seletivo-simplificado-no-001-2026",
+    "pagina_oficial": "https://aries.agr.br/transparencia/processos-seletivos/156-processo-seletivo-simplificado-no-001-2026",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "ARIES - Processo Seletivo Simplificado nº 001/2026 (página oficial com edital e anexos)",
+      "url": "https://aries.agr.br/transparencia/processos-seletivos/156-processo-seletivo-simplificado-no-001-2026",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-25"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-02-02",
+      "status": "edital_publicado",
+      "observacao": "Publicação do edital do PSS nº 001/2026."
+    },
+    {
+      "data": "2026-02-03",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições, por e-mail."
+    },
+    {
+      "data": "2026-02-28",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições conforme o período registrado na página oficial da agência."
+    },
+    {
+      "data": "2026-09-25",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório. Achado promovido da quarentena de descobertas, com correção do prazo pela fonte oficial."
+    }
+  ],
+  "ultima_verificacao": "2026-09-25",
+  "ultima_atualizacao": "2026-09-25",
+  "observacoes": "DIVERGÊNCIA relevante, resolvida pela fonte oficial: o portal Concursos no Brasil, que originou o achado, informava inscrições de 03/02 até 13/10/2026, o que faria o certame parecer aberto até outubro. A página oficial da ARIES registra 'Período de Inscrição: de 03/02/2026 a 28/02/2026' e status Encerrado — adotado o prazo oficial. A página traz também um documento de prorrogação das inscrições, cujo novo prazo não foi conferido item a item; a data de 13/10/2026 citada pelo portal pode ter origem nesse documento ou na vigência do processo. A agência é autarquia intermunicipal de saneamento, daí a esfera 'intermunicipal'. Há duas outras seleções da ARIES em 2026: a nº 002/2026 (inscrições de 15/05 a 04/06, encerrada, sem registro próprio até agora) e a nº 003/2026, registrada separadamente."
+}

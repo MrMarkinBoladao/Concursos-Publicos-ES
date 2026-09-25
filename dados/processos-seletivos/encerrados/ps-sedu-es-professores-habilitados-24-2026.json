@@ -1,0 +1,99 @@
+{
+  "id": "ps-sedu-es-professores-habilitados-24-2026",
+  "orgao": "Secretaria de Estado da Educação do Espírito Santo",
+  "orgao_sigla": "SEDU",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Professor MaPA e MaPB habilitado (Ensino Fundamental, Ensino Médio, EJA, Educação do Campo, Educação Especial, Educação Escolar Quilombola e Indígena, Educação em Prisões, Socioeducação, regime hospitalar e domiciliar, NEAPIEs e tempo integral)",
+      "area": "Educação",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Licenciatura na área do campo de atuação pretendido, conforme o Anexo I do edital e as resoluções CEE/ES aplicáveis",
+      "remuneracao": "R$ 3.833,41 a R$ 7.064,01, conforme titulação, para 25 horas semanais",
+      "jornada": "25 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 0,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 3833.41,
+    "maxima": 7064.01,
+    "descricao": "R$ 3.833,41 a R$ 7.064,01 para 25 horas semanais, conforme a titulação do candidato"
+  },
+  "beneficios": [],
+  "jornada": "25 horas semanais",
+  "edital_numero": "Edital SEDU nº 24/2026 (retificado em 01/09/2026)",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": "2026-08-03",
+    "fim": "2026-08-12",
+    "taxa": "não informado",
+    "local": "https://selecao.es.gov.br/",
+    "isencao": "não informado",
+    "observacao": "Inscrições de 03/08/2026 às 10h até 12/08/2026 às 17h, exclusivamente pelo portal Seleção ES. O edital não menciona cobrança de taxa."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "1ª etapa - inscrição com autodeclaração de títulos",
+      "2ª etapa - comprovação das informações declaradas",
+      "3ª etapa - formalização do contrato",
+      "Avaliação do pré-requisito e dos títulos (sem prova objetiva)"
+    ],
+    "observacao": "Classificação por análise de pré-requisitos e títulos, por campo de atuação e município. Reserva de vagas: 10% para pessoas com deficiência, 20% para negros e 5% para pessoas indígenas, conforme as leis estaduais 12.009/2023, 12.010/2023 e demais citadas no edital."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "Vigência do processo seletivo até 23/12/2027",
+  "links": {
+    "edital": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32037",
+    "pagina_oficial": "https://selecao.es.gov.br/processo-seletivo/c3c96fb9-7a5d-4748-8e58-7059ead9a6f3/sedu-edital-242026-professores-habilitados",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Portal Seleção ES - SEDU Edital 24/2026 (Professores Habilitados)",
+      "url": "https://selecao.es.gov.br/processo-seletivo/c3c96fb9-7a5d-4748-8e58-7059ead9a6f3/sedu-edital-242026-professores-habilitados",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-25"
+    },
+    {
+      "titulo": "Edital SEDU nº 24/2026 retificado (PDF, 105 páginas)",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32037",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-25"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-08-03",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições, às 10h, pelo portal Seleção ES."
+    },
+    {
+      "data": "2026-08-12",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 17h."
+    },
+    {
+      "data": "2026-09-01",
+      "status": "inscricoes_encerradas",
+      "observacao": "Publicação do edital retificado e da 2ª retificação, com os anexos de atribuições por campo de atuação."
+    },
+    {
+      "data": "2026-09-25",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, a partir do edital retificado. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-09-25",
+  "ultima_atualizacao": "2026-09-25",
+  "observacoes": "Seleção anual e recorrente da SEDU para designação temporária de professores: o registro entra no repositório já encerrado, para servir de âncora quando a edição seguinte for publicada. Sem vagas de provimento imediato — a contratação segue a tabela orientadora por campo de atuação e município, daí vagas_imediatas_total = 0. O edital não fixa taxa de inscrição e o portal não registra cobrança; por isso 'taxa' fica como não informado em vez de 'isento'. Classificação em três etapas, sem prova objetiva. As listas de classificação por Superintendência Regional de Educação estão entre as 59 publicações da página oficial."
+}

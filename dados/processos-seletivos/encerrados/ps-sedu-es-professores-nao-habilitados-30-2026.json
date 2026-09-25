@@ -1,0 +1,94 @@
+{
+  "id": "ps-sedu-es-professores-nao-habilitados-30-2026",
+  "orgao": "Secretaria de Estado da Educação do Espírito Santo",
+  "orgao_sigla": "SEDU",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Professor não habilitado, a título precário (Educação Básica, EJA, Educação do Campo, Educação Especial, Educação Escolar Quilombola e Indígena, Educação em Prisões, Socioeducação, NEAPIEs e classes hospitalares)",
+      "area": "Educação",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio, estudante de licenciatura, bacharelado/tecnólogo ou licenciatura, conforme a referência",
+      "requisitos": "Contratação a título precário, na falta de candidatos habilitados; referências de remuneração conforme a escolaridade comprovada",
+      "remuneracao": "R$ 2.839,54 a R$ 4.025,08, conforme a referência de escolaridade",
+      "jornada": "25 horas semanais, chegando a 40 horas nos NEAPIEs e em salas de recursos"
+    }
+  ],
+  "vagas_imediatas_total": 0,
+  "cadastro_reserva": true,
+  "escolaridade": "nível médio a nível superior, conforme a referência de remuneração",
+  "remuneracao": {
+    "minima": 2839.54,
+    "maxima": 4025.08,
+    "descricao": "R$ 2.839,54 (Referência I - Ensino Médio) a R$ 4.025,08 (Referência IV - Licenciatura ou Programa Especial de Formação Pedagógica), passando por R$ 2.981,51 e R$ 3.130,59"
+  },
+  "beneficios": [],
+  "jornada": "25 horas semanais, chegando a 40 horas nos NEAPIEs e em salas de recursos",
+  "edital_numero": "Edital SEDU nº 30/2026",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": "2026-08-24",
+    "fim": "2026-09-02",
+    "taxa": "não informado",
+    "local": "https://selecao.es.gov.br/",
+    "isencao": "não informado",
+    "observacao": "Inscrições de 24/08/2026 às 10h até 02/09/2026 às 17h, exclusivamente pelo portal Seleção ES."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "1ª etapa - inscrição com autodeclaração de títulos",
+      "2ª etapa - comprovação das informações declaradas",
+      "3ª etapa - formalização do contrato",
+      "Avaliação do pré-requisito e dos títulos (sem prova objetiva)"
+    ],
+    "observacao": "Contratação a título precário, subsidiária à dos professores habilitados do edital 24/2026. Reserva de vagas: 10% para pessoas com deficiência, 20% para negros e 5% para pessoas indígenas, conforme as leis estaduais 12.009/2023, 12.010/2023 e demais citadas no edital."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "Vigência do processo seletivo até 23/12/2027",
+  "links": {
+    "edital": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/31865",
+    "pagina_oficial": "https://selecao.es.gov.br/processo-seletivo/8e16fcd1-5849-4d79-a699-9a998286fc78/sedu-edital-302026-professores-nao-habilitados",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Portal Seleção ES - SEDU Edital 30/2026 (Professores Não Habilitados)",
+      "url": "https://selecao.es.gov.br/processo-seletivo/8e16fcd1-5849-4d79-a699-9a998286fc78/sedu-edital-302026-professores-nao-habilitados",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-25"
+    },
+    {
+      "titulo": "Edital SEDU nº 30/2026 (PDF, 111 páginas)",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/31865",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-25"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-08-24",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições, às 10h, pelo portal Seleção ES."
+    },
+    {
+      "data": "2026-09-02",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 17h."
+    },
+    {
+      "data": "2026-09-25",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, a partir do edital publicado no portal. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-09-25",
+  "ultima_atualizacao": "2026-09-25",
+  "observacoes": "Seleção recorrente da SEDU para professores não habilitados, contratados a título precário quando não há candidato habilitado — é a contraparte do edital 24/2026, registrado separadamente. Sem provimento imediato, daí vagas_imediatas_total = 0. A remuneração varia por referência de escolaridade, não por titulação de pós-graduação como nos editais de habilitados. O edital não fixa taxa de inscrição."
+}

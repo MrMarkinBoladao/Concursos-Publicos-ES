@@ -1,0 +1,103 @@
+{
+  "id": "ps-sesm-es-tecnico-superior-01-2026",
+  "orgao": "Secretaria Estadual das Mulheres do Espírito Santo",
+  "orgao_sigla": "SESM",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Técnico de Nível Superior - Psicologia",
+      "area": "Psicologia",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Bacharelado em Psicologia reconhecido pelo MEC e registro no conselho de classe. O edital restringe a vaga ao gênero feminino, por se tratar de atuação em casa de acolhimento de mulheres (CAES)",
+      "remuneracao": "R$ 5.589,89 mais R$ 800,00 de auxílio-alimentação",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Técnico de Nível Superior - Serviço Social",
+      "area": "Serviço social",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Bacharelado em Serviço Social reconhecido pelo MEC e registro no conselho de classe. O edital restringe a vaga ao gênero feminino, por se tratar de atuação em casa de acolhimento de mulheres (CAES)",
+      "remuneracao": "R$ 5.589,89 mais R$ 800,00 de auxílio-alimentação",
+      "jornada": "40 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 2,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 5589.89,
+    "maxima": 5589.89,
+    "descricao": "R$ 5.589,89 mais auxílio-alimentação de R$ 800,00, para 40 horas semanais"
+  },
+  "beneficios": [
+    "Auxílio-alimentação de R$ 800,00"
+  ],
+  "jornada": "40 horas semanais",
+  "edital_numero": "Edital SESM nº 01/2026",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": "2026-06-26",
+    "fim": "2026-07-04",
+    "taxa": "não informado",
+    "local": "https://selecao.es.gov.br/",
+    "isencao": "não informado",
+    "observacao": "Inscrições de 26/06/2026 às 8h até 04/07/2026 às 15h, pelo portal Seleção ES. Contato da comissão: comissaoselecao@mulheres.es.gov.br."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "Avaliação de títulos e de experiência profissional, conforme os quadros do edital"
+    ],
+    "observacao": "Atuação em Centro de Atendimento Especializado / casa de acolhimento para mulheres em situação de violência e seus dependentes."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "Vigência registrada no portal até 03/07/2027",
+  "links": {
+    "edital": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/31522",
+    "pagina_oficial": "https://selecao.es.gov.br/processo-seletivo/5db44a7f-5d7a-4d75-953d-b5880ed2dedf/sesm-processo-seletivo-edital-n-012026-tecnico-nivel-superior",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Portal Seleção ES - SESM Processo Seletivo Edital nº 01/2026",
+      "url": "https://selecao.es.gov.br/processo-seletivo/5db44a7f-5d7a-4d75-953d-b5880ed2dedf/sesm-processo-seletivo-edital-n-012026-tecnico-nivel-superior",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-25"
+    },
+    {
+      "titulo": "Edital SESM nº 01/2026 (PDF, 16 páginas)",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/31522",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-25"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-06-26",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições, às 8h, pelo portal Seleção ES."
+    },
+    {
+      "data": "2026-07-04",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 15h."
+    },
+    {
+      "data": "2026-09-25",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, a partir do edital publicado no portal. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-09-25",
+  "ultima_atualizacao": "2026-09-25",
+  "observacoes": "Primeira seleção da Secretaria Estadual das Mulheres registrada no repositório. O edital reserva as duas vagas a candidatas do gênero feminino, condição registrada aqui como consta da fonte: a lotação é casa de acolhimento de mulheres em situação de violência. Cada cargo tem 1 vaga imediata mais cadastro de reserva. O edital não fixa taxa de inscrição."
+}

@@ -1,0 +1,96 @@
+{
+  "id": "ps-sedu-es-apoio-escolar-cuidador-28-2026",
+  "orgao": "Secretaria de Estado da Educação do Espírito Santo",
+  "orgao_sigla": "SEDU",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Profissional de Apoio Escolar (Cuidador)",
+      "area": "Educação - apoio",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "não informado",
+      "requisitos": "Pré-requisitos do Anexo I do edital",
+      "remuneracao": "R$ 1.791,54 para 30 horas semanais e R$ 2.388,72 para 40 horas semanais (escolas de tempo integral)",
+      "jornada": "30 ou 40 horas semanais, conforme o campo de atuação"
+    }
+  ],
+  "vagas_imediatas_total": 0,
+  "cadastro_reserva": true,
+  "escolaridade": "não informado",
+  "remuneracao": {
+    "minima": 1791.54,
+    "maxima": 2388.72,
+    "descricao": "R$ 1.791,54 para 30 horas semanais e R$ 2.388,72 para 40 horas semanais, mais auxílio-alimentação de R$ 600,00 (30h) ou R$ 800,00 (40h)"
+  },
+  "beneficios": [
+    "Auxílio-alimentação de R$ 600,00 (30 horas) ou R$ 800,00 (40 horas)"
+  ],
+  "jornada": "30 ou 40 horas semanais, conforme o campo de atuação",
+  "edital_numero": "Edital SEDU nº 28/2026",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": "2026-08-12",
+    "fim": "2026-08-21",
+    "taxa": "não informado",
+    "local": "https://selecao.es.gov.br/",
+    "isencao": "não informado",
+    "observacao": "Inscrições de 12/08/2026 às 10h até 21/08/2026 às 17h, exclusivamente pelo portal Seleção ES."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "1ª etapa - inscrição com autodeclaração de títulos",
+      "2ª etapa - comprovação das informações declaradas",
+      "3ª etapa - formalização do contrato",
+      "Avaliação do pré-requisito e dos títulos (sem prova objetiva)"
+    ],
+    "observacao": "Classificação por análise de pré-requisitos e títulos. Reserva de vagas: 10% para pessoas com deficiência, 20% para negros e 5% para pessoas indígenas, conforme as leis estaduais 12.009/2023, 12.010/2023 e demais citadas no edital."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "Vigência do processo seletivo até 23/12/2027",
+  "links": {
+    "edital": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/31768",
+    "pagina_oficial": "https://selecao.es.gov.br/processo-seletivo/0323e48a-a50e-4b55-9f94-b7cd807fc8fe/sedu-edital-282026-profissional-apoio-escolar-cuidador",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Portal Seleção ES - SEDU Edital 28/2026 (Profissional de Apoio Escolar - Cuidador)",
+      "url": "https://selecao.es.gov.br/processo-seletivo/0323e48a-a50e-4b55-9f94-b7cd807fc8fe/sedu-edital-282026-profissional-apoio-escolar-cuidador",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-25"
+    },
+    {
+      "titulo": "Edital SEDU nº 28/2026 (PDF, 36 páginas)",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/31768",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-25"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-08-12",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições, às 10h, pelo portal Seleção ES."
+    },
+    {
+      "data": "2026-08-21",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 17h."
+    },
+    {
+      "data": "2026-09-25",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, a partir do edital publicado no portal. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-09-25",
+  "ultima_atualizacao": "2026-09-25",
+  "observacoes": "Seleção recorrente da SEDU para cuidadores em designação temporária, registrada já encerrada para servir de âncora na próxima edição. Sem provimento imediato: a contratação segue a demanda das escolas, daí vagas_imediatas_total = 0. A escolaridade exigida não foi extraída do trecho conferido do edital e ficou como não informada — o Anexo I traz os pré-requisitos completos. O edital não fixa taxa de inscrição."
+}
