@@ -1,5 +1,15 @@
 {
-  "descricao": "Impressoes digitais das oportunidades no ultimo resumo enviado. Usado para nao reenviar informacao identica. Nao contem dados sensiveis nem credenciais.",
+  "descobertas": {
+    "concursosnobrasil-es:aries-es-divulga-edital-de-processo-seletivo-com-salario-de-r-4-mil": "2026-09-23",
+    "selecao-es:0323e48a-a50e-4b55-9f94-b7cd807fc8fe": "2026-09-23",
+    "selecao-es:31ecf819-cee1-4b39-92f9-8d2d4d94d517": "2026-09-23",
+    "selecao-es:5db44a7f-5d7a-4d75-953d-b5880ed2dedf": "2026-09-23",
+    "selecao-es:6301e86a-9ec3-4462-b6fa-9e6e42c6a970": "2026-09-23",
+    "selecao-es:89ddd78b-d37d-49dc-831e-4dbb6b3c3033": "2026-09-23",
+    "selecao-es:8e16fcd1-5849-4d79-a699-9a998286fc78": "2026-09-23",
+    "selecao-es:c3c96fb9-7a5d-4748-8e58-7059ead9a6f3": "2026-09-23"
+  },
+  "descricao": "Impressoes digitais das oportunidades e chaves dos achados da coleta no ultimo resumo enviado. Usado para nao reenviar informacao identica. Nao contem dados sensiveis nem credenciais.",
   "impressoes": {
     "concurso-anchieta-es-professor-2026": "167c33557aeac45a",
     "concurso-aracruz-es-semge-001-2026": "540bb262b3f908f6",
