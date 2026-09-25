@@ -1,0 +1,149 @@
+{
+  "id": "ps-serra-es-sesa-007-2026",
+  "orgao": "Prefeitura Municipal da Serra - Secretaria Municipal de Saúde (SESA)",
+  "orgao_sigla": "PMS/SESA",
+  "esfera": "municipal",
+  "municipio": "Serra",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Auxiliar de Saúde Bucal",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio/técnico",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 2.088,90 (salário-base)",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Técnico em Saúde Bucal",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio/técnico",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 2.088,90 (salário-base)",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Técnico em Enfermagem",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio/técnico",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 2.088,90 (salário-base) para 40 horas semanais e R$ 1.566,68 para 30 horas semanais",
+      "jornada": "40 horas semanais ou 30 horas semanais, conforme a vaga"
+    },
+    {
+      "nome": "Médico Clínico Geral",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 8.237,84 (salário-base)",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Médico Dermatologista",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 4.118,92 (salário-base)",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Médico Psiquiatra",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 4.118,92 (salário-base)",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Médico Infectologista",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 4.118,92 (salário-base)",
+      "jornada": "20 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 0,
+  "cadastro_reserva": true,
+  "escolaridade": "nível médio/técnico e superior",
+  "remuneracao": {
+    "minima": 1566.68,
+    "maxima": 8237.84,
+    "descricao": "Salário-base de R$ 1.566,68 (técnico em enfermagem, 30 horas) a R$ 8.237,84 (médico clínico geral, 40 horas), mais auxílio-alimentação de R$ 1.100,00 e adicionais previstos na legislação conforme o cargo"
+  },
+  "beneficios": [
+    "Auxílio-alimentação de R$ 1.100,00"
+  ],
+  "jornada": "20, 30 ou 40 horas semanais, conforme o cargo",
+  "edital_numero": "Processo Seletivo Simplificado nº 007/2026 - SESA (cargos diversos)",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": "2026-09-29",
+    "taxa": "não informado",
+    "local": "https://selecao.serra.es.gov.br/",
+    "isencao": "não informado",
+    "observacao": "Inscrições exclusivamente pelo Portal de Seleção da Prefeitura da Serra, até 29/09/2026 às 23h59. Data de abertura das inscrições não informada pelas fontes consultadas."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "Resultado parcial das inscrições previsto para 05/10/2026",
+      "Homologação do resultado final prevista para 12/10/2026"
+    ],
+    "observacao": "As etapas e os critérios de classificação constam do edital; a fonte oficial consultada divulgou apenas o cronograma de resultados."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_abertas",
+  "regime": "designacao_temporaria",
+  "validade": "não informado",
+  "links": {
+    "edital": "https://selecao.serra.es.gov.br/",
+    "pagina_oficial": "https://serra.es.gov.br/noticias/serra-abre-processo-seletivo-para-profissionais-da-saude",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Prefeitura da Serra - Serra abre processo seletivo para profissionais da Saúde",
+      "url": "https://serra.es.gov.br/noticias/serra-abre-processo-seletivo-para-profissionais-da-saude",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-25"
+    },
+    {
+      "titulo": "Portal de Seleção da Prefeitura da Serra - Processos Seletivos com inscrições abertas",
+      "url": "https://selecao.serra.es.gov.br/",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-25"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-24",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições divulgada pela Secretaria Municipal de Saúde da Serra; prazo até 29/09/2026."
+    },
+    {
+      "data": "2026-09-25",
+      "status": "inscricoes_abertas",
+      "observacao": "Primeiro registro no repositório, a partir do anúncio oficial e do Portal de Seleção da Prefeitura da Serra."
+    }
+  ],
+  "ultima_verificacao": "2026-09-25",
+  "ultima_atualizacao": "2026-09-25",
+  "observacoes": "PRAZO CURTO: inscrições encerram em 29/09/2026 às 23h59, conforme o Portal de Seleção da Prefeitura da Serra. Seleção exclusivamente para cadastro de reserva, daí vagas_imediatas_total = 0. A sigla SESA aqui é a Secretaria Municipal de Saúde da Serra, não a Secretaria de Estado da Saúde do ES, que também usa SESA e tem registro próprio em dados/concursos/autorizados/. Data de início das inscrições, taxa, requisitos por cargo e validade não constam das fontes oficiais consultadas — o edital completo é disponibilizado dentro do Portal de Seleção, cuja listagem é carregada dinamicamente."
+}

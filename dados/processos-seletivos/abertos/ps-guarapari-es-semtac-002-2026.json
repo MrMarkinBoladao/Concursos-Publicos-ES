@@ -1,0 +1,115 @@
+{
+  "id": "ps-guarapari-es-semtac-002-2026",
+  "orgao": "Prefeitura Municipal de Guarapari - Secretaria Municipal de Trabalho, Assistência e Cidadania (SEMTAC)",
+  "orgao_sigla": "PMG/SEMTAC",
+  "esfera": "municipal",
+  "municipio": "Guarapari",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Motorista",
+      "area": "Assistência social",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio",
+      "requisitos": "Ensino médio completo, CNH categoria B e experiência mínima de seis meses na condução de veículo",
+      "remuneracao": "não informado",
+      "jornada": "40 horas semanais ou escala 12x36, conforme a função"
+    },
+    {
+      "nome": "Orientador / Educador Social",
+      "area": "Assistência social",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio",
+      "requisitos": "Ensino médio completo e curso de qualificação para Educador Social",
+      "remuneracao": "não informado",
+      "jornada": "40 horas semanais ou escala 12x36, conforme a função"
+    },
+    {
+      "nome": "Auxiliar de Cuidador",
+      "area": "Assistência social",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "40 horas semanais ou escala 12x36, conforme a função"
+    },
+    {
+      "nome": "Cozinheiro",
+      "area": "Assistência social",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "40 horas semanais ou escala 12x36, conforme a função"
+    },
+    {
+      "nome": "Auxiliar de Serviços Gerais",
+      "area": "Assistência social",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "40 horas semanais ou escala 12x36, conforme a função"
+    }
+  ],
+  "vagas_imediatas_total": 0,
+  "cadastro_reserva": true,
+  "escolaridade": "nível fundamental e nível médio, conforme a função",
+  "remuneracao": {
+    "minima": 1621.0,
+    "maxima": 1746.45,
+    "descricao": "R$ 1.621,00 a R$ 1.746,45, conforme a função. A correspondência entre cada cargo e seu valor não foi informada pela fonte"
+  },
+  "beneficios": [],
+  "jornada": "40 horas semanais ou escala 12x36, conforme a função",
+  "edital_numero": "Edital de Processo Seletivo SEMTAC nº 002/2026",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": "2026-10-01",
+    "fim": "2026-10-02",
+    "taxa": "Isento",
+    "local": "Sede administrativa da SEMTAC - Rua Marcílio Dias, nº 399, Edifício Rei dos Reis, Guarapari (ES)",
+    "isencao": "Participação gratuita",
+    "observacao": "Atendimento presencial apenas em 1º e 2 de outubro de 2026, das 9h às 11h e das 13h às 17h. Cada candidato pode fazer apenas uma inscrição, entregando envelope não lacrado com a ficha do Anexo II preenchida e assinada, cópias dos documentos de identificação e os documentos destinados à pontuação."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "Análise de títulos e de experiência profissional"
+    ],
+    "observacao": "Classificação por análise de títulos e experiência, sem prova objetiva."
+  },
+  "banca": "não informado",
+  "status": "edital_publicado",
+  "regime": "designacao_temporaria",
+  "validade": "não informado",
+  "links": {
+    "edital": "https://www.guarapari.es.gov.br/selecao/detalhes/222/edital-de-processo-seletivo-semtac-n-002-2026",
+    "pagina_oficial": "https://www.guarapari.es.gov.br/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "SEMTAC de Guarapari (ES) promove seletivo para níveis fundamental e médio",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/09/25/semtac-de-guarapari-es-promove-seletivo-para-niveis-fundamental-e-medio/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-09-25"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-25",
+      "status": "edital_publicado",
+      "observacao": "Primeiro registro no repositório. Edital SEMTAC nº 002/2026 divulgado para cadastro de reserva da assistência social; inscrições previstas para 1º e 2/10/2026."
+    }
+  ],
+  "ultima_verificacao": "2026-09-25",
+  "ultima_atualizacao": "2026-09-25",
+  "observacoes": "Inscrições ainda não iniciadas (1º e 2/10/2026, presenciais e em apenas dois dias), por isso o status é 'edital_publicado'. PENDÊNCIA DE CONFERÊNCIA: a página oficial do edital (www.guarapari.es.gov.br) bloqueou o acesso na verificação de 25/09/2026 (HTTP 403 e bloqueio Cloudflare, inclusive via navegador); os dados vêm do portal Concursos no Brasil e precisam ser confirmados no edital oficial. O cadastro de reserva atende à Proteção Social Básica e à Proteção Social Especial de Média e Alta Complexidade, daí vagas_imediatas_total = 0. Data de publicação, validade e a remuneração de cada cargo não foram informadas."
+}

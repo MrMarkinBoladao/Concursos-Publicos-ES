@@ -1,17 +1,17 @@
 {
   "descricao": "Achados da coleta automatica. AREA DE QUARENTENA: nao e dado curado. Cada achado traz apenas o que a fonte informou. Promover para dados/ exige conferir o edital na fonte oficial.",
-  "gerado_em": "2026-09-24",
+  "gerado_em": "2026-09-25",
   "janela_dias": 90,
-  "total_achados": 18,
-  "ja_no_repositorio": 9,
-  "pendentes_de_curadoria": 9,
+  "total_achados": 21,
+  "ja_no_repositorio": 13,
+  "pendentes_de_curadoria": 8,
   "fontes_consultadas": [
     {
       "id": "concursosnobrasil-es",
       "nome": "Concursos no Brasil - Espirito Santo",
       "tipo": "portal_concursos",
       "status": "ok",
-      "achados": 8
+      "achados": 11
     },
     {
       "id": "selecao-es",
@@ -43,7 +43,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-09-24",
+      "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -67,7 +67,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-cref22-es-administrativo-2026",
-      "ultima_deteccao": "2026-09-24",
+      "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -91,8 +91,32 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-crf-es-advogado-2026",
-      "ultima_deteccao": "2026-09-24",
+      "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
+    },
+    {
+      "chave": "concursosnobrasil-es:prefeitura-de-afonso-claudio-es-divulga-selecao-para-merendeira",
+      "fonte_id": "concursosnobrasil-es",
+      "orgao": "Prefeitura de Afonso Cláudio",
+      "orgao_sigla": "não informado",
+      "titulo": "Prefeitura de Afonso Cláudio",
+      "esfera": null,
+      "tipo": null,
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://concursosnobrasil.com/concursos/es/2026/09/25/prefeitura-de-afonso-claudio-es-divulga-selecao-para-merendeira/",
+      "ano_publicacao": "2026",
+      "situacao_portal": null,
+      "fonte_tipo": "portal_concursos",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": true,
+      "registro_repositorio": "ps-afonso-claudio-es-merendeira-001-2026",
+      "ultima_deteccao": "2026-09-25",
+      "primeira_deteccao": "2026-09-25"
     },
     {
       "chave": "concursosnobrasil-es:concurso-prefeitura-de-anchieta-es-promove-vagas-de-ate-r-86-mil-mensais",
@@ -115,7 +139,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-anchieta-es-professor-2026",
-      "ultima_deteccao": "2026-09-24",
+      "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -138,8 +162,8 @@
       "uf": "ES",
       "status_estimado": null,
       "no_repositorio": true,
-      "registro_repositorio": "ps-ibiracu-es-professor-2026",
-      "ultima_deteccao": "2026-09-24",
+      "registro_repositorio": "ps-ibiracu-es-seme-014-2026",
+      "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -163,7 +187,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-09-24",
+      "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -185,10 +209,34 @@
       "fonte_tipo": "portal_concursos",
       "uf": "ES",
       "status_estimado": null,
-      "no_repositorio": false,
-      "registro_repositorio": null,
-      "ultima_deteccao": "2026-09-24",
+      "no_repositorio": true,
+      "registro_repositorio": "ps-santa-teresa-es-magisterio-007-008-2026",
+      "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
+    },
+    {
+      "chave": "concursosnobrasil-es:prefeitura-de-sao-gabriel-da-palha-es-abre-vagas-na-area-da-educacao",
+      "fonte_id": "concursosnobrasil-es",
+      "orgao": "Prefeitura de São Gabriel da Palha",
+      "orgao_sigla": "não informado",
+      "titulo": "Prefeitura de São Gabriel da Palha",
+      "esfera": null,
+      "tipo": null,
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://concursosnobrasil.com/concursos/es/2026/09/25/prefeitura-de-sao-gabriel-da-palha-es-abre-vagas-na-area-da-educacao/",
+      "ano_publicacao": "2026",
+      "situacao_portal": null,
+      "fonte_tipo": "portal_concursos",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": true,
+      "registro_repositorio": "ps-sao-gabriel-da-palha-es-seme-05-2026",
+      "ultima_deteccao": "2026-09-25",
+      "primeira_deteccao": "2026-09-25"
     },
     {
       "chave": "concursosnobrasil-es:prefeitura-de-vitoria-es-publica-editais-para-a-educacao-com-335-vagas",
@@ -211,8 +259,32 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-vitoria-es-professor-educacao-basica-022-2026",
-      "ultima_deteccao": "2026-09-24",
+      "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
+    },
+    {
+      "chave": "concursosnobrasil-es:semtac-de-guarapari-es-promove-seletivo-para-niveis-fundamental-e-medio",
+      "fonte_id": "concursosnobrasil-es",
+      "orgao": "SEMTAC de Guarapari",
+      "orgao_sigla": "não informado",
+      "titulo": "SEMTAC de Guarapari",
+      "esfera": null,
+      "tipo": null,
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://concursosnobrasil.com/concursos/es/2026/09/25/semtac-de-guarapari-es-promove-seletivo-para-niveis-fundamental-e-medio/",
+      "ano_publicacao": "2026",
+      "situacao_portal": null,
+      "fonte_tipo": "portal_concursos",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": true,
+      "registro_repositorio": "ps-guarapari-es-semtac-002-2026",
+      "ultima_deteccao": "2026-09-25",
+      "primeira_deteccao": "2026-09-25"
     },
     {
       "chave": "selecao-es:5db44a7f-5d7a-4d75-953d-b5880ed2dedf",
@@ -233,7 +305,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-09-24",
+      "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -255,7 +327,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-09-24",
+      "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -277,7 +349,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-09-24",
+      "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -299,7 +371,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-09-24",
+      "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -321,7 +393,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-09-24",
+      "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -343,7 +415,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-09-24",
+      "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -365,7 +437,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-09-24",
+      "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -378,16 +450,16 @@
       "tipo": "processo_seletivo_simplificado",
       "inscricoes": {
         "inicio": "2026-01-02",
-        "fim": "2026-09-23"
+        "fim": "2026-09-30"
       },
       "vagas_informadas": null,
       "url": "https://selecao.es.gov.br/processo-seletivo/1b15c045-9e73-45f6-9321-472c330f48bd/sedu-edital-cadastramento-n-472025-etapa-previa-processo-seletivo-casf",
       "fonte_tipo": "oficial",
       "uf": "ES",
-      "status_estimado": "inscricoes_encerradas",
+      "status_estimado": "inscricoes_abertas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-casf-47-2025",
-      "ultima_deteccao": "2026-09-24",
+      "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -409,7 +481,7 @@
       "status_estimado": "inscricoes_abertas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-coordenador-pedagogico-32-2025",
-      "ultima_deteccao": "2026-09-24",
+      "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -431,7 +503,7 @@
       "status_estimado": "inscricoes_abertas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-diretor-escolar-33-2025",
-      "ultima_deteccao": "2026-09-24",
+      "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     }
   ]

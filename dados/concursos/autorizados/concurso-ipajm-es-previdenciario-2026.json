@@ -10,44 +10,44 @@
     {
       "nome": "Médico Perito Previdenciário",
       "area": "Saúde / perícia previdenciária",
-      "vagas_imediatas": null,
+      "vagas_imediatas": 3,
       "cadastro_reserva": true,
       "escolaridade": "nível superior",
       "requisitos": "não informado",
-      "remuneracao": "R$ 8.477,66",
-      "jornada": "não informado"
+      "remuneracao": "R$ 8.151,00 (salário inicial) — ver observacoes sobre divergência de valores entre as fontes",
+      "jornada": "20 horas semanais"
     },
     {
       "nome": "Assistente Social Previdenciário",
       "area": "Assistência social",
-      "vagas_imediatas": null,
+      "vagas_imediatas": 1,
       "cadastro_reserva": true,
       "escolaridade": "nível superior",
       "requisitos": "não informado",
-      "remuneracao": "R$ 8.477,66",
-      "jornada": "não informado"
+      "remuneracao": "R$ 8.151,00 (salário inicial) — ver observacoes sobre divergência de valores entre as fontes",
+      "jornada": "40 horas semanais"
     },
     {
       "nome": "Psicólogo Previdenciário",
       "area": "Psicologia",
-      "vagas_imediatas": null,
+      "vagas_imediatas": 1,
       "cadastro_reserva": true,
       "escolaridade": "nível superior",
       "requisitos": "não informado",
-      "remuneracao": "R$ 8.477,66",
-      "jornada": "não informado"
+      "remuneracao": "R$ 8.151,00 (salário inicial) — ver observacoes sobre divergência de valores entre as fontes",
+      "jornada": "40 horas semanais"
     }
   ],
   "vagas_imediatas_total": 5,
   "cadastro_reserva": true,
   "escolaridade": "nível superior",
   "remuneracao": {
-    "minima": 8477.66,
-    "maxima": 8477.66,
-    "descricao": "R$ 8.477,66 conforme o Estratégia Concursos; A Tribuna Online cita 'salário de R$ 8,1 mil'. Ver observacoes."
+    "minima": 8151.0,
+    "maxima": 8151.0,
+    "descricao": "Salário inicial de R$ 8.151,00 conforme A Gazeta, valor compatível com o 'R$ 8,1 mil' de A Tribuna Online; o Estratégia Concursos informa R$ 8.477,66. Ver observacoes"
   },
   "beneficios": [],
-  "jornada": "não informado",
+  "jornada": "20 horas semanais para Médico Perito Previdenciário e 40 horas semanais para os demais cargos",
   "edital_numero": "não informado",
   "publicacao": null,
   "inscricoes": {
@@ -56,12 +56,12 @@
     "taxa": "não informado",
     "local": "não informado",
     "isencao": "não informado",
-    "observacao": "Edital ainda não publicado. Expectativa de publicação em outubro de 2026, conforme cronograma previsto."
+    "observacao": "Edital ainda não publicado. Em 22/09/2026 A Gazeta informou que o próximo passo é a assinatura do contrato com a Fundatec, e que a publicação do edital está prevista para as semanas seguintes; a data exata só será confirmada após a assinatura."
   },
   "prova": {
     "objetiva": null,
     "outras_etapas": [],
-    "observacao": "não informado"
+    "observacao": "Prova objetiva prevista com 80 questões e 4 horas de duração — 20 de conhecimentos básicos, 20 de legislação e 40 de conhecimentos específicos —, com aplicação no município de Vitória."
   },
   "banca": "Fundatec",
   "status": "autorizado",
@@ -96,6 +96,12 @@
       "url": "https://ipajm.es.gov.br/concursos-publicos",
       "tipo": "oficial",
       "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "A Gazeta - Instituto do ES vai abrir concurso com salário de até R$ 8 mil",
+      "url": "https://www.agazeta.com.br/concursos/instituto-do-es-vai-abrir-concurso-com-salario-de-ate-r-8-mil-0926",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-25"
     }
   ],
   "historico_status": [
@@ -108,9 +114,14 @@
       "data": "2026-09-22",
       "status": "autorizado",
       "observacao": "Primeiro registro no repositório. Edital ainda não publicado; expectativa para outubro de 2026."
+    },
+    {
+      "data": "2026-09-25",
+      "status": "autorizado",
+      "observacao": "Detalhamento do certame divulgado: distribuição das 5 vagas imediatas (3 perito médico, 1 assistente social, 1 psicólogo), jornadas por cargo e estrutura da prova objetiva. Edital seguia não publicado."
     }
   ],
-  "ultima_verificacao": "2026-09-22",
-  "ultima_atualizacao": "2026-09-22",
-  "observacoes": "NOVIDADE RECENTE: banca (Fundatec) definida em 17/09/2026, cinco dias antes desta verificação, com edital esperado para outubro de 2026 — é o certame estadual com publicação mais próxima entre os autorizados. DIVERGÊNCIA de remuneração: R$ 8.477,66 (Estratégia Concursos) x 'R$ 8,1 mil' (A Tribuna Online); adotado o valor mais específico, com a divergência registrada. As 5 vagas imediatas são o total do certame; a divisão entre os três cargos não foi informada. ACOMPANHAR: ipajm.es.gov.br/concursos-publicos e o portal da Fundatec."
+  "ultima_verificacao": "2026-09-25",
+  "ultima_atualizacao": "2026-09-25",
+  "observacoes": "NOVIDADE RECENTE: banca (Fundatec) definida em 17/09/2026 por dispensa de licitação publicada no PNCP; em 22/09/2026 o passo pendente era a assinatura do contrato, com edital previsto para as semanas seguintes — é o certame estadual com publicação mais próxima entre os autorizados. As 5 vagas imediatas estão distribuídas em 3 para Médico Perito Previdenciário, 1 para Assistente Social Previdenciário e 1 para Psicólogo Previdenciário. DIVERGÊNCIA de remuneração: R$ 8.151,00 (A Gazeta, valor específico) e 'R$ 8,1 mil' (A Tribuna Online) contra R$ 8.477,66 (Estratégia Concursos); adotado R$ 8.151,00 por ser o valor corroborado por duas fontes, com a divergência mantida em registro. Nenhuma fonte oficial do IPAJM detalhou vagas, remuneração ou cronograma até esta verificação. ACOMPANHAR: ipajm.es.gov.br/concursos-publicos e o portal da Fundatec."
 }
