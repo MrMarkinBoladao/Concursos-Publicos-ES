@@ -304,25 +304,35 @@ def classificar(registros, referencia, conhecidas, forcar):
 
 def monta_email(secoes, referencia, total_registros, achados=None):
     achados = achados or []
+    # Os titulos nao levam numero fixo: a numeracao e aplicada na montagem, so
+    # para as secoes que tiverem conteudo.
     ordem = [
-        ("encerrando", "1. Inscrições encerrando em breve (até %d dias)" % JANELA_URGENTE),
-        ("abertos", "2. Concursos com inscrições abertas"),
-        ("novos_editais", "3. Novos editais publicados"),
-        ("seletivos", "4. Processos seletivos"),
-        ("previstos", "5. Concursos previstos e autorizados"),
-        ("outras", "6. Outras atualizações"),
+        ("encerrando", "Inscrições encerrando em breve (até %d dias)" % JANELA_URGENTE),
+        ("abertos", "Concursos com inscrições abertas"),
+        ("novos_editais", "Novos editais publicados"),
+        ("seletivos", "Processos seletivos"),
+        ("previstos", "Concursos previstos e autorizados"),
+        ("outras", "Outras atualizações"),
     ]
 
     total = sum(len(secoes[chave]) for chave, _ in ordem)
     urgentes = len(secoes["encerrando"])
 
-    assunto = "Concursos ES %s — %d atualizações%s%s" % (
+    # O assunto so menciona o que existe: "0 atualizacoes" em assunto de e-mail
+    # e ruido, nao informacao.
+    pedacos = []
+    if total:
+        pedacos.append("%d atualizaç%s" % (total, "ão" if total == 1 else "ões"))
+    if achados:
+        pedacos.append(
+            "%d achado%s novo%s"
+            % (len(achados), "" if len(achados) == 1 else "s", "" if len(achados) == 1 else "s")
+        )
+    if urgentes:
+        pedacos.append("%d com prazo curto" % urgentes)
+    assunto = "Concursos ES %s — %s" % (
         referencia.strftime("%d/%m"),
-        total,
-        (", %d achado%s novo%s" % (len(achados), "" if len(achados) == 1 else "s", "" if len(achados) == 1 else "s"))
-        if achados
-        else "",
-        (", %d com prazo curto" % urgentes) if urgentes else "",
+        ", ".join(pedacos) if pedacos else "sem novidades",
     )
 
     partes = [
@@ -331,33 +341,41 @@ def monta_email(secoes, referencia, total_registros, achados=None):
         "**Assunto sugerido:** %s" % assunto,
         "",
         "Resumo do monitoramento de concursos públicos e processos seletivos do",
-        "Espírito Santo. Base de %d oportunidades acompanhadas; %d item(ns) com"
-        % (total_registros, total),
-        "novidade ou alteração relevante desde o último resumo.",
+        "Espírito Santo. Base de %d oportunidades acompanhadas." % total_registros,
         "",
-        "Itens sem alteração desde o último envio foram omitidos de propósito.",
+        "Só entra aqui o que mudou desde o último resumo: item sem alteração é",
+        "omitido de propósito, e seção sem conteúdo não aparece.",
         "",
     ]
 
+    # Secao vazia nao entra: um e-mail com seis "sem novidades" esconde a unica
+    # linha que importa. A numeracao acompanha so as secoes presentes.
+    numero = 0
     for chave, titulo in ordem:
         itens = secoes[chave]
-        partes.append("## %s" % titulo)
-        partes.append("")
         if not itens:
-            partes.append("_Sem novidades nesta seção._")
-        else:
-            for reg, nota in itens:
-                partes.append(_item(reg, referencia, nota))
+            continue
+        numero += 1
+        partes.append("## %d. %s" % (numero, titulo))
         partes.append("")
+        for reg, nota in itens:
+            partes.append(_item(reg, referencia, nota))
+        partes.append("")
+
+    if total == 0:
+        partes += [
+            "Nenhuma das %d oportunidades já conferidas mudou desde o último resumo."
+            % total_registros,
+            "",
+        ]
 
     # A coleta automatica encontra oportunidades antes de existir registro curado.
     # Vao para o fim do e-mail, com o aviso de que nao passaram por conferencia.
-    partes.append("## 7. Detectado automaticamente — ainda não conferido")
-    partes.append("")
-    if not achados:
-        partes.append("_Sem novidades nesta seção._")
-    else:
+    if achados:
+        numero += 1
         partes += [
+            "## %d. Detectado automaticamente — ainda não conferido" % numero,
+            "",
             "Oportunidades vistas nas fontes que **ainda não têm registro conferido**",
             "no monitoramento. São pistas: o edital não foi lido, e cargos, vagas e",
             "prazos podem estar incompletos ou errados. Confira na fonte antes de agir.",
@@ -365,7 +383,7 @@ def monta_email(secoes, referencia, total_registros, achados=None):
         ]
         for achado in achados:
             partes.append(_item_descoberta(achado))
-    partes.append("")
+        partes.append("")
 
     partes += [
         "---",
