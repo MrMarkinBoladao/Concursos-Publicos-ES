@@ -52,8 +52,12 @@ permissions:
 # GitHub retira a imagem fixada, a execucao agendada quebra de vez, e ninguem esta
 # olhando para um cron diario.
 jobs:
+  # Porta de entrada para PR e push: aqui a validacao PRECISA reprovar dados
+  # incoerentes. Na execucao agendada esse papel fica com o passo de revalidacao
+  # dentro de 'atualizar', que roda depois do encerramento automatico de prazos.
   validar:
     name: Validar dados
+    if: github.event_name == 'pull_request' || github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -71,8 +75,14 @@ jobs:
   atualizar:
     name: Atualizar README e preparar e-mail
     # Só escreve no repositorio em execucao agendada ou manual, nunca em PR.
+    #
+    # Sem 'needs: validar' de proposito. Um prazo de inscricao que vence deixa o
+    # registro momentaneamente incoerente (status 'inscricoes_abertas' com prazo
+    # passado), e o validador reprova — corretamente. Se este job dependesse dele,
+    # o primeiro prazo vencido travaria README, relatorios e e-mail justamente no
+    # dia em que ha novidade. A ordem aqui resolve isso: encerra os vencidos,
+    # atualiza tudo e SO ENTAO revalida, antes de commitar.
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-    needs: validar
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -87,6 +97,16 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
+
+      # Primeiro passo de dados: vira o status dos registros cujo prazo de
+      # inscricao passou. E transicao mecanica, baseada na data que ja estava no
+      # registro — nenhuma fonte e consultada aqui, e a trilha em
+      # historico_status diz isso explicitamente.
+      - name: Encerrar inscricoes com prazo vencido
+        id: prazos
+        run: |
+          python3 ferramentas/encerrar_vencidos.py \
+            --saida-github "$GITHUB_OUTPUT"
 
       # Coleta antes de gerar o README, para que as descobertas do dia entrem
       # na secao "Detectado automaticamente". Uma fonte fora do ar nao derruba
