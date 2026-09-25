@@ -58,6 +58,13 @@ Os status seguem o ciclo de vida da oportunidade. A ordem abaixo é a progressã
 Mudança de status **move o arquivo** entre diretórios, preservando o `id` e acrescentando
 uma entrada em `historico_status`. O registro antigo nunca é apagado.
 
+Uma transição é **mecânica** quando decorre apenas de dado já presente no registro e da
+passagem do tempo — o caso é `inscricoes_abertas` → `inscricoes_encerradas` quando
+`inscricoes.fim` fica no passado, feito por `ferramentas/encerrar_vencidos.py`. Nesse caso
+`ultima_verificacao` e `ultima_atualizacao` **não mudam**, porque nenhuma fonte foi
+consultada e nada de novo foi apurado: só a entrada em `historico_status` é acrescentada,
+declarando que a transição foi automática.
+
 ## Vocabulário de `esfera`
 
 - `federal` — órgãos da União. Inclui **conselhos de fiscalização profissional**
@@ -113,7 +120,7 @@ uma entrada em `historico_status`. O registro antigo nunca é apagado.
 | `fontes` | lista de objetos | sim | `{titulo, url, tipo, consultado_em}`. `tipo`: `oficial`, `banca`, `diario_oficial`, `portal_concursos`, `imprensa` |
 | `historico_status` | lista de objetos | sim | `{data, status, observacao}` — trilha de auditoria, apenas acrescentar |
 | `ultima_verificacao` | data | sim | Data da última consulta às fontes |
-| `ultima_atualizacao` | data | sim | Data da última alteração de conteúdo do registro |
+| `ultima_atualizacao` | data | sim | Data da última alteração de conteúdo do registro. Nunca posterior a `ultima_verificacao`: conteúdo novo pressupõe fonte consultada |
 | `observacoes` | string | sim | Divergências entre fontes, ressalvas, alertas. Usar `"não informado"` se vazio |
 
 ## Regra de precedência de fontes

@@ -177,6 +177,10 @@ python3 ferramentas/coletar.py --fonte selecao-es  # apenas uma fonte
 # Valida estrutura, vocabulários, coerência de datas, escopo (ES) e duplicidade
 python3 ferramentas/validar.py
 
+# Encerra e move os registros cujo prazo de inscrição já passou
+python3 ferramentas/encerrar_vencidos.py
+python3 ferramentas/encerrar_vencidos.py --dry-run   # relata sem alterar
+
 # Regenera as tabelas deste README a partir de dados/
 python3 ferramentas/gerar_readme.py
 python3 ferramentas/gerar_readme.py --check   # falha se estiver desatualizado
@@ -219,16 +223,31 @@ ES > Run workflow**.
 
 A cada execução agendada ou manual, o workflow:
 
-1. valida os registros e confere se o README está sincronizado;
+1. encerra os registros cujo prazo de inscrição já passou;
 2. roda `coletar.py` e grava os achados em `descobertas/`;
 3. regenera as tabelas do README;
 4. gera o relatório diário — e o semanal na segunda-feira, o mensal no dia 1º;
 5. monta o resumo de e-mail e o envia, se houver novidade e SMTP configurado;
-6. commita o resultado no `main`;
+6. **revalida** tudo e só commita no `main` se a validação passar;
 7. abre uma issue quando a coleta encontra algo sem registro correspondente.
 
-Em pull request, só o passo de validação roda: o workflow nunca escreve no
+Em pull request e push, roda apenas a validação: o workflow nunca escreve no
 repositório a partir de um PR.
+
+### Encerramento automático de prazos
+
+O passo 1 existe porque o validador reprova — corretamente — um registro com
+status `inscricoes_abertas` e prazo vencido. Sem ele, o primeiro prazo a vencer
+travaria README, relatórios e e-mail exatamente no dia em que há novidade.
+
+A transição é **mecânica**: usa a data que já estava no registro e o calendário.
+Nenhuma fonte é consultada, e é isso que a entrada em `historico_status` declara.
+Por isso o passo não toca em `ultima_verificacao` nem em `ultima_atualizacao` —
+nada de novo foi apurado sobre a oportunidade.
+
+O limite: se a fonte **prorrogou** o prazo e ninguém atualizou o registro, o
+certame será encerrado indevidamente. A correção é mover o registro de volta ao
+reverificar a fonte, e a trilha deixa claro que a transição foi automática.
 
 > **Atenção com o agendamento.** O GitHub não garante o minuto exato da execução
 > agendada — em horários de fila, ela sai alguns minutos depois. E workflows
