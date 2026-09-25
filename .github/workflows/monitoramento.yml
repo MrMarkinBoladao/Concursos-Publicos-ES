@@ -45,14 +45,20 @@ on:
 permissions:
   contents: read
 
+# Sobre 'runs-on: ubuntu-latest': o GitHub avisa que o label migra de versao de
+# tempo em tempo. A escolha e deliberada — aqui so rodam Python da biblioteca
+# padrao, git e gh, sem dependencia de versao do sistema. Fixar uma imagem
+# (ubuntu-24.04) trocaria um risco pequeno de mudanca por um risco pior: quando o
+# GitHub retira a imagem fixada, a execucao agendada quebra de vez, e ninguem esta
+# olhando para um cron diario.
 jobs:
   validar:
     name: Validar dados
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
 
@@ -76,9 +82,9 @@ jobs:
       arquivo_email: ${{ steps.email.outputs.arquivo }}
       novos_achados: ${{ steps.coleta.outputs.novos }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
 
@@ -203,7 +209,7 @@ jobs:
     if: needs.atualizar.outputs.tem_novidade == 'true'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: main
 

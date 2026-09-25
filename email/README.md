@@ -1,7 +1,9 @@
 # Resumos de e-mail
 
 Arquivos `AAAA-MM-DD-resumo.md` gerados por `ferramentas/gerar_email.py`,
-organizados por prioridade temporal:
+organizados por prioridade temporal. **Seção sem conteúdo não entra no resumo** e
+a numeração acompanha apenas as seções presentes — um e-mail com seis "sem
+novidades" esconde a única linha que importa. A ordem de prioridade é:
 
 1. Inscrições encerrando em breve (até 10 dias)
 2. Concursos com inscrições abertas
