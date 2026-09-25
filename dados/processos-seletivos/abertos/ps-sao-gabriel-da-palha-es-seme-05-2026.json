@@ -1,0 +1,96 @@
+{
+  "id": "ps-sao-gabriel-da-palha-es-seme-05-2026",
+  "orgao": "Prefeitura Municipal de São Gabriel da Palha - Secretaria Municipal de Educação",
+  "orgao_sigla": "PMSGP",
+  "esfera": "municipal",
+  "municipio": "São Gabriel da Palha",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Servente",
+      "area": "Educação - apoio",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental incompleto (séries iniciais)",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 1.140,47",
+      "jornada": "44 horas semanais"
+    },
+    {
+      "nome": "Merendeira",
+      "area": "Educação - alimentação escolar",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental incompleto (séries iniciais)",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 1.140,47",
+      "jornada": "44 horas semanais"
+    },
+    {
+      "nome": "Cuidador",
+      "area": "Educação - apoio",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio",
+      "requisitos": "não informado",
+      "remuneracao": "R$ 1.242,43",
+      "jornada": "44 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 0,
+  "cadastro_reserva": true,
+  "escolaridade": "nível fundamental incompleto e nível médio",
+  "remuneracao": {
+    "minima": 1140.47,
+    "maxima": 1242.43,
+    "descricao": "R$ 1.140,47 para Servente e Merendeira e R$ 1.242,43 para Cuidador, em jornada de 44 horas semanais"
+  },
+  "beneficios": [],
+  "jornada": "44 horas semanais",
+  "edital_numero": "Edital nº 05/2026",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": "2026-10-01",
+    "fim": "2026-10-08",
+    "taxa": "não informado",
+    "local": "Secretaria Municipal de Educação de São Gabriel da Palha (atendimento presencial)",
+    "isencao": "não informado",
+    "observacao": "Inscrições presenciais na Secretaria Municipal de Educação, de 1º a 8 de outubro de 2026, das 7h às 18h de segunda a quinta-feira e das 7h às 13h na sexta-feira. Exige entrega de cópias de documento de identidade, CPF, comprovante de escolaridade e certificados de títulos a serem pontuados."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "Avaliação de títulos - 0,5 ponto por mês de trabalho na área pretendida, até 10 pontos",
+      "Pontuação por formação escolar - pós-graduação (especialização) na área pleiteada 12 pontos; especialização em área correlata 10 pontos; graduação na área pleiteada 8 pontos"
+    ],
+    "observacao": "Classificação exclusivamente por avaliação de títulos, sem prova objetiva."
+  },
+  "banca": "não informado",
+  "status": "edital_publicado",
+  "regime": "designacao_temporaria",
+  "validade": "não informado",
+  "links": {
+    "edital": "não informado",
+    "pagina_oficial": "https://www.saogabriel.es.gov.br/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Prefeitura de São Gabriel da Palha (ES) abre vagas na área da Educação",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/09/25/prefeitura-de-sao-gabriel-da-palha-es-abre-vagas-na-area-da-educacao/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-09-25"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-25",
+      "status": "edital_publicado",
+      "observacao": "Primeiro registro no repositório. Edital nº 05/2026 da Secretaria Municipal de Educação divulgado para cadastro de reserva; inscrições previstas para 1º a 8/10/2026."
+    }
+  ],
+  "ultima_verificacao": "2026-09-25",
+  "ultima_atualizacao": "2026-09-25",
+  "observacoes": "Inscrições ainda não iniciadas (1º a 8/10/2026), por isso o status é 'edital_publicado'. PENDÊNCIA DE CONFERÊNCIA: não foi localizada a página oficial do edital nº 05/2026 — o site da Prefeitura não expõe listagem de processos seletivos acessível na verificação de 25/09/2026 (as URLs de processos seletivos/concursos retornaram HTTP 404) e a publicação apontada pela fonte é o Diário Oficial dos Municípios do ES (ioes.dio.es.gov.br/dom), não conferido item a item. Dados vindos do portal Concursos no Brasil. Seleção exclusivamente para cadastro de reserva, daí vagas_imediatas_total = 0. Taxa de inscrição, data de publicação e validade não informadas."
+}

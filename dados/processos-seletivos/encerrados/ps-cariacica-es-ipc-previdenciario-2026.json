@@ -1,0 +1,110 @@
+{
+  "id": "ps-cariacica-es-ipc-previdenciario-2026",
+  "orgao": "Instituto de Previdência dos Servidores Públicos do Município de Cariacica",
+  "orgao_sigla": "IPC",
+  "esfera": "municipal",
+  "municipio": "Cariacica",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Analista Previdenciário - Administração",
+      "area": "Administração / previdência",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "não informado — faixa do certame de R$ 3.675,00 a R$ 5.775,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Analista Previdenciário - Direito",
+      "area": "Direito / previdência",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "não informado — faixa do certame de R$ 3.675,00 a R$ 5.775,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Contador Previdenciário",
+      "area": "Contabilidade / previdência",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "não informado",
+      "remuneracao": "não informado — faixa do certame de R$ 3.675,00 a R$ 5.775,00",
+      "jornada": "40 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 4,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 3675.0,
+    "maxima": 5775.0,
+    "descricao": "R$ 3.675,00 a R$ 5.775,00 para jornada de 40 horas semanais, conforme o cargo"
+  },
+  "beneficios": [],
+  "jornada": "40 horas semanais",
+  "edital_numero": "não informado",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": null,
+    "fim": "2026-09-24",
+    "taxa": "não informado",
+    "local": "https://prosel.cariacica.es.gov.br/public/",
+    "isencao": "não informado",
+    "observacao": "Inscrições exclusivamente pelo portal de seleções da Prefeitura de Cariacica, até às 10h de 24/09/2026. Data de abertura não informada pelas fontes consultadas."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "não informado",
+  "links": {
+    "edital": "não informado",
+    "pagina_oficial": "https://prosel.cariacica.es.gov.br/public/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "A Gazeta - Instituto de Previdência de Cariacica abre seleção com salários de até R$ 5,7 mil",
+      "url": "https://www.agazeta.com.br/concursos/instituto-de-previdencia-de-cariacica-abre-selecao-com-salarios-de-ate-r-5-7-mil-0926",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-25"
+    },
+    {
+      "titulo": "A Tribuna Online - Processo seletivo com salários de até R$ 5,7 mil em Cariacica",
+      "url": "https://tribunaonline.com.br/concursos/processo-seletivo-com-salarios-de-ate-r-57-mil-em-cariacica-330972",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-25"
+    },
+    {
+      "titulo": "Seleção Online - Prefeitura Municipal de Cariacica (portal de inscrições)",
+      "url": "https://prosel.cariacica.es.gov.br/public/",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-25"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-24",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 10h, conforme o cronograma divulgado pela imprensa."
+    },
+    {
+      "data": "2026-09-25",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, já com inscrições encerradas — registrado para histórico e para permitir alerta antecipado em edições futuras da seleção."
+    }
+  ],
+  "ultima_verificacao": "2026-09-25",
+  "ultima_atualizacao": "2026-09-25",
+  "observacoes": "Seleção localizada apenas após o encerramento das inscrições. DIVERGÊNCIA de prazo: o texto da reportagem de A Gazeta informa 'até as 10 horas do dia 24 de setembro', enquanto a chamada da mesma reportagem na página de Concursos do veículo cita 'até o dia 25 de setembro'; adotada a data do corpo da matéria (24/09/2026), corroborada pelo portal oficial de seleções de Cariacica, que em 25/09/2026 não exibia nenhum processo seletivo com inscrições abertas. PENDÊNCIA: número do edital, data de publicação, distribuição das 4 vagas imediatas entre os três cargos, etapas e validade não localizados — o portal oficial carrega a listagem dinamicamente e não expôs o edital nas consultas feitas. Registro sustentado por imprensa quanto ao conteúdo; a fonte oficial confirma apenas a inexistência de inscrições abertas na data da verificação."
+}

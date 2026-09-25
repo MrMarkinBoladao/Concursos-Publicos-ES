@@ -1,0 +1,101 @@
+{
+  "id": "ps-santa-teresa-es-magisterio-007-008-2026",
+  "orgao": "Prefeitura Municipal de Santa Teresa - Secretaria Municipal de Educação",
+  "orgao_sigla": "PMST",
+  "esfera": "municipal",
+  "municipio": "Santa Teresa",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Professor habilitado do magistério - Educação Infantil; Ensino Fundamental Anos Iniciais; Escolas do Campo Multisseriadas; Escolas de Tempo Integral; Escola de Assentamento; Ensino Fundamental Anos Finais; Coordenação de Turno; Pedagogo; Educação Especial (edital 007/2026)",
+      "area": "Educação",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Habilitação no magistério na área de atuação pretendida",
+      "remuneracao": "R$ 3.238,71 a R$ 4.301,84, conforme o nível, mais vale-alimentação de R$ 800,00",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Professor MaPB não habilitado - Língua Portuguesa, Matemática, Ciências, História, Geografia, Arte, Língua Estrangeira (Italiano e Inglês) e Ensino Religioso (edital 008/2026)",
+      "area": "Educação",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "não informado",
+      "requisitos": "Destinado a profissionais não habilitados do magistério nos componentes curriculares indicados",
+      "remuneracao": "R$ 3.164,15 na referência nível I - PB, mais vale-alimentação de R$ 800,00",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": 0,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior (edital 007/2026) e não informado (edital 008/2026)",
+  "remuneracao": {
+    "minima": 3164.15,
+    "maxima": 4301.84,
+    "descricao": "R$ 3.164,15 (nível I - PB, edital 008/2026) a R$ 4.301,84 (edital 007/2026), mais vale-alimentação de R$ 800,00"
+  },
+  "beneficios": [
+    "Vale-alimentação de R$ 800,00"
+  ],
+  "jornada": "não informado",
+  "edital_numero": "Editais nº 007/2026 e nº 008/2026",
+  "publicacao": "2026-09-21",
+  "inscricoes": {
+    "inicio": "2026-09-24",
+    "fim": "2026-09-30",
+    "taxa": "não informado",
+    "local": "https://www.santateresa.es.gov.br/",
+    "isencao": "não informado",
+    "observacao": "Inscrições exclusivamente pela internet, a partir das 8h de 24/09/2026 até 30/09/2026, no endereço eletrônico da Prefeitura. Horário limite do último dia não informado pelas fontes consultadas."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [],
+    "observacao": "não informado"
+  },
+  "banca": "não informado",
+  "status": "inscricoes_abertas",
+  "regime": "designacao_temporaria",
+  "validade": "Seleção destinada ao ano letivo de 2027",
+  "links": {
+    "edital": "https://www.santateresa.es.gov.br/noticias-individual/2164/prefeitura-de-santa-teresa-abre-processos-seletivos-para-profissionais-do-magisterio-para-o-ano-letivo-de-2027",
+    "pagina_oficial": "https://www.santateresa.es.gov.br/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Prefeitura de Santa Teresa abre processos seletivos para profissionais do magistério para o ano letivo de 2027",
+      "url": "https://www.santateresa.es.gov.br/noticias-individual/2164/prefeitura-de-santa-teresa-abre-processos-seletivos-para-profissionais-do-magisterio-para-o-ano-letivo-de-2027",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-25"
+    },
+    {
+      "titulo": "Prefeitura de Santa Teresa (ES) divulga editais de processo seletivo",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/09/21/prefeitura-de-santa-teresa-es-divulga-editais-de-processo-seletivo/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-09-25"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-21",
+      "status": "edital_publicado",
+      "observacao": "Publicação dos editais 007/2026 e 008/2026 para formação de cadastro de reserva do magistério."
+    },
+    {
+      "data": "2026-09-24",
+      "status": "inscricoes_abertas",
+      "observacao": "Início das inscrições, às 8h, pela internet."
+    },
+    {
+      "data": "2026-09-25",
+      "status": "inscricoes_abertas",
+      "observacao": "Primeiro registro no repositório. Achado detectado pela coleta automática em 23/09/2026 e promovido após conferência na página oficial da Prefeitura."
+    }
+  ],
+  "ultima_verificacao": "2026-09-25",
+  "ultima_atualizacao": "2026-09-25",
+  "observacoes": "PRAZO CURTO: inscrições encerram em 30/09/2026. Dois editais tratados em um único registro porque compõem a mesma seleção do magistério para o ano letivo de 2027, seguindo o critério já usado no registro ps-vitoria-es-professores-007-008-2026. A página oficial confirma a abertura e disponibiliza os dois editais em PDF, mas os arquivos são digitalizações sem camada de texto: cargos, remuneração e prazo aqui registrados vêm do texto da notícia oficial e do portal Concursos no Brasil, não da leitura do edital íntegro. Seleção exclusivamente para cadastro de reserva, daí vagas_imediatas_total = 0. Jornada, taxa e etapas de classificação não informadas pelas fontes consultadas."
+}

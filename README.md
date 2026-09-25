@@ -20,13 +20,13 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **24/09/2026** |
-| Oportunidades monitoradas | 37 |
-| Com inscrições abertas | 10 |
-| Vagas imediatas em aberto | 432 |
+| Última verificação das fontes | **25/09/2026** |
+| Oportunidades monitoradas | 44 |
+| Com inscrições abertas | 15 |
+| Vagas imediatas em aberto | 442 |
 | Concursos previstos / autorizados | 16 |
-| Registros históricos (encerrados ou em andamento) | 11 |
-| Descobertas automáticas pendentes de conferência | 9 |
+| Registros históricos (encerrados ou em andamento) | 13 |
+| Descobertas automáticas pendentes de conferência | 8 |
 
 ## Concursos com inscrições abertas
 
@@ -62,12 +62,17 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Inscrições até | Fonte |
 | ----- | ----- | ----: | -------------- | ----- |
-| PMC/SEME | Professor; Pedagogo e mais 4 cargos | CR | 24/09/2026 **(encerra em 0 dias)** | [fonte](https://educacao.castelo.es.gov.br/processos-seletivos) |
-| PMV/SEGES | Professor de Educação Básica (diversas áreas) | 310 + CR | 27/09/2026 **(encerra em 3 dias)** | [fonte](https://integrado.selecao.net.br/informacoes/255/) |
-| PMV/SEGES | Professor de Educação Básica Especial - Bilíngue (Libras); Professor de Educação Básica Especial - Deficiência Visual | 25 + CR | 27/09/2026 **(encerra em 3 dias)** | [fonte](https://integrado.selecao.net.br/informacoes/256/) |
-| SEDU | CASF - Coordenador de Atendimento e Suporte às Famílias | não informado | 30/09/2026 (encerra em 6 dias) | [fonte](https://selecao.es.gov.br/) |
-| SEDU | Coordenador Pedagógico | não informado | 30/09/2026 (encerra em 6 dias) | [fonte](https://selecao.es.gov.br/) |
-| SEDU | Diretor Escolar | não informado | 30/09/2026 (encerra em 6 dias) | [fonte](https://selecao.es.gov.br/) |
+| PMV/SEGES | Professor de Educação Básica (diversas áreas) | 310 + CR | 27/09/2026 **(encerra em 2 dias)** | [fonte](https://integrado.selecao.net.br/informacoes/255/) |
+| PMV/SEGES | Professor de Educação Básica Especial - Bilíngue (Libras); Professor de Educação Básica Especial - Deficiência Visual | 25 + CR | 27/09/2026 **(encerra em 2 dias)** | [fonte](https://integrado.selecao.net.br/informacoes/256/) |
+| PMAC | Merendeira | CR | 28/09/2026 **(encerra em 3 dias)** | [fonte](https://www.afonsoclaudio.es.gov.br/site/edital-no-001-2026-processo-seletivo-simplificado-para-merendeira/) |
+| PMS/SESA | Auxiliar de Saúde Bucal; Técnico em Saúde Bucal e mais 5 cargos | CR | 29/09/2026 (encerra em 4 dias) | [fonte](https://selecao.serra.es.gov.br/) |
+| PMI/SEME | Professor MAPA, MAPB e MAPP (Educação Infantil, Ensino Fundamental...; Berçarista e mais 7 cargos | 10 + CR | 30/09/2026 (encerra em 5 dias) | [fonte](https://www.ibiracu.es.gov.br/uploads/2026-09-18-15-42-25-retificado---edital-no-014---2026---processo-seletivo---seme----diversos-cargos.pdf) |
+| PMST | Professor habilitado do magistério - Educação Infantil; Ensino Fund...; Professor MaPB não habilitado - Língua Portuguesa, Matemática, Ciên... | CR | 30/09/2026 (encerra em 5 dias) | [fonte](https://www.santateresa.es.gov.br/noticias-individual/2164/prefeitura-de-santa-teresa-abre-processos-seletivos-para-profissionais-do-magisterio-para-o-ano-letivo-de-2027) |
+| SEDU | CASF - Coordenador de Atendimento e Suporte às Famílias | não informado | 30/09/2026 (encerra em 5 dias) | [fonte](https://selecao.es.gov.br/) |
+| SEDU | Coordenador Pedagógico | não informado | 30/09/2026 (encerra em 5 dias) | [fonte](https://selecao.es.gov.br/) |
+| SEDU | Diretor Escolar | não informado | 30/09/2026 (encerra em 5 dias) | [fonte](https://selecao.es.gov.br/) |
+| PMG/SEMTAC | Motorista; Orientador / Educador Social e mais 3 cargos | CR | 02/10/2026 (encerra em 7 dias) | [fonte](https://www.guarapari.es.gov.br/selecao/detalhes/222/edital-de-processo-seletivo-semtac-n-002-2026) |
+| PMSGP | Servente; Merendeira e mais 1 cargo | CR | 08/10/2026 | [fonte](https://www.saogabriel.es.gov.br/) |
 
 ## Histórico (inscrições encerradas)
 
@@ -77,6 +82,8 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | Órgão | Cargo | Vagas | Situação | Encerrou em | Fonte |
 | ----- | ----- | ----: | -------- | ----------- | ----- |
 | PMA/SEMGE | Diversos cargos das áreas Administrativa, Saúde, Fiscalização, Enge... | CR | Prova realizada | não informado | [fonte](https://idcap.selecao.net.br/informacoes/227/) |
+| IPC | Analista Previdenciário - Administração e mais 2 cargos | 4 + CR | Inscrições encerradas | 24/09/2026 | [fonte](https://prosel.cariacica.es.gov.br/public/) |
+| PMC/SEME | Professor e mais 5 cargos | CR | Inscrições encerradas | 24/09/2026 | [fonte](https://educacao.castelo.es.gov.br/processos-seletivos) |
 | Prefeitura Municipal de Ibiraçu | Professor e Professor Pedagogo (escolas de tempo integral) | 1 + CR | Inscrições encerradas | 21/09/2026 | [fonte](https://educacao.ibiracu.sisp.com.br) |
 | PMF/SEMAD | Técnico de Segurança do Trabalho e mais 3 cargos | CR | Inscrições encerradas | 18/09/2026 | [fonte](https://www.fundao.es.gov.br/) |
 | CIM Polinorte | Analista Técnico em Meio Ambiente, Auxiliar Administrativo (Rede Cu... | 5 + CR | Inscrições encerradas | 16/09/2026 | [fonte](https://tribunaonline.com.br/concursos/doze-novos-concursos-com-451-vagas-no-es-330678) |
@@ -105,9 +112,8 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | PMES | [DS/PMES EDITAL 002/2026 - Processo Seletivo para Contratação de Médico Psiquiatra DT](https://selecao.es.gov.br/processo-seletivo/31ecf819-cee1-4b39-92f9-8d2d4d94d517/dspmes-edital-0022026-processo-seletivo-contratacao-medico-psiquiatra-dt) | Inscrições encerradas | 16/07/2026 | oficial |
 | SESM | [SESM - PROCESSO SELETIVO - EDITAL nº 01/2026 - TECNICO DE NIVEL SUPERIOR.](https://selecao.es.gov.br/processo-seletivo/5db44a7f-5d7a-4d75-953d-b5880ed2dedf/sesm-processo-seletivo-edital-n-012026-tecnico-nivel-superior) | Inscrições encerradas | 04/07/2026 | oficial |
 | ARIES | [ARIES](https://concursosnobrasil.com/concursos/es/2026/02/03/aries-es-divulga-edital-de-processo-seletivo-com-salario-de-r-4-mil/) | não informado | não informado | portal_concursos |
-| Prefeitura de Santa Teresa | [Prefeitura de Santa Teresa](https://concursosnobrasil.com/concursos/es/2026/09/21/prefeitura-de-santa-teresa-es-divulga-editais-de-processo-seletivo/) | não informado | não informado | portal_concursos |
 
-_Dados atualizados em 24/09/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 25/09/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
@@ -178,6 +184,14 @@ python3 ferramentas/gerar_readme.py --check   # falha se estiver desatualizado
 # Monta o resumo de e-mail, sem repetir informação já enviada
 python3 ferramentas/gerar_email.py
 python3 ferramentas/gerar_email.py --forcar   # ignora o estado anterior
+
+# Gera os relatórios de relatorios/ (período sempre fechado)
+python3 ferramentas/gerar_relatorio.py                 # diário de hoje
+python3 ferramentas/gerar_relatorio.py --tipo semanal   # última semana fechada
+python3 ferramentas/gerar_relatorio.py --tipo mensal    # último mês fechado
+
+# Envia por SMTP o resumo já gerado (credenciais só por variável de ambiente)
+python3 ferramentas/enviar_email.py
 ```
 
 O validador distingue **erros** (reprovam: JSON inválido, status incoerente com o
@@ -188,12 +202,52 @@ divergente do total declarado).
 O gerador de e-mail guarda uma impressão digital dos campos relevantes de cada
 oportunidade em `email/.estado-envios.json`. Reencontrar a mesma oportunidade sem
 alteração **não** gera novo alerta; mudança de prazo, de vagas, de banca ou de
-status gera.
+status gera. O resumo também traz, em seção separada e rotulada como não
+conferida, os achados novos da coleta que ainda não têm registro curado — desde
+que o prazo de inscrição não tenha vencido.
+
+O gerador de relatórios nunca sobrescreve um relatório escrito à mão: ele
+reconhece os arquivos que ele mesmo produziu por uma marca no rodapé. Detalhes em
+[`relatorios/README.md`](relatorios/README.md).
+
+## Automação
+
+O workflow em `.github/workflows/monitoramento.yml` roda **todos os dias às 8h**
+(horário de Brasília; `cron: "0 11 * * *"`, porque o agendamento do GitHub usa
+UTC) e também pode ser disparado à mão em **Actions > Monitoramento de concursos
+ES > Run workflow**.
+
+A cada execução agendada ou manual, o workflow:
+
+1. valida os registros e confere se o README está sincronizado;
+2. roda `coletar.py` e grava os achados em `descobertas/`;
+3. regenera as tabelas do README;
+4. gera o relatório diário — e o semanal na segunda-feira, o mensal no dia 1º;
+5. monta o resumo de e-mail e o envia, se houver novidade e SMTP configurado;
+6. commita o resultado no `main`;
+7. abre uma issue quando a coleta encontra algo sem registro correspondente.
+
+Em pull request, só o passo de validação roda: o workflow nunca escreve no
+repositório a partir de um PR.
+
+> **Atenção com o agendamento.** O GitHub não garante o minuto exato da execução
+> agendada — em horários de fila, ela sai alguns minutos depois. E workflows
+> agendados de repositório público podem ser desativados automaticamente após
+> longos períodos sem atividade; se isso acontecer, o GitHub avisa por e-mail e
+> basta reativar em Actions.
+
+### O que a automação não faz
+
+A coleta encontra **pistas**; ela não produz registro curado. Preencher os cerca
+de 30 campos do esquema exige abrir o edital, ler o quadro de cargos e decidir o
+que fazer quando duas fontes divergem. Isso não é raspagem: é leitura e
+julgamento. O workflow, por isso, para na issue e no e-mail de alerta — a
+promoção de um achado a registro em `dados/` continua sendo trabalho humano
+(ou de uma sessão de agente), disparado por quem lê o alerta.
 
 ## Coleta automática
 
-O workflow em `.github/workflows/monitoramento.yml` roda duas vezes por dia e
-executa `ferramentas/coletar.py`, que consulta:
+`ferramentas/coletar.py` consulta:
 
 | Fonte | Tipo | O que entrega |
 | ----- | ---- | ------------- |
@@ -215,6 +269,61 @@ achado e passa a marcá-lo como `no_repositorio`.
 
 Uma fonte fora do ar **não interrompe** a execução — o erro fica registrado em
 `fontes_consultadas` e vira aviso do validador.
+
+## Alertas por e-mail
+
+O e-mail sai na execução das 8h **somente quando há novidade**: oportunidade nova,
+mudança de prazo, de vagas, de banca ou de status, ou achado novo da coleta ainda
+não conferido. Nada mudou, nada é enviado — e o mesmo item não é reenviado sem
+alteração.
+
+O resumo é gravado em `email/AAAA-MM-DD-resumo.md` e versionado, então o histórico
+de alertas fica auditável mesmo que o envio falhe.
+
+### Configurar
+
+Em **Settings > Secrets and variables > Actions > New repository secret**:
+
+| Secret | Obrigatório | Conteúdo |
+| ------ | ----------- | -------- |
+| `SMTP_SERVIDOR` | sim | host do servidor SMTP |
+| `SMTP_USUARIO` | sim | usuário de autenticação |
+| `SMTP_SENHA` | sim | senha de aplicativo ou token SMTP |
+| `EMAIL_DESTINATARIO` | sim | quem recebe; vários separados por vírgula |
+| `SMTP_PORTA` | não | `587` (STARTTLS, padrão) ou `465` (SSL) |
+| `EMAIL_REMETENTE` | não | padrão: o próprio `SMTP_USUARIO` |
+
+Sem esses secrets o workflow **não falha**: ele registra um aviso e segue, com o
+resumo gerado no repositório mas sem envio.
+
+O destinatário vai em *secret*, não em *variable*, porque este repositório é
+público — e os logs de execução também. Secret aparece mascarado no log; variable
+aparece em texto puro. Por isso nenhum endereço de e-mail é escrito no workflow
+nem em arquivo versionado.
+
+### Sobre o remetente
+
+Receber em qualquer endereço funciona, inclusive Proton Mail. **Enviar** pelo
+Proton, não: contas pessoais só acessam SMTP pelo Proton Mail Bridge, que é um
+aplicativo de desktop e não roda no GitHub Actions, e os tokens de SMTP do Proton
+exigem plano Business com domínio próprio
+([documentação do Proton](https://proton.me/support/smtp-submission)).
+
+Use como remetente uma conta que ofereça SMTP direto — Gmail com senha de
+aplicativo, ou um serviço transacional (Brevo, Resend, Mailgun e similares têm
+plano gratuito) — e deixe o endereço Proton apenas em `EMAIL_DESTINATARIO`.
+
+### Testar antes de esperar as 8h
+
+```bash
+export SMTP_SERVIDOR=... SMTP_USUARIO=... SMTP_SENHA=...
+export EMAIL_DESTINATARIO=voce@exemplo.com
+python3 ferramentas/gerar_email.py --forcar   # gera o resumo do dia
+python3 ferramentas/enviar_email.py           # envia
+```
+
+Pelo GitHub: **Actions > Monitoramento de concursos ES > Run workflow**, marcando
+`forcar_email` para ignorar o estado de envios e montar um resumo cheio.
 
 ## Rotina de atualização
 

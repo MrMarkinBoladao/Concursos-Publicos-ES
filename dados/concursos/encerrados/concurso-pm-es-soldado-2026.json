@@ -53,9 +53,12 @@
   "prova": {
     "objetiva": "2026-09-27",
     "outras_etapas": [
-      "Prova de redação — 27/09/2026, mesmo dia da objetiva"
+      "Prova de redação — 27/09/2026, mesmo dia da objetiva",
+      "Exames de saúde",
+      "Investigação social",
+      "Curso de formação de 11 meses"
     ],
-    "observacao": "Data da prova originalmente prevista para antes de setembro e adiada para 27/09/2026 em razão da prorrogação das inscrições. Provas aplicadas em diversas regiões do Espírito Santo."
+    "observacao": "Prova objetiva e de redação confirmadas para 27/09/2026. A objetiva tem 80 questões: Língua Portuguesa (20), Raciocínio Lógico e Matemático (20), Geografia (20) e História (20). Aplicação em turnos distintos no mesmo dia: Soldado Músico das 8h às 13h (portões às 7h) e Soldado Combatente das 15h às 20h (portões às 14h). Provas na Grande Vitória e em nove municípios do interior — Alegre, Aracruz, Barra de São Francisco, Cachoeiro de Itapemirim, Colatina, Linhares, Nova Venécia, São Mateus e Venda Nova do Imigrante —, com locais individuais divulgados na Área do Candidato do IDECAN. Data originalmente prevista para antes de setembro e adiada em razão da prorrogação das inscrições."
   },
   "banca": "IDECAN",
   "status": "inscricoes_encerradas",
@@ -90,6 +93,12 @@
       "url": "https://magistrarcursos.com.br/blog/concurso-pm-es/",
       "tipo": "imprensa",
       "consultado_em": "2026-09-22"
+    },
+    {
+      "titulo": "A Gazeta - Quase 25 mil candidatos fazem prova da PM neste domingo (27) no ES",
+      "url": "https://www.agazeta.com.br/concursos/quase-25-mil-candidatos-fazem-prova-da-pm-neste-domingo-mas-os-aprovados-so-chegam-as-ruas-em-0926",
+      "tipo": "imprensa",
+      "consultado_em": "2026-09-25"
     }
   ],
   "historico_status": [
@@ -124,7 +133,7 @@
       "observacao": "Primeiro registro no repositório. Prova objetiva agendada para 27/09/2026."
     }
   ],
-  "ultima_verificacao": "2026-09-22",
-  "ultima_atualizacao": "2026-09-22",
-  "observacoes": "ETAPA IMINENTE: prova objetiva e de redação marcadas para 27/09/2026, cinco dias após esta verificação — acompanhar a divulgação dos locais de prova no site do IDECAN. Registro mantido em 'encerrados' porque o critério de diretório é o status das inscrições, não o encerramento do certame: o concurso segue em andamento. Número do edital e URL direta não confirmados; consultar o site do IDECAN e da PMES. Havia notícia (23/04/2026) de autorização de 3 certames para praças, incluindo PM ES Saúde — os demais, se confirmados, devem gerar registros próprios."
+  "ultima_verificacao": "2026-09-25",
+  "ultima_atualizacao": "2026-09-25",
+  "observacoes": "ETAPA IMINENTE: prova objetiva e de redação em 27/09/2026, dois dias após esta verificação, confirmadas pela PMES por meio de A Gazeta em 23/09/2026. O certame teve 24.838 inscritos — 24.653 para as 1.000 vagas de Soldado Combatente (cerca de 25 candidatos por vaga) e 185 para as 8 vagas de Soldado Músico. Segundo o comandante-geral da corporação, os aprovados só devem entrar em serviço por volta de 2028, após exames, investigação social e 11 meses de curso de formação. Registro mantido em 'encerrados' porque o critério de diretório é o status das inscrições, não o encerramento do certame: o concurso segue em andamento. Número do edital e URL direta não confirmados; consultar o site do IDECAN e da PMES. Havia notícia (23/04/2026) de autorização de 3 certames para praças, incluindo PM ES Saúde — os demais, se confirmados, devem gerar registros próprios."
 }

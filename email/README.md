@@ -9,8 +9,16 @@ organizados por prioridade temporal:
 4. Processos seletivos
 5. Concursos previstos e autorizados
 6. Outras atualizações — ordenadas pela próxima etapa (prova mais próxima primeiro)
+7. Detectado automaticamente — achados da coleta ainda sem registro conferido
 
 Cada item traz link direto para a fonte oficial.
+
+A seção 7 é a única que não vem de `dados/`: são achados de
+`descobertas/descobertas.json` que ainda não passaram por conferência de edital.
+Entram no resumo apenas os detectados nos últimos 7 dias, sem registro curado
+correspondente e com prazo de inscrição ainda em aberto — uma seleção já encerrada
+não é novidade útil. Cada achado é anunciado **uma vez**: a chave fica guardada em
+`.estado-envios.json`.
 
 ## Como o reenvio é evitado
 
@@ -37,5 +45,8 @@ credencial, endereço de e-mail ou dado pessoal**.
 ## Envio
 
 Este diretório guarda os resumos **preparados**. O envio em si é feito pelo
-workflow `.github/workflows/monitoramento.yml`, que lê as credenciais SMTP de
-GitHub Secrets. Nenhuma credencial fica no repositório.
+workflow `.github/workflows/monitoramento.yml`, na execução diária das 8h, que lê
+as credenciais SMTP de GitHub Secrets. Nenhuma credencial fica no repositório.
+
+A lista de secrets e a ressalva sobre remetente Proton estão na seção
+[Alertas por e-mail](../README.md#alertas-por-e-mail) do README principal.
