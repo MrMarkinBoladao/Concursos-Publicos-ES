@@ -98,14 +98,14 @@ jobs:
         with:
           python-version: "3.11"
 
-      # Primeiro passo de dados: vira o status dos registros cujo prazo de
-      # inscricao passou. E transicao mecanica, baseada na data que ja estava no
+      # Primeiro passo de dados: abre as inscricoes que comecaram e encerra as que
+      # venceram. Sao transicoes mecanicas, baseadas nas datas que ja estavam no
       # registro — nenhuma fonte e consultada aqui, e a trilha em
       # historico_status diz isso explicitamente.
-      - name: Encerrar inscricoes com prazo vencido
+      - name: Atualizar status conforme os prazos
         id: prazos
         run: |
-          python3 ferramentas/encerrar_vencidos.py \
+          python3 ferramentas/atualizar_prazos.py \
             --saida-github "$GITHUB_OUTPUT"
 
       # Coleta antes de gerar o README, para que as descobertas do dia entrem
