@@ -3,8 +3,8 @@
   "gerado_em": "2026-09-25",
   "janela_dias": 90,
   "total_achados": 21,
-  "ja_no_repositorio": 13,
-  "pendentes_de_curadoria": 8,
+  "ja_no_repositorio": 21,
+  "pendentes_de_curadoria": 0,
   "fontes_consultadas": [
     {
       "id": "concursosnobrasil-es",
@@ -41,8 +41,8 @@
       "fonte_tipo": "portal_concursos",
       "uf": "ES",
       "status_estimado": null,
-      "no_repositorio": false,
-      "registro_repositorio": null,
+      "no_repositorio": true,
+      "registro_repositorio": "ps-aries-es-analista-fiscalizacao-001-2026",
       "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
@@ -303,8 +303,8 @@
       "fonte_tipo": "oficial",
       "uf": "ES",
       "status_estimado": "inscricoes_encerradas",
-      "no_repositorio": false,
-      "registro_repositorio": null,
+      "no_repositorio": true,
+      "registro_repositorio": "ps-sesm-es-tecnico-superior-01-2026",
       "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
@@ -325,8 +325,8 @@
       "fonte_tipo": "oficial",
       "uf": "ES",
       "status_estimado": "inscricoes_encerradas",
-      "no_repositorio": false,
-      "registro_repositorio": null,
+      "no_repositorio": true,
+      "registro_repositorio": "ps-pmes-es-medico-psiquiatra-002-2026",
       "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
@@ -347,8 +347,8 @@
       "fonte_tipo": "oficial",
       "uf": "ES",
       "status_estimado": "inscricoes_encerradas",
-      "no_repositorio": false,
-      "registro_repositorio": null,
+      "no_repositorio": true,
+      "registro_repositorio": "ps-sedu-es-professores-habilitados-24-2026",
       "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
@@ -369,8 +369,8 @@
       "fonte_tipo": "oficial",
       "uf": "ES",
       "status_estimado": "inscricoes_encerradas",
-      "no_repositorio": false,
-      "registro_repositorio": null,
+      "no_repositorio": true,
+      "registro_repositorio": "ps-tjes-es-tic-01-2026",
       "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
@@ -391,8 +391,8 @@
       "fonte_tipo": "oficial",
       "uf": "ES",
       "status_estimado": "inscricoes_encerradas",
-      "no_repositorio": false,
-      "registro_repositorio": null,
+      "no_repositorio": true,
+      "registro_repositorio": "ps-sedu-es-apoio-escolar-cuidador-28-2026",
       "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
@@ -413,8 +413,8 @@
       "fonte_tipo": "oficial",
       "uf": "ES",
       "status_estimado": "inscricoes_encerradas",
-      "no_repositorio": false,
-      "registro_repositorio": null,
+      "no_repositorio": true,
+      "registro_repositorio": "ps-sedu-es-professores-tecnica-29-2026",
       "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },
@@ -435,8 +435,8 @@
       "fonte_tipo": "oficial",
       "uf": "ES",
       "status_estimado": "inscricoes_encerradas",
-      "no_repositorio": false,
-      "registro_repositorio": null,
+      "no_repositorio": true,
+      "registro_repositorio": "ps-sedu-es-professores-nao-habilitados-30-2026",
       "ultima_deteccao": "2026-09-25",
       "primeira_deteccao": "2026-09-23"
     },

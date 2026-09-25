@@ -59,11 +59,12 @@ Mudança de status **move o arquivo** entre diretórios, preservando o `id` e ac
 uma entrada em `historico_status`. O registro antigo nunca é apagado.
 
 Uma transição é **mecânica** quando decorre apenas de dado já presente no registro e da
-passagem do tempo — o caso é `inscricoes_abertas` → `inscricoes_encerradas` quando
-`inscricoes.fim` fica no passado, feito por `ferramentas/encerrar_vencidos.py`. Nesse caso
-`ultima_verificacao` e `ultima_atualizacao` **não mudam**, porque nenhuma fonte foi
-consultada e nada de novo foi apurado: só a entrada em `historico_status` é acrescentada,
-declarando que a transição foi automática.
+passagem do tempo. São duas, feitas por `ferramentas/atualizar_prazos.py`:
+`edital_publicado` → `inscricoes_abertas` quando `inscricoes.inicio` chega, e
+`inscricoes_abertas` → `inscricoes_encerradas` quando `inscricoes.fim` fica no passado.
+Nesses casos `ultima_verificacao` e `ultima_atualizacao` **não mudam**, porque nenhuma
+fonte foi consultada e nada de novo foi apurado: só a entrada em `historico_status` é
+acrescentada, declarando que a transição foi automática.
 
 ## Vocabulário de `esfera`
 

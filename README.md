@@ -21,12 +21,12 @@ efetivamente relacionada ao estado.
 | Indicador | Valor |
 | --------- | ----: |
 | Última verificação das fontes | **25/09/2026** |
-| Oportunidades monitoradas | 44 |
+| Oportunidades monitoradas | 53 |
 | Com inscrições abertas | 15 |
 | Vagas imediatas em aberto | 442 |
 | Concursos previstos / autorizados | 16 |
-| Registros históricos (encerrados ou em andamento) | 13 |
-| Descobertas automáticas pendentes de conferência | 8 |
+| Registros históricos (encerrados ou em andamento) | 22 |
+| Descobertas automáticas pendentes de conferência | 0 |
 
 ## Concursos com inscrições abertas
 
@@ -84,15 +84,24 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | PMA/SEMGE | Diversos cargos das áreas Administrativa, Saúde, Fiscalização, Enge... | CR | Prova realizada | não informado | [fonte](https://idcap.selecao.net.br/informacoes/227/) |
 | IPC | Analista Previdenciário - Administração e mais 2 cargos | 4 + CR | Inscrições encerradas | 24/09/2026 | [fonte](https://prosel.cariacica.es.gov.br/public/) |
 | PMC/SEME | Professor e mais 5 cargos | CR | Inscrições encerradas | 24/09/2026 | [fonte](https://educacao.castelo.es.gov.br/processos-seletivos) |
+| ARIES | Analista de Fiscalização e Regulação (Engenharia Civil, Sanitária o... | 1 + CR | Inscrições encerradas | 23/09/2026 | [fonte](https://aries.agr.br/transparencia/processos-seletivos/198-processo-seletivo-simplificado-no-003-2026) |
 | Prefeitura Municipal de Ibiraçu | Professor e Professor Pedagogo (escolas de tempo integral) | 1 + CR | Inscrições encerradas | 21/09/2026 | [fonte](https://educacao.ibiracu.sisp.com.br) |
 | PMF/SEMAD | Técnico de Segurança do Trabalho e mais 3 cargos | CR | Inscrições encerradas | 18/09/2026 | [fonte](https://www.fundao.es.gov.br/) |
 | CIM Polinorte | Analista Técnico em Meio Ambiente, Auxiliar Administrativo (Rede Cu... | 5 + CR | Inscrições encerradas | 16/09/2026 | [fonte](https://tribunaonline.com.br/concursos/doze-novos-concursos-com-451-vagas-no-es-330678) |
 | PMC/SEME | Professor, Pedagogo, Motorista D, Secretário Escolar, Assistente de... | CR | Inscrições encerradas | 15/09/2026 | [fonte](https://educacao.castelo.es.gov.br/processos-seletivos) |
 | Consórcio Caparaó | Analista Ambiental (incluindo Engenheiro Florestal, Engenheiro Civi... e mais 4 cargos | CR | Inscrições encerradas | 15/09/2026 | [fonte](https://tribunaonline.com.br/concursos/doze-novos-concursos-com-451-vagas-no-es-330678) |
 | SAMU 192/ES | Condutor Socorrista | CR | Inscrições encerradas | 13/09/2026 | [fonte](https://www.agazeta.com.br/concursos/es-tem-10-selecoes-e-concursos-abertos-com-salario-de-mais-de-r-6-mil-0926) |
+| SEDU | Professor não habilitado, a título precário (Educação Básica, EJA,... | CR | Inscrições encerradas | 02/09/2026 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/31865) |
+| SEDU | Professor de Educação Profissional Técnica de Nível Médio (por área... | CR | Inscrições encerradas | 26/08/2026 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/31973) |
+| SEDU | Profissional de Apoio Escolar (Cuidador) | CR | Inscrições encerradas | 21/08/2026 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/31768) |
+| TJES | Analista Judiciário - Desenvolvedor Full Stack e mais 10 cargos | 30 + CR | Inscrições encerradas | 16/08/2026 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/31682) |
+| SEDU | Professor MaPA e MaPB habilitado (Ensino Fundamental, Ensino Médio,... | CR | Inscrições encerradas | 12/08/2026 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32037) |
 | PMES | Soldado Combatente e mais 1 cargo | 1008 + CR | Inscrições encerradas | 10/08/2026 | [fonte](https://www.idecan.org.br/) |
+| DS/PMES | Médico Psiquiatra | 2 + CR | Inscrições encerradas | 16/07/2026 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/31581) |
+| SESM | Técnico de Nível Superior - Psicologia e mais 1 cargo | 2 + CR | Inscrições encerradas | 04/07/2026 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/31522) |
 | PMV/SEGES | Professor de Educação Básica III - Educação Especial: Bilíngue e mais 8 cargos | 143 + CR | Prova realizada | 21/04/2026 | [fonte](https://idcap.selecao.net.br/) |
 | MPES | Agente (diversas especialidades do quadro administrativo) | 60 + CR | Prova realizada | 09/04/2026 | [fonte](https://mpes.mp.br/noticias/2026/03/12/ministerio-publico-publica-edital-do-3o-concurso-publico-para-servidor-da-instituicao/) |
+| ARIES | Analista de Fiscalização e Regulação (Engenharia Civil, Sanitária o... | 1 + CR | Inscrições encerradas | 28/02/2026 | [fonte](https://aries.agr.br/transparencia/processos-seletivos/156-processo-seletivo-simplificado-no-001-2026) |
 | PCES | Oficial Investigador de Polícia | 1052 + CR | Prova realizada | 16/11/2025 | [fonte](https://pc.es.gov.br/concursos) |
 
 ## Detectado automaticamente — ainda não conferido
@@ -102,16 +111,7 @@ encerradas pode seguir em andamento nas etapas seguintes.
 > e por isso não estão nas tabelas acima. Trate como pista, não como dado.
 > Detalhes em [`descobertas/`](descobertas/).
 
-| Órgão | Oportunidade | Situação na fonte | Inscrições até | Fonte |
-| ----- | ------------ | ----------------- | -------------- | ----- |
-| SEDU | [SEDU - EDITAL 30/2026 - Professores Não Habilitados](https://selecao.es.gov.br/processo-seletivo/8e16fcd1-5849-4d79-a699-9a998286fc78/sedu-edital-302026-professores-nao-habilitados) | Inscrições encerradas | 02/09/2026 | oficial |
-| SEDU | [SEDU - EDITAL 29/2026 - Professores de Educação Profissional Técnica](https://selecao.es.gov.br/processo-seletivo/89ddd78b-d37d-49dc-831e-4dbb6b3c3033/sedu-edital-292026-professores-educacao-profissional-tecnica) | Inscrições encerradas | 26/08/2026 | oficial |
-| SEDU | [SEDU - EDITAL 28/2026 - Profissional de Apoio Escolar (Cuidador)](https://selecao.es.gov.br/processo-seletivo/0323e48a-a50e-4b55-9f94-b7cd807fc8fe/sedu-edital-282026-profissional-apoio-escolar-cuidador) | Inscrições encerradas | 21/08/2026 | oficial |
-| TJES | [PROCESSO SELETIVO SIMPLIFICADO/TJES Nº 01/2026](https://selecao.es.gov.br/processo-seletivo/6301e86a-9ec3-4462-b6fa-9e6e42c6a970/processo-seletivo-simplificadotjes-n-012026) | Inscrições encerradas | 16/08/2026 | oficial |
-| SEDU | [SEDU - EDITAL 24/2026 - Professores Habilitados](https://selecao.es.gov.br/processo-seletivo/c3c96fb9-7a5d-4748-8e58-7059ead9a6f3/sedu-edital-242026-professores-habilitados) | Inscrições encerradas | 12/08/2026 | oficial |
-| PMES | [DS/PMES EDITAL 002/2026 - Processo Seletivo para Contratação de Médico Psiquiatra DT](https://selecao.es.gov.br/processo-seletivo/31ecf819-cee1-4b39-92f9-8d2d4d94d517/dspmes-edital-0022026-processo-seletivo-contratacao-medico-psiquiatra-dt) | Inscrições encerradas | 16/07/2026 | oficial |
-| SESM | [SESM - PROCESSO SELETIVO - EDITAL nº 01/2026 - TECNICO DE NIVEL SUPERIOR.](https://selecao.es.gov.br/processo-seletivo/5db44a7f-5d7a-4d75-953d-b5880ed2dedf/sesm-processo-seletivo-edital-n-012026-tecnico-nivel-superior) | Inscrições encerradas | 04/07/2026 | oficial |
-| ARIES | [ARIES](https://concursosnobrasil.com/concursos/es/2026/02/03/aries-es-divulga-edital-de-processo-seletivo-com-salario-de-r-4-mil/) | não informado | não informado | portal_concursos |
+_Nenhuma pendência: tudo que as fontes automáticas listam já tem registro em `dados/`._
 
 _Dados atualizados em 25/09/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
@@ -177,9 +177,12 @@ python3 ferramentas/coletar.py --fonte selecao-es  # apenas uma fonte
 # Valida estrutura, vocabulários, coerência de datas, escopo (ES) e duplicidade
 python3 ferramentas/validar.py
 
-# Encerra e move os registros cujo prazo de inscrição já passou
-python3 ferramentas/encerrar_vencidos.py
-python3 ferramentas/encerrar_vencidos.py --dry-run   # relata sem alterar
+# Abre as inscrições que começaram e encerra as que venceram, conforme os prazos
+python3 ferramentas/atualizar_prazos.py
+python3 ferramentas/atualizar_prazos.py --dry-run   # relata sem alterar
+
+# Apura um processo do portal Seleção ES e baixa o edital (apoio à curadoria)
+python3 ferramentas/consultar_selecao_es.py <guid> --baixar
 
 # Regenera as tabelas deste README a partir de dados/
 python3 ferramentas/gerar_readme.py
@@ -223,7 +226,7 @@ ES > Run workflow**.
 
 A cada execução agendada ou manual, o workflow:
 
-1. encerra os registros cujo prazo de inscrição já passou;
+1. abre as inscrições que começaram e encerra as que venceram;
 2. roda `coletar.py` e grava os achados em `descobertas/`;
 3. regenera as tabelas do README;
 4. gera o relatório diário — e o semanal na segunda-feira, o mensal no dia 1º;
@@ -234,20 +237,37 @@ A cada execução agendada ou manual, o workflow:
 Em pull request e push, roda apenas a validação: o workflow nunca escreve no
 repositório a partir de um PR.
 
-### Encerramento automático de prazos
+### Transições automáticas de prazo
 
-O passo 1 existe porque o validador reprova — corretamente — um registro com
+Duas mudanças de status não dependem de consultar fonte alguma, porque a data que
+as dispara já está gravada no registro:
+
+| Transição | Dispara quando |
+| --------- | -------------- |
+| `edital_publicado` → `inscricoes_abertas` | `inscricoes.inicio` chega |
+| `inscricoes_abertas` → `inscricoes_encerradas` | `inscricoes.fim` passa |
+
+O encerramento existe porque o validador reprova — corretamente — um registro com
 status `inscricoes_abertas` e prazo vencido. Sem ele, o primeiro prazo a vencer
-travaria README, relatórios e e-mail exatamente no dia em que há novidade.
+travaria README, relatórios e e-mail exatamente no dia em que há novidade. A
+abertura existe pelo motivo oposto: sem ela, o dia em que as inscrições começam
+passava sem gerar alerta nenhum.
 
-A transição é **mecânica**: usa a data que já estava no registro e o calendário.
+As duas são **mecânicas**: usam data já presente no registro e o calendário.
 Nenhuma fonte é consultada, e é isso que a entrada em `historico_status` declara.
 Por isso o passo não toca em `ultima_verificacao` nem em `ultima_atualizacao` —
 nada de novo foi apurado sobre a oportunidade.
 
-O limite: se a fonte **prorrogou** o prazo e ninguém atualizou o registro, o
-certame será encerrado indevidamente. A correção é mover o registro de volta ao
-reverificar a fonte, e a trilha deixa claro que a transição foi automática.
+Os limites apontam para lados diferentes, e vale saber qual é qual:
+
+- **encerramento** — se a fonte prorrogou o prazo e ninguém atualizou o registro,
+  o certame é encerrado indevidamente: o erro **esconde** inscrição ainda aberta;
+- **abertura** — se a fonte adiou o início, o registro afirma `inscricoes_abertas`
+  antes da hora: o erro **manda** alguém tentar se inscrever cedo.
+
+Nos dois casos a correção é reverificar a fonte, e a trilha deixa claro que a
+transição foi automática. Retificação de cronograma sem ninguém notar é justamente
+um dos casos que o alerta diário existe para provocar.
 
 > **Atenção com o agendamento.** O GitHub não garante o minuto exato da execução
 > agendada — em horários de fila, ela sai alguns minutos depois. E workflows
@@ -285,6 +305,12 @@ não tem registro, o workflow **abre uma issue automaticamente** com a lista.
 Promover um achado a registro curado é trabalho humano: abrir o edital na fonte
 oficial e preencher o registro conforme o esquema. A coleta então reconhece o
 achado e passa a marcá-lo como `no_repositorio`.
+
+Para os achados do Seleção ES, `ferramentas/consultar_selecao_es.py` encurta a
+parte mecânica dessa leitura: a página do processo é uma SPA, então o script
+consulta os endpoints que ela usa, lista as publicações e baixa o edital. O que ele
+**não** faz é decidir — interpretar o quadro de cargos, resolver divergência entre
+fontes e escrever o registro continua sendo leitura e julgamento.
 
 Uma fonte fora do ar **não interrompe** a execução — o erro fica registrado em
 `fontes_consultadas` e vira aviso do validador.

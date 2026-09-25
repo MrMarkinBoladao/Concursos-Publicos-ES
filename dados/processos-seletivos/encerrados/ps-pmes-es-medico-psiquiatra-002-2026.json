@@ -1,0 +1,104 @@
+{
+  "id": "ps-pmes-es-medico-psiquiatra-002-2026",
+  "orgao": "Polícia Militar do Estado do Espírito Santo - Diretoria de Saúde",
+  "orgao_sigla": "DS/PMES",
+  "esfera": "estadual",
+  "municipio": "Vitória",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Médico Psiquiatra",
+      "area": "Saúde",
+      "vagas_imediatas": 2,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Ensino superior completo em Medicina e registro ativo no CRM-ES (ou comprovante de solicitação)",
+      "remuneracao": "R$ 7.321,11 mais auxílio-alimentação de R$ 480,00",
+      "jornada": "24 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 2,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 7321.11,
+    "maxima": 7321.11,
+    "descricao": "R$ 7.321,11 mais auxílio-alimentação de R$ 480,00, para 24 horas semanais"
+  },
+  "beneficios": [
+    "Auxílio-alimentação de R$ 480,00"
+  ],
+  "jornada": "24 horas semanais",
+  "edital_numero": "Edital DS/PMES nº 002/2026",
+  "publicacao": "2026-07-06",
+  "inscricoes": {
+    "inicio": "2026-07-09",
+    "fim": "2026-07-16",
+    "taxa": "não informado",
+    "local": "https://selecao.es.gov.br/",
+    "isencao": "não informado",
+    "observacao": "Inscrições de 09/07/2026 às 9h até 16/07/2026 às 10h, exclusivamente pelo portal Seleção ES. Contato: dpc.ds@pm.es.gov.br."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "Avaliação de qualificação profissional (títulos) e de experiência profissional, conforme os Quadros I e II do item 4.21 do edital"
+    ],
+    "observacao": "Lotação na Diretoria de Saúde da PMES, no Hospital da Polícia Militar (HPM), em Vitória. Classificação geral divulgada em 17/07/2026, com convocações a partir de 24/07/2026."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "1 ano, prorrogável por igual período; contratos de 12 meses, prorrogáveis. Vigência registrada no portal até 09/07/2028",
+  "links": {
+    "edital": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/31581",
+    "pagina_oficial": "https://selecao.es.gov.br/processo-seletivo/31ecf819-cee1-4b39-92f9-8d2d4d94d517/dspmes-edital-0022026-processo-seletivo-contratacao-medico-psiquiatra-dt",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Portal Seleção ES - DS/PMES Edital 002/2026 (Médico Psiquiatra DT)",
+      "url": "https://selecao.es.gov.br/processo-seletivo/31ecf819-cee1-4b39-92f9-8d2d4d94d517/dspmes-edital-0022026-processo-seletivo-contratacao-medico-psiquiatra-dt",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-25"
+    },
+    {
+      "titulo": "Edital DS/PMES nº 002/2026 - Médico Psiquiatra DT (PDF, 25 páginas)",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/31581",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-25"
+    },
+    {
+      "titulo": "Extrato do edital publicado no Diário Oficial do ES",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/31588",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-09-25"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-07-09",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições, às 9h, pelo portal Seleção ES."
+    },
+    {
+      "data": "2026-07-16",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 10h."
+    },
+    {
+      "data": "2026-07-17",
+      "status": "inscricoes_encerradas",
+      "observacao": "Divulgação da classificação geral dos candidatos."
+    },
+    {
+      "data": "2026-09-25",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, a partir do edital íntegro. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-09-25",
+  "ultima_atualizacao": "2026-09-25",
+  "observacoes": "DIVERGÊNCIA resolvida pelo edital íntegro: a descrição do processo no portal fala em formação de cadastro de reserva, mas o Anexo I do edital fixa 2 vagas para Médico Psiquiatra — adotadas as 2 vagas, com cadastro de reserva. ATENÇÃO a outra divergência: o PDF do extrato publicado no Diário Oficial traz o valor R$ 5.860,71, que NÃO é a remuneração do cargo — pertence a um extrato de contrato de veículo publicado na mesma página do Diário. A remuneração correta, do Anexo I do edital, é R$ 7.321,11 mais R$ 480,00 de auxílio-alimentação. O registro ficou com etapas de convocação já em andamento em agosto de 2026."
+}

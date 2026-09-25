@@ -1,0 +1,94 @@
+{
+  "id": "ps-sedu-es-professores-tecnica-29-2026",
+  "orgao": "Secretaria de Estado da Educação do Espírito Santo",
+  "orgao_sigla": "SEDU",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Professor de Educação Profissional Técnica de Nível Médio (por área de conhecimento)",
+      "area": "Educação profissional",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Formação na área de conhecimento pretendida, conforme o Anexo I do edital",
+      "remuneracao": "R$ 3.130,59 a R$ 7.064,01, conforme titulação, para 25 horas semanais",
+      "jornada": "25 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 0,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 3130.59,
+    "maxima": 7064.01,
+    "descricao": "R$ 3.130,59 a R$ 7.064,01 para 25 horas semanais, conforme a titulação do candidato"
+  },
+  "beneficios": [],
+  "jornada": "25 horas semanais",
+  "edital_numero": "Edital SEDU nº 29/2026 (retificado)",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": "2026-08-17",
+    "fim": "2026-08-26",
+    "taxa": "não informado",
+    "local": "https://selecao.es.gov.br/",
+    "isencao": "não informado",
+    "observacao": "Inscrições de 17/08/2026 às 10h até 26/08/2026 às 17h, exclusivamente pelo portal Seleção ES."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "1ª etapa - inscrição com autodeclaração de títulos",
+      "2ª etapa - comprovação das informações declaradas",
+      "3ª etapa - formalização do contrato",
+      "Avaliação do pré-requisito e dos títulos (sem prova objetiva)"
+    ],
+    "observacao": "Atuação em cursos técnicos de nível médio, inclusive no sistema prisional e em unidades socioeducativas do IASES. Reserva de vagas: 10% para pessoas com deficiência, 20% para negros e 5% para pessoas indígenas, conforme as leis estaduais 12.009/2023, 12.010/2023 e demais citadas no edital."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "Vigência do processo seletivo até 23/12/2027",
+  "links": {
+    "edital": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/31973",
+    "pagina_oficial": "https://selecao.es.gov.br/processo-seletivo/89ddd78b-d37d-49dc-831e-4dbb6b3c3033/sedu-edital-292026-professores-educacao-profissional-tecnica",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Portal Seleção ES - SEDU Edital 29/2026 (Professores de Educação Profissional Técnica)",
+      "url": "https://selecao.es.gov.br/processo-seletivo/89ddd78b-d37d-49dc-831e-4dbb6b3c3033/sedu-edital-292026-professores-educacao-profissional-tecnica",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-25"
+    },
+    {
+      "titulo": "Edital SEDU nº 29/2026 retificado (PDF, 88 páginas)",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/31973",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-25"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-08-17",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições, às 10h, pelo portal Seleção ES."
+    },
+    {
+      "data": "2026-08-26",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 17h."
+    },
+    {
+      "data": "2026-09-25",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, a partir do edital retificado. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-09-25",
+  "ultima_atualizacao": "2026-09-25",
+  "observacoes": "Seleção recorrente da SEDU para a educação profissional técnica, registrada já encerrada para servir de âncora na próxima edição. Sem provimento imediato, daí vagas_imediatas_total = 0. A faixa de remuneração começa abaixo da do edital 24/2026 porque contempla também formações de nível técnico e tecnólogo. O edital não fixa taxa de inscrição."
+}

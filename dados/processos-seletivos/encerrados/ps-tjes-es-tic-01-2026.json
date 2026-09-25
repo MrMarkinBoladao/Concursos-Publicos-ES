@@ -1,0 +1,196 @@
+{
+  "id": "ps-tjes-es-tic-01-2026",
+  "orgao": "Tribunal de Justiça do Estado do Espírito Santo",
+  "orgao_sigla": "TJES",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Analista Judiciário - Desenvolvedor Full Stack",
+      "area": "Tecnologia da informação",
+      "vagas_imediatas": 8,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em área de TIC ou correlata, ou graduação em área diversa com pós-graduação lato ou stricto sensu em TIC",
+      "remuneracao": "R$ 8.098,85 acrescidos de 33,33%, totalizando R$ 10.798,20",
+      "jornada": "40 horas semanais, presencial"
+    },
+    {
+      "nome": "Analista Judiciário - Inteligência Artificial",
+      "area": "Tecnologia da informação",
+      "vagas_imediatas": 4,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em área de TIC ou correlata, ou graduação em área diversa com pós-graduação lato ou stricto sensu em TIC",
+      "remuneracao": "R$ 8.098,85 acrescidos de 33,33%, totalizando R$ 10.798,20",
+      "jornada": "40 horas semanais, presencial"
+    },
+    {
+      "nome": "Analista Judiciário - Business Intelligence",
+      "area": "Tecnologia da informação",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em área de TIC ou correlata, ou graduação em área diversa com pós-graduação lato ou stricto sensu em TIC",
+      "remuneracao": "R$ 8.098,85 acrescidos de 33,33%, totalizando R$ 10.798,20",
+      "jornada": "40 horas semanais, presencial"
+    },
+    {
+      "nome": "Analista Judiciário - Infraestrutura de TI (Infraestrutura)",
+      "area": "Tecnologia da informação",
+      "vagas_imediatas": 2,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em área de TIC ou correlata, ou graduação em área diversa com pós-graduação lato ou stricto sensu em TIC",
+      "remuneracao": "R$ 8.098,85 acrescidos de 33,33%, totalizando R$ 10.798,20",
+      "jornada": "40 horas semanais, presencial"
+    },
+    {
+      "nome": "Analista Judiciário - Infraestrutura de TI (Redes de Computadores/Telecom)",
+      "area": "Tecnologia da informação",
+      "vagas_imediatas": 2,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em área de TIC ou correlata, ou graduação em área diversa com pós-graduação lato ou stricto sensu em TIC",
+      "remuneracao": "R$ 8.098,85 acrescidos de 33,33%, totalizando R$ 10.798,20",
+      "jornada": "40 horas semanais, presencial"
+    },
+    {
+      "nome": "Analista Judiciário - Infraestrutura de TI (Banco de Dados)",
+      "area": "Tecnologia da informação",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em área de TIC ou correlata, ou graduação em área diversa com pós-graduação lato ou stricto sensu em TIC",
+      "remuneracao": "R$ 8.098,85 acrescidos de 33,33%, totalizando R$ 10.798,20",
+      "jornada": "40 horas semanais, presencial"
+    },
+    {
+      "nome": "Analista Judiciário - Infraestrutura de TI (Segurança da Informação)",
+      "area": "Tecnologia da informação",
+      "vagas_imediatas": 4,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em área de TIC ou correlata, ou graduação em área diversa com pós-graduação lato ou stricto sensu em TIC",
+      "remuneracao": "R$ 8.098,85 acrescidos de 33,33%, totalizando R$ 10.798,20",
+      "jornada": "40 horas semanais, presencial"
+    },
+    {
+      "nome": "Analista Judiciário - Atendimento ao Usuário",
+      "area": "Tecnologia da informação",
+      "vagas_imediatas": 4,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em área de TIC ou correlata, ou graduação em área diversa com pós-graduação lato ou stricto sensu em TIC",
+      "remuneracao": "R$ 8.098,85 acrescidos de 33,33%, totalizando R$ 10.798,20",
+      "jornada": "40 horas semanais, presencial"
+    },
+    {
+      "nome": "Analista Judiciário - Análise de Requisitos de TI",
+      "area": "Tecnologia da informação",
+      "vagas_imediatas": 2,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em área de TIC ou correlata, ou graduação em área diversa com pós-graduação lato ou stricto sensu em TIC",
+      "remuneracao": "R$ 8.098,85 acrescidos de 33,33%, totalizando R$ 10.798,20",
+      "jornada": "40 horas semanais, presencial"
+    },
+    {
+      "nome": "Analista Judiciário - Analista de Negócios de TI",
+      "area": "Tecnologia da informação",
+      "vagas_imediatas": 2,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em área de TIC ou correlata, ou graduação em área diversa com pós-graduação lato ou stricto sensu em TIC",
+      "remuneracao": "R$ 8.098,85 acrescidos de 33,33%, totalizando R$ 10.798,20",
+      "jornada": "40 horas semanais, presencial"
+    },
+    {
+      "nome": "Analista Judiciário - Analista de Governança de TI",
+      "area": "Tecnologia da informação",
+      "vagas_imediatas": 2,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em área de TIC ou correlata, ou graduação em área diversa com pós-graduação lato ou stricto sensu em TIC",
+      "remuneracao": "R$ 8.098,85 acrescidos de 33,33%, totalizando R$ 10.798,20",
+      "jornada": "40 horas semanais, presencial"
+    }
+  ],
+  "vagas_imediatas_total": 30,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 10798.2,
+    "maxima": 10798.2,
+    "descricao": "R$ 8.098,85 (primeira referência do cargo de Analista Judiciário) acrescidos de 33,33%, totalizando R$ 10.798,20, mais auxílio-alimentação de R$ 1.830,40 e auxílio-saúde"
+  },
+  "beneficios": [
+    "Auxílio-alimentação de R$ 1.830,40",
+    "Auxílio-saúde conforme tabela vigente",
+    "Décimo terceiro proporcional",
+    "Vale-transporte"
+  ],
+  "jornada": "40 horas semanais, presencial",
+  "edital_numero": "Processo Seletivo Simplificado/TJES nº 01/2026",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": "2026-07-27",
+    "fim": "2026-08-16",
+    "taxa": "não informado",
+    "local": "https://www.tjes.jus.br/selecaodt",
+    "isencao": "não informado",
+    "observacao": "Inscrições exclusivamente eletrônicas, das 12h de 27/07/2026 às 23h59 de 16/08/2026, no horário de Brasília. Após o encerramento não há alteração, inclusão ou exclusão de informações."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "Avaliação curricular e de títulos conforme os anexos do edital"
+    ],
+    "observacao": "Reserva de 10% das vagas para pessoas com deficiência, 20% para negros e 5% para indígenas. As vagas reservadas não preenchidas revertem para a ampla concorrência."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "12 meses, prorrogáveis; vigência registrada no portal até 16/08/2027",
+  "links": {
+    "edital": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/31682",
+    "pagina_oficial": "https://selecao.es.gov.br/processo-seletivo/6301e86a-9ec3-4462-b6fa-9e6e42c6a970/processo-seletivo-simplificadotjes-n-012026",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Portal Seleção ES - Processo Seletivo Simplificado/TJES nº 01/2026",
+      "url": "https://selecao.es.gov.br/processo-seletivo/6301e86a-9ec3-4462-b6fa-9e6e42c6a970/processo-seletivo-simplificadotjes-n-012026",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-25"
+    },
+    {
+      "titulo": "Edital de abertura do PSS/TJES nº 01/2026 (PDF, 41 páginas)",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/31682",
+      "tipo": "oficial",
+      "consultado_em": "2026-09-25"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-07-27",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições, às 12h, em tjes.jus.br/selecaodt."
+    },
+    {
+      "data": "2026-08-16",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 23h59."
+    },
+    {
+      "data": "2026-09-25",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, a partir do edital de abertura. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-09-25",
+  "ultima_atualizacao": "2026-09-25",
+  "observacoes": "Contratação temporária de profissionais de TI pelo TJES, com fundamento na Lei Complementar estadual 1.086/2024. As 30 vagas imediatas somam as três colunas do quadro do Anexo I: 24 de ampla concorrência, 1 reservada a pessoa com deficiência e 5 reservadas a candidatos negros; a coluna de indígenas é apenas cadastro de reserva. As vagas por cargo neste registro somam ampla concorrência e reservas de cada área. A remuneração é única para todas as áreas de atuação. IMPORTANTE: este processo seletivo de designação temporária não se confunde com o concurso público de TIC do TJES, previsto e registrado em dados/concursos/previstos/concurso-tjes-tic-2026.json."
+}
