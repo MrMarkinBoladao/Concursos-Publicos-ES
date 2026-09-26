@@ -20,7 +20,7 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **25/09/2026** |
+| Última verificação das fontes | **26/09/2026** |
 | Oportunidades monitoradas | 53 |
 | Com inscrições abertas | 15 |
 | Vagas imediatas em aberto | 442 |
@@ -62,16 +62,16 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Inscrições até | Fonte |
 | ----- | ----- | ----: | -------------- | ----- |
-| PMV/SEGES | Professor de Educação Básica (diversas áreas) | 310 + CR | 27/09/2026 **(encerra em 2 dias)** | [fonte](https://integrado.selecao.net.br/informacoes/255/) |
-| PMV/SEGES | Professor de Educação Básica Especial - Bilíngue (Libras); Professor de Educação Básica Especial - Deficiência Visual | 25 + CR | 27/09/2026 **(encerra em 2 dias)** | [fonte](https://integrado.selecao.net.br/informacoes/256/) |
-| PMAC | Merendeira | CR | 28/09/2026 **(encerra em 3 dias)** | [fonte](https://www.afonsoclaudio.es.gov.br/site/edital-no-001-2026-processo-seletivo-simplificado-para-merendeira/) |
-| PMS/SESA | Auxiliar de Saúde Bucal; Técnico em Saúde Bucal e mais 5 cargos | CR | 29/09/2026 (encerra em 4 dias) | [fonte](https://selecao.serra.es.gov.br/) |
-| PMI/SEME | Professor MAPA, MAPB e MAPP (Educação Infantil, Ensino Fundamental...; Berçarista e mais 7 cargos | 10 + CR | 30/09/2026 (encerra em 5 dias) | [fonte](https://www.ibiracu.es.gov.br/uploads/2026-09-18-15-42-25-retificado---edital-no-014---2026---processo-seletivo---seme----diversos-cargos.pdf) |
-| PMST | Professor habilitado do magistério - Educação Infantil; Ensino Fund...; Professor MaPB não habilitado - Língua Portuguesa, Matemática, Ciên... | CR | 30/09/2026 (encerra em 5 dias) | [fonte](https://www.santateresa.es.gov.br/noticias-individual/2164/prefeitura-de-santa-teresa-abre-processos-seletivos-para-profissionais-do-magisterio-para-o-ano-letivo-de-2027) |
-| SEDU | CASF - Coordenador de Atendimento e Suporte às Famílias | não informado | 30/09/2026 (encerra em 5 dias) | [fonte](https://selecao.es.gov.br/) |
-| SEDU | Coordenador Pedagógico | não informado | 30/09/2026 (encerra em 5 dias) | [fonte](https://selecao.es.gov.br/) |
-| SEDU | Diretor Escolar | não informado | 30/09/2026 (encerra em 5 dias) | [fonte](https://selecao.es.gov.br/) |
-| PMG/SEMTAC | Motorista; Orientador / Educador Social e mais 3 cargos | CR | 02/10/2026 (encerra em 7 dias) | [fonte](https://www.guarapari.es.gov.br/selecao/detalhes/222/edital-de-processo-seletivo-semtac-n-002-2026) |
+| PMV/SEGES | Professor de Educação Básica (diversas áreas) | 310 + CR | 27/09/2026 **(encerra em 1 dia)** | [fonte](https://integrado.selecao.net.br/informacoes/255/) |
+| PMV/SEGES | Professor de Educação Básica Especial - Bilíngue (Libras); Professor de Educação Básica Especial - Deficiência Visual | 25 + CR | 27/09/2026 **(encerra em 1 dia)** | [fonte](https://integrado.selecao.net.br/informacoes/256/) |
+| PMAC | Merendeira | CR | 28/09/2026 **(encerra em 2 dias)** | [fonte](https://www.afonsoclaudio.es.gov.br/site/edital-no-001-2026-processo-seletivo-simplificado-para-merendeira/) |
+| PMS/SESA | Auxiliar de Saúde Bucal; Técnico em Saúde Bucal e mais 5 cargos | CR | 29/09/2026 **(encerra em 3 dias)** | [fonte](https://selecao.serra.es.gov.br/) |
+| PMI/SEME | Professor MAPA, MAPB e MAPP (Educação Infantil, Ensino Fundamental...; Berçarista e mais 7 cargos | 10 + CR | 30/09/2026 (encerra em 4 dias) | [fonte](https://www.ibiracu.es.gov.br/uploads/2026-09-18-15-42-25-retificado---edital-no-014---2026---processo-seletivo---seme----diversos-cargos.pdf) |
+| PMST | Professor habilitado do magistério - Educação Infantil; Ensino Fund...; Professor MaPB não habilitado - Língua Portuguesa, Matemática, Ciên... | CR | 30/09/2026 (encerra em 4 dias) | [fonte](https://www.santateresa.es.gov.br/noticias-individual/2164/prefeitura-de-santa-teresa-abre-processos-seletivos-para-profissionais-do-magisterio-para-o-ano-letivo-de-2027) |
+| SEDU | CASF - Coordenador de Atendimento e Suporte às Famílias | não informado | 30/09/2026 (encerra em 4 dias) | [fonte](https://selecao.es.gov.br/) |
+| SEDU | Coordenador Pedagógico | não informado | 30/09/2026 (encerra em 4 dias) | [fonte](https://selecao.es.gov.br/) |
+| SEDU | Diretor Escolar | não informado | 30/09/2026 (encerra em 4 dias) | [fonte](https://selecao.es.gov.br/) |
+| PMG/SEMTAC | Motorista; Orientador / Educador Social e mais 3 cargos | CR | 02/10/2026 (encerra em 6 dias) | [fonte](https://www.guarapari.es.gov.br/selecao/detalhes/222/edital-de-processo-seletivo-semtac-n-002-2026) |
 | PMSGP | Servente; Merendeira e mais 1 cargo | CR | 08/10/2026 | [fonte](https://www.saogabriel.es.gov.br/) |
 
 ## Histórico (inscrições encerradas)
@@ -113,7 +113,7 @@ encerradas pode seguir em andamento nas etapas seguintes.
 
 _Nenhuma pendência: tudo que as fontes automáticas listam já tem registro em `dados/`._
 
-_Dados atualizados em 25/09/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 26/09/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados

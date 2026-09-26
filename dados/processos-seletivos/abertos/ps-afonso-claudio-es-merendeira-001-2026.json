@@ -46,7 +46,7 @@
     "observacao": "Não há aplicação de prova objetiva; a classificação considera apenas o tempo de serviço na função."
   },
   "banca": "não informado",
-  "status": "edital_publicado",
+  "status": "inscricoes_abertas",
   "regime": "designacao_temporaria",
   "validade": "não informado",
   "links": {
@@ -67,6 +67,11 @@
       "data": "2026-09-25",
       "status": "edital_publicado",
       "observacao": "Primeiro registro no repositório. Edital do PSS nº 001/2026 divulgado para formação de cadastro de reserva de merendeiras; inscrições previstas para 26 a 28/09/2026."
+    },
+    {
+      "data": "2026-09-26",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura registrada automaticamente em 26/09/2026 pela data de início das inscrições (26/09/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se a abertura não foi adiada."
     }
   ],
   "ultima_verificacao": "2026-09-25",

@@ -1,6 +1,6 @@
 {
   "descricao": "Achados da coleta automatica. AREA DE QUARENTENA: nao e dado curado. Cada achado traz apenas o que a fonte informou. Promover para dados/ exige conferir o edital na fonte oficial.",
-  "gerado_em": "2026-09-25",
+  "gerado_em": "2026-09-26",
   "janela_dias": 90,
   "total_achados": 21,
   "ja_no_repositorio": 21,
@@ -43,7 +43,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-aries-es-analista-fiscalizacao-001-2026",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -67,7 +67,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-cref22-es-administrativo-2026",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -91,7 +91,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-crf-es-advogado-2026",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -115,7 +115,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-afonso-claudio-es-merendeira-001-2026",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-25"
     },
     {
@@ -139,7 +139,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-anchieta-es-professor-2026",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -163,7 +163,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-ibiracu-es-seme-014-2026",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -187,7 +187,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -211,7 +211,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-santa-teresa-es-magisterio-007-008-2026",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -235,7 +235,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-sao-gabriel-da-palha-es-seme-05-2026",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-25"
     },
     {
@@ -259,7 +259,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-vitoria-es-professor-educacao-basica-022-2026",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -283,7 +283,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-guarapari-es-semtac-002-2026",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-25"
     },
     {
@@ -305,7 +305,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sesm-es-tecnico-superior-01-2026",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -327,7 +327,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-pmes-es-medico-psiquiatra-002-2026",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -349,7 +349,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-professores-habilitados-24-2026",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -371,7 +371,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-tjes-es-tic-01-2026",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -393,7 +393,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-apoio-escolar-cuidador-28-2026",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -415,7 +415,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-professores-tecnica-29-2026",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -437,7 +437,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-professores-nao-habilitados-30-2026",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -459,7 +459,7 @@
       "status_estimado": "inscricoes_abertas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-casf-47-2025",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -481,7 +481,7 @@
       "status_estimado": "inscricoes_abertas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-coordenador-pedagogico-32-2025",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -503,7 +503,7 @@
       "status_estimado": "inscricoes_abertas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-diretor-escolar-33-2025",
-      "ultima_deteccao": "2026-09-25",
+      "ultima_deteccao": "2026-09-26",
       "primeira_deteccao": "2026-09-23"
     }
   ]
