@@ -1,5 +1,13 @@
 {
-  "descobertas": {},
+  "descobertas": {
+    "concursosnobrasil-es:prefeitura-de-joao-neiva-es-promove-selecao-para-profissionais-da-saude": "2026-09-28",
+    "selecao-es:31de726e-d5e8-41a1-a584-aee968b53f1f": "2026-09-28",
+    "selecao-es:4f9a54a9-49b8-482e-9fc5-87a1f6b784fa": "2026-09-28",
+    "selecao-es:79332759-9ae2-4609-9dc0-4dc030d4e281": "2026-09-28",
+    "selecao-es:b372b0fa-7926-46df-8e7b-a7de193adcdf": "2026-09-28",
+    "selecao-es:bee0d13a-1da9-4f10-abfd-728072e561a0": "2026-09-28",
+    "selecao-es:f8566f9a-c3ea-4a2d-89b3-86aaf6af7d9f": "2026-09-28"
+  },
   "descricao": "Impressoes digitais das oportunidades e chaves dos achados da coleta no ultimo resumo enviado. Usado para nao reenviar informacao identica. Nao contem dados sensiveis nem credenciais.",
   "impressoes": {
     "concurso-anchieta-es-professor-2026": "167c33557aeac45a",
@@ -52,9 +60,9 @@
     "ps-serra-es-sesa-007-2026": "41ea7ab7e6cefab6",
     "ps-sesm-es-tecnico-superior-01-2026": "3da4d600965150de",
     "ps-tjes-es-tic-01-2026": "d42ddb64f673b29f",
-    "ps-vitoria-es-professor-educacao-basica-022-2026": "496d352263e5b0ef",
-    "ps-vitoria-es-professor-educacao-especial-021-2026": "79428980938162e1",
+    "ps-vitoria-es-professor-educacao-basica-022-2026": "8931360d051f2af5",
+    "ps-vitoria-es-professor-educacao-especial-021-2026": "55cffc16c36a7a2c",
     "ps-vitoria-es-professores-007-008-2026": "b1d98cee8588202a"
   },
-  "ultima_geracao": "2026-09-26"
+  "ultima_geracao": "2026-09-28"
 }

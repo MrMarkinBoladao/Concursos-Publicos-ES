@@ -1,24 +1,24 @@
 {
   "descricao": "Achados da coleta automatica. AREA DE QUARENTENA: nao e dado curado. Cada achado traz apenas o que a fonte informou. Promover para dados/ exige conferir o edital na fonte oficial.",
-  "gerado_em": "2026-09-27",
+  "gerado_em": "2026-09-28",
   "janela_dias": 90,
-  "total_achados": 21,
-  "ja_no_repositorio": 21,
-  "pendentes_de_curadoria": 0,
+  "total_achados": 30,
+  "ja_no_repositorio": 23,
+  "pendentes_de_curadoria": 7,
   "fontes_consultadas": [
     {
       "id": "concursosnobrasil-es",
       "nome": "Concursos no Brasil - Espirito Santo",
       "tipo": "portal_concursos",
       "status": "ok",
-      "achados": 11
+      "achados": 12
     },
     {
       "id": "selecao-es",
       "nome": "Portal Selecao ES - Governo do Estado do Espirito Santo",
       "tipo": "oficial",
       "status": "ok",
-      "achados": 257
+      "achados": 269
     }
   ],
   "achados": [
@@ -43,7 +43,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-aries-es-analista-fiscalizacao-001-2026",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -67,7 +67,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-cref22-es-administrativo-2026",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -91,7 +91,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-crf-es-advogado-2026",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -115,7 +115,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-afonso-claudio-es-merendeira-001-2026",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-25"
     },
     {
@@ -139,7 +139,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-anchieta-es-professor-2026",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -163,8 +163,32 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-ibiracu-es-seme-014-2026",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-23"
+    },
+    {
+      "chave": "concursosnobrasil-es:prefeitura-de-joao-neiva-es-promove-selecao-para-profissionais-da-saude",
+      "fonte_id": "concursosnobrasil-es",
+      "orgao": "Prefeitura de João Neiva",
+      "orgao_sigla": "não informado",
+      "titulo": "Prefeitura de João Neiva",
+      "esfera": null,
+      "tipo": null,
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": 2,
+      "url": "https://concursosnobrasil.com/concursos/es/2026/09/28/prefeitura-de-joao-neiva-es-promove-selecao-para-profissionais-da-saude/",
+      "ano_publicacao": "2026",
+      "situacao_portal": null,
+      "fonte_tipo": "portal_concursos",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-09-28",
+      "primeira_deteccao": "2026-09-28"
     },
     {
       "chave": "concursosnobrasil-es:prefeitura-de-santa-maria-de-jetiba-es-abre-concurso-para-guarda-civil-municipal",
@@ -187,7 +211,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -211,7 +235,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-santa-teresa-es-magisterio-007-008-2026",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -235,8 +259,32 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-sao-gabriel-da-palha-es-seme-05-2026",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-25"
+    },
+    {
+      "chave": "concursosnobrasil-es:edital-prefeitura-de-vitoria-es-oferta-25-vagas-para-guarda-vidas",
+      "fonte_id": "concursosnobrasil-es",
+      "orgao": "Prefeitura de Vitória",
+      "orgao_sigla": "não informado",
+      "titulo": "Prefeitura de Vitória",
+      "esfera": null,
+      "tipo": null,
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": 25,
+      "url": "https://concursosnobrasil.com/concursos/es/2026/09/28/edital-prefeitura-de-vitoria-es-oferta-25-vagas-para-guarda-vidas/",
+      "ano_publicacao": "2026",
+      "situacao_portal": null,
+      "fonte_tipo": "portal_concursos",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": true,
+      "registro_repositorio": "ps-samu-es-condutor-socorrista-2026",
+      "ultima_deteccao": "2026-09-28",
+      "primeira_deteccao": "2026-09-28"
     },
     {
       "chave": "concursosnobrasil-es:prefeitura-de-vitoria-es-publica-editais-para-a-educacao-com-335-vagas",
@@ -260,7 +308,8 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-vitoria-es-professor-educacao-basica-022-2026",
       "ultima_deteccao": "2026-09-27",
-      "primeira_deteccao": "2026-09-23"
+      "primeira_deteccao": "2026-09-23",
+      "ausente_na_fonte": true
     },
     {
       "chave": "concursosnobrasil-es:semtac-de-guarapari-es-promove-seletivo-para-niveis-fundamental-e-medio",
@@ -283,7 +332,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-guarapari-es-semtac-002-2026",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-25"
     },
     {
@@ -305,7 +354,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sesm-es-tecnico-superior-01-2026",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -327,7 +376,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-pmes-es-medico-psiquiatra-002-2026",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -349,7 +398,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-professores-habilitados-24-2026",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -371,7 +420,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-tjes-es-tic-01-2026",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -393,7 +442,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-apoio-escolar-cuidador-28-2026",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -415,7 +464,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-professores-tecnica-29-2026",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -437,7 +486,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-professores-nao-habilitados-30-2026",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -459,7 +508,7 @@
       "status_estimado": "inscricoes_abertas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-casf-47-2025",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -481,7 +530,7 @@
       "status_estimado": "inscricoes_abertas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-coordenador-pedagogico-32-2025",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -503,8 +552,162 @@
       "status_estimado": "inscricoes_abertas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-diretor-escolar-33-2025",
-      "ultima_deteccao": "2026-09-27",
+      "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-23"
+    },
+    {
+      "chave": "selecao-es:79332759-9ae2-4609-9dc0-4dc030d4e281",
+      "fonte_id": "selecao-es",
+      "orgao": "SECRETARIA DE ESTADO DA SAUDE",
+      "orgao_sigla": "SESA",
+      "titulo": "SESA - EDITAL Nº 008/2026 - PROCESSO SELETIVO EMERGENCIAL - NÍVEL FUNDAMENTAL, MÉDIO E MÉDIO TÉCNICO",
+      "esfera": "estadual",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": "2026-09-29",
+        "fim": "2026-10-06"
+      },
+      "vagas_informadas": null,
+      "url": "https://selecao.es.gov.br/processo-seletivo/79332759-9ae2-4609-9dc0-4dc030d4e281/sesa-edital-n-0082026-processo-seletivo-emergencial-nivel-fundamental-medio-medio-tecnico",
+      "fonte_tipo": "oficial",
+      "uf": "ES",
+      "status_estimado": "edital_publicado",
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-09-28",
+      "primeira_deteccao": "2026-09-28"
+    },
+    {
+      "chave": "selecao-es:0750eabe-ff43-4e7b-ba09-59db56c54864",
+      "fonte_id": "selecao-es",
+      "orgao": "SECRETARIA DE ESTADO DA SAUDE",
+      "orgao_sigla": "SESA",
+      "titulo": "SESA - EDITAL Nº 007/2026 - PROCESSO SELETIVO EMERGENCIAL - NÍVEL SUPERIOR",
+      "esfera": "estadual",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": "2026-09-29",
+        "fim": "2026-10-06"
+      },
+      "vagas_informadas": null,
+      "url": "https://selecao.es.gov.br/processo-seletivo/0750eabe-ff43-4e7b-ba09-59db56c54864/sesa-edital-n-0072026-processo-seletivo-emergencial-nivel-superior",
+      "fonte_tipo": "oficial",
+      "uf": "ES",
+      "status_estimado": "edital_publicado",
+      "no_repositorio": true,
+      "registro_repositorio": "ps-serra-es-sesa-007-2026",
+      "ultima_deteccao": "2026-09-28",
+      "primeira_deteccao": "2026-09-28"
+    },
+    {
+      "chave": "selecao-es:bee0d13a-1da9-4f10-abfd-728072e561a0",
+      "fonte_id": "selecao-es",
+      "orgao": "SECRETARIA DE ESTADO DA SAUDE",
+      "orgao_sigla": "SESA",
+      "titulo": "SESA - EDITAL Nº 006/2026 - PROCESSO SELETIVO EMERGENCIAL - MÉDICO",
+      "esfera": "estadual",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": "2026-09-29",
+        "fim": "2026-10-06"
+      },
+      "vagas_informadas": null,
+      "url": "https://selecao.es.gov.br/processo-seletivo/bee0d13a-1da9-4f10-abfd-728072e561a0/sesa-edital-n-0062026-processo-seletivo-emergencial-medico",
+      "fonte_tipo": "oficial",
+      "uf": "ES",
+      "status_estimado": "edital_publicado",
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-09-28",
+      "primeira_deteccao": "2026-09-28"
+    },
+    {
+      "chave": "selecao-es:4f9a54a9-49b8-482e-9fc5-87a1f6b784fa",
+      "fonte_id": "selecao-es",
+      "orgao": "SECRETARIA DE ESTADO DA SAUDE",
+      "orgao_sigla": "SESA",
+      "titulo": "SESA - EDITAL Nº 005/2026 - PROCESSO SELETIVO EMERGENCIAL  - LACEN - MÉDICO E NÍVEL SUPERIOR",
+      "esfera": "estadual",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": "2026-09-29",
+        "fim": "2026-10-06"
+      },
+      "vagas_informadas": null,
+      "url": "https://selecao.es.gov.br/processo-seletivo/4f9a54a9-49b8-482e-9fc5-87a1f6b784fa/sesa-edital-n-0052026-processo-seletivo-emergencial-lacen-medico-nivel-superior",
+      "fonte_tipo": "oficial",
+      "uf": "ES",
+      "status_estimado": "edital_publicado",
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-09-28",
+      "primeira_deteccao": "2026-09-28"
+    },
+    {
+      "chave": "selecao-es:f8566f9a-c3ea-4a2d-89b3-86aaf6af7d9f",
+      "fonte_id": "selecao-es",
+      "orgao": "ESPIRITO SANTO SECRETARIA DE ESTADO DA EDUCACAO",
+      "orgao_sigla": "SEDU",
+      "titulo": "SEDU - EDITAL DE CADASTRAMENTO Nº 34/2026 - Fase preliminar do Processo Seletivo para Diretor Escolar",
+      "esfera": "estadual",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": "2026-10-01",
+        "fim": "2027-04-02"
+      },
+      "vagas_informadas": null,
+      "url": "https://selecao.es.gov.br/processo-seletivo/f8566f9a-c3ea-4a2d-89b3-86aaf6af7d9f/sedu-edital-cadastramento-n-342026-fase-preliminar-processo-seletivo-diretor-escolar",
+      "fonte_tipo": "oficial",
+      "uf": "ES",
+      "status_estimado": "edital_publicado",
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-09-28",
+      "primeira_deteccao": "2026-09-28"
+    },
+    {
+      "chave": "selecao-es:31de726e-d5e8-41a1-a584-aee968b53f1f",
+      "fonte_id": "selecao-es",
+      "orgao": "ESPIRITO SANTO SECRETARIA DE ESTADO DA EDUCACAO",
+      "orgao_sigla": "SEDU",
+      "titulo": "SEDU - EDITAL DE CADASTRAMENTO Nº 35/2026 - Fase preliminar do Processo Seletivo para Coordenador Pedagógico",
+      "esfera": "estadual",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": "2026-10-01",
+        "fim": "2027-04-02"
+      },
+      "vagas_informadas": null,
+      "url": "https://selecao.es.gov.br/processo-seletivo/31de726e-d5e8-41a1-a584-aee968b53f1f/sedu-edital-cadastramento-n-352026-fase-preliminar-processo-seletivo-coordenador-pedagogico",
+      "fonte_tipo": "oficial",
+      "uf": "ES",
+      "status_estimado": "edital_publicado",
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-09-28",
+      "primeira_deteccao": "2026-09-28"
+    },
+    {
+      "chave": "selecao-es:b372b0fa-7926-46df-8e7b-a7de193adcdf",
+      "fonte_id": "selecao-es",
+      "orgao": "ESPIRITO SANTO SECRETARIA DE ESTADO DA EDUCACAO",
+      "orgao_sigla": "SEDU",
+      "titulo": "SEDU - EDITAL DE CADASTRAMENTO Nº 33/2026 - Fase Preliminar do Processo Seletivo para CASF",
+      "esfera": "estadual",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": "2026-10-01",
+        "fim": "2027-04-02"
+      },
+      "vagas_informadas": null,
+      "url": "https://selecao.es.gov.br/processo-seletivo/b372b0fa-7926-46df-8e7b-a7de193adcdf/sedu-edital-cadastramento-n-332026-fase-preliminar-processo-seletivo-casf",
+      "fonte_tipo": "oficial",
+      "uf": "ES",
+      "status_estimado": "edital_publicado",
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-09-28",
+      "primeira_deteccao": "2026-09-28"
     }
   ]
 }
