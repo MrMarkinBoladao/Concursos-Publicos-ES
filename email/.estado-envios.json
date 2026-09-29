@@ -1,6 +1,7 @@
 {
   "descobertas": {
     "concursosnobrasil-es:prefeitura-de-joao-neiva-es-promove-selecao-para-profissionais-da-saude": "2026-09-28",
+    "selecao-es:2bb038a7-dabc-4c6b-b945-7f5e69fd2c12": "2026-09-29",
     "selecao-es:31de726e-d5e8-41a1-a584-aee968b53f1f": "2026-09-28",
     "selecao-es:4f9a54a9-49b8-482e-9fc5-87a1f6b784fa": "2026-09-28",
     "selecao-es:79332759-9ae2-4609-9dc0-4dc030d4e281": "2026-09-28",
@@ -34,7 +35,7 @@
     "concurso-sesa-es-2026": "d70d75b312757641",
     "concurso-tjes-tic-2026": "1e4508e88aea92ea",
     "concurso-vila-velha-es-2026": "f6e32ffaf7e6e17c",
-    "ps-afonso-claudio-es-merendeira-001-2026": "d9aa37dd39f4ddfb",
+    "ps-afonso-claudio-es-merendeira-001-2026": "eb2d94ab887f5ff6",
     "ps-aries-es-analista-fiscalizacao-001-2026": "5a312011cbed9f4f",
     "ps-aries-es-analista-fiscalizacao-003-2026": "8ec94119df11c17b",
     "ps-cariacica-es-ipc-previdenciario-2026": "d7caec1069dae902",
@@ -64,5 +65,5 @@
     "ps-vitoria-es-professor-educacao-especial-021-2026": "55cffc16c36a7a2c",
     "ps-vitoria-es-professores-007-008-2026": "b1d98cee8588202a"
   },
-  "ultima_geracao": "2026-09-28"
+  "ultima_geracao": "2026-09-29"
 }

@@ -20,19 +20,19 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **28/09/2026** |
+| Última verificação das fontes | **29/09/2026** |
 | Oportunidades monitoradas | 53 |
-| Com inscrições abertas | 13 |
+| Com inscrições abertas | 12 |
 | Vagas imediatas em aberto | 107 |
 | Concursos previstos / autorizados | 16 |
-| Registros históricos (encerrados ou em andamento) | 24 |
-| Descobertas automáticas pendentes de conferência | 7 |
+| Registros históricos (encerrados ou em andamento) | 25 |
+| Descobertas automáticas pendentes de conferência | 8 |
 
 ## Concursos com inscrições abertas
 
 | Órgão | Cargo | Vagas | Salário | Inscrições até | Prova |
 | ----- | ----- | ----: | ------: | -------------- | ----- |
-| [CRF-ES](https://institutoibest.selecao.net.br/informacoes/62/) | Advogado | 1 + CR | R$ 3.000,00 | 05/10/2026 (encerra em 7 dias) | 01/11/2026 |
+| [CRF-ES](https://institutoibest.selecao.net.br/informacoes/62/) | Advogado | 1 + CR | R$ 3.000,00 | 05/10/2026 (encerra em 6 dias) | 01/11/2026 |
 | [PMA](https://integrado.selecao.net.br/informacoes/254/) | PEB I - Professor de Educação Básica - Educação Infantil BNCC; PEB II - Professor de Educação Básica - Ensino Fundamental - Anos I... e mais 10 cargos | 64 + CR | R$ 3.600,00 a R$ 8.640,00 | 07/10/2026 | 29/11/2026 |
 | [CREF22/ES](https://www.ibade.org.br/) | Advogado I; Analista Administrativo I e mais 1 cargo | 2 + CR | R$ 5.000,00 a R$ 5.500,00 | 20/10/2026 | 13/12/2026 |
 | [PMSMJ](https://www.institutoconsulplan.org.br/pref-smj-guarda2026) | Guarda Municipal | 30 + CR | R$ 3.763,26 | 21/10/2026 | 13/12/2026 |
@@ -62,14 +62,13 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Inscrições até | Fonte |
 | ----- | ----- | ----: | -------------- | ----- |
-| PMAC | Merendeira | CR | 28/09/2026 **(encerra em 0 dias)** | [fonte](https://www.afonsoclaudio.es.gov.br/site/edital-no-001-2026-processo-seletivo-simplificado-para-merendeira/) |
-| PMS/SESA | Auxiliar de Saúde Bucal; Técnico em Saúde Bucal e mais 5 cargos | CR | 29/09/2026 **(encerra em 1 dia)** | [fonte](https://selecao.serra.es.gov.br/) |
-| PMI/SEME | Professor MAPA, MAPB e MAPP (Educação Infantil, Ensino Fundamental...; Berçarista e mais 7 cargos | 10 + CR | 30/09/2026 **(encerra em 2 dias)** | [fonte](https://www.ibiracu.es.gov.br/uploads/2026-09-18-15-42-25-retificado---edital-no-014---2026---processo-seletivo---seme----diversos-cargos.pdf) |
-| PMST | Professor habilitado do magistério - Educação Infantil; Ensino Fund...; Professor MaPB não habilitado - Língua Portuguesa, Matemática, Ciên... | CR | 30/09/2026 **(encerra em 2 dias)** | [fonte](https://www.santateresa.es.gov.br/noticias-individual/2164/prefeitura-de-santa-teresa-abre-processos-seletivos-para-profissionais-do-magisterio-para-o-ano-letivo-de-2027) |
-| SEDU | CASF - Coordenador de Atendimento e Suporte às Famílias | não informado | 30/09/2026 **(encerra em 2 dias)** | [fonte](https://selecao.es.gov.br/) |
-| SEDU | Coordenador Pedagógico | não informado | 30/09/2026 **(encerra em 2 dias)** | [fonte](https://selecao.es.gov.br/) |
-| SEDU | Diretor Escolar | não informado | 30/09/2026 **(encerra em 2 dias)** | [fonte](https://selecao.es.gov.br/) |
-| PMG/SEMTAC | Motorista; Orientador / Educador Social e mais 3 cargos | CR | 02/10/2026 (encerra em 4 dias) | [fonte](https://www.guarapari.es.gov.br/selecao/detalhes/222/edital-de-processo-seletivo-semtac-n-002-2026) |
+| PMS/SESA | Auxiliar de Saúde Bucal; Técnico em Saúde Bucal e mais 5 cargos | CR | 29/09/2026 **(encerra em 0 dias)** | [fonte](https://selecao.serra.es.gov.br/) |
+| PMI/SEME | Professor MAPA, MAPB e MAPP (Educação Infantil, Ensino Fundamental...; Berçarista e mais 7 cargos | 10 + CR | 30/09/2026 **(encerra em 1 dia)** | [fonte](https://www.ibiracu.es.gov.br/uploads/2026-09-18-15-42-25-retificado---edital-no-014---2026---processo-seletivo---seme----diversos-cargos.pdf) |
+| PMST | Professor habilitado do magistério - Educação Infantil; Ensino Fund...; Professor MaPB não habilitado - Língua Portuguesa, Matemática, Ciên... | CR | 30/09/2026 **(encerra em 1 dia)** | [fonte](https://www.santateresa.es.gov.br/noticias-individual/2164/prefeitura-de-santa-teresa-abre-processos-seletivos-para-profissionais-do-magisterio-para-o-ano-letivo-de-2027) |
+| SEDU | CASF - Coordenador de Atendimento e Suporte às Famílias | não informado | 30/09/2026 **(encerra em 1 dia)** | [fonte](https://selecao.es.gov.br/) |
+| SEDU | Coordenador Pedagógico | não informado | 30/09/2026 **(encerra em 1 dia)** | [fonte](https://selecao.es.gov.br/) |
+| SEDU | Diretor Escolar | não informado | 30/09/2026 **(encerra em 1 dia)** | [fonte](https://selecao.es.gov.br/) |
+| PMG/SEMTAC | Motorista; Orientador / Educador Social e mais 3 cargos | CR | 02/10/2026 **(encerra em 3 dias)** | [fonte](https://www.guarapari.es.gov.br/selecao/detalhes/222/edital-de-processo-seletivo-semtac-n-002-2026) |
 | PMSGP | Servente; Merendeira e mais 1 cargo | CR | 08/10/2026 | [fonte](https://www.saogabriel.es.gov.br/) |
 
 ## Histórico (inscrições encerradas)
@@ -80,6 +79,7 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | Órgão | Cargo | Vagas | Situação | Encerrou em | Fonte |
 | ----- | ----- | ----: | -------- | ----------- | ----- |
 | PMA/SEMGE | Diversos cargos das áreas Administrativa, Saúde, Fiscalização, Enge... | CR | Prova realizada | não informado | [fonte](https://idcap.selecao.net.br/informacoes/227/) |
+| PMAC | Merendeira | CR | Inscrições encerradas | 28/09/2026 | [fonte](https://www.afonsoclaudio.es.gov.br/site/edital-no-001-2026-processo-seletivo-simplificado-para-merendeira/) |
 | PMV/SEGES | Professor de Educação Básica (diversas áreas) | 310 + CR | Inscrições encerradas | 27/09/2026 | [fonte](https://integrado.selecao.net.br/informacoes/255/) |
 | PMV/SEGES | Professor de Educação Básica Especial - Bilíngue (Libras) e mais 1 cargo | 25 + CR | Inscrições encerradas | 27/09/2026 | [fonte](https://integrado.selecao.net.br/informacoes/256/) |
 | IPC | Analista Previdenciário - Administração e mais 2 cargos | 4 + CR | Inscrições encerradas | 24/09/2026 | [fonte](https://prosel.cariacica.es.gov.br/public/) |
@@ -116,12 +116,13 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | SEDU | [SEDU - EDITAL DE CADASTRAMENTO Nº 34/2026 - Fase preliminar do Processo Seletivo para Diretor Escolar](https://selecao.es.gov.br/processo-seletivo/f8566f9a-c3ea-4a2d-89b3-86aaf6af7d9f/sedu-edital-cadastramento-n-342026-fase-preliminar-processo-seletivo-diretor-escolar) | Inscrições não iniciadas | 02/04/2027 | oficial |
 | SEDU | [SEDU - EDITAL DE CADASTRAMENTO Nº 35/2026 - Fase preliminar do Processo Seletivo para Coordenador Pedagógico](https://selecao.es.gov.br/processo-seletivo/31de726e-d5e8-41a1-a584-aee968b53f1f/sedu-edital-cadastramento-n-352026-fase-preliminar-processo-seletivo-coordenador-pedagogico) | Inscrições não iniciadas | 02/04/2027 | oficial |
 | SEDU | [SEDU - EDITAL DE CADASTRAMENTO Nº 33/2026 - Fase Preliminar do Processo Seletivo para CASF](https://selecao.es.gov.br/processo-seletivo/b372b0fa-7926-46df-8e7b-a7de193adcdf/sedu-edital-cadastramento-n-332026-fase-preliminar-processo-seletivo-casf) | Inscrições não iniciadas | 02/04/2027 | oficial |
-| SESA | [SESA - EDITAL Nº 008/2026 - PROCESSO SELETIVO EMERGENCIAL - NÍVEL FUNDAMENTAL, MÉDIO E MÉDIO TÉCNICO](https://selecao.es.gov.br/processo-seletivo/79332759-9ae2-4609-9dc0-4dc030d4e281/sesa-edital-n-0082026-processo-seletivo-emergencial-nivel-fundamental-medio-medio-tecnico) | Inscrições não iniciadas | 06/10/2026 | oficial |
-| SESA | [SESA - EDITAL Nº 006/2026 - PROCESSO SELETIVO EMERGENCIAL - MÉDICO](https://selecao.es.gov.br/processo-seletivo/bee0d13a-1da9-4f10-abfd-728072e561a0/sesa-edital-n-0062026-processo-seletivo-emergencial-medico) | Inscrições não iniciadas | 06/10/2026 | oficial |
-| SESA | [SESA - EDITAL Nº 005/2026 - PROCESSO SELETIVO EMERGENCIAL  - LACEN - MÉDICO E NÍVEL SUPERIOR](https://selecao.es.gov.br/processo-seletivo/4f9a54a9-49b8-482e-9fc5-87a1f6b784fa/sesa-edital-n-0052026-processo-seletivo-emergencial-lacen-medico-nivel-superior) | Inscrições não iniciadas | 06/10/2026 | oficial |
+| PMES | [DS/PMES EDITAL 003/2026 - Processo Seletivo para Contratação de Técnico em Laboratório/Análises Clínicas](https://selecao.es.gov.br/processo-seletivo/2bb038a7-dabc-4c6b-b945-7f5e69fd2c12/dspmes-edital-0032026-processo-seletivo-contratacao-tecnico-laboratorioanalises-clinicas) | Inscrições não iniciadas | 08/10/2026 | oficial |
+| SESA | [SESA - EDITAL Nº 008/2026 - PROCESSO SELETIVO EMERGENCIAL - NÍVEL FUNDAMENTAL, MÉDIO E MÉDIO TÉCNICO](https://selecao.es.gov.br/processo-seletivo/79332759-9ae2-4609-9dc0-4dc030d4e281/sesa-edital-n-0082026-processo-seletivo-emergencial-nivel-fundamental-medio-medio-tecnico) | Inscrições abertas | 06/10/2026 | oficial |
+| SESA | [SESA - EDITAL Nº 006/2026 - PROCESSO SELETIVO EMERGENCIAL - MÉDICO](https://selecao.es.gov.br/processo-seletivo/bee0d13a-1da9-4f10-abfd-728072e561a0/sesa-edital-n-0062026-processo-seletivo-emergencial-medico) | Inscrições abertas | 06/10/2026 | oficial |
+| SESA | [SESA - EDITAL Nº 005/2026 - PROCESSO SELETIVO EMERGENCIAL  - LACEN - MÉDICO E NÍVEL SUPERIOR](https://selecao.es.gov.br/processo-seletivo/4f9a54a9-49b8-482e-9fc5-87a1f6b784fa/sesa-edital-n-0052026-processo-seletivo-emergencial-lacen-medico-nivel-superior) | Inscrições abertas | 06/10/2026 | oficial |
 | Prefeitura de João Neiva | [Prefeitura de João Neiva](https://concursosnobrasil.com/concursos/es/2026/09/28/prefeitura-de-joao-neiva-es-promove-selecao-para-profissionais-da-saude/) | não informado | não informado | portal_concursos |
 
-_Dados atualizados em 28/09/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 29/09/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
