@@ -1,24 +1,24 @@
 {
   "descricao": "Achados da coleta automatica. AREA DE QUARENTENA: nao e dado curado. Cada achado traz apenas o que a fonte informou. Promover para dados/ exige conferir o edital na fonte oficial.",
-  "gerado_em": "2026-09-29",
+  "gerado_em": "2026-09-30",
   "janela_dias": 90,
-  "total_achados": 32,
-  "ja_no_repositorio": 24,
-  "pendentes_de_curadoria": 8,
+  "total_achados": 35,
+  "ja_no_repositorio": 25,
+  "pendentes_de_curadoria": 10,
   "fontes_consultadas": [
     {
       "id": "concursosnobrasil-es",
       "nome": "Concursos no Brasil - Espirito Santo",
       "tipo": "portal_concursos",
       "status": "ok",
-      "achados": 12
+      "achados": 14
     },
     {
       "id": "selecao-es",
       "nome": "Portal Selecao ES - Governo do Estado do Espirito Santo",
       "tipo": "oficial",
       "status": "ok",
-      "achados": 270
+      "achados": 271
     }
   ],
   "achados": [
@@ -43,7 +43,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-aries-es-analista-fiscalizacao-001-2026",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -67,7 +67,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-cref22-es-administrativo-2026",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -91,7 +91,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-crf-es-advogado-2026",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -140,7 +140,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-anchieta-es-professor-2026",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -164,7 +164,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-ibiracu-es-seme-014-2026",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -188,8 +188,32 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-28"
+    },
+    {
+      "chave": "concursosnobrasil-es:es-prefeitura-de-joao-neiva-divulga-edital-com-vagas-de-ate-r-43-mil",
+      "fonte_id": "concursosnobrasil-es",
+      "orgao": "Prefeitura de João Neiva",
+      "orgao_sigla": "não informado",
+      "titulo": "Prefeitura de João Neiva",
+      "esfera": null,
+      "tipo": null,
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": 2,
+      "url": "https://concursosnobrasil.com/concursos/es/2026/09/30/es-prefeitura-de-joao-neiva-divulga-edital-com-vagas-de-ate-r-43-mil/",
+      "ano_publicacao": "2026",
+      "situacao_portal": null,
+      "fonte_tipo": "portal_concursos",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-09-30",
+      "primeira_deteccao": "2026-09-30"
     },
     {
       "chave": "concursosnobrasil-es:prefeitura-de-santa-maria-de-jetiba-es-abre-concurso-para-guarda-civil-municipal",
@@ -212,7 +236,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -236,7 +260,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-santa-teresa-es-magisterio-007-008-2026",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -260,7 +284,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-sao-gabriel-da-palha-es-seme-05-2026",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-25"
     },
     {
@@ -284,7 +308,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-samu-es-condutor-socorrista-2026",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-28"
     },
     {
@@ -308,7 +332,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-samu-es-condutor-socorrista-2026",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-29"
     },
     {
@@ -357,8 +381,32 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-guarapari-es-semtac-002-2026",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-25"
+    },
+    {
+      "chave": "concursosnobrasil-es:processo-seletivo-sesa-es-abre-quatro-editais-com-salarios-de-ate-r-126-mil",
+      "fonte_id": "concursosnobrasil-es",
+      "orgao": "SESA",
+      "orgao_sigla": "não informado",
+      "titulo": "SESA",
+      "esfera": null,
+      "tipo": null,
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://concursosnobrasil.com/concursos/es/2026/09/30/processo-seletivo-sesa-es-abre-quatro-editais-com-salarios-de-ate-r-126-mil/",
+      "ano_publicacao": "2026",
+      "situacao_portal": null,
+      "fonte_tipo": "portal_concursos",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": true,
+      "registro_repositorio": "concurso-sesa-es-2026",
+      "ultima_deteccao": "2026-09-30",
+      "primeira_deteccao": "2026-09-30"
     },
     {
       "chave": "selecao-es:5db44a7f-5d7a-4d75-953d-b5880ed2dedf",
@@ -379,7 +427,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sesm-es-tecnico-superior-01-2026",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -401,7 +449,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-pmes-es-medico-psiquiatra-002-2026",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -423,7 +471,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-professores-habilitados-24-2026",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -445,7 +493,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-tjes-es-tic-01-2026",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -467,7 +515,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-apoio-escolar-cuidador-28-2026",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -489,7 +537,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-professores-tecnica-29-2026",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -511,7 +559,7 @@
       "status_estimado": "inscricoes_encerradas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-professores-nao-habilitados-30-2026",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -533,7 +581,7 @@
       "status_estimado": "inscricoes_abertas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-casf-47-2025",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -555,7 +603,7 @@
       "status_estimado": "inscricoes_abertas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-coordenador-pedagogico-32-2025",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -577,7 +625,7 @@
       "status_estimado": "inscricoes_abertas",
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-diretor-escolar-33-2025",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -599,7 +647,7 @@
       "status_estimado": "inscricoes_abertas",
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-28"
     },
     {
@@ -621,7 +669,7 @@
       "status_estimado": "inscricoes_abertas",
       "no_repositorio": true,
       "registro_repositorio": "ps-serra-es-sesa-007-2026",
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-28"
     },
     {
@@ -643,7 +691,7 @@
       "status_estimado": "inscricoes_abertas",
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-28"
     },
     {
@@ -665,15 +713,15 @@
       "status_estimado": "inscricoes_abertas",
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-28"
     },
     {
-      "chave": "selecao-es:2bb038a7-dabc-4c6b-b945-7f5e69fd2c12",
+      "chave": "selecao-es:c3e686b5-cb0e-4a8a-ab96-53eba3d14342",
       "fonte_id": "selecao-es",
       "orgao": "ESPIRITO SANTO SECRETARIA DE EST DE SEGURANCA PUBLICA",
       "orgao_sigla": "PMES",
-      "titulo": "DS/PMES EDITAL 003/2026 - Processo Seletivo para Contratação de Técnico em Laboratório/Análises Clínicas",
+      "titulo": "DS/PMES EDITAL 004/2026 - Processo Seletivo para Contratação de Técnico em Farmácia-HPM",
       "esfera": "estadual",
       "tipo": "processo_seletivo_simplificado",
       "inscricoes": {
@@ -681,13 +729,35 @@
         "fim": "2026-10-08"
       },
       "vagas_informadas": null,
-      "url": "https://selecao.es.gov.br/processo-seletivo/2bb038a7-dabc-4c6b-b945-7f5e69fd2c12/dspmes-edital-0032026-processo-seletivo-contratacao-tecnico-laboratorioanalises-clinicas",
+      "url": "https://selecao.es.gov.br/processo-seletivo/c3e686b5-cb0e-4a8a-ab96-53eba3d14342/dspmes-edital-0042026-processo-seletivo-contratacao-tecnico-farmacia-hpm",
       "fonte_tipo": "oficial",
       "uf": "ES",
       "status_estimado": "edital_publicado",
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
+      "primeira_deteccao": "2026-09-30"
+    },
+    {
+      "chave": "selecao-es:2bb038a7-dabc-4c6b-b945-7f5e69fd2c12",
+      "fonte_id": "selecao-es",
+      "orgao": "ESPIRITO SANTO SECRETARIA DE EST DE SEGURANCA PUBLICA",
+      "orgao_sigla": "PMES",
+      "titulo": "DS/PMES EDITAL 003/2026 - Processo Seletivo para Contratação de Técnico em Laboratório/Análises Clínicas-HPM",
+      "esfera": "estadual",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": "2026-10-01",
+        "fim": "2026-10-08"
+      },
+      "vagas_informadas": null,
+      "url": "https://selecao.es.gov.br/processo-seletivo/2bb038a7-dabc-4c6b-b945-7f5e69fd2c12/dspmes-edital-0032026-processo-seletivo-contratacao-tecnico-laboratorioanalises-clinicas-hpm",
+      "fonte_tipo": "oficial",
+      "uf": "ES",
+      "status_estimado": "edital_publicado",
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-29"
     },
     {
@@ -709,7 +779,7 @@
       "status_estimado": "edital_publicado",
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-28"
     },
     {
@@ -731,7 +801,7 @@
       "status_estimado": "edital_publicado",
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-28"
     },
     {
@@ -753,7 +823,7 @@
       "status_estimado": "edital_publicado",
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-09-29",
+      "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-28"
     }
   ]

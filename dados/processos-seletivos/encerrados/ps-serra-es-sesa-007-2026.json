@@ -109,7 +109,7 @@
     "observacao": "As etapas e os critérios de classificação constam do edital; a fonte oficial consultada divulgou apenas o cronograma de resultados."
   },
   "banca": "não informado",
-  "status": "inscricoes_abertas",
+  "status": "inscricoes_encerradas",
   "regime": "designacao_temporaria",
   "validade": "não informado",
   "links": {
@@ -141,6 +141,11 @@
       "data": "2026-09-25",
       "status": "inscricoes_abertas",
       "observacao": "Primeiro registro no repositório, a partir do anúncio oficial e do Portal de Seleção da Prefeitura da Serra."
+    },
+    {
+      "data": "2026-09-29",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento registrado automaticamente em 30/09/2026 pelo prazo do edital (29/09/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se não houve prorrogação."
     }
   ],
   "ultima_verificacao": "2026-09-25",
