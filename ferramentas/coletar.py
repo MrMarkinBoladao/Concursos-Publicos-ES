@@ -1633,7 +1633,16 @@ def fundir_nao_mapeados(anteriores, atuais, indice, referencia, janela_dias):
             "paginas_distintas": anterior.get("paginas_distintas") or 0,
             "com_marca_uf": bool(anterior.get("com_marca_uf")),
             "fontes": list(anterior.get("fontes") or []),
-            "exemplos": list(anterior.get("exemplos") or []),
+            # Exemplo que nao e dict so chega aqui por arquivo editado a mao ou
+            # por formato de versao anterior, e e descartado em vez de
+            # propagado: _exemplos_ordenados() e monta_relatorio_md() fazem
+            # exemplo.get("url"), e os dois rodam em main(), FORA do try/except
+            # por fonte — um unico exemplo malformado derrubaria a coleta do dia
+            # inteiro com AttributeError, que e exatamente o que a degradacao
+            # graciosa proibe. O candidato, que e o dado que importa, sobrevive.
+            "exemplos": [
+                e for e in (anterior.get("exemplos") or []) if isinstance(e, dict)
+            ],
             "primeira_deteccao": anterior.get("primeira_deteccao") or hoje_iso,
             "ultima_deteccao": anterior.get("ultima_deteccao") or hoje_iso,
         }

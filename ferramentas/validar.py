@@ -1356,8 +1356,21 @@ def _valida_nao_mapeados(rel, rotulo, dados, indice):
         exemplos = candidato.get("exemplos")
         if exemplos is not None and not isinstance(exemplos, list):
             rel.erro(alvo, "exemplos deve ser uma lista")
-        elif isinstance(exemplos, list) and len(exemplos) > 3:
-            rel.erro(alvo, "exemplos tem %d itens; o maximo e 3" % len(exemplos))
+        elif isinstance(exemplos, list):
+            if len(exemplos) > 3:
+                rel.erro(alvo, "exemplos tem %d itens; o maximo e 3" % len(exemplos))
+            # A FORMA de cada exemplo e checada, e nao so a da lista: o exemplo
+            # e consumido por exemplo.get("url") no coletor e no corpo da issue,
+            # entao um item que nao seja objeto e defeito do arquivo e tem de ser
+            # nomeado aqui — o coletor o descarta para nao cair, mas quem corrige
+            # o arquivo precisa saber qual item esta errado.
+            for posicao, exemplo in enumerate(exemplos):
+                if not isinstance(exemplo, dict):
+                    rel.erro(
+                        alvo,
+                        "exemplos[%d] deve ser um objeto com url/data/trecho "
+                        "(recebido: %s)" % (posicao, type(exemplo).__name__),
+                    )
 
         provavel = candidato.get("provavel_alias_de")
         if provavel is not None and provavel not in indice.por_slug:

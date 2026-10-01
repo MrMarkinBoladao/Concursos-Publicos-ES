@@ -1174,6 +1174,57 @@ class TesteMunicipioNaoMapeado(unittest.TestCase):
         saida = coletar._exemplos_ordenados(exemplos)
         self.assertEqual([e["url"] for e in saida], ["u4", "u3", "u2"])
 
+    def test_exemplo_malformado_do_arquivo_anterior_nao_derruba_a_fusao(self):
+        # Defeito achado pela auditoria do item 21: fundir_nao_mapeados() roda em
+        # main(), FORA do try/except por fonte, e copiava 'exemplos' do arquivo
+        # anterior sem conferir a forma. Um exemplo em string (arquivo editado a
+        # mao, ou formato de versao anterior) virava AttributeError em
+        # exemplo.get("url") e derrubava a coleta do dia inteiro.
+        anterior = [
+            self._candidato(
+                com_marca_uf=True,
+                exemplos=["https://ioes.dio.es.gov.br/pagina/1", None, 7],
+                primeira_deteccao="2026-09-30",
+                ultima_deteccao="2026-09-30",
+            )
+        ]
+        # Sem nenhum candidato novo: o ramo que copia o anterior verbatim, que e
+        # o que alcancava monta_relatorio_md() sem passar por _exemplos_ordenados().
+        reportados = coletar.fundir_nao_mapeados(
+            anterior, [], self.indice, dt.date(2026, 10, 1), 7
+        )
+        self.assertEqual(len(reportados), 1)
+        self.assertEqual(reportados[0]["exemplos"], [])
+
+        # E com candidato novo na mesma execucao, o exemplo bom sobrevive.
+        reportados = coletar.fundir_nao_mapeados(
+            anterior, [self._candidato()], self.indice, dt.date(2026, 10, 1), 7
+        )
+        self.assertEqual(
+            [e["data"] for e in reportados[0]["exemplos"]], ["2026-10-01"]
+        )
+
+    def test_corpo_da_issue_sobrevive_a_exemplo_malformado(self):
+        # A outra ponta do mesmo defeito: o corpo da issue le exemplos[0]["url"].
+        candidato = self._candidato(com_marca_uf=True, exemplos=[])
+        candidato["provavel_alias_de"] = None
+        candidato["sugestao"] = "verificar"
+        texto = coletar.monta_relatorio_md(
+            [],
+            [
+                {
+                    "id": "ioes-busca-dom",
+                    "nome": "IOES - DOM",
+                    "tipo": "diario_oficial",
+                    "status": "ok",
+                    "achados": 0,
+                }
+            ],
+            dt.date(2026, 10, 1),
+            {"nao_mapeados": [candidato]},
+        )
+        self.assertIn("sao roque canaa", texto)
+
 
 class TesteNormalizarAchado(unittest.TestCase):
     """Ponto unico dos campos de categoria e de municipio."""
@@ -2400,6 +2451,24 @@ class TesteValidadorDeDescobertas(unittest.TestCase):
         self.assertEqual(len(self._sobre(erros, "contadores trocados")), 1, erros)
         # Lista nao vazia e pendencia de curadoria, nao defeito: aviso.
         self.assertEqual(len(self._sobre(avisos, "curadoria pendente")), 1, avisos)
+
+    def test_exemplo_de_nao_mapeado_que_nao_e_objeto_e_erro(self):
+        # Defeito achado pela auditoria do item 21: a lista era conferida e a
+        # FORMA de cada item nao, e o arquivo passava com 0 erros enquanto o
+        # coletor caia com AttributeError em exemplo.get("url").
+        candidato = {
+            "nome_detectado": "santa maria ate a",
+            "ocorrencias": 3,
+            "paginas_distintas": 2,
+            "com_marca_uf": True,
+            "exemplos": ["https://ioes.dio.es.gov.br/pagina/1", {"url": "u"}],
+            "primeira_deteccao": "2026-10-01",
+            "ultima_deteccao": "2026-10-01",
+        }
+        erros, _ = self._rodar(municipios_nao_mapeados=[candidato])
+        achados = self._sobre(erros, "exemplos[0] deve ser um objeto")
+        self.assertEqual(len(achados), 1, erros)
+        self.assertIn("str", achados[0])
 
     def test_cobertura_com_conjuntos_incoerentes(self):
         bloco = {
