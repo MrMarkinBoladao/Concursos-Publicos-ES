@@ -67,7 +67,7 @@
     "observacao": "Classificação exclusivamente por avaliação de títulos, sem prova objetiva."
   },
   "banca": "não informado",
-  "status": "edital_publicado",
+  "status": "inscricoes_abertas",
   "regime": "designacao_temporaria",
   "validade": "não informado",
   "links": {
@@ -88,6 +88,11 @@
       "data": "2026-09-25",
       "status": "edital_publicado",
       "observacao": "Primeiro registro no repositório. Edital nº 05/2026 da Secretaria Municipal de Educação divulgado para cadastro de reserva; inscrições previstas para 1º a 8/10/2026."
+    },
+    {
+      "data": "2026-10-01",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura registrada automaticamente em 01/10/2026 pela data de início das inscrições (01/10/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se a abertura não foi adiada."
     }
   ],
   "ultima_verificacao": "2026-09-25",

@@ -130,7 +130,7 @@
     "observacao": "O processo seletivo é realizado exclusivamente por análise de títulos, sem aplicação de provas escritas ou práticas."
   },
   "banca": "não informado",
-  "status": "inscricoes_abertas",
+  "status": "inscricoes_encerradas",
   "regime": "designacao_temporaria",
   "validade": "não informado",
   "links": {
@@ -178,6 +178,11 @@
       "data": "2026-09-25",
       "status": "inscricoes_abertas",
       "observacao": "Primeiro registro no repositório, a partir do edital retificado publicado no site oficial."
+    },
+    {
+      "data": "2026-09-30",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento registrado automaticamente em 01/10/2026 pelo prazo do edital (30/09/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se não houve prorrogação."
     }
   ],
   "ultima_verificacao": "2026-09-25",

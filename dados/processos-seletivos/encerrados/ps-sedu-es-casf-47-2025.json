@@ -44,7 +44,7 @@
     "observacao": "Etapa prévia do processo seletivo para CASF."
   },
   "banca": "não informado",
-  "status": "inscricoes_abertas",
+  "status": "inscricoes_encerradas",
   "regime": "designacao_temporaria",
   "validade": "não informado",
   "links": {
@@ -71,6 +71,11 @@
       "data": "2026-09-22",
       "status": "inscricoes_abertas",
       "observacao": "Primeiro registro no repositório, a partir da listagem oficial do portal Seleção ES."
+    },
+    {
+      "data": "2026-09-30",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento registrado automaticamente em 01/10/2026 pelo prazo do edital (30/09/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se não houve prorrogação."
     }
   ],
   "ultima_verificacao": "2026-09-25",
