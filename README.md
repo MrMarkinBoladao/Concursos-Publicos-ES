@@ -27,6 +27,9 @@ efetivamente relacionada ao estado.
 | Concursos previstos / autorizados | 16 |
 | Registros históricos (encerrados ou em andamento) | 31 |
 | Descobertas automáticas pendentes de conferência | 10 |
+| Municípios do ES monitorados | 0 |
+| Municípios com registro curado | 0 |
+| Municípios com ato detectado na janela da coleta | 0 |
 
 ## Concursos com inscrições abertas
 
@@ -123,6 +126,101 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | PM ES | [PM ES](https://concursosnobrasil.com/concursos/es/2026/10/01/pm-es-esta-com-dois-novos-editais-abertos-para-nivel-tecnico/) | não informado | não informado | portal_concursos |
 | Prefeitura de João Neiva | [Prefeitura de João Neiva](https://concursosnobrasil.com/concursos/es/2026/09/30/es-prefeitura-de-joao-neiva-divulga-edital-com-vagas-de-ate-r-43-mil/) | não informado | não informado | portal_concursos |
 | Prefeitura de João Neiva | [Prefeitura de João Neiva](https://concursosnobrasil.com/concursos/es/2026/09/28/prefeitura-de-joao-neiva-es-promove-selecao-para-profissionais-da-saude/) | não informado | não informado | portal_concursos |
+
+## Cobertura por município
+
+Situação de cada município do Espírito Santo no monitoramento. `Registros
+curados` conta os registros de [`dados/`](dados/) do município; `Ato detectado`
+diz se algum ato dele já apareceu no diário oficial desde que a coleta passou a
+varrer os 78; `Canal principal` é o canal onde o ato tem fé pública, conforme
+[`fontes/municipios-es.json`](fontes/municipios-es.json). Publicar pelo
+DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
+
+<details>
+<summary>Situação dos 78 municípios do Espírito Santo</summary>
+
+| Município | Registros curados | Ato detectado | Canal principal |
+| --------- | ----------------: | ------------- | --------------- |
+| Afonso Cláudio | 1 | — | DOM/AMUNES |
+| Água Doce do Norte | 0 | — | DOM/AMUNES |
+| Águia Branca | 0 | — | DOM/AMUNES |
+| Alegre | 0 | — | DOM/AMUNES |
+| Alfredo Chaves | 0 | — | DOM/AMUNES |
+| Alto Rio Novo | 0 | — | DOM/AMUNES |
+| Anchieta | 1 | — | DOM/AMUNES |
+| Apiacá | 0 | — | DOM/AMUNES |
+| Aracruz | 2 | — | DOM/AMUNES |
+| Atílio Vivácqua | 0 | — | DOM/AMUNES |
+| Baixo Guandu | 0 | — | DOM/AMUNES |
+| Barra de São Francisco | 0 | — | DOM/AMUNES |
+| Boa Esperança | 0 | — | DOM/AMUNES |
+| Bom Jesus do Norte | 0 | — | DOM/AMUNES |
+| Brejetuba | 0 | — | DOM/AMUNES |
+| Cachoeiro de Itapemirim | 1 | — | DOM/AMUNES |
+| Cariacica | 1 | — | DOM/AMUNES |
+| Castelo | 2 | — | DOM/AMUNES |
+| Colatina | 0 | — | DOM/AMUNES |
+| Conceição da Barra | 0 | — | DOM/AMUNES |
+| Conceição do Castelo | 0 | — | DOM/AMUNES |
+| Divino de São Lourenço | 0 | — | DOM/AMUNES |
+| Domingos Martins | 0 | — | DOM/AMUNES |
+| Dores do Rio Preto | 0 | — | DOM/AMUNES |
+| Ecoporanga | 0 | — | DOM/AMUNES |
+| Fundão | 1 | — | DOM/AMUNES |
+| Governador Lindenberg | 0 | — | DOM/AMUNES |
+| Guaçuí | 0 | — | DOM/AMUNES |
+| Guarapari | 2 | — | DOM/AMUNES |
+| Ibatiba | 0 | — | DOM/AMUNES |
+| Ibiraçu | 2 | — | DOM/AMUNES |
+| Ibitirama | 0 | — | DOM/AMUNES |
+| Iconha | 0 | — | DOM/AMUNES |
+| Irupi | 0 | — | DOM/AMUNES |
+| Itaguaçu | 0 | — | DOM/AMUNES |
+| Itapemirim | 0 | — | DOM/AMUNES |
+| Itarana | 0 | — | DOM/AMUNES |
+| Iúna | 0 | — | DOM/AMUNES |
+| Jaguaré | 0 | — | DOM/AMUNES |
+| Jerônimo Monteiro | 0 | — | DOM/AMUNES |
+| João Neiva | 0 | — | DOM/AMUNES |
+| Laranja da Terra | 0 | — | DOM/AMUNES |
+| Linhares | 0 | — | DOM/AMUNES |
+| Mantenópolis | 0 | — | DOM/AMUNES |
+| Marataízes | 0 | — | DOM/AMUNES |
+| Marechal Floriano | 0 | — | DOM/AMUNES |
+| Marilândia | 0 | — | DOM/AMUNES |
+| Mimoso do Sul | 0 | — | DOM/AMUNES |
+| Montanha | 0 | — | DOM/AMUNES |
+| Mucurici | 0 | — | DOM/AMUNES |
+| Muniz Freire | 0 | — | DOM/AMUNES |
+| Muqui | 0 | — | DOM/AMUNES |
+| Nova Venécia | 0 | — | DOM/AMUNES |
+| Pancas | 0 | — | DOM/AMUNES |
+| Pedro Canário | 0 | — | DOM/AMUNES |
+| Pinheiros | 0 | — | DOM/AMUNES |
+| Piúma | 0 | — | DOM/AMUNES |
+| Ponto Belo | 0 | — | DOM/AMUNES |
+| Presidente Kennedy | 0 | — | DOM/AMUNES |
+| Rio Bananal | 0 | — | DOM/AMUNES |
+| Rio Novo do Sul | 0 | — | DOM/AMUNES |
+| Santa Leopoldina | 0 | — | DOM/AMUNES |
+| Santa Maria de Jetibá | 1 | — | DOM/AMUNES |
+| Santa Teresa | 1 | — | DOM/AMUNES |
+| São Domingos do Norte | 0 | — | DOM/AMUNES |
+| São Gabriel da Palha | 1 | — | DOM/AMUNES |
+| São José do Calçado | 0 | — | DOM/AMUNES |
+| São Mateus | 0 | — | DOM/AMUNES |
+| São Roque do Canaã | 0 | — | DOM/AMUNES |
+| Serra | 1 | — | DOM/AMUNES |
+| Sooretama | 0 | — | DOM/AMUNES |
+| Vargem Alta | 0 | — | DOM/AMUNES |
+| Venda Nova do Imigrante | 0 | — | DOM/AMUNES |
+| Viana | 0 | — | DOM/AMUNES |
+| Vila Pavão | 0 | — | DOM/AMUNES |
+| Vila Valério | 0 | — | DOM/AMUNES |
+| Vila Velha | 2 | — | DOM/AMUNES |
+| Vitória | 6 | — | DOM/AMUNES |
+
+</details>
 
 _Dados atualizados em 01/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->

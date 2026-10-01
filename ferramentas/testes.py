@@ -28,6 +28,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import coletar  # noqa: E402
 import comum  # noqa: E402
+import gerar_email  # noqa: E402
+import gerar_readme  # noqa: E402
 import validar  # noqa: E402
 
 # Os 78 municipios do ES com o slug ESPERADO, escritos aqui como literal.
@@ -2452,6 +2454,343 @@ class TesteValidadorDeDescobertas(unittest.TestCase):
         _erros, avisos = self._rodar()
         for chave in ("cobertura_municipios", "municipios_nao_mapeados", "reconciliacao_ibge"):
             self.assertEqual(len(self._sobre(avisos, "chave '%s' ausente" % chave)), 1, avisos)
+
+
+# --------------------------------------------------------------- consumidores
+#
+# README, e-mail e o proprio arquivo do workflow. O que estes casos travam nao e
+# formatacao: e a regra de §11.1 ("bloco de cobertura AUSENTE nao zera o que vem
+# do cadastro"), o estado de tres valores do e-mail e os quatro gatilhos do
+# workflow — tres coisas que, quebradas, passariam silenciosamente no CI.
+
+
+class TesteCoberturaNoReadme(unittest.TestCase):
+    """Secao "Cobertura por municipio" e as tres linhas novas do Panorama.
+
+    Os casos apontam gerar_readme.CAMINHO_DESCOBERTAS para um arquivo temporario
+    e usam o cadastro e os registros REAIS: o ponto do caso e justamente que
+    'Registros curados' e 'Canal principal' continuem corretos quando a coleta
+    ainda nao publicou cobertura.
+    """
+
+    @classmethod
+    def setUpClass(cls):
+        cls.cadastro = comum.carregar_municipios()
+        cls.indice = comum.indice_municipios()
+        cls.registros = comum.carregar_registros()
+        cls.referencia = dt.date(2026, 10, 1)
+
+    def setUp(self):
+        self._original = gerar_readme.CAMINHO_DESCOBERTAS
+        self._dir = tempfile.mkdtemp()
+        gerar_readme.CAMINHO_DESCOBERTAS = os.path.join(self._dir, "descobertas.json")
+
+    def tearDown(self):
+        gerar_readme.CAMINHO_DESCOBERTAS = self._original
+        shutil.rmtree(self._dir)
+
+    def _gravar(self, **chaves):
+        dados = {
+            "gerado_em": "2026-10-01",
+            "janela_dias": 90,
+            "total_achados": 2,
+            "achados": [
+                {
+                    "chave": "op-1",
+                    "categoria": "oportunidade",
+                    "titulo": "Edital de concurso",
+                    "orgao": "Prefeitura de Serra",
+                    "url": "https://exemplo.es.gov.br/edital",
+                    "fonte_tipo": "portal_concursos",
+                    "primeira_deteccao": "2026-10-01",
+                },
+                {
+                    "chave": "ato-1",
+                    "categoria": "ato_diario",
+                    "titulo": "Portaria de nomeacao",
+                    "orgao": "Prefeitura de Vitoria",
+                    "url": "https://ioes.dio.es.gov.br/dom",
+                    "fonte_tipo": "diario_oficial",
+                    "primeira_deteccao": "2026-10-01",
+                },
+            ],
+        }
+        dados.update(chaves)
+        with open(gerar_readme.CAMINHO_DESCOBERTAS, "w", encoding="utf-8") as fh:
+            json.dump(dados, fh, ensure_ascii=False)
+        return dados
+
+    def _linhas_de_municipio(self, bloco):
+        trecho = bloco.split("<summary>")[1].split("</details>")[0]
+        return [
+            linha
+            for linha in trecho.splitlines()
+            if linha.startswith("| ")
+            and not linha.startswith("| ---")
+            and "| Município |" not in linha
+        ]
+
+    def _montar(self):
+        return gerar_readme.monta_bloco(
+            self.registros, self.referencia, self.cadastro, self.indice
+        )
+
+    def test_ato_de_diario_fica_fora_das_descobertas(self):
+        self._gravar()
+        achados = gerar_readme.carregar_descobertas()
+        self.assertEqual([a["chave"] for a in achados], ["op-1"])
+
+    def test_sem_bloco_de_cobertura_panorama_zera_e_coluna_sai_travessao(self):
+        self._gravar()
+        bloco = self._montar()
+
+        self.assertIn("| Municípios do ES monitorados | 0 |", bloco)
+        self.assertIn("| Municípios com registro curado | 0 |", bloco)
+        self.assertIn("| Municípios com ato detectado na janela da coleta | 0 |", bloco)
+
+        linhas = self._linhas_de_municipio(bloco)
+        self.assertEqual(len(linhas), 78)
+        # Coluna 'Ato detectado' (terceira) '—' em TODAS as linhas: sem o bloco
+        # publicado nao ha como afirmar ato nenhum.
+        self.assertEqual(
+            {linha.split("|")[3].strip() for linha in linhas}, {"—"}
+        )
+        # ... e as duas colunas que NAO dependem da coleta seguem corretas: 15
+        # municipios com registro curado (o mesmo numero de cobertura()) e canal
+        # principal preenchido nas 78 linhas.
+        com_curado = [linha for linha in linhas if linha.split("|")[2].strip() != "0"]
+        self.assertEqual(len(com_curado), 15)
+        self.assertEqual(
+            [linha for linha in linhas if linha.split("|")[4].strip() == "—"], []
+        )
+        self.assertIn("| Vitória | 6 | — | DOM/AMUNES |", bloco)
+
+    def test_bloco_e_deterministico_entre_duas_geracoes(self):
+        self._gravar()
+        self.assertEqual(self._montar(), self._montar())
+
+    def test_com_bloco_de_cobertura_os_numeros_e_os_vistos_vem_do_arquivo(self):
+        self._gravar(
+            cobertura_municipios={
+                "total_municipios": 78,
+                "com_registro_curado": 15,
+                "com_achado_na_janela": 41,
+                "com_achado_acumulado": 2,
+                "slugs_com_achado_acumulado": ["serra", "sooretama"],
+            }
+        )
+        bloco = self._montar()
+        self.assertIn("| Municípios do ES monitorados | 78 |", bloco)
+        self.assertIn("| Municípios com registro curado | 15 |", bloco)
+        self.assertIn("| Municípios com ato detectado na janela da coleta | 41 |", bloco)
+
+        linhas = self._linhas_de_municipio(bloco)
+        with_ato = [linha for linha in linhas if linha.split("|")[3].strip() == "✓"]
+        self.assertEqual(len(with_ato), 2)
+        self.assertIn("| Serra | 1 | ✓ | DOM/AMUNES |", bloco)
+        self.assertIn("| Sooretama | 0 | ✓ | DOM/AMUNES |", bloco)
+
+    def test_canal_principal_em_texto_legivel(self):
+        self.assertEqual(
+            gerar_readme.canal_principal(
+                {"canais": [{"tipo": "diario_oficial_proprio", "precedencia": 1}]}
+            ),
+            "Diário próprio",
+        )
+        # Precedencia 1 ausente: a tabela nao inventa canal a partir do de
+        # precedencia 2 — municipio sem canal de consulta primaria e lacuna.
+        self.assertEqual(
+            gerar_readme.canal_principal(
+                {"canais": [{"tipo": "portal_prefeitura", "precedencia": 2}]}
+            ),
+            "—",
+        )
+        self.assertEqual(gerar_readme.canal_principal({"canais": []}), "—")
+
+
+class TesteEstadoDoEmail(unittest.TestCase):
+    """carregar_estado()/gravar_estado() com cobertura_vistos e o bloco curto."""
+
+    def setUp(self):
+        self._original = gerar_email.CAMINHO_ESTADO
+        self._dir = tempfile.mkdtemp()
+        gerar_email.CAMINHO_ESTADO = os.path.join(self._dir, ".estado-envios.json")
+
+    def tearDown(self):
+        gerar_email.CAMINHO_ESTADO = self._original
+        shutil.rmtree(self._dir)
+
+    def _gravar_bruto(self, texto):
+        with open(gerar_email.CAMINHO_ESTADO, "w", encoding="utf-8") as fh:
+            fh.write(texto)
+
+    def test_estado_sem_cobertura_vistos_devolve_dict_vazio(self):
+        self._gravar_bruto(
+            json.dumps({"impressoes": {"a": "1"}, "descobertas": {"k": "2026-09-01"}})
+        )
+        impressoes, descobertas, cobertura = gerar_email.carregar_estado()
+        self.assertEqual(impressoes, {"a": "1"})
+        self.assertEqual(descobertas, {"k": "2026-09-01"})
+        # {} e nao None: arquivo de versao anterior continua legivel, em vez de
+        # ser tratado como primeira execucao (que reanunciaria tudo).
+        self.assertEqual(cobertura, {})
+
+    def test_estado_corrompido_devolve_tres_vazios(self):
+        self._gravar_bruto("{isto nao e json")
+        self.assertEqual(gerar_email.carregar_estado(), ({}, {}, {}))
+
+    def test_estado_ausente_devolve_tres_vazios(self):
+        self.assertEqual(gerar_email.carregar_estado(), ({}, {}, {}))
+
+    def test_round_trip_preserva_as_tres_chaves(self):
+        gerar_email.DIR_EMAIL = self._dir
+        gerar_email.gravar_estado(
+            {"id-1": "abc"},
+            {"chave-1": "2026-10-01"},
+            {"sooretama": "2026-10-01"},
+            dt.date(2026, 10, 1),
+        )
+        self.assertEqual(
+            gerar_email.carregar_estado(),
+            ({"id-1": "abc"}, {"chave-1": "2026-10-01"}, {"sooretama": "2026-10-01"}),
+        )
+
+    def test_municipio_ja_anunciado_nao_volta_ao_resumo(self):
+        dados = {
+            "cobertura_municipios": {
+                "vistos_pela_primeira_vez": ["laranja-da-terra", "sooretama"]
+            },
+            "municipios_nao_mapeados": [{"nome": "sooretama"}],
+        }
+        vistos = {"sooretama": "2026-09-20"}
+        slugs, nao_mapeados, estado = gerar_email.classificar_cobertura(
+            dados, vistos, False, dt.date(2026, 10, 1)
+        )
+        self.assertEqual(slugs, ["laranja-da-terra"])
+        self.assertEqual(nao_mapeados, 1)
+        # A data do primeiro anuncio de Sooretama e preservada; a de Laranja da
+        # Terra e a de hoje.
+        self.assertEqual(
+            estado, {"sooretama": "2026-09-20", "laranja-da-terra": "2026-10-01"}
+        )
+
+        # --forcar reanuncia, mas NAO reescreve a data do primeiro anuncio.
+        slugs, _nao_mapeados, estado = gerar_email.classificar_cobertura(
+            dados, vistos, True, dt.date(2026, 10, 1)
+        )
+        self.assertEqual(slugs, ["laranja-da-terra", "sooretama"])
+        self.assertEqual(estado["sooretama"], "2026-09-20")
+
+    def test_sem_bloco_de_cobertura_nada_a_anunciar(self):
+        slugs, nao_mapeados, estado = gerar_email.classificar_cobertura(
+            {}, {}, False, dt.date(2026, 10, 1)
+        )
+        self.assertEqual((slugs, nao_mapeados, estado), ([], 0, {}))
+
+    def test_bloco_curto_so_aparece_quando_ha_conteudo(self):
+        nomes = {"sooretama": "Sooretama"}
+        self.assertEqual(gerar_email._linhas_cobertura([], nomes, 0), [])
+        texto = "\n".join(gerar_email._linhas_cobertura(["sooretama"], nomes, 2))
+        self.assertIn("primeiro ato detectado em: Sooretama.", texto)
+        self.assertIn("sem mapeamento no cadastro: 2", texto)
+
+    def test_ato_de_diario_nao_entra_no_resumo(self):
+        achados = [
+            {"chave": "op-1", "categoria": "oportunidade", "primeira_deteccao": "2026-10-01"},
+            {"chave": "ato-1", "categoria": "ato_diario", "primeira_deteccao": "2026-10-01"},
+        ]
+        novos, estado = gerar_email.classificar_descobertas(
+            achados, dt.date(2026, 10, 1), {}, False
+        )
+        self.assertEqual([a["chave"] for a in novos], ["op-1"])
+        # O ato tambem nao entra no estado: ele nunca sera "anunciado" por aqui,
+        # e guardar a chave dele so faria o arquivo crescer sem uso.
+        self.assertEqual(list(estado), ["op-1"])
+
+
+class TesteWorkflow(unittest.TestCase):
+    """O .yml lido como TEXTO. Sem pyyaml (dependencia externa e proibida), e o
+    que importa aqui sao presencas literais: um gatilho ou uma clausula que
+    desaparecesse nao reprovaria nenhum outro caso desta suite.
+    """
+
+    @classmethod
+    def setUpClass(cls):
+        caminho = os.path.join(
+            comum.RAIZ, ".github", "workflows", "monitoramento.yml"
+        )
+        with open(caminho, encoding="utf-8") as fh:
+            cls.texto = fh.read()
+
+    def test_fontes_nos_dois_gatilhos(self):
+        antes, _, depois = self.texto.partition("\n  push:")
+        _, _, pull_request = antes.partition("\n  pull_request:")
+        self.assertIn('- "fontes/**"', pull_request)
+        self.assertIn('- "fontes/**"', depois.split("\npermissions:")[0])
+        # O proprio workflow nos dois, para que editar o YAML passe pela
+        # validacao que ele define.
+        self.assertEqual(
+            self.texto.count('- ".github/workflows/monitoramento.yml"'), 2
+        )
+        # descobertas/** fora dos dois; README.md so no pull_request.
+        self.assertNotIn('"descobertas/**"', self.texto)
+        self.assertEqual(self.texto.count('- "README.md"'), 1)
+
+    def test_condicao_da_issue_tem_as_quatro_clausulas(self):
+        for clausula in (
+            "steps.coleta.outputs.novos != '0'",
+            "steps.coleta.outputs.primeira_vez != '0'",
+            "steps.coleta.outputs.nao_mapeados != '0'",
+            "steps.coleta.outputs.divergencia_ibge == '1'",
+        ):
+            self.assertIn(clausula, self.texto)
+        # Ato de diario e rotina diaria: nao pode abrir issue.
+        self.assertNotIn("steps.coleta.outputs.atos_diario_novos", self.texto)
+
+    def test_titulo_da_issue_montado_com_if_then_fi(self):
+        trecho = self.texto.split("Abrir issue com os achados novos")[1].split(
+            "\n  enviar_email:"
+        )[0]
+        # Quatro partes, uma por motivo. 'primeira_vez' e a que o passe anterior
+        # esquecia: depois de 'novos' passar a contar so oportunidades, um dia
+        # cuja unica noticia fosse "primeiro ato em Sooretama" ficaria sem titulo.
+        montagem = trecho.split('partes=""')[1].split('titulo="Coleta')[0]
+        self.assertEqual(montagem.count("if ["), 4)
+        self.assertEqual(montagem.count("; then"), 4)
+        self.assertEqual(montagem.count("fi\n"), 4)
+        self.assertEqual(montagem.count('partes="${partes:+$partes, }'), 3)
+        # Nunca '[ cond ] && atribuicao': com set -euo pipefail o passo abortaria
+        # no primeiro teste falso.
+        self.assertNotIn("] && partes", trecho)
+        self.assertIn('titulo="Coleta automatica: ${partes:-sem novidade}', trecho)
+
+    def test_suite_de_testes_roda_nos_dois_jobs(self):
+        self.assertEqual(self.texto.count("python3 ferramentas/testes.py"), 2)
+        validar, _, atualizar = self.texto.partition("\n  atualizar:")
+        # No job validar, ANTES de validar.py; no job atualizar, antes da
+        # revalidacao — o job validar nao roda na execucao agendada.
+        self.assertLess(
+            validar.index("python3 ferramentas/testes.py"),
+            validar.index("python3 ferramentas/validar.py"),
+        )
+        self.assertLess(
+            atualizar.index("python3 ferramentas/testes.py"),
+            atualizar.index("Revalidar depois das alteracoes"),
+        )
+
+    def test_decisoes_que_o_design_manda_manter(self):
+        # Sem needs: validar no job atualizar, e git add SEM fontes/ (o cadastro
+        # e editado por humano, e ficar fora do git add e a garantia mecanica).
+        # A comparacao e por LINHA, e nao por substring: o comentario que explica
+        # a ausencia cita "needs: validar" no texto corrido.
+        self.assertEqual(
+            [l for l in self.texto.splitlines() if l.strip() == "needs: validar"], []
+        )
+        linha = [
+            l for l in self.texto.splitlines() if l.strip().startswith("git add -A")
+        ]
+        self.assertEqual(len(linha), 1, linha)
+        self.assertNotIn("fontes/", linha[0])
 
 
 if __name__ == "__main__":
