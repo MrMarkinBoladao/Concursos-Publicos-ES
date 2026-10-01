@@ -11,6 +11,7 @@ validacao, e teste que depende de terceiro nao pode reprovar PR.
 
 from __future__ import annotations
 
+import ast
 import contextlib
 import copy
 import datetime as dt
@@ -27,6 +28,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import coletar  # noqa: E402
 import comum  # noqa: E402
+import validar  # noqa: E402
 
 # Os 78 municipios do ES com o slug ESPERADO, escritos aqui como literal.
 # A dupla contabilidade e deliberada: comparar o cadastro consigo mesmo
@@ -1705,6 +1707,751 @@ class TesteMainDoColetor(unittest.TestCase):
                 self.assertEqual(coletar.main(), 1)
         with open(coletar.CAMINHO_DESCOBERTAS, encoding="utf-8") as fh:
             self.assertEqual(fh.read(), "{isto nao e json")
+
+
+# ------------------------------------------------------------------ validador
+#
+# As checagens novas de validar.py sao exercitadas com DICTS EM MEMORIA, nunca
+# com arquivo temporario: e exatamente para isso que valida_catalogo_fontes() e
+# valida_cadastro_municipios() recebem o dado ja carregado. Cada caso abaixo e
+# uma linha das tabelas de secao 9.1/9.2 do design, e os casos "ok" valem tanto
+# quanto os de defeito — a forma comum do dado (um unico canal de agregador
+# confirmado) nao pode ser reprovada por uma regra escrita para o caso raro.
+
+CATALOGO_DE_TESTE = {
+    "ultima_atualizacao": "2026-10-01",
+    "fontes": [
+        {
+            "id": "ioes-busca-dom",
+            "nome": "Busca do DOM/AMUNES",
+            "url": "https://ioes.dio.es.gov.br/dom",
+            "tipo": "diario_oficial",
+            "esfera": "municipal",
+            "prioridade": 1,
+            "coletada_automaticamente": True,
+        },
+        {
+            "id": "banca-exemplo",
+            "nome": "Banca Exemplo",
+            "url": "https://banca.exemplo.org/",
+            "tipo": "banca",
+            "esfera": "nao_se_aplica",
+            "prioridade": 3,
+        },
+    ],
+}
+
+
+def _fonte(**mudancas):
+    """Fonte bem formada de tipo 'banca', com as mudancas do caso aplicadas."""
+    fonte = {
+        "id": "banca-exemplo",
+        "nome": "Banca Exemplo",
+        "url": "https://banca.exemplo.org/",
+        "tipo": "banca",
+        "esfera": "nao_se_aplica",
+        "prioridade": 3,
+    }
+    fonte.update(mudancas)
+    return fonte
+
+
+def _canal_diario(**mudancas):
+    canal = {
+        "tipo": "diario_oficial_agregador",
+        "precedencia": 1,
+        "url": "https://ioes.dio.es.gov.br/dom",
+        "fonte_id": "ioes-busca-dom",
+        "estado": "confirmado",
+        "evidencia": (
+            "nome do municipio em confianca alta na pagina do DOM/AMUNES de "
+            "2026-10-01, edicao 3099, pagina 322"
+        ),
+        "verificado_em": "2026-10-01",
+    }
+    canal.update(mudancas)
+    return canal
+
+
+def _municipio(**mudancas):
+    """Municipio bem formado: UM unico canal de diario agregador confirmado.
+
+    E o caso comum de secao 3.1 (quem publica so pelo DOM/AMUNES), e por isso
+    serve ao mesmo tempo de base das mutacoes e de caso "ok".
+    """
+    entrada = {
+        "codigo_ibge": 3205002,
+        "nome": "Serra",
+        "slug": "serra",
+        "aliases": [],
+        "microrregiao": "Vitória",
+        "canais": [_canal_diario()],
+        "pendencias_verificacao": [],
+        "verificado_em": "2026-10-01",
+    }
+    entrada.update(mudancas)
+    return entrada
+
+
+def _municipio_vitoria(**mudancas):
+    """Segunda entrada bem formada, para os casos que precisam de dois slugs."""
+    return _municipio(codigo_ibge=3205309, nome="Vitória", slug="vitoria", **mudancas)
+
+
+def _orgao(**mudancas):
+    orgao = {
+        "id": "camara-serra",
+        "nome": "Camara Municipal da Serra",
+        "sigla": None,
+        "natureza": "camara_municipal",
+        "esfera": "municipal",
+        "municipios_slugs": ["serra"],
+        "url": "https://www.cmserra.es.gov.br/concursos",
+        "fontes": ["ioes-busca-dom"],
+        "pendencias_verificacao": [],
+        "verificado_em": "2026-10-01",
+    }
+    orgao.update(mudancas)
+    return orgao
+
+
+def _cadastro(municipios=None, orgaos=None, **mudancas):
+    cadastro = {
+        "ibge_consultado_em": "2026-10-01",
+        "municipios": [_municipio()] if municipios is None else municipios,
+        "orgaos_vinculados": [] if orgaos is None else orgaos,
+    }
+    cadastro["total_esperado"] = len(cadastro["municipios"])
+    cadastro.update(mudancas)
+    return cadastro
+
+
+def _mensagens(rel):
+    return (
+        [item["mensagem"] for item in rel.erros],
+        [item["mensagem"] for item in rel.avisos],
+    )
+
+
+class TesteValidadorDoCatalogo(unittest.TestCase):
+    """Tabela de secao 9.1, com o catalogo em memoria."""
+
+    def _rodar(self, fontes, ultima_atualizacao="2026-10-01"):
+        rel = validar.Relatorio()
+        validar.valida_catalogo_fontes(
+            rel, {"ultima_atualizacao": ultima_atualizacao, "fontes": fontes}
+        )
+        return _mensagens(rel)
+
+    def test_catalogo_bem_formado_nao_gera_nada(self):
+        erros, avisos = self._rodar(CATALOGO_DE_TESTE["fontes"])
+        self.assertEqual(erros, [])
+        self.assertEqual(avisos, [])
+
+    def test_orgao_publico_com_esfera_nao_se_aplica(self):
+        erros, _ = self._rodar(
+            [_fonte(tipo="diario_oficial", esfera="nao_se_aplica")]
+        )
+        self.assertEqual(len(erros), 1, erros)
+        self.assertIn("nao pode ter esfera 'nao_se_aplica'", erros[0])
+
+    def test_fonte_que_nao_e_orgao_publico_com_esfera_de_governo(self):
+        # O bug inverso: foi a falta desta metade que deixou 12 fontes sem
+        # 'esfera' e, depois, uma banca com esfera estadual passar.
+        erros, _ = self._rodar([_fonte(esfera="estadual")])
+        self.assertEqual(len(erros), 1, erros)
+        self.assertIn("deveria ser 'nao_se_aplica'", erros[0])
+
+    def test_chave_desconhecida_em_fonte(self):
+        erros, _ = self._rodar([_fonte(esferra="nao_se_aplica")])
+        self.assertEqual(len(erros), 1, erros)
+        self.assertIn("chave desconhecida: esferra", erros[0])
+
+    def test_id_fora_do_padrao_e_prioridade_fora_da_faixa(self):
+        erros, _ = self._rodar([_fonte(id="Banca_Exemplo", prioridade=9)])
+        self.assertEqual(len(erros), 2, erros)
+
+    def test_id_duplicado(self):
+        erros, _ = self._rodar([_fonte(), _fonte()])
+        self.assertEqual(len(erros), 1, erros)
+        self.assertIn("id duplicado", erros[0])
+
+    def test_ultima_atualizacao_futura(self):
+        erros, _ = self._rodar([_fonte()], ultima_atualizacao="2027-01-01")
+        self.assertEqual(len(erros), 1, erros)
+        self.assertIn("esta no futuro", erros[0])
+
+    def test_url_sem_https_e_aviso(self):
+        erros, avisos = self._rodar([_fonte(url="http://banca.exemplo.org/")])
+        self.assertEqual(erros, [])
+        self.assertEqual(len(avisos), 1, avisos)
+        self.assertIn("nao usa HTTPS", avisos[0])
+
+    def test_coletada_automaticamente_sem_coletor_e_aviso(self):
+        # Aviso, nao erro: o catalogo pode declarar a intencao antes de o
+        # coletor existir. Exercita tambem o import tardio de 'coletar'.
+        erros, avisos = self._rodar(
+            [_fonte(id="portal-inexistente", coletada_automaticamente=True)]
+        )
+        self.assertEqual(erros, [])
+        self.assertEqual(len(avisos), 1, avisos)
+        self.assertIn("nao ha coletor", avisos[0])
+
+    def test_import_de_coletar_e_tardio(self):
+        """'coletar' so pode ser importado DENTRO de valida_catalogo_fontes().
+
+        No topo do modulo ele arrastaria TIMEOUT, NAVEGADOR e o sys.path.insert
+        do coletor para dentro do validador, que depende apenas de comum. O
+        caso le a arvore sintatica porque a alternativa (conferir sys.modules)
+        nao distingue "validar importou" de "o proprio teste importou".
+        """
+        caminho = os.path.join(os.path.dirname(os.path.abspath(__file__)), "validar.py")
+        with open(caminho, encoding="utf-8") as fh:
+            arvore = ast.parse(fh.read())
+
+        importados_no_topo = {
+            alias.name
+            for no in arvore.body
+            if isinstance(no, ast.Import)
+            for alias in no.names
+        }
+        self.assertIn("comum", importados_no_topo)
+        self.assertNotIn("coletar", importados_no_topo)
+
+        funcao = next(
+            no
+            for no in arvore.body
+            if isinstance(no, ast.FunctionDef) and no.name == "valida_catalogo_fontes"
+        )
+        dentro = {
+            alias.name
+            for no in ast.walk(funcao)
+            if isinstance(no, ast.Import)
+            for alias in no.names
+        }
+        self.assertEqual(dentro, {"coletar"})
+
+
+class TesteValidadorDoCadastro(unittest.TestCase):
+    """Tabela de secao 9.2, com o cadastro em memoria.
+
+    As linhas de contagem total (total_esperado) sao filtradas das assercoes e
+    testadas a parte: um cadastro de teste tem 1 ou 2 municipios e por isso
+    dispara sempre o piso 'total_esperado < 78', que nada tem a ver com o
+    defeito sob teste. Filtrar e o que torna "sai EXATAMENTE o erro esperado"
+    uma afirmacao verificavel.
+    """
+
+    def _rodar(self, cadastro):
+        rel = validar.Relatorio()
+        validar.valida_cadastro_municipios(rel, cadastro, CATALOGO_DE_TESTE)
+        erros, avisos = _mensagens(rel)
+        return (
+            [m for m in erros if not m.startswith(("total_esperado", "len(municipios)"))],
+            avisos,
+        )
+
+    def _unico_erro(self, cadastro, trecho):
+        erros, _ = self._rodar(cadastro)
+        self.assertEqual(len(erros), 1, erros)
+        self.assertIn(trecho, erros[0])
+
+    # ----------------------------------------------------------- casos "ok"
+
+    def test_um_unico_canal_de_agregador_confirmado_passa(self):
+        erros, avisos = self._rodar(_cadastro())
+        self.assertEqual(erros, [])
+        self.assertEqual(avisos, [])
+
+    def test_canal_pendente_com_data_nula_e_pendencia_declarada_passa(self):
+        cadastro = _cadastro(
+            [
+                _municipio(
+                    canais=[_canal_diario(estado="pendente", verificado_em=None)],
+                    pendencias_verificacao=["canais:conferir_manual"],
+                )
+            ]
+        )
+        erros, avisos = self._rodar(cadastro)
+        self.assertEqual(erros, [])
+        # Sem canal confirmado e lacuna de cobertura: aviso, nunca erro.
+        self.assertEqual(len(avisos), 1, avisos)
+        self.assertIn("nenhum canal confirmado", avisos[0])
+
+    def test_agencia_reguladora_com_zero_slugs_e_pendencia_passa(self):
+        cadastro = _cadastro(
+            orgaos=[
+                _orgao(
+                    id="aries",
+                    nome="Agencia Reguladora Intermunicipal de Saneamento",
+                    sigla="ARIES",
+                    natureza="agencia_reguladora",
+                    esfera="intermunicipal",
+                    municipios_slugs=[],
+                    url=None,
+                    pendencias_verificacao=[
+                        "url:nao_encontrado",
+                        "municipios_slugs:nao_encontrado",
+                    ],
+                )
+            ]
+        )
+        erros, avisos = self._rodar(cadastro)
+        self.assertEqual(erros, [])
+        self.assertEqual(avisos, [])
+
+    # -------------------------------------------------------- canais e slug
+
+    def test_sem_canal_de_diario_e_sem_pendencia_de_canais(self):
+        self._unico_erro(
+            _cadastro([_municipio(canais=[])]),
+            "sem canal de diario",
+        )
+
+    def test_sem_canal_de_diario_com_pendencia_declarada_passa(self):
+        cadastro = _cadastro(
+            [_municipio(canais=[], pendencias_verificacao=["canais:nao_encontrado"])]
+        )
+        erros, _ = self._rodar(cadastro)
+        self.assertEqual(erros, [])
+
+    def test_canal_confirmado_sem_verificado_em(self):
+        self._unico_erro(
+            _cadastro([_municipio(canais=[_canal_diario(verificado_em=None)])]),
+            "verificado_em e obrigatorio",
+        )
+
+    def test_duas_precedencias_iguais_no_mesmo_municipio(self):
+        canais = [
+            _canal_diario(),
+            _canal_diario(
+                tipo="portal_prefeitura",
+                precedencia=1,
+                url="https://www.serra.es.gov.br/",
+                fonte_id=None,
+            ),
+        ]
+        self._unico_erro(_cadastro([_municipio(canais=canais)]), "precedencia 1 repetida")
+
+    def test_precedencia_1_nao_e_de_diario_havendo_diario(self):
+        canais = [
+            _canal_diario(precedencia=2),
+            _canal_diario(
+                tipo="portal_prefeitura",
+                precedencia=1,
+                url="https://www.serra.es.gov.br/",
+                fonte_id=None,
+            ),
+        ]
+        self._unico_erro(
+            _cadastro([_municipio(canais=canais)]), "o diario tem de vir primeiro"
+        )
+
+    def test_chave_desconhecida_em_canal(self):
+        self._unico_erro(
+            _cadastro([_municipio(canais=[_canal_diario(observacao="sondado")])]),
+            "chave desconhecida: observacao",
+        )
+
+    def test_canal_sem_evidencia(self):
+        self._unico_erro(
+            _cadastro([_municipio(canais=[_canal_diario(evidencia="")])]),
+            "evidencia ausente ou vazia",
+        )
+
+    def test_fonte_id_inexistente_no_catalogo(self):
+        self._unico_erro(
+            _cadastro([_municipio(canais=[_canal_diario(fonte_id="nao-existe")])]),
+            "fonte_id inexistente",
+        )
+
+    def test_url_nula_fora_de_canal_de_banca(self):
+        self._unico_erro(
+            _cadastro([_municipio(canais=[_canal_diario(url=None)])]),
+            "url null so e aceita em canal de banca",
+        )
+
+    def test_canal_pendente_sem_pendencia_declarada(self):
+        self._unico_erro(
+            _cadastro(
+                [_municipio(canais=[_canal_diario(estado="pendente", verificado_em=None)],
+                            pendencias_verificacao=[])]
+            ),
+            "nenhuma pendencia 'canais:...'",
+        )
+
+    def test_pendencia_com_motivo_fora_do_vocabulario(self):
+        self._unico_erro(
+            _cadastro([_municipio(pendencias_verificacao=["canais:talvez"])]),
+            "motivo invalido",
+        )
+
+    def test_pendencia_sobre_campo_que_nao_existe(self):
+        self._unico_erro(
+            _cadastro([_municipio(pendencias_verificacao=["url_diario_oficial:nao_encontrado"])]),
+            "nao e campo da entrada",
+        )
+
+    def test_slug_escrito_a_mao_e_recalculado(self):
+        # A classe de bug mais provavel do cadastro: slug acentuado digitado.
+        self._unico_erro(
+            _cadastro([_municipio(nome="São Roque do Canaã", slug="sao-roque-do-canaã")]),
+            "difere de comum.slug(nome)",
+        )
+
+    def test_codigo_ibge_fora_da_forma(self):
+        self._unico_erro(
+            _cadastro([_municipio(codigo_ibge=5205002)]),
+            "7 digitos comecando com 32",
+        )
+
+    def test_alias_colide_entre_municipios(self):
+        # A colisao e propriedade GLOBAL do arquivo: nenhuma leitura isolada de
+        # uma entrada a veria.
+        cadastro = _cadastro(
+            [_municipio(), _municipio_vitoria(aliases=["Serra"])]
+        )
+        self._unico_erro(cadastro, "colide com nome ou alias de 'serra'")
+
+    def test_alias_redundante_com_o_nome_e_aviso(self):
+        erros, avisos = self._rodar(_cadastro([_municipio(aliases=["SERRA"])]))
+        self.assertEqual(erros, [])
+        self.assertEqual(len(avisos), 1, avisos)
+        self.assertIn("redundante com o proprio nome", avisos[0])
+
+    def test_chave_desconhecida_em_municipio(self):
+        self._unico_erro(
+            _cadastro([_municipio(populacao=500000)]),
+            "chave desconhecida: populacao",
+        )
+
+    # ------------------------------------------------------ total_esperado
+
+    def test_total_esperado_abaixo_do_piso_e_erro(self):
+        rel = validar.Relatorio()
+        validar.valida_cadastro_municipios(
+            rel, _cadastro(total_esperado=77), CATALOGO_DE_TESTE
+        )
+        erros, _ = _mensagens(rel)
+        self.assertTrue(any("o ES nunca teve menos de 78" in m for m in erros), erros)
+
+    def test_total_esperado_acima_de_78_e_aviso_e_nao_erro(self):
+        # O 79o municipio criado por lei nao pode reprovar o repositorio: o
+        # literal 78 e piso, e a contagem que vale vem do arquivo.
+        municipios = [_municipio()] * 79
+        rel = validar.Relatorio()
+        validar.valida_cadastro_municipios(
+            rel, _cadastro(municipios, total_esperado=79), CATALOGO_DE_TESTE
+        )
+        erros, avisos = _mensagens(rel)
+        self.assertEqual([m for m in erros if m.startswith("total_esperado")], [])
+        self.assertTrue(any("confira contra o IBGE" in m for m in avisos), avisos)
+
+    def test_len_municipios_diferente_de_total_esperado(self):
+        rel = validar.Relatorio()
+        validar.valida_cadastro_municipios(
+            rel, _cadastro(total_esperado=78), CATALOGO_DE_TESTE
+        )
+        erros, _ = _mensagens(rel)
+        self.assertTrue(any(m.startswith("len(municipios)") for m in erros), erros)
+
+    # --------------------------------------------------- orgaos_vinculados
+
+    def test_orgao_com_url_nula_sem_pendencia(self):
+        self._unico_erro(
+            _cadastro(orgaos=[_orgao(url=None)]),
+            "url null sem a pendencia 'url:nao_encontrado'",
+        )
+
+    def test_chave_desconhecida_em_orgao(self):
+        self._unico_erro(
+            _cadastro(orgaos=[_orgao(telefone="2733333333")]),
+            "chave desconhecida: telefone",
+        )
+
+    def test_chave_obrigatoria_ausente_em_orgao(self):
+        orgao = _orgao()
+        del orgao["sigla"]
+        self._unico_erro(_cadastro(orgaos=[orgao]), "chave obrigatoria ausente: sigla")
+
+    def test_orgao_id_colidindo_com_slug_de_municipio(self):
+        self._unico_erro(
+            _cadastro(orgaos=[_orgao(id="serra")]),
+            "colide com slug de municipio",
+        )
+
+    def test_camara_com_dois_municipios(self):
+        self._unico_erro(
+            _cadastro(
+                [_municipio(), _municipio_vitoria()],
+                orgaos=[_orgao(municipios_slugs=["serra", "vitoria"])],
+            ),
+            "exige exatamente 1 municipio",
+        )
+
+    def test_consorcio_sem_esfera_intermunicipal(self):
+        orgao = _orgao(
+            id="consorcio-caparao",
+            nome="Consorcio Publico do Caparao",
+            natureza="consorcio_intermunicipal",
+            esfera="municipal",
+            municipios_slugs=["serra"],
+        )
+        self._unico_erro(_cadastro(orgaos=[orgao]), "exige esfera 'intermunicipal'")
+
+    def test_orgao_com_slug_inexistente(self):
+        self._unico_erro(
+            _cadastro(orgaos=[_orgao(municipios_slugs=["ilha-de-fora"])]),
+            "aponta para slug inexistente",
+        )
+
+    def test_orgao_sem_verificado_em(self):
+        self._unico_erro(
+            _cadastro(orgaos=[_orgao(verificado_em=None)]),
+            "verificado_em e obrigatorio",
+        )
+
+
+class TesteValidadorDeEscopo(unittest.TestCase):
+    """Reforco de secao 9.3: o campo 'municipio' de dados/ resolve no cadastro."""
+
+    def _rodar(self, **mudancas):
+        registro = {"uf": "ES", "municipio": "Serra", "esfera": "municipal"}
+        registro.update(mudancas)
+        rel = validar.Relatorio()
+        validar.valida_escopo(rel, "dados/x.json", registro, comum.indice_municipios())
+        return _mensagens(rel)
+
+    def test_nome_oficial_passa(self):
+        self.assertEqual(self._rodar(), ([], []))
+
+    def test_os_dois_padroes_sem_municipio_passam(self):
+        self.assertEqual(self._rodar(municipio="Âmbito estadual (ES)"), ([], []))
+        self.assertEqual(
+            self._rodar(municipio="Diversos (ES) - Linhares e região"), ([], [])
+        )
+
+    def test_grafia_divergente_e_erro(self):
+        # Erro, e nao aviso: o nome e chave de agregacao da cobertura, e um
+        # registro com grafia divergente nao desaparece — ele conta errado.
+        erros, _ = self._rodar(municipio="Santa Maria do Jetibá")
+        self.assertEqual(len(erros), 1, erros)
+        self.assertIn("nao consta de fontes/municipios-es.json", erros[0])
+
+    def test_alias_e_aviso_com_o_nome_oficial(self):
+        erros, avisos = self._rodar(municipio="Cachoeiro do Itapemirim")
+        self.assertEqual(erros, [])
+        self.assertEqual(len(avisos), 1, avisos)
+        self.assertIn("Cachoeiro de Itapemirim", avisos[0])
+
+    def test_nome_de_orgao_vinculado_e_aviso(self):
+        erros, avisos = self._rodar(municipio="Camara Municipal de Aracruz")
+        self.assertEqual(erros, [])
+        self.assertEqual(len(avisos), 1, avisos)
+        self.assertIn("e nome de orgao vinculado", avisos[0])
+
+    def test_intermunicipal_cuja_sede_resolve_e_aviso(self):
+        erros, avisos = self._rodar(
+            municipio="Divino de São Lourenço", esfera="intermunicipal"
+        )
+        self.assertEqual(erros, [])
+        self.assertEqual(len(avisos), 1, avisos)
+        self.assertIn("nao credita cobertura", avisos[0])
+
+
+class TesteValidadorDeDescobertas(unittest.TestCase):
+    """Reforco de secao 9.4, com o dict de quarentena em memoria."""
+
+    CADASTRO = {"ibge_consultado_em": "2026-10-01", "total_esperado": 78}
+
+    def _rodar(self, achado=None, **topo):
+        dados = {"gerado_em": "2026-10-01", "achados": [achado] if achado else []}
+        dados.update(topo)
+        rel = validar.Relatorio()
+        validar.valida_descobertas(rel, dados, self.CADASTRO, comum.indice_municipios())
+        return _mensagens(rel)
+
+    def _achado(self, **mudancas):
+        achado = {
+            "chave": "selecao-es:exemplo",
+            "fonte_id": "selecao-es",
+            "orgao": "SEDU",
+            "titulo": "Processo seletivo",
+            "url": "https://selecao.es.gov.br/",
+            "primeira_deteccao": "2026-09-30",
+            "ultima_deteccao": "2026-10-01",
+            "no_repositorio": False,
+        }
+        achado.update(mudancas)
+        return achado
+
+    def _sobre(self, mensagens, trecho):
+        return [m for m in mensagens if trecho in m]
+
+    # ------------------------------------------- tolerancia de legado (9.4)
+    #
+    # Os quatro casos que a regra existe para distinguir. O '<=' da fronteira e
+    # MEDIDO: 2 dos 37 achados versionados tem primeira_deteccao igual a
+    # ibge_consultado_em, e com '<' eles virariam erro — o oposto da tolerancia.
+
+    def test_legado_anterior_a_fronteira_e_aviso(self):
+        erros, avisos = self._rodar(self._achado(primeira_deteccao="2026-09-23"))
+        self.assertEqual(self._sobre(erros, "categoria"), [])
+        self.assertEqual(len(self._sobre(avisos, "sem 'categoria'")), 1, avisos)
+        self.assertEqual(len(self._sobre(avisos, "sem 'municipio_escopo'")), 1, avisos)
+
+    def test_legado_na_fronteira_e_aviso(self):
+        erros, avisos = self._rodar(self._achado(primeira_deteccao="2026-10-01"))
+        self.assertEqual(self._sobre(erros, "categoria"), [])
+        self.assertEqual(len(self._sobre(avisos, "sem 'categoria'")), 1, avisos)
+
+    def test_posterior_a_fronteira_e_erro(self):
+        erros, _ = self._rodar(self._achado(primeira_deteccao="2026-10-02"))
+        self.assertEqual(
+            sorted(erros),
+            [
+                "campo obrigatorio ausente: 'categoria'",
+                "campo obrigatorio ausente: 'municipio_escopo'",
+            ],
+        )
+
+    def test_categoria_invalida_e_erro_nos_tres_casos(self):
+        for data in ("2026-09-23", "2026-10-01", "2026-10-02"):
+            erros, _ = self._rodar(
+                self._achado(primeira_deteccao=data, categoria="lixo")
+            )
+            self.assertEqual(
+                len(self._sobre(erros, "categoria fora do vocabulario")), 1, (data, erros)
+            )
+
+    # ------------------------------------------------- demais linhas de 9.4
+
+    def test_oportunidade_com_confianca_alta_e_erro(self):
+        erros, _ = self._rodar(
+            self._achado(
+                categoria="oportunidade",
+                municipio_escopo="municipal",
+                municipio_slug="serra",
+                municipio_codigo_ibge=3205002,
+                municipio_confianca="alta",
+            )
+        )
+        self.assertEqual(len(self._sobre(erros, "portal de terceiro")), 1, erros)
+
+    def test_ato_de_diario_com_prazo_de_inscricao_e_erro(self):
+        erros, _ = self._rodar(
+            self._achado(
+                categoria="ato_diario",
+                municipio_escopo="municipal",
+                municipio_slug="serra",
+                municipio_confianca="alta",
+                inscricoes={"inicio": None, "fim": "2026-10-20"},
+            )
+        )
+        self.assertEqual(len(self._sobre(erros, "inscricoes.fim preenchido")), 1, erros)
+
+    def test_ato_de_diario_sem_slug_exige_escopo_que_explique(self):
+        erros, _ = self._rodar(
+            self._achado(categoria="ato_diario", municipio_escopo="municipal")
+        )
+        self.assertEqual(len(self._sobre(erros, "exige municipio_escopo")), 1, erros)
+
+    def test_codigo_ibge_incoerente_com_o_slug(self):
+        erros, _ = self._rodar(
+            self._achado(
+                categoria="oportunidade",
+                municipio_escopo="municipal",
+                municipio_slug="serra",
+                municipio_codigo_ibge=3205309,
+            )
+        )
+        self.assertEqual(len(self._sobre(erros, "incoerente")), 1, erros)
+
+    def test_origem_sem_slug_e_contradicao(self):
+        erros, _ = self._rodar(
+            self._achado(
+                categoria="oportunidade",
+                municipio_escopo="estadual",
+                municipio_slug=None,
+                municipio_origem="nome",
+            )
+        )
+        self.assertEqual(len(self._sobre(erros, "contradicao")), 1, erros)
+
+    def test_origem_ausente_e_ok(self):
+        erros, _ = self._rodar(
+            self._achado(categoria="oportunidade", municipio_escopo="estadual")
+        )
+        self.assertEqual(erros, [])
+
+    def test_contadores_de_nao_mapeado_trocados(self):
+        candidato = {
+            "nome_detectado": "santa maria ate a",
+            "ocorrencias": 1,
+            "paginas_distintas": 2,
+            "com_marca_uf": False,
+            "exemplos": [],
+            "primeira_deteccao": "2026-10-01",
+            "ultima_deteccao": "2026-10-01",
+        }
+        erros, avisos = self._rodar(municipios_nao_mapeados=[candidato])
+        self.assertEqual(len(self._sobre(erros, "contadores trocados")), 1, erros)
+        # Lista nao vazia e pendencia de curadoria, nao defeito: aviso.
+        self.assertEqual(len(self._sobre(avisos, "curadoria pendente")), 1, avisos)
+
+    def test_cobertura_com_conjuntos_incoerentes(self):
+        bloco = {
+            "total_municipios": 78,
+            "com_achado_na_janela": 2,
+            "com_achado_acumulado": 1,
+            "slugs_com_achado_acumulado": ["serra"],
+            "slugs_com_sinal": ["vitoria"],
+            "slugs_com_sinal_historico": [],
+            "vistos_pela_primeira_vez": ["serra"],
+        }
+        erros, _ = self._rodar(cobertura_municipios=bloco)
+        self.assertEqual(len(self._sobre(erros, "maior que com_achado_acumulado")), 1, erros)
+        self.assertEqual(
+            len(self._sobre(erros, "vistos_pela_primeira_vez tem slug fora")), 1, erros
+        )
+        self.assertEqual(
+            len(self._sobre(erros, "slugs_com_sinal tem slug fora")), 1, erros
+        )
+
+    def test_cobertura_com_lista_fora_de_ordem_e_slug_inexistente(self):
+        bloco = {
+            "total_municipios": 78,
+            "com_achado_na_janela": 0,
+            "com_achado_acumulado": 2,
+            "slugs_com_achado_acumulado": ["vitoria", "serra"],
+            "slugs_com_sinal": [],
+            "slugs_com_sinal_historico": ["ilha-de-fora"],
+            "vistos_pela_primeira_vez": [],
+        }
+        erros, _ = self._rodar(cobertura_municipios=bloco)
+        self.assertEqual(len(self._sobre(erros, "nao esta ordenada")), 1, erros)
+        self.assertEqual(len(self._sobre(erros, "slug inexistente no cadastro")), 1, erros)
+
+    def test_total_de_municipios_vem_do_cadastro(self):
+        erros, _ = self._rodar(cobertura_municipios={"total_municipios": 77})
+        self.assertEqual(len(self._sobre(erros, "difere de total_esperado")), 1, erros)
+
+    def test_reconciliacao_com_erro_e_divergencia_sao_avisos(self):
+        bloco = {
+            "status": "erro",
+            "erro": "URLError: timeout",
+            "ausentes_no_cadastro": [{"codigo_ibge": 3200000, "nome": "Novo Municipio"}],
+            "excedentes_no_cadastro": [],
+        }
+        erros, avisos = self._rodar(reconciliacao_ibge=bloco)
+        self.assertEqual(erros, [])
+        self.assertEqual(len(self._sobre(avisos, "reconciliacao com o IBGE falhou")), 1, avisos)
+        self.assertEqual(len(self._sobre(avisos, "ausentes_no_cadastro")), 1, avisos)
+
+    def test_chave_de_topo_ausente_e_aviso(self):
+        _erros, avisos = self._rodar()
+        for chave in ("cobertura_municipios", "municipios_nao_mapeados", "reconciliacao_ibge"):
+            self.assertEqual(len(self._sobre(avisos, "chave '%s' ausente" % chave)), 1, avisos)
 
 
 if __name__ == "__main__":
