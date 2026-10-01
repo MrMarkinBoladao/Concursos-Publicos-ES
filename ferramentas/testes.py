@@ -11,14 +11,21 @@ validacao, e teste que depende de terceiro nao pode reprovar PR.
 
 from __future__ import annotations
 
+import contextlib
+import copy
+import datetime as dt
+import io
 import json
 import os
+import shutil
 import sys
 import tempfile
 import unittest
+import urllib.error
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+import coletar  # noqa: E402
 import comum  # noqa: E402
 
 # Os 78 municipios do ES com o slug ESPERADO, escritos aqui como literal.
@@ -340,6 +347,1364 @@ class TesteVocabularios(unittest.TestCase):
             comum.MOTIVOS_PENDENCIA,
             {"conferir_manual", "nao_responde", "nao_encontrado"},
         )
+
+
+# --------------------------------------------------------------- coletor IOES
+#
+# Tudo abaixo exercita o coletor de diario oficial SEM REDE. O ponto de parsing
+# e isolado de proposito: _achados_de_resposta() recebe um envelope JA
+# desserializado e e funcao pura, entao os casos usam envelopes LITERAIS. A
+# camada de rede (_ler_bytes/_ler_com_retry) nao e testada unitariamente — ela
+# e fina justamente para que isso seja aceitavel.
+
+
+def _pagina(texto):
+    """Passa o texto pelos estagios 2 e 3 do pipeline (normalizar + limpar).
+
+    Os casos escrevem o trecho como ele aparece no diario (caixa alta, com
+    acento) e esta funcao aplica a mesma ordem que _achados_de_resposta()
+    aplica: nenhum caso pode normalizar de um jeito proprio, senao mediria um
+    pipeline que nao existe.
+    """
+    return coletar._limpar_boilerplate(comum.normalizar(texto))
+
+
+def _pares_de_municipio(texto, indice=None):
+    """(slug, confianca) de cada atribuicao do bloco, na ordem de descoberta."""
+    indice = indice or comum.indice_municipios()
+    return [
+        (a["municipio_slug"], a["municipio_confianca"])
+        for a in coletar._atribuicoes_do_bloco(_pagina(texto), indice)
+    ]
+
+
+@contextlib.contextmanager
+def _indice_sem(slugs):
+    """Indice construido sobre o cadastro real MENOS os municipios indicados.
+
+    Serve a deteccao por injecao: "nao aparece ruido" e indistinguivel de "nao
+    aparece nada", entao o caminho positivo da deteccao de municipio nao
+    mapeado tem de ser exercitado removendo um municipio que o texto cita.
+    """
+    cadastro = comum.carregar_municipios()
+    cadastro["municipios"] = [
+        m for m in cadastro["municipios"] if m["slug"] not in set(slugs)
+    ]
+    original = comum.CAMINHO_MUNICIPIOS
+    temporario = tempfile.NamedTemporaryFile(
+        mode="w", suffix=".json", delete=False, encoding="utf-8"
+    )
+    json.dump(cadastro, temporario, ensure_ascii=False)
+    temporario.close()
+    comum.CAMINHO_MUNICIPIOS = temporario.name
+    comum.indice_municipios.cache_clear()
+    try:
+        yield comum.indice_municipios()
+    finally:
+        comum.CAMINHO_MUNICIPIOS = original
+        os.unlink(temporario.name)
+        comum.indice_municipios.cache_clear()
+
+
+def _item_ioes(ident="11517_315", conteudo="", data="2026-10-01", diario_id=11517,
+               pagina=315, highlight=None, suplemento="Edição 3099"):
+    """Item de hit no formato medido do buscador do IOES."""
+    item = {
+        "_id": ident,
+        "_score": 1.0,
+        "sort": [1790812800000],
+        "diario": "DOM - AMUNES",
+        "suplemento": suplemento,
+        "_source": {
+            "conteudo": conteudo,
+            "data": data,
+            "paginas": 363,
+            "pagina": pagina,
+            "pdf_id": 1155857,
+            "year": "2026",
+            "month": "10",
+            "day": "01",
+            "diario_id": diario_id,
+            "tipo_edicao": 13,
+        },
+    }
+    if highlight is not None:
+        item["highlight"] = {"conteudo": highlight}
+    return item
+
+
+def _envelope_ioes(itens, total=None):
+    # hits.total e int na forma medida (131); a forma dict com 'value' e
+    # tolerada pelo coletor e tem caso proprio.
+    return {
+        "took": 7,
+        "timed_out": False,
+        "hits": {
+            "total": len(itens) if total is None else total,
+            "max_score": 1.0,
+            "hits": itens,
+        },
+    }
+
+
+# Assinatura de ato ESTADUAL nas quatro formas medidas em 144 paginas. Exigir
+# dia da semana (ou data por extenso) foi o erro das duas versoes anteriores do
+# padrao, e e o que fazia Vitoria liderar a cobertura em confianca alta.
+ASSINATURAS_REAIS = (
+    "Esta portaria entra em vigor na data de sua publicação. "
+    "VITÓRIA (ES), QUINTA-FEIRA, 1 DE OUTUBRO DE 2026.",
+    "a contar de 25/09/2026. Vitória-ES, 28/09/2026.",
+    "divulgados no site www.selecao.es.gov.br, nota de convocação. "
+    "Vitória/ES, 24 de setembro 2026.",
+    "Instituto de Previdência - Vitória, ES, CEP: 29.050-000",
+)
+
+
+class TesteLimpezaEsegmentacao(unittest.TestCase):
+    """_limpar_boilerplate() e _blocos_de_ato(), os estagios 3 e 5."""
+
+    def test_as_quatro_formas_de_assinatura_somem(self):
+        for assinatura in ASSINATURAS_REAIS:
+            with self.subTest(assinatura=assinatura[:40]):
+                self.assertNotIn("vitoria", _pagina(assinatura))
+
+    def test_cabecalho_do_caderno_sai_e_o_corpo_do_ato_permanece(self):
+        bruto = (
+            "DOM/ES - Edição Nº3.099 315 quinta-feira, 1 de Outubro de 2026 "
+            "DIÁRIO OFICIAL DOS MUNICÍPIOS CAPIXABAS 42 "
+            "PREFEITURA MUNICIPAL DE SOORETAMA PORTARIA Nº 310/2026 "
+            "NOMEIA CANDIDATO APROVADO EM CONCURSO PÚBLICO. "
+            "Esta portaria entra em vigor na data de sua publicação. "
+            "VITÓRIA-ES, 25 DE SETEMBRO DE 2026."
+        )
+        limpa = _pagina(bruto)
+        self.assertNotIn("vitoria", limpa)
+        self.assertIn("prefeitura municipal de sooretama", limpa)
+        self.assertIn("nomeia candidato aprovado em concurso publico", limpa)
+
+    def test_protocolo_sobrevive_a_limpeza(self):
+        # 'protocolo \\d+' saiu de PADROES_BOILERPLATE exatamente para poder ser
+        # delimitador de bloco: no passe anterior ele estava nos dois papeis ao
+        # mesmo tempo, o que se autodestruia.
+        limpa = _pagina("DIÁRIO OFICIAL DOS MUNICÍPIOS CAPIXABAS Protocolo 1234567")
+        self.assertIn("protocolo 1234567", limpa)
+
+    def test_tres_protocolos_dao_tres_blocos(self):
+        corpo = "ato de nomeacao de candidato aprovado em concurso publico %d "
+        texto = ((corpo % 1) + "protocolo 11 " + (corpo % 2) + "protocolo 22 "
+                 + (corpo % 3))
+        self.assertEqual(len(coletar._blocos_de_ato(texto)), 3)
+
+    def test_pagina_sem_delimitador_e_um_bloco_unico(self):
+        texto = "ato de nomeacao de candidato aprovado em concurso publico"
+        self.assertEqual(coletar._blocos_de_ato(texto), [texto])
+
+    def test_bloco_curto_e_descartado(self):
+        longo = "ato de nomeacao de candidato aprovado em concurso publico 1"
+        texto = "curto protocolo 11 " + longo
+        blocos = coletar._blocos_de_ato(texto)
+        self.assertEqual([b.strip() for b in blocos], [longo])
+
+
+class TesteCasamentoEmBloco(unittest.TestCase):
+    """Passada de orgaos + passada de municipios, com a mascara \\x00."""
+
+    def test_marca_nao_vaza_para_o_municipio_seguinte(self):
+        # Trava a mascara "\\x00": com espaco, serra sairia em confianca ALTA,
+        # porque MARCAS_ANTES termina em \\s*$ e a marca de vila velha
+        # atravessaria a mascara.
+        self.assertEqual(
+            _pares_de_municipio("PREFEITURA DE VILA VELHA SERRA edital de convocacao"),
+            [("vila-velha", "alta"), ("serra", "baixa")],
+        )
+
+    def test_marca_nao_vaza_entre_jetiba_e_linhares(self):
+        self.assertEqual(
+            _pares_de_municipio("MUNICIPIO DE SANTA MARIA DE JETIBA LINHARES"),
+            [("santa-maria-de-jetiba", "alta"), ("linhares", "baixa")],
+        )
+
+    def test_marca_distante_nao_vale(self):
+        # Adjacencia, e nao "raio de 80 caracteres": foi essa troca que tirou
+        # Vitoria da lideranca da cobertura.
+        texto = "prefeitura municipal de " + ("x" * 300) + " serra"
+        self.assertEqual(_pares_de_municipio(texto), [("serra", "baixa")])
+
+    def test_sufixo_de_uf_adjacente_vale_como_marca(self):
+        self.assertEqual(_pares_de_municipio("nomeacao em serra/es"), [("serra", "alta")])
+        self.assertEqual(
+            _pares_de_municipio("nomeacao em serra - es"), [("serra", "alta")]
+        )
+
+    def test_estado_do_espirito_santo_em_outro_trecho_nao_vale(self):
+        texto = "estado do espirito santo torna publico o ato relativo a serra"
+        self.assertEqual(_pares_de_municipio(texto), [("serra", "baixa")])
+
+    def test_alias_em_texto_livre_segue_a_regra_de_adjacencia(self):
+        indice = comum.indice_municipios()
+        com_marca = coletar._atribuicoes_do_bloco(
+            _pagina("MUNICIPIO DE CACHOEIRO DO ITAPEMIRIM/ES torna publico"), indice
+        )
+        self.assertEqual(
+            [
+                (a["municipio_slug"], a["municipio_confianca"], a["municipio_origem"])
+                for a in com_marca
+            ],
+            [("cachoeiro-de-itapemirim", "alta", "alias")],
+        )
+        sem_marca = coletar._atribuicoes_do_bloco(
+            _pagina("servidores lotados na unidade cachoeiro foram convocados"), indice
+        )
+        self.assertEqual(
+            [
+                (a["municipio_slug"], a["municipio_confianca"], a["municipio_origem"])
+                for a in sem_marca
+            ],
+            [("cachoeiro-de-itapemirim", "baixa", "alias")],
+        )
+
+    def test_longest_first_nao_credita_o_nome_contido(self):
+        self.assertEqual(
+            _pares_de_municipio("PREFEITURA DE CONCEIÇÃO DO CASTELO"),
+            [("conceicao-do-castelo", "alta")],
+        )
+        self.assertEqual(
+            _pares_de_municipio("MUNICIPIO DE CACHOEIRO DE ITAPEMIRIM"),
+            [("cachoeiro-de-itapemirim", "alta")],
+        )
+
+    def test_orgao_vinculado_credita_o_municipio_do_orgao(self):
+        for texto in (
+            "INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DE CARIACICA torna publico",
+            "o presidente do IPC torna publico o resultado",
+        ):
+            with self.subTest(texto=texto[:30]):
+                atribuicoes = coletar._atribuicoes_do_bloco(
+                    _pagina(texto), comum.indice_municipios()
+                )
+                self.assertEqual(len(atribuicoes), 1)
+                self.assertEqual(atribuicoes[0]["orgao_vinculado_id"], "ipc-cariacica")
+                self.assertEqual(atribuicoes[0]["municipio_slug"], "cariacica")
+                self.assertEqual(atribuicoes[0]["municipio_confianca"], "alta")
+                self.assertEqual(atribuicoes[0]["municipio_escopo"], "municipal")
+                self.assertEqual(atribuicoes[0]["municipio_origem"], "orgao_vinculado")
+
+    def test_orgao_intermunicipal_nao_credita_municipio(self):
+        atribuicoes = coletar._atribuicoes_do_bloco(
+            _pagina("A ARIES torna publico o processo seletivo"),
+            comum.indice_municipios(),
+        )
+        self.assertEqual(len(atribuicoes), 1)
+        self.assertEqual(atribuicoes[0]["orgao_vinculado_id"], "aries")
+        self.assertIsNone(atribuicoes[0]["municipio_slug"])
+        self.assertEqual(atribuicoes[0]["municipio_escopo"], "intermunicipal")
+
+    def test_orgao_consome_o_nome_do_municipio_dentro_dele(self):
+        # "servico autonomo de agua e esgoto de aracruz" e consumido como
+        # orgao, e "aracruz" dentro dele nao e contado de novo.
+        atribuicoes = coletar._atribuicoes_do_bloco(
+            _pagina("Serviço Autônomo de Água e Esgoto de Aracruz PORTARIA 150"),
+            comum.indice_municipios(),
+        )
+        self.assertEqual([a["orgao_vinculado_id"] for a in atribuicoes], ["saae-aracruz"])
+
+    def test_regressao_da_armadilha_vitoria(self):
+        # Cabecalho real do caderno + assinatura estadual + ato municipal.
+        bruto = (
+            "DOM/ES - Edição Nº3.099 42 quinta-feira, 1 de Outubro de 2026 "
+            "PREFEITURA MUNICIPAL DE SOORETAMA PORTARIA Nº 310/2026 NOMEIA "
+            "CANDIDATO APROVADO EM CONCURSO PÚBLICO. Esta portaria entra em "
+            "vigor na data de sua publicação. VITÓRIA/ES, 24 de setembro 2026."
+        )
+        pares = _pares_de_municipio(bruto)
+        self.assertNotIn(("vitoria", "alta"), pares)
+        self.assertIn(("sooretama", "alta"), pares)
+
+    def test_bloco_sem_municipio_nao_produz_atribuicao(self):
+        # Pagina de continuacao: nunca herdar o municipio do bloco anterior.
+        self.assertEqual(
+            coletar._atribuicoes_do_bloco(
+                _pagina("ficam homologadas as inscricoes relacionadas no anexo i"),
+                comum.indice_municipios(),
+            ),
+            [],
+        )
+
+
+class TestePareamentoDeEdital(unittest.TestCase):
+    """Regras de pareamento: 1 achado por (bloco, municipio) e faixa de ano."""
+
+    def test_primeiro_numero_proximo_vence_e_os_demais_sao_citados(self):
+        bloco = (
+            "prefeitura de serra edital 001/2026 de convocacao, referente aos "
+            "editais 002/2026 e 003/2026"
+        )
+        self.assertEqual(
+            coletar._numeros_do_bloco(bloco, 2026), ("1/2026", ["2/2026", "3/2026"])
+        )
+
+    def test_ano_fora_da_faixa_e_descartado(self):
+        bloco = (
+            "edital de concurso publico cnpj 27.165.208/0001-98 nos termos da "
+            "lei 17/2007 e do edital 004/2026"
+        )
+        principal, citados = coletar._numeros_do_bloco(bloco, 2026)
+        self.assertEqual(principal, "4/2026")
+        self.assertEqual(citados, [])
+
+    def test_bloco_sem_numero_valido_nao_perde_o_achado(self):
+        # O filtro de ano descarta o NUMERO, nunca o achado: o bloco cai na
+        # chave por pagina e o municipio continua contando para a cobertura.
+        conteudo = (
+            "PREFEITURA MUNICIPAL DE SERRA edital de concurso público "
+            "lei nº 17/2007 nomeia candidato aprovado"
+        )
+        achados = coletar._achados_de_resposta(
+            _envelope_ioes([_item_ioes(conteudo=conteudo)]),
+            "dom",
+            "concurso publico",
+            comum.indice_municipios(),
+        )
+        self.assertEqual(len(achados), 1)
+        self.assertEqual(achados[0]["chave"], "ioes-dom:serra:11517-315")
+        self.assertEqual(achados[0]["municipio_confianca"], "alta")
+
+    def test_um_achado_por_municipio_no_bloco(self):
+        conteudo = (
+            "PREFEITURA MUNICIPAL DE SERRA edital 001/2026 nomeia candidatos "
+            "lotados na secretaria, conforme o edital 001/2026 e o edital "
+            "002/2026 do mesmo certame"
+        )
+        achados = coletar._achados_de_resposta(
+            _envelope_ioes([_item_ioes(conteudo=conteudo)]),
+            "dom",
+            "concurso publico",
+            comum.indice_municipios(),
+        )
+        self.assertEqual(len(achados), 1)
+        self.assertEqual(achados[0]["chave"], "ioes-dom:serra:edital-1-2026")
+        self.assertEqual(achados[0]["editais_citados"], ["2/2026"])
+
+
+class TesteAchadosDeResposta(unittest.TestCase):
+    """Forma do achado, degradacao de envelope malformado e determinismo."""
+
+    def setUp(self):
+        self.indice = comum.indice_municipios()
+
+    def test_envelope_malformado_devolve_lista_vazia_sem_excecao(self):
+        # Contrato de tratamento de erros: o laco de FONTES captura (URLError, OSError,
+        # ValueError, RuntimeError), logo KeyError/TypeError aqui derrubaria a
+        # coleta INTEIRA. Por isso todo acesso a campo de terceiro usa .get().
+        for envelope in (
+            {"hits": {"hits": [{}]}},
+            {"hits": {"hits": [{"_id": "11517_315", "_source": None}]}},
+            {"hits": {"hits": "texto"}},
+            {"hits": "texto"},
+            {"hits": None},
+            {},
+            None,
+            "texto",
+            [],
+            {"hits": {"hits": [{"_id": "sem-formato", "_source": {}}]}},
+            {"hits": {"hits": [{"_id": "11517_315", "_source": {"conteudo": 42}}]}},
+        ):
+            with self.subTest(envelope=repr(envelope)[:40]):
+                with contextlib.redirect_stdout(io.StringIO()):
+                    achados = coletar._achados_de_resposta(
+                        envelope, "dom", "concurso publico", self.indice
+                    )
+                self.assertEqual(achados, [])
+
+    def test_forma_do_achado(self):
+        conteudo = (
+            "PREFEITURA MUNICIPAL DE SOORETAMA edital de concurso público nº "
+            "001/2026 nomeia candidato aprovado"
+        )
+        item = _item_ioes(
+            conteudo=conteudo,
+            highlight=["nomeia candidato aprovado em <strong>concurso público</strong>"],
+        )
+        achado = coletar._ordenar_e_colapsar(
+            coletar._achados_de_resposta(
+                _envelope_ioes([item]), "dom", "concurso publico", self.indice
+            )
+        )[0]
+        self.assertEqual(achado["fonte_id"], "ioes-busca-dom")
+        self.assertEqual(achado["categoria"], "ato_diario")
+        self.assertEqual(
+            achado["url"],
+            "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/315",
+        )
+        self.assertEqual(
+            achado["titulo"], "nomeia candidato aprovado em concurso público"
+        )
+        self.assertEqual(achado["edicao"], "3099")
+        self.assertEqual(achado["data_publicacao_ato"], "2026-10-01")
+        self.assertEqual(achado["tipo"], "concurso_publico")
+        self.assertEqual(achado["inscricoes"], {"inicio": None, "fim": None})
+        self.assertIsNone(achado["vagas_informadas"])
+        self.assertFalse(achado["conteudo_truncado"])
+        # Nome OFICIAL do cadastro, com acento — nunca o trecho normalizado.
+        self.assertEqual(achado["municipio"], "Sooretama")
+        self.assertEqual(achado["municipio_codigo_ibge"], 3205010)
+        self.assertEqual(achado["municipio_slug"], "sooretama")
+        self.assertEqual(achado["municipio_escopo"], "municipal")
+        self.assertEqual(achado["esfera"], "municipal")
+        self.assertEqual(achado["orgao"], "Prefeitura de Sooretama")
+        self.assertIsNone(achado["orgao_vinculado_id"])
+        self.assertNotIn("_diario_id", achado)
+
+    def test_titulo_cai_no_conteudo_quando_nao_ha_highlight(self):
+        conteudo = "PREFEITURA MUNICIPAL DE SERRA " + ("texto do ato " * 40)
+        achado = coletar._achados_de_resposta(
+            _envelope_ioes([_item_ioes(conteudo=conteudo)]),
+            "dom",
+            "concurso publico",
+            self.indice,
+        )[0]
+        self.assertEqual(len(achado["titulo"]), 200)
+
+    def test_conteudo_longo_e_truncado_com_sinal(self):
+        conteudo = "PREFEITURA MUNICIPAL DE SERRA " + ("a" * (coletar.LIMITE_CONTEUDO))
+        diagnostico = {}
+        achados = coletar._achados_de_resposta(
+            _envelope_ioes([_item_ioes(conteudo=conteudo)]),
+            "dom",
+            "concurso publico",
+            self.indice,
+            diagnostico,
+        )
+        self.assertTrue(achados[0]["conteudo_truncado"])
+        self.assertEqual(diagnostico["paginas_truncadas"], 1)
+
+    def test_data_invalida_nao_derruba_o_item(self):
+        achado = coletar._achados_de_resposta(
+            _envelope_ioes(
+                [_item_ioes(conteudo="PREFEITURA MUNICIPAL DE SERRA ato", data="01/10/2026")]
+            ),
+            "dom",
+            "concurso publico",
+            self.indice,
+        )[0]
+        self.assertIsNone(achado["data_publicacao_ato"])
+
+    def test_total_em_forma_de_dict_e_tolerado(self):
+        hits = {"total": {"value": 7, "relation": "eq"}, "hits": []}
+        self.assertEqual(coletar._total_de_hits(hits), 7)
+        self.assertEqual(coletar._total_de_hits({"total": 7, "hits": []}), 7)
+        self.assertIsNone(coletar._total_de_hits({"hits": []}))
+
+    def test_chave_estavel_entre_duas_execucoes(self):
+        envelope = _envelope_ioes(
+            [
+                _item_ioes(
+                    conteudo="PREFEITURA MUNICIPAL DE SERRA edital de concurso "
+                    "público nº 001/2026"
+                )
+            ]
+        )
+        primeira = coletar._achados_de_resposta(
+            envelope, "dom", "concurso publico", self.indice
+        )
+        segunda = coletar._achados_de_resposta(
+            copy.deepcopy(envelope), "dom", "concurso publico", self.indice
+        )
+        self.assertEqual([a["chave"] for a in primeira], [a["chave"] for a in segunda])
+        self.assertEqual(primeira[0]["chave"], "ioes-dom:serra:edital-1-2026")
+
+    def test_mesmo_edital_em_paginas_diferentes_tem_a_mesma_chave(self):
+        conteudo = "PREFEITURA MUNICIPAL DE SERRA edital de concurso público nº 001/2026"
+        achados = coletar._achados_de_resposta(
+            _envelope_ioes(
+                [
+                    _item_ioes(ident="11517_315", conteudo=conteudo, pagina=315),
+                    _item_ioes(ident="11517_316", conteudo=conteudo, pagina=316),
+                ]
+            ),
+            "dom",
+            "concurso publico",
+            self.indice,
+        )
+        self.assertEqual({a["chave"] for a in achados}, {"ioes-dom:serra:edital-1-2026"})
+
+    def test_ordenacao_e_colapso_sao_deterministicos(self):
+        # Dois envelopes com os MESMOS itens embaralhados e o mesmo 'sort' (a
+        # API ordena por dia, nao por item) produzem a mesma lista final. Sem a
+        # ordenacao explicita, qual pagina "ganha" a chave variaria entre
+        # execucoes.
+        conteudo = "PREFEITURA MUNICIPAL DE SERRA ato de nomeacao em concurso público"
+        itens = [
+            _item_ioes(ident="11517_316", conteudo=conteudo, pagina=316),
+            _item_ioes(ident="11516_310", conteudo=conteudo, diario_id=11516, pagina=310),
+            _item_ioes(ident="11517_315", conteudo=conteudo, pagina=315),
+        ]
+
+        def extrair(ordem):
+            return [
+                a["url"]
+                for a in coletar._ordenar_e_colapsar(
+                    coletar._achados_de_resposta(
+                        _envelope_ioes([copy.deepcopy(itens[i]) for i in ordem]),
+                        "dom",
+                        "concurso publico",
+                        self.indice,
+                    )
+                )
+            ]
+
+        esperado = [
+            "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11516/310",
+            "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/315",
+            "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/316",
+        ]
+        self.assertEqual(extrair([0, 1, 2]), esperado)
+        self.assertEqual(extrair([2, 0, 1]), esperado)
+
+    def test_colapso_mantem_uma_entrada_por_chave(self):
+        # Dois blocos da MESMA pagina citando o mesmo municipio produzem a mesma
+        # chave (a granularidade da chave sem numero e de pagina).
+        conteudo = (
+            "PREFEITURA MUNICIPAL DE SERRA nomeia candidato protocolo 111 "
+            "PREFEITURA MUNICIPAL DE SERRA exonera servidor do mesmo quadro"
+        )
+        brutos = coletar._achados_de_resposta(
+            _envelope_ioes([_item_ioes(conteudo=conteudo)]),
+            "dom",
+            "concurso publico",
+            self.indice,
+        )
+        self.assertEqual(len(brutos), 2)
+        self.assertEqual(len(coletar._ordenar_e_colapsar(brutos)), 1)
+
+
+class TesteColetorIoesSemRede(unittest.TestCase):
+    """coletar_ioes() com a camada de leitura substituida — sem rede.
+
+    A camada de rede nao e testada unitariamente (ela e fina de proposito), mas
+    a politica de falha DO COLETOR e: pagina que falha e recuperavel, fonte
+    inteira indisponivel tem de virar status 'erro' no laco de FONTES.
+    """
+
+    def setUp(self):
+        self._original = coletar._ler_com_retry
+        self.indice = comum.indice_municipios()
+
+    def tearDown(self):
+        coletar._ler_com_retry = self._original
+
+    def test_fonte_inteira_indisponivel_levanta_para_o_laco_de_fontes(self):
+        def explodir(url, cabecalhos=None):
+            raise urllib.error.URLError("sem rede")
+
+        coletar._ler_com_retry = explodir
+        with contextlib.redirect_stdout(io.StringIO()):
+            with self.assertRaises(RuntimeError):
+                coletar.coletar_ioes(escopo="dom", indice=self.indice)
+
+    def test_resposta_valida_preenche_o_diagnostico(self):
+        conteudo = (
+            "PREFEITURA MUNICIPAL DE SERRA edital de concurso público nº 001/2026"
+        )
+        corpo = json.dumps(
+            _envelope_ioes([_item_ioes(conteudo=conteudo)], total=1)
+        )
+        chamadas = []
+
+        def responder(url, cabecalhos=None):
+            chamadas.append(url)
+            return corpo
+
+        coletar._ler_com_retry = responder
+        diagnostico = {}
+        achados = coletar.coletar_ioes(
+            escopo="dom", diagnostico=diagnostico, indice=self.indice
+        )
+        # Uma pagina por frase, com di: na janela e termo entre aspas.
+        self.assertEqual(len(chamadas), 2)
+        self.assertIn("/busca/busca/buscar/query/0/di:", chamadas[0])
+        self.assertIn("q=%22concurso+publico%22", chamadas[0].replace("%20", "+"))
+        self.assertFalse(diagnostico["truncado"])
+        self.assertFalse(diagnostico["limite_achados_atingido"])
+        self.assertEqual(diagnostico["total_relatado"], 2)
+        self.assertEqual(diagnostico["paginas_truncadas"], 0)
+        self.assertEqual(diagnostico["nao_mapeados"], [])
+        # A mesma pagina devolvida para as duas frases colapsa numa chave.
+        self.assertEqual(len(achados), 1)
+        self.assertNotIn("_pagina", achados[0])
+
+    def test_teto_de_achados_interrompe_a_coleta(self):
+        conteudo = "PREFEITURA MUNICIPAL DE SERRA ato de nomeacao"
+        itens = [
+            _item_ioes(ident="11517_%d" % n, conteudo=conteudo, pagina=n)
+            for n in range(1, 11)
+        ]
+        corpo = json.dumps(_envelope_ioes(itens, total=1000))
+        coletar._ler_com_retry = lambda url, cabecalhos=None: corpo
+        diagnostico = {}
+        with contextlib.redirect_stdout(io.StringIO()):
+            coletar.coletar_ioes(
+                escopo="dom", diagnostico=diagnostico, max_achados=5,
+                indice=self.indice,
+            )
+        self.assertTrue(diagnostico["limite_achados_atingido"])
+
+    def test_teto_de_paginas_marca_truncado(self):
+        conteudo = "PREFEITURA MUNICIPAL DE SERRA ato de nomeacao"
+        itens = [
+            _item_ioes(ident="11517_%d" % n, conteudo=conteudo, pagina=n)
+            for n in range(1, 11)
+        ]
+        corpo = json.dumps(_envelope_ioes(itens, total=500))
+        coletar._ler_com_retry = lambda url, cabecalhos=None: corpo
+        diagnostico = {}
+        with contextlib.redirect_stdout(io.StringIO()):
+            coletar.coletar_ioes(
+                escopo="dom", diagnostico=diagnostico, max_paginas=2,
+                indice=self.indice,
+            )
+        self.assertTrue(diagnostico["truncado"])
+
+
+class TesteMunicipioNaoMapeado(unittest.TestCase):
+    """Deteccao (B): nome citado que nao resolve contra o cadastro."""
+
+    def setUp(self):
+        self.indice = comum.indice_municipios()
+
+    def test_padroes_de_mencao_casam_texto_em_caixa_alta(self):
+        # E o teste que o passe anterior nao tinha e que deixou o requisito
+        # nascer morto: a versao com classe maiuscula produzia 1 captura em 144
+        # paginas.
+        texto = _pagina("PREFEITURA MUNICIPAL DE SOORETAMA/ES, no uso de suas")
+        self.assertTrue(any(p.search(texto) for p in coletar.PADROES_MENCAO))
+
+    def test_classificar_mencao_resolve_por_prefixo(self):
+        self.assertEqual(
+            coletar.classificar_mencao("joao neiva por falta disciplinar e", self.indice),
+            ("mapeado", "joao-neiva"),
+        )
+        self.assertEqual(
+            coletar.classificar_mencao("venda nova do imigrante far", self.indice),
+            ("mapeado", "venda-nova-do-imigrante"),
+        )
+        self.assertEqual(
+            coletar.classificar_mencao("que trata esta lei constitui", self.indice),
+            ("candidato", "que trata esta lei"),
+        )
+
+    def test_candidato_e_podado_em_quatro_tokens(self):
+        _situacao, nome = coletar.classificar_mencao(
+            "xyzlandia do norte velha sede e tambem outra coisa", self.indice
+        )
+        self.assertEqual(len(nome.split()), coletar.MAX_TOKENS_CANDIDATO)
+
+    def test_filtros_de_candidato(self):
+        self.assertFalse(coletar._candidato_aceitavel("ab"))
+        self.assertFalse(coletar._candidato_aceitavel("12345"))
+        self.assertFalse(coletar._candidato_aceitavel("prefeitura municipal"))
+        self.assertFalse(coletar._candidato_aceitavel("minas gerais"))
+        self.assertTrue(coletar._candidato_aceitavel("sao roque canaa"))
+
+    def test_deteccao_por_injecao(self):
+        # "Nao aparece ruido" e indistinguivel de "nao aparece nada": o caminho
+        # positivo e exercitado removendo Sooretama do cadastro.
+        conteudo = (
+            "PORTARIA Nº 310/2026 O PREFEITO DO MUNICÍPIO DE SOORETAMA/ES, no "
+            "uso de suas atribuições, nomeia candidato aprovado em concurso "
+            "público"
+        )
+        with _indice_sem(["sooretama"]) as indice:
+            diagnostico = {}
+            coletar._achados_de_resposta(
+                _envelope_ioes([_item_ioes(conteudo=conteudo)]),
+                "dom",
+                "concurso publico",
+                indice,
+                diagnostico,
+            )
+            candidatos = coletar._consolidar_candidatos(
+                diagnostico["mencoes"], "ioes-busca-dom"
+            )
+            self.assertEqual([c["nome_detectado"] for c in candidatos], ["sooretama"])
+            self.assertTrue(candidatos[0]["com_marca_uf"])
+            # 1 ocorrencia em 1 pagina, mas COM marca de UF: e por isso que a
+            # disjuncao do filtro importa.
+            reportados = coletar.fundir_nao_mapeados(
+                [], candidatos, indice, dt.date(2026, 10, 1), 7
+            )
+            self.assertEqual([c["nome_detectado"] for c in reportados], ["sooretama"])
+
+        # Com o cadastro completo, o mesmo texto nao produz candidato nenhum.
+        diagnostico = {}
+        coletar._achados_de_resposta(
+            _envelope_ioes([_item_ioes(conteudo=conteudo)]),
+            "dom",
+            "concurso publico",
+            self.indice,
+            diagnostico,
+        )
+        self.assertEqual(
+            coletar._consolidar_candidatos(diagnostico["mencoes"], "ioes-busca-dom"), []
+        )
+
+    def test_consolidacao_por_prefixo(self):
+        with _indice_sem(["joao-neiva"]) as indice:
+            conteudo = (
+                "MUNICÍPIO DE JOÃO NEIVA/ES torna público. PREFEITURA MUNICIPAL "
+                "DE JOÃO NEIVA POR FALTA DISCIPLINAR E, nos termos da lei"
+            )
+            diagnostico = {}
+            coletar._achados_de_resposta(
+                _envelope_ioes([_item_ioes(conteudo=conteudo)]),
+                "dom",
+                "concurso publico",
+                indice,
+                diagnostico,
+            )
+            candidatos = coletar._consolidar_candidatos(
+                diagnostico["mencoes"], "ioes-busca-dom"
+            )
+            # Uma linha, e nao duas: 'joao neiva por falta' e a mesma captura
+            # com excesso, e o mais curto absorve o mais longo.
+            self.assertEqual([c["nome_detectado"] for c in candidatos], ["joao neiva"])
+            self.assertEqual(candidatos[0]["ocorrencias"], 2)
+            self.assertTrue(candidatos[0]["com_marca_uf"])
+
+    def _candidato(self, **campos):
+        base = {
+            "nome_detectado": "sao roque canaa",
+            "ocorrencias": 1,
+            "paginas_distintas": 1,
+            "com_marca_uf": False,
+            "fontes": ["ioes-busca-dom"],
+            "exemplos": [
+                {
+                    "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/42",
+                    "data": "2026-10-01",
+                    "trecho": "...prefeitura municipal de sao roque canaa, estado...",
+                }
+            ],
+        }
+        base.update(campos)
+        return base
+
+    def test_uma_ocorrencia_sem_marca_de_uf_nao_e_reportada(self):
+        self.assertEqual(
+            coletar.fundir_nao_mapeados(
+                [], [self._candidato()], self.indice, dt.date(2026, 10, 1), 7
+            ),
+            [],
+        )
+
+    def test_duas_paginas_distintas_passam(self):
+        reportados = coletar.fundir_nao_mapeados(
+            [],
+            [self._candidato(ocorrencias=2, paginas_distintas=2)],
+            self.indice,
+            dt.date(2026, 10, 1),
+            7,
+        )
+        self.assertEqual(len(reportados), 1)
+
+    def test_fusao_acumula_entre_execucoes(self):
+        # O caso que decide "acumulado e nao por execucao": um candidato visto
+        # 1x por dia em pagina distinta nunca passaria de paginas_distintas==1
+        # com contadores por execucao, e nunca seria reportado.
+        anterior = [
+            self._candidato(
+                primeira_deteccao="2026-09-24", ultima_deteccao="2026-09-30"
+            )
+        ]
+        reportados = coletar.fundir_nao_mapeados(
+            anterior, [self._candidato()], self.indice, dt.date(2026, 10, 1), 7
+        )
+        self.assertEqual(len(reportados), 1)
+        item = reportados[0]
+        self.assertEqual(item["ocorrencias"], 2)
+        self.assertEqual(item["paginas_distintas"], 2)
+        self.assertEqual(item["primeira_deteccao"], "2026-09-24")
+        self.assertEqual(item["ultima_deteccao"], "2026-10-01")
+        self.assertEqual(item["fontes"], ["ioes-busca-dom"])
+        self.assertLessEqual(len(item["exemplos"]), 3)
+        # Sugestao conservadora: igualdade de tokens nao genericos ('do' e
+        # token de ligacao), nunca distancia de edicao difusa.
+        self.assertEqual(item["provavel_alias_de"], "sao-roque-do-canaa")
+        self.assertEqual(item["sugestao"], "alias")
+
+    def test_candidato_que_parou_de_aparecer_e_removido(self):
+        anterior = [
+            self._candidato(
+                com_marca_uf=True,
+                primeira_deteccao="2026-08-20",
+                ultima_deteccao="2026-09-02",  # 29 dias = --janela-ioes-dias * 4
+            )
+        ]
+        self.assertEqual(
+            coletar.fundir_nao_mapeados(
+                anterior, [], self.indice, dt.date(2026, 10, 1), 7
+            ),
+            [],
+        )
+
+    def test_sem_candidato_unico_a_sugestao_e_verificar(self):
+        reportados = coletar.fundir_nao_mapeados(
+            [],
+            [
+                self._candidato(
+                    nome_detectado="que trata esta lei", com_marca_uf=True
+                )
+            ],
+            self.indice,
+            dt.date(2026, 10, 1),
+            7,
+        )
+        self.assertIsNone(reportados[0]["provavel_alias_de"])
+        self.assertEqual(reportados[0]["sugestao"], "verificar")
+
+    def test_exemplos_sao_no_maximo_tres_de_paginas_distintas(self):
+        exemplos = [
+            {"url": "u%d" % n, "data": "2026-09-%02d" % (20 + n), "trecho": "t"}
+            for n in range(5)
+        ] + [{"url": "u1", "data": "2026-09-21", "trecho": "repetida"}]
+        saida = coletar._exemplos_ordenados(exemplos)
+        self.assertEqual([e["url"] for e in saida], ["u4", "u3", "u2"])
+
+
+class TesteNormalizarAchado(unittest.TestCase):
+    """Ponto unico dos campos de categoria e de municipio."""
+
+    def setUp(self):
+        self.indice = comum.indice_municipios()
+
+    def test_oportunidade_resolve_em_texto_livre(self):
+        # E a linha da tabela de normalizacao que resolver_municipio() (consulta
+        # exata) nunca produziria: o teste falharia se alguem trocasse de volta.
+        achado = coletar.normalizar_achado(
+            {"orgao": "Prefeitura de Anchieta", "titulo": "Processo seletivo"},
+            self.indice,
+        )
+        self.assertEqual(achado["categoria"], "oportunidade")
+        self.assertEqual(achado["municipio_slug"], "anchieta")
+        self.assertEqual(achado["municipio_escopo"], "municipal")
+        self.assertEqual(achado["municipio_confianca"], "baixa")
+        self.assertEqual(achado["municipio_origem"], "nome")
+        self.assertEqual(achado["municipio_codigo_ibge"], 3200409)
+
+    def test_oportunidade_estadual_sem_municipio(self):
+        achado = coletar.normalizar_achado(
+            {"orgao": "SEDU", "esfera": "estadual"}, self.indice
+        )
+        self.assertIsNone(achado["municipio_slug"])
+        self.assertEqual(achado["municipio_escopo"], "estadual")
+        self.assertIsNone(achado["municipio_confianca"])
+
+    def test_oportunidade_ambigua_nao_e_desempatada(self):
+        achado = coletar.normalizar_achado(
+            {"orgao": "Prefeitura de Serra e de Vila Velha"}, self.indice
+        )
+        self.assertIsNone(achado["municipio_slug"])
+        self.assertEqual(achado["municipio_escopo"], "indeterminado")
+
+    def test_ato_de_diario_nao_e_sobrescrito(self):
+        # setdefault e nao atribuicao: o coletor de diario JA resolveu o
+        # municipio com evidencia de texto, e aquela resolucao e mais forte.
+        achado = coletar.normalizar_achado(
+            {
+                "categoria": "ato_diario",
+                "orgao": "Prefeitura de Serra",
+                "municipio_slug": "serra",
+                "municipio_confianca": "alta",
+                "municipio_escopo": "municipal",
+                "municipio_origem": "nome",
+            },
+            self.indice,
+        )
+        self.assertEqual(achado["municipio_confianca"], "alta")
+        self.assertEqual(achado["municipio_slug"], "serra")
+        self.assertFalse(achado["conteudo_truncado"])
+        self.assertIsNone(achado["orgao_vinculado_id"])
+
+
+class TesteCasarEstrito(unittest.TestCase):
+    """Ato de diario casa com dados/ somente por evidencia forte."""
+
+    def setUp(self):
+        self.indice = coletar.indice_repositorio()
+
+    def _ato(self, titulo, url=""):
+        return {
+            "categoria": "ato_diario",
+            "orgao": "Prefeitura de Serra",
+            "orgao_sigla": comum.AUSENTE,
+            "titulo": titulo,
+            "url": url,
+        }
+
+    def test_sem_numero_de_edital_nao_casa(self):
+        ato = self._ato("nomeia candidato aprovado em concurso publico")
+        self.assertIsNone(coletar.casar_estrito(ato, self.indice))
+        # A asercao negativa prova que a distincao importa: a mesma entrada
+        # casaria pelo ramo fraco de casar(), que e o bug que motivou a funcao.
+        self.assertIsNotNone(coletar.casar(ato, self.indice))
+
+    def test_numero_coincidente_casa(self):
+        ato = self._ato("processo seletivo simplificado nº 007/2026 - resultado")
+        self.assertEqual(
+            coletar.casar_estrito(ato, self.indice), "ps-serra-es-sesa-007-2026"
+        )
+
+    def test_url_identica_casa(self):
+        ato = self._ato(
+            "ato qualquer",
+            url="https://serra.es.gov.br/noticias/"
+            "serra-abre-processo-seletivo-para-profissionais-da-saude",
+        )
+        self.assertEqual(
+            coletar.casar_estrito(ato, self.indice), "ps-serra-es-sesa-007-2026"
+        )
+
+
+class TesteCobertura(unittest.TestCase):
+    """cobertura(): funcao pura, a mesma regra para README, relatorio e e-mail."""
+
+    def setUp(self):
+        self.indice = comum.indice_municipios()
+        self.registros = [reg for _caminho, reg in comum.carregar_registros()]
+        self.referencia = dt.date(2026, 10, 1)
+
+    def _achado(self, slug_mun, confianca="alta", ultima="2026-10-01"):
+        return {
+            "categoria": "ato_diario",
+            "municipio_slug": slug_mun,
+            "municipio_confianca": confianca,
+            "ultima_deteccao": ultima,
+        }
+
+    def test_contagens_dos_registros_reais(self):
+        bloco = coletar.cobertura(
+            self.indice, self.registros, [], set(), self.referencia
+        )
+        self.assertEqual(bloco["total_municipios"], 78)
+        # As DUAS metades do caso intermunicipal: Divino de Sao Lourenco
+        # aparece somente em ps-consorcio-caparao-es-2026, que tem
+        # esfera 'intermunicipal' — logo nao credita municipio (15, e nao 16)
+        # e soma 1 em registros_intermunicipais_sem_atribuicao.
+        self.assertEqual(bloco["com_registro_curado"], 15)
+        self.assertEqual(bloco["registros_intermunicipais_sem_atribuicao"], 4)
+        self.assertNotIn("divino-de-sao-lourenco", bloco["slugs_com_sinal"])
+        self.assertEqual(
+            bloco["orgaos_vinculados_sem_municipio"],
+            ["aries", "cim-polinorte", "consorcio-caparao"],
+        )
+        self.assertEqual(
+            bloco["sem_sinal_algum"], 78 - len(bloco["slugs_com_sinal"])
+        )
+
+    def test_confianca_baixa_nao_conta(self):
+        bloco = coletar.cobertura(
+            self.indice,
+            [],
+            [self._achado("sooretama", confianca="baixa")],
+            set(),
+            self.referencia,
+        )
+        self.assertEqual(bloco["com_achado_na_janela"], 0)
+        self.assertEqual(bloco["com_achado_acumulado"], 0)
+
+    def test_janela_versus_acumulado(self):
+        bloco = coletar.cobertura(
+            self.indice,
+            [],
+            [
+                self._achado("sooretama"),
+                self._achado("mucurici", ultima="2026-09-20"),
+            ],
+            set(),
+            self.referencia,
+        )
+        self.assertEqual(bloco["com_achado_na_janela"], 1)
+        self.assertEqual(bloco["com_achado_acumulado"], 2)
+        self.assertEqual(
+            bloco["slugs_com_achado_acumulado"], ["mucurici", "sooretama"]
+        )
+        self.assertEqual(
+            bloco["com_achado_acumulado"], len(bloco["slugs_com_achado_acumulado"])
+        )
+        # O achado antigo nao entra no retrato de hoje.
+        self.assertEqual(bloco["slugs_com_sinal"], ["sooretama"])
+
+    def test_delta_contra_o_historico(self):
+        bloco = coletar.cobertura(
+            self.indice,
+            [],
+            [self._achado("serra"), self._achado("sooretama")],
+            {"serra"},
+            self.referencia,
+        )
+        self.assertEqual(bloco["vistos_pela_primeira_vez"], ["sooretama"])
+        bloco_zerado = coletar.cobertura(
+            self.indice,
+            [],
+            [self._achado("serra"), self._achado("sooretama")],
+            set(),
+            self.referencia,
+        )
+        self.assertEqual(
+            bloco_zerado["vistos_pela_primeira_vez"], ["serra", "sooretama"]
+        )
+
+    def test_historico_e_monotonico_e_nao_reanuncia(self):
+        # Municipio que publicou antes e nao publicou agora SAI do retrato, mas
+        # permanece no historico — e e isso que impede a issue de anunciar
+        # "primeiro ato detectado em X" pela segunda vez.
+        bloco = coletar.cobertura(
+            self.indice,
+            [],
+            [self._achado("serra")],
+            {"serra", "sooretama"},
+            self.referencia,
+        )
+        self.assertEqual(bloco["slugs_com_sinal"], ["serra"])
+        self.assertEqual(
+            bloco["slugs_com_sinal_historico"], ["serra", "sooretama"]
+        )
+        self.assertEqual(bloco["vistos_pela_primeira_vez"], [])
+        # Execucao seguinte, com Sooretama de volta: continua sem reanuncio.
+        seguinte = coletar.cobertura(
+            self.indice,
+            [],
+            [self._achado("serra"), self._achado("sooretama")],
+            set(bloco["slugs_com_sinal_historico"]),
+            self.referencia,
+        )
+        self.assertEqual(seguinte["vistos_pela_primeira_vez"], [])
+
+    def test_leitura_tolerante_do_historico(self):
+        self.assertEqual(coletar.historico_de_sinal({}), set())
+        self.assertEqual(
+            coletar.historico_de_sinal(
+                {"cobertura_municipios": {"slugs_com_sinal": ["serra"]}}
+            ),
+            {"serra"},
+        )
+        self.assertEqual(
+            coletar.historico_de_sinal(
+                {
+                    "cobertura_municipios": {
+                        "slugs_com_sinal": ["serra"],
+                        "slugs_com_sinal_historico": ["serra", "sooretama"],
+                    }
+                }
+            ),
+            {"serra", "sooretama"},
+        )
+
+
+class TesteReconciliacaoIBGE(unittest.TestCase):
+    """Reconciliacao (C), nos ramos que nao dependem de rede."""
+
+    def test_sem_conferir_devolve_nao_conferido(self):
+        bloco = coletar.reconciliar_ibge(
+            comum.indice_municipios(), dt.date(2026, 10, 1), conferir=False
+        )
+        self.assertEqual(bloco["status"], "nao_conferido")
+        self.assertEqual(bloco["total_cadastro"], 78)
+        self.assertIsNone(bloco["erro"])
+        self.assertFalse(coletar.ha_divergencia_ibge(bloco))
+
+    def test_divergencia_e_detectada_por_codigo_e_por_nome(self):
+        self.assertTrue(
+            coletar.ha_divergencia_ibge(
+                {"ausentes_no_cadastro": [{"codigo_ibge": 3299999, "nome": "Novo"}]}
+            )
+        )
+        self.assertTrue(
+            coletar.ha_divergencia_ibge(
+                {
+                    "nomes_divergentes": [
+                        {
+                            "codigo_ibge": 3201209,
+                            "nome_ibge": "Cachoeiro de Itapemirim",
+                            "nome_cadastro": "Cachoeiro do Itapemirim",
+                        }
+                    ]
+                }
+            )
+        )
+
+
+class TesteMainDoColetor(unittest.TestCase):
+    """main() de ponta a ponta, sem rede: fonte falsa e quarentena temporaria.
+
+    O descobertas.json versionado NAO e tocado: DIR_DESCOBERTAS e
+    CAMINHO_DESCOBERTAS apontam para um diretorio temporario, e por isso main()
+    pode gravar de verdade — e e gravando que ele expoe descartados_por_retencao
+    e as chaves novas do arquivo.
+    """
+
+    def setUp(self):
+        self._dir = tempfile.mkdtemp()
+        self._estado = (
+            coletar.DIR_DESCOBERTAS,
+            coletar.CAMINHO_DESCOBERTAS,
+            coletar.FONTES,
+            sys.argv,
+            os.environ.get("DATA_REFERENCIA"),
+        )
+        coletar.DIR_DESCOBERTAS = self._dir
+        coletar.CAMINHO_DESCOBERTAS = os.path.join(self._dir, "descobertas.json")
+        os.environ["DATA_REFERENCIA"] = "2026-10-01"
+
+    def tearDown(self):
+        (
+            coletar.DIR_DESCOBERTAS,
+            coletar.CAMINHO_DESCOBERTAS,
+            coletar.FONTES,
+            sys.argv,
+            referencia,
+        ) = self._estado
+        if referencia is None:
+            os.environ.pop("DATA_REFERENCIA", None)
+        else:
+            os.environ["DATA_REFERENCIA"] = referencia
+        shutil.rmtree(self._dir)
+
+    def _rodar(self, achados=(), anterior=None, extra=()):
+        if anterior is not None:
+            with open(coletar.CAMINHO_DESCOBERTAS, "w", encoding="utf-8") as fh:
+                json.dump(anterior, fh, ensure_ascii=False)
+        copia = copy.deepcopy(list(achados))
+        coletar.FONTES = {"fonte-de-teste": lambda: copia}
+        sys.argv = (
+            ["coletar.py", "--fonte", "fonte-de-teste", "--sem-conferir-ibge"]
+            + list(extra)
+        )
+        with contextlib.redirect_stdout(io.StringIO()) as capturado:
+            codigo = coletar.main()
+        self.assertEqual(codigo, 0, capturado.getvalue())
+        with open(coletar.CAMINHO_DESCOBERTAS, encoding="utf-8") as fh:
+            return json.load(fh), capturado.getvalue()
+
+    def _oportunidade(self, chave, orgao):
+        return {
+            "chave": chave,
+            "fonte_id": "fonte-de-teste",
+            "orgao": orgao,
+            "orgao_sigla": comum.AUSENTE,
+            "titulo": "Processo seletivo",
+            "esfera": None,
+            "tipo": None,
+            "inscricoes": {"inicio": None, "fim": None},
+            "vagas_informadas": None,
+            "url": "https://exemplo.invalido/%s" % chave,
+        }
+
+    def _ato(self, chave, slug_mun, data="2026-10-01"):
+        return {
+            "chave": chave,
+            "fonte_id": "fonte-de-teste",
+            "orgao": "Prefeitura de %s" % slug_mun,
+            "orgao_sigla": comum.AUSENTE,
+            "titulo": "nomeia candidato aprovado",
+            "esfera": "municipal",
+            "tipo": "concurso_publico",
+            "inscricoes": {"inicio": None, "fim": None},
+            "vagas_informadas": None,
+            "url": "https://ioes.dio.es.gov.br/dom/%s" % chave,
+            "categoria": "ato_diario",
+            "data_publicacao_ato": data,
+            "edicao": "3099",
+            "editais_citados": [],
+            "conteudo_truncado": False,
+            "municipio": slug_mun.title(),
+            "municipio_codigo_ibge": None,
+            "municipio_slug": slug_mun,
+            "municipio_confianca": "alta",
+            "municipio_escopo": "municipal",
+            "municipio_origem": "nome",
+            "orgao_vinculado_id": None,
+        }
+
+    def test_so_oportunidade_e_novidade(self):
+        achados = [
+            self._oportunidade("op-1", "Prefeitura de Sooretama"),
+            self._oportunidade("op-2", "Prefeitura de Mucurici"),
+        ] + [self._ato("ato-%d" % n, "sooretama") for n in range(5)]
+        saida_github = os.path.join(self._dir, "saida.txt")
+        arquivo, _log = self._rodar(
+            achados, extra=["--saida-github", saida_github]
+        )
+        with open(saida_github, encoding="utf-8") as fh:
+            saidas = dict(
+                linha.strip().split("=", 1) for linha in fh if "=" in linha
+            )
+        self.assertEqual(saidas["novos"], "2")
+        self.assertEqual(saidas["atos_diario_novos"], "5")
+        self.assertEqual(arquivo["atos_diario_novos"], 5)
+        self.assertEqual(saidas["municipios_com_sinal"], "1")
+        self.assertEqual(saidas["truncado"], "0")
+
+    def test_retencao_so_alcanca_ato_de_diario(self):
+        anterior = {
+            "descricao": "x",
+            "gerado_em": "2026-09-30",
+            "janela_dias": 90,
+            "total_achados": 3,
+            "ja_no_repositorio": 0,
+            "pendentes_de_curadoria": 3,
+            "fontes_consultadas": [],
+            "achados": [
+                self._ato("ato-velho", "sooretama", data="2026-06-23"),  # 100 dias
+                self._ato("ato-recente", "mucurici", data="2026-07-13"),  # 80 dias
+                dict(
+                    self._oportunidade("op-velha", "Prefeitura de Sooretama"),
+                    primeira_deteccao="2026-06-23",
+                    ultima_deteccao="2026-06-23",
+                ),
+            ],
+        }
+        arquivo, _log = self._rodar(anterior=anterior)
+        self.assertEqual(arquivo["descartados_por_retencao"], 1)
+        self.assertEqual(arquivo["retencao_atos_dias"], 90)
+        chaves = {a["chave"] for a in arquivo["achados"]}
+        self.assertEqual(chaves, {"ato-recente", "op-velha"})
+
+    def test_backfill_de_achado_herdado(self):
+        anterior = {
+            "descricao": "x",
+            "gerado_em": "2026-09-30",
+            "janela_dias": 90,
+            "total_achados": 1,
+            "ja_no_repositorio": 0,
+            "pendentes_de_curadoria": 1,
+            "fontes_consultadas": [],
+            "achados": [
+                {
+                    "chave": "legado-1",
+                    "fonte_id": "fonte-de-teste",
+                    "orgao": "ARIES",
+                    "titulo": "ARIES",
+                    "url": "https://exemplo.invalido/legado",
+                    "primeira_deteccao": "2026-09-23",
+                    "ultima_deteccao": "2026-09-30",
+                    "no_repositorio": False,
+                }
+            ],
+        }
+        arquivo, _log = self._rodar(anterior=anterior)
+        herdado = arquivo["achados"][0]
+        self.assertEqual(herdado["categoria"], "oportunidade")
+        self.assertEqual(herdado["municipio_escopo"], "indeterminado")
+        self.assertIsNone(herdado["municipio_slug"])
+        self.assertIsNone(herdado["municipio_confianca"])
+        self.assertEqual(herdado["primeira_deteccao"], "2026-09-23")
+
+    def test_chaves_do_arquivo_de_saida(self):
+        arquivo, _log = self._rodar([self._oportunidade("op-1", "SEDU")])
+        self.assertLessEqual(
+            {
+                "descricao",
+                "gerado_em",
+                "janela_dias",
+                "total_achados",
+                "ja_no_repositorio",
+                "pendentes_de_curadoria",
+                "fontes_consultadas",
+                "achados",
+                "janela_ioes_dias",
+                "retencao_atos_dias",
+                "descartados_por_retencao",
+                "atos_diario_novos",
+                "cobertura_municipios",
+                "municipios_nao_mapeados",
+                "reconciliacao_ibge",
+            },
+            set(arquivo),
+        )
+        self.assertEqual(arquivo["reconciliacao_ibge"]["status"], "nao_conferido")
+        self.assertEqual(arquivo["cobertura_municipios"]["total_municipios"], 78)
+
+    def test_teto_de_argumento_e_recusado(self):
+        coletar.FONTES = {"fonte-de-teste": lambda: []}
+        sys.argv = ["coletar.py", "--max-paginas-ioes", "1000"]
+        with contextlib.redirect_stdout(io.StringIO()):
+            with self.assertRaises(SystemExit) as capturado:
+                with contextlib.redirect_stderr(io.StringIO()):
+                    coletar.main()
+        self.assertEqual(capturado.exception.code, 2)
+
+    def test_migracao_e_idempotente_e_escreve_as_mesmas_chaves(self):
+        legado = {
+            "descricao": "x",
+            "gerado_em": "2026-09-30",
+            "janela_dias": 90,
+            "total_achados": 1,
+            "ja_no_repositorio": 0,
+            "pendentes_de_curadoria": 1,
+            "fontes_consultadas": [],
+            "achados": [
+                {
+                    "chave": "legado-1",
+                    "fonte_id": "concursosnobrasil-es",
+                    "orgao": "Prefeitura de Anchieta",
+                    "titulo": "Prefeitura de Anchieta",
+                    "url": "https://exemplo.invalido/legado",
+                    "primeira_deteccao": "2026-09-23",
+                    "ultima_deteccao": "2026-09-30",
+                    "no_repositorio": False,
+                }
+            ],
+        }
+        campos_antes = set(legado["achados"][0])
+        with open(coletar.CAMINHO_DESCOBERTAS, "w", encoding="utf-8") as fh:
+            json.dump(legado, fh, ensure_ascii=False, indent=2)
+
+        def migrar():
+            sys.argv = ["coletar.py", "--migrar-descobertas"]
+            with contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(coletar.main(), 0)
+            with open(coletar.CAMINHO_DESCOBERTAS, "rb") as fh:
+                return fh.read()
+
+        primeira = migrar()
+        self.assertEqual(primeira, migrar())  # idempotente
+
+        migrado = json.loads(primeira.decode("utf-8"))["achados"][0]
+        self.assertLessEqual(campos_antes, set(migrado))
+        self.assertEqual(migrado["primeira_deteccao"], "2026-09-23")
+        self.assertEqual(migrado["municipio_slug"], "anchieta")
+        # O conjunto de campos escritos pela migracao e EXATAMENTE o de
+        # normalizar_achado(): acrescentar campo em um so lugar falha aqui.
+        novo = {
+            "chave": "novo-1",
+            "fonte_id": "concursosnobrasil-es",
+            "orgao": "Prefeitura de Anchieta",
+            "titulo": "Prefeitura de Anchieta",
+            "url": "https://exemplo.invalido/novo",
+            "primeira_deteccao": "2026-10-01",
+            "ultima_deteccao": "2026-10-01",
+            "no_repositorio": False,
+        }
+        campos_novo = set(novo)
+        coletar.normalizar_achado(novo, comum.indice_municipios())
+        self.assertEqual(set(migrado) - campos_antes, set(novo) - campos_novo)
+
+    def test_arquivo_ausente_nao_e_erro_para_a_migracao(self):
+        sys.argv = ["coletar.py", "--migrar-descobertas"]
+        with contextlib.redirect_stdout(io.StringIO()) as capturado:
+            self.assertEqual(coletar.main(), 0)
+        self.assertIn("Nada a migrar", capturado.getvalue())
+
+    def test_json_invalido_reprova_a_migracao(self):
+        with open(coletar.CAMINHO_DESCOBERTAS, "w", encoding="utf-8") as fh:
+            fh.write("{isto nao e json")
+        sys.argv = ["coletar.py", "--migrar-descobertas"]
+        with contextlib.redirect_stdout(io.StringIO()):
+            with contextlib.redirect_stderr(io.StringIO()):
+                self.assertEqual(coletar.main(), 1)
+        with open(coletar.CAMINHO_DESCOBERTAS, encoding="utf-8") as fh:
+            self.assertEqual(fh.read(), "{isto nao e json")
 
 
 if __name__ == "__main__":
