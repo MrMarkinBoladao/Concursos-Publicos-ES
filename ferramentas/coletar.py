@@ -36,7 +36,6 @@ import json
 import os
 import re
 import sys
-import unicodedata
 import urllib.error
 import urllib.request
 from html.parser import HTMLParser
@@ -63,19 +62,13 @@ MARCA_ES_NO_LINK = "/concursos/es/"
 # ---------------------------------------------------------------- utilitarios
 
 
-def _sem_acento(texto: str) -> str:
-    nfkd = unicodedata.normalize("NFKD", texto or "")
-    return "".join(c for c in nfkd if not unicodedata.combining(c))
-
-
-def normalizar(texto: str) -> str:
-    """Minusculas, sem acento, espacos colapsados. Para comparar nomes."""
-    return re.sub(r"\s+", " ", _sem_acento(texto or "").lower()).strip()
-
-
-def slug(texto: str) -> str:
-    base = re.sub(r"[^a-z0-9]+", "-", normalizar(texto))
-    return base.strip("-")
+# Os tres utilitarios de texto passaram a viver em comum.py, porque o cadastro
+# de municipios e lido tambem pelo validador e pelos geradores. Aqui ficam como
+# delegacao, e nao como reimplementacao, para que nenhum call site deste arquivo
+# mude e para que exista uma unica implementacao de normalizacao no projeto.
+_sem_acento = comum._sem_acento
+normalizar = comum.normalizar
+slug = comum.slug
 
 
 def normalizar_url(url: str) -> str:

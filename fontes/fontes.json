@@ -1,7 +1,7 @@
 {
   "descricao": "Registro das fontes consultadas pelo monitoramento de concursos e processos seletivos do Espirito Santo (ES). Prioridade 1 = maior confiabilidade.",
   "escopo": "Exclusivamente Espirito Santo (ES): orgaos federais, estaduais e municipais com vagas, lotacao ou oportunidade efetivamente relacionada ao ES.",
-  "ultima_atualizacao": "2026-09-22",
+  "ultima_atualizacao": "2026-10-01",
   "fontes": [
     {
       "id": "diario-oficial-es",
@@ -26,7 +26,27 @@
       "tipo": "diario_oficial",
       "esfera": "municipal",
       "prioridade": 1,
-      "observacao": "Publicacoes municipais tambem aparecem nos diarios proprios de cada prefeitura."
+      "observacao": "Publicacoes municipais tambem aparecem nos diarios proprios de cada prefeitura. Referencia humana ao portal: a busca lida pela coleta esta nas fontes ioes-busca-dio e ioes-busca-dom."
+    },
+    {
+      "id": "ioes-busca-dio",
+      "nome": "Busca do IOES - Diario Oficial do Estado (DIO)",
+      "url": "https://ioes.dio.es.gov.br/",
+      "tipo": "diario_oficial",
+      "esfera": "estadual",
+      "prioridade": 1,
+      "coletada_automaticamente": true,
+      "observacao": "Indice de busca do DIO, lido por ferramentas/coletar.py. O indice inclui o Caderno dos Municipios Capixabas, portanto ato municipal tambem aparece aqui; a esfera declarada e a do diario, nao a do ato."
+    },
+    {
+      "id": "ioes-busca-dom",
+      "nome": "Busca do IOES - Diario Oficial dos Municipios (DOM/AMUNES)",
+      "url": "https://ioes.dio.es.gov.br/dom",
+      "tipo": "diario_oficial",
+      "esfera": "municipal",
+      "prioridade": 1,
+      "coletada_automaticamente": true,
+      "observacao": "Indice de busca do DOM/AMUNES, lido por ferramentas/coletar.py. E o canal por onde a maioria dos 78 municipios publica seus atos."
     },
     {
       "id": "selecao-es",
@@ -220,6 +240,7 @@
       "nome": "IDCAP - Instituto de Desenvolvimento e Capacitacao",
       "url": "https://idcap.selecao.net.br/",
       "tipo": "banca",
+      "esfera": "nao_se_aplica",
       "prioridade": 2,
       "observacao": "Banca recorrente em editais municipais do ES (Vitoria, Anchieta, Aracruz)."
     },
@@ -228,6 +249,7 @@
       "nome": "Instituto Consulplan",
       "url": "https://www.institutoconsulplan.org.br/",
       "tipo": "banca",
+      "esfera": "nao_se_aplica",
       "prioridade": 2
     },
     {
@@ -235,6 +257,7 @@
       "nome": "IBADE - Instituto Brasileiro de Apoio e Desenvolvimento Executivo",
       "url": "https://www.ibade.org.br/",
       "tipo": "banca",
+      "esfera": "nao_se_aplica",
       "prioridade": 2
     },
     {
@@ -242,6 +265,7 @@
       "nome": "Instituto IBEST",
       "url": "https://institutoibest.selecao.net.br/",
       "tipo": "banca",
+      "esfera": "nao_se_aplica",
       "prioridade": 2
     },
     {
@@ -249,6 +273,7 @@
       "nome": "IDECAN",
       "url": "https://www.idecan.org.br/",
       "tipo": "banca",
+      "esfera": "nao_se_aplica",
       "prioridade": 2
     },
     {
@@ -256,6 +281,7 @@
       "nome": "Instituto ACCESS",
       "url": "https://access.selecao.net.br/",
       "tipo": "banca",
+      "esfera": "nao_se_aplica",
       "prioridade": 2
     },
     {
@@ -263,6 +289,7 @@
       "nome": "Fundatec",
       "url": "https://www.fundatec.org.br/portal/concursos/",
       "tipo": "banca",
+      "esfera": "nao_se_aplica",
       "prioridade": 2
     },
     {
@@ -270,6 +297,7 @@
       "nome": "PCI Concursos - Espirito Santo",
       "url": "https://www.pciconcursos.com.br/concursos/es/",
       "tipo": "portal_concursos",
+      "esfera": "nao_se_aplica",
       "prioridade": 3
     },
     {
@@ -277,6 +305,7 @@
       "nome": "Concursos no Brasil - Espirito Santo",
       "url": "https://concursosnobrasil.com/concursos/es",
       "tipo": "portal_concursos",
+      "esfera": "nao_se_aplica",
       "prioridade": 3,
       "coletada_automaticamente": true,
       "observacao": "Lida por ferramentas/coletar.py. Serve para descobrir certames municipais que nao passam pelo Selecao ES. Itens nacionais sao descartados pelo padrao do link."
@@ -286,6 +315,7 @@
       "nome": "Folha Dirigida / QConcursos",
       "url": "https://folha.qconcursos.com/",
       "tipo": "portal_concursos",
+      "esfera": "nao_se_aplica",
       "prioridade": 3
     },
     {
@@ -293,6 +323,7 @@
       "nome": "A Gazeta - Concursos",
       "url": "https://www.agazeta.com.br/concursos",
       "tipo": "imprensa",
+      "esfera": "nao_se_aplica",
       "prioridade": 4,
       "observacao": "Publica balanco periodico dos certames abertos no ES; util para descoberta, nao para confirmacao de datas."
     },
@@ -301,6 +332,7 @@
       "nome": "A Tribuna Online - Concursos",
       "url": "https://tribunaonline.com.br/concursos",
       "tipo": "imprensa",
+      "esfera": "nao_se_aplica",
       "prioridade": 4
     }
   ]
