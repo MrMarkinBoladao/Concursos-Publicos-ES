@@ -26,10 +26,10 @@ efetivamente relacionada ao estado.
 | Vagas imediatas em aberto | 97 |
 | Concursos previstos / autorizados | 16 |
 | Registros históricos (encerrados ou em andamento) | 31 |
-| Descobertas automáticas pendentes de conferência | 11 |
+| Descobertas automáticas pendentes de conferência | 12 |
 | Municípios do ES monitorados | 78 |
 | Municípios com registro curado | 15 |
-| Municípios com ato detectado na janela da coleta | 42 |
+| Municípios com ato detectado na janela da coleta | 49 |
 
 ## Concursos com inscrições abertas
 
@@ -124,6 +124,7 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | SESA | [SESA - EDITAL Nº 008/2026 - PROCESSO SELETIVO EMERGENCIAL - NÍVEL FUNDAMENTAL, MÉDIO E MÉDIO TÉCNICO](https://selecao.es.gov.br/processo-seletivo/79332759-9ae2-4609-9dc0-4dc030d4e281/sesa-edital-n-0082026-processo-seletivo-emergencial-nivel-fundamental-medio-medio-tecnico) | Inscrições abertas | 06/10/2026 | oficial |
 | SESA | [SESA - EDITAL Nº 006/2026 - PROCESSO SELETIVO EMERGENCIAL - MÉDICO](https://selecao.es.gov.br/processo-seletivo/bee0d13a-1da9-4f10-abfd-728072e561a0/sesa-edital-n-0062026-processo-seletivo-emergencial-medico) | Inscrições abertas | 06/10/2026 | oficial |
 | SESA | [SESA - EDITAL Nº 005/2026 - PROCESSO SELETIVO EMERGENCIAL  - LACEN - MÉDICO E NÍVEL SUPERIOR](https://selecao.es.gov.br/processo-seletivo/4f9a54a9-49b8-482e-9fc5-87a1f6b784fa/sesa-edital-n-0052026-processo-seletivo-emergencial-lacen-medico-nivel-superior) | Inscrições abertas | 06/10/2026 | oficial |
+| CRECI ES | [CRECI ES](https://concursosnobrasil.com/concursos/es/2026/10/02/concurso-creci-es-tem-edital-publicado-com-abertura-de-vagas/) | não informado | não informado | portal_concursos |
 | PM ES | [PM ES](https://concursosnobrasil.com/concursos/es/2026/10/01/pm-es-esta-com-dois-novos-editais-abertos-para-nivel-tecnico/) | não informado | não informado | portal_concursos |
 | Prefeitura de João Neiva | [Prefeitura de João Neiva](https://concursosnobrasil.com/concursos/es/2026/09/30/es-prefeitura-de-joao-neiva-divulga-edital-com-vagas-de-ate-r-43-mil/) | não informado | não informado | portal_concursos |
 | Prefeitura de João Neiva | [Prefeitura de João Neiva](https://concursosnobrasil.com/concursos/es/2026/09/28/prefeitura-de-joao-neiva-es-promove-selecao-para-profissionais-da-saude/) | não informado | não informado | portal_concursos |
@@ -157,7 +158,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Boa Esperança | 0 | — | DOM/AMUNES |
 | Bom Jesus do Norte | 0 | — | DOM/AMUNES |
 | Brejetuba | 0 | — | DOM/AMUNES |
-| Cachoeiro de Itapemirim | 1 | — | DOM/AMUNES |
+| Cachoeiro de Itapemirim | 1 | ✓ | DOM/AMUNES |
 | Cariacica | 1 | ✓ | DOM/AMUNES |
 | Castelo | 2 | ✓ | DOM/AMUNES |
 | Colatina | 0 | ✓ | DOM/AMUNES |
@@ -174,8 +175,8 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Ibatiba | 0 | ✓ | DOM/AMUNES |
 | Ibiraçu | 2 | ✓ | DOM/AMUNES |
 | Ibitirama | 0 | — | DOM/AMUNES |
-| Iconha | 0 | — | DOM/AMUNES |
-| Irupi | 0 | — | DOM/AMUNES |
+| Iconha | 0 | ✓ | DOM/AMUNES |
+| Irupi | 0 | ✓ | DOM/AMUNES |
 | Itaguaçu | 0 | ✓ | DOM/AMUNES |
 | Itapemirim | 0 | — | DOM/AMUNES |
 | Itarana | 0 | ✓ | DOM/AMUNES |
@@ -185,14 +186,14 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | João Neiva | 0 | ✓ | DOM/AMUNES |
 | Laranja da Terra | 0 | ✓ | DOM/AMUNES |
 | Linhares | 0 | ✓ | DOM/AMUNES |
-| Mantenópolis | 0 | — | DOM/AMUNES |
+| Mantenópolis | 0 | ✓ | DOM/AMUNES |
 | Marataízes | 0 | — | DOM/AMUNES |
 | Marechal Floriano | 0 | ✓ | DOM/AMUNES |
 | Marilândia | 0 | — | DOM/AMUNES |
 | Mimoso do Sul | 0 | — | DOM/AMUNES |
 | Montanha | 0 | ✓ | DOM/AMUNES |
 | Mucurici | 0 | — | DOM/AMUNES |
-| Muniz Freire | 0 | — | DOM/AMUNES |
+| Muniz Freire | 0 | ✓ | DOM/AMUNES |
 | Muqui | 0 | — | DOM/AMUNES |
 | Nova Venécia | 0 | ✓ | DOM/AMUNES |
 | Pancas | 0 | ✓ | DOM/AMUNES |
@@ -202,7 +203,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Ponto Belo | 0 | — | DOM/AMUNES |
 | Presidente Kennedy | 0 | ✓ | DOM/AMUNES |
 | Rio Bananal | 0 | ✓ | DOM/AMUNES |
-| Rio Novo do Sul | 0 | — | DOM/AMUNES |
+| Rio Novo do Sul | 0 | ✓ | DOM/AMUNES |
 | Santa Leopoldina | 0 | ✓ | DOM/AMUNES |
 | Santa Maria de Jetibá | 1 | ✓ | DOM/AMUNES |
 | Santa Teresa | 1 | ✓ | DOM/AMUNES |
@@ -213,7 +214,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | São Roque do Canaã | 0 | ✓ | DOM/AMUNES |
 | Serra | 1 | ✓ | Diário próprio |
 | Sooretama | 0 | ✓ | DOM/AMUNES |
-| Vargem Alta | 0 | — | DOM/AMUNES |
+| Vargem Alta | 0 | ✓ | DOM/AMUNES |
 | Venda Nova do Imigrante | 0 | ✓ | DOM/AMUNES |
 | Viana | 0 | ✓ | DOM/AMUNES |
 | Vila Pavão | 0 | — | DOM/AMUNES |
