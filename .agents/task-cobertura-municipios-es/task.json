@@ -1,0 +1,13 @@
+{
+  "task_id": "task-cobertura-municipios-es",
+  "task_description": "Dar ao repositorio Concursos-Publicos-ES cobertura verificavel dos 78 municipios do Espirito Santo: cadastro canonico de municipios e canais de publicacao em fontes/municipios-es.json, coletor agregador do buscador do IOES (DIO + DOM/AMUNES) com casamento municipio/orgao por texto, deteccao de municipio nao mapeado e de divergencia com o IBGE, campo esfera em todas as fontes do catalogo, novas checagens no validador, consumidores (README/relatorio/e-mail) e workflow corrigido, mais auditoria completa. Implementa .agents/design-cobertura-municipios.md conforme a sequencia de .agents/plano-implementacao.md.",
+  "status": "completed",
+  "feature_order": [
+    "FEAT-001",
+    "FEAT-002",
+    "FEAT-003",
+    "FEAT-004",
+    "FEAT-005"
+  ],
+  "blocked_reason": null
+}
