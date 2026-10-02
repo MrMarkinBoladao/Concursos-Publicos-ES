@@ -26,10 +26,10 @@ efetivamente relacionada ao estado.
 | Vagas imediatas em aberto | 97 |
 | Concursos previstos / autorizados | 16 |
 | Registros históricos (encerrados ou em andamento) | 31 |
-| Descobertas automáticas pendentes de conferência | 10 |
-| Municípios do ES monitorados | 0 |
-| Municípios com registro curado | 0 |
-| Municípios com ato detectado na janela da coleta | 0 |
+| Descobertas automáticas pendentes de conferência | 11 |
+| Municípios do ES monitorados | 78 |
+| Municípios com registro curado | 15 |
+| Municípios com ato detectado na janela da coleta | 42 |
 
 ## Concursos com inscrições abertas
 
@@ -119,6 +119,7 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | SEDU | [SEDU - EDITAL DE CADASTRAMENTO Nº 34/2026 - Fase preliminar do Processo Seletivo para Diretor Escolar](https://selecao.es.gov.br/processo-seletivo/f8566f9a-c3ea-4a2d-89b3-86aaf6af7d9f/sedu-edital-cadastramento-n-342026-fase-preliminar-processo-seletivo-diretor-escolar) | Inscrições abertas | 02/04/2027 | oficial |
 | SEDU | [SEDU - EDITAL DE CADASTRAMENTO Nº 35/2026 - Fase preliminar do Processo Seletivo para Coordenador Pedagógico](https://selecao.es.gov.br/processo-seletivo/31de726e-d5e8-41a1-a584-aee968b53f1f/sedu-edital-cadastramento-n-352026-fase-preliminar-processo-seletivo-coordenador-pedagogico) | Inscrições abertas | 02/04/2027 | oficial |
 | SEDU | [SEDU - EDITAL DE CADASTRAMENTO Nº 33/2026 - Fase Preliminar do Processo Seletivo para CASF](https://selecao.es.gov.br/processo-seletivo/b372b0fa-7926-46df-8e7b-a7de193adcdf/sedu-edital-cadastramento-n-332026-fase-preliminar-processo-seletivo-casf) | Inscrições abertas | 02/04/2027 | oficial |
+| PMES | [DS/PMES EDITAL 004/2026 - Processo Seletivo para Contratação de Técnico em Farmácia - HPM](https://selecao.es.gov.br/processo-seletivo/25ac0486-8fd6-4110-a85c-0bc65fe9d362/dspmes-edital-0042026-processo-seletivo-contratacao-tecnico-farmacia-hpm) | Inscrições abertas | 08/10/2026 | oficial |
 | PMES | [DS/PMES EDITAL 003/2026 - Processo Seletivo para Contratação de Técnico em Laboratório/Análises Clínicas-HPM](https://selecao.es.gov.br/processo-seletivo/2bb038a7-dabc-4c6b-b945-7f5e69fd2c12/dspmes-edital-0032026-processo-seletivo-contratacao-tecnico-laboratorioanalises-clinicas-hpm) | Inscrições abertas | 08/10/2026 | oficial |
 | SESA | [SESA - EDITAL Nº 008/2026 - PROCESSO SELETIVO EMERGENCIAL - NÍVEL FUNDAMENTAL, MÉDIO E MÉDIO TÉCNICO](https://selecao.es.gov.br/processo-seletivo/79332759-9ae2-4609-9dc0-4dc030d4e281/sesa-edital-n-0082026-processo-seletivo-emergencial-nivel-fundamental-medio-medio-tecnico) | Inscrições abertas | 06/10/2026 | oficial |
 | SESA | [SESA - EDITAL Nº 006/2026 - PROCESSO SELETIVO EMERGENCIAL - MÉDICO](https://selecao.es.gov.br/processo-seletivo/bee0d13a-1da9-4f10-abfd-728072e561a0/sesa-edital-n-0062026-processo-seletivo-emergencial-medico) | Inscrições abertas | 06/10/2026 | oficial |
@@ -141,15 +142,15 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 | Município | Registros curados | Ato detectado | Canal principal |
 | --------- | ----------------: | ------------- | --------------- |
-| Afonso Cláudio | 1 | — | DOM/AMUNES |
+| Afonso Cláudio | 1 | ✓ | DOM/AMUNES |
 | Água Doce do Norte | 0 | — | DOM/AMUNES |
-| Águia Branca | 0 | — | DOM/AMUNES |
-| Alegre | 0 | — | DOM/AMUNES |
-| Alfredo Chaves | 0 | — | DOM/AMUNES |
+| Águia Branca | 0 | ✓ | DOM/AMUNES |
+| Alegre | 0 | ✓ | DOM/AMUNES |
+| Alfredo Chaves | 0 | ✓ | DOM/AMUNES |
 | Alto Rio Novo | 0 | — | DOM/AMUNES |
 | Anchieta | 1 | — | DOM/AMUNES |
 | Apiacá | 0 | — | DOM/AMUNES |
-| Aracruz | 2 | — | DOM/AMUNES |
+| Aracruz | 2 | ✓ | DOM/AMUNES |
 | Atílio Vivácqua | 0 | — | DOM/AMUNES |
 | Baixo Guandu | 0 | — | DOM/AMUNES |
 | Barra de São Francisco | 0 | — | DOM/AMUNES |
@@ -157,64 +158,64 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Bom Jesus do Norte | 0 | — | DOM/AMUNES |
 | Brejetuba | 0 | — | DOM/AMUNES |
 | Cachoeiro de Itapemirim | 1 | — | DOM/AMUNES |
-| Cariacica | 1 | — | DOM/AMUNES |
-| Castelo | 2 | — | DOM/AMUNES |
-| Colatina | 0 | — | DOM/AMUNES |
-| Conceição da Barra | 0 | — | DOM/AMUNES |
-| Conceição do Castelo | 0 | — | DOM/AMUNES |
+| Cariacica | 1 | ✓ | DOM/AMUNES |
+| Castelo | 2 | ✓ | DOM/AMUNES |
+| Colatina | 0 | ✓ | DOM/AMUNES |
+| Conceição da Barra | 0 | ✓ | DOM/AMUNES |
+| Conceição do Castelo | 0 | ✓ | DOM/AMUNES |
 | Divino de São Lourenço | 0 | — | DOM/AMUNES |
-| Domingos Martins | 0 | — | DOM/AMUNES |
-| Dores do Rio Preto | 0 | — | DOM/AMUNES |
-| Ecoporanga | 0 | — | DOM/AMUNES |
-| Fundão | 1 | — | DOM/AMUNES |
+| Domingos Martins | 0 | ✓ | DOM/AMUNES |
+| Dores do Rio Preto | 0 | ✓ | DOM/AMUNES |
+| Ecoporanga | 0 | ✓ | DOM/AMUNES |
+| Fundão | 1 | ✓ | DOM/AMUNES |
 | Governador Lindenberg | 0 | — | DOM/AMUNES |
 | Guaçuí | 0 | — | DOM/AMUNES |
-| Guarapari | 2 | — | DOM/AMUNES |
-| Ibatiba | 0 | — | DOM/AMUNES |
-| Ibiraçu | 2 | — | DOM/AMUNES |
+| Guarapari | 2 | ✓ | DOM/AMUNES |
+| Ibatiba | 0 | ✓ | DOM/AMUNES |
+| Ibiraçu | 2 | ✓ | DOM/AMUNES |
 | Ibitirama | 0 | — | DOM/AMUNES |
 | Iconha | 0 | — | DOM/AMUNES |
 | Irupi | 0 | — | DOM/AMUNES |
-| Itaguaçu | 0 | — | DOM/AMUNES |
+| Itaguaçu | 0 | ✓ | DOM/AMUNES |
 | Itapemirim | 0 | — | DOM/AMUNES |
-| Itarana | 0 | — | DOM/AMUNES |
+| Itarana | 0 | ✓ | DOM/AMUNES |
 | Iúna | 0 | — | DOM/AMUNES |
 | Jaguaré | 0 | — | DOM/AMUNES |
 | Jerônimo Monteiro | 0 | — | DOM/AMUNES |
-| João Neiva | 0 | — | DOM/AMUNES |
-| Laranja da Terra | 0 | — | DOM/AMUNES |
-| Linhares | 0 | — | DOM/AMUNES |
+| João Neiva | 0 | ✓ | DOM/AMUNES |
+| Laranja da Terra | 0 | ✓ | DOM/AMUNES |
+| Linhares | 0 | ✓ | DOM/AMUNES |
 | Mantenópolis | 0 | — | DOM/AMUNES |
 | Marataízes | 0 | — | DOM/AMUNES |
-| Marechal Floriano | 0 | — | DOM/AMUNES |
+| Marechal Floriano | 0 | ✓ | DOM/AMUNES |
 | Marilândia | 0 | — | DOM/AMUNES |
 | Mimoso do Sul | 0 | — | DOM/AMUNES |
-| Montanha | 0 | — | DOM/AMUNES |
+| Montanha | 0 | ✓ | DOM/AMUNES |
 | Mucurici | 0 | — | DOM/AMUNES |
 | Muniz Freire | 0 | — | DOM/AMUNES |
 | Muqui | 0 | — | DOM/AMUNES |
-| Nova Venécia | 0 | — | DOM/AMUNES |
-| Pancas | 0 | — | DOM/AMUNES |
-| Pedro Canário | 0 | — | DOM/AMUNES |
-| Pinheiros | 0 | — | DOM/AMUNES |
+| Nova Venécia | 0 | ✓ | DOM/AMUNES |
+| Pancas | 0 | ✓ | DOM/AMUNES |
+| Pedro Canário | 0 | ✓ | DOM/AMUNES |
+| Pinheiros | 0 | ✓ | DOM/AMUNES |
 | Piúma | 0 | — | DOM/AMUNES |
 | Ponto Belo | 0 | — | DOM/AMUNES |
-| Presidente Kennedy | 0 | — | DOM/AMUNES |
-| Rio Bananal | 0 | — | DOM/AMUNES |
+| Presidente Kennedy | 0 | ✓ | DOM/AMUNES |
+| Rio Bananal | 0 | ✓ | DOM/AMUNES |
 | Rio Novo do Sul | 0 | — | DOM/AMUNES |
-| Santa Leopoldina | 0 | — | DOM/AMUNES |
-| Santa Maria de Jetibá | 1 | — | DOM/AMUNES |
-| Santa Teresa | 1 | — | DOM/AMUNES |
-| São Domingos do Norte | 0 | — | DOM/AMUNES |
-| São Gabriel da Palha | 1 | — | DOM/AMUNES |
-| São José do Calçado | 0 | — | DOM/AMUNES |
-| São Mateus | 0 | — | DOM/AMUNES |
-| São Roque do Canaã | 0 | — | DOM/AMUNES |
-| Serra | 1 | — | Diário próprio |
-| Sooretama | 0 | — | DOM/AMUNES |
+| Santa Leopoldina | 0 | ✓ | DOM/AMUNES |
+| Santa Maria de Jetibá | 1 | ✓ | DOM/AMUNES |
+| Santa Teresa | 1 | ✓ | DOM/AMUNES |
+| São Domingos do Norte | 0 | ✓ | DOM/AMUNES |
+| São Gabriel da Palha | 1 | ✓ | DOM/AMUNES |
+| São José do Calçado | 0 | ✓ | DOM/AMUNES |
+| São Mateus | 0 | ✓ | DOM/AMUNES |
+| São Roque do Canaã | 0 | ✓ | DOM/AMUNES |
+| Serra | 1 | ✓ | Diário próprio |
+| Sooretama | 0 | ✓ | DOM/AMUNES |
 | Vargem Alta | 0 | — | DOM/AMUNES |
-| Venda Nova do Imigrante | 0 | — | DOM/AMUNES |
-| Viana | 0 | — | DOM/AMUNES |
+| Venda Nova do Imigrante | 0 | ✓ | DOM/AMUNES |
+| Viana | 0 | ✓ | DOM/AMUNES |
 | Vila Pavão | 0 | — | DOM/AMUNES |
 | Vila Valério | 0 | — | DOM/AMUNES |
 | Vila Velha | 2 | — | DOM/AMUNES |
