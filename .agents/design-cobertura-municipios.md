@@ -2208,7 +2208,7 @@ A dependência `validar → coletar` consta da tabela de §17.
 | Algum canal `pendente` e nenhuma pendência de `canais` declarada | erro — pendência no canal e na entrada têm de concordar |
 | Município sem **nenhum** canal `confirmado` | aviso — é lacuna real de cobertura |
 | Item de `pendencias_verificacao` fora da forma `campo[:motivo]`, com `campo` ∈ chaves da entrada e `motivo` ∈ `comum.MOTIVOS_PENDENCIA` | erro |
-| **`orgaos_vinculados`** — chave obrigatória ausente ou desconhecida (conjunto permitido, por extenso: `id,nome,sigla,natureza,esfera,municipios_slugs,url,fontes,pendencias_verificacao,verificado_em`) | erro |
+| **`orgaos_vinculados`** — chave obrigatória ausente ou desconhecida (conjunto permitido, por extenso: `id,nome,aliases,sigla,natureza,esfera,municipios_slugs,url,fontes,evidencia,pendencias_verificacao,verificado_em`) | erro |
 | `orgaos_vinculados[].id` único e não colidindo com slug de município | erro |
 | `orgaos_vinculados[].natureza` no vocabulário fechado | erro |
 | `orgaos_vinculados[].url == null` sem pendência `url:nao_encontrado` | erro — forma usada em 5 das 8 entradas de §4.1 |
@@ -3606,7 +3606,7 @@ exemplos medidos sem ganho. Os dois números estão comentados com o papel de ca
 
 **15 — `orgaos_vinculados` validado com menos severidade que `municipios`. APLICADA integralmente.**
 §9.2 ganhou as quatro linhas, com o conjunto de chaves permitidas escrito por extenso
-(`id,nome,sigla,natureza,esfera,municipios_slugs,url,fontes,pendencias_verificacao,verificado_em`),
+(`id,nome,aliases,sigla,natureza,esfera,municipios_slugs,url,fontes,evidencia,pendencias_verificacao,verificado_em`),
 `url == null` exigindo `url:nao_encontrado`, `fontes[]` referenciando `id` existente e
 `verificado_em` presente e não futura — mais a nota de por que a assimetria importa (é a mesma que
 deixou 12 fontes sem `esfera` passar).

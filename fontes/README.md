@@ -114,6 +114,21 @@ declarada enquanto a composição não for apurada documentalmente. Órgão sem 
 **não credita** cobertura a município nenhum: atribuir cobertura a município adivinhado inflaria a
 métrica com dado inventado.
 
+`evidencia` é obrigatória e não pode ser vazia, pela mesma razão do campo homônimo do canal. Aqui
+ela pesa mais: `municipios_slugs` de um consórcio **credita jurisdição a 13 ou 18 municípios de uma
+vez**, e sem o campo a única forma de auditar a procedência daquela lista seria a descrição do PR,
+que não acompanha o arquivo. A composição dos três intermunicipais (CIM Polinorte 13, CIM Caparaó
+13, ARIES 18) foi apurada em 2026-10-02 contra a página institucional do próprio órgão e/ou a
+página de consórcios públicos da AMUNES, e cada entrada diz qual.
+
+`aliases` segue a **mesma regra de admissão** dos aliases de município (só variante observada) e
+existe por um motivo medido: quando o `nome` do IPC de Cariacica foi corrigido para o oficial
+(`Instituto de Previdência dos Servidores Públicos do Município de Cariacica`), a forma encurtada
+que o cadastro usava antes deixou de casar no texto do diário. Sem `aliases`, **corrigir um nome
+para a grafia oficial sempre custa recall silencioso sobre a forma antiga**. Alias que colide com
+nome de município é **erro**, não aviso: creditaria o ato ao município errado. Alias igual à `sigla`
+é padrão duplicado e não deve ser cadastrado — a sigla já entra no índice por conta própria.
+
 ### Regra de admissão de alias
 
 `aliases` só recebe variante que muda a cadeia **já normalizada** por `comum.normalizar()`

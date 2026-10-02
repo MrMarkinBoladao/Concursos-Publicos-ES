@@ -154,7 +154,7 @@ caminhos dos módulos restaurados no `finally`.
 | V-7 | canais por estado | 77 `confirmado` (36 de FEAT-001 + 41 promovidos por FEAT-002) e 71 `pendente` | **ok** (corrige o número da seção 12 abaixo) |
 | V-8 | canal de precedência 1 | **0** municípios sem canal de precedência 1 | **ok** |
 | V-9 | aliases | 2 aliases, **0** colisão entre municípios | **ok** |
-| V-10 | `orgaos_vinculados` | 8 entradas; 7 com `url: null` e exatamente essas 7 com `url:nao_encontrado`; 3 com `municipios_slugs:nao_encontrado` (os 3 intermunicipais); 5 naturezas distintas | **ok** |
+| V-10 | `orgaos_vinculados` | 8 entradas; 7 com `url: null` e exatamente essas 7 com `url:nao_encontrado`; 3 com `municipios_slugs:nao_encontrado` (os 3 intermunicipais); 5 naturezas distintas | **ok** — **superado em 2026-10-02:** ver adendo |
 | V-11 | microrregiões | 13 microrregiões somando 78 municípios | **ok** |
 | V-12 | `descobertas.json` versionado | 8 chaves de topo preservadas (`achados`, `descricao`, `fontes_consultadas`, `gerado_em`, `ja_no_repositorio`, `janela_dias`, `pendentes_de_curadoria`, `total_achados`); 37 achados, todos com `categoria` e `municipio_slug` | **ok** |
 | V-13 | `--migrar-descobertas` duas vezes | exit 0/0, arquivo **byte-idêntico ao versionado** e idempotente; chaves de topo preservadas | **ok** — nada a restaurar |
@@ -293,3 +293,31 @@ Abertas por esta auditoria:
 15. **Primeira coleta agendada publicará `primeira_vez` alto** (48 medido), porque o histórico
     nasce vazio. Correto por construção (borda 34); quem controla o anúncio é `cobertura_vistos`.
     Não deve ser "consertado".
+
+---
+
+## Adendo de 2026-10-02 — o que mudou depois desta auditoria
+
+Esta auditoria descreve o estado de 2026-10-01. Três das pendências que ela declarou foram
+apuradas no dia seguinte, e os números abaixo **substituem** os dela onde houver conflito.
+
+| Item | Estado em 2026-10-01 (acima) | Estado em 2026-10-02 |
+| --- | --- | --- |
+| `orgaos_vinculados` com `url: null` (V-10, e o "7 das 8" da §3 das conclusões) | 7 de 8 | **0 de 8** — todos localizados; 3 com `url:conferir_manual` por responderem 403 |
+| `municipios_slugs` vazio nos 3 intermunicipais | 3 com `municipios_slugs:nao_encontrado` | **0** — CIM Polinorte 13, CIM Caparaó 13, ARIES 18 |
+| `diario_oficial_proprio` | "só para a Serra", seletor do IOES **não** conferido | seletor conferido por varredura de **390 caminhos (5 padrões × 78)**: existe **só** para a Serra, e agora está cadastrado. Antes deste adendo havia **zero** canais desse tipo no cadastro — a frase "só para a Serra" descrevia uma intenção, não o dado |
+| `actionlint` | não existe no sandbox, YAML não passou por ele | rodou (v1.7.12, **com `shellcheck` e `pyflakes`**): **3 × SC2086** reais encontrados e corrigidos, lint fecha em 0 |
+| Chaves de `descobertas.json` ausentes (3 avisos) | previsão: "desaparecem na primeira coleta" | **medido**: coleta real derrubou os avisos de 57 → 54, e os 3 que saíram foram exatamente esses |
+| Suíte | 175 testes | **183** (8 novos para `evidencia` e `aliases` de órgão) |
+
+Duas observações de método, porque mudam como ler a auditoria original:
+
+1. **A conferência do `actionlint` sem `-shellcheck`/`-pyflakes` é falso-negativo.** O arquivo passa
+   limpo sem as integrações e reprova com elas. Quem repetir a verificação precisa ligar as duas.
+2. **O "7 das 8" da conclusão 3 não era erro de medição** — era o estado real daquele dia. O que a
+   FEAT-001 apontava como divergência do design virou discussão vazia: hoje são 0 de 8.
+
+O que a auditoria declarou e **continua valendo**: os 21 municípios sem canal confirmado. A razão de
+não terem sido resolvidos está no handoff, e não é falta de tempo — é que os 403 vêm de WAF
+rejeitando robô declarado, e foi medido que persistem com `User-Agent` de navegador. Furar isso
+seria evasão de controle de acesso, não apuração.
