@@ -31,16 +31,32 @@ on:
         description: "Gerar tambem o relatorio do ultimo mes fechado"
         type: boolean
         default: false
+  # 'fontes/**' entra nos dois gatilhos porque fontes/fontes.json e
+  # fontes/municipios-es.json sao dado curado a mao, validado por validar.py:
+  # sem eles aqui, editar o cadastro dos 78 municipios nao rodaria validacao
+  # nenhuma. O proprio arquivo do workflow tambem entra, para que uma edicao de
+  # YAML passe pela validacao que ela mesma define.
+  #
+  # 'descobertas/**' e 'README.md' ficam FORA do push de proposito, e a razao e
+  # uma so: o conteudo dos dois e gerado pelo bot e ja foi revalidado pelo passo
+  # "Revalidar depois das alteracoes", que roda imediatamente antes do commit —
+  # nao ha revisao humana a proteger neles. Nao e economia de execucao: o commit
+  # do bot inclui dados/, que permanece em push.paths. Um PR humano que edite
+  # README.md a mao continua validado, porque README.md segue no pull_request.
   pull_request:
     paths:
       - "dados/**"
+      - "fontes/**"
       - "ferramentas/**"
+      - ".github/workflows/monitoramento.yml"
       - "README.md"
   push:
     branches: [main]
     paths:
       - "dados/**"
+      - "fontes/**"
       - "ferramentas/**"
+      - ".github/workflows/monitoramento.yml"
 
 permissions:
   contents: read
@@ -65,6 +81,13 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
+
+      # Antes de validar os dados: a suite cobre as funcoes que o validador e os
+      # geradores usam (casamento de municipio, cobertura, parsing do diario).
+      # Dado valido com funcao quebrada passaria na validacao e produziria README
+      # errado.
+      - name: Rodar a suite de testes
+        run: python3 ferramentas/testes.py
 
       - name: Validar registros
         run: python3 ferramentas/validar.py
@@ -126,20 +149,38 @@ jobs:
       # sobrescrito: gerar_relatorio.py so reescreve o que ele mesmo gerou.
       - name: Gerar relatorios
         env:
-          FORCAR: ${{ inputs.forcar_relatorio && '--forcar' || '' }}
+          # Os tres entram como env, e nao interpolados no corpo do script, por
+          # dois motivos: 'actionlint -shellcheck' aponta a interpolacao direta
+          # como superficie de injecao de script, e env mantem o YAML legivel.
+          FORCAR_RELATORIO: ${{ inputs.forcar_relatorio }}
+          GERAR_SEMANAL: ${{ inputs.gerar_semanal }}
+          GERAR_MENSAL: ${{ inputs.gerar_mensal }}
         run: |
           set -euo pipefail
           dia_da_semana=$(date -u +%u)   # 1 = segunda
           dia_do_mes=$(date -u +%d)
 
-          python3 ferramentas/gerar_relatorio.py --tipo diario $FORCAR
-
-          if [ "$dia_da_semana" = "1" ] || [ "${{ inputs.gerar_semanal }}" = "true" ]; then
-            python3 ferramentas/gerar_relatorio.py --tipo semanal $FORCAR
+          # '--forcar' vai num ARRAY, e nao numa string solta na linha de comando.
+          # A forma anterior ('... --tipo diario $FORCAR', com FORCAR valendo
+          # '--forcar' ou vazio) dependia de word splitting para o argumento
+          # desaparecer quando vazio — exatamente o SC2086 que o shellcheck
+          # reporta. E nao bastava por aspas: "$FORCAR" vazio passaria um
+          # argumento vazio, que o argparse de gerar_relatorio.py rejeita. O array
+          # expande para zero argumento quando vazio e para um quando preenchido,
+          # que e o comportamento desejado nos dois casos.
+          forcar=()
+          if [ "$FORCAR_RELATORIO" = "true" ]; then
+            forcar=(--forcar)
           fi
 
-          if [ "$dia_do_mes" = "01" ] || [ "${{ inputs.gerar_mensal }}" = "true" ]; then
-            python3 ferramentas/gerar_relatorio.py --tipo mensal $FORCAR
+          python3 ferramentas/gerar_relatorio.py --tipo diario "${forcar[@]}"
+
+          if [ "$dia_da_semana" = "1" ] || [ "$GERAR_SEMANAL" = "true" ]; then
+            python3 ferramentas/gerar_relatorio.py --tipo semanal "${forcar[@]}"
+          fi
+
+          if [ "$dia_do_mes" = "01" ] || [ "$GERAR_MENSAL" = "true" ]; then
+            python3 ferramentas/gerar_relatorio.py --tipo mensal "${forcar[@]}"
           fi
 
       - name: Preparar resumo de e-mail
@@ -163,6 +204,12 @@ jobs:
             echo "::error::gerar_email.py falhou com codigo $codigo"
             exit "$codigo"
           fi
+
+      # A suite roda TAMBEM aqui, e nao so no job 'validar': aquele job tem
+      # 'if: pull_request || push' e portanto NAO roda na execucao agendada, que e
+      # justamente a que escreve no repositorio.
+      - name: Rodar a suite de testes
+        run: python3 ferramentas/testes.py
 
       - name: Revalidar depois das alteracoes
         run: python3 ferramentas/validar.py
@@ -196,7 +243,17 @@ jobs:
       # dados/, abre uma issue com a lista. Roda depois do commit para que os
       # links do relatorio ja existam no repositorio.
       - name: Abrir issue com os achados novos
-        if: steps.coleta.outputs.novos != '0' && steps.coleta.outputs.novos != ''
+        # Quatro motivos, nao um. 'novos' conta apenas OPORTUNIDADES, entao sem as
+        # outras clausulas o primeiro ato detectado num municipio, um nome citado
+        # que nao resolve no cadastro e uma divergencia com a lista do IBGE seriam
+        # calculados, gravados em descobertas/descobertas.json e nunca notificados.
+        # 'atos_diario_novos' NAO entra: ato de diario e rotina diaria, e abrir
+        # issue por isso daria uma issue por dia para sempre.
+        if: >-
+          (steps.coleta.outputs.novos != '0' && steps.coleta.outputs.novos != '') ||
+          (steps.coleta.outputs.primeira_vez != '0' && steps.coleta.outputs.primeira_vez != '') ||
+          (steps.coleta.outputs.nao_mapeados != '0' && steps.coleta.outputs.nao_mapeados != '') ||
+          steps.coleta.outputs.divergencia_ibge == '1'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CORPO: ${{ runner.temp }}/novos-achados.md
@@ -209,7 +266,29 @@ jobs:
             -f description="Achados da coleta automatica pendentes de conferencia" \
             >/dev/null 2>&1 || true
 
-          titulo="Coleta automatica: ${{ steps.coleta.outputs.novos }} nova(s) oportunidade(s) do ES — $(date -u +%Y-%m-%d)"
+          # O titulo diz o motivo real: a issue passa a abrir tambem quando
+          # 'novos' e 0, e o titulo antigo chegaria negando o proprio motivo de
+          # existir ("0 nova(s) oportunidade(s)").
+          #
+          # if/then/fi, e nao '[ cond ] && atribuicao': a forma com && sai com
+          # codigo 1 quando o teste falha, e o dia em que alguem acrescentar
+          # 'set -euo pipefail' neste passo (outros passos do mesmo workflow ja
+          # tem) o titulo deixaria de ser montado e o passo abortaria. Aqui o
+          # custo de escrever por extenso e zero.
+          partes=""
+          if [ "${{ steps.coleta.outputs.novos }}" != "0" ]; then
+            partes="${{ steps.coleta.outputs.novos }} nova(s) oportunidade(s)"
+          fi
+          if [ "${{ steps.coleta.outputs.primeira_vez }}" != "0" ]; then
+            partes="${partes:+$partes, }${{ steps.coleta.outputs.primeira_vez }} municipio(s) com 1o ato"
+          fi
+          if [ "${{ steps.coleta.outputs.nao_mapeados }}" != "0" ]; then
+            partes="${partes:+$partes, }${{ steps.coleta.outputs.nao_mapeados }} municipio(s) sem mapeamento"
+          fi
+          if [ "${{ steps.coleta.outputs.divergencia_ibge }}" = "1" ]; then
+            partes="${partes:+$partes, }divergencia com o IBGE"
+          fi
+          titulo="Coleta automatica: ${partes:-sem novidade} — $(date -u +%Y-%m-%d)"
           if url=$(gh api "repos/${GITHUB_REPOSITORY}/issues" \
                      -f title="$titulo" \
                      -F body=@"$CORPO" \

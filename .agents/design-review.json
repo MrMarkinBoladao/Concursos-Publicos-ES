@@ -1,0 +1,174 @@
+{
+  "verdict": "CHANGES_REQUESTED",
+  "findings": [
+    {
+      "id": 1,
+      "severity": "HIGH",
+      "secao": "§6.5 vs §7.2 (ordem do pipeline de texto)",
+      "titulo": "Duas seções especificam ordens incompatíveis do pipeline, e §6.5 é internamente incoerente",
+      "problema": "§6.5 fixa 'truncar → normalizar → segmentar → (por bloco) limpar boilerplate → (por bloco) casar' e reforça que a segmentação roda ANTES da limpeza; §7.2 fixa que os PADROES_MENCAO rodam 'DEPOIS da limpeza de boilerplate e ANTES da segmentação'. Nessa ordem não existe estágio 'página limpa', logo §7.2 é inexequível. O passo 5 de §6.5 ainda manda rodar PADROES_MENCAO 'por página' dentro de um laço por bloco. Os números medidos dos dois lados só se reproduzem com limpeza por página, e limpar por bloco quebra assinaturas que atravessam 'protocolo \\d+'.",
+      "correcao": "Substituir a lista de §6.5 por seis estágios numerados: 1) truncar em 20.000 caracteres (conteudo_truncado); 2) t = comum.normalizar(conteudo); 3) t = _limpar_boilerplate(t) na PÁGINA inteira; 4) PADROES_MENCAO + classificar_mencao sobre t (página, §7.2); 5) blocos = _blocos_de_ato(t); 6) por bloco: passada de órgãos → passada de municípios → pareamento de edital. Remover de §7.2 a frase 'antes da segmentação' (passa a ser consequência da ordem) e manter o argumento de que 'protocolo \\d+' não está em PADROES_BOILERPLATE, que é o que torna (3) antes de (5) seguro."
+    },
+    {
+      "id": 2,
+      "severity": "HIGH",
+      "secao": "§5.1 / §5.2 vs §3.3 (padroes_ordenados, padroes_orgaos, aliases)",
+      "titulo": "O casamento de texto livre exclui aliases e usa duas formas de chave incompatíveis (normalizar() vs chave_nome())",
+      "problema": "§5.1 define padroes_ordenados como '(nome_normalizado, slug)' e §5.2 casa com re.escape(nome_normalizado): aliases não entram, então os 2 aliases evidenciados de §3.3 (Cachoeiro, Cachoeiro do Itapemirim) nunca creditam no diário — contrariando §3.3, que afirma que 'o cadastro E o casamento usam uma chave canônica única'. Além disso padroes_orgaos usa chaves chave_nome() contra texto normalizar(): medido com as funções reais que re.search(r'\\bcim polinorte\\b', 'ato do cim-polinorte...') é False, porque normalizar() não colapsa pontuação. Todo nome/sigla com hífen, ponto ou barra fica fora do casamento, inclusive os três órgãos intermunicipais de §4.1. O texto não pode ser chave_nome()-ado para compensar, porque boilerplate, MARCA_DEPOIS ([/-] es) e PADROES_MENCAO ([/,-]) dependem da pontuação.",
+      "correcao": "Manter t em normalizar() e compilar os dois conjuntos de padrões a partir de chave_nome() com um construtor tolerante a pontuação: _padrao_de_chave(texto) = re.compile(r'\\b' + r'[^a-z0-9]+'.join(re.escape(t) for t in comum.chave_nome(texto).split()) + r'\\b'). padroes_ordenados passa a ser lista (padrao, slug, origem) com origem ∈ {'nome','alias'}, uma entrada por nome E por alias, ordenada por comprimento decrescente de chave_nome; padroes_orgaos idem. Decidir no documento se alias casado em texto livre segue a mesma regra de confiança de §5.3 (recomendado) e se a origem é gravada no achado (campo municipio_origem) ou ignorada."
+    },
+    {
+      "id": 3,
+      "severity": "MEDIUM",
+      "secao": "§7.4 (com_registro_curado) e §11.1",
+      "titulo": "com_registro_curado = 16 contradiz a definição que exclui registros intermunicipais; o valor correto é 15",
+      "problema": "§7.4 define com_registro_curado excluindo registros com esfera == 'intermunicipal' e logo anota 'Medido: 16 nomes oficiais distintos'. Medi nos 53 registros: 16 nomes oficiais no total, 15 após excluir os intermunicipais — 'Divino de São Lourenço' aparece somente em ps-consorcio-caparao-es-2026, que §4 decidiu não creditar. O bloco de exemplo de §7.4 e as linhas de Panorama de §11.1 nascem com o número errado, e um teste derivado do exemplo fixaria o bug.",
+      "correcao": "Trocar o exemplo por \"com_registro_curado\": 15 e anotar '16 nomes oficiais distintos, 15 após excluir os intermunicipais'. Acrescentar a §16 a asserção completa: registro com esfera 'intermunicipal' e municipio 'Divino de São Lourenço' NÃO entra em com_registro_curado E soma 1 em registros_intermunicipais_sem_atribuicao (hoje só a segunda metade está no teste)."
+    },
+    {
+      "id": 4,
+      "severity": "MEDIUM",
+      "secao": "§9.2 vs §3.1 (vocabulário de pendências)",
+      "titulo": "O validador exige pendência de url_diario_oficial, motivo que o vocabulário nunca produz",
+      "problema": "§9.2 reprova 'url_diario_oficial == null E diario_oficial_em == null sem pendência de url_diario_oficial', mas §3.1 declara o produtor de nao_encontrado como o campo diario_oficial_em e lista como formas válidas apenas url_prefeitura:conferir_manual, url_prefeitura:nao_responde, diario_oficial_em:nao_encontrado e municipios_slugs:nao_encontrado. Um município curado exatamente como §3.1 manda é reprovado, e para passar o curador teria de inventar um motivo sem produtor declarado — o 'vocabulário morto' que §3.1 diz evitar.",
+      "correcao": "Reescrever a linha de §9.2 como: 'url_diario_oficial == null E diario_oficial_em == null E nenhum item de pendencias_verificacao com campo em {\"diario_oficial_em\", \"url_diario_oficial\"} → erro'. Manter §3.1 como está (o curador escreve diario_oficial_em:nao_encontrado)."
+    },
+    {
+      "id": 5,
+      "severity": "MEDIUM",
+      "secao": "§3.2 e §17 (sondagem de url_prefeitura)",
+      "titulo": "Falta a regra de derivação do candidato de URL para os 78, e a sondagem não tem dono em §17",
+      "problema": "§3.2 decide bem o critério de aceitação (2xx/3xx; 403/406/429; 404/NXDOMAIN/timeout/TLS) e o reaproveitamento dos 6 do catálogo, mas manda 're-sondar os 78 candidatos' sem dizer de onde sai o candidato dos outros 72 — e a própria seção diz que 'o slug não prevê o domínio' (Cachoeiro). A tabela de 14 usa hosts do tipo www.<slug sem hifens>.es.gov.br, regra que nunca é escrita. Sem ela, dois implementadores produzem cadastros diferentes. Além disso nenhuma linha de §17 hospeda a sondagem, e coletar.py não deve fazer 78 requisições no cron.",
+      "correcao": "Escrever três decisões: (1) candidato derivado único = https://www.<slug sem hifens>.es.gov.br/; (2) quando houver fonte catalogada elegível (os 6 de §3.2), a URL catalogada normalizada para scheme://host/ substitui o derivado; (3) a sondagem vive em ferramentas/sondar_prefeituras.py (novo, uso único, declarado em §17, não chamado pelo workflow), que imprime slug → (status, url, pendência) para a curadoria. Só https://; falha de TLS cai em nao_responde."
+    },
+    {
+      "id": 6,
+      "severity": "MEDIUM",
+      "secao": "§5.1 e §6.10 (resolver_municipio)",
+      "titulo": "A semântica de resolver_municipio() não está definida, e §6.10 a aplica a um texto para o qual ela não funciona",
+      "problema": "§5.1 descreve resolver_municipio() como consulta para 'texto curto tipo o campo municipio de um registro' (lookup em por_chave_nome). §6.10 a chama com achado['municipio'] or achado['orgao'], que nos achados reais é 'ARIES', 'SEDU', 'Prefeitura de Anchieta': uma consulta exata devolve None em praticamente todos, e municipio_slug de 'oportunidade' nasce sempre nulo. A linha da tabela de §6.10 ('oportunidade, municipio/orgao resolve → slug/baixa/municipal') nunca ocorreria, e o teste de §16 passaria trivialmente. Também não está dito o valor de 'origem' quando a chave casada é nome de órgão vinculado (§5.1 injeta esses nomes em por_chave_nome), nem o que fazer quando o texto casa dois municípios.",
+      "correcao": "Separar as duas operações e declarar as duas assinaturas: resolver_municipio(texto, indice=None) → consulta EXATA por chave_nome, devolvendo (slug, origem) com origem ∈ {'nome','alias','orgao_vinculado'}; resolver_municipio_em_texto(texto, indice=None) → passada longest-first de §5.2, devolvendo (slug, origem) só quando resolve para UM município e (None, None) quando resolve zero ou mais de um. §6.10 usa a segunda (municipio + orgao concatenados); §9.3 usa a primeira."
+    },
+    {
+      "id": 7,
+      "severity": "MEDIUM",
+      "secao": "§7.4 / §7.5 / §10.2 (vistos_pela_primeira_vez)",
+      "titulo": "O delta de 'primeiro ato' reanuncia o mesmo município, porque o estado persistido é da janela e não histórico",
+      "problema": "slugs_com_sinal = com_achado_na_janela ∪ com_registro_curado é um retrato da janela; vistos_pela_primeira_vez = agora − antes. Um município com ato hoje e nenhum na semana seguinte sai de slugs_com_sinal e, ao voltar a publicar, entra de novo no delta: a issue é aberta de novo (§10.2) anunciando 'primeiro ato detectado em X', o que contradiz §7.1. O e-mail está protegido por cobertura_vistos (§11.3); a issue e o título (§7.5) não.",
+      "correcao": "Tornar o estado monotônico: slugs_com_sinal (retrato de hoje) + slugs_com_sinal_historico = ordenado(historico_antes ∪ slugs_com_sinal); vistos_pela_primeira_vez = ordenado(slugs_com_sinal − historico_antes). cobertura() passa a receber slugs_com_sinal_historico_antes. §9.4 troca a checagem por 'vistos ⊆ slugs_com_sinal' E 'slugs_com_sinal ⊆ slugs_com_sinal_historico'."
+    },
+    {
+      "id": 8,
+      "severity": "MEDIUM",
+      "secao": "§11.1 vs §7.4 (coluna 'Ato detectado' do README)",
+      "titulo": "A coluna por município exige um conjunto acumulado que cobertura_municipios não publica",
+      "problema": "§11.1 manda a coluna 'Ato detectado' usar com_achado_acumulado, que é um inteiro; as únicas listas publicadas (slugs_com_sinal, sem_sinal_slugs) são da janela. Derivar de 'achados' dentro de gerar_readme.py não serve: carregar_descobertas() (linha 186, conferido) filtra no_repositorio e ausente_na_fonte, que é exatamente o ato antigo que carrega o histórico.",
+      "correcao": "Acrescentar a cobertura_municipios a lista \"slugs_com_achado_acumulado\" (ordenada, derivada dos achados com municipio_confianca == 'alta' sem condição de data), usá-la em §11.1 e acrescentar a §9.4 a checagem com_achado_acumulado == len(slugs_com_achado_acumulado) → erro."
+    },
+    {
+      "id": 9,
+      "severity": "MEDIUM",
+      "secao": "§6.9 e §9.4 (fronteira de legado)",
+      "titulo": "A comparação '<' deixa de fora os 2 achados versionados cuja primeira_deteccao é igual a ibge_consultado_em",
+      "problema": "A regra é legado = primeira_deteccao < cadastro['ibge_consultado_em'], com ibge_consultado_em = '2026-10-01' no exemplo de §3.1. Medi o arquivo versionado: 2 dos 37 achados têm primeira_deteccao == '2026-10-01', logo caem em ERRO e não em aviso. Com --migrar-descobertas o arquivo de hoje fica limpo, mas a proteção que §6.9 promete contra 'checkout de branch velha, revert' falha exatamente na fronteira, e o CI reprova sem recuperação automática.",
+      "correcao": "Usar '<=' com o comentário explicando a razão medida: legado = (achado.get('primeira_deteccao') or '') <= cadastro['ibge_consultado_em'] — o cadastro é commitado no mesmo dia da coleta anterior, e há achados com data igual à fronteira."
+    },
+    {
+      "id": 10,
+      "severity": "MEDIUM",
+      "secao": "§6.4 e §6.9.1 (volume)",
+      "titulo": "Erro de unidade: 218 hits é o total da janela de 7 dias, não por dia — e é esse número que dimensiona a retenção e o aviso de 5.000",
+      "problema": "§6.2 mede os quatro pares escopo×frase na janela de 7 dias (DIO 16/8, DOM 63/131 — reproduzi os quatro contra a API, idênticos). §6.4 então escreve '218 hits/dia medidos no total' e §6.9.1 raciocina 'na ordem de grandeza medida (218 hits/dia) ... centenas de entradas por dia'. O fluxo correto é ~218/7 ≈ 31 achados inéditos/dia, e o regime permanente com 90 dias de retenção é ~2.800 achados — abaixo do aviso de 5.000 de §9.4. Com o número errado o aviso dispararia para sempre e a conclusão seria que 90 dias é inviável.",
+      "correcao": "Em §6.4 e §6.9.1 trocar por '218 hits na janela de 7 dias (≈ 31 achados inéditos/dia)' e escrever a derivação: '90 dias × ~31 ≈ 2,8 mil achados em regime, contra o aviso de 5.000 de §9.4 (~45% de folga)'. Manter os tetos, que são por execução e por fonte e cobrem os 131 da janela."
+    },
+    {
+      "id": 11,
+      "severity": "MEDIUM",
+      "secao": "§7.2 (municipios_nao_mapeados)",
+      "titulo": "A regra de fusão dos candidatos entre execuções não está especificada",
+      "problema": "§7.2 diz que primeira_deteccao/ultima_deteccao sobrevivem e que candidato sem aparição há mais de --janela-ioes-dias*4 dias é removido, mas não diz: a chave de fusão, se ocorrencias/paginas_distintas são da execução ou acumuladas, contra quais contadores o filtro (paginas_distintas >= 2 OR com_marca_uf) é aplicado, e se 'exemplos' antigos são preservados. Com contadores por execução, um candidato real que apareça 1×/dia em páginas distintas e sem /ES nunca é reportado, embora tenha 10 páginas distintas na semana — e o aprendizado de alias de §3.3 depende dele.",
+      "correcao": "Escrever a regra: chave de fusão = nome_detectado (captura já podada e consolidada por prefixo); ocorrencias e paginas_distintas ACUMULADOS (anterior + desta execução); com_marca_uf = OR; primeira_deteccao do anterior quando existir; ultima_deteccao desta execução; exemplos até 3, de páginas distintas, preferindo os mais recentes; filtro de reporte aplicado aos ACUMULADOS; remoção quando ultima_deteccao < referencia - (--janela-ioes-dias * 4)."
+    },
+    {
+      "id": 12,
+      "severity": "MEDIUM",
+      "secao": "§5.2 / §5.3 (janela de contexto e máscara)",
+      "titulo": "Não está dito em que momento a janela de contexto é lida, e o único snippet (re.sub) não permite lê-la",
+      "problema": "§5.3 decide que a janela (45 antes / 6 depois) é lida no texto mascarado 'que a passada de §5.2 vai modificando', mas o código de §5.2 é re.sub(padrao, lambda...), que não expõe offsets e mascara todas as ocorrências do padrão de uma vez. Fica indefinido se a confiança é avaliada antes ou depois de mascarar as ocorrências do MESMO padrão, e o resultado depende disso. Reproduzi o mecanismo com 'avaliar todas as ocorrências, depois mascarar o padrão' e os dois resultados de §5.2 saem exatamente como o documento afirma (vila-velha alta + serra baixa; santa-maria-de-jetiba alta + linhares baixa; com espaço as duas saem alta): a decisão está certa, só não está escrita.",
+      "correcao": "Substituir o snippet por finditer + avaliação + máscara ao final do padrão: 'for padrao, slug, origem in indice.padroes_ordenados: ms = list(padrao.finditer(t)); para cada m, antes = t[max(0, m.start()-45):m.start()], depois = t[m.end():m.end()+6], conf = alta se MARCAS_ANTES.search(antes) ou MARCA_DEPOIS.match(depois); depois t = padrao.sub(lambda m: \"\\x00\"*len(m.group(0)), t)'. Usar MARCA_DEPOIS.match (não search), que é o que garante a adjacência decidida em §5.3."
+    },
+    {
+      "id": 13,
+      "severity": "MEDIUM",
+      "secao": "§11.1 e §6.9 (README no PR, antes da primeira coleta)",
+      "titulo": "Falta a regra do README quando cobertura_municipios ainda não existe — que é o estado do PR que implementa o design",
+      "problema": "--migrar-descobertas só faz backfill por achado e preserva as chaves de topo existentes, então o descobertas.json commitado no PR não terá cobertura_municipios. O job validar roda gerar_readme.py --check em todo PR (conferido no YAML), logo o PR precisa de um README determinístico gerado desse estado; §9.4 trata a chave ausente como aviso, mas §11.1 não diz o que a tabela e o Panorama mostram.",
+      "correcao": "Acrescentar a §11.1: quando cobertura_municipios está ausente, as três linhas de Panorama saem com 0 e a coluna 'Ato detectado' sai '—' nas 78 linhas; 'Registros curados' e 'Fonte própria' continuam corretos porque vêm de dados/ e do cadastro; o bloco permanece determinístico e é esse o estado que o PR commita."
+    },
+    {
+      "id": 14,
+      "severity": "NIT",
+      "secao": "§5.1 e §7.2 (max_tokens_nome)",
+      "titulo": "max_tokens_nome é medido só nos nomes de município, mas por_chave_nome também contém nomes de órgão",
+      "problema": "por_chave_nome inclui nomes de orgaos_vinculados que resolvem para 1 slug ('instituto de previdencia dos servidores de cariacica' tem 7 tokens), enquanto classificar_mencao() só tenta prefixos até max_tokens_nome (4, confirmado como máximo entre os 78 nomes). Essas chaves nunca são alcançáveis pela poda por prefixo.",
+      "correcao": "Calcular max_tokens_nome = max(len(k.split()) for k in por_chave_nome) e manter o comentário dizendo que o teto existe para a captura do diário, não para o cadastro."
+    },
+    {
+      "id": 15,
+      "severity": "NIT",
+      "secao": "§9.2 (validação de orgaos_vinculados)",
+      "titulo": "As entradas de orgaos_vinculados não são validadas com a mesma severidade das de municipios",
+      "problema": "Há checagens de id, natureza, aridade e slugs existentes, mas nenhuma de chaves obrigatórias/desconhecidas (como §9.1 faz para fontes.json), de url null exigindo pendência url:nao_encontrado (usada em 5 das 8 entradas de §4.1), de fontes[] referenciando id existente, nem de verificado_em presente/não futura.",
+      "correcao": "Replicar as quatro linhas na tabela de §9.2, com o conjunto de chaves permitidas escrito por extenso: id,nome,sigla,natureza,esfera,municipios_slugs,url,fontes,pendencias_verificacao,verificado_em."
+    },
+    {
+      "id": 16,
+      "severity": "NIT",
+      "secao": "§7.5 e §17 (monta_relatorio_md)",
+      "titulo": "monta_relatorio_md() é estendida sem assinatura nova",
+      "problema": "§7.5 acrescenta quatro seções condicionais e uma linha de resumo; a assinatura atual é monta_relatorio_md(novos, relatorio_fontes, referencia), que não recebe cobertura, nao_mapeados, reconciliacao, atos_novos nem truncado.",
+      "correcao": "Declarar em §7.5 e na linha de coletar.py em §17: monta_relatorio_md(novos, relatorio_fontes, referencia, cobertura, nao_mapeados, reconciliacao, atos_novos, truncado) — ou um único parâmetro 'contexto' (dict) com essas chaves."
+    },
+    {
+      "id": 17,
+      "severity": "NIT",
+      "secao": "§7.5 (shell do título da issue)",
+      "titulo": "O trecho '[ cond ] && partes=...' aborta o passo sob set -e",
+      "problema": "Quando o teste falha o comando sai com 1. O passo atual não usa set -e, mas outros passos do mesmo workflow usam set -euo pipefail, e o padrão é copiado com facilidade.",
+      "correcao": "Trocar por 'if [ ... ]; then partes=...; fi' nas quatro partes, ou sufixar '|| true' em cada linha."
+    },
+    {
+      "id": 18,
+      "severity": "NIT",
+      "secao": "§6.3 e §7.5 (truncado)",
+      "titulo": "truncado=<0|1> não tem regra de agregação entre as duas fontes IOES",
+      "problema": "§6.3 dá a cada fonte seu dict de diagnóstico e §7.5 publica um único truncado em --saida-github.",
+      "correcao": "Declarar: truncado = 1 se qualquer diagnóstico de fonte tiver truncado ou limite_achados_atingido; 0 caso contrário."
+    },
+    {
+      "id": 19,
+      "severity": "NIT",
+      "secao": "§6.9 vs §6.10 (--migrar-descobertas)",
+      "titulo": "A migração faz backfill de 4 campos enquanto normalizar_achado() define 7",
+      "problema": "§6.9 lista categoria, municipio_slug, municipio_escopo e municipio_confianca; §6.10 acrescenta municipio_codigo_ibge, orgao_vinculado_id e conteudo_truncado. Duas listas de campos para a mesma invariante divergem na primeira mudança.",
+      "correcao": "Definir --migrar-descobertas como 'aplica normalizar_achado(achado, indice) a cada achado e regrava', para que exista um único lugar com a lista de campos."
+    },
+    {
+      "id": 20,
+      "severity": "NIT",
+      "secao": "§12 e §13.1 (degradação graciosa do coletor IOES)",
+      "titulo": "O except de main() não cobre KeyError/TypeError de envelope malformado",
+      "problema": "O laço existente captura (urllib.error.URLError, OSError, ValueError, RuntimeError); um KeyError ou TypeError vindo de _achados_de_resposta() derrubaria a coleta inteira, contra a degradação graciosa prometida em §12. §13.1 especifica validação por item, o que basta se a implementação a seguir à risca — mas isso não está dito como contrato.",
+      "correcao": "Acrescentar uma linha em §12: '_achados_de_resposta() não propaga KeyError/TypeError: todo acesso a campo de terceiro usa .get() com a validação de §13.1' — ou incluir os dois tipos na tupla do except do laço de FONTES."
+    },
+    {
+      "id": 21,
+      "severity": "NIT",
+      "secao": "§6.5 e §6.6 (chave sem número de edital)",
+      "titulo": "Dois blocos da mesma página e do mesmo município colidem na chave, e o descarte depende de main()",
+      "problema": "§6.5 permite 1 achado por (bloco, município) e §6.6 monta a chave sem número como ioes-<escopo>:<slug>:<diario_id>-<pagina>: dois blocos da mesma página geram a mesma chave, e quem sobrevive depende do conjunto 'vistos' de main().",
+      "correcao": "Dizer em §6.6 que coletar_ioes() deduplica por chave ANTES de devolver, aplicando a ordenação explícita da própria seção, para que o descarte não dependa de main()."
+    }
+  ],
+  "reviewDoc": "/projects/sandbox/Concursos-Publicos-ES/.worktrees/cobertura-municipios/.agents/design-review-doc.md"
+}

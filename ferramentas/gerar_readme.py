@@ -183,21 +183,37 @@ def tabela_historico(encerrados):
     return "\n".join(linhas)
 
 
-def carregar_descobertas():
-    """Achados pendentes da coleta automatica. Lista vazia se nao houver arquivo.
+def carregar_arquivo_descobertas():
+    """Dict bruto de descobertas/descobertas.json, ou {} se ausente/ilegivel.
 
     Nunca falha: a coleta e opcional e o README precisa ser gerado mesmo quando
-    descobertas/ ainda nao existe.
+    descobertas/ ainda nao existe. Diferente de comum.carregar_municipios(),
+    cuja falha e FATAL em main() — o cadastro nao e opcional.
     """
     try:
         with open(CAMINHO_DESCOBERTAS, encoding="utf-8") as fh:
-            dados = json.load(fh)
+            return json.load(fh)
     except (OSError, ValueError):
-        return []
+        return {}
+
+
+def carregar_descobertas(dados=None):
+    """Achados pendentes da coleta automatica. Lista vazia se nao houver arquivo.
+
+    Ato de diario oficial (nomeacao, convocacao, homologacao) NAO entra: a
+    secao "Detectado automaticamente" e a contagem de pendencias do Panorama
+    falam de oportunidade de vaga a conferir, e um ato de nomeacao nunca vira
+    registro curado. Sem este filtro a secao passaria de dezenas para centenas
+    de linhas de rotina diaria.
+    """
+    if dados is None:
+        dados = carregar_arquivo_descobertas()
     return [
         a
         for a in dados.get("achados", [])
-        if not a.get("no_repositorio") and not a.get("ausente_na_fonte")
+        if not a.get("no_repositorio")
+        and not a.get("ausente_na_fonte")
+        and a.get("categoria") != "ato_diario"
     ]
 
 
@@ -258,13 +274,97 @@ def tabela_descobertas(achados):
     return "\n".join(linhas)
 
 
+# Rotulo legivel do tipo de canal. A coluna NAO se chama "Fonte propria": a
+# maioria dos municipios do ES publica pelo agregador (DOM/AMUNES), e esse e o
+# canal correto deles, nao uma falta.
+ROTULOS_CANAL = {
+    "diario_oficial_agregador": "DOM/AMUNES",
+    "diario_oficial_proprio": "Diário próprio",
+    "portal_prefeitura": "Portal da prefeitura",
+    "secao_concursos": "Seção de concursos",
+}
+
+
+def canal_principal(municipio) -> str:
+    """Canal de 'precedencia: 1' do municipio em texto legivel.
+
+    Devolve '—' quando o municipio nao tem canal nenhum — e ai sim e lacuna, a
+    mesma que o validador avisa.
+    """
+    for canal in municipio.get("canais") or []:
+        if canal.get("precedencia") == 1:
+            tipo = canal.get("tipo")
+            return ROTULOS_CANAL.get(tipo, tipo or comum.AUSENTE)
+    return "—"
+
+
+def registros_por_municipio(registros, indice):
+    """{slug: quantos registros de dados/ pertencem ao municipio}.
+
+    Registro de esfera 'intermunicipal' nao credita municipio nenhum: um
+    processo do Consorcio Caparao nao e atividade de Divino de Sao Lourenco. E
+    a mesma regra de coletar.cobertura(), de proposito, para que a coluna do
+    README e o contador 'com_registro_curado' nao possam divergir.
+    """
+    contagem = {}
+    for _caminho, reg in registros:
+        if reg.get("esfera") == "intermunicipal":
+            continue
+        slug_mun, _origem = comum.resolver_municipio(reg.get("municipio"), indice)
+        if slug_mun:
+            contagem[slug_mun] = contagem.get(slug_mun, 0) + 1
+    return contagem
+
+
+def tabela_cobertura(cadastro, registros, indice, cobertura):
+    """Uma linha por municipio do cadastro, dentro de <details>.
+
+    'Ato detectado' vem de cobertura_municipios.slugs_com_achado_acumulado, que
+    e PUBLICADO pelo coletor, e nao derivado dos achados aqui: carregar_descobertas()
+    filtra 'no_repositorio' e 'ausente_na_fonte', e e justamente o ato ANTIGO que
+    carrega o historico — derivar daria uma coluna que esquece o passado no dia
+    seguinte.
+
+    Quando 'cobertura_municipios' esta AUSENTE (o estado deste repositorio antes
+    da primeira coleta com cadastro), a coluna sai '—' nas 78 linhas, enquanto
+    'Registros curados' e 'Canal principal' seguem corretos, porque vem de
+    dados/ e do cadastro, que existem.
+    """
+    municipios = sorted(
+        cadastro.get("municipios") or [], key=lambda m: m.get("slug") or ""
+    )
+    curados = registros_por_municipio(registros, indice)
+    com_ato = set(cobertura.get("slugs_com_achado_acumulado") or [])
+
+    linhas = [
+        "<details>",
+        "<summary>Situação dos %d municípios do Espírito Santo</summary>" % len(municipios),
+        "",
+        "| Município | Registros curados | Ato detectado | Canal principal |",
+        "| --------- | ----------------: | ------------- | --------------- |",
+    ]
+    for municipio in municipios:
+        slug_mun = municipio.get("slug")
+        linhas.append(
+            "| %s | %d | %s | %s |"
+            % (
+                _celula(municipio.get("nome")),
+                curados.get(slug_mun, 0),
+                "✓" if slug_mun in com_ato else "—",
+                _celula(canal_principal(municipio)),
+            )
+        )
+    linhas += ["", "</details>"]
+    return "\n".join(linhas)
+
+
 def _chave_prazo(reg):
     """Ordena por prazo de inscricao, jogando os sem prazo para o fim."""
     fim = comum.data_ou_none(reg.get("inscricoes", {}).get("fim"))
     return (fim is None, fim or comum.hoje(), reg.get("orgao") or "")
 
 
-def monta_bloco(registros, referencia):
+def monta_bloco(registros, referencia, cadastro, indice):
     concursos = [r for _, r in registros if r.get("tipo") == "concurso_publico"]
     seletivos = [r for _, r in registros if r.get("tipo") == "processo_seletivo_simplificado"]
 
@@ -295,7 +395,13 @@ def monta_bloco(registros, referencia):
         r.get("vagas_imediatas_total") or 0
         for r in concursos_abertos + seletivos_abertos
     )
-    descobertas = carregar_descobertas()
+    dados_descobertas = carregar_arquivo_descobertas()
+    descobertas = carregar_descobertas(dados_descobertas)
+    # Chave ausente = bloco vazio, e nao erro: ela so passa a existir na primeira
+    # coleta feita com o cadastro de municipios. Nesse estado os tres numeros do
+    # Panorama saem 0 (nada foi medido ainda) e a coluna "Ato detectado" sai '—',
+    # sem que o bloco deixe de ser deterministico.
+    cobertura = dados_descobertas.get("cobertura_municipios") or {}
 
     partes = [
         INICIO,
@@ -312,6 +418,13 @@ def monta_bloco(registros, referencia):
         "| Concursos previstos / autorizados | %d |" % len(proximos),
         "| Registros históricos (encerrados ou em andamento) | %d |" % len(encerrados),
         "| Descobertas automáticas pendentes de conferência | %d |" % len(descobertas),
+        # Os tres numeros saem de cobertura_municipios, nunca de literal: o dia em
+        # que o ES tiver um 79o municipio, o README acompanha sem alteracao de codigo.
+        "| Municípios do ES monitorados | %d |" % (cobertura.get("total_municipios") or 0),
+        "| Municípios com registro curado | %d |"
+        % (cobertura.get("com_registro_curado") or 0),
+        "| Municípios com ato detectado na janela da coleta | %d |"
+        % (cobertura.get("com_achado_na_janela") or 0),
         "",
         "## Concursos com inscrições abertas",
         "",
@@ -340,6 +453,17 @@ def monta_bloco(registros, referencia):
         "> Detalhes em [`descobertas/`](descobertas/).",
         "",
         tabela_descobertas(descobertas),
+        "",
+        "## Cobertura por município",
+        "",
+        "Situação de cada município do Espírito Santo no monitoramento. `Registros",
+        "curados` conta os registros de [`dados/`](dados/) do município; `Ato detectado`",
+        "diz se algum ato dele já apareceu no diário oficial desde que a coleta passou a",
+        "varrer os 78; `Canal principal` é o canal onde o ato tem fé pública, conforme",
+        "[`fontes/municipios-es.json`](fontes/municipios-es.json). Publicar pelo",
+        "DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.",
+        "",
+        tabela_cobertura(cadastro, registros, indice, cobertura),
         "",
         "_Dados atualizados em %s. Os valores são um resumo: consulte sempre o edital"
         " oficial antes de se inscrever._" % referencia.strftime("%d/%m/%Y"),
@@ -383,8 +507,25 @@ def main() -> int:
     else:
         referencia = comum.hoje()
 
+    # O cadastro de municipios e OBRIGATORIO aqui, e a falha e FATAL, com o
+    # caminho na mensagem: a secao "Cobertura por municipio" nao tem como ser
+    # montada sem ele, e gravar o README sem a secao (ou com ela vazia) faria o
+    # gerador publicar um resumo que afirma menos do que o repositorio sabe.
+    # Diferente de carregar_arquivo_descobertas(), tolerante porque a coleta e
+    # opcional.
+    try:
+        cadastro = comum.carregar_municipios()
+        indice = comum.indice_municipios()
+    except (OSError, ValueError) as exc:
+        print(
+            "ERRO FATAL: nao foi possivel ler o cadastro de municipios (%s): %s"
+            % (comum.CAMINHO_MUNICIPIOS, exc),
+            file=sys.stderr,
+        )
+        return 1
+
     registros = comum.carregar_registros()
-    bloco = monta_bloco(registros, referencia)
+    bloco = monta_bloco(registros, referencia, cadastro, indice)
 
     antes = atual.split(INICIO)[0]
     depois = atual.split(FIM)[1]

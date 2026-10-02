@@ -1,0 +1,2509 @@
+{
+  "descricao": "Cadastro canonico dos municipios do ES e dos canais por onde cada um publica informacao de emprego.",
+  "fonte_da_verdade": "IBGE - Localidades, UF 32 (https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios)",
+  "ibge_consultado_em": "2026-10-01",
+  "total_esperado": 78,
+  "ultima_atualizacao": "2026-10-02",
+  "municipios": [
+    {
+      "codigo_ibge": 3200102,
+      "nome": "Afonso Cláudio",
+      "slug": "afonso-claudio",
+      "aliases": [],
+      "microrregiao": "Afonso Cláudio",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 322 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/322), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.afonsoclaudio.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3200136,
+      "nome": "Águia Branca",
+      "slug": "aguia-branca",
+      "aliases": [],
+      "microrregiao": "Nova Venécia",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-29, edicao 3097, pagina 8 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11510/8), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Águia Branca; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.aguiabranca.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3200169,
+      "nome": "Água Doce do Norte",
+      "slug": "agua-doce-do-norte",
+      "aliases": [],
+      "microrregiao": "Barra de São Francisco",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.aguadocedonorte.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 200",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3200201,
+      "nome": "Alegre",
+      "slug": "alegre",
+      "aliases": [],
+      "microrregiao": "Alegre",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 315 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/315), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.alegre.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 200",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3200300,
+      "nome": "Alfredo Chaves",
+      "slug": "alfredo-chaves",
+      "aliases": [],
+      "microrregiao": "Guarapari",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-30, edicao 3098, pagina 25 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11513/25), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Alfredo Chaves; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.alfredochaves.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 200",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3200359,
+      "nome": "Alto Rio Novo",
+      "slug": "alto-rio-novo",
+      "aliases": [],
+      "microrregiao": "Colatina",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.altorionovo.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 301, sem seguir o redirecionamento",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3200409,
+      "nome": "Anchieta",
+      "slug": "anchieta",
+      "aliases": [],
+      "microrregiao": "Guarapari",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-24, edicao 3094, pagina 27 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11497/27), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Anchieta; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.anchieta.es.gov.br/",
+          "fonte_id": "prefeitura-anchieta",
+          "estado": "pendente",
+          "evidencia": "url catalogada em fontes.json (prefeitura-anchieta); sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3200508,
+      "nome": "Apiacá",
+      "slug": "apiaca",
+      "aliases": [],
+      "microrregiao": "Cachoeiro de Itapemirim",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.apiaca.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 200",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3200607,
+      "nome": "Aracruz",
+      "slug": "aracruz",
+      "aliases": [],
+      "microrregiao": "Linhares",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 315 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/315), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Servico Autonomo de Agua e Esgoto de Aracruz; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.aracruz.es.gov.br/",
+          "fonte_id": "prefeitura-aracruz",
+          "estado": "confirmado",
+          "evidencia": "url catalogada em fontes.json (prefeitura-aracruz); sondagem de 2026-10-01 respondeu HTTP 301, sem seguir o redirecionamento",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3200706,
+      "nome": "Atílio Vivácqua",
+      "slug": "atilio-vivacqua",
+      "aliases": [],
+      "microrregiao": "Cachoeiro de Itapemirim",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3200805,
+      "nome": "Baixo Guandu",
+      "slug": "baixo-guandu",
+      "aliases": [],
+      "microrregiao": "Colatina",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3200904,
+      "nome": "Barra de São Francisco",
+      "slug": "barra-de-sao-francisco",
+      "aliases": [],
+      "microrregiao": "Barra de São Francisco",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3201001,
+      "nome": "Boa Esperança",
+      "slug": "boa-esperanca",
+      "aliases": [],
+      "microrregiao": "Nova Venécia",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-24, edicao 3094, pagina 340 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11497/340), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Boa Esperança; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.boaesperanca.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3201100,
+      "nome": "Bom Jesus do Norte",
+      "slug": "bom-jesus-do-norte",
+      "aliases": [],
+      "microrregiao": "Cachoeiro de Itapemirim",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3201159,
+      "nome": "Brejetuba",
+      "slug": "brejetuba",
+      "aliases": [],
+      "microrregiao": "Afonso Cláudio",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.brejetuba.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3201209,
+      "nome": "Cachoeiro de Itapemirim",
+      "slug": "cachoeiro-de-itapemirim",
+      "aliases": [
+        "Cachoeiro do Itapemirim",
+        "Cachoeiro"
+      ],
+      "microrregiao": "Cachoeiro de Itapemirim",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "secao_concursos",
+          "precedencia": 2,
+          "url": "https://www.cachoeiro.es.gov.br/editais/",
+          "fonte_id": "prefeitura-cachoeiro",
+          "estado": "pendente",
+          "evidencia": "url catalogada em fontes.json (prefeitura-cachoeiro); sondagem de 2026-10-01 deu timeout nas 2 tentativas",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual",
+        "canais:nao_responde"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3201308,
+      "nome": "Cariacica",
+      "slug": "cariacica",
+      "aliases": [],
+      "microrregiao": "Vitória",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.cariacica.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3201407,
+      "nome": "Castelo",
+      "slug": "castelo",
+      "aliases": [],
+      "microrregiao": "Cachoeiro de Itapemirim",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 80 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/80), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Castelo; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "secao_concursos",
+          "precedencia": 2,
+          "url": "https://educacao.castelo.es.gov.br/processos-seletivos",
+          "fonte_id": "prefeitura-castelo",
+          "estado": "confirmado",
+          "evidencia": "url catalogada em fontes.json (prefeitura-castelo); sondagem de 2026-10-01 respondeu HTTP 200",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 3,
+          "url": "https://www.castelo.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3201506,
+      "nome": "Colatina",
+      "slug": "colatina",
+      "aliases": [],
+      "microrregiao": "Colatina",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-24, edicao 3094, pagina 68 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11497/68), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Colatina; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.colatina.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 200",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3201605,
+      "nome": "Conceição da Barra",
+      "slug": "conceicao-da-barra",
+      "aliases": [],
+      "microrregiao": "São Mateus",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-28, edicao 3096, pagina 344 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11508/344), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.conceicaodabarra.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 301, sem seguir o redirecionamento",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3201704,
+      "nome": "Conceição do Castelo",
+      "slug": "conceicao-do-castelo",
+      "aliases": [],
+      "microrregiao": "Afonso Cláudio",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-28, edicao 3096, pagina 344 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11508/344), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.conceicaodocastelo.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3201803,
+      "nome": "Divino de São Lourenço",
+      "slug": "divino-de-sao-lourenco",
+      "aliases": [],
+      "microrregiao": "Alegre",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3201902,
+      "nome": "Domingos Martins",
+      "slug": "domingos-martins",
+      "aliases": [],
+      "microrregiao": "Afonso Cláudio",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 108 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/108), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.domingosmartins.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 302, sem seguir o redirecionamento",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3202009,
+      "nome": "Dores do Rio Preto",
+      "slug": "dores-do-rio-preto",
+      "aliases": [],
+      "microrregiao": "Alegre",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 108 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/108), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Dores do Rio Preto; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3202108,
+      "nome": "Ecoporanga",
+      "slug": "ecoporanga",
+      "aliases": [],
+      "microrregiao": "Barra de São Francisco",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 108 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/108), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Ecoporanga; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.ecoporanga.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 301, sem seguir o redirecionamento",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3202207,
+      "nome": "Fundão",
+      "slug": "fundao",
+      "aliases": [],
+      "microrregiao": "Linhares",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-30, edicao 3098, pagina 190 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11513/190), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Fundão",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.fundao.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3202256,
+      "nome": "Governador Lindenberg",
+      "slug": "governador-lindenberg",
+      "aliases": [],
+      "microrregiao": "Colatina",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.governadorlindenberg.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 301, sem seguir o redirecionamento",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3202306,
+      "nome": "Guaçuí",
+      "slug": "guacui",
+      "aliases": [],
+      "microrregiao": "Alegre",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.guacui.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 302, sem seguir o redirecionamento",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3202405,
+      "nome": "Guarapari",
+      "slug": "guarapari",
+      "aliases": [],
+      "microrregiao": "Guarapari",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 129 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/129), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Guarapari; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.guarapari.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3202454,
+      "nome": "Ibatiba",
+      "slug": "ibatiba",
+      "aliases": [],
+      "microrregiao": "Alegre",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.ibatiba.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3202504,
+      "nome": "Ibiraçu",
+      "slug": "ibiracu",
+      "aliases": [],
+      "microrregiao": "Linhares",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 321 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/321), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.ibiracu.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 200",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3202553,
+      "nome": "Ibitirama",
+      "slug": "ibitirama",
+      "aliases": [],
+      "microrregiao": "Alegre",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.ibitirama.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 302, sem seguir o redirecionamento",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3202603,
+      "nome": "Iconha",
+      "slug": "iconha",
+      "aliases": [],
+      "microrregiao": "Guarapari",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.iconha.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3202652,
+      "nome": "Irupi",
+      "slug": "irupi",
+      "aliases": [],
+      "microrregiao": "Alegre",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.irupi.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 200",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3202702,
+      "nome": "Itaguaçu",
+      "slug": "itaguacu",
+      "aliases": [],
+      "microrregiao": "Santa Teresa",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-29, edicao 3097, pagina 221 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11510/221), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.itaguacu.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 302, sem seguir o redirecionamento",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3202801,
+      "nome": "Itapemirim",
+      "slug": "itapemirim",
+      "aliases": [],
+      "microrregiao": "Itapemirim",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.itapemirim.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 302, sem seguir o redirecionamento",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3202900,
+      "nome": "Itarana",
+      "slug": "itarana",
+      "aliases": [],
+      "microrregiao": "Santa Teresa",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-30, edicao 3098, pagina 268 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11513/268), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Itarana; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.itarana.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 200",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3203007,
+      "nome": "Iúna",
+      "slug": "iuna",
+      "aliases": [],
+      "microrregiao": "Alegre",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.iuna.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 301, sem seguir o redirecionamento",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3203056,
+      "nome": "Jaguaré",
+      "slug": "jaguare",
+      "aliases": [],
+      "microrregiao": "São Mateus",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.jaguare.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3203106,
+      "nome": "Jerônimo Monteiro",
+      "slug": "jeronimo-monteiro",
+      "aliases": [],
+      "microrregiao": "Cachoeiro de Itapemirim",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.jeronimomonteiro.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 302, sem seguir o redirecionamento",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3203130,
+      "nome": "João Neiva",
+      "slug": "joao-neiva",
+      "aliases": [],
+      "microrregiao": "Linhares",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 177 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/177), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de João Neiva",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.joaoneiva.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3203163,
+      "nome": "Laranja da Terra",
+      "slug": "laranja-da-terra",
+      "aliases": [],
+      "microrregiao": "Afonso Cláudio",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-25, edicao 3095, pagina 195 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11503/195), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Laranja da Terra; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.laranjadaterra.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 200",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3203205,
+      "nome": "Linhares",
+      "slug": "linhares",
+      "aliases": [],
+      "microrregiao": "Linhares",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 321 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/321), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.linhares.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 302, sem seguir o redirecionamento",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3203304,
+      "nome": "Mantenópolis",
+      "slug": "mantenopolis",
+      "aliases": [],
+      "microrregiao": "Barra de São Francisco",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.mantenopolis.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 200",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3203320,
+      "nome": "Marataízes",
+      "slug": "marataizes",
+      "aliases": [],
+      "microrregiao": "Itapemirim",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.marataizes.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3203346,
+      "nome": "Marechal Floriano",
+      "slug": "marechal-floriano",
+      "aliases": [],
+      "microrregiao": "Afonso Cláudio",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-29, edicao 3097, pagina 260 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11510/260), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Marechal Floriano; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.marechalfloriano.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 406: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3203353,
+      "nome": "Marilândia",
+      "slug": "marilandia",
+      "aliases": [],
+      "microrregiao": "Colatina",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.marilandia.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3203403,
+      "nome": "Mimoso do Sul",
+      "slug": "mimoso-do-sul",
+      "aliases": [],
+      "microrregiao": "Cachoeiro de Itapemirim",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.mimosodosul.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3203502,
+      "nome": "Montanha",
+      "slug": "montanha",
+      "aliases": [],
+      "microrregiao": "Montanha",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-29, edicao 3097, pagina 260 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11510/260), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.montanha.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 406: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3203601,
+      "nome": "Mucurici",
+      "slug": "mucurici",
+      "aliases": [],
+      "microrregiao": "Montanha",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-24, edicao 3094, pagina 171 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11497/171), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Mucurici; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.mucurici.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 406: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3203700,
+      "nome": "Muniz Freire",
+      "slug": "muniz-freire",
+      "aliases": [],
+      "microrregiao": "Alegre",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.munizfreire.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 302, sem seguir o redirecionamento",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3203809,
+      "nome": "Muqui",
+      "slug": "muqui",
+      "aliases": [],
+      "microrregiao": "Cachoeiro de Itapemirim",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.muqui.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 301, sem seguir o redirecionamento",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3203908,
+      "nome": "Nova Venécia",
+      "slug": "nova-venecia",
+      "aliases": [],
+      "microrregiao": "Nova Venécia",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 203 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/203), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Nova Venécia; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.novavenecia.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 200",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3204005,
+      "nome": "Pancas",
+      "slug": "pancas",
+      "aliases": [],
+      "microrregiao": "Colatina",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-30, edicao 3098, pagina 309 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11513/309), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Pancas; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.pancas.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 302, sem seguir o redirecionamento",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3204054,
+      "nome": "Pedro Canário",
+      "slug": "pedro-canario",
+      "aliases": [],
+      "microrregiao": "São Mateus",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-25, edicao 3095, pagina 244 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11503/244), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.pedrocanario.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3204104,
+      "nome": "Pinheiros",
+      "slug": "pinheiros",
+      "aliases": [],
+      "microrregiao": "Montanha",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.pinheiros.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3204203,
+      "nome": "Piúma",
+      "slug": "piuma",
+      "aliases": [],
+      "microrregiao": "Guarapari",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.piuma.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3204252,
+      "nome": "Ponto Belo",
+      "slug": "ponto-belo",
+      "aliases": [],
+      "microrregiao": "Montanha",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.pontobelo.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 406: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3204302,
+      "nome": "Presidente Kennedy",
+      "slug": "presidente-kennedy",
+      "aliases": [],
+      "microrregiao": "Itapemirim",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 247 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/247), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.presidentekennedy.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 301, sem seguir o redirecionamento",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3204351,
+      "nome": "Rio Bananal",
+      "slug": "rio-bananal",
+      "aliases": [],
+      "microrregiao": "Linhares",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 248 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/248), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Rio Bananal; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.riobananal.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 301, sem seguir o redirecionamento",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3204401,
+      "nome": "Rio Novo do Sul",
+      "slug": "rio-novo-do-sul",
+      "aliases": [],
+      "microrregiao": "Guarapari",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.rionovodosul.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3204500,
+      "nome": "Santa Leopoldina",
+      "slug": "santa-leopoldina",
+      "aliases": [],
+      "microrregiao": "Santa Teresa",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 269 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/269), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Santa Leopoldina",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.santaleopoldina.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 302, sem seguir o redirecionamento",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3204559,
+      "nome": "Santa Maria de Jetibá",
+      "slug": "santa-maria-de-jetiba",
+      "aliases": [],
+      "microrregiao": "Santa Teresa",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 273 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/273), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Santa Maria de Jetibá; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.pmsmj.es.gov.br/",
+          "fonte_id": "prefeitura-santa-maria-jetiba",
+          "estado": "pendente",
+          "evidencia": "url catalogada em fontes.json (prefeitura-santa-maria-jetiba); sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3204609,
+      "nome": "Santa Teresa",
+      "slug": "santa-teresa",
+      "aliases": [],
+      "microrregiao": "Santa Teresa",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 270 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/270), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Santa Teresa; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.santateresa.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 200",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3204658,
+      "nome": "São Domingos do Norte",
+      "slug": "sao-domingos-do-norte",
+      "aliases": [],
+      "microrregiao": "Colatina",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-30, edicao 3098, pagina 485 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11513/485), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de São Domingos do Norte; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.saodomingosdonorte.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3204708,
+      "nome": "São Gabriel da Palha",
+      "slug": "sao-gabriel-da-palha",
+      "aliases": [],
+      "microrregiao": "Nova Venécia",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-25, edicao 3095, pagina 325 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11503/325), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3204807,
+      "nome": "São José do Calçado",
+      "slug": "sao-jose-do-calcado",
+      "aliases": [],
+      "microrregiao": "Cachoeiro de Itapemirim",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-28, edicao 3096, pagina 299 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11508/299), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de São José do Calçado; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3204906,
+      "nome": "São Mateus",
+      "slug": "sao-mateus",
+      "aliases": [],
+      "microrregiao": "São Mateus",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.saomateus.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 200",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3204955,
+      "nome": "São Roque do Canaã",
+      "slug": "sao-roque-do-canaa",
+      "aliases": [],
+      "microrregiao": "Santa Teresa",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-30, edicao 3098, pagina 526 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11513/526), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de São Roque do Canaã; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.saoroquedocanaa.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3205002,
+      "nome": "Serra",
+      "slug": "serra",
+      "aliases": [],
+      "microrregiao": "Vitória",
+      "canais": [
+        {
+          "tipo": "diario_oficial_proprio",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/diariodaserra",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "diario proprio do municipio, hospedado no IOES, confirmado em 2026-10-02: https://ioes.dio.es.gov.br/diariodaserra respondeu HTTP 200 e titula \"Diario Oficial Prefeitura Municipal da Serra / Home Vinculado\", contra \"Diario Oficial DOM - AMUNES\" de /dom. O 200 NAO e de rota curinga: o mesmo host devolveu 404 para /diariodavilavelha, /diariodacariacica, /diariodexyzinexistente e /doe. Uma varredura de 390 caminhos candidatos (5 padroes x os 78 municipios) devolveu 200 para ESTE e somente para este, o que encerra com resultado negativo para os outros 77 a pendencia de \"conferir o seletor inteiro\" de Outros Diarios Oficiais",
+          "verificado_em": "2026-10-02"
+        },
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 2,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-09-29, edicao 3097, pagina 263 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11510/263), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 3,
+          "url": "https://www.serra.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 200",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3205010,
+      "nome": "Sooretama",
+      "slug": "sooretama",
+      "aliases": [],
+      "microrregiao": "Linhares",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 290 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/290), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Sooretama; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.sooretama.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3205036,
+      "nome": "Vargem Alta",
+      "slug": "vargem-alta",
+      "aliases": [],
+      "microrregiao": "Cachoeiro de Itapemirim",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.vargemalta.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3205069,
+      "nome": "Venda Nova do Imigrante",
+      "slug": "venda-nova-do-imigrante",
+      "aliases": [],
+      "microrregiao": "Afonso Cláudio",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 291 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/291), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3205101,
+      "nome": "Viana",
+      "slug": "viana",
+      "aliases": [],
+      "microrregiao": "Vitória",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "confirmado",
+          "evidencia": "nome do municipio em confianca alta (marca institucional adjacente) na pagina do DOM/AMUNES de 2026-10-01, edicao 3099, pagina 294 (https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/294), devolvida pela busca do IOES por \"concurso publico\" e \"processo seletivo\" na janela de 7 dias (di: 2026-09-24); ato atribuido a Prefeitura de Viana; numero de edital no mesmo bloco de ato",
+          "verificado_em": "2026-10-01"
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.viana.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3205150,
+      "nome": "Vila Pavão",
+      "slug": "vila-pavao",
+      "aliases": [],
+      "microrregiao": "Nova Venécia",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.vilapavao.es.gov.br/",
+          "fonte_id": null,
+          "estado": "pendente",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 403: o host existe e responde, mas bloqueia robo",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3205176,
+      "nome": "Vila Valério",
+      "slug": "vila-valerio",
+      "aliases": [],
+      "microrregiao": "Nova Venécia",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.vilavalerio.es.gov.br/",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "candidato derivado do slug; sondagem de 2026-10-01 respondeu HTTP 200",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3205200,
+      "nome": "Vila Velha",
+      "slug": "vila-velha",
+      "aliases": [],
+      "microrregiao": "Vitória",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.vilavelha.es.gov.br/",
+          "fonte_id": "prefeitura-vila-velha",
+          "estado": "pendente",
+          "evidencia": "url catalogada em fontes.json (prefeitura-vila-velha); sondagem de 2026-10-01 deu timeout nas 2 tentativas",
+          "verificado_em": null
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual",
+        "canais:nao_responde"
+      ],
+      "verificado_em": "2026-10-01"
+    },
+    {
+      "codigo_ibge": 3205309,
+      "nome": "Vitória",
+      "slug": "vitoria",
+      "aliases": [],
+      "microrregiao": "Vitória",
+      "canais": [
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/dom",
+          "fonte_id": "amunes-dom",
+          "estado": "pendente",
+          "evidencia": "canal esperado do municipio (DOM/AMUNES); sem ato observado nesta curadoria",
+          "verificado_em": null
+        },
+        {
+          "tipo": "portal_prefeitura",
+          "precedencia": 2,
+          "url": "https://www.vitoria.es.gov.br/",
+          "fonte_id": "prefeitura-vitoria",
+          "estado": "confirmado",
+          "evidencia": "url catalogada em fontes.json (prefeitura-vitoria); sondagem de 2026-10-01 respondeu HTTP 200",
+          "verificado_em": "2026-10-01"
+        }
+      ],
+      "pendencias_verificacao": [
+        "canais:conferir_manual"
+      ],
+      "verificado_em": "2026-10-01"
+    }
+  ],
+  "orgaos_vinculados": [
+    {
+      "id": "camara-aracruz",
+      "nome": "Camara Municipal de Aracruz",
+      "aliases": [],
+      "sigla": null,
+      "natureza": "camara_municipal",
+      "esfera": "municipal",
+      "municipios_slugs": [
+        "aracruz"
+      ],
+      "url": "https://www.aracruz.es.leg.br/transparencia/concurso-publico",
+      "fontes": [
+        "camara-aracruz"
+      ],
+      "evidencia": "url catalogada como fonte 'camara-aracruz' em fontes/fontes.json e re-sondada em 2026-10-02: https://www.aracruz.es.leg.br/transparencia/concurso-publico respondeu HTTP 200; jurisdicao de camara municipal e o proprio municipio, por definicao da natureza",
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-02"
+    },
+    {
+      "id": "camara-cachoeiro-itapemirim",
+      "nome": "Camara Municipal de Cachoeiro de Itapemirim",
+      "aliases": [],
+      "sigla": null,
+      "natureza": "camara_municipal",
+      "esfera": "municipal",
+      "municipios_slugs": [
+        "cachoeiro-de-itapemirim"
+      ],
+      "url": "https://www.cachoeirodeitapemirim.es.leg.br/",
+      "fontes": [],
+      "evidencia": "dominio institucional do legislativo localizado em 2026-10-02: https://www.cachoeirodeitapemirim.es.leg.br/ respondeu HTTP 200 e titula 'CAMARA MUNICIPAL DE CACHOEIRO DE ITAPEMIRIM', seguindo o mesmo padrao .es.leg.br da camara de Aracruz; NAO ha pagina dedicada de concurso: /transparencia/concurso-publico, /transparencia/concursos-publicos e /transparencia/concurso responderam 404, e /transparencia respondeu 200 — por isso a url registrada e a raiz institucional e nao uma secao de concursos inventada",
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-02"
+    },
+    {
+      "id": "saae-aracruz",
+      "nome": "Servico Autonomo de Agua e Esgoto de Aracruz",
+      "aliases": [],
+      "sigla": "SAAE",
+      "natureza": "autarquia_municipal",
+      "esfera": "municipal",
+      "municipios_slugs": [
+        "aracruz"
+      ],
+      "url": "https://www.saaeara.es.gov.br/institucional/recursos-humanos/concursos-publicos",
+      "fontes": [],
+      "evidencia": "autarquia tem portal proprio, localizado em 2026-10-02: https://www.saaeara.es.gov.br/ respondeu HTTP 200 e a pagina de concursos https://www.saaeara.es.gov.br/institucional/recursos-humanos/concursos-publicos tambem respondeu HTTP 200 trazendo o Edital 001/2024 de concurso publico do proprio SAAE; registrada a pagina de concursos porque o eixo do cadastro e o canal de publicacao de informacao de emprego",
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-02"
+    },
+    {
+      "id": "codeg-guarapari",
+      "nome": "Companhia de Melhoramentos e Desenvolvimento Urbano de Guarapari",
+      "aliases": [
+        "Companhia de Desenvolvimento de Guarapari"
+      ],
+      "sigla": "CODEG",
+      "natureza": "empresa_municipal",
+      "esfera": "municipal",
+      "municipios_slugs": [
+        "guarapari"
+      ],
+      "url": "https://codeg.guarapari.es.gov.br/",
+      "fontes": [],
+      "evidencia": "portal proprio localizado em 2026-10-02 sob o dominio da prefeitura: https://codeg.guarapari.es.gov.br/ respondeu HTTP 403 (bloqueio de robo, nao ausencia) e paginas internas do mesmo host estao indexadas publicamente (/transparencia/licitacao/, /pagina/ler/1145/sobre-o-codeg), o que atesta o host como portal da empresa; a mesma leitura corrigiu o NOME: o orgao se identifica como 'Companhia de Melhoramentos e Desenvolvimento Urbano de Guarapari', e nao 'Companhia de Desenvolvimento de Guarapari'. Isso atende a pendencia escrita no proprio registro concurso-codeg-guarapari-es-2026 ('localizar a pagina oficial da CODEG'). 'url:conferir_manual' segue declarada por causa do 403",
+      "pendencias_verificacao": [
+        "url:conferir_manual"
+      ],
+      "verificado_em": "2026-10-02"
+    },
+    {
+      "id": "ipc-cariacica",
+      "nome": "Instituto de Previdencia dos Servidores Publicos do Municipio de Cariacica",
+      "aliases": [
+        "Instituto de Previdencia dos Servidores de Cariacica"
+      ],
+      "sigla": "IPC",
+      "natureza": "autarquia_municipal",
+      "esfera": "municipal",
+      "municipios_slugs": [
+        "cariacica"
+      ],
+      "url": "https://www.cariacica.es.gov.br/pagina/ler/346/quem-somos-ipc",
+      "fontes": [],
+      "evidencia": "o instituto NAO tem dominio proprio: ipc.cariacica.es.gov.br nao resolve em DNS (2026-10-02), e a pagina institucional dele vive sob o portal da prefeitura, em https://www.cariacica.es.gov.br/pagina/ler/346/quem-somos-ipc, cuja existencia esta atestada por indexacao publica; www.cariacica.es.gov.br respondeu HTTP 403 na sondagem do mesmo dia, entao 'url:conferir_manual' segue declarada. O NOME foi alinhado ao que a propria prefeitura publica e ao que o registro ps-cariacica-es-ipc-previdenciario-2026 ja usava: 'Instituto de Previdencia dos Servidores Publicos do Municipio de Cariacica'",
+      "pendencias_verificacao": [
+        "url:conferir_manual"
+      ],
+      "verificado_em": "2026-10-02"
+    },
+    {
+      "id": "cim-polinorte",
+      "nome": "Consorcio Publico da Regiao Polinorte",
+      "aliases": [],
+      "sigla": "CIM Polinorte",
+      "natureza": "consorcio_intermunicipal",
+      "esfera": "intermunicipal",
+      "municipios_slugs": [
+        "alegre",
+        "aracruz",
+        "cariacica",
+        "fundao",
+        "ibiracu",
+        "joao-neiva",
+        "linhares",
+        "rio-bananal",
+        "santa-leopoldina",
+        "santa-teresa",
+        "sao-roque-do-canaa",
+        "sooretama",
+        "viana"
+      ],
+      "url": "https://www.cimpolinorte.es.gov.br/",
+      "fontes": [],
+      "evidencia": "composicao de 13 municipios lida na pagina institucional do proprio consorcio em 2026-10-02 (https://www.cimpolinorte.es.gov.br/pagina/3/consorciados, HTTP 200), e conferida de forma independente contra a pagina de consorcios publicos da AMUNES (https://www.amunes.org.br/pagina/14/consorcios), que lista os MESMOS 13 para 'CONSORCIO PUBLICO DA REGIAO POLINORTE - CIM POLINORTE', sede Ibiracu; url do consorcio respondeu HTTP 200 na sondagem do mesmo dia",
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-02"
+    },
+    {
+      "id": "consorcio-caparao",
+      "nome": "Consorcio Publico da Regiao do Caparao",
+      "aliases": [
+        "Consorcio Publico Intermunicipal de Desenvolvimento Sustentavel do Territorio do Caparao Capixaba",
+        "Consorcio Caparao"
+      ],
+      "sigla": "CIM Caparao",
+      "natureza": "consorcio_intermunicipal",
+      "esfera": "intermunicipal",
+      "municipios_slugs": [
+        "alegre",
+        "apiaca",
+        "bom-jesus-do-norte",
+        "divino-de-sao-lourenco",
+        "dores-do-rio-preto",
+        "guacui",
+        "ibatiba",
+        "ibitirama",
+        "irupi",
+        "iuna",
+        "jeronimo-monteiro",
+        "muniz-freire",
+        "sao-jose-do-calcado"
+      ],
+      "url": "https://consorciocaparao.es.gov.br/",
+      "fontes": [],
+      "evidencia": "composicao de 13 municipios lida na pagina de consorcios publicos da AMUNES em 2026-10-02 (https://www.amunes.org.br/pagina/14/consorcios), verbete 'CONSORCIO PUBLICO DO CAPARAO - CIM CAPARAO', sede Divino de Sao Lourenco; a identidade com o nome formal do registro ps-consorcio-caparao-es-2026 ('Consorcio Publico Intermunicipal de Desenvolvimento Sustentavel do Territorio do Caparao Capixaba') foi confirmada pela coincidencia de sede e endereco (Polo de Educacao Ambiental do Caparao, Patrimonio da Penha, Divino de Sao Lourenco) com a imprensa especializada que cobriu o certame; url https://consorciocaparao.es.gov.br/ respondeu HTTP 403 em 2026-10-02 (host existe e serve o portal, mas bloqueia robo), por isso 'url:conferir_manual' segue declarada",
+      "pendencias_verificacao": [
+        "url:conferir_manual"
+      ],
+      "verificado_em": "2026-10-02"
+    },
+    {
+      "id": "aries",
+      "nome": "Agencia Reguladora Intermunicipal de Saneamento Basico do ES",
+      "aliases": [],
+      "sigla": "ARIES",
+      "natureza": "agencia_reguladora",
+      "esfera": "intermunicipal",
+      "municipios_slugs": [
+        "alegre",
+        "alfredo-chaves",
+        "baixo-guandu",
+        "governador-lindenberg",
+        "ibiracu",
+        "iconha",
+        "itaguacu",
+        "itapemirim",
+        "itarana",
+        "jaguare",
+        "jeronimo-monteiro",
+        "joao-neiva",
+        "linhares",
+        "mimoso-do-sul",
+        "presidente-kennedy",
+        "rio-bananal",
+        "santa-leopoldina",
+        "vargem-alta"
+      ],
+      "url": "https://aries.agr.br/",
+      "fontes": [],
+      "evidencia": "composicao de 18 municipios lida na pagina 'Municipios Consorciados' do proprio site da agencia em 2026-10-02 (https://aries.agr.br/municipios/municipios-consorciados, HTTP 200); a lista NAO foi copiada da do CISABES, que e entidade distinta e tem composicao diferente na mesma pagina da AMUNES; https://aries.agr.br/ respondeu HTTP 200 no mesmo dia",
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-02"
+    }
+  ]
+}

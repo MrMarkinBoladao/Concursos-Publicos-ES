@@ -44,7 +44,15 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-aries-es-analista-fiscalizacao-001-2026",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-23"
+      "primeira_deteccao": "2026-09-23",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "indeterminado",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "concursosnobrasil-es:concurso-cref-22a-regiao-es-anuncia-edital-para-profissionais-de-nivel-superior",
@@ -68,7 +76,15 @@
       "no_repositorio": true,
       "registro_repositorio": "concurso-cref22-es-administrativo-2026",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-23"
+      "primeira_deteccao": "2026-09-23",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "indeterminado",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "concursosnobrasil-es:concurso-crf-es-anuncia-vaga-em-novo-edital-de-concurso-publico",
@@ -92,7 +108,15 @@
       "no_repositorio": true,
       "registro_repositorio": "concurso-crf-es-advogado-2026",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-23"
+      "primeira_deteccao": "2026-09-23",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "indeterminado",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "concursosnobrasil-es:pm-es-esta-com-dois-novos-editais-abertos-para-nivel-tecnico",
@@ -116,7 +140,15 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-10-01"
+      "primeira_deteccao": "2026-10-01",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "indeterminado",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "concursosnobrasil-es:prefeitura-de-afonso-claudio-es-divulga-selecao-para-merendeira",
@@ -141,7 +173,15 @@
       "registro_repositorio": "ps-afonso-claudio-es-merendeira-001-2026",
       "ultima_deteccao": "2026-09-28",
       "primeira_deteccao": "2026-09-25",
-      "ausente_na_fonte": true
+      "ausente_na_fonte": true,
+      "categoria": "oportunidade",
+      "municipio_slug": "afonso-claudio",
+      "municipio_codigo_ibge": 3200102,
+      "municipio_confianca": "baixa",
+      "municipio_origem": "nome",
+      "municipio_escopo": "municipal",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "concursosnobrasil-es:concurso-prefeitura-de-anchieta-es-promove-vagas-de-ate-r-86-mil-mensais",
@@ -165,7 +205,15 @@
       "no_repositorio": true,
       "registro_repositorio": "concurso-anchieta-es-professor-2026",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-23"
+      "primeira_deteccao": "2026-09-23",
+      "categoria": "oportunidade",
+      "municipio_slug": "anchieta",
+      "municipio_codigo_ibge": 3200409,
+      "municipio_confianca": "baixa",
+      "municipio_origem": "nome",
+      "municipio_escopo": "municipal",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "concursosnobrasil-es:prefeitura-de-fundao-es-abre-vagas-em-novo-edital-de-seletivo",
@@ -189,7 +237,15 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-fundao-es-semad-002-2026",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-10-01"
+      "primeira_deteccao": "2026-10-01",
+      "categoria": "oportunidade",
+      "municipio_slug": "fundao",
+      "municipio_codigo_ibge": 3202207,
+      "municipio_confianca": "baixa",
+      "municipio_origem": "nome",
+      "municipio_escopo": "municipal",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "concursosnobrasil-es:prefeitura-de-ibiracu-es-abre-edital-de-seletivo-com-salarios-de-ate-r-54-mil",
@@ -214,7 +270,15 @@
       "registro_repositorio": "ps-ibiracu-es-seme-014-2026",
       "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-23",
-      "ausente_na_fonte": true
+      "ausente_na_fonte": true,
+      "categoria": "oportunidade",
+      "municipio_slug": "ibiracu",
+      "municipio_codigo_ibge": 3202504,
+      "municipio_confianca": "baixa",
+      "municipio_origem": "nome",
+      "municipio_escopo": "municipal",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "concursosnobrasil-es:prefeitura-de-joao-neiva-es-promove-selecao-para-profissionais-da-saude",
@@ -238,7 +302,15 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-28"
+      "primeira_deteccao": "2026-09-28",
+      "categoria": "oportunidade",
+      "municipio_slug": "joao-neiva",
+      "municipio_codigo_ibge": 3203130,
+      "municipio_confianca": "baixa",
+      "municipio_origem": "nome",
+      "municipio_escopo": "municipal",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "concursosnobrasil-es:es-prefeitura-de-joao-neiva-divulga-edital-com-vagas-de-ate-r-43-mil",
@@ -262,7 +334,15 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-30"
+      "primeira_deteccao": "2026-09-30",
+      "categoria": "oportunidade",
+      "municipio_slug": "joao-neiva",
+      "municipio_codigo_ibge": 3203130,
+      "municipio_confianca": "baixa",
+      "municipio_origem": "nome",
+      "municipio_escopo": "municipal",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "concursosnobrasil-es:prefeitura-de-santa-maria-de-jetiba-es-abre-concurso-para-guarda-civil-municipal",
@@ -286,7 +366,15 @@
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-23"
+      "primeira_deteccao": "2026-09-23",
+      "categoria": "oportunidade",
+      "municipio_slug": "santa-maria-de-jetiba",
+      "municipio_codigo_ibge": 3204559,
+      "municipio_confianca": "baixa",
+      "municipio_origem": "nome",
+      "municipio_escopo": "municipal",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "concursosnobrasil-es:prefeitura-de-santa-teresa-es-divulga-editais-de-processo-seletivo",
@@ -311,7 +399,15 @@
       "registro_repositorio": "ps-santa-teresa-es-magisterio-007-008-2026",
       "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-23",
-      "ausente_na_fonte": true
+      "ausente_na_fonte": true,
+      "categoria": "oportunidade",
+      "municipio_slug": "santa-teresa",
+      "municipio_codigo_ibge": 3204609,
+      "municipio_confianca": "baixa",
+      "municipio_origem": "nome",
+      "municipio_escopo": "municipal",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "concursosnobrasil-es:prefeitura-de-sao-gabriel-da-palha-es-abre-vagas-na-area-da-educacao",
@@ -335,7 +431,15 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-sao-gabriel-da-palha-es-seme-05-2026",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-25"
+      "primeira_deteccao": "2026-09-25",
+      "categoria": "oportunidade",
+      "municipio_slug": "sao-gabriel-da-palha",
+      "municipio_codigo_ibge": 3204708,
+      "municipio_confianca": "baixa",
+      "municipio_origem": "nome",
+      "municipio_escopo": "municipal",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "concursosnobrasil-es:edital-prefeitura-de-vitoria-es-oferta-25-vagas-para-guarda-vidas",
@@ -359,7 +463,15 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-samu-es-condutor-socorrista-2026",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-28"
+      "primeira_deteccao": "2026-09-28",
+      "categoria": "oportunidade",
+      "municipio_slug": "vitoria",
+      "municipio_codigo_ibge": 3205309,
+      "municipio_confianca": "baixa",
+      "municipio_origem": "nome",
+      "municipio_escopo": "municipal",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "concursosnobrasil-es:prefeitura-de-vitoria-es-anuncia-vagas-de-ate-r-88-mil-em-seletivo",
@@ -383,7 +495,15 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-samu-es-condutor-socorrista-2026",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-29"
+      "primeira_deteccao": "2026-09-29",
+      "categoria": "oportunidade",
+      "municipio_slug": "vitoria",
+      "municipio_codigo_ibge": 3205309,
+      "municipio_confianca": "baixa",
+      "municipio_origem": "nome",
+      "municipio_escopo": "municipal",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "concursosnobrasil-es:prefeitura-de-vitoria-es-publica-editais-para-a-educacao-com-335-vagas",
@@ -408,7 +528,15 @@
       "registro_repositorio": "ps-vitoria-es-professor-educacao-basica-022-2026",
       "ultima_deteccao": "2026-09-27",
       "primeira_deteccao": "2026-09-23",
-      "ausente_na_fonte": true
+      "ausente_na_fonte": true,
+      "categoria": "oportunidade",
+      "municipio_slug": "vitoria",
+      "municipio_codigo_ibge": 3205309,
+      "municipio_confianca": "baixa",
+      "municipio_origem": "nome",
+      "municipio_escopo": "municipal",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "concursosnobrasil-es:semtac-de-guarapari-es-promove-seletivo-para-niveis-fundamental-e-medio",
@@ -432,7 +560,15 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-guarapari-es-semtac-002-2026",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-25"
+      "primeira_deteccao": "2026-09-25",
+      "categoria": "oportunidade",
+      "municipio_slug": "guarapari",
+      "municipio_codigo_ibge": 3202405,
+      "municipio_confianca": "baixa",
+      "municipio_origem": "nome",
+      "municipio_escopo": "municipal",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "concursosnobrasil-es:processo-seletivo-sesa-es-abre-quatro-editais-com-salarios-de-ate-r-126-mil",
@@ -456,7 +592,15 @@
       "no_repositorio": true,
       "registro_repositorio": "concurso-sesa-es-2026",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-30"
+      "primeira_deteccao": "2026-09-30",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "indeterminado",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "selecao-es:5db44a7f-5d7a-4d75-953d-b5880ed2dedf",
@@ -478,7 +622,15 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-sesm-es-tecnico-superior-01-2026",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-23"
+      "primeira_deteccao": "2026-09-23",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "estadual",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "selecao-es:31ecf819-cee1-4b39-92f9-8d2d4d94d517",
@@ -500,7 +652,15 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-pmes-es-medico-psiquiatra-002-2026",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-23"
+      "primeira_deteccao": "2026-09-23",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "estadual",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "selecao-es:c3c96fb9-7a5d-4748-8e58-7059ead9a6f3",
@@ -522,7 +682,15 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-professores-habilitados-24-2026",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-23"
+      "primeira_deteccao": "2026-09-23",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "estadual",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "selecao-es:6301e86a-9ec3-4462-b6fa-9e6e42c6a970",
@@ -544,7 +712,15 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-tjes-es-tic-01-2026",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-23"
+      "primeira_deteccao": "2026-09-23",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "estadual",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "selecao-es:0323e48a-a50e-4b55-9f94-b7cd807fc8fe",
@@ -566,7 +742,15 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-apoio-escolar-cuidador-28-2026",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-23"
+      "primeira_deteccao": "2026-09-23",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "estadual",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "selecao-es:89ddd78b-d37d-49dc-831e-4dbb6b3c3033",
@@ -588,7 +772,15 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-professores-tecnica-29-2026",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-23"
+      "primeira_deteccao": "2026-09-23",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "estadual",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "selecao-es:8e16fcd1-5849-4d79-a699-9a998286fc78",
@@ -610,7 +802,15 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-professores-nao-habilitados-30-2026",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-23"
+      "primeira_deteccao": "2026-09-23",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "estadual",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "selecao-es:1b15c045-9e73-45f6-9321-472c330f48bd",
@@ -632,7 +832,15 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-casf-47-2025",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-23"
+      "primeira_deteccao": "2026-09-23",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "estadual",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "selecao-es:09917c37-ee9e-492c-8d02-69e8b930badf",
@@ -654,7 +862,15 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-coordenador-pedagogico-32-2025",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-23"
+      "primeira_deteccao": "2026-09-23",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "estadual",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "selecao-es:a38fea36-ad2d-4b51-8944-ef31e99a50ab",
@@ -676,7 +892,15 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-diretor-escolar-33-2025",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-23"
+      "primeira_deteccao": "2026-09-23",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "estadual",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "selecao-es:79332759-9ae2-4609-9dc0-4dc030d4e281",
@@ -698,7 +922,15 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-28"
+      "primeira_deteccao": "2026-09-28",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "estadual",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "selecao-es:0750eabe-ff43-4e7b-ba09-59db56c54864",
@@ -720,7 +952,15 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-serra-es-sesa-007-2026",
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-28"
+      "primeira_deteccao": "2026-09-28",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "estadual",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "selecao-es:bee0d13a-1da9-4f10-abfd-728072e561a0",
@@ -742,7 +982,15 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-28"
+      "primeira_deteccao": "2026-09-28",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "estadual",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "selecao-es:4f9a54a9-49b8-482e-9fc5-87a1f6b784fa",
@@ -764,7 +1012,15 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-28"
+      "primeira_deteccao": "2026-09-28",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "estadual",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "selecao-es:2bb038a7-dabc-4c6b-b945-7f5e69fd2c12",
@@ -786,7 +1042,15 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-29"
+      "primeira_deteccao": "2026-09-29",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "estadual",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "selecao-es:c3e686b5-cb0e-4a8a-ab96-53eba3d14342",
@@ -809,7 +1073,15 @@
       "registro_repositorio": null,
       "ultima_deteccao": "2026-09-30",
       "primeira_deteccao": "2026-09-30",
-      "ausente_na_fonte": true
+      "ausente_na_fonte": true,
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "estadual",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "selecao-es:f8566f9a-c3ea-4a2d-89b3-86aaf6af7d9f",
@@ -831,7 +1103,15 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-28"
+      "primeira_deteccao": "2026-09-28",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "estadual",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "selecao-es:31de726e-d5e8-41a1-a584-aee968b53f1f",
@@ -853,7 +1133,15 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-28"
+      "primeira_deteccao": "2026-09-28",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "estadual",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     },
     {
       "chave": "selecao-es:b372b0fa-7926-46df-8e7b-a7de193adcdf",
@@ -875,7 +1163,15 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-01",
-      "primeira_deteccao": "2026-09-28"
+      "primeira_deteccao": "2026-09-28",
+      "categoria": "oportunidade",
+      "municipio_slug": null,
+      "municipio_codigo_ibge": null,
+      "municipio_confianca": null,
+      "municipio_origem": null,
+      "municipio_escopo": "estadual",
+      "orgao_vinculado_id": null,
+      "conteudo_truncado": false
     }
   ]
 }

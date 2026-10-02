@@ -62,31 +62,45 @@ def impressao_digital(reg) -> str:
 
 
 def carregar_estado():
-    """Devolve (impressoes dos registros, chaves de achados ja anunciados)."""
+    """Devolve (impressoes, descobertas, cobertura_vistos).
+
+    Estado antigo sem a chave 'cobertura_vistos' e lido como {}, para que um
+    arquivo de versao anterior continue legivel em vez de ser tratado como
+    primeira execucao — que reanunciaria tudo.
+    """
     if not os.path.exists(CAMINHO_ESTADO):
-        return {}, {}
+        return {}, {}, {}
     try:
         with open(CAMINHO_ESTADO, encoding="utf-8") as fh:
             estado = json.load(fh)
     except (json.JSONDecodeError, OSError):
         # Estado corrompido: trata como primeira execucao em vez de falhar.
-        return {}, {}
-    return estado.get("impressoes", {}), estado.get("descobertas", {})
+        return {}, {}, {}
+    return (
+        estado.get("impressoes", {}),
+        estado.get("descobertas", {}),
+        estado.get("cobertura_vistos", {}),
+    )
 
 
-def gravar_estado(impressoes, descobertas, referencia):
+def gravar_estado(impressoes, descobertas, cobertura_vistos, referencia):
     os.makedirs(DIR_EMAIL, exist_ok=True)
     with open(CAMINHO_ESTADO, "w", encoding="utf-8") as fh:
         json.dump(
             {
                 "descricao": (
-                    "Impressoes digitais das oportunidades e chaves dos achados da "
-                    "coleta no ultimo resumo enviado. Usado para nao reenviar "
-                    "informacao identica. Nao contem dados sensiveis nem credenciais."
+                    "Impressoes digitais das oportunidades, chaves dos achados da "
+                    "coleta e municipios cujo primeiro ato ja foi anunciado no "
+                    "ultimo resumo enviado. Usado para nao reenviar informacao "
+                    "identica. Nao contem dados sensiveis nem credenciais."
                 ),
                 "ultima_geracao": referencia.isoformat(),
                 "impressoes": impressoes,
                 "descobertas": descobertas,
+                # {slug: data do primeiro anuncio}, e nao lista: com a data e
+                # possivel expirar a marca mais tarde sem perder a informacao de
+                # QUANDO o municipio foi anunciado.
+                "cobertura_vistos": cobertura_vistos,
             },
             fh,
             ensure_ascii=False,
@@ -96,15 +110,15 @@ def gravar_estado(impressoes, descobertas, referencia):
         fh.write("\n")
 
 
-def carregar_descobertas():
-    """Achados da coleta automatica. Lista vazia se o arquivo nao existir."""
+def carregar_arquivo_descobertas():
+    """Dict bruto da coleta automatica. {} se o arquivo nao existir ou falhar."""
     if not os.path.exists(CAMINHO_DESCOBERTAS):
-        return []
+        return {}
     try:
         with open(CAMINHO_DESCOBERTAS, encoding="utf-8") as fh:
-            return json.load(fh).get("achados") or []
+            return json.load(fh)
     except (json.JSONDecodeError, OSError):
-        return []
+        return {}
 
 
 def classificar_descobertas(achados, referencia, conhecidas, forcar):
@@ -118,6 +132,12 @@ def classificar_descobertas(achados, referencia, conhecidas, forcar):
     novos = []
     estado = {}
     for achado in achados:
+        if achado.get("categoria") == "ato_diario":
+            # Ato de diario (nomeacao, convocacao, homologacao) nao e vaga nova:
+            # anuncia-lo aqui transformaria o resumo diario em espelho do diario
+            # oficial. A cobertura que ele produz aparece no bloco curto de
+            # cobertura, e o detalhe fica em descobertas/descobertas.json.
+            continue
         if achado.get("no_repositorio"):
             # Ja existe registro curado: o alerta sai pelo registro, nao aqui.
             continue
@@ -139,6 +159,53 @@ def classificar_descobertas(achados, referencia, conhecidas, forcar):
 
     novos.sort(key=lambda a: (a.get("primeira_deteccao") or "", a.get("orgao") or ""))
     return novos, estado
+
+
+def classificar_cobertura(dados, vistos, forcar, referencia):
+    """Separa o que o bloco de cobertura tem a anunciar e atualiza o estado.
+
+    Devolve (slugs a anunciar, quantos municipios citados sem mapeamento,
+    cobertura_vistos atualizado). O estado existe por um motivo concreto: o
+    coletor mantem 'vistos_pela_primeira_vez' calculado contra o historico dele,
+    e sem marcar aqui o que ja foi anunciado o resumo repetiria "primeiro ato
+    detectado em Sooretama" a cada execucao.
+
+    Chave ausente no arquivo = nada a anunciar, sem quebrar: 'cobertura_municipios'
+    so passa a existir na primeira coleta feita com o cadastro de municipios.
+    """
+    cobertura = dados.get("cobertura_municipios") or {}
+    estado = dict(vistos)
+    anunciar = []
+    for slug_mun in cobertura.get("vistos_pela_primeira_vez") or []:
+        if slug_mun in vistos and not forcar:
+            continue
+        anunciar.append(slug_mun)
+        # Preserva a data do primeiro anuncio em --forcar: o que se reanuncia e
+        # a noticia, nao a data em que ela foi dada pela primeira vez.
+        estado[slug_mun] = vistos.get(slug_mun) or referencia.isoformat()
+    return anunciar, len(dados.get("municipios_nao_mapeados") or []), estado
+
+
+def _linhas_cobertura(slugs, nomes, nao_mapeados):
+    """Bloco curto de cobertura. Lista vazia quando nao houver conteudo.
+
+    Curto de proposito: o detalhe por municipio vive no README e na issue da
+    coleta, e repetir 78 linhas num e-mail diario esconderia o que importa.
+    """
+    linhas = []
+    if slugs:
+        linhas.append(
+            "**Cobertura** — primeiro ato detectado em: %s."
+            % ", ".join(nomes.get(s, s) for s in slugs)
+        )
+    if nao_mapeados:
+        if linhas:
+            linhas.append("")
+        linhas.append(
+            "Municípios citados sem mapeamento no cadastro: %d (ver a issue da coleta)."
+            % nao_mapeados
+        )
+    return linhas
 
 
 def _item_descoberta(achado):
@@ -302,8 +369,9 @@ def classificar(registros, referencia, conhecidas, forcar):
     return secoes, impressoes, novidades
 
 
-def monta_email(secoes, referencia, total_registros, achados=None):
+def monta_email(secoes, referencia, total_registros, achados=None, cobertura=None):
     achados = achados or []
+    cobertura = cobertura or []
     # Os titulos nao levam numero fixo: a numeracao e aplicada na montagem, so
     # para as secoes que tiverem conteudo.
     ordem = [
@@ -385,6 +453,12 @@ def monta_email(secoes, referencia, total_registros, achados=None):
             partes.append(_item_descoberta(achado))
         partes.append("")
 
+    # Sem titulo numerado: sao duas linhas de contexto da cobertura municipal, e
+    # nao uma secao de oportunidades. Entram so quando ha o que dizer.
+    if cobertura:
+        partes += cobertura
+        partes.append("")
+
     partes += [
         "---",
         "",
@@ -406,14 +480,38 @@ def main() -> int:
     args = parser.parse_args()
 
     referencia = comum.hoje()
+
+    # Cadastro obrigatorio, falha FATAL com o caminho na mensagem: o bloco de
+    # cobertura cita municipio por NOME, e anunciar "primeiro ato detectado em
+    # sooretama" (slug cru) seria pior que nao anunciar. Diferente de
+    # carregar_arquivo_descobertas(), tolerante porque a coleta e opcional.
+    try:
+        indice = comum.indice_municipios()
+    except (OSError, ValueError) as exc:
+        print(
+            "ERRO FATAL: nao foi possivel ler o cadastro de municipios (%s): %s"
+            % (comum.CAMINHO_MUNICIPIOS, exc),
+            file=sys.stderr,
+        )
+        return 1
+
     registros = comum.carregar_registros()
-    conhecidas, descobertas_conhecidas = carregar_estado()
+    conhecidas, descobertas_conhecidas, cobertura_vista = carregar_estado()
     if args.forcar:
         conhecidas = {}
 
     secoes, impressoes, novidades = classificar(registros, referencia, conhecidas, args.forcar)
+    dados_coleta = carregar_arquivo_descobertas()
     achados_novos, estado_descobertas = classificar_descobertas(
-        carregar_descobertas(), referencia, descobertas_conhecidas, args.forcar
+        dados_coleta.get("achados") or [], referencia, descobertas_conhecidas, args.forcar
+    )
+    slugs_cobertura, nao_mapeados, estado_cobertura = classificar_cobertura(
+        dados_coleta, cobertura_vista, args.forcar, referencia
+    )
+    linhas_cobertura = _linhas_cobertura(
+        slugs_cobertura,
+        {s: entrada.get("nome") for s, entrada in indice.por_slug.items()},
+        nao_mapeados,
     )
 
     if novidades == 0 and not achados_novos:
@@ -423,7 +521,9 @@ def main() -> int:
         )
         return 2
 
-    assunto, corpo = monta_email(secoes, referencia, len(registros), achados_novos)
+    assunto, corpo = monta_email(
+        secoes, referencia, len(registros), achados_novos, linhas_cobertura
+    )
 
     destino = args.saida or os.path.join(
         DIR_EMAIL, "%s-resumo.md" % referencia.isoformat()
@@ -433,7 +533,7 @@ def main() -> int:
         fh.write(corpo + "\n")
 
     if not args.dry_run:
-        gravar_estado(impressoes, estado_descobertas, referencia)
+        gravar_estado(impressoes, estado_descobertas, estado_cobertura, referencia)
 
     print("Resumo gerado: %s" % os.path.relpath(destino, comum.RAIZ))
     print("Assunto: %s" % assunto)
@@ -442,6 +542,11 @@ def main() -> int:
         print(
             "Achados da coleta ainda nao conferidos incluidos no resumo: %d."
             % len(achados_novos)
+        )
+    if slugs_cobertura:
+        print(
+            "Municipios com primeiro ato detectado anunciados no resumo: %d."
+            % len(slugs_cobertura)
         )
     if args.dry_run:
         print("(dry-run: estado de envios nao atualizado)")

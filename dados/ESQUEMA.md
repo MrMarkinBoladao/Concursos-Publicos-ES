@@ -74,6 +74,21 @@ acrescentada, declarando que a transição foi automática.
 - `municipal` — prefeituras, câmaras e autarquias municipais do ES.
 - `intermunicipal` — consórcios públicos intermunicipais (CIM Polinorte, Consórcio Caparaó).
 
+**`esfera` de registro e `esfera` de fonte são vocabulários diferentes, e esta seção descreve
+apenas o primeiro.** Os quatro valores acima continuam sendo os únicos aceitos em um registro de
+`dados/`: um certame é de alguma esfera de governo, sempre. O catálogo
+[`fontes/fontes.json`](../fontes/fontes.json) usa um vocabulário mais largo, que acrescenta
+`nao_se_aplica`, porque fonte não é órgão: portal de notícias, agregador de concursos e site de
+banca não têm esfera de governo a declarar, e preenchê-la com `estadual` seria afirmar algo falso
+sobre eles. Nada em `dados/` muda por causa disso.
+
+O campo `municipio` tem vocabulário próprio: o nome oficial do município conforme
+[`fontes/municipios-es.json`](../fontes/municipios-es.json) — o cadastro dos 78 municípios do ES,
+com os aliases admitidos — mais dois valores especiais, `"Âmbito estadual (ES)"` e qualquer valor
+que comece por `"Diversos (ES)"`. O validador resolve o nome contra esse cadastro, e grafia que
+não resolve é apontada: é assim que a cobertura por município pode ser medida sem depender de
+busca textual.
+
 ## Vocabulário de `tipo`
 
 - `concurso_publico` — provimento de cargo efetivo.

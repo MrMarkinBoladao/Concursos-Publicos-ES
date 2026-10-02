@@ -379,7 +379,105 @@ def bloco_alterados(registros, inicio, fim, ids_novos):
     return linhas
 
 
-def bloco_coleta(descobertas, inicio, fim):
+def _nomes_de_municipio(cadastro):
+    return {
+        m.get("slug"): m.get("nome")
+        for m in (cadastro or {}).get("municipios") or []
+    }
+
+
+def bloco_cobertura_municipal(descobertas, cadastro):
+    """Sub-bloco "Cobertura municipal", ou lista vazia se nao houver o bloco.
+
+    Chave ausente no arquivo = secao ausente, sem quebrar: 'cobertura_municipios'
+    so passa a existir na primeira coleta feita com o cadastro de municipios, e um
+    relatorio gerado sobre coleta anterior a isso continua valido — ele apenas nao
+    tem o que dizer sobre cobertura.
+
+    O recorte geografico e a MICRORREGIAO, e nao o municipio: o cadastro oferece
+    so esse agrupamento, e uma tabela de 78 linhas num relatorio diario seria
+    ilegivel (a visao por municipio vive no README, dentro de <details>).
+    """
+    cobertura = descobertas.get("cobertura_municipios") or {}
+    if not cobertura:
+        return []
+
+    nomes = _nomes_de_municipio(cadastro)
+    total = cobertura.get("total_municipios") or len(nomes)
+    com_sinal = set(cobertura.get("slugs_com_sinal") or [])
+
+    linhas = [
+        "### Cobertura municipal",
+        "",
+        "- Municípios com ato detectado na janela: **%s/%s**; no acumulado: %s."
+        % (
+            cobertura.get("com_achado_na_janela", 0),
+            total,
+            cobertura.get("com_achado_acumulado", 0),
+        ),
+        "- Municípios com registro curado em `dados/`: %s. Sem sinal algum: %s."
+        % (
+            cobertura.get("com_registro_curado", 0),
+            cobertura.get("sem_sinal_algum", 0),
+        ),
+    ]
+
+    primeira_vez = cobertura.get("vistos_pela_primeira_vez") or []
+    if primeira_vez:
+        linhas.append(
+            "- Primeiro sinal registrado em: %s."
+            % ", ".join(nomes.get(s, s) for s in primeira_vez)
+        )
+
+    # "in" e nao ".get()": lista vazia e informacao (nenhum nome ficou sem
+    # mapeamento), chave ausente nao e.
+    if "municipios_nao_mapeados" in descobertas:
+        nao_mapeados = descobertas.get("municipios_nao_mapeados") or []
+        linhas.append(
+            "- Municípios citados sem mapeamento no cadastro: %d%s"
+            % (
+                len(nao_mapeados),
+                " (ver a issue da coleta)." if nao_mapeados else ".",
+            )
+        )
+
+    intermunicipais = cobertura.get("registros_intermunicipais_sem_atribuicao")
+    if intermunicipais is not None:
+        linhas.append(
+            "- Registros intermunicipais, que por regra não creditam município: %s."
+            % intermunicipais
+        )
+
+    por_microrregiao = {}
+    for municipio in (cadastro or {}).get("municipios") or []:
+        chave = municipio.get("microrregiao") or comum.AUSENTE
+        total_mr, com_sinal_mr = por_microrregiao.get(chave, (0, 0))
+        por_microrregiao[chave] = (
+            total_mr + 1,
+            com_sinal_mr + (1 if municipio.get("slug") in com_sinal else 0),
+        )
+
+    if por_microrregiao:
+        linhas += [
+            "",
+            "| Microrregião | Municípios | Com sinal | Sem sinal |",
+            "| ------------ | ---------: | --------: | --------: |",
+        ]
+        for chave in sorted(por_microrregiao, key=comum.chave_nome):
+            total_mr, com_sinal_mr = por_microrregiao[chave]
+            linhas.append(
+                "| %s | %d | %d | %d |"
+                % (
+                    comum.escapar_celula(chave),
+                    total_mr,
+                    com_sinal_mr,
+                    total_mr - com_sinal_mr,
+                )
+            )
+    return linhas
+
+
+def bloco_coleta(descobertas, inicio, fim, cadastro=None):
     linhas = ["## Coleta automática", ""]
     if not descobertas:
         linhas.append(
@@ -411,15 +509,41 @@ def bloco_coleta(descobertas, inicio, fim):
             )
         )
 
+    # Oportunidade e ato de diario contam na mesma chave 'total_achados' mas sao
+    # coisas diferentes: ato de nomeacao ou convocacao e rotina diaria e nunca
+    # vira registro curado. Sem a separacao, o relatorio diario passaria a dizer
+    # "300+ achados" e a linha de pendencias de curadoria pareceria quebrada.
+    achados = descobertas.get("achados") or []
+    atos_diario = [a for a in achados if a.get("categoria") == "ato_diario"]
     linhas += [
         "",
         "| Indicador | Valor |",
         "| --------- | ----: |",
         "| Achados na janela de %s dias | %s |"
         % (descobertas.get("janela_dias", "?"), descobertas.get("total_achados", 0)),
+        "| — oportunidades | %d |" % (len(achados) - len(atos_diario)),
+        "| — atos de diário oficial | %d |" % len(atos_diario),
         "| Já cobertos por registro curado | %s |" % descobertas.get("ja_no_repositorio", 0),
         "| Pendentes de conferência | %s |" % descobertas.get("pendentes_de_curadoria", 0),
     ]
+    if "atos_diario_novos" in descobertas:
+        linhas.append(
+            "| Atos de diário inéditos nesta coleta | %s |"
+            % descobertas.get("atos_diario_novos", 0)
+        )
+    if "descartados_por_retencao" in descobertas:
+        linhas.append(
+            "| Atos descartados por retenção (%s dias) | %s |"
+            % (
+                descobertas.get("retencao_atos_dias", "?"),
+                descobertas.get("descartados_por_retencao", 0),
+            )
+        )
+
+    cobertura = bloco_cobertura_municipal(descobertas, cadastro)
+    if cobertura:
+        linhas.append("")
+        linhas += cobertura
 
     novos = [
         achado
@@ -596,7 +720,9 @@ def periodo_para(tipo: str, referencia: dt.date):
     raise ValueError("tipo desconhecido: %s" % tipo)
 
 
-def monta_relatorio(tipo, registros, descobertas, referencia, inicio, fim, titulo):
+def monta_relatorio(
+    tipo, registros, descobertas, referencia, inicio, fim, titulo, cadastro=None
+):
     novos_caminhos = arquivos_novos(inicio, fim)
     linhas_novos, novos = bloco_novos(registros, novos_caminhos, inicio, fim)
     ids_novos = {r.get("id") for r in novos}
@@ -625,7 +751,7 @@ def monta_relatorio(tipo, registros, descobertas, referencia, inicio, fim, titul
         bloco_prazos(registros, referencia),
         bloco_a_abrir(registros, referencia),
         bloco_provas(registros, referencia),
-        bloco_coleta(descobertas, inicio, fim),
+        bloco_coleta(descobertas, inicio, fim, cadastro),
         bloco_pendencias(registros, referencia),
         bloco_validacao(),
     ]
@@ -686,10 +812,24 @@ def main() -> int:
     referencia = dt.date.fromisoformat(args.data) if args.data else comum.hoje()
     inicio, fim, relativo, titulo = periodo_para(args.tipo, referencia)
 
+    # Cadastro obrigatorio, falha FATAL com o caminho na mensagem: a agregacao
+    # por microrregiao e os nomes de municipio saem dele. Diferente de
+    # carregar_descobertas() aqui, que devolve None quando nao ha coleta —
+    # coleta e opcional, cadastro nao.
+    try:
+        cadastro = comum.carregar_municipios()
+    except (OSError, ValueError) as exc:
+        print(
+            "ERRO FATAL: nao foi possivel ler o cadastro de municipios (%s): %s"
+            % (comum.CAMINHO_MUNICIPIOS, exc),
+            file=sys.stderr,
+        )
+        return 1
+
     registros = comum.carregar_registros()
     descobertas = carregar_descobertas()
     conteudo = monta_relatorio(
-        args.tipo, registros, descobertas, referencia, inicio, fim, titulo
+        args.tipo, registros, descobertas, referencia, inicio, fim, titulo, cadastro
     )
 
     if args.dry_run:
