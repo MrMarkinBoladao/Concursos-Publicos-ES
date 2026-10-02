@@ -114,12 +114,14 @@ CHAVES_CANAL = {
 CHAVES_ORGAO = {
     "id",
     "nome",
+    "aliases",
     "sigla",
     "natureza",
     "esfera",
     "municipios_slugs",
     "url",
     "fontes",
+    "evidencia",
     "pendencias_verificacao",
     "verificado_em",
 }
@@ -986,6 +988,46 @@ def _valida_orgaos_vinculados(rel, rotulo, cadastro, ids_fontes, slugs):
                 alvo,
                 "url null sem a pendencia 'url:nao_encontrado' declarada: endereco "
                 "nao encontrado e pendencia, nao silencio",
+            )
+
+        nome_orgao = orgao.get("nome")
+        aliases_orgao = orgao.get("aliases")
+        if not isinstance(aliases_orgao, list):
+            rel.erro(alvo, "aliases deve ser uma lista")
+            aliases_orgao = []
+        vistas_alias = set()
+        for alias in aliases_orgao:
+            if not isinstance(alias, str) or not alias.strip():
+                rel.erro(alvo, "alias vazio ou nao textual: %r" % (alias,))
+                continue
+            chave_alias = comum.chave_nome(alias)
+            if isinstance(nome_orgao, str) and chave_alias == comum.chave_nome(nome_orgao):
+                rel.aviso(alvo, "alias '%s' e redundante com o proprio nome" % alias)
+                continue
+            # Colisao com MUNICIPIO e erro, e nao aviso: 'slugs' aqui e o
+            # conjunto dos 78: um alias de orgao que casasse com nome de
+            # municipio faria o ato do orgao ser creditado ao municipio errado,
+            # e o indice resolve por chave sem desempate possivel.
+            if chave_alias in {comum.chave_nome(s) for s in slugs}:
+                rel.erro(alvo, "alias '%s' colide com slug de municipio" % alias)
+                continue
+            if chave_alias in vistas_alias:
+                rel.erro(alvo, "alias '%s' repetido no orgao" % alias)
+                continue
+            vistas_alias.add(chave_alias)
+
+        # Mesma razao do campo homonimo no canal ("e o campo que impede canal
+        # inventado"), aplicada ao orgao. O que se afirma aqui e mais arriscado
+        # que uma URL: 'municipios_slugs' de um consorcio CREDITA jurisdicao a
+        # 13 ou 18 municipios de uma vez, e antes deste campo a unica forma de
+        # auditar de onde veio aquela lista era a descricao do PR, que nao
+        # acompanha o arquivo. Exigir evidencia no proprio dado fecha isso.
+        evidencia = orgao.get("evidencia")
+        if not isinstance(evidencia, str) or not evidencia.strip():
+            rel.erro(
+                alvo,
+                "evidencia ausente ou vazia: e o campo que impede jurisdicao e "
+                "endereco inventados",
             )
 
         fontes = orgao.get("fontes")

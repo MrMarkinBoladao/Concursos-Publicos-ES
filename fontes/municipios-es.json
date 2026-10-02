@@ -3,7 +3,7 @@
   "fonte_da_verdade": "IBGE - Localidades, UF 32 (https://servicodados.ibge.gov.br/api/v1/localidades/estados/32/municipios)",
   "ibge_consultado_em": "2026-10-01",
   "total_esperado": 78,
-  "ultima_atualizacao": "2026-10-01",
+  "ultima_atualizacao": "2026-10-02",
   "municipios": [
     {
       "codigo_ibge": 3200102,
@@ -2051,8 +2051,17 @@
       "microrregiao": "Vitória",
       "canais": [
         {
-          "tipo": "diario_oficial_agregador",
+          "tipo": "diario_oficial_proprio",
           "precedencia": 1,
+          "url": "https://ioes.dio.es.gov.br/diariodaserra",
+          "fonte_id": null,
+          "estado": "confirmado",
+          "evidencia": "diario proprio do municipio, hospedado no IOES, confirmado em 2026-10-02: https://ioes.dio.es.gov.br/diariodaserra respondeu HTTP 200 e titula \"Diario Oficial Prefeitura Municipal da Serra / Home Vinculado\", contra \"Diario Oficial DOM - AMUNES\" de /dom. O 200 NAO e de rota curinga: o mesmo host devolveu 404 para /diariodavilavelha, /diariodacariacica, /diariodexyzinexistente e /doe. Uma varredura de 390 caminhos candidatos (5 padroes x os 78 municipios) devolveu 200 para ESTE e somente para este, o que encerra com resultado negativo para os outros 77 a pendencia de \"conferir o seletor inteiro\" de Outros Diarios Oficiais",
+          "verificado_em": "2026-10-02"
+        },
+        {
+          "tipo": "diario_oficial_agregador",
+          "precedencia": 2,
           "url": "https://ioes.dio.es.gov.br/dom",
           "fonte_id": "amunes-dom",
           "estado": "confirmado",
@@ -2061,7 +2070,7 @@
         },
         {
           "tipo": "portal_prefeitura",
-          "precedencia": 2,
+          "precedencia": 3,
           "url": "https://www.serra.es.gov.br/",
           "fonte_id": null,
           "estado": "confirmado",
@@ -2315,6 +2324,7 @@
     {
       "id": "camara-aracruz",
       "nome": "Camara Municipal de Aracruz",
+      "aliases": [],
       "sigla": null,
       "natureza": "camara_municipal",
       "esfera": "municipal",
@@ -2325,117 +2335,175 @@
       "fontes": [
         "camara-aracruz"
       ],
+      "evidencia": "url catalogada como fonte 'camara-aracruz' em fontes/fontes.json e re-sondada em 2026-10-02: https://www.aracruz.es.leg.br/transparencia/concurso-publico respondeu HTTP 200; jurisdicao de camara municipal e o proprio municipio, por definicao da natureza",
       "pendencias_verificacao": [],
-      "verificado_em": "2026-10-01"
+      "verificado_em": "2026-10-02"
     },
     {
       "id": "camara-cachoeiro-itapemirim",
       "nome": "Camara Municipal de Cachoeiro de Itapemirim",
+      "aliases": [],
       "sigla": null,
       "natureza": "camara_municipal",
       "esfera": "municipal",
       "municipios_slugs": [
         "cachoeiro-de-itapemirim"
       ],
-      "url": null,
+      "url": "https://www.cachoeirodeitapemirim.es.leg.br/",
       "fontes": [],
-      "pendencias_verificacao": [
-        "url:nao_encontrado"
-      ],
-      "verificado_em": "2026-10-01"
+      "evidencia": "dominio institucional do legislativo localizado em 2026-10-02: https://www.cachoeirodeitapemirim.es.leg.br/ respondeu HTTP 200 e titula 'CAMARA MUNICIPAL DE CACHOEIRO DE ITAPEMIRIM', seguindo o mesmo padrao .es.leg.br da camara de Aracruz; NAO ha pagina dedicada de concurso: /transparencia/concurso-publico, /transparencia/concursos-publicos e /transparencia/concurso responderam 404, e /transparencia respondeu 200 — por isso a url registrada e a raiz institucional e nao uma secao de concursos inventada",
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-02"
     },
     {
       "id": "saae-aracruz",
       "nome": "Servico Autonomo de Agua e Esgoto de Aracruz",
+      "aliases": [],
       "sigla": "SAAE",
       "natureza": "autarquia_municipal",
       "esfera": "municipal",
       "municipios_slugs": [
         "aracruz"
       ],
-      "url": null,
+      "url": "https://www.saaeara.es.gov.br/institucional/recursos-humanos/concursos-publicos",
       "fontes": [],
-      "pendencias_verificacao": [
-        "url:nao_encontrado"
-      ],
-      "verificado_em": "2026-10-01"
+      "evidencia": "autarquia tem portal proprio, localizado em 2026-10-02: https://www.saaeara.es.gov.br/ respondeu HTTP 200 e a pagina de concursos https://www.saaeara.es.gov.br/institucional/recursos-humanos/concursos-publicos tambem respondeu HTTP 200 trazendo o Edital 001/2024 de concurso publico do proprio SAAE; registrada a pagina de concursos porque o eixo do cadastro e o canal de publicacao de informacao de emprego",
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-02"
     },
     {
       "id": "codeg-guarapari",
-      "nome": "Companhia de Desenvolvimento de Guarapari",
+      "nome": "Companhia de Melhoramentos e Desenvolvimento Urbano de Guarapari",
+      "aliases": [
+        "Companhia de Desenvolvimento de Guarapari"
+      ],
       "sigla": "CODEG",
       "natureza": "empresa_municipal",
       "esfera": "municipal",
       "municipios_slugs": [
         "guarapari"
       ],
-      "url": null,
+      "url": "https://codeg.guarapari.es.gov.br/",
       "fontes": [],
+      "evidencia": "portal proprio localizado em 2026-10-02 sob o dominio da prefeitura: https://codeg.guarapari.es.gov.br/ respondeu HTTP 403 (bloqueio de robo, nao ausencia) e paginas internas do mesmo host estao indexadas publicamente (/transparencia/licitacao/, /pagina/ler/1145/sobre-o-codeg), o que atesta o host como portal da empresa; a mesma leitura corrigiu o NOME: o orgao se identifica como 'Companhia de Melhoramentos e Desenvolvimento Urbano de Guarapari', e nao 'Companhia de Desenvolvimento de Guarapari'. Isso atende a pendencia escrita no proprio registro concurso-codeg-guarapari-es-2026 ('localizar a pagina oficial da CODEG'). 'url:conferir_manual' segue declarada por causa do 403",
       "pendencias_verificacao": [
-        "url:nao_encontrado"
+        "url:conferir_manual"
       ],
-      "verificado_em": "2026-10-01"
+      "verificado_em": "2026-10-02"
     },
     {
       "id": "ipc-cariacica",
-      "nome": "Instituto de Previdencia dos Servidores de Cariacica",
+      "nome": "Instituto de Previdencia dos Servidores Publicos do Municipio de Cariacica",
+      "aliases": [
+        "Instituto de Previdencia dos Servidores de Cariacica"
+      ],
       "sigla": "IPC",
       "natureza": "autarquia_municipal",
       "esfera": "municipal",
       "municipios_slugs": [
         "cariacica"
       ],
-      "url": null,
+      "url": "https://www.cariacica.es.gov.br/pagina/ler/346/quem-somos-ipc",
       "fontes": [],
+      "evidencia": "o instituto NAO tem dominio proprio: ipc.cariacica.es.gov.br nao resolve em DNS (2026-10-02), e a pagina institucional dele vive sob o portal da prefeitura, em https://www.cariacica.es.gov.br/pagina/ler/346/quem-somos-ipc, cuja existencia esta atestada por indexacao publica; www.cariacica.es.gov.br respondeu HTTP 403 na sondagem do mesmo dia, entao 'url:conferir_manual' segue declarada. O NOME foi alinhado ao que a propria prefeitura publica e ao que o registro ps-cariacica-es-ipc-previdenciario-2026 ja usava: 'Instituto de Previdencia dos Servidores Publicos do Municipio de Cariacica'",
       "pendencias_verificacao": [
-        "url:nao_encontrado"
+        "url:conferir_manual"
       ],
-      "verificado_em": "2026-10-01"
+      "verificado_em": "2026-10-02"
     },
     {
       "id": "cim-polinorte",
       "nome": "Consorcio Publico da Regiao Polinorte",
+      "aliases": [],
       "sigla": "CIM Polinorte",
       "natureza": "consorcio_intermunicipal",
       "esfera": "intermunicipal",
-      "municipios_slugs": [],
-      "url": null,
-      "fontes": [],
-      "pendencias_verificacao": [
-        "municipios_slugs:nao_encontrado",
-        "url:nao_encontrado"
+      "municipios_slugs": [
+        "alegre",
+        "aracruz",
+        "cariacica",
+        "fundao",
+        "ibiracu",
+        "joao-neiva",
+        "linhares",
+        "rio-bananal",
+        "santa-leopoldina",
+        "santa-teresa",
+        "sao-roque-do-canaa",
+        "sooretama",
+        "viana"
       ],
-      "verificado_em": "2026-10-01"
+      "url": "https://www.cimpolinorte.es.gov.br/",
+      "fontes": [],
+      "evidencia": "composicao de 13 municipios lida na pagina institucional do proprio consorcio em 2026-10-02 (https://www.cimpolinorte.es.gov.br/pagina/3/consorciados, HTTP 200), e conferida de forma independente contra a pagina de consorcios publicos da AMUNES (https://www.amunes.org.br/pagina/14/consorcios), que lista os MESMOS 13 para 'CONSORCIO PUBLICO DA REGIAO POLINORTE - CIM POLINORTE', sede Ibiracu; url do consorcio respondeu HTTP 200 na sondagem do mesmo dia",
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-02"
     },
     {
       "id": "consorcio-caparao",
       "nome": "Consorcio Publico da Regiao do Caparao",
-      "sigla": null,
+      "aliases": [
+        "Consorcio Publico Intermunicipal de Desenvolvimento Sustentavel do Territorio do Caparao Capixaba",
+        "Consorcio Caparao"
+      ],
+      "sigla": "CIM Caparao",
       "natureza": "consorcio_intermunicipal",
       "esfera": "intermunicipal",
-      "municipios_slugs": [],
-      "url": null,
-      "fontes": [],
-      "pendencias_verificacao": [
-        "municipios_slugs:nao_encontrado",
-        "url:nao_encontrado"
+      "municipios_slugs": [
+        "alegre",
+        "apiaca",
+        "bom-jesus-do-norte",
+        "divino-de-sao-lourenco",
+        "dores-do-rio-preto",
+        "guacui",
+        "ibatiba",
+        "ibitirama",
+        "irupi",
+        "iuna",
+        "jeronimo-monteiro",
+        "muniz-freire",
+        "sao-jose-do-calcado"
       ],
-      "verificado_em": "2026-10-01"
+      "url": "https://consorciocaparao.es.gov.br/",
+      "fontes": [],
+      "evidencia": "composicao de 13 municipios lida na pagina de consorcios publicos da AMUNES em 2026-10-02 (https://www.amunes.org.br/pagina/14/consorcios), verbete 'CONSORCIO PUBLICO DO CAPARAO - CIM CAPARAO', sede Divino de Sao Lourenco; a identidade com o nome formal do registro ps-consorcio-caparao-es-2026 ('Consorcio Publico Intermunicipal de Desenvolvimento Sustentavel do Territorio do Caparao Capixaba') foi confirmada pela coincidencia de sede e endereco (Polo de Educacao Ambiental do Caparao, Patrimonio da Penha, Divino de Sao Lourenco) com a imprensa especializada que cobriu o certame; url https://consorciocaparao.es.gov.br/ respondeu HTTP 403 em 2026-10-02 (host existe e serve o portal, mas bloqueia robo), por isso 'url:conferir_manual' segue declarada",
+      "pendencias_verificacao": [
+        "url:conferir_manual"
+      ],
+      "verificado_em": "2026-10-02"
     },
     {
       "id": "aries",
       "nome": "Agencia Reguladora Intermunicipal de Saneamento Basico do ES",
+      "aliases": [],
       "sigla": "ARIES",
       "natureza": "agencia_reguladora",
       "esfera": "intermunicipal",
-      "municipios_slugs": [],
-      "url": null,
-      "fontes": [],
-      "pendencias_verificacao": [
-        "municipios_slugs:nao_encontrado",
-        "url:nao_encontrado"
+      "municipios_slugs": [
+        "alegre",
+        "alfredo-chaves",
+        "baixo-guandu",
+        "governador-lindenberg",
+        "ibiracu",
+        "iconha",
+        "itaguacu",
+        "itapemirim",
+        "itarana",
+        "jaguare",
+        "jeronimo-monteiro",
+        "joao-neiva",
+        "linhares",
+        "mimoso-do-sul",
+        "presidente-kennedy",
+        "rio-bananal",
+        "santa-leopoldina",
+        "vargem-alta"
       ],
-      "verificado_em": "2026-10-01"
+      "url": "https://aries.agr.br/",
+      "fontes": [],
+      "evidencia": "composicao de 18 municipios lida na pagina 'Municipios Consorciados' do proprio site da agencia em 2026-10-02 (https://aries.agr.br/municipios/municipios-consorciados, HTTP 200); a lista NAO foi copiada da do CISABES, que e entidade distinta e tem composicao diferente na mesma pagina da AMUNES; https://aries.agr.br/ respondeu HTTP 200 no mesmo dia",
+      "pendencias_verificacao": [],
+      "verificado_em": "2026-10-02"
     }
   ]
 }

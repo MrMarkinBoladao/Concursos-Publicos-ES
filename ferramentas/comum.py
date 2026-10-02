@@ -290,6 +290,17 @@ def indice_municipios() -> IndiceMunicipios:
         if len(slugs) == 1:
             por_chave_nome.setdefault(chave_nome(orgao.get("nome")), slugs[0])
         padroes_org.append((chave_nome(orgao.get("nome")), orgao.get("id"), "nome"))
+        # Aliases do orgao, pela MESMA razao que os do municipio existem: o
+        # diario nao se obriga ao nome formal. O caso que forcou isto e real —
+        # quando 'nome' passou a ser o oficial 'Instituto de Previdencia dos
+        # Servidores Publicos do Municipio de Cariacica', a forma encurtada que
+        # o proprio repositorio vinha usando ('...dos Servidores de Cariacica')
+        # deixou de casar. Sem alias, corrigir um nome para a grafia oficial
+        # SEMPRE custa recall silencioso sobre a forma antiga.
+        for alias in orgao.get("aliases") or []:
+            if len(slugs) == 1:
+                por_chave_nome.setdefault(chave_nome(alias), slugs[0])
+            padroes_org.append((chave_nome(alias), orgao.get("id"), "alias"))
         sigla = orgao.get("sigla")
         # Sigla com menos de 3 caracteres casaria com qualquer sopa de letras
         # do diario.

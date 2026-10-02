@@ -216,11 +216,13 @@ class TesteIndiceMunicipios(unittest.TestCase):
         self.assertEqual(len(indice.por_slug), 78)
 
     def test_max_tokens_nome_e_calculado(self):
-        # 8, de 'servico autonomo de agua e esgoto de aracruz'. Com o literal 4
-        # (o maior nome de municipio) as chaves de orgao de 5 a 8 tokens nunca
-        # seriam alcancadas pela poda por prefixo.
+        # 10, de 'instituto de previdencia dos servidores publicos do municipio
+        # de cariacica' (era 8, de 'servico autonomo de agua e esgoto de
+        # aracruz', antes do nome do IPC ser alinhado ao que a prefeitura
+        # publica). Com o literal 4 (o maior nome de municipio) as chaves de
+        # orgao de 5 a 10 tokens nunca seriam alcancadas pela poda por prefixo.
         indice = comum.indice_municipios()
-        self.assertEqual(indice.max_tokens_nome, 8)
+        self.assertEqual(indice.max_tokens_nome, 10)
 
     def test_indice_e_imutavel(self):
         # Trava a regressao para dict memoizado: um dict devolvido pelo
@@ -233,10 +235,14 @@ class TesteIndiceMunicipios(unittest.TestCase):
     def test_orgao_entra_em_por_chave_nome_so_com_um_slug(self):
         indice = comum.indice_municipios()
         self.assertEqual(
-            indice.por_chave_nome.get("instituto de previdencia dos servidores de cariacica"),
+            indice.por_chave_nome.get(
+                "instituto de previdencia dos servidores publicos do municipio de cariacica"
+            ),
             "cariacica",
         )
         # Orgao intermunicipal nao resolve para 1 municipio, logo nao entra.
+        # Vale desde que a composicao do Polinorte era [] e continua valendo
+        # agora que ela tem os 13 municipios apurados: 13 != 1.
         self.assertIsNone(
             indice.por_chave_nome.get("consorcio publico da regiao polinorte")
         )
@@ -254,7 +260,9 @@ class TesteIndiceMunicipios(unittest.TestCase):
             for padrao, orgao_id, origem in indice.padroes_orgaos
             if orgao_id == "ipc-cariacica"
         }
-        self.assertEqual(origens, {"nome", "sigla"})
+        # 'alias' entra desde que o IPC passou a ter a forma encurtada em
+        # aliases: as tres origens de padrao de orgao sao nome, alias e sigla.
+        self.assertEqual(origens, {"nome", "alias", "sigla"})
 
     def test_padroes_ordenados_do_mais_longo_para_o_mais_curto(self):
         indice = comum.indice_municipios()
@@ -578,7 +586,12 @@ class TesteCasamentoEmBloco(unittest.TestCase):
         )
 
     def test_orgao_vinculado_credita_o_municipio_do_orgao(self):
+        # As tres formas que o diario usa de fato: o nome oficial, a forma
+        # encurtada (que vive em 'aliases' justamente para nao perder recall
+        # quando 'nome' foi corrigido para o oficial) e a sigla.
         for texto in (
+            "INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES PÚBLICOS DO MUNICÍPIO DE "
+            "CARIACICA torna publico",
             "INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES DE CARIACICA torna publico",
             "o presidente do IPC torna publico o resultado",
         ):
@@ -1348,10 +1361,12 @@ class TesteCobertura(unittest.TestCase):
         self.assertEqual(bloco["com_registro_curado"], 15)
         self.assertEqual(bloco["registros_intermunicipais_sem_atribuicao"], 4)
         self.assertNotIn("divino-de-sao-lourenco", bloco["slugs_com_sinal"])
-        self.assertEqual(
-            bloco["orgaos_vinculados_sem_municipio"],
-            ["aries", "cim-polinorte", "consorcio-caparao"],
-        )
+        # Vazio desde 2026-10-02: a composicao dos tres intermunicipais foi
+        # apurada documentalmente (13 + 13 + 18 municipios), que era a condicao
+        # que o proprio aviso do validador pedia. A lista volta a ter conteudo
+        # se um novo orgao intermunicipal entrar sem composicao conhecida, e e
+        # esse o caso que ela existe para expor.
+        self.assertEqual(bloco["orgaos_vinculados_sem_municipio"], [])
         self.assertEqual(
             bloco["sem_sinal_algum"], 78 - len(bloco["slugs_com_sinal"])
         )
@@ -1855,12 +1870,14 @@ def _orgao(**mudancas):
     orgao = {
         "id": "camara-serra",
         "nome": "Camara Municipal da Serra",
+        "aliases": [],
         "sigla": None,
         "natureza": "camara_municipal",
         "esfera": "municipal",
         "municipios_slugs": ["serra"],
         "url": "https://www.cmserra.es.gov.br/concursos",
         "fontes": ["ioes-busca-dom"],
+        "evidencia": "url sondada em 2026-10-01 com HTTP 200",
         "pendencias_verificacao": [],
         "verificado_em": "2026-10-01",
     }
@@ -2264,6 +2281,75 @@ class TesteValidadorDoCadastro(unittest.TestCase):
             "verificado_em e obrigatorio",
         )
 
+    # --- 'evidencia' no orgao: o campo que impede jurisdicao inventada --------
+
+    def test_orgao_sem_evidencia(self):
+        self._unico_erro(
+            _cadastro(orgaos=[_orgao(evidencia=None)]),
+            "evidencia ausente ou vazia",
+        )
+
+    def test_orgao_com_evidencia_so_de_espacos(self):
+        # Espaco em branco nao e evidencia: sem o .strip() a regra seria
+        # contornavel com uma string vazia disfarcada.
+        self._unico_erro(
+            _cadastro(orgaos=[_orgao(evidencia="   ")]),
+            "evidencia ausente ou vazia",
+        )
+
+    def test_consorcio_com_13_municipios_e_evidencia_passa(self):
+        # O caso REAL que a apuracao de 2026-10-02 produziu, reduzido a dois
+        # municipios: consorcio intermunicipal com composicao preenchida, sem
+        # pendencia de municipios_slugs, nao gera erro nenhum.
+        orgao = _orgao(
+            id="cim-exemplo",
+            nome="Consorcio Publico de Exemplo",
+            natureza="consorcio_intermunicipal",
+            esfera="intermunicipal",
+            municipios_slugs=["serra", "vitoria"],
+            evidencia="composicao lida na pagina institucional do consorcio em 2026-10-02",
+            pendencias_verificacao=[],
+        )
+        erros, _avisos = self._rodar(
+            _cadastro([_municipio(), _municipio_vitoria()], orgaos=[orgao])
+        )
+        self.assertEqual(erros, [])
+
+    # --- 'aliases' no orgao --------------------------------------------------
+
+    def test_orgao_com_aliases_nao_lista(self):
+        self._unico_erro(
+            _cadastro(orgaos=[_orgao(aliases="Camara da Serra")]),
+            "aliases deve ser uma lista",
+        )
+
+    def test_orgao_com_alias_vazio(self):
+        self._unico_erro(
+            _cadastro(orgaos=[_orgao(aliases=["  "])]),
+            "alias vazio ou nao textual",
+        )
+
+    def test_alias_de_orgao_colidindo_com_municipio(self):
+        # A colisao mais perigosa do cadastro: um alias de orgao que casa com
+        # nome de municipio creditaria o ato ao municipio errado.
+        self._unico_erro(
+            _cadastro(orgaos=[_orgao(aliases=["Serra"])]),
+            "colide com slug de municipio",
+        )
+
+    def test_alias_de_orgao_repetido(self):
+        self._unico_erro(
+            _cadastro(orgaos=[_orgao(aliases=["Camara da Serra", "camara da serra"])]),
+            "repetido no orgao",
+        )
+
+    def test_alias_de_orgao_redundante_com_o_nome_e_aviso(self):
+        erros, avisos = self._rodar(
+            _cadastro(orgaos=[_orgao(aliases=["Camara Municipal da Serra"])])
+        )
+        self.assertEqual(erros, [])
+        self.assertTrue(any("redundante com o proprio nome" in a for a in avisos), avisos)
+
 
 class TesteValidadorDeEscopo(unittest.TestCase):
     """Reforco de secao 9.3: o campo 'municipio' de dados/ resolve no cadastro."""
@@ -2656,7 +2742,11 @@ class TesteCoberturaNoReadme(unittest.TestCase):
         linhas = self._linhas_de_municipio(bloco)
         with_ato = [linha for linha in linhas if linha.split("|")[3].strip() == "✓"]
         self.assertEqual(len(with_ato), 2)
-        self.assertIn("| Serra | 1 | ✓ | DOM/AMUNES |", bloco)
+        # A Serra e o UNICO municipio com 'diario_oficial_proprio' no cadastro
+        # (confirmado por varredura dos 78 caminhos candidatos no IOES), e por
+        # isso e tambem o unico lugar onde o dado real exercita a renderizacao
+        # de 'Diario proprio' ponta a ponta. Os demais saem como DOM/AMUNES.
+        self.assertIn("| Serra | 1 | ✓ | Diário próprio |", bloco)
         self.assertIn("| Sooretama | 0 | ✓ | DOM/AMUNES |", bloco)
 
     def test_canal_principal_em_texto_legivel(self):

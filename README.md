@@ -20,7 +20,7 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **01/10/2026** |
+| Última verificação das fontes | **02/10/2026** |
 | Oportunidades monitoradas | 53 |
 | Com inscrições abertas | 6 |
 | Vagas imediatas em aberto | 97 |
@@ -35,8 +35,8 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Salário | Inscrições até | Prova |
 | ----- | ----- | ----: | ------: | -------------- | ----- |
-| [CRF-ES](https://institutoibest.selecao.net.br/informacoes/62/) | Advogado | 1 + CR | R$ 3.000,00 | 05/10/2026 (encerra em 4 dias) | 01/11/2026 |
-| [PMA](https://integrado.selecao.net.br/informacoes/254/) | PEB I - Professor de Educação Básica - Educação Infantil BNCC; PEB II - Professor de Educação Básica - Ensino Fundamental - Anos I... e mais 10 cargos | 64 + CR | R$ 3.600,00 a R$ 8.640,00 | 07/10/2026 (encerra em 6 dias) | 29/11/2026 |
+| [CRF-ES](https://institutoibest.selecao.net.br/informacoes/62/) | Advogado | 1 + CR | R$ 3.000,00 | 05/10/2026 **(encerra em 3 dias)** | 01/11/2026 |
+| [PMA](https://integrado.selecao.net.br/informacoes/254/) | PEB I - Professor de Educação Básica - Educação Infantil BNCC; PEB II - Professor de Educação Básica - Ensino Fundamental - Anos I... e mais 10 cargos | 64 + CR | R$ 3.600,00 a R$ 8.640,00 | 07/10/2026 (encerra em 5 dias) | 29/11/2026 |
 | [CREF22/ES](https://www.ibade.org.br/) | Advogado I; Analista Administrativo I e mais 1 cargo | 2 + CR | R$ 5.000,00 a R$ 5.500,00 | 20/10/2026 | 13/12/2026 |
 | [PMSMJ](https://www.institutoconsulplan.org.br/pref-smj-guarda2026) | Guarda Municipal | 30 + CR | R$ 3.763,26 | 21/10/2026 | 13/12/2026 |
 
@@ -65,8 +65,8 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Inscrições até | Fonte |
 | ----- | ----- | ----: | -------------- | ----- |
-| PMG/SEMTAC | Motorista; Orientador / Educador Social e mais 3 cargos | CR | 02/10/2026 **(encerra em 1 dia)** | [fonte](https://www.guarapari.es.gov.br/selecao/detalhes/222/edital-de-processo-seletivo-semtac-n-002-2026) |
-| PMSGP | Servente; Merendeira e mais 1 cargo | CR | 08/10/2026 (encerra em 7 dias) | [fonte](https://www.saogabriel.es.gov.br/) |
+| PMG/SEMTAC | Motorista; Orientador / Educador Social e mais 3 cargos | CR | 02/10/2026 **(encerra em 0 dias)** | [fonte](https://www.guarapari.es.gov.br/selecao/detalhes/222/edital-de-processo-seletivo-semtac-n-002-2026) |
+| PMSGP | Servente; Merendeira e mais 1 cargo | CR | 08/10/2026 (encerra em 6 dias) | [fonte](https://www.saogabriel.es.gov.br/) |
 
 ## Histórico (inscrições encerradas)
 
@@ -210,7 +210,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | São José do Calçado | 0 | — | DOM/AMUNES |
 | São Mateus | 0 | — | DOM/AMUNES |
 | São Roque do Canaã | 0 | — | DOM/AMUNES |
-| Serra | 1 | — | DOM/AMUNES |
+| Serra | 1 | — | Diário próprio |
 | Sooretama | 0 | — | DOM/AMUNES |
 | Vargem Alta | 0 | — | DOM/AMUNES |
 | Venda Nova do Imigrante | 0 | — | DOM/AMUNES |
@@ -222,7 +222,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 01/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 02/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
