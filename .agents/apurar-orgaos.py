@@ -204,9 +204,29 @@ def main():
         # Reordena para a ordem do esquema, com 'evidencia' logo depois de
         # 'fontes' e antes das pendencias, como no canal.
         ordem = [
-            "id", "nome", "sigla", "natureza", "esfera", "municipios_slugs",
-            "url", "fontes", "evidencia", "pendencias_verificacao", "verificado_em",
+            "id", "nome", "aliases", "sigla", "natureza", "esfera",
+            "municipios_slugs", "url", "fontes", "evidencia",
+            "pendencias_verificacao", "verificado_em",
         ]
+        # A conferencia existe porque a versao anterior deste script NAO tinha:
+        # 'ordem' listava o esquema de antes de 'aliases' existir, e o
+        # dict-comprehension abaixo DESCARTAVA em silencio qualquer chave fora
+        # da lista. Re-rodar o script apagava os aliases ja apurados e saia com
+        # exit 0; so o validador reclamava, e depois do dado ja ter ido embora.
+        # Agora uma chave nova no esquema quebra aqui, alto e claro, em vez de
+        # custar dado.
+        sobrando = set(orgao) - set(ordem)
+        if sobrando:
+            sys.exit(
+                "ABORTADO: orgao %s tem chave fora de 'ordem': %r. Acrescente a chave "
+                "a lista em vez de deixar o script descarta-la." % (orgao["id"], sorted(sobrando))
+            )
+        faltando_ordem = set(ordem) - set(orgao)
+        if faltando_ordem:
+            sys.exit(
+                "ABORTADO: orgao %s nao tem as chaves %r que 'ordem' espera."
+                % (orgao["id"], sorted(faltando_ordem))
+            )
         reordenado = {k: orgao[k] for k in ordem}
         orgao.clear()
         orgao.update(reordenado)
