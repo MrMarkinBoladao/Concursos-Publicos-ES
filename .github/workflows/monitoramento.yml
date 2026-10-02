@@ -149,20 +149,38 @@ jobs:
       # sobrescrito: gerar_relatorio.py so reescreve o que ele mesmo gerou.
       - name: Gerar relatorios
         env:
-          FORCAR: ${{ inputs.forcar_relatorio && '--forcar' || '' }}
+          # Os tres entram como env, e nao interpolados no corpo do script, por
+          # dois motivos: 'actionlint -shellcheck' aponta a interpolacao direta
+          # como superficie de injecao de script, e env mantem o YAML legivel.
+          FORCAR_RELATORIO: ${{ inputs.forcar_relatorio }}
+          GERAR_SEMANAL: ${{ inputs.gerar_semanal }}
+          GERAR_MENSAL: ${{ inputs.gerar_mensal }}
         run: |
           set -euo pipefail
           dia_da_semana=$(date -u +%u)   # 1 = segunda
           dia_do_mes=$(date -u +%d)
 
-          python3 ferramentas/gerar_relatorio.py --tipo diario $FORCAR
-
-          if [ "$dia_da_semana" = "1" ] || [ "${{ inputs.gerar_semanal }}" = "true" ]; then
-            python3 ferramentas/gerar_relatorio.py --tipo semanal $FORCAR
+          # '--forcar' vai num ARRAY, e nao numa string solta na linha de comando.
+          # A forma anterior ('... --tipo diario $FORCAR', com FORCAR valendo
+          # '--forcar' ou vazio) dependia de word splitting para o argumento
+          # desaparecer quando vazio — exatamente o SC2086 que o shellcheck
+          # reporta. E nao bastava por aspas: "$FORCAR" vazio passaria um
+          # argumento vazio, que o argparse de gerar_relatorio.py rejeita. O array
+          # expande para zero argumento quando vazio e para um quando preenchido,
+          # que e o comportamento desejado nos dois casos.
+          forcar=()
+          if [ "$FORCAR_RELATORIO" = "true" ]; then
+            forcar=(--forcar)
           fi
 
-          if [ "$dia_do_mes" = "01" ] || [ "${{ inputs.gerar_mensal }}" = "true" ]; then
-            python3 ferramentas/gerar_relatorio.py --tipo mensal $FORCAR
+          python3 ferramentas/gerar_relatorio.py --tipo diario "${forcar[@]}"
+
+          if [ "$dia_da_semana" = "1" ] || [ "$GERAR_SEMANAL" = "true" ]; then
+            python3 ferramentas/gerar_relatorio.py --tipo semanal "${forcar[@]}"
+          fi
+
+          if [ "$dia_do_mes" = "01" ] || [ "$GERAR_MENSAL" = "true" ]; then
+            python3 ferramentas/gerar_relatorio.py --tipo mensal "${forcar[@]}"
           fi
 
       - name: Preparar resumo de e-mail
