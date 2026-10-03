@@ -20,23 +20,23 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **02/10/2026** |
+| Última verificação das fontes | **03/10/2026** |
 | Oportunidades monitoradas | 53 |
-| Com inscrições abertas | 6 |
+| Com inscrições abertas | 5 |
 | Vagas imediatas em aberto | 97 |
 | Concursos previstos / autorizados | 16 |
-| Registros históricos (encerrados ou em andamento) | 31 |
+| Registros históricos (encerrados ou em andamento) | 32 |
 | Descobertas automáticas pendentes de conferência | 12 |
 | Municípios do ES monitorados | 78 |
 | Municípios com registro curado | 15 |
-| Municípios com ato detectado na janela da coleta | 49 |
+| Municípios com ato detectado na janela da coleta | 47 |
 
 ## Concursos com inscrições abertas
 
 | Órgão | Cargo | Vagas | Salário | Inscrições até | Prova |
 | ----- | ----- | ----: | ------: | -------------- | ----- |
-| [CRF-ES](https://institutoibest.selecao.net.br/informacoes/62/) | Advogado | 1 + CR | R$ 3.000,00 | 05/10/2026 **(encerra em 3 dias)** | 01/11/2026 |
-| [PMA](https://integrado.selecao.net.br/informacoes/254/) | PEB I - Professor de Educação Básica - Educação Infantil BNCC; PEB II - Professor de Educação Básica - Ensino Fundamental - Anos I... e mais 10 cargos | 64 + CR | R$ 3.600,00 a R$ 8.640,00 | 07/10/2026 (encerra em 5 dias) | 29/11/2026 |
+| [CRF-ES](https://institutoibest.selecao.net.br/informacoes/62/) | Advogado | 1 + CR | R$ 3.000,00 | 05/10/2026 **(encerra em 2 dias)** | 01/11/2026 |
+| [PMA](https://integrado.selecao.net.br/informacoes/254/) | PEB I - Professor de Educação Básica - Educação Infantil BNCC; PEB II - Professor de Educação Básica - Ensino Fundamental - Anos I... e mais 10 cargos | 64 + CR | R$ 3.600,00 a R$ 8.640,00 | 07/10/2026 (encerra em 4 dias) | 29/11/2026 |
 | [CREF22/ES](https://www.ibade.org.br/) | Advogado I; Analista Administrativo I e mais 1 cargo | 2 + CR | R$ 5.000,00 a R$ 5.500,00 | 20/10/2026 | 13/12/2026 |
 | [PMSMJ](https://www.institutoconsulplan.org.br/pref-smj-guarda2026) | Guarda Municipal | 30 + CR | R$ 3.763,26 | 21/10/2026 | 13/12/2026 |
 
@@ -65,8 +65,7 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Inscrições até | Fonte |
 | ----- | ----- | ----: | -------------- | ----- |
-| PMG/SEMTAC | Motorista; Orientador / Educador Social e mais 3 cargos | CR | 02/10/2026 **(encerra em 0 dias)** | [fonte](https://www.guarapari.es.gov.br/selecao/detalhes/222/edital-de-processo-seletivo-semtac-n-002-2026) |
-| PMSGP | Servente; Merendeira e mais 1 cargo | CR | 08/10/2026 (encerra em 6 dias) | [fonte](https://www.saogabriel.es.gov.br/) |
+| PMSGP | Servente; Merendeira e mais 1 cargo | CR | 08/10/2026 (encerra em 5 dias) | [fonte](https://www.saogabriel.es.gov.br/) |
 
 ## Histórico (inscrições encerradas)
 
@@ -76,6 +75,7 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | Órgão | Cargo | Vagas | Situação | Encerrou em | Fonte |
 | ----- | ----- | ----: | -------- | ----------- | ----- |
 | PMA/SEMGE | Diversos cargos das áreas Administrativa, Saúde, Fiscalização, Enge... | CR | Prova realizada | não informado | [fonte](https://idcap.selecao.net.br/informacoes/227/) |
+| PMG/SEMTAC | Motorista e mais 4 cargos | CR | Inscrições encerradas | 02/10/2026 | [fonte](https://www.guarapari.es.gov.br/selecao/detalhes/222/edital-de-processo-seletivo-semtac-n-002-2026) |
 | PMI/SEME | Professor MAPA, MAPB e MAPP (Educação Infantil, Ensino Fundamental... e mais 8 cargos | 10 + CR | Inscrições encerradas | 30/09/2026 | [fonte](https://www.ibiracu.es.gov.br/uploads/2026-09-18-15-42-25-retificado---edital-no-014---2026---processo-seletivo---seme----diversos-cargos.pdf) |
 | PMST | Professor habilitado do magistério - Educação Infantil; Ensino Fund... e mais 1 cargo | CR | Inscrições encerradas | 30/09/2026 | [fonte](https://www.santateresa.es.gov.br/noticias-individual/2164/prefeitura-de-santa-teresa-abre-processos-seletivos-para-profissionais-do-magisterio-para-o-ano-letivo-de-2027) |
 | SEDU | CASF - Coordenador de Atendimento e Suporte às Famílias | não informado | Inscrições encerradas | 30/09/2026 | [fonte](https://selecao.es.gov.br/) |
@@ -224,7 +224,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 02/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 03/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
