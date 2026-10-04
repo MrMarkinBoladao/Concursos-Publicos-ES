@@ -20,7 +20,7 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **03/10/2026** |
+| Última verificação das fontes | **04/10/2026** |
 | Oportunidades monitoradas | 53 |
 | Com inscrições abertas | 5 |
 | Vagas imediatas em aberto | 97 |
@@ -35,8 +35,8 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Salário | Inscrições até | Prova |
 | ----- | ----- | ----: | ------: | -------------- | ----- |
-| [CRF-ES](https://institutoibest.selecao.net.br/informacoes/62/) | Advogado | 1 + CR | R$ 3.000,00 | 05/10/2026 **(encerra em 2 dias)** | 01/11/2026 |
-| [PMA](https://integrado.selecao.net.br/informacoes/254/) | PEB I - Professor de Educação Básica - Educação Infantil BNCC; PEB II - Professor de Educação Básica - Ensino Fundamental - Anos I... e mais 10 cargos | 64 + CR | R$ 3.600,00 a R$ 8.640,00 | 07/10/2026 (encerra em 4 dias) | 29/11/2026 |
+| [CRF-ES](https://institutoibest.selecao.net.br/informacoes/62/) | Advogado | 1 + CR | R$ 3.000,00 | 05/10/2026 **(encerra em 1 dia)** | 01/11/2026 |
+| [PMA](https://integrado.selecao.net.br/informacoes/254/) | PEB I - Professor de Educação Básica - Educação Infantil BNCC; PEB II - Professor de Educação Básica - Ensino Fundamental - Anos I... e mais 10 cargos | 64 + CR | R$ 3.600,00 a R$ 8.640,00 | 07/10/2026 **(encerra em 3 dias)** | 29/11/2026 |
 | [CREF22/ES](https://www.ibade.org.br/) | Advogado I; Analista Administrativo I e mais 1 cargo | 2 + CR | R$ 5.000,00 a R$ 5.500,00 | 20/10/2026 | 13/12/2026 |
 | [PMSMJ](https://www.institutoconsulplan.org.br/pref-smj-guarda2026) | Guarda Municipal | 30 + CR | R$ 3.763,26 | 21/10/2026 | 13/12/2026 |
 
@@ -65,7 +65,7 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Inscrições até | Fonte |
 | ----- | ----- | ----: | -------------- | ----- |
-| PMSGP | Servente; Merendeira e mais 1 cargo | CR | 08/10/2026 (encerra em 5 dias) | [fonte](https://www.saogabriel.es.gov.br/) |
+| PMSGP | Servente; Merendeira e mais 1 cargo | CR | 08/10/2026 (encerra em 4 dias) | [fonte](https://www.saogabriel.es.gov.br/) |
 
 ## Histórico (inscrições encerradas)
 
@@ -224,7 +224,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 03/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 04/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
