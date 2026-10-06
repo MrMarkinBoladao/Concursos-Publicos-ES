@@ -20,23 +20,22 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **04/10/2026** |
+| Última verificação das fontes | **06/10/2026** |
 | Oportunidades monitoradas | 53 |
-| Com inscrições abertas | 5 |
-| Vagas imediatas em aberto | 97 |
+| Com inscrições abertas | 4 |
+| Vagas imediatas em aberto | 96 |
 | Concursos previstos / autorizados | 16 |
-| Registros históricos (encerrados ou em andamento) | 32 |
+| Registros históricos (encerrados ou em andamento) | 33 |
 | Descobertas automáticas pendentes de conferência | 12 |
 | Municípios do ES monitorados | 78 |
 | Municípios com registro curado | 15 |
-| Municípios com ato detectado na janela da coleta | 47 |
+| Municípios com ato detectado na janela da coleta | 53 |
 
 ## Concursos com inscrições abertas
 
 | Órgão | Cargo | Vagas | Salário | Inscrições até | Prova |
 | ----- | ----- | ----: | ------: | -------------- | ----- |
-| [CRF-ES](https://institutoibest.selecao.net.br/informacoes/62/) | Advogado | 1 + CR | R$ 3.000,00 | 05/10/2026 **(encerra em 1 dia)** | 01/11/2026 |
-| [PMA](https://integrado.selecao.net.br/informacoes/254/) | PEB I - Professor de Educação Básica - Educação Infantil BNCC; PEB II - Professor de Educação Básica - Ensino Fundamental - Anos I... e mais 10 cargos | 64 + CR | R$ 3.600,00 a R$ 8.640,00 | 07/10/2026 **(encerra em 3 dias)** | 29/11/2026 |
+| [PMA](https://integrado.selecao.net.br/informacoes/254/) | PEB I - Professor de Educação Básica - Educação Infantil BNCC; PEB II - Professor de Educação Básica - Ensino Fundamental - Anos I... e mais 10 cargos | 64 + CR | R$ 3.600,00 a R$ 8.640,00 | 07/10/2026 **(encerra em 1 dia)** | 29/11/2026 |
 | [CREF22/ES](https://www.ibade.org.br/) | Advogado I; Analista Administrativo I e mais 1 cargo | 2 + CR | R$ 5.000,00 a R$ 5.500,00 | 20/10/2026 | 13/12/2026 |
 | [PMSMJ](https://www.institutoconsulplan.org.br/pref-smj-guarda2026) | Guarda Municipal | 30 + CR | R$ 3.763,26 | 21/10/2026 | 13/12/2026 |
 
@@ -65,7 +64,7 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Inscrições até | Fonte |
 | ----- | ----- | ----: | -------------- | ----- |
-| PMSGP | Servente; Merendeira e mais 1 cargo | CR | 08/10/2026 (encerra em 4 dias) | [fonte](https://www.saogabriel.es.gov.br/) |
+| PMSGP | Servente; Merendeira e mais 1 cargo | CR | 08/10/2026 **(encerra em 2 dias)** | [fonte](https://www.saogabriel.es.gov.br/) |
 
 ## Histórico (inscrições encerradas)
 
@@ -75,6 +74,7 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | Órgão | Cargo | Vagas | Situação | Encerrou em | Fonte |
 | ----- | ----- | ----: | -------- | ----------- | ----- |
 | PMA/SEMGE | Diversos cargos das áreas Administrativa, Saúde, Fiscalização, Enge... | CR | Prova realizada | não informado | [fonte](https://idcap.selecao.net.br/informacoes/227/) |
+| CRF-ES | Advogado | 1 + CR | Inscrições encerradas | 05/10/2026 | [fonte](https://institutoibest.selecao.net.br/informacoes/62/) |
 | PMG/SEMTAC | Motorista e mais 4 cargos | CR | Inscrições encerradas | 02/10/2026 | [fonte](https://www.guarapari.es.gov.br/selecao/detalhes/222/edital-de-processo-seletivo-semtac-n-002-2026) |
 | PMI/SEME | Professor MAPA, MAPB e MAPP (Educação Infantil, Ensino Fundamental... e mais 8 cargos | 10 + CR | Inscrições encerradas | 30/09/2026 | [fonte](https://www.ibiracu.es.gov.br/uploads/2026-09-18-15-42-25-retificado---edital-no-014---2026---processo-seletivo---seme----diversos-cargos.pdf) |
 | PMST | Professor habilitado do magistério - Educação Infantil; Ensino Fund... e mais 1 cargo | CR | Inscrições encerradas | 30/09/2026 | [fonte](https://www.santateresa.es.gov.br/noticias-individual/2164/prefeitura-de-santa-teresa-abre-processos-seletivos-para-profissionais-do-magisterio-para-o-ano-letivo-de-2027) |
@@ -149,7 +149,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Alegre | 0 | ✓ | DOM/AMUNES |
 | Alfredo Chaves | 0 | ✓ | DOM/AMUNES |
 | Alto Rio Novo | 0 | — | DOM/AMUNES |
-| Anchieta | 1 | — | DOM/AMUNES |
+| Anchieta | 1 | ✓ | DOM/AMUNES |
 | Apiacá | 0 | — | DOM/AMUNES |
 | Aracruz | 2 | ✓ | DOM/AMUNES |
 | Atílio Vivácqua | 0 | — | DOM/AMUNES |
@@ -169,7 +169,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Dores do Rio Preto | 0 | ✓ | DOM/AMUNES |
 | Ecoporanga | 0 | ✓ | DOM/AMUNES |
 | Fundão | 1 | ✓ | DOM/AMUNES |
-| Governador Lindenberg | 0 | — | DOM/AMUNES |
+| Governador Lindenberg | 0 | ✓ | DOM/AMUNES |
 | Guaçuí | 0 | — | DOM/AMUNES |
 | Guarapari | 2 | ✓ | DOM/AMUNES |
 | Ibatiba | 0 | ✓ | DOM/AMUNES |
@@ -181,15 +181,15 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Itapemirim | 0 | — | DOM/AMUNES |
 | Itarana | 0 | ✓ | DOM/AMUNES |
 | Iúna | 0 | — | DOM/AMUNES |
-| Jaguaré | 0 | — | DOM/AMUNES |
+| Jaguaré | 0 | ✓ | DOM/AMUNES |
 | Jerônimo Monteiro | 0 | — | DOM/AMUNES |
 | João Neiva | 0 | ✓ | DOM/AMUNES |
 | Laranja da Terra | 0 | ✓ | DOM/AMUNES |
 | Linhares | 0 | ✓ | DOM/AMUNES |
 | Mantenópolis | 0 | ✓ | DOM/AMUNES |
-| Marataízes | 0 | — | DOM/AMUNES |
+| Marataízes | 0 | ✓ | DOM/AMUNES |
 | Marechal Floriano | 0 | ✓ | DOM/AMUNES |
-| Marilândia | 0 | — | DOM/AMUNES |
+| Marilândia | 0 | ✓ | DOM/AMUNES |
 | Mimoso do Sul | 0 | — | DOM/AMUNES |
 | Montanha | 0 | ✓ | DOM/AMUNES |
 | Mucurici | 0 | — | DOM/AMUNES |
@@ -199,8 +199,8 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Pancas | 0 | ✓ | DOM/AMUNES |
 | Pedro Canário | 0 | ✓ | DOM/AMUNES |
 | Pinheiros | 0 | ✓ | DOM/AMUNES |
-| Piúma | 0 | — | DOM/AMUNES |
-| Ponto Belo | 0 | — | DOM/AMUNES |
+| Piúma | 0 | ✓ | DOM/AMUNES |
+| Ponto Belo | 0 | ✓ | DOM/AMUNES |
 | Presidente Kennedy | 0 | ✓ | DOM/AMUNES |
 | Rio Bananal | 0 | ✓ | DOM/AMUNES |
 | Rio Novo do Sul | 0 | ✓ | DOM/AMUNES |
@@ -224,7 +224,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 04/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 06/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados

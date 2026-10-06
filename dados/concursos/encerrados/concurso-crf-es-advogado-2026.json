@@ -49,7 +49,7 @@
     "observacao": "Prova objetiva de caráter eliminatório e classificatório, no turno da manhã, em Vitória/ES. Etapa única."
   },
   "banca": "Instituto IBEST",
-  "status": "inscricoes_abertas",
+  "status": "inscricoes_encerradas",
   "regime": "clt",
   "validade": "2 anos a contar da homologação do resultado final, prorrogável uma única vez por igual período",
   "links": {
@@ -92,6 +92,11 @@
       "data": "2026-09-22",
       "status": "inscricoes_abertas",
       "observacao": "Primeiro registro no repositório."
+    },
+    {
+      "data": "2026-10-05",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento registrado automaticamente em 06/10/2026 pelo prazo do edital (05/10/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se não houve prorrogação."
     }
   ],
   "ultima_verificacao": "2026-09-25",
