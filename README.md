@@ -20,13 +20,13 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **06/10/2026** |
+| Última verificação das fontes | **07/10/2026** |
 | Oportunidades monitoradas | 53 |
 | Com inscrições abertas | 4 |
 | Vagas imediatas em aberto | 96 |
 | Concursos previstos / autorizados | 16 |
 | Registros históricos (encerrados ou em andamento) | 33 |
-| Descobertas automáticas pendentes de conferência | 12 |
+| Descobertas automáticas pendentes de conferência | 14 |
 | Municípios do ES monitorados | 78 |
 | Municípios com registro curado | 15 |
 | Municípios com ato detectado na janela da coleta | 53 |
@@ -35,7 +35,7 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Salário | Inscrições até | Prova |
 | ----- | ----- | ----: | ------: | -------------- | ----- |
-| [PMA](https://integrado.selecao.net.br/informacoes/254/) | PEB I - Professor de Educação Básica - Educação Infantil BNCC; PEB II - Professor de Educação Básica - Ensino Fundamental - Anos I... e mais 10 cargos | 64 + CR | R$ 3.600,00 a R$ 8.640,00 | 07/10/2026 **(encerra em 1 dia)** | 29/11/2026 |
+| [PMA](https://integrado.selecao.net.br/informacoes/254/) | PEB I - Professor de Educação Básica - Educação Infantil BNCC; PEB II - Professor de Educação Básica - Ensino Fundamental - Anos I... e mais 10 cargos | 64 + CR | R$ 3.600,00 a R$ 8.640,00 | 07/10/2026 **(encerra em 0 dias)** | 29/11/2026 |
 | [CREF22/ES](https://www.ibade.org.br/) | Advogado I; Analista Administrativo I e mais 1 cargo | 2 + CR | R$ 5.000,00 a R$ 5.500,00 | 20/10/2026 | 13/12/2026 |
 | [PMSMJ](https://www.institutoconsulplan.org.br/pref-smj-guarda2026) | Guarda Municipal | 30 + CR | R$ 3.763,26 | 21/10/2026 | 13/12/2026 |
 
@@ -64,7 +64,7 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Inscrições até | Fonte |
 | ----- | ----- | ----: | -------------- | ----- |
-| PMSGP | Servente; Merendeira e mais 1 cargo | CR | 08/10/2026 **(encerra em 2 dias)** | [fonte](https://www.saogabriel.es.gov.br/) |
+| PMSGP | Servente; Merendeira e mais 1 cargo | CR | 08/10/2026 **(encerra em 1 dia)** | [fonte](https://www.saogabriel.es.gov.br/) |
 
 ## Histórico (inscrições encerradas)
 
@@ -121,9 +121,11 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | SEDU | [SEDU - EDITAL DE CADASTRAMENTO Nº 33/2026 - Fase Preliminar do Processo Seletivo para CASF](https://selecao.es.gov.br/processo-seletivo/b372b0fa-7926-46df-8e7b-a7de193adcdf/sedu-edital-cadastramento-n-332026-fase-preliminar-processo-seletivo-casf) | Inscrições abertas | 02/04/2027 | oficial |
 | PMES | [DS/PMES EDITAL 004/2026 - Processo Seletivo para Contratação de Técnico em Farmácia - HPM](https://selecao.es.gov.br/processo-seletivo/25ac0486-8fd6-4110-a85c-0bc65fe9d362/dspmes-edital-0042026-processo-seletivo-contratacao-tecnico-farmacia-hpm) | Inscrições abertas | 08/10/2026 | oficial |
 | PMES | [DS/PMES EDITAL 003/2026 - Processo Seletivo para Contratação de Técnico em Laboratório/Análises Clínicas-HPM](https://selecao.es.gov.br/processo-seletivo/2bb038a7-dabc-4c6b-b945-7f5e69fd2c12/dspmes-edital-0032026-processo-seletivo-contratacao-tecnico-laboratorioanalises-clinicas-hpm) | Inscrições abertas | 08/10/2026 | oficial |
-| SESA | [SESA - EDITAL Nº 008/2026 - PROCESSO SELETIVO EMERGENCIAL - NÍVEL FUNDAMENTAL, MÉDIO E MÉDIO TÉCNICO](https://selecao.es.gov.br/processo-seletivo/79332759-9ae2-4609-9dc0-4dc030d4e281/sesa-edital-n-0082026-processo-seletivo-emergencial-nivel-fundamental-medio-medio-tecnico) | Inscrições abertas | 06/10/2026 | oficial |
-| SESA | [SESA - EDITAL Nº 006/2026 - PROCESSO SELETIVO EMERGENCIAL - MÉDICO](https://selecao.es.gov.br/processo-seletivo/bee0d13a-1da9-4f10-abfd-728072e561a0/sesa-edital-n-0062026-processo-seletivo-emergencial-medico) | Inscrições abertas | 06/10/2026 | oficial |
-| SESA | [SESA - EDITAL Nº 005/2026 - PROCESSO SELETIVO EMERGENCIAL  - LACEN - MÉDICO E NÍVEL SUPERIOR](https://selecao.es.gov.br/processo-seletivo/4f9a54a9-49b8-482e-9fc5-87a1f6b784fa/sesa-edital-n-0052026-processo-seletivo-emergencial-lacen-medico-nivel-superior) | Inscrições abertas | 06/10/2026 | oficial |
+| SESA | [SESA - EDITAL Nº 008/2026 - PROCESSO SELETIVO EMERGENCIAL - NÍVEL FUNDAMENTAL, MÉDIO E MÉDIO TÉCNICO](https://selecao.es.gov.br/processo-seletivo/79332759-9ae2-4609-9dc0-4dc030d4e281/sesa-edital-n-0082026-processo-seletivo-emergencial-nivel-fundamental-medio-medio-tecnico) | Inscrições encerradas | 06/10/2026 | oficial |
+| SESA | [SESA - EDITAL Nº 006/2026 - PROCESSO SELETIVO EMERGENCIAL - MÉDICO](https://selecao.es.gov.br/processo-seletivo/bee0d13a-1da9-4f10-abfd-728072e561a0/sesa-edital-n-0062026-processo-seletivo-emergencial-medico) | Inscrições encerradas | 06/10/2026 | oficial |
+| SESA | [SESA - EDITAL Nº 005/2026 - PROCESSO SELETIVO EMERGENCIAL  - LACEN - MÉDICO E NÍVEL SUPERIOR](https://selecao.es.gov.br/processo-seletivo/4f9a54a9-49b8-482e-9fc5-87a1f6b784fa/sesa-edital-n-0052026-processo-seletivo-emergencial-lacen-medico-nivel-superior) | Inscrições encerradas | 06/10/2026 | oficial |
+| Prefeitura de Montanha | [Prefeitura de Montanha](https://concursosnobrasil.com/concursos/es/2026/10/06/prefeitura-de-montanha-es-abre-edital-na-area-da-educacao-com-salarios-de-ate-r-34-mil/) | não informado | não informado | portal_concursos |
+| SEMMA de Vila Velha | [SEMMA de Vila Velha](https://concursosnobrasil.com/concursos/es/2026/10/07/semma-de-vila-velha-es-disponibiliza-vagas-de-ate-r-7-mil/) | não informado | não informado | portal_concursos |
 | CRECI ES | [CRECI ES](https://concursosnobrasil.com/concursos/es/2026/10/02/concurso-creci-es-tem-edital-publicado-com-abertura-de-vagas/) | não informado | não informado | portal_concursos |
 | PM ES | [PM ES](https://concursosnobrasil.com/concursos/es/2026/10/01/pm-es-esta-com-dois-novos-editais-abertos-para-nivel-tecnico/) | não informado | não informado | portal_concursos |
 | Prefeitura de João Neiva | [Prefeitura de João Neiva](https://concursosnobrasil.com/concursos/es/2026/09/30/es-prefeitura-de-joao-neiva-divulga-edital-com-vagas-de-ate-r-43-mil/) | não informado | não informado | portal_concursos |
@@ -219,12 +221,12 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Viana | 0 | ✓ | DOM/AMUNES |
 | Vila Pavão | 0 | — | DOM/AMUNES |
 | Vila Valério | 0 | — | DOM/AMUNES |
-| Vila Velha | 2 | — | DOM/AMUNES |
-| Vitória | 6 | — | DOM/AMUNES |
+| Vila Velha | 2 | ✓ | DOM/AMUNES |
+| Vitória | 6 | ✓ | DOM/AMUNES |
 
 </details>
 
-_Dados atualizados em 06/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 07/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
