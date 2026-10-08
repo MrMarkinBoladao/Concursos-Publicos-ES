@@ -78,7 +78,7 @@
   },
   "descricao": "Impressoes digitais das oportunidades, chaves dos achados da coleta e municipios cujo primeiro ato ja foi anunciado no ultimo resumo enviado. Usado para nao reenviar informacao identica. Nao contem dados sensiveis nem credenciais.",
   "impressoes": {
-    "concurso-anchieta-es-professor-2026": "167c33557aeac45a",
+    "concurso-anchieta-es-professor-2026": "a7285160ecdb2a63",
     "concurso-aracruz-es-semge-001-2026": "540bb262b3f908f6",
     "concurso-banestes-2026": "2892b84e46d4155f",
     "concurso-camara-aracruz-es-2026": "56e2f4b352e7523e",
@@ -132,5 +132,5 @@
     "ps-vitoria-es-professor-educacao-especial-021-2026": "55cffc16c36a7a2c",
     "ps-vitoria-es-professores-007-008-2026": "b1d98cee8588202a"
   },
-  "ultima_geracao": "2026-10-07"
+  "ultima_geracao": "2026-10-08"
 }

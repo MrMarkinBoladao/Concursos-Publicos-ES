@@ -159,7 +159,7 @@
     "observacao": "Provas objetiva e discursiva previstas para o mesmo dia."
   },
   "banca": "IDCAP - Instituto de Desenvolvimento e Capacitação",
-  "status": "inscricoes_abertas",
+  "status": "inscricoes_encerradas",
   "regime": "nao_informado",
   "validade": "2 anos, prorrogável por igual período, a contar da homologação do resultado final",
   "links": {
@@ -202,6 +202,11 @@
       "data": "2026-09-22",
       "status": "inscricoes_abertas",
       "observacao": "Primeiro registro no repositório."
+    },
+    {
+      "data": "2026-10-07",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento registrado automaticamente em 08/10/2026 pelo prazo do edital (07/10/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se não houve prorrogação."
     }
   ],
   "ultima_verificacao": "2026-09-25",
