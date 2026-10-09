@@ -67,7 +67,7 @@
     "observacao": "Classificação exclusivamente por avaliação de títulos, sem prova objetiva."
   },
   "banca": "não informado",
-  "status": "inscricoes_abertas",
+  "status": "inscricoes_encerradas",
   "regime": "designacao_temporaria",
   "validade": "não informado",
   "links": {
@@ -93,6 +93,11 @@
       "data": "2026-10-01",
       "status": "inscricoes_abertas",
       "observacao": "Abertura registrada automaticamente em 01/10/2026 pela data de início das inscrições (01/10/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se a abertura não foi adiada."
+    },
+    {
+      "data": "2026-10-08",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento registrado automaticamente em 09/10/2026 pelo prazo do edital (08/10/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se não houve prorrogação."
     }
   ],
   "ultima_verificacao": "2026-09-25",

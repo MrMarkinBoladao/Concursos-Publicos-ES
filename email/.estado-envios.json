@@ -6,6 +6,9 @@
     "alfredo-chaves": "2026-10-02",
     "anchieta": "2026-10-02",
     "aracruz": "2026-10-02",
+    "baixo-guandu": "2026-10-09",
+    "boa-esperanca": "2026-10-09",
+    "bom-jesus-do-norte": "2026-10-09",
     "cachoeiro-de-itapemirim": "2026-10-02",
     "cariacica": "2026-10-02",
     "castelo": "2026-10-02",
@@ -61,6 +64,7 @@
   },
   "descobertas": {
     "concursosnobrasil-es:concurso-creci-es-tem-edital-publicado-com-abertura-de-vagas": "2026-10-02",
+    "concursosnobrasil-es:concurso-prefeitura-de-iconha-es-abre-55-vagas-para-professores": "2026-10-09",
     "concursosnobrasil-es:es-prefeitura-de-joao-neiva-divulga-edital-com-vagas-de-ate-r-43-mil": "2026-09-30",
     "concursosnobrasil-es:pm-es-esta-com-dois-novos-editais-abertos-para-nivel-tecnico": "2026-10-01",
     "concursosnobrasil-es:prefeitura-de-joao-neiva-es-promove-selecao-para-profissionais-da-saude": "2026-09-28",
@@ -117,7 +121,7 @@
     "ps-pmes-es-medico-psiquiatra-002-2026": "54c47dfc92aa127e",
     "ps-samu-es-condutor-socorrista-2026": "337e289808e501d3",
     "ps-santa-teresa-es-magisterio-007-008-2026": "b94bb8386037621d",
-    "ps-sao-gabriel-da-palha-es-seme-05-2026": "ab8b5da19cab2efe",
+    "ps-sao-gabriel-da-palha-es-seme-05-2026": "6ea7dd30e8ad4598",
     "ps-sedu-es-apoio-escolar-cuidador-28-2026": "b5ec5f6a2495c172",
     "ps-sedu-es-casf-47-2025": "fd83311f88e786ed",
     "ps-sedu-es-coordenador-pedagogico-32-2025": "edf0c5182efa3234",
@@ -132,5 +136,5 @@
     "ps-vitoria-es-professor-educacao-especial-021-2026": "55cffc16c36a7a2c",
     "ps-vitoria-es-professores-007-008-2026": "b1d98cee8588202a"
   },
-  "ultima_geracao": "2026-10-08"
+  "ultima_geracao": "2026-10-09"
 }

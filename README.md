@@ -20,16 +20,16 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **08/10/2026** |
+| Última verificação das fontes | **09/10/2026** |
 | Oportunidades monitoradas | 53 |
-| Com inscrições abertas | 3 |
+| Com inscrições abertas | 2 |
 | Vagas imediatas em aberto | 32 |
 | Concursos previstos / autorizados | 16 |
-| Registros históricos (encerrados ou em andamento) | 34 |
+| Registros históricos (encerrados ou em andamento) | 35 |
 | Descobertas automáticas pendentes de conferência | 14 |
 | Municípios do ES monitorados | 78 |
 | Municípios com registro curado | 15 |
-| Municípios com ato detectado na janela da coleta | 50 |
+| Municípios com ato detectado na janela da coleta | 49 |
 
 ## Concursos com inscrições abertas
 
@@ -61,9 +61,7 @@ efetivamente relacionada ao estado.
 
 ## Processos seletivos
 
-| Órgão | Cargo | Vagas | Inscrições até | Fonte |
-| ----- | ----- | ----: | -------------- | ----- |
-| PMSGP | Servente; Merendeira e mais 1 cargo | CR | 08/10/2026 **(encerra em 0 dias)** | [fonte](https://www.saogabriel.es.gov.br/) |
+_Nenhum processo seletivo com inscrições abertas na última verificação._
 
 ## Histórico (inscrições encerradas)
 
@@ -73,6 +71,7 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | Órgão | Cargo | Vagas | Situação | Encerrou em | Fonte |
 | ----- | ----- | ----: | -------- | ----------- | ----- |
 | PMA/SEMGE | Diversos cargos das áreas Administrativa, Saúde, Fiscalização, Enge... | CR | Prova realizada | não informado | [fonte](https://idcap.selecao.net.br/informacoes/227/) |
+| PMSGP | Servente e mais 2 cargos | CR | Inscrições encerradas | 08/10/2026 | [fonte](https://www.saogabriel.es.gov.br/) |
 | PMA | PEB I - Professor de Educação Básica - Educação Infantil BNCC e mais 11 cargos | 64 + CR | Inscrições encerradas | 07/10/2026 | [fonte](https://integrado.selecao.net.br/informacoes/254/) |
 | CRF-ES | Advogado | 1 + CR | Inscrições encerradas | 05/10/2026 | [fonte](https://institutoibest.selecao.net.br/informacoes/62/) |
 | PMG/SEMTAC | Motorista e mais 4 cargos | CR | Inscrições encerradas | 02/10/2026 | [fonte](https://www.guarapari.es.gov.br/selecao/detalhes/222/edital-de-processo-seletivo-semtac-n-002-2026) |
@@ -124,10 +123,10 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | SESA | [SESA - EDITAL Nº 008/2026 - PROCESSO SELETIVO EMERGENCIAL - NÍVEL FUNDAMENTAL, MÉDIO E MÉDIO TÉCNICO](https://selecao.es.gov.br/processo-seletivo/79332759-9ae2-4609-9dc0-4dc030d4e281/sesa-edital-n-0082026-processo-seletivo-emergencial-nivel-fundamental-medio-medio-tecnico) | Inscrições encerradas | 06/10/2026 | oficial |
 | SESA | [SESA - EDITAL Nº 006/2026 - PROCESSO SELETIVO EMERGENCIAL - MÉDICO](https://selecao.es.gov.br/processo-seletivo/bee0d13a-1da9-4f10-abfd-728072e561a0/sesa-edital-n-0062026-processo-seletivo-emergencial-medico) | Inscrições encerradas | 06/10/2026 | oficial |
 | SESA | [SESA - EDITAL Nº 005/2026 - PROCESSO SELETIVO EMERGENCIAL  - LACEN - MÉDICO E NÍVEL SUPERIOR](https://selecao.es.gov.br/processo-seletivo/4f9a54a9-49b8-482e-9fc5-87a1f6b784fa/sesa-edital-n-0052026-processo-seletivo-emergencial-lacen-medico-nivel-superior) | Inscrições encerradas | 06/10/2026 | oficial |
+| Prefeitura de Iconha | [Prefeitura de Iconha](https://concursosnobrasil.com/concursos/es/2026/10/09/concurso-prefeitura-de-iconha-es-abre-55-vagas-para-professores/) | não informado | não informado | portal_concursos |
 | Prefeitura de Montanha | [Prefeitura de Montanha](https://concursosnobrasil.com/concursos/es/2026/10/06/prefeitura-de-montanha-es-abre-edital-na-area-da-educacao-com-salarios-de-ate-r-34-mil/) | não informado | não informado | portal_concursos |
 | SEMMA de Vila Velha | [SEMMA de Vila Velha](https://concursosnobrasil.com/concursos/es/2026/10/07/semma-de-vila-velha-es-disponibiliza-vagas-de-ate-r-7-mil/) | não informado | não informado | portal_concursos |
 | CRECI ES | [CRECI ES](https://concursosnobrasil.com/concursos/es/2026/10/02/concurso-creci-es-tem-edital-publicado-com-abertura-de-vagas/) | não informado | não informado | portal_concursos |
-| PM ES | [PM ES](https://concursosnobrasil.com/concursos/es/2026/10/01/pm-es-esta-com-dois-novos-editais-abertos-para-nivel-tecnico/) | não informado | não informado | portal_concursos |
 | Prefeitura de João Neiva | [Prefeitura de João Neiva](https://concursosnobrasil.com/concursos/es/2026/09/30/es-prefeitura-de-joao-neiva-divulga-edital-com-vagas-de-ate-r-43-mil/) | não informado | não informado | portal_concursos |
 | Prefeitura de João Neiva | [Prefeitura de João Neiva](https://concursosnobrasil.com/concursos/es/2026/09/28/prefeitura-de-joao-neiva-es-promove-selecao-para-profissionais-da-saude/) | não informado | não informado | portal_concursos |
 
@@ -155,10 +154,10 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Apiacá | 0 | — | DOM/AMUNES |
 | Aracruz | 2 | ✓ | DOM/AMUNES |
 | Atílio Vivácqua | 0 | — | DOM/AMUNES |
-| Baixo Guandu | 0 | — | DOM/AMUNES |
+| Baixo Guandu | 0 | ✓ | DOM/AMUNES |
 | Barra de São Francisco | 0 | — | DOM/AMUNES |
-| Boa Esperança | 0 | — | DOM/AMUNES |
-| Bom Jesus do Norte | 0 | — | DOM/AMUNES |
+| Boa Esperança | 0 | ✓ | DOM/AMUNES |
+| Bom Jesus do Norte | 0 | ✓ | DOM/AMUNES |
 | Brejetuba | 0 | — | DOM/AMUNES |
 | Cachoeiro de Itapemirim | 1 | ✓ | DOM/AMUNES |
 | Cariacica | 1 | ✓ | DOM/AMUNES |
@@ -226,7 +225,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 08/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 09/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
