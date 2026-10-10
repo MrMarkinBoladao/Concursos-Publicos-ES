@@ -20,16 +20,16 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **09/10/2026** |
+| Última verificação das fontes | **10/10/2026** |
 | Oportunidades monitoradas | 53 |
 | Com inscrições abertas | 2 |
 | Vagas imediatas em aberto | 32 |
 | Concursos previstos / autorizados | 16 |
 | Registros históricos (encerrados ou em andamento) | 35 |
-| Descobertas automáticas pendentes de conferência | 14 |
+| Descobertas automáticas pendentes de conferência | 12 |
 | Municípios do ES monitorados | 78 |
 | Municípios com registro curado | 15 |
-| Municípios com ato detectado na janela da coleta | 49 |
+| Municípios com ato detectado na janela da coleta | 45 |
 
 ## Concursos com inscrições abertas
 
@@ -127,8 +127,6 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | Prefeitura de Montanha | [Prefeitura de Montanha](https://concursosnobrasil.com/concursos/es/2026/10/06/prefeitura-de-montanha-es-abre-edital-na-area-da-educacao-com-salarios-de-ate-r-34-mil/) | não informado | não informado | portal_concursos |
 | SEMMA de Vila Velha | [SEMMA de Vila Velha](https://concursosnobrasil.com/concursos/es/2026/10/07/semma-de-vila-velha-es-disponibiliza-vagas-de-ate-r-7-mil/) | não informado | não informado | portal_concursos |
 | CRECI ES | [CRECI ES](https://concursosnobrasil.com/concursos/es/2026/10/02/concurso-creci-es-tem-edital-publicado-com-abertura-de-vagas/) | não informado | não informado | portal_concursos |
-| Prefeitura de João Neiva | [Prefeitura de João Neiva](https://concursosnobrasil.com/concursos/es/2026/09/30/es-prefeitura-de-joao-neiva-divulga-edital-com-vagas-de-ate-r-43-mil/) | não informado | não informado | portal_concursos |
-| Prefeitura de João Neiva | [Prefeitura de João Neiva](https://concursosnobrasil.com/concursos/es/2026/09/28/prefeitura-de-joao-neiva-es-promove-selecao-para-profissionais-da-saude/) | não informado | não informado | portal_concursos |
 
 ## Cobertura por município
 
@@ -225,7 +223,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 09/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 10/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
