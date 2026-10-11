@@ -1,6 +1,6 @@
 {
   "descricao": "Achados da coleta automatica. AREA DE QUARENTENA: nao e dado curado. Cada achado traz apenas o que a fonte informou. Promover para dados/ exige conferir o edital na fonte oficial.",
-  "gerado_em": "2026-10-10",
+  "gerado_em": "2026-10-11",
   "janela_dias": 90,
   "total_achados": 661,
   "ja_no_repositorio": 40,
@@ -74,7 +74,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-aries-es-analista-fiscalizacao-001-2026",
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -106,7 +106,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-aries-es-analista-fiscalizacao-001-2026",
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -138,7 +138,7 @@
       "conteudo_truncado": false,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -170,7 +170,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "concurso-cref22-es-administrativo-2026",
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -433,7 +433,7 @@
       "conteudo_truncado": false,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -531,7 +531,7 @@
       "conteudo_truncado": false,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -563,7 +563,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -595,7 +595,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -693,7 +693,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-samu-es-condutor-socorrista-2026",
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -725,7 +725,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-samu-es-condutor-socorrista-2026",
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -856,7 +856,7 @@
       "conteudo_truncado": false,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -956,7 +956,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -992,7 +992,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -1144,7 +1144,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -1183,7 +1183,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -1375,7 +1375,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -1454,7 +1454,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -1633,7 +1633,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -1667,7 +1667,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -1779,7 +1779,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -1817,7 +1817,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -1851,7 +1851,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -1885,7 +1885,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -1919,7 +1919,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -1953,7 +1953,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -1989,7 +1989,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -2023,7 +2023,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -2060,7 +2060,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -2098,7 +2098,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -2134,7 +2134,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -2168,7 +2168,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -2202,7 +2202,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -2238,7 +2238,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -2275,7 +2275,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2311,7 +2311,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2347,7 +2347,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2384,7 +2384,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2421,7 +2421,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2457,7 +2457,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2493,7 +2493,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2529,7 +2529,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2566,7 +2566,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2603,7 +2603,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2640,7 +2640,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2682,7 +2682,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2716,7 +2716,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -2752,7 +2752,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -2788,7 +2788,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -2824,7 +2824,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -4287,7 +4287,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -4321,7 +4321,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -4359,7 +4359,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -4393,7 +4393,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -4429,7 +4429,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -4764,7 +4764,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -4801,7 +4801,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -4842,7 +4842,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -4882,7 +4882,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -4920,7 +4920,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -4956,7 +4956,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -4996,7 +4996,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -5034,7 +5034,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -5319,7 +5319,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -5399,7 +5399,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -5435,7 +5435,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -5469,7 +5469,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -5503,7 +5503,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -5537,7 +5537,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -5571,7 +5571,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -5607,7 +5607,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -5641,7 +5641,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -5675,7 +5675,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -5712,7 +5712,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -5749,7 +5749,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -5786,7 +5786,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -5824,7 +5824,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -5860,7 +5860,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -5897,7 +5897,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -5935,7 +5935,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -5972,7 +5972,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -6009,7 +6009,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -6046,7 +6046,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -6080,7 +6080,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -6117,7 +6117,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -6154,7 +6154,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -6528,7 +6528,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -6564,7 +6564,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -6644,7 +6644,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -6681,7 +6681,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -6722,7 +6722,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -6760,7 +6760,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -6800,7 +6800,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -6838,7 +6838,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -6878,7 +6878,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -7033,7 +7033,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -7147,7 +7147,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -7623,7 +7623,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -7662,7 +7662,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -7696,7 +7696,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -7734,7 +7734,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -7771,7 +7771,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -7805,7 +7805,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -7839,7 +7839,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -7876,7 +7876,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -7913,7 +7913,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -7951,7 +7951,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -8065,7 +8065,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -8140,7 +8140,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -8174,7 +8174,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -8211,7 +8211,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -8401,7 +8401,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -8440,7 +8440,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -8595,7 +8595,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -8631,7 +8631,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -8665,7 +8665,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -8699,7 +8699,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -8931,7 +8931,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -8965,7 +8965,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -9002,7 +9002,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -9039,7 +9039,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -9077,7 +9077,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -9111,7 +9111,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -9147,7 +9147,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -9181,7 +9181,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -9217,7 +9217,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -9253,7 +9253,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -9287,7 +9287,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -9323,7 +9323,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -9357,7 +9357,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -9391,7 +9391,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -9425,7 +9425,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -9461,7 +9461,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -9495,7 +9495,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -9529,7 +9529,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -9563,7 +9563,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -9599,7 +9599,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -9633,7 +9633,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -9669,7 +9669,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -9703,7 +9703,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -9740,7 +9740,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -9776,7 +9776,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -9810,7 +9810,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -10553,7 +10553,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -10589,7 +10589,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -10623,7 +10623,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -10657,7 +10657,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -10808,7 +10808,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -10881,7 +10881,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -10915,7 +10915,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -10949,7 +10949,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -10983,7 +10983,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -11097,7 +11097,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -11139,7 +11139,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -11253,7 +11253,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -11405,7 +11405,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -11441,7 +11441,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -11475,7 +11475,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -11514,7 +11514,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -11554,7 +11554,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -11592,7 +11592,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -11636,7 +11636,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -11744,7 +11744,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -11817,7 +11817,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -12105,7 +12105,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -12141,7 +12141,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -12179,7 +12179,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -12215,7 +12215,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -12252,7 +12252,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -12289,7 +12289,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -12326,7 +12326,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -12363,7 +12363,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -12399,7 +12399,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -12436,7 +12436,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -12470,7 +12470,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -12508,7 +12508,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -12542,7 +12542,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -12578,7 +12578,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -12614,7 +12614,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -12648,7 +12648,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -12682,7 +12682,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -12716,7 +12716,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -12750,7 +12750,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -12786,7 +12786,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -13098,7 +13098,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -13132,7 +13132,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -13170,7 +13170,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -13209,7 +13209,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -13245,7 +13245,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -13285,7 +13285,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -13321,7 +13321,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -13358,7 +13358,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -14250,7 +14250,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -14287,7 +14287,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -14324,7 +14324,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -14361,7 +14361,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -14395,7 +14395,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -14429,7 +14429,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -14467,7 +14467,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -14503,7 +14503,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -14539,7 +14539,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -14808,7 +14808,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -14846,7 +14846,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -14883,7 +14883,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -14917,7 +14917,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -14956,7 +14956,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -14998,7 +14998,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -15273,7 +15273,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -15314,7 +15314,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -15350,7 +15350,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -15403,7 +15403,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -15437,7 +15437,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -15475,7 +15475,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -15511,7 +15511,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -15547,7 +15547,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -15583,7 +15583,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -15620,7 +15620,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -16295,7 +16295,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -16331,7 +16331,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -16368,7 +16368,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -16404,7 +16404,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -16448,7 +16448,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -16648,7 +16648,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -16685,7 +16685,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -16719,7 +16719,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -16753,7 +16753,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -16793,7 +16793,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -16830,7 +16830,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -16870,7 +16870,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -16904,7 +16904,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -16938,7 +16938,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -16972,7 +16972,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17006,7 +17006,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17042,7 +17042,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17076,7 +17076,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17110,7 +17110,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17146,7 +17146,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -17182,7 +17182,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17216,7 +17216,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17255,7 +17255,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17289,7 +17289,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17323,7 +17323,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17359,7 +17359,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17395,7 +17395,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17432,7 +17432,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17470,7 +17470,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17504,7 +17504,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17541,7 +17541,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17586,7 +17586,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17622,7 +17622,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17659,7 +17659,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17693,7 +17693,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -17727,7 +17727,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17761,7 +17761,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -17799,7 +17799,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -17838,7 +17838,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17876,7 +17876,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17910,7 +17910,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17944,7 +17944,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17982,7 +17982,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -18019,7 +18019,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -18055,7 +18055,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18089,7 +18089,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18126,7 +18126,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18163,7 +18163,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18203,7 +18203,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18237,7 +18237,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18274,7 +18274,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18308,7 +18308,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18344,7 +18344,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18383,7 +18383,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18419,7 +18419,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18453,7 +18453,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18487,7 +18487,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18526,7 +18526,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18560,7 +18560,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18596,7 +18596,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18636,7 +18636,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18678,7 +18678,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18712,7 +18712,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18749,7 +18749,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18783,7 +18783,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18819,7 +18819,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -18855,7 +18855,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18889,7 +18889,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18927,7 +18927,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18961,7 +18961,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -18995,7 +18995,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19029,7 +19029,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19063,7 +19063,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19097,7 +19097,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19131,7 +19131,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19167,7 +19167,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19204,7 +19204,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19242,7 +19242,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19278,7 +19278,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19316,7 +19316,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19350,7 +19350,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19387,7 +19387,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19425,7 +19425,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19463,7 +19463,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19501,7 +19501,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19537,7 +19537,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19573,7 +19573,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19609,7 +19609,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19653,7 +19653,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19689,7 +19689,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19723,7 +19723,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -19757,7 +19757,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -19791,7 +19791,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19825,7 +19825,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19861,7 +19861,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19897,7 +19897,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19931,7 +19931,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19965,7 +19965,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -20005,7 +20005,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -20044,7 +20044,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -20078,7 +20078,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -20116,7 +20116,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -20150,7 +20150,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -20192,7 +20192,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -20234,7 +20234,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -20272,7 +20272,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -20306,7 +20306,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -20340,7 +20340,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-10",
+      "ultima_deteccao": "2026-10-11",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -24520,7 +24520,7 @@
   "municipios_nao_mapeados": [],
   "reconciliacao_ibge": {
     "status": "ok",
-    "consultado_em": "2026-10-10",
+    "consultado_em": "2026-10-11",
     "total_ibge": 78,
     "total_cadastro": 78,
     "ausentes_no_cadastro": [],
