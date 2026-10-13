@@ -1,10 +1,10 @@
 {
   "descricao": "Achados da coleta automatica. AREA DE QUARENTENA: nao e dado curado. Cada achado traz apenas o que a fonte informou. Promover para dados/ exige conferir o edital na fonte oficial.",
-  "gerado_em": "2026-10-12",
+  "gerado_em": "2026-10-13",
   "janela_dias": 90,
-  "total_achados": 661,
+  "total_achados": 683,
   "ja_no_repositorio": 40,
-  "pendentes_de_curadoria": 621,
+  "pendentes_de_curadoria": 643,
   "fontes_consultadas": [
     {
       "id": "concursosnobrasil-es",
@@ -29,10 +29,10 @@
       "nome": "Busca do IOES - Diario Oficial dos Municipios (DOM/AMUNES)",
       "tipo": "diario_oficial",
       "status": "ok",
-      "achados": 275,
+      "achados": 256,
       "truncado": false,
       "limite_achados_atingido": false,
-      "total_relatado": 233,
+      "total_relatado": 187,
       "paginas_truncadas": 0
     },
     {
@@ -74,7 +74,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-aries-es-analista-fiscalizacao-001-2026",
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -106,7 +106,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-aries-es-analista-fiscalizacao-001-2026",
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -138,7 +138,7 @@
       "conteudo_truncado": false,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -170,7 +170,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "concurso-cref22-es-administrativo-2026",
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -433,7 +433,7 @@
       "conteudo_truncado": false,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -531,7 +531,7 @@
       "conteudo_truncado": false,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -563,7 +563,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -595,7 +595,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -693,7 +693,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-samu-es-condutor-socorrista-2026",
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -725,7 +725,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-samu-es-condutor-socorrista-2026",
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -856,7 +856,7 @@
       "conteudo_truncado": false,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -956,7 +956,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -992,7 +992,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -1144,7 +1144,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -1183,7 +1183,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -1340,6 +1340,49 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dio:montanha:11547-58",
+      "fonte_id": "ioes-busca-dio",
+      "orgao": "Prefeitura de Montanha",
+      "orgao_sigla": "não informado",
+      "titulo": "Adilson Gonçalves Ferreira Prefeito Municipal Protocolo 1884986 Nova Venécia DECRETO Nº 22.661, DE 31 DE AGOSTO DE 2026 NOMEIA CANDIDATAS APROVADAS NO CONCURSO PÚBLICO EDITAL Nº 001/2023, NO CARGO DE ",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11547/58",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "26828",
+      "editais_citados": [
+        "73/2025",
+        "74/2025",
+        "75/2025",
+        "76/2025",
+        "10/2026",
+        "10/2027",
+        "8/2025",
+        "2182/2025"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Montanha",
+      "municipio_codigo_ibge": 3203502,
+      "municipio_slug": "montanha",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
       "chave": "ioes-dio:montanha:edital-13-2026",
       "fonte_id": "ioes-busca-dio",
       "orgao": "Prefeitura de Montanha",
@@ -1375,7 +1418,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -1422,11 +1465,11 @@
       "ausente_na_fonte": true
     },
     {
-      "chave": "ioes-dio:nova-venecia:edital-1-2023",
+      "chave": "ioes-dio:mucurici:11547-58",
       "fonte_id": "ioes-busca-dio",
-      "orgao": "Prefeitura de Nova Venécia",
+      "orgao": "Prefeitura de Mucurici",
       "orgao_sigla": "não informado",
-      "titulo": "Protocolo 1883613 Nova Venécia DECRETO Nº 22.798, DE 08 DE OUTUBRO DE 2026 NOMEIA CANDIDATO APROVADO NO CONCURSO PÚBLICO EDITAL Nº 001/2023, NO CARGO DE TÉCNICO EM EDIFICAÇÕES.",
+      "titulo": "Adilson Gonçalves Ferreira Prefeito Municipal Protocolo 1884986 Nova Venécia DECRETO Nº 22.661, DE 31 DE AGOSTO DE 2026 NOMEIA CANDIDATAS APROVADAS NO CONCURSO PÚBLICO EDITAL Nº 001/2023, NO CARGO DE ",
       "esfera": "municipal",
       "tipo": "concurso_publico",
       "inscricoes": {
@@ -1434,12 +1477,85 @@
         "fim": null
       },
       "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11542/70",
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11547/58",
       "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-10-09",
-      "edicao": "26827",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "26828",
       "editais_citados": [
-        "6987/2026"
+        "2/2025",
+        "971/2025"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Mucurici",
+      "municipio_codigo_ibge": 3203601,
+      "municipio_slug": "mucurici",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
+      "chave": "ioes-dio:nova-venecia:11547-59",
+      "fonte_id": "ioes-busca-dio",
+      "orgao": "Prefeitura de Nova Venécia",
+      "orgao_sigla": "não informado",
+      "titulo": "GABINETE DO PREFEITO DE NOVA VENÉCIA, em 31 de agosto de 2026 Mário Sérgio Lubiana Prefeito Protocolo 1884930 DECRETO Nº 22.808, DE 09 DE OUTUBRO DE 2026 TORNA SEM EFEITO O DECRETO DE NOMEAÇÃO DE CAND",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11547/59",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "26828",
+      "editais_citados": [],
+      "conteudo_truncado": false,
+      "municipio": "Nova Venécia",
+      "municipio_codigo_ibge": 3203908,
+      "municipio_slug": "nova-venecia",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
+      "chave": "ioes-dio:nova-venecia:11547-60",
+      "fonte_id": "ioes-busca-dio",
+      "orgao": "Prefeitura de Nova Venécia",
+      "orgao_sigla": "não informado",
+      "titulo": "CONSIDERANDO o disposto no Edital nº 001/2023, do Concurso Público para provimento de cargos efetivos do Município de Nova Venécia; CONSIDERANDOa decisão proferida nos autos do Processo Judicial nº 50",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11547/60",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "26828",
+      "editais_citados": [
+        "5915/2024",
+        "10/2026",
+        "7/2027"
       ],
       "conteudo_truncado": false,
       "municipio": "Nova Venécia",
@@ -1454,8 +1570,8 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-02"
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
     },
     {
       "chave": "ioes-dio:nova-venecia:11515-69",
@@ -1634,7 +1750,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:serra:11532-52",
@@ -1667,7 +1784,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -1745,6 +1862,77 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dio:nova-venecia:edital-1-2023",
+      "fonte_id": "ioes-busca-dio",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Adilson Gonçalves Ferreira Prefeito Municipal Protocolo 1884986 Nova Venécia DECRETO Nº 22.661, DE 31 DE AGOSTO DE 2026 NOMEIA CANDIDATAS APROVADAS NO CONCURSO PÚBLICO EDITAL Nº 001/2023, NO CARGO DE ",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11547/58",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "26828",
+      "editais_citados": [],
+      "conteudo_truncado": false,
+      "municipio": "Nova Venécia",
+      "municipio_codigo_ibge": 3203908,
+      "municipio_slug": "nova-venecia",
+      "municipio_confianca": "baixa",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-02"
+    },
+    {
+      "chave": "ioes-dio:indeterminado:11547-60",
+      "fonte_id": "ioes-busca-dio",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "CONSIDERANDO o disposto no Edital nº 001/2023, do Concurso Público para provimento de cargos efetivos do Município de Nova Venécia; CONSIDERANDOa decisão proferida nos autos do Processo Judicial nº 50",
+      "esfera": null,
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11547/60",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "26828",
+      "editais_citados": [
+        "10/2026",
+        "2/2027"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "não informado",
+      "municipio_codigo_ibge": null,
+      "municipio_slug": null,
+      "municipio_confianca": null,
+      "municipio_escopo": "indeterminado",
+      "municipio_origem": null,
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
       "chave": "ioes-dio:anchieta:edital-17-2025",
       "fonte_id": "ioes-busca-dio",
       "orgao": "não informado",
@@ -1779,7 +1967,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -1817,7 +2005,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -1851,7 +2039,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -1885,7 +2073,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -1919,7 +2107,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -1953,7 +2141,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -1989,7 +2177,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -2023,7 +2211,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -2060,7 +2248,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -2098,7 +2286,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -2134,7 +2322,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -2168,7 +2356,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -2202,7 +2390,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -2238,7 +2426,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -2275,7 +2463,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2311,7 +2499,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2347,7 +2535,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2384,7 +2572,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2421,7 +2609,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2457,7 +2645,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2493,7 +2681,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2529,7 +2717,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2566,7 +2754,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2603,7 +2791,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2640,7 +2828,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2682,7 +2870,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -2717,7 +2905,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:governador-lindenberg:11522-38",
@@ -2753,7 +2942,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:indeterminado:edital-1-2025",
@@ -2789,7 +2979,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:indeterminado:11522-43",
@@ -2825,7 +3016,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:indeterminado:11521-57",
@@ -4287,7 +4479,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -4321,7 +4513,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -4359,7 +4551,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -4393,7 +4585,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -4429,7 +4621,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -4764,7 +4956,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -4801,7 +4993,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -4842,7 +5034,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -4882,7 +5074,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -4920,7 +5112,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -4956,7 +5148,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -4996,7 +5188,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -5035,7 +5227,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:aracruz:edital-9-2026",
@@ -5286,6 +5479,88 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dom:cachoeiro-de-itapemirim:edital-5-2024",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Cachoeiro de Itapemirim",
+      "orgao_sigla": "não informado",
+      "titulo": "João Bley, nº 350, Nossa Senhora da Aparecida, no Município de Castelo, Estado do Espírito Santo, no Cargo de Professor M - 25h/a, com início em 06 de julho de 2026, do Processo Seletivo nº 05/2024, o",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/98",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "565/2026",
+        "1408/2026",
+        "9/2026",
+        "1407/2026",
+        "627/2025",
+        "1415/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Cachoeiro de Itapemirim",
+      "municipio_codigo_ibge": 3201209,
+      "municipio_slug": "cachoeiro-de-itapemirim",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
+      "chave": "ioes-dom:cachoeiro-de-itapemirim:edital-6-2025",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Cachoeiro de Itapemirim",
+      "orgao_sigla": "não informado",
+      "titulo": "Nossa Senhora da Penha, nº 278, Centro, no Município de Castelo, Estado do Espírito Santo, no Cargo de Professor E - matemática - 18h/a, com início em 01 de julho de 2026, do Processo Seletivo nº 06/2",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/101",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "544/2026",
+        "1412/2026",
+        "654/2025",
+        "5/2024",
+        "1417/2026",
+        "341/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Cachoeiro de Itapemirim",
+      "municipio_codigo_ibge": 3201209,
+      "municipio_slug": "cachoeiro-de-itapemirim",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-02"
+    },
+    {
       "chave": "ioes-dom:cachoeiro-de-itapemirim:11536-112",
       "fonte_id": "ioes-busca-dom",
       "orgao": "Prefeitura de Cachoeiro de Itapemirim",
@@ -5319,15 +5594,15 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
-      "chave": "ioes-dom:cachoeiro-de-itapemirim:edital-6-2025",
+      "chave": "ioes-dom:castelo:edital-5-2024",
       "fonte_id": "ioes-busca-dom",
-      "orgao": "Prefeitura de Cachoeiro de Itapemirim",
+      "orgao": "Prefeitura de Castelo",
       "orgao_sigla": "não informado",
-      "titulo": "XX4-ES, residente e domiciliada à Rua Felinto Alves Pacheco, s/nº , Conduru, no Município de Cachoeiro de Itapemirim, Estado do Espírito Santo, no Cargo de Professor P -Pedagogo - 40 h/a, com início e",
+      "titulo": "XXX.XXX-XX, RG 1.XXX.XXX-ES, residente e domiciliada na Rua Narciso Fracaroli, nº 100, Bairro Santa Monica, no Município de Castelo, Estado do Espírito Santo, no Cargo de Professor M - 35 h/a, com iní",
       "esfera": "municipal",
       "tipo": "processo_seletivo_simplificado",
       "inscricoes": {
@@ -5335,23 +5610,22 @@
         "fim": null
       },
       "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11519/91",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/96",
       "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-10-02",
-      "edicao": "3100",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
       "editais_citados": [
-        "418/2026",
-        "120/2026",
-        "677/2026",
-        "341/2025",
-        "4/2023",
-        "415/2026",
-        "272/2025"
+        "155/2026",
+        "1176/2026",
+        "159/2026",
+        "1413/2026",
+        "389/2026",
+        "1409/2026"
       ],
       "conteudo_truncado": false,
-      "municipio": "Cachoeiro de Itapemirim",
-      "municipio_codigo_ibge": 3201209,
-      "municipio_slug": "cachoeiro-de-itapemirim",
+      "municipio": "Castelo",
+      "municipio_codigo_ibge": 3201407,
+      "municipio_slug": "castelo",
       "municipio_confianca": "alta",
       "municipio_escopo": "municipal",
       "municipio_origem": "nome",
@@ -5361,9 +5635,267 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-08",
-      "primeira_deteccao": "2026-10-02",
-      "ausente_na_fonte": true
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-02"
+    },
+    {
+      "chave": "ioes-dom:castelo:edital-6-2025",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Castelo",
+      "orgao_sigla": "não informado",
+      "titulo": "Nossa Senhora da Penha, nº 278, Centro, no Município de Castelo, Estado do Espírito Santo, no Cargo de Professor E - matemática - 18h/a, com início em 01 de julho de 2026, do Processo Seletivo nº 06/2",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/101",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "544/2026",
+        "1412/2026",
+        "654/2025",
+        "5/2024",
+        "1417/2026",
+        "341/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Castelo",
+      "municipio_codigo_ibge": 3201407,
+      "municipio_slug": "castelo",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-02"
+    },
+    {
+      "chave": "ioes-dom:castelo:edital-5-2025",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Castelo",
+      "orgao_sigla": "não informado",
+      "titulo": "Seletivo nº 05/2025, autorizado através do Processo Administrativo nº 021447/2026, oriundo da Secretaria Municipal de Educação, a partir de 05 de outubro de 2026.",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/102",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "341/2026",
+        "1447/2026",
+        "384/2026",
+        "1397/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Castelo",
+      "municipio_codigo_ibge": 3201407,
+      "municipio_slug": "castelo",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-02"
+    },
+    {
+      "chave": "ioes-dom:castelo:edital-635-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Castelo",
+      "orgao_sigla": "não informado",
+      "titulo": "Seletivo nº 05/2025, autorizado através do Processo Administrativo nº 021447/2026, oriundo da Secretaria Municipal de Educação, a partir de 05 de outubro de 2026.",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/102",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "5/2025"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Castelo",
+      "municipio_codigo_ibge": 3201407,
+      "municipio_slug": "castelo",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
+      "chave": "ioes-dom:castelo:11546-110",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Castelo",
+      "orgao_sigla": "não informado",
+      "titulo": "CONTRATANTE: MUNICÍPIO DE CASTELO/ES CONTRATADO: RONALDO DE SOUZA AMARAL OBJETO: Constitui objeto do presente instrumento a contratação do profissional Assistente Técnico Tributário, oriundo do Proces",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/110",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [],
+      "conteudo_truncado": false,
+      "municipio": "Castelo",
+      "municipio_codigo_ibge": 3201407,
+      "municipio_slug": "castelo",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
+      "chave": "ioes-dom:castelo:edital-1329-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Castelo",
+      "orgao_sigla": "não informado",
+      "titulo": "CONTRATANTE: MUNICÍPIO DE CASTELO/ES CONTRATADO: RONALDO DE SOUZA AMARAL OBJETO: Constitui objeto do presente instrumento a contratação do profissional Assistente Técnico Tributário, oriundo do Proces",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/110",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "1329/2026",
+        "5/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Castelo",
+      "municipio_codigo_ibge": 3201407,
+      "municipio_slug": "castelo",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
+      "chave": "ioes-dom:castelo:11546-111",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Castelo",
+      "orgao_sigla": "não informado",
+      "titulo": "CLÁUSULA QUARTA - Nos moldes do § 4º, art. 7º, Lei nº 4.150, de 18 de maio de 2022, o contrato poderá ser encerrado ou alterado caso ocorra variação no número de matrículas, reordenamento de turmas, i",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/111",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "150/2022"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Castelo",
+      "municipio_codigo_ibge": 3201407,
+      "municipio_slug": "castelo",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
+      "chave": "ioes-dom:castelo:11546-112",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Castelo",
+      "orgao_sigla": "não informado",
+      "titulo": "CLÁUSULA QUARTA - Nos moldes do § 4º, art. 7º, Lei nº 4.150, de 18 de maio de 2022, o contrato poderá ser encerrado ou alterado caso ocorra variação no número de matrículas, reordenamento de turmas, i",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/112",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "150/2022"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Castelo",
+      "municipio_codigo_ibge": 3201407,
+      "municipio_slug": "castelo",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
     },
     {
       "chave": "ioes-dom:castelo:edital-136-2026",
@@ -5399,7 +5931,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -5435,7 +5967,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -5469,7 +6001,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -5503,7 +6035,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -5537,7 +6069,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -5571,7 +6103,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -5607,7 +6139,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -5641,7 +6173,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -5675,45 +6207,8 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
-    },
-    {
-      "chave": "ioes-dom:castelo:edital-5-2025",
-      "fonte_id": "ioes-busca-dom",
-      "orgao": "Prefeitura de Castelo",
-      "orgao_sigla": "não informado",
-      "titulo": "Parágrafo Único: O presente contrato poderá ser rescindido antes do prazo pactuado, desde que o CONTRATADO se mostre inabilitado para a prática dos serviços contratados ou infrinja qualquer das cláusu",
-      "esfera": "municipal",
-      "tipo": "concurso_publico",
-      "inscricoes": {
-        "inicio": null,
-        "fim": null
-      },
-      "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11536/92",
-      "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-10-08",
-      "edicao": "3104",
-      "editais_citados": [
-        "629/2026",
-        "150/2022"
-      ],
-      "conteudo_truncado": false,
-      "municipio": "Castelo",
-      "municipio_codigo_ibge": 3201407,
-      "municipio_slug": "castelo",
-      "municipio_confianca": "alta",
-      "municipio_escopo": "municipal",
-      "municipio_origem": "nome",
-      "orgao_vinculado_id": null,
-      "fonte_tipo": "diario_oficial",
-      "uf": "ES",
-      "status_estimado": null,
-      "no_repositorio": false,
-      "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-02"
     },
     {
       "chave": "ioes-dom:castelo:edital-630-2026",
@@ -5749,7 +6244,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -5786,46 +6281,8 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
-    },
-    {
-      "chave": "ioes-dom:castelo:edital-5-2024",
-      "fonte_id": "ioes-busca-dom",
-      "orgao": "Prefeitura de Castelo",
-      "orgao_sigla": "não informado",
-      "titulo": "qualificado no campo 02 (dois) chamado simplesmente CONTRATADO, têm entre si ajustado a prestação dos serviços descritos e caracterizados no campo 03 (três), nos termos da Lei Municipal nº 4.150/2022,",
-      "esfera": "municipal",
-      "tipo": "processo_seletivo_simplificado",
-      "inscricoes": {
-        "inicio": null,
-        "fim": null
-      },
-      "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11536/95",
-      "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-10-08",
-      "edicao": "3104",
-      "editais_citados": [
-        "620/2026",
-        "150/2022",
-        "618/2026"
-      ],
-      "conteudo_truncado": false,
-      "municipio": "Castelo",
-      "municipio_codigo_ibge": 3201407,
-      "municipio_slug": "castelo",
-      "municipio_confianca": "alta",
-      "municipio_escopo": "municipal",
-      "municipio_origem": "nome",
-      "orgao_vinculado_id": null,
-      "fonte_tipo": "diario_oficial",
-      "uf": "ES",
-      "status_estimado": null,
-      "no_repositorio": false,
-      "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-02"
     },
     {
       "chave": "ioes-dom:castelo:11536-107",
@@ -5860,7 +6317,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -5897,7 +6354,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -5935,7 +6392,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -5972,7 +6429,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -6009,7 +6466,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -6046,7 +6503,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -6081,7 +6538,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:castelo:edital-613-2026",
@@ -6118,44 +6576,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
-    },
-    {
-      "chave": "ioes-dom:castelo:edital-6-2025",
-      "fonte_id": "ioes-busca-dom",
-      "orgao": "Prefeitura de Castelo",
-      "orgao_sigla": "não informado",
-      "titulo": "Parágrafo Único: O prazo do término do contrato previsto nesta cláusula poderá ser rescindido quando da nomeação de candidato aprovado em Concurso Público Municipal. CLÁUSULA QUARTA: O CONTRATADO deve",
-      "esfera": "municipal",
-      "tipo": "concurso_publico",
-      "inscricoes": {
-        "inicio": null,
-        "fim": null
-      },
-      "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11524/40",
-      "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-10-05",
-      "edicao": "3101",
-      "editais_citados": [
-        "602/2026",
-        "150/2022"
-      ],
-      "conteudo_truncado": false,
-      "municipio": "Castelo",
-      "municipio_codigo_ibge": 3201407,
-      "municipio_slug": "castelo",
-      "municipio_confianca": "alta",
-      "municipio_escopo": "municipal",
-      "municipio_origem": "nome",
-      "orgao_vinculado_id": null,
-      "fonte_tipo": "diario_oficial",
-      "uf": "ES",
-      "status_estimado": null,
-      "no_repositorio": false,
-      "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-02"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:castelo:11519-50",
@@ -6496,6 +6918,42 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dom:colatina:11546-112",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Colatina",
+      "orgao_sigla": "não informado",
+      "titulo": "CLÁUSULA QUARTA - Nos moldes do § 4º, art. 7º, Lei nº 4.150, de 18 de maio de 2022, o contrato poderá ser encerrado ou alterado caso ocorra variação no número de matrículas, reordenamento de turmas, i",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/112",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "879/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Colatina",
+      "municipio_codigo_ibge": 3201506,
+      "municipio_slug": "colatina",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
       "chave": "ioes-dom:colatina:edital-7-2025",
       "fonte_id": "ioes-busca-dom",
       "orgao": "Prefeitura de Colatina",
@@ -6528,7 +6986,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -6564,7 +7022,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -6644,7 +7102,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -6681,7 +7139,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -6722,7 +7180,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -6760,7 +7218,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -6800,7 +7258,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -6838,7 +7296,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -6878,7 +7336,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -7033,7 +7491,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -7114,6 +7572,80 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dom:fundao:11546-155",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Fundão",
+      "orgao_sigla": "não informado",
+      "titulo": "Paulo Vitor Duarte Broetto Secretário Municipal de Administração Protocolo 1885138 DECRETO Nº 1404/2026 Dispõe sobre HOMOLOGAÇÃO do resultado final do Processo Seletivo, realizado pela Secretaria Muni",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/155",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "1400/2026",
+        "571/2025",
+        "2026/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Fundão",
+      "municipio_codigo_ibge": 3202207,
+      "municipio_slug": "fundao",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
+      "chave": "ioes-dom:fundao:edital-3-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Fundão",
+      "orgao_sigla": "não informado",
+      "titulo": "DOM/ES - Edição Nº3.106 156 O Prefeito do Município de Fundão (ES), no uso de suas atribuições legais constante dos incisos VI e IX do art. 55 da Lei Orgânica Municipal; CONSIDERANDO a realização pela",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/156",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "1404/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Fundão",
+      "municipio_codigo_ibge": 3202207,
+      "municipio_slug": "fundao",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
       "chave": "ioes-dom:fundao:11540-167",
       "fonte_id": "ioes-busca-dom",
       "orgao": "Prefeitura de Fundão",
@@ -7147,7 +7679,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -7623,7 +8155,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -7662,7 +8194,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -7696,7 +8228,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -7734,7 +8266,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -7771,7 +8303,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -7805,7 +8337,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -7839,7 +8371,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -7876,7 +8408,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -7914,7 +8446,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:guarapari:11524-100",
@@ -7952,7 +8485,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:guarapari:edital-5-2025",
@@ -8065,7 +8599,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -8140,7 +8674,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -8174,7 +8708,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -8212,7 +8746,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:iconha:11519-236",
@@ -8401,7 +8936,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -8441,7 +8976,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:itaguacu:edital-1-2026",
@@ -8595,7 +9131,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -8631,7 +9167,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -8665,7 +9201,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -8699,7 +9235,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -8931,7 +9467,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -8965,7 +9501,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -9002,7 +9538,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -9039,7 +9575,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -9077,7 +9613,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -9111,7 +9647,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -9147,7 +9683,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -9181,7 +9717,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -9217,7 +9753,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -9253,7 +9789,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -9287,7 +9823,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -9323,7 +9859,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -9357,7 +9893,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -9391,7 +9927,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -9425,7 +9961,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -9461,7 +9997,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -9495,7 +10031,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -9529,7 +10065,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -9563,7 +10099,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -9599,7 +10135,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -9633,7 +10169,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -9669,7 +10205,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -9703,7 +10239,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -9740,7 +10276,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -9777,7 +10313,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:joao-neiva:11524-122",
@@ -9811,7 +10348,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:joao-neiva:11519-256",
@@ -10553,7 +11091,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -10589,7 +11127,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -10623,7 +11161,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -10658,7 +11196,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:laranja-da-terra:edital-2-2025",
@@ -10808,7 +11347,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -10881,7 +11420,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -10915,7 +11454,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -10949,7 +11488,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -10983,7 +11522,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -11069,7 +11608,7 @@
       "fonte_id": "ioes-busca-dom",
       "orgao": "Prefeitura de Nova Venécia",
       "orgao_sigla": "não informado",
-      "titulo": "DOM/ES - Edição Nº3.105 240 sexta-feira, 9 de Outubro de 2026 Nova Venécia Decreto DECRETO Nº 22.798, DE 08 DE OUTUBRO DE 2026 NOMEIA CANDIDATO APROVADO NO CONCURSO PÚBLICO EDITAL Nº 001/2023, NO CARG",
+      "titulo": "DOM/ES - Edição Nº3.106 201 terça-feira, 13 de Outubro de 2026 Nova Venécia Decreto DECRETO Nº 22.661, DE 31 DE AGOSTO DE 2026 NOMEIA CANDIDATAS APROVADAS NO CONCURSO PÚBLICO EDITAL Nº 001/2023, NO CA",
       "esfera": "municipal",
       "tipo": "concurso_publico",
       "inscricoes": {
@@ -11077,13 +11616,11 @@
         "fim": null
       },
       "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11540/240",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/201",
       "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-10-09",
-      "edicao": "3105",
-      "editais_citados": [
-        "6987/2026"
-      ],
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [],
       "conteudo_truncado": false,
       "municipio": "Nova Venécia",
       "municipio_codigo_ibge": 3203908,
@@ -11097,7 +11634,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -11140,7 +11677,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:nova-venecia:edital-9-2026",
@@ -11253,7 +11791,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -11405,7 +11943,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -11441,7 +11979,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -11475,7 +12013,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -11514,7 +12052,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -11554,7 +12092,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -11592,7 +12130,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -11636,7 +12174,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -11744,7 +12282,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -11817,7 +12355,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -12105,7 +12643,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -12141,7 +12679,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -12179,7 +12717,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -12215,7 +12753,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -12252,7 +12790,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -12289,7 +12827,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -12326,7 +12864,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -12363,7 +12901,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -12399,7 +12937,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -12436,7 +12974,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -12470,7 +13008,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -12509,7 +13047,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-maria-de-jetiba:11524-143",
@@ -12543,7 +13082,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-maria-de-jetiba:11524-144",
@@ -12579,7 +13119,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-maria-de-jetiba:11524-145",
@@ -12615,7 +13156,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-maria-de-jetiba:11524-148",
@@ -12649,7 +13191,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-maria-de-jetiba:11524-149",
@@ -12683,7 +13226,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-maria-de-jetiba:edital-10-2026",
@@ -12717,7 +13261,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-02"
+      "primeira_deteccao": "2026-10-02",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-maria-de-jetiba:11524-175",
@@ -12751,7 +13296,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-maria-de-jetiba:edital-59-2026",
@@ -12787,7 +13333,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-maria-de-jetiba:edital-1-2023",
@@ -13098,7 +13645,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -13132,7 +13679,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -13170,7 +13717,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -13209,7 +13756,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -13245,7 +13792,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -13286,7 +13833,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-teresa:edital-143-2026",
@@ -13322,7 +13870,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-teresa:edital-398-2026",
@@ -13359,7 +13908,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-02"
+      "primeira_deteccao": "2026-10-02",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-teresa:11519-287",
@@ -14250,7 +14800,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -14287,7 +14837,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -14324,7 +14874,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -14361,7 +14911,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -14395,7 +14945,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -14429,7 +14979,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -14467,7 +15017,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -14503,7 +15053,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -14540,7 +15090,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:sao-gabriel-da-palha:11519-269",
@@ -14606,41 +15157,6 @@
       "editais_citados": [
         "10/2026"
       ],
-      "conteudo_truncado": false,
-      "municipio": "São Gabriel da Palha",
-      "municipio_codigo_ibge": 3204708,
-      "municipio_slug": "sao-gabriel-da-palha",
-      "municipio_confianca": "alta",
-      "municipio_escopo": "municipal",
-      "municipio_origem": "nome",
-      "orgao_vinculado_id": null,
-      "fonte_tipo": "diario_oficial",
-      "uf": "ES",
-      "status_estimado": null,
-      "no_repositorio": false,
-      "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-02",
-      "primeira_deteccao": "2026-10-02",
-      "ausente_na_fonte": true
-    },
-    {
-      "chave": "ioes-dom:sao-gabriel-da-palha:edital-10-2026",
-      "fonte_id": "ioes-busca-dom",
-      "orgao": "Prefeitura de São Gabriel da Palha",
-      "orgao_sigla": "não informado",
-      "titulo": "O recurso para a revisão dos pontos obtidos na classificação deverá ser solicitado pelo candidato, por escrito, conforme Anexo IV deste Edital, à Comissão Especial encarregada de acompanhar o Processo",
-      "esfera": "municipal",
-      "tipo": "processo_seletivo_simplificado",
-      "inscricoes": {
-        "inicio": null,
-        "fim": null
-      },
-      "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11503/318",
-      "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-09-25",
-      "edicao": "3095",
-      "editais_citados": [],
       "conteudo_truncado": false,
       "municipio": "São Gabriel da Palha",
       "municipio_codigo_ibge": 3204708,
@@ -14808,7 +15324,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -14846,7 +15362,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -14883,7 +15399,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -14917,7 +15433,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -14956,7 +15472,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -14998,7 +15514,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -15239,6 +15755,47 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dom:viana:edital-10-2022",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Viana",
+      "orgao_sigla": "não informado",
+      "titulo": "RESOLVE: Art. 1º Homologar o Estágio Probatório e declarar estável o (a) Servidor (a) VINICIUS TONETO DE FREITAS, matrícula funcional nº 033032-04, no cargo de Provimento Efetivo de Guarda Municipal, ",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/283",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "762/2026",
+        "1105/2026",
+        "715/2026",
+        "10/2026",
+        "763/2026",
+        "3138/2023"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Viana",
+      "municipio_codigo_ibge": 3205101,
+      "municipio_slug": "viana",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-02"
+    },
+    {
       "chave": "ioes-dom:viana:11540-329",
       "fonte_id": "ioes-busca-dom",
       "orgao": "Prefeitura de Viana",
@@ -15273,49 +15830,8 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
-    },
-    {
-      "chave": "ioes-dom:viana:edital-10-2022",
-      "fonte_id": "ioes-busca-dom",
-      "orgao": "Prefeitura de Viana",
-      "orgao_sigla": "não informado",
-      "titulo": "RESOLVE: Art. 1º Homologar o Estágio Probatório e declarar estável o (a) Servidor (a) GABRIEL DA SILVA PINHEIRO, matrícula funcional nº 034058-02, no cargo de Provimento Efetivo de Guarda Municipal, a",
-      "esfera": "municipal",
-      "tipo": "concurso_publico",
-      "inscricoes": {
-        "inicio": null,
-        "fim": null
-      },
-      "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11540/329",
-      "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-10-09",
-      "edicao": "3105",
-      "editais_citados": [
-        "760/2026",
-        "4439/2026",
-        "3/2026",
-        "4/2025",
-        "761/2026",
-        "3071/2023"
-      ],
-      "conteudo_truncado": false,
-      "municipio": "Viana",
-      "municipio_codigo_ibge": 3205101,
-      "municipio_slug": "viana",
-      "municipio_confianca": "alta",
-      "municipio_escopo": "municipal",
-      "municipio_origem": "nome",
-      "orgao_vinculado_id": null,
-      "fonte_tipo": "diario_oficial",
-      "uf": "ES",
-      "status_estimado": null,
-      "no_repositorio": false,
-      "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-02"
     },
     {
       "chave": "ioes-dom:viana:edital-1-2026",
@@ -15350,7 +15866,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -15403,7 +15919,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -15437,7 +15953,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -15475,7 +15991,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -15511,7 +16027,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -15547,7 +16063,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -15583,7 +16099,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -15621,7 +16137,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:viana:edital-8-2025",
@@ -16295,7 +16812,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -16331,7 +16848,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -16368,7 +16885,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -16404,7 +16921,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -16448,7 +16965,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -16614,6 +17131,375 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dom:domingos-martins:edital-5-2024",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "XXX.XXX-XX, RG 1.XXX.XXX-ES, residente e domiciliada na Rua Narciso Fracaroli, nº 100, Bairro Santa Monica, no Município de Castelo, Estado do Espírito Santo, no Cargo de Professor M - 35 h/a, com iní",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/96",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "155/2026",
+        "1176/2026",
+        "159/2026",
+        "1413/2026",
+        "389/2026",
+        "1409/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Domingos Martins",
+      "municipio_codigo_ibge": 3201902,
+      "municipio_slug": "domingos-martins",
+      "municipio_confianca": "baixa",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
+      "chave": "ioes-dom:muniz-freire:11546-111",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "CLÁUSULA QUARTA - Nos moldes do § 4º, art. 7º, Lei nº 4.150, de 18 de maio de 2022, o contrato poderá ser encerrado ou alterado caso ocorra variação no número de matrículas, reordenamento de turmas, i",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/111",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "157/2026",
+        "150/2022",
+        "469/2025"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Muniz Freire",
+      "municipio_codigo_ibge": 3203700,
+      "municipio_slug": "muniz-freire",
+      "municipio_confianca": "baixa",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
+      "chave": "ioes-dom:domingos-martins:11546-130",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Art. 1º autoriza a liberação de suas atividades, para prestar prova de concurso Público em Curitiba PR, ao servidor Marcos Antônio de Almeida Silva, ocupante do cargo de Cirurgião Dentista, lotado no ",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/130",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "3637/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Domingos Martins",
+      "municipio_codigo_ibge": 3201902,
+      "municipio_slug": "domingos-martins",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
+      "chave": "ioes-dom:domingos-martins:edital-3639-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Art. 1º autoriza a liberação de suas atividades, para prestar prova de concurso Público em Curitiba PR, ao servidor Marcos Antônio de Almeida Silva, ocupante do cargo de Cirurgião Dentista, lotado no ",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/130",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "249/2026",
+        "56/2022",
+        "3873/2026",
+        "571/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Domingos Martins",
+      "municipio_codigo_ibge": 3201902,
+      "municipio_slug": "domingos-martins",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
+      "chave": "ioes-dom:indeterminado:edital-1404-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Paulo Vitor Duarte Broetto Secretário Municipal de Administração Protocolo 1885138 DECRETO Nº 1404/2026 Dispõe sobre HOMOLOGAÇÃO do resultado final do Processo Seletivo, realizado pela Secretaria Muni",
+      "esfera": null,
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/155",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "3/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "não informado",
+      "municipio_codigo_ibge": null,
+      "municipio_slug": null,
+      "municipio_confianca": null,
+      "municipio_escopo": "indeterminado",
+      "municipio_origem": null,
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
+      "chave": "ioes-dom:muqui:11546-198",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "O preenchimento das vagas de regência e gestão em tempo integral dará preferência aos servidores efetivos do Quadro do Magistério Público Municipal, mediante processo seletivo interno",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/198",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "7/2025",
+        "640/2023"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Muqui",
+      "municipio_codigo_ibge": 3203809,
+      "municipio_slug": "muqui",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
+      "chave": "ioes-dom:sao-gabriel-da-palha:edital-10-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "JOSÉ LUIZ VIAL Secretário Municipal de Cultura e Arte Protocolo 1884681 EDITAL DE PROCESSO SELETIVO PARA CADASTRO DE RESERVA DE CARGOS ADMINISTRATIVOS, NO ÂMBITO DA ADMINISTRAÇÃO PÚBLICA MUNICIPAL/ SE",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/232",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "1/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "São Gabriel da Palha",
+      "municipio_codigo_ibge": 3204708,
+      "municipio_slug": "sao-gabriel-da-palha",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-02"
+    },
+    {
+      "chave": "ioes-dom:indeterminado:edital-5-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "JOSÉ LUIZ VIAL Secretário Municipal de Cultura e Arte Protocolo 1884681 EDITAL DE PROCESSO SELETIVO PARA CADASTRO DE RESERVA DE CARGOS ADMINISTRATIVOS, NO ÂMBITO DA ADMINISTRAÇÃO PÚBLICA MUNICIPAL/ SE",
+      "esfera": null,
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/232",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [],
+      "conteudo_truncado": false,
+      "municipio": "não informado",
+      "municipio_codigo_ibge": null,
+      "municipio_slug": null,
+      "municipio_confianca": null,
+      "municipio_escopo": "indeterminado",
+      "municipio_origem": null,
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-02"
+    },
+    {
+      "chave": "ioes-dom:sao-gabriel-da-palha:11546-237",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "CAPAZ MARIA APARECIDA MAJOLE CONCEIÇÃO OLIVEIRA AFONSA PEREIRA DA SILVA GLESLEI DOS SANTOS PIMENTA ANA LUCIA DE PAIVA MAXSUELEN DE ALMEIDA LUDMILA LOPES GONÇALVES DA SILVA ANDRADE ADRIANA BENTO FERNAN",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/237",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "500/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "São Gabriel da Palha",
+      "municipio_codigo_ibge": 3204708,
+      "municipio_slug": "sao-gabriel-da-palha",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
+      "chave": "ioes-dom:viana:11546-283",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "RESOLVE: Art. 1º Homologar o Estágio Probatório e declarar estável o (a) Servidor (a) VINICIUS TONETO DE FREITAS, matrícula funcional nº 033032-04, no cargo de Provimento Efetivo de Guarda Municipal, ",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/283",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-10-13",
+      "edicao": "3106",
+      "editais_citados": [
+        "10/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Viana",
+      "municipio_codigo_ibge": 3205101,
+      "municipio_slug": "viana",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-10-13",
+      "primeira_deteccao": "2026-10-13"
+    },
+    {
       "chave": "ioes-dom:indeterminado:11540-69",
       "fonte_id": "ioes-busca-dom",
       "orgao": "não informado",
@@ -16648,7 +17534,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -16685,7 +17571,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -16719,7 +17605,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -16753,7 +17639,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -16793,7 +17679,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -16830,7 +17716,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -16870,7 +17756,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -16904,7 +17790,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -16938,7 +17824,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -16972,7 +17858,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17006,7 +17892,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17042,7 +17928,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17076,7 +17962,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17110,7 +17996,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17146,7 +18032,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -17182,7 +18068,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17216,7 +18102,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17255,7 +18141,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17289,7 +18175,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17323,7 +18209,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17359,7 +18245,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17395,7 +18281,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -17432,7 +18318,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17470,7 +18356,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17504,7 +18390,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17541,7 +18427,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17586,7 +18472,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17622,7 +18508,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17659,7 +18545,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17693,7 +18579,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -17727,7 +18613,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17761,7 +18647,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -17799,7 +18685,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -17838,7 +18724,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17876,7 +18762,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17910,7 +18796,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17944,7 +18830,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -17982,7 +18868,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -18019,7 +18905,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -18055,7 +18941,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18089,7 +18975,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18126,7 +19012,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18163,7 +19049,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18203,7 +19089,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18237,7 +19123,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18274,7 +19160,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18308,7 +19194,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18344,7 +19230,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18383,7 +19269,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18419,7 +19305,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18453,7 +19339,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18487,7 +19373,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18526,7 +19412,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18560,7 +19446,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18596,7 +19482,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18636,7 +19522,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18678,7 +19564,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18712,7 +19598,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18749,7 +19635,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18783,7 +19669,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18819,7 +19705,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -18855,7 +19741,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18889,7 +19775,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18927,7 +19813,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -18961,7 +19847,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -18995,7 +19881,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19029,7 +19915,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19063,7 +19949,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19097,7 +19983,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19131,7 +20017,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19167,7 +20053,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19204,7 +20090,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19242,7 +20128,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19278,7 +20164,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19316,7 +20202,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19350,7 +20236,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19387,7 +20273,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19425,7 +20311,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19463,7 +20349,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19501,7 +20387,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19537,7 +20423,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19573,7 +20459,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19609,7 +20495,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19653,7 +20539,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19689,7 +20575,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19723,7 +20609,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -19757,7 +20643,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -19791,7 +20677,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19825,7 +20711,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-12",
+      "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -19862,7 +20748,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:aracruz:11524-28",
@@ -19898,7 +20785,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:guarapari:11524-98",
@@ -19932,7 +20820,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:indeterminado:11524-100",
@@ -19966,7 +20855,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:ibiracu:11524-100",
@@ -20006,7 +20896,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:iconha:11524-107",
@@ -20045,7 +20936,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:indeterminado:11524-121",
@@ -20079,7 +20971,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:joao-neiva:edital-848-2026",
@@ -20117,7 +21010,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:indeterminado:11524-124",
@@ -20151,7 +21045,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:marilandia:11524-129",
@@ -20193,7 +21088,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:pancas:11524-129",
@@ -20235,7 +21131,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-teresa:edital-5-2026",
@@ -20273,7 +21170,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-02"
+      "primeira_deteccao": "2026-10-02",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:indeterminado:11524-146",
@@ -20307,7 +21205,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:indeterminado:11524-157",
@@ -20341,7 +21240,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-12",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:indeterminado:11519-52",
@@ -23346,41 +24246,6 @@
       "ausente_na_fonte": true
     },
     {
-      "chave": "ioes-dom:indeterminado:edital-5-2026",
-      "fonte_id": "ioes-busca-dom",
-      "orgao": "não informado",
-      "orgao_sigla": "não informado",
-      "titulo": "DOM/ES - Edição Nº3.095 322 sexta-feira, 25 de Setembro de 2026 ANEXO III EDITAL DE PROCESSO SELETIVO PARA CADASTRO DE RESERVA DE CARGOS ADMINISTRATIVOS, NO ÂMBITO DA ADMINISTRAÇÃO PÚBLICA MUNICIPAL/S",
-      "esfera": null,
-      "tipo": "processo_seletivo_simplificado",
-      "inscricoes": {
-        "inicio": null,
-        "fim": null
-      },
-      "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11503/322",
-      "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-09-25",
-      "edicao": "3095",
-      "editais_citados": [],
-      "conteudo_truncado": false,
-      "municipio": "não informado",
-      "municipio_codigo_ibge": null,
-      "municipio_slug": null,
-      "municipio_confianca": null,
-      "municipio_escopo": "indeterminado",
-      "municipio_origem": null,
-      "orgao_vinculado_id": null,
-      "fonte_tipo": "diario_oficial",
-      "uf": "ES",
-      "status_estimado": null,
-      "no_repositorio": false,
-      "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-02",
-      "primeira_deteccao": "2026-10-02",
-      "ausente_na_fonte": true
-    },
-    {
       "chave": "ioes-dom:sao-gabriel-da-palha:edital-2-2025",
       "fonte_id": "ioes-busca-dom",
       "orgao": "não informado",
@@ -24298,12 +25163,12 @@
   "janela_ioes_dias": 7,
   "retencao_atos_dias": 90,
   "descartados_por_retencao": 0,
-  "atos_diario_novos": 0,
+  "atos_diario_novos": 22,
   "cobertura_municipios": {
     "total_municipios": 78,
     "com_registro_curado": 15,
     "com_achado_na_janela": 45,
-    "com_achado_acumulado": 61,
+    "com_achado_acumulado": 63,
     "sem_sinal_algum": 33,
     "slugs_com_achado_acumulado": [
       "afonso-claudio",
@@ -24342,7 +25207,9 @@
       "marechal-floriano",
       "marilandia",
       "montanha",
+      "mucurici",
       "muniz-freire",
+      "muqui",
       "nova-venecia",
       "pancas",
       "pedro-canario",
@@ -24383,7 +25250,6 @@
       "domingos-martins",
       "ecoporanga",
       "fundao",
-      "governador-lindenberg",
       "guarapari",
       "ibiracu",
       "iconha",
@@ -24395,8 +25261,9 @@
       "linhares",
       "mantenopolis",
       "marataizes",
-      "marilandia",
       "montanha",
+      "mucurici",
+      "muqui",
       "nova-venecia",
       "pancas",
       "piuma",
@@ -24452,7 +25319,9 @@
       "marechal-floriano",
       "marilandia",
       "montanha",
+      "mucurici",
       "muniz-freire",
+      "muqui",
       "nova-venecia",
       "pancas",
       "pedro-canario",
@@ -24478,7 +25347,10 @@
       "vila-velha",
       "vitoria"
     ],
-    "vistos_pela_primeira_vez": [],
+    "vistos_pela_primeira_vez": [
+      "mucurici",
+      "muqui"
+    ],
     "sem_sinal_slugs": [
       "agua-doce-do-norte",
       "aguia-branca",
@@ -24492,6 +25364,7 @@
       "conceicao-do-castelo",
       "divino-de-sao-lourenco",
       "dores-do-rio-preto",
+      "governador-lindenberg",
       "guacui",
       "ibatiba",
       "ibitirama",
@@ -24500,10 +25373,9 @@
       "iuna",
       "jeronimo-monteiro",
       "marechal-floriano",
+      "marilandia",
       "mimoso-do-sul",
-      "mucurici",
       "muniz-freire",
-      "muqui",
       "pedro-canario",
       "pinheiros",
       "presidente-kennedy",
@@ -24520,7 +25392,7 @@
   "municipios_nao_mapeados": [],
   "reconciliacao_ibge": {
     "status": "ok",
-    "consultado_em": "2026-10-12",
+    "consultado_em": "2026-10-13",
     "total_ibge": 78,
     "total_cadastro": 78,
     "ausentes_no_cadastro": [],

@@ -20,7 +20,7 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **12/10/2026** |
+| Última verificação das fontes | **13/10/2026** |
 | Oportunidades monitoradas | 53 |
 | Com inscrições abertas | 2 |
 | Vagas imediatas em aberto | 32 |
@@ -35,7 +35,7 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Salário | Inscrições até | Prova |
 | ----- | ----- | ----: | ------: | -------------- | ----- |
-| [CREF22/ES](https://www.ibade.org.br/) | Advogado I; Analista Administrativo I e mais 1 cargo | 2 + CR | R$ 5.000,00 a R$ 5.500,00 | 20/10/2026 | 13/12/2026 |
+| [CREF22/ES](https://www.ibade.org.br/) | Advogado I; Analista Administrativo I e mais 1 cargo | 2 + CR | R$ 5.000,00 a R$ 5.500,00 | 20/10/2026 (encerra em 7 dias) | 13/12/2026 |
 | [PMSMJ](https://www.institutoconsulplan.org.br/pref-smj-guarda2026) | Guarda Municipal | 30 + CR | R$ 3.763,26 | 21/10/2026 | 13/12/2026 |
 
 ## Próximos concursos
@@ -191,9 +191,9 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Marilândia | 0 | ✓ | DOM/AMUNES |
 | Mimoso do Sul | 0 | — | DOM/AMUNES |
 | Montanha | 0 | ✓ | DOM/AMUNES |
-| Mucurici | 0 | — | DOM/AMUNES |
+| Mucurici | 0 | ✓ | DOM/AMUNES |
 | Muniz Freire | 0 | ✓ | DOM/AMUNES |
-| Muqui | 0 | — | DOM/AMUNES |
+| Muqui | 0 | ✓ | DOM/AMUNES |
 | Nova Venécia | 0 | ✓ | DOM/AMUNES |
 | Pancas | 0 | ✓ | DOM/AMUNES |
 | Pedro Canário | 0 | ✓ | DOM/AMUNES |
@@ -223,7 +223,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 12/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 13/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
