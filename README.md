@@ -20,13 +20,13 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **14/10/2026** |
+| Última verificação das fontes | **15/10/2026** |
 | Oportunidades monitoradas | 53 |
 | Com inscrições abertas | 2 |
 | Vagas imediatas em aberto | 32 |
 | Concursos previstos / autorizados | 16 |
 | Registros históricos (encerrados ou em andamento) | 35 |
-| Descobertas automáticas pendentes de conferência | 12 |
+| Descobertas automáticas pendentes de conferência | 15 |
 | Municípios do ES monitorados | 78 |
 | Municípios com registro curado | 15 |
 | Municípios com ato detectado na janela da coleta | 42 |
@@ -35,8 +35,8 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Salário | Inscrições até | Prova |
 | ----- | ----- | ----: | ------: | -------------- | ----- |
-| [CREF22/ES](https://www.ibade.org.br/) | Advogado I; Analista Administrativo I e mais 1 cargo | 2 + CR | R$ 5.000,00 a R$ 5.500,00 | 20/10/2026 (encerra em 6 dias) | 13/12/2026 |
-| [PMSMJ](https://www.institutoconsulplan.org.br/pref-smj-guarda2026) | Guarda Municipal | 30 + CR | R$ 3.763,26 | 21/10/2026 (encerra em 7 dias) | 13/12/2026 |
+| [CREF22/ES](https://www.ibade.org.br/) | Advogado I; Analista Administrativo I e mais 1 cargo | 2 + CR | R$ 5.000,00 a R$ 5.500,00 | 20/10/2026 (encerra em 5 dias) | 13/12/2026 |
+| [PMSMJ](https://www.institutoconsulplan.org.br/pref-smj-guarda2026) | Guarda Municipal | 30 + CR | R$ 3.763,26 | 21/10/2026 (encerra em 6 dias) | 13/12/2026 |
 
 ## Próximos concursos
 
@@ -123,6 +123,9 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | SESA | [SESA - EDITAL Nº 008/2026 - PROCESSO SELETIVO EMERGENCIAL - NÍVEL FUNDAMENTAL, MÉDIO E MÉDIO TÉCNICO](https://selecao.es.gov.br/processo-seletivo/79332759-9ae2-4609-9dc0-4dc030d4e281/sesa-edital-n-0082026-processo-seletivo-emergencial-nivel-fundamental-medio-medio-tecnico) | Inscrições encerradas | 06/10/2026 | oficial |
 | SESA | [SESA - EDITAL Nº 006/2026 - PROCESSO SELETIVO EMERGENCIAL - MÉDICO](https://selecao.es.gov.br/processo-seletivo/bee0d13a-1da9-4f10-abfd-728072e561a0/sesa-edital-n-0062026-processo-seletivo-emergencial-medico) | Inscrições encerradas | 06/10/2026 | oficial |
 | SESA | [SESA - EDITAL Nº 005/2026 - PROCESSO SELETIVO EMERGENCIAL  - LACEN - MÉDICO E NÍVEL SUPERIOR](https://selecao.es.gov.br/processo-seletivo/4f9a54a9-49b8-482e-9fc5-87a1f6b784fa/sesa-edital-n-0052026-processo-seletivo-emergencial-lacen-medico-nivel-superior) | Inscrições encerradas | 06/10/2026 | oficial |
+| Prefeitura de Irupi | [Prefeitura de Irupi](https://concursosnobrasil.com/concursos/es/2026/10/15/prefeitura-de-irupi-es-lanca-edital-de-seletivo-para-cuidador-escolar/) | não informado | não informado | portal_concursos |
+| Prefeitura de Iúna | [Prefeitura de Iúna](https://concursosnobrasil.com/concursos/es/2026/10/15/prefeitura-de-iuna-es-oferta-iniciais-de-ate-r-39-mil-em-selecao/) | não informado | não informado | portal_concursos |
+| Santa Casa de Iúna | [Santa Casa de Iúna](https://concursosnobrasil.com/concursos/es/2026/10/15/santa-casa-de-iuna-es-abre-processo-seletivo-com-salarios-de-ate-r-35-mil/) | não informado | não informado | portal_concursos |
 | Prefeitura de Iconha | [Prefeitura de Iconha](https://concursosnobrasil.com/concursos/es/2026/10/09/concurso-prefeitura-de-iconha-es-abre-55-vagas-para-professores/) | não informado | não informado | portal_concursos |
 | Prefeitura de Montanha | [Prefeitura de Montanha](https://concursosnobrasil.com/concursos/es/2026/10/06/prefeitura-de-montanha-es-abre-edital-na-area-da-educacao-com-salarios-de-ate-r-34-mil/) | não informado | não informado | portal_concursos |
 | SEMMA de Vila Velha | [SEMMA de Vila Velha](https://concursosnobrasil.com/concursos/es/2026/10/07/semma-de-vila-velha-es-disponibiliza-vagas-de-ate-r-7-mil/) | não informado | não informado | portal_concursos |
@@ -153,7 +156,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Aracruz | 2 | ✓ | DOM/AMUNES |
 | Atílio Vivácqua | 0 | — | DOM/AMUNES |
 | Baixo Guandu | 0 | ✓ | DOM/AMUNES |
-| Barra de São Francisco | 0 | — | DOM/AMUNES |
+| Barra de São Francisco | 0 | ✓ | DOM/AMUNES |
 | Boa Esperança | 0 | ✓ | DOM/AMUNES |
 | Bom Jesus do Norte | 0 | ✓ | DOM/AMUNES |
 | Brejetuba | 0 | — | DOM/AMUNES |
@@ -223,7 +226,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 14/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 15/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
