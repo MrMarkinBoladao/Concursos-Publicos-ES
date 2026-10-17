@@ -20,7 +20,7 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **16/10/2026** |
+| Última verificação das fontes | **17/10/2026** |
 | Oportunidades monitoradas | 53 |
 | Com inscrições abertas | 2 |
 | Vagas imediatas em aberto | 32 |
@@ -29,14 +29,14 @@ efetivamente relacionada ao estado.
 | Descobertas automáticas pendentes de conferência | 17 |
 | Municípios do ES monitorados | 78 |
 | Municípios com registro curado | 15 |
-| Municípios com ato detectado na janela da coleta | 42 |
+| Municípios com ato detectado na janela da coleta | 35 |
 
 ## Concursos com inscrições abertas
 
 | Órgão | Cargo | Vagas | Salário | Inscrições até | Prova |
 | ----- | ----- | ----: | ------: | -------------- | ----- |
-| [CREF22/ES](https://www.ibade.org.br/) | Advogado I; Analista Administrativo I e mais 1 cargo | 2 + CR | R$ 5.000,00 a R$ 5.500,00 | 20/10/2026 (encerra em 4 dias) | 13/12/2026 |
-| [PMSMJ](https://www.institutoconsulplan.org.br/pref-smj-guarda2026) | Guarda Municipal | 30 + CR | R$ 3.763,26 | 21/10/2026 (encerra em 5 dias) | 13/12/2026 |
+| [CREF22/ES](https://www.ibade.org.br/) | Advogado I; Analista Administrativo I e mais 1 cargo | 2 + CR | R$ 5.000,00 a R$ 5.500,00 | 20/10/2026 **(encerra em 3 dias)** | 13/12/2026 |
+| [PMSMJ](https://www.institutoconsulplan.org.br/pref-smj-guarda2026) | Guarda Municipal | 30 + CR | R$ 3.763,26 | 21/10/2026 (encerra em 4 dias) | 13/12/2026 |
 
 ## Próximos concursos
 
@@ -228,7 +228,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 16/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 17/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
