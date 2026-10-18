@@ -1,0 +1,106 @@
+{
+  "id": "ps-fundao-es-semed-06-2026",
+  "orgao": "Prefeitura Municipal de Fundão - Secretaria Municipal de Educação (SEMED)",
+  "orgao_sigla": "PMF/SEMED",
+  "esfera": "municipal",
+  "municipio": "Fundão",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Servente Escolar",
+      "area": "Educação - apoio",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental completo",
+      "requisitos": "Ensino fundamental completo; idade mínima de 18 anos na contratação. Inscrição em uma regionalização: Fundão Sede/Timbuí/Piranema (01 vaga e cadastro de reserva) ou Praia Grande (somente cadastro de reserva)",
+      "remuneracao": "Salário-base de R$ 1.673,60, mais auxílio-alimentação de R$ 600,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Merendeira",
+      "area": "Educação - apoio",
+      "vagas_imediatas": 2,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental completo",
+      "requisitos": "Ensino fundamental completo; idade mínima de 18 anos na contratação. Inscrição em uma regionalização: Fundão Sede/Timbuí/Piranema (02 vagas e cadastro de reserva) ou Praia Grande (somente cadastro de reserva)",
+      "remuneracao": "Salário-base de R$ 1.673,60, mais auxílio-alimentação de R$ 600,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Secretário Escolar",
+      "area": "Educação - administrativo",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio completo",
+      "requisitos": "Ensino médio completo; idade mínima de 18 anos na contratação. Somente cadastro de reserva, apenas na regionalização Fundão Sede/Timbuí/Piranema",
+      "remuneracao": "Salário-base de R$ 1.673,60, mais auxílio-alimentação de R$ 600,00",
+      "jornada": "40 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 3,
+  "cadastro_reserva": true,
+  "escolaridade": "nível fundamental completo e nível médio completo, conforme o cargo",
+  "remuneracao": {
+    "minima": 1673.6,
+    "maxima": 1673.6,
+    "descricao": "Salário-base de R$ 1.673,60 para os três cargos, mais auxílio-alimentação de R$ 600,00"
+  },
+  "beneficios": [
+    "Auxílio-alimentação de R$ 600,00",
+    "Auxílio-transporte, conforme a Lei Municipal nº 913/2013 (dispositivo incluído pela Lei nº 1.016/2015)",
+    "Décimo terceiro salário e férias anuais com um terço, conforme a legislação vigente"
+  ],
+  "jornada": "40 horas semanais",
+  "edital_numero": "Edital nº 06, de 14 de outubro de 2026 (SEMED)",
+  "publicacao": "2026-10-15",
+  "inscricoes": {
+    "inicio": "2026-10-20",
+    "fim": "2026-10-22",
+    "taxa": "não informado",
+    "local": "http://www.fundao.es.gov.br/selecao",
+    "isencao": "não informado",
+    "observacao": "Inscrições exclusivamente pela internet, das 7h de 20/10/2026 às 23h59 de 22/10/2026 (horário de Brasília). Uma inscrição por CPF, com escolha de 1 cargo e 1 regionalização (Praia Grande ou Fundão Sede/Timbuí/Piranema); havendo mais de uma, vale a última registrada. Impugnação do edital até 23h59 de 19/10/2026 pelo e-mail cpsssemed@gmail.com, com resultado em 20/10/2026."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "Pontuação por tempo de serviço no cargo, informado na inscrição: 0,1 ponto por dia trabalhado, até 500 dias (máximo de 50 pontos)",
+      "Pontuação por cursos: Servente Escolar e Merendeira, curso de primeiros socorros (máximo de 5 pontos); Secretário Escolar, informática básica, curso livre na área e primeiros socorros (máximo de 25 pontos)",
+      "Comprovação dos documentos e formalização do contrato na convocação"
+    ],
+    "observacao": "Sem prova objetiva; a classificação usa os dados declarados na inscrição, comprovados na convocação. Cronograma (Anexo I): classificação parcial em 23/10/2026; recurso em 26/10 até 12h (e-mail cpsssemed@gmail.com); resultado do recurso e homologação da classificação final em 27/10; convocação a partir de 28/10; entrega de documentos a partir de 30/10/2026 na Semed (Avenida José Agostini, nº 204, 3º andar, Centro, Fundão). Listas separadas por regionalização. Desempate pela maior idade."
+  },
+  "banca": "não informado",
+  "status": "edital_publicado",
+  "regime": "designacao_temporaria",
+  "validade": "Da publicação do edital até 31/12/2026, prorrogável por 1 ano; contratos com vigência até 31/12/2026, podendo ser rescindidos antes ou prorrogados",
+  "links": {
+    "edital": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11554/112",
+    "pagina_oficial": "http://www.fundao.es.gov.br/selecao",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "DOM/ES nº 3.108 (15/10/2026) - Edital nº 06, de 14 de outubro de 2026, da Secretaria Municipal de Educação de Fundão, págs. 112 a 120",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11554/112",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-10-15",
+      "status": "edital_publicado",
+      "observacao": "Publicação do Edital nº 06/2026 da Semed no DOM/ES nº 3.108 (págs. 112 a 120). O cronograma do edital indica 14/10/2026 como data de publicação no site da Prefeitura."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "edital_publicado",
+      "observacao": "Primeiro registro no repositório, a partir do edital publicado no DOM/ES. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "DIVERGÊNCIA INTERNA sobre vagas: o título e os itens 3.3 e 10.2 tratam a seleção como cadastro de reserva, com vagas disponibilizadas conforme a necessidade, mas o quadro de vagas do item 10.1 fixa 01 vaga de Servente Escolar e 02 vagas de Merendeira na regionalização Fundão Sede/Timbuí/Piranema, além do cadastro de reserva. Adotadas as 3 vagas do quadro (vagas_imediatas_total = 3), por ser a indicação explícita de quantitativo; confirmar na convocação. Na regionalização Praia Grande há só cadastro de reserva para Servente e Merendeira; Secretário Escolar tem só cadastro de reserva, e apenas em Fundão Sede/Timbuí/Piranema. PRAZO CURTO DE CONTRATO: o edital se refere ao ano letivo de 2026 e os contratos vencem em 31/12/2026, ou seja, cerca de dois meses após as primeiras convocações (a partir de 28/10), salvo prorrogação. Data de publicação: adotada a do DOM/ES (15/10/2026); o cronograma diz 14/10/2026 (site da Prefeitura e DOM). O Anexo VI (autodeclaração) menciona 'Processo Seletivo Simplificado nº 04/2026', provável erro de cópia de edital anterior. Reserva de 5% para pessoas com deficiência e de 30% para pretos, pardos, indígenas e quilombolas. O edital não menciona taxa de inscrição. O portal de seleção da Prefeitura (www.fundao.es.gov.br/selecao, onde ficam o edital e o formulário de inscrição) respondeu HTTP 403 à ferramenta de leitura em 17/10/2026; o registro se apoia apenas no DOM/ES. Não há matéria de portal associada a este edital."
+}

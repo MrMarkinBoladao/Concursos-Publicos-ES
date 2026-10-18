@@ -1,0 +1,234 @@
+{
+  "id": "ps-castelo-es-pmc-06-2026",
+  "orgao": "Prefeitura Municipal de Castelo",
+  "orgao_sigla": "PMC",
+  "esfera": "municipal",
+  "municipio": "Castelo",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Operador de Serviços de Obras Públicas",
+      "area": "Obras e serviços urbanos",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "4ª série do ensino fundamental",
+      "requisitos": "4ª série do ensino fundamental por instituição reconhecida pelo MEC; idade mínima de 18 anos",
+      "remuneracao": "R$ 1.621,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Operador de Serviços de Obras Públicas (localidades de Ubá, Forno Grande, Estrela do Norte e Patrimônio do Ouro)",
+      "area": "Obras e serviços urbanos",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "4ª série do ensino fundamental",
+      "requisitos": "4ª série do ensino fundamental por instituição reconhecida pelo MEC; idade mínima de 18 anos",
+      "remuneracao": "R$ 1.621,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Pedreiro",
+      "area": "Obras e serviços urbanos",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental completo",
+      "requisitos": "Ensino fundamental completo por instituição reconhecida pelo MEC; idade mínima de 18 anos",
+      "remuneracao": "R$ 2.000,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Pedreiro (localidades de Ubá, Forno Grande, Estrela do Norte e Patrimônio do Ouro)",
+      "area": "Obras e serviços urbanos",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental completo",
+      "requisitos": "Ensino fundamental completo por instituição reconhecida pelo MEC; idade mínima de 18 anos",
+      "remuneracao": "R$ 2.000,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Azulejista",
+      "area": "Obras e manutenção predial",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "ensino fundamental incompleto",
+      "requisitos": "Ensino fundamental incompleto e curso específico de qualificação profissional na área de azulejista (com certificado); idade mínima de 18 anos",
+      "remuneracao": "R$ 3.127,80",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Azulejista (localidades de Ubá, Forno Grande, Estrela do Norte e Patrimônio do Ouro)",
+      "area": "Obras e manutenção predial",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "ensino fundamental incompleto",
+      "requisitos": "Ensino fundamental incompleto e curso específico de qualificação profissional na área de azulejista (com certificado); idade mínima de 18 anos",
+      "remuneracao": "R$ 3.127,80",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Coletor de Lixo",
+      "area": "Limpeza urbana",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "ensino fundamental incompleto",
+      "requisitos": "Ensino fundamental incompleto; idade mínima de 18 anos; atuação em escala, plantão ou sobreaviso, inclusive fins de semana, feriados e período noturno",
+      "remuneracao": "R$ 1.621,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Assistente Técnico Tributário",
+      "area": "Administração tributária",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio com curso técnico",
+      "requisitos": "Ensino médio completo, acrescido de curso técnico em Contabilidade reconhecido pelo MEC; idade mínima de 18 anos",
+      "remuneracao": "R$ 1.621,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Operador de Serviços Gerais (Calceteiro)",
+      "area": "Limpeza e conservação urbana",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "4ª série do ensino fundamental",
+      "requisitos": "4ª série do ensino fundamental por instituição reconhecida pelo MEC; idade mínima de 18 anos. Cargo incluído na republicação de 14/10/2026",
+      "remuneracao": "R$ 1.621,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Operador de Serviços Gerais",
+      "area": "Limpeza e conservação urbana",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "4ª série do ensino fundamental",
+      "requisitos": "4ª série do ensino fundamental por instituição reconhecida pelo MEC; idade mínima de 18 anos. Cargo incluído na republicação de 15/10/2026",
+      "remuneracao": "R$ 1.621,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Motorista Socorrista",
+      "area": "Saúde - transporte sanitário",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental completo",
+      "requisitos": "Certificado de conclusão do ensino fundamental; CNH categoria D ou correlata; treinamento especializado em condução de ambulâncias (art. 145-A do Código de Trânsito Brasileiro); no mínimo 6 meses de experiência; idade mínima de 21 anos na nomeação; nenhuma infração grave ou gravíssima nem reincidência em infrações médias nos últimos 12 meses; treinamento básico em atendimento pré-hospitalar; não cumprir pena de suspensão ou cassação do direito de dirigir. Cargo incluído na republicação de 14/10/2026",
+      "remuneracao": "R$ 2.400,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Serralheiro",
+      "area": "Obras e manutenção predial",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental completo",
+      "requisitos": "Ensino fundamental completo por instituição reconhecida pelo MEC; idade mínima de 18 anos. Cargo incluído na republicação de 15/10/2026",
+      "remuneracao": "R$ 2.000,00",
+      "jornada": "40 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 0,
+  "cadastro_reserva": true,
+  "escolaridade": "ensino fundamental incompleto a ensino médio com curso técnico, conforme o cargo",
+  "remuneracao": {
+    "minima": 1621.0,
+    "maxima": 3127.8,
+    "descricao": "Vencimento mensal de R$ 1.621,00 a R$ 3.127,80, conforme o cargo (Anexo II), mais auxílio-alimentação de R$ 600,00 mensais e vale-feira de R$ 12,00 semanais"
+  },
+  "beneficios": [
+    "Auxílio-alimentação de R$ 600,00 mensais",
+    "Vale-feira de R$ 12,00 semanais, de uso exclusivo na Feira Livre da Agricultura Familiar de Castelo",
+    "Gratificação natalina proporcional e férias proporcionais ao término do contrato",
+    "Inscrição no Regime Geral de Previdência Social"
+  ],
+  "jornada": "40 horas semanais, de segunda a sexta-feira, ressalvadas escalas de serviço",
+  "edital_numero": "Edital de Processo Seletivo Simplificado PMC nº 06/2026",
+  "publicacao": "2026-10-09",
+  "inscricoes": {
+    "inicio": "2026-10-13",
+    "fim": "2026-10-16",
+    "taxa": "Isento",
+    "local": "Centro de Cultura e Cidadania de Castelo, Rua Antônio Machado, nº 118, Centro, Castelo/ES (presencial)",
+    "isencao": "Não há cobrança de taxa de inscrição (item 2.8 do edital)",
+    "observacao": "Inscrições presenciais, com entrega dos documentos e títulos em envelope, das 9h às 12h e das 14h às 16h. Prazo alterado duas vezes: 13 e 14/10 (edital publicado em 09/10), 13 a 15/10 (republicação de 14/10) e 13 a 16/10/2026 (republicação de 15/10, prazo final adotado). Formulário de inscrição (Anexo I) disponível no site da Prefeitura. Permitidas inscrição por procuração com firma reconhecida e mais de uma inscrição por candidato."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "Prova de títulos: qualificação profissional (até 60 pontos) e tempo de serviço na área (até 4,8 pontos), total máximo de 64,8 pontos",
+      "Procedimento de heteroidentificação para candidatos autodeclarados pretos, pardos ou indígenas"
+    ],
+    "observacao": "Sem prova objetiva. Cronograma da republicação de 15/10/2026 (Anexo III): análise de títulos e convocação para heteroidentificação em 19/10; resultado provisório em 20/10 (até 15h30); recurso em 21/10 (9h às 15h, no Protocolo Geral da PMC); resultado da heteroidentificação em 22/10; recurso da heteroidentificação em 23/10; resultado final e homologação em 26/10/2026 (até 9h). Desempate pela maior idade."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "3 meses a contar da homologação do resultado final, prorrogável por mais 21 meses; contratos de até 3 meses, prorrogáveis até o limite de 24 meses",
+  "links": {
+    "edital": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11554/76",
+    "pagina_oficial": "http://www.castelo.es.gov.br",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "DOM/ES nº 3.105 (09/10/2026) - Edital de Processo Seletivo Simplificado PMC nº 06/2026, págs. 84 a 98",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11540/84",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "DOM/ES nº 3.107 (14/10/2026) - Republicação do Edital PMC nº 06/2026 (inscrições de 13 a 15/10), págs. 73 a 88",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11550/73",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "DOM/ES nº 3.108 (15/10/2026) - Republicação do Edital PMC nº 06/2026 (inscrições de 13 a 16/10), págs. 76 a 94",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11554/76",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Concursos no Brasil - Processo seletivo da Prefeitura de Castelo (ES) divulga salários de até R$ 3,1 mil",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/10/14/processo-seletivo-prefeitura-de-castelo-es-divulga-salarios-de-ate-r-31-mil/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-10-09",
+      "status": "edital_publicado",
+      "observacao": "Publicação do Edital PMC nº 06/2026 no DOM/ES nº 3.105 (págs. 84 a 98), com 8 cargos e inscrições previstas para 13 e 14/10/2026."
+    },
+    {
+      "data": "2026-10-13",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições presenciais no Centro de Cultura e Cidadania de Castelo, às 9h."
+    },
+    {
+      "data": "2026-10-14",
+      "status": "inscricoes_abertas",
+      "observacao": "Republicação do edital no DOM/ES nº 3.107 (págs. 73 a 88): prazo estendido para 13 a 15/10/2026 e inclusão dos cargos Operador de Serviços Gerais (Calceteiro) e Motorista Socorrista."
+    },
+    {
+      "data": "2026-10-15",
+      "status": "inscricoes_abertas",
+      "observacao": "Nova republicação no DOM/ES nº 3.108 (págs. 76 a 94): prazo estendido para 13 a 16/10/2026, inclusão dos cargos Operador de Serviços Gerais e Serralheiro e cronograma reprogramado, com homologação em 26/10/2026."
+    },
+    {
+      "data": "2026-10-16",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 16h, conforme a republicação de 15/10/2026. Nenhuma nova alteração do edital no DOM/ES nº 3.109 (16/10/2026)."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, a partir do edital e das duas republicações no DOM/ES (edições nº 3.105, 3.107 e 3.108). Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "Seleção exclusivamente para cadastro de reserva: o Anexo II traz 'Cadastro Reserva' em todos os 12 cargos, daí vagas_imediatas_total = 0. NÃO confundir com os editais SEME nº 01/2026 e nº 02/2026 da Secretaria Municipal de Educação (ps-castelo-es-seme-01-2026 e ps-castelo-es-seme-02-2026): este é o Edital PMC nº 06/2026, assinado pelo Prefeito, para cargos das secretarias municipais (obras, limpeza urbana, tributação e transporte sanitário). ALTERAÇÕES SUCESSIVAS (todas no DOM/ES, sem justificativa no texto): (1) edital de 08/10/2026, publicado em 09/10 (nº 3.105), com 8 cargos e inscrições em 13 e 14/10, resultado final e homologação em 23/10; (2) republicação assinada em 13/10 e publicada em 14/10 (nº 3.107), com inscrições de 13 a 15/10 e inclusão de Operador de Serviços Gerais (Calceteiro) e Motorista Socorrista, homologação mantida em 23/10; (3) republicação assinada em 14/10 e publicada em 15/10 (nº 3.108), com inscrições de 13 a 16/10, inclusão de Operador de Serviços Gerais e Serralheiro e homologação em 26/10/2026. Adotados o prazo e o cronograma da última republicação. Os cargos incluídos depois tiveram prazo menor: Calceteiro e Motorista Socorrista a partir de 14/10; Operador de Serviços Gerais e Serralheiro apenas em 15 e 16/10. DIVERGÊNCIA com o portal Concursos no Brasil (matéria de 14/10, atualizada em 15/10/2026): informa inscrições de 13 a 15/10 e não lista Operador de Serviços Gerais nem Serralheiro; prevalece o DOM/ES de 15/10. DIVERGÊNCIA interna no endereço do local de inscrição: o item 2.1 indica Rua Antônio Machado, nº 118, e o Anexo III indica nº 108. Cotas: 5% para pessoas com deficiência, 17% para negros e 3% para indígenas, com heteroidentificação. Impugnação do edital em até 2 dias após a publicação. Na verificação de 17/10/2026 o site da Prefeitura respondeu HTTP 403 a cliente de script e não exibiu conteúdo pela ferramenta de leitura; o registro se apoia no DOM/ES."
+}

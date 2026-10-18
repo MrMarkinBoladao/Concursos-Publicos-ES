@@ -1,0 +1,109 @@
+{
+  "id": "ps-vitoria-es-assistente-educacao-infantil-027-2026",
+  "orgao": "Prefeitura Municipal de Vitória - Secretaria de Gestão e Planejamento (SEGES)",
+  "orgao_sigla": "PMV/SEGES",
+  "esfera": "municipal",
+  "municipio": "Vitória",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Assistente de Educação Infantil",
+      "area": "Educação",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio completo",
+      "requisitos": "Ensino médio completo e exercício profissional mínimo de 6 meses na área pleiteada (atuação na educação básica ou no cuidado e apoio à educação especial), contado após a conclusão do ensino médio",
+      "remuneracao": "Vencimento de R$ 2.619,76, segundo o edital publicado no DOM (o PDF do sistema de seleção traz R$ 2.495,02)",
+      "jornada": "44 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 1,
+  "cadastro_reserva": true,
+  "escolaridade": "nível médio completo",
+  "remuneracao": {
+    "minima": 2619.76,
+    "maxima": 2619.76,
+    "descricao": "Vencimento de R$ 2.619,76 para 44 horas semanais, segundo o edital publicado no Diário Oficial do Município. O PDF disponibilizado no sistema de seleção informa R$ 2.495,02 (ver observações)"
+  },
+  "beneficios": [],
+  "jornada": "44 horas semanais",
+  "edital_numero": "Edital nº 027/2026 - SEGES",
+  "publicacao": "2026-10-01",
+  "inscricoes": {
+    "inicio": "2026-10-05",
+    "fim": "2026-10-14",
+    "taxa": "não informado",
+    "local": "https://selecao.vitoria.es.gov.br/",
+    "isencao": "não informado",
+    "observacao": "Inscrições exclusivamente pela internet, das 10h de 05/10/2026 às 23h59 de 14/10/2026 (horário de Brasília), com login e preenchimento da Ficha de Inscrição Online no sistema de seleção da Prefeitura. O edital não menciona taxa de inscrição. Reserva de 5% das vagas para pessoas com deficiência e de 30% para candidatos negros/indígenas. Dúvidas: Coordenação de Recrutamento e Seleção da SEGES (processoseletivo@vitoria.es.gov.br) e Coordenação Técnica de Pessoal da SEME (ggpcpessoal@seme.vitoria.es.gov.br)."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "1ª etapa - inscrição (classificatória, conforme os requisitos)",
+      "2ª etapa - comprovação das informações declaradas (requisito e exercício profissional) e entrega dos documentos para admissão (eliminatória e classificatória)"
+    ],
+    "observacao": "Classificação apenas pelo exercício profissional, até 60 pontos: 1 ponto por mês completo de experiência na área a partir de 01/01/2021, sem contar os 6 meses exigidos como requisito. Desempate pela maior idade. A 2ª etapa ocorre conforme a necessidade da Secretaria de Educação. Lotação nos Centros Municipais de Educação Infantil (CMEIs), conforme a necessidade do Município."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "12 meses a partir da homologação do resultado final, prorrogável por até igual período a critério do Município. Vigência registrada no sistema de seleção: 02/10/2026 a 02/10/2027",
+  "links": {
+    "edital": "https://diariooficial.vitoria.es.gov.br/ExibirArquivo.aspx?qs=nnmrXIDe5L4hR81FZwDXlD95Q%2fWHOCtXgeCw%2fnRIrFMxQA7S5mwuf0RM3mOCPGtiwqKwtsQd8WTWmli6Dukj2dFXraHVhwjfSFc%2foPNG3viQrQONUns0DGg4xqXxAb5v",
+    "pagina_oficial": "https://selecao.vitoria.es.gov.br/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Diário Oficial do Município de Vitória - edição nº 2978, de 01/10/2026 (Edital nº 027/2026 a partir da página 8)",
+      "url": "https://diariooficial.vitoria.es.gov.br/ExibirArquivo.aspx?qs=nnmrXIDe5L4hR81FZwDXlD95Q%2fWHOCtXgeCw%2fnRIrFMxQA7S5mwuf0RM3mOCPGtiwqKwtsQd8WTWmli6Dukj2dFXraHVhwjfSFc%2foPNG3viQrQONUns0DGg4xqXxAb5v",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Sistema de seleção da PMV - Edital de Abertura nº 027/2026 (PDF, 13 páginas)",
+      "url": "https://arquivos.vitoria.es.gov.br/api/v1/files/sigep-arquivos/736320c07cfaf78dade0a91d8d0235a86343da5f.",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Sistema de seleção da PMV - dados do item do Edital 27/2026 (Assistente de Educação Infantil 220 H): período de inscrição e vigência",
+      "url": "https://apiselecao.vitoria.es.gov.br/api/Edital/GetByParamItem/2/4964/817/3",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Prefeitura de Vitória (ES) promove seletivos com ganhos de até R$ 3,2 mil",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/10/02/prefeitura-de-vitoria-es-promove-seletivos-com-ganhos-de-ate-r-32-mil/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-10-01",
+      "status": "edital_publicado",
+      "observacao": "Publicação do Edital nº 027/2026 no Diário Oficial do Município de Vitória, edição nº 2978 (texto do DOM datado de 29/09/2026; o PDF do sistema de seleção está datado de 28/09/2026)."
+    },
+    {
+      "data": "2026-10-05",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições às 10h, pelo sistema de seleção da Prefeitura."
+    },
+    {
+      "data": "2026-10-14",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 23h59."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, a partir do edital publicado no Diário Oficial do Município de Vitória (edição nº 2978) e do sistema de seleção da Prefeitura. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "DIVERGÊNCIA ENTRE DUAS FONTES OFICIAIS no vencimento: o edital publicado no Diário Oficial do Município (edição nº 2978, 01/10/2026, item 2.2) traz R$ 2.619,76, enquanto o PDF do 'Edital de Abertura' disponibilizado no sistema de seleção traz R$ 2.495,02. O PDF está datado de 28/09/2026 e o texto do DOM, de 29/09/2026. Adotado o valor do DOM, que é a publicação oficial do ato, tem a assinatura mais recente e coincide com o divulgado pelo portal Concursos no Brasil; por isso links.edital aponta para a edição do DOM. Não foi localizada errata que resolva a diferença; CONFIRMAR com a SEGES/SEME. Outra inconsistência interna: o item 2.1 diz que o processo se destina à formação de cadastro de reserva, mas o quadro do item 2.2 fixa '01 (uma) + Cadastro de Reserva'. Adotada 1 vaga imediata, conforme o quadro. Contratação por tempo determinado (Lei Municipal nº 7.534/2008), em caráter de urgência, para a Secretaria de Educação (SEME), com autorização no Processo nº 7129546/2026. A matéria do portal trata deste edital e do 026/2026 em conjunto. A vigência de 02/10/2026 a 02/10/2027 exibida no sistema não coincide com a regra do edital (12 meses contados da homologação). Em 17/10/2026 o sistema de seleção exibe o processo com situação 'Em Andamento'."
+}

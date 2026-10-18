@@ -1,0 +1,129 @@
+{
+  "id": "ps-vitoria-es-arteterapeuta-fonoaudiologo-musicoterapeuta-026-2026",
+  "orgao": "Prefeitura Municipal de Vitória - Secretaria de Gestão e Planejamento (SEGES)",
+  "orgao_sigla": "PMV/SEGES",
+  "esfera": "municipal",
+  "municipio": "Vitória",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Arteterapeuta",
+      "area": "Saúde",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Ensino superior completo em Artes Plásticas com especialização em Arteterapia e experiência profissional mínima de 12 meses na função, contada após a conclusão da especialização",
+      "remuneracao": "R$ 3.236,23 + gratificação",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Fonoaudiólogo",
+      "area": "Saúde",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Ensino superior completo em Fonoaudiologia, registro no Conselho Regional de classe e experiência profissional mínima de 12 meses na função",
+      "remuneracao": "R$ 3.236,23 + gratificação",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Musicoterapeuta",
+      "area": "Saúde",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Ensino superior completo em Musicoterapia e experiência profissional mínima de 12 meses na função",
+      "remuneracao": "R$ 3.236,23 + gratificação",
+      "jornada": "30 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 3,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 3236.23,
+    "maxima": 3236.23,
+    "descricao": "Vencimento de R$ 3.236,23 para 30 horas semanais nas três funções, acrescido de gratificação cujo valor o edital não informa"
+  },
+  "beneficios": [],
+  "jornada": "30 horas semanais",
+  "edital_numero": "Edital nº 026/2026 - SEGES",
+  "publicacao": "2026-10-01",
+  "inscricoes": {
+    "inicio": "2026-10-05",
+    "fim": "2026-10-14",
+    "taxa": "não informado",
+    "local": "https://selecao.vitoria.es.gov.br/",
+    "isencao": "não informado",
+    "observacao": "Inscrições exclusivamente pela internet, das 8h de 05/10/2026 às 23h59 de 14/10/2026 (horário de Brasília), com login e preenchimento da Ficha de Inscrição Online no sistema de seleção da Prefeitura. O edital não menciona taxa de inscrição. Reserva de 5% das vagas para pessoas com deficiência e de 30% para candidatos negros/indígenas. Dúvidas: Coordenação de Gestão de Pessoas da SEMUS ((27) 98107-0186, por mensagem de texto) e Coordenação de Recrutamento e Seleção da SEGES (processoseletivo@vitoria.es.gov.br)."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "1ª etapa - inscrição (classificatória, conforme os requisitos)",
+      "2ª etapa - comprovação das informações declaradas (requisitos, exercício profissional e qualificação profissional) e entrega dos documentos para admissão (eliminatória)"
+    ],
+    "observacao": "Classificação por pontos declarados na inscrição, até 100: exercício profissional estritamente na função (1 ponto por mês completo, até 60) e qualificação profissional (até 40: doutorado 40, mestrado 30, pós-graduação lato sensu/especialização 20, cursos de 120 horas ou mais 15, de 80 a 119 horas 10, de 40 a 79 horas 5, abaixo de 40 horas 3; no máximo 2 cursos). Desempate pelo exercício profissional e, depois, pela maior idade. A 2ª etapa ocorre conforme a necessidade da Secretaria Municipal de Saúde."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "6 meses a partir da homologação do resultado final, prorrogável a critério do Município. Vigência registrada no sistema de seleção: 02/10/2026 a 02/10/2027",
+  "links": {
+    "edital": "https://arquivos.vitoria.es.gov.br/api/v1/files/sigep-arquivos/85f5d7a3bd39ec8031a09926f236a712f883cc21.pdf",
+    "pagina_oficial": "https://selecao.vitoria.es.gov.br/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Diário Oficial do Município de Vitória - edição nº 2978, de 01/10/2026 (Edital nº 026/2026 a partir da página 4)",
+      "url": "https://diariooficial.vitoria.es.gov.br/ExibirArquivo.aspx?qs=nnmrXIDe5L4hR81FZwDXlD95Q%2fWHOCtXgeCw%2fnRIrFMxQA7S5mwuf0RM3mOCPGtiwqKwtsQd8WTWmli6Dukj2dFXraHVhwjfSFc%2foPNG3viQrQONUns0DGg4xqXxAb5v",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Sistema de seleção da PMV - Edital de Abertura nº 026/2026 (PDF, 17 páginas)",
+      "url": "https://arquivos.vitoria.es.gov.br/api/v1/files/sigep-arquivos/85f5d7a3bd39ec8031a09926f236a712f883cc21.pdf",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Sistema de seleção da PMV - dados do item do Edital 26/2026 (Arteterapeuta 150 H): período de inscrição e vigência",
+      "url": "https://apiselecao.vitoria.es.gov.br/api/Edital/GetByParamItem/2/4961/1278/3",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Prefeitura de Vitória (ES) promove seletivos com ganhos de até R$ 3,2 mil",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/10/02/prefeitura-de-vitoria-es-promove-seletivos-com-ganhos-de-ate-r-32-mil/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-10-01",
+      "status": "edital_publicado",
+      "observacao": "Publicação do Edital nº 026/2026 no Diário Oficial do Município de Vitória, edição nº 2978 (texto do DOM datado de 29/09/2026; o PDF do sistema de seleção está datado de 28/09/2026)."
+    },
+    {
+      "data": "2026-10-05",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições às 8h, pelo sistema de seleção da Prefeitura."
+    },
+    {
+      "data": "2026-10-14",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 23h59."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, a partir do edital publicado no Diário Oficial do Município de Vitória (edição nº 2978) e do sistema de seleção da Prefeitura. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "Contratação por tempo determinado (Lei Municipal nº 7.534/2008), em caráter de urgência, para a Secretaria Municipal de Saúde (SEMUS), com autorização no Processo nº 7373455/2026. O texto do DOM (edição nº 2978) e o PDF do sistema de seleção coincidem em vagas, vencimento, jornada, período de inscrição e validade. O valor da gratificação não é informado no edital. A matéria do Concursos no Brasil trata deste edital e do 027/2026 em conjunto ('quatro vagas imediatas') e não menciona a validade de 6 meses; neste registro constam só as 3 vagas do edital 026/2026. A vigência de 02/10/2026 a 02/10/2027 exibida no sistema não coincide com a regra do edital (6 meses contados da homologação do resultado final). Em 17/10/2026 o sistema de seleção exibe o processo com situação 'Em Andamento'."
+}

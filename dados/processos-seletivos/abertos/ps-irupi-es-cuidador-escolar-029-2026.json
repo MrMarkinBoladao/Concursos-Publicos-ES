@@ -1,0 +1,94 @@
+{
+  "id": "ps-irupi-es-cuidador-escolar-029-2026",
+  "orgao": "Prefeitura Municipal de Irupi - Secretaria Municipal de Administração e Planejamento (SEMAP)",
+  "orgao_sigla": "SEMAP",
+  "esfera": "municipal",
+  "municipio": "Irupi",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Cuidador Escolar",
+      "area": "Educação",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio",
+      "requisitos": "Ensino médio completo",
+      "remuneracao": "Vencimento mensal de R$ 1.621,22, além das vantagens funcionais previstas nos arts. 8º, 9º e 10 da Lei Municipal nº 961/2019",
+      "jornada": "40 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 0,
+  "cadastro_reserva": true,
+  "escolaridade": "nível médio",
+  "remuneracao": {
+    "minima": 1621.22,
+    "maxima": 1621.22,
+    "descricao": "Vencimento mensal de R$ 1.621,22 para 40 horas semanais (Anexo II), além das vantagens funcionais dos arts. 8º, 9º e 10 da Lei Municipal nº 961/2019, que o edital não detalha"
+  },
+  "beneficios": [
+    "Vantagens funcionais previstas nos arts. 8º, 9º e 10 da Lei Municipal nº 961/2019 (não detalhadas no edital)"
+  ],
+  "jornada": "40 horas semanais",
+  "edital_numero": "Edital de Processo Seletivo Simplificado nº 029/2026 (Processo Administrativo nº 4.874/2026)",
+  "publicacao": "2026-10-14",
+  "inscricoes": {
+    "inicio": "2026-10-19",
+    "fim": "2026-11-03",
+    "taxa": "Isento",
+    "local": "Subsecretaria de Recursos Humanos da Secretaria Municipal de Administração e Planejamento - Rua Jalmas Gomes de Freitas, nº 151, Centro, Irupi (ES), CEP 29.398-032 (presencial)",
+    "isencao": "Não há taxa de inscrição (item 5.6)",
+    "observacao": "Entrega presencial das 08h às 17h, de 19/10/2026 a 03/11/2026 (Anexo I). Vai um envelope lacrado com a ficha de inscrição (Anexo IV), preenchida e assinada pelo candidato ou por procurador, fixada por fora. Não é permitido completar, substituir ou corrigir documentos depois da inscrição, nem em recurso. Impugnação ao edital em 16/10/2026."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "Análise de currículos: experiência profissional na área (1 ponto por mês, até 24 pontos) e títulos (até 26 pontos), total de 50 pontos (Anexo III)"
+    ],
+    "observacao": "Cronograma do Anexo I, em dias úteis: publicação dos inscritos de 04 a 06/11/2026; recurso contra a não homologação em 09 e 10/11; relação final de inscritos de 18 a 23/11; análise dos currículos de 24 a 26/11; resultado preliminar de 27/11 a 01/12; recurso em 02 e 03/12; julgamento e desempate em 09 e 10/12; classificação final, homologação e edital de classificação geral de 11 a 15/12/2026. A seleção é conduzida por comissão de 5 servidores designada pelo Decreto nº 650/2026."
+  },
+  "banca": "não informado",
+  "status": "edital_publicado",
+  "regime": "designacao_temporaria",
+  "validade": "Até 23/12/2027, prorrogável por 1 ano (item 13.13)",
+  "links": {
+    "edital": "https://www.irupi.es.gov.br/processo-seletivo/download/6cea12b90c0f70911fc4860be2a39f90/44456738743842",
+    "pagina_oficial": "https://www.irupi.es.gov.br/processo-seletivo/ver/173",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Prefeitura de Irupi - Processo Seletivo 029/2026 (publicação: 14/10/2026 às 10:30:36; situação: Vigente)",
+      "url": "https://www.irupi.es.gov.br/processo-seletivo/ver/173",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Edital de Processo Seletivo Simplificado nº 29/2026 - Cuidador Escolar (PDF)",
+      "url": "https://www.irupi.es.gov.br/processo-seletivo/download/6cea12b90c0f70911fc4860be2a39f90/44456738743842",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Prefeitura de Irupi (ES) lança edital de seletivo para Cuidador Escolar",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/10/15/prefeitura-de-irupi-es-lanca-edital-de-seletivo-para-cuidador-escolar/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-10-14",
+      "status": "edital_publicado",
+      "observacao": "Publicação do Edital nº 029/2026, de 14/10/2026, no site oficial da Prefeitura (aba Processo Seletivo), às 10h30."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "edital_publicado",
+      "observacao": "Primeiro registro no repositório, a partir do edital oficial em PDF publicado no site da Prefeitura. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "Seleção exclusivamente para cadastro de reserva: o Anexo II marca 'CR' na coluna de vagas e o preâmbulo fala em 'formação de cadastro de reserva', daí vagas_imediatas_total = 0. Inscrições ainda não iniciadas em 17/10/2026. Elas começam em 19/10/2026 (segunda-feira). PRAZO: o Anexo I chama o período de '10 dias' (úteis) e dá as datas 19/10 a 03/11/2026, mas esse intervalo tem 11 dias úteis, já descontado o feriado de 02/11. Foram adotadas as datas expressas. A contratação depende de lei autorizatória (item 13.1), e o prazo do contrato será fixado em lei municipal específica (item 1.8). Pelo item 6.5, como o edital não oferta 5 ou mais vagas, os classificados na reserva para PcD figuram só em cadastro de reserva. Reserva de 10% para PcD (Lei Estadual nº 12.009/2023 e Lei Municipal nº 1.151/2025), 20% para negros e 5% para indígenas (Lei Estadual nº 12.010/2023), com comissão de heteroidentificação. Só contam títulos dos últimos 5 anos; diplomas de graduação e pós-graduação contam sem limite de data. O Concursos no Brasil acrescenta que as contratações atendem à Secretaria Municipal de Educação; o edital não nomeia a secretaria, e as atribuições são em escola. PENDÊNCIA: pelo item 1.4, o extrato do edital deve ser veiculado pelo menos 10 dias úteis antes do fim das inscrições. Esse extrato não foi localizado nem conferido no Diário Oficial."
+}

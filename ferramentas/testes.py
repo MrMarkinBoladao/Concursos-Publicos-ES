@@ -1356,9 +1356,11 @@ class TesteCobertura(unittest.TestCase):
         self.assertEqual(bloco["total_municipios"], 78)
         # As DUAS metades do caso intermunicipal: Divino de Sao Lourenco
         # aparece somente em ps-consorcio-caparao-es-2026, que tem
-        # esfera 'intermunicipal' — logo nao credita municipio (15, e nao 16)
-        # e soma 1 em registros_intermunicipais_sem_atribuicao.
-        self.assertEqual(bloco["com_registro_curado"], 15)
+        # esfera 'intermunicipal' — logo nao credita municipio (21, e nao 22)
+        # e soma 1 em registros_intermunicipais_sem_atribuicao. Era 15 ate a
+        # curadoria de 17/10/2026, que trouxe Iconha, Irupi, Iuna, Joao Neiva,
+        # Montanha e Nova Venecia.
+        self.assertEqual(bloco["com_registro_curado"], 21)
         self.assertEqual(bloco["registros_intermunicipais_sem_atribuicao"], 4)
         self.assertNotIn("divino-de-sao-lourenco", bloco["slugs_com_sinal"])
         # Vazio desde 2026-10-02: a composicao dos tres intermunicipais foi
@@ -1669,6 +1671,59 @@ class TesteMainDoColetor(unittest.TestCase):
         self.assertIsNone(herdado["municipio_slug"])
         self.assertIsNone(herdado["municipio_confianca"])
         self.assertEqual(herdado["primeira_deteccao"], "2026-09-23")
+
+    def test_herdado_e_recasado_contra_o_dados_de_hoje(self):
+        """Achado que sumiu da fonte tem o casamento refeito a cada execucao.
+
+        Os dois sentidos foram medidos em 17/10/2026: pista de portal que sumiu
+        da listagem ANTES de ganhar registro ficava pendente para sempre, e
+        pista que casou com o registro errado continuava casada com ele mesmo
+        depois de existir o registro certo.
+        """
+        url_curada = (
+            "https://selecao.es.gov.br/processo-seletivo/"
+            "c3c96fb9-7a5d-4748-8e58-7059ead9a6f3/"
+            "sedu-edital-242026-professores-habilitados"
+        )
+        deteccao = {"primeira_deteccao": "2026-09-28", "ultima_deteccao": "2026-09-29"}
+        promovido = dict(
+            self._oportunidade("herdado-promovido", "Orgao Sem Registro Xyz"),
+            url=url_curada,
+            no_repositorio=False,
+            registro_repositorio=None,
+            **deteccao
+        )
+        orfao = dict(
+            self._oportunidade("herdado-orfao", "Orgao Sem Registro Xyz"),
+            no_repositorio=True,
+            registro_repositorio="ps-samu-es-condutor-socorrista-2026",
+            **deteccao
+        )
+        anterior = {
+            "descricao": "x",
+            "gerado_em": "2026-09-30",
+            "janela_dias": 90,
+            "total_achados": 2,
+            "ja_no_repositorio": 1,
+            "pendentes_de_curadoria": 1,
+            "fontes_consultadas": [],
+            "achados": [promovido, orfao],
+        }
+        arquivo, _log = self._rodar(anterior=anterior)
+        por_chave = {a["chave"]: a for a in arquivo["achados"]}
+
+        self.assertTrue(por_chave["herdado-promovido"]["ausente_na_fonte"])
+        self.assertTrue(por_chave["herdado-promovido"]["no_repositorio"])
+        self.assertEqual(
+            por_chave["herdado-promovido"]["registro_repositorio"],
+            "ps-sedu-es-professores-habilitados-24-2026",
+        )
+        self.assertFalse(por_chave["herdado-orfao"]["no_repositorio"])
+        self.assertIsNone(por_chave["herdado-orfao"]["registro_repositorio"])
+        self.assertEqual(arquivo["ja_no_repositorio"], 1)
+        self.assertEqual(arquivo["pendentes_de_curadoria"], 1)
+        # A deteccao original sobrevive ao recasamento.
+        self.assertEqual(por_chave["herdado-promovido"]["primeira_deteccao"], "2026-09-28")
 
     def test_chaves_do_arquivo_de_saida(self):
         arquivo, _log = self._rodar([self._oportunidade("op-1", "SEDU")])
@@ -2710,15 +2765,15 @@ class TesteCoberturaNoReadme(unittest.TestCase):
         self.assertEqual(
             {linha.split("|")[3].strip() for linha in linhas}, {"—"}
         )
-        # ... e as duas colunas que NAO dependem da coleta seguem corretas: 15
+        # ... e as duas colunas que NAO dependem da coleta seguem corretas: 21
         # municipios com registro curado (o mesmo numero de cobertura()) e canal
         # principal preenchido nas 78 linhas.
         com_curado = [linha for linha in linhas if linha.split("|")[2].strip() != "0"]
-        self.assertEqual(len(com_curado), 15)
+        self.assertEqual(len(com_curado), 21)
         self.assertEqual(
             [linha for linha in linhas if linha.split("|")[4].strip() == "—"], []
         )
-        self.assertIn("| Vitória | 6 | — | DOM/AMUNES |", bloco)
+        self.assertIn("| Vitória | 13 | — | DOM/AMUNES |", bloco)
 
     def test_bloco_e_deterministico_entre_duas_geracoes(self):
         self._gravar()

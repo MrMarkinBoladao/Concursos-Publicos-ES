@@ -1,0 +1,132 @@
+{
+  "id": "ps-nova-venecia-es-nivel-superior-030-2026",
+  "orgao": "Prefeitura Municipal de Nova Venécia",
+  "orgao_sigla": "não informado",
+  "esfera": "municipal",
+  "municipio": "Nova Venécia",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Nutricionista",
+      "area": "Nutrição",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Ensino superior completo em bacharelado em Nutrição e registro no conselho de classe; conhecimento de processador de textos, planilhas eletrônicas e internet",
+      "remuneracao": "R$ 3.664,01",
+      "jornada": "44 horas semanais"
+    },
+    {
+      "nome": "Psicólogo",
+      "area": "Psicologia",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Ensino superior completo em Psicologia, com registro no Conselho Regional de Psicologia (CRP)",
+      "remuneracao": "R$ 3.664,01 + R$ 810,51 (total de R$ 4.474,52; o edital não diz a que corresponde a parcela de R$ 810,51)",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Assistente Social",
+      "area": "Assistência social",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Ensino superior em Serviço Social e registro no CRESS; conhecimento da legislação que regulamenta as políticas públicas, de processador de textos, planilhas eletrônicas e internet",
+      "remuneracao": "R$ 3.664,01 + R$ 810,51 (total de R$ 4.474,52; o edital não diz a que corresponde a parcela de R$ 810,51)",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Educador Social",
+      "area": "Assistência social",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Nível superior completo em Pedagogia",
+      "remuneracao": "R$ 2.152,32",
+      "jornada": "44 horas semanais"
+    },
+    {
+      "nome": "Engenheiro Civil",
+      "area": "Engenharia",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Ensino superior completo em Engenharia Civil, com registro no CREA; conhecimento de processador de textos, planilhas eletrônicas e internet",
+      "remuneracao": "R$ 3.664,01",
+      "jornada": "30 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 0,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 2152.32,
+    "maxima": 4474.52,
+    "descricao": "R$ 2.152,32 (Educador Social, 44 horas) a R$ 3.664,01 + R$ 810,51 = R$ 4.474,52 (Psicólogo, 20 horas, e Assistente Social, 30 horas). Nutricionista e Engenheiro Civil recebem R$ 3.664,01. Valores do quadro do item 3.1, igual ao vencimento base da Lei nº 2.025/1994"
+  },
+  "beneficios": [],
+  "jornada": "20, 30 ou 44 horas semanais, conforme o cargo",
+  "edital_numero": "Edital nº 030/2026 - Processo Seletivo Simplificado de Nutricionista, Psicólogo, Assistente Social, Educador Social e Engenheiro Civil",
+  "publicacao": "2026-10-15",
+  "inscricoes": {
+    "inicio": "2026-10-28",
+    "fim": "2026-10-29",
+    "taxa": "não informado",
+    "local": "Secretaria Municipal de Administração - Avenida Vitória, nº 347, Centro, Nova Venécia (ES), CEP 29.830-000 (presencial)",
+    "isencao": "não informado",
+    "observacao": "Inscrições presenciais só em 28 e 29/10/2026, das 8h às 11h e das 13h às 15h. Os documentos vão numerados, junto com a ficha de inscrição (Anexo V), em envelope lacrado, com o formulário de remetente (Anexo II) fixado por fora. Não são aceitas inscrições condicionais, por e-mail, por correspondência ou fora do prazo. Tempo de serviço é contado até 30/09/2026. Os requisitos do Anexo I só são comprovados na posse."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "Etapa única classificatória: tempo de serviço na função (1 ponto por mês, até 24 pontos) e títulos (pós-graduação de 360h ou mais: 8; mestrado: 12; doutorado: 14; curso de 120h ou mais: 4; curso de 60 a 119h: 2; no máximo 4 títulos)"
+    ],
+    "observacao": "Cronograma do item 1.2: classificação em 02/11/2026, às 18h; recursos em 03/11/2026 (8h às 11h e 13h às 15h); classificação final em 04/11/2026, às 18h. A divulgação é no átrio da Prefeitura e em www.novavenecia.es.gov.br. A posse ocorre por chamada da Secretaria Municipal de Administração, mediante edital de convocação. Desempate pela maior idade."
+  },
+  "banca": "não informado",
+  "status": "edital_publicado",
+  "regime": "designacao_temporaria",
+  "validade": "2 anos a contar da divulgação da homologação, prorrogável por igual período ou enquanto durar a listagem de reserva técnica",
+  "links": {
+    "edital": "https://www.novavenecia.es.gov.br/wp-content/uploads/2026/10/EDITAL-No-030-2026-PROCESSO-SELETIVO-DE-NUTRICIONISTA-E-OUTROS.pdf",
+    "pagina_oficial": "https://www.novavenecia.es.gov.br/processo-seletivo/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Prefeitura de Nova Venécia - página Processo Seletivo (seção 'Processo Seletivo 2027', arquivo do Edital nº 030-2026 datado de 15/10/2026)",
+      "url": "https://www.novavenecia.es.gov.br/processo-seletivo/",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Edital nº 030/2026 - Processo Seletivo Simplificado de Nutricionista e outros (PDF, 15 páginas)",
+      "url": "https://www.novavenecia.es.gov.br/wp-content/uploads/2026/10/EDITAL-No-030-2026-PROCESSO-SELETIVO-DE-NUTRICIONISTA-E-OUTROS.pdf",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Prefeitura de Nova Venécia (ES) abre vagas em seletivo de nível superior",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/10/16/prefeitura-de-nova-venecia-es-abre-vagas-em-seletivo-de-nivel-superior/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-10-15",
+      "status": "edital_publicado",
+      "observacao": "Edital nº 030/2026, assinado em 13/10/2026, publicado na página oficial de processos seletivos da Prefeitura com data de 15/10/2026."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "edital_publicado",
+      "observacao": "Primeiro registro no repositório, a partir do edital oficial em PDF publicado no site da Prefeitura. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "Seleção exclusivamente para cadastro de reserva, em regime de designação temporária (preâmbulo e item 1.1). O edital não fixa número de vagas, daí vagas_imediatas_total = 0. Inscrições ainda não iniciadas em 17/10/2026; são só dois dias, presenciais. DIVERGÊNCIA de remuneração: o Concursos no Brasil fala em 'R$ 2.152,32 a R$ 3.664,01', com 'complemento de R$ 810,51' para alguns cargos. No edital, o quadro do item 3.1 registra '3.664,01 + 810,51' como remuneração de Psicólogo e Assistente Social. Por isso remuneracao.maxima foi registrada como a soma, R$ 4.474,52. O edital não explica a natureza da parcela de R$ 810,51. INCONSISTÊNCIAS DO EDITAL: (1) o item 9.3 manda preencher 'os formulários anexos VI ou VII do Edital nº 042/2024', provável resíduo de modelo, já que este edital tem seus próprios Anexos VI e VII de autodeclaração; (2) a ficha de inscrição (Anexo V) traz 'EDITAL Nº ___/2026'; (3) o Anexo I grafa 'Educado Social'; (4) os cursos pontuáveis valem no período de 01/01/2022 a 13/11/2026, data posterior às inscrições, provável erro material; (5) a classificação está marcada para 02/11/2026, feriado de Finados, e pode ser remarcada. A taxa de inscrição não é mencionada no edital. O Educador Social exige nível superior em Pedagogia. Reserva de 5% para PcD (5ª, 25ª, 45ª vagas…), 20% para negros e 5% para indígenas (Lei Estadual nº 12.010/2023). A Comissão Especial foi instituída pela Portaria nº 5.608/2024. Nenhuma errata ao Edital 030/2026 constava da página oficial em 17/10/2026."
+}

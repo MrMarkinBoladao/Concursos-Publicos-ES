@@ -1,0 +1,272 @@
+{
+  "id": "ps-montanha-es-semect-01-2026",
+  "orgao": "Prefeitura Municipal de Montanha - Secretaria Municipal de Educação, Ciência e Tecnologia (SEMECT)",
+  "orgao_sigla": "PMM/SEMECT",
+  "esfera": "municipal",
+  "municipio": "Montanha",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Professor/a Regente de Classe MAPA (Educação Infantil, Anos Iniciais do Ensino Fundamental, EJA 1º segmento, tempo integral e escolas multisseriadas do campo)",
+      "area": "Educação",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (licenciatura)",
+      "requisitos": "Licenciatura em Pedagogia (habilitação magistério dos anos iniciais ou amparada pela Resolução CNE/CP nº 1/2006) ou Normal Superior; para as escolas multisseriadas do campo também Licenciatura da Terra (Anexo I)",
+      "remuneracao": "R$ 3.207,00 a R$ 3.483,00 para 25 horas, conforme o nível de titulação (I a VII), proporcional à carga horária",
+      "jornada": "25 horas semanais (40 horas nas EMEFTI Presidente Costa e Silva e Maria Clementina Veloso Santos e nos CMEIs de tempo integral; 35 horas na EMEFTI Gabriele Ferreira Romão)"
+    },
+    {
+      "nome": "Professor/a MAPB (componentes curriculares da Educação Infantil e do Ensino Fundamental, Mediador/a de Laboratório de Informática, Computação, Música e Atendimento Educacional Especializado)",
+      "area": "Educação",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (habilitados) ou estudante de licenciatura/graduado em área afim (não habilitados)",
+      "requisitos": "Habilitados: licenciatura no componente curricular (Anexo I), com CREF para Educação Física e cursos específicos para AEE; não habilitados: estudantes a partir do 5º período da licenciatura ou graduados em áreas afins, conforme Anexo II",
+      "remuneracao": "R$ 3.207,00 a R$ 3.483,00 para 25 horas, conforme o nível de titulação (I a VII), proporcional à carga horária; bacharel ou técnico recebe pelo nível III",
+      "jornada": "25 horas semanais (35 ou 40 horas nas unidades de tempo integral)"
+    },
+    {
+      "nome": "Professor/a em Função Pedagógica MAPP (Pedagogo/a)",
+      "area": "Educação",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (licenciatura)",
+      "requisitos": "Licenciatura plena em Pedagogia com habilitação em Educação Infantil ou em supervisão, orientação, administração, inspeção ou gestão escolar (ou licenciatura com pós-graduação lato sensu nessas habilitações) e no mínimo 3 anos de experiência docente comprovada por declaração da direção escolar",
+      "remuneracao": "R$ 3.207,00 a R$ 3.483,00 para 25 horas, conforme o nível de titulação (I a VII), proporcional à carga horária",
+      "jornada": "Conforme a Portaria nº 21/2022 (40 horas nas unidades de tempo integral; 35 horas na EMEFTI Gabriele Ferreira Romão)"
+    },
+    {
+      "nome": "Psicopedagogo/a Institucional e/ou Clínico",
+      "area": "Educação",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Licenciatura plena em Pedagogia e especialização em Psicopedagogia Institucional e/ou Clínica",
+      "remuneracao": "R$ 3.345,00",
+      "jornada": "25 horas semanais"
+    },
+    {
+      "nome": "Assistente Social",
+      "area": "Educação - equipe multiprofissional",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em Serviço Social e registro no conselho regional da classe",
+      "remuneracao": "R$ 3.077,20",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Fonoaudiólogo/a Educacional",
+      "area": "Educação - equipe multiprofissional",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em Fonoaudiologia e registro no conselho regional da classe",
+      "remuneracao": "R$ 3.077,20",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Psicólogo/a Educacional",
+      "area": "Educação - equipe multiprofissional",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em Psicologia e registro no conselho regional da classe",
+      "remuneracao": "R$ 3.077,20",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Nutricionista Escolar",
+      "area": "Educação - alimentação escolar",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em Nutrição e registro no conselho regional da classe",
+      "remuneracao": "R$ 3.077,20",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Auxiliar de Sala de Aula (específico para Educação Infantil)",
+      "area": "Educação - apoio",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio completo",
+      "requisitos": "Ensino médio completo e curso de formação específico para o cargo",
+      "remuneracao": "R$ 1.866,22",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Auxiliar de Sala de Aula (específico para Educação Especial)",
+      "area": "Educação - apoio",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio completo",
+      "requisitos": "Ensino médio completo e curso de formação específico para o cargo",
+      "remuneracao": "R$ 1.866,22",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Cuidador/a (Educação Especial)",
+      "area": "Educação - apoio",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio completo",
+      "requisitos": "Ensino médio completo e curso de formação específico para o cargo",
+      "remuneracao": "R$ 1.785,11",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Auxiliar de Secretaria Escolar",
+      "area": "Educação - administrativo",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio completo",
+      "requisitos": "Ensino médio completo e curso de informática básica ou equivalente com carga horária a partir de 100 horas (Anexo III)",
+      "remuneracao": "R$ 1.708,52",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Motorista de Transporte Escolar",
+      "area": "Transporte escolar",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "não informado",
+      "requisitos": "CNH categoria mínima D, curso de transporte escolar de no mínimo 20 horas/aula e aprovação na prova prática (Anexo III)",
+      "remuneracao": "R$ 1.708,52",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Cozinheiro/a Escolar",
+      "area": "Educação - alimentação escolar",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental completo",
+      "requisitos": "Ensino fundamental completo",
+      "remuneracao": "R$ 1.708,52",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Monitor/a de Transporte Escolar",
+      "area": "Transporte escolar",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio completo",
+      "requisitos": "Ensino médio completo e curso de formação específico para o cargo",
+      "remuneracao": "R$ 1.708,52",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Servente Escolar",
+      "area": "Educação - apoio",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental completo",
+      "requisitos": "Ensino fundamental completo",
+      "remuneracao": "R$ 1.708,52",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Porteiro/a Escolar",
+      "area": "Educação - apoio",
+      "vagas_imediatas": null,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental completo",
+      "requisitos": "Ensino fundamental completo",
+      "remuneracao": "R$ 1.708,52",
+      "jornada": "30 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": null,
+  "cadastro_reserva": true,
+  "escolaridade": "nível fundamental, médio e superior, conforme o cargo",
+  "remuneracao": {
+    "minima": 1708.52,
+    "maxima": 3483.0,
+    "descricao": "De R$ 1.708,52 (cargos de apoio, 30 horas) a R$ 3.483,00 (professor nível VII, com doutorado, referência de 25 horas), conforme cargo, titulação e carga horária"
+  },
+  "beneficios": [],
+  "jornada": "25 horas semanais para professores (35 ou 40 horas nas unidades de tempo integral); 30 horas para os demais cargos, exceto Psicopedagogo/a (25 horas)",
+  "edital_numero": "Edital nº 01/2026 (SEMECT)",
+  "publicacao": "2026-10-06",
+  "inscricoes": {
+    "inicio": "2026-10-20",
+    "fim": "2026-10-26",
+    "taxa": "Isento",
+    "local": "http://educacao.cloud.el.com.br/es-montanha-pm-processo-seletivo/paginas/candidato/index.xhtml",
+    "isencao": "Não haverá cobrança (em espécie) de taxa de inscrição (item 5.10 do edital)",
+    "observacao": "Inscrições exclusivamente pela internet, das 8h de 20/10/2026 às 17h de 26/10/2026 (horário de Brasília), pelo formulário indicado na página oficial da Prefeitura. Até 2 inscrições por candidato, em cargos diferentes. Tempo de serviço e títulos são declarados na inscrição e comprovados apenas na chamada."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "Classificação pelos dados declarados na inscrição: tempo de serviço de janeiro de 2016 a setembro de 2026 (até 40 pontos) e qualificação profissional/titulação, conforme o Anexo IV com a redação da retificação de 13/10/2026",
+      "Prova prática para Motorista de Transporte Escolar (Categoria IV do Anexo IV, 45 pontos; data não informada)",
+      "Chamada e comprovação de títulos, de caráter eliminatório",
+      "Formalização do contrato"
+    ],
+    "observacao": "Sem prova objetiva. Cronograma (Anexo V): resultado das inscrições e classificação em 30/10/2026; recurso em 03/11/2026, pelo próprio site de inscrição; resultado final em 09/11/2026; chamada e contratação a partir de 16/11/2026, por e-mail; apresentação no local de trabalho em 01/02/2027."
+  },
+  "banca": "não informado",
+  "status": "edital_publicado",
+  "regime": "designacao_temporaria",
+  "validade": "Até o fim do ano letivo de 2027, prorrogável por até 12 meses; contratos de 1º/02/2027 a 31/12/2027, prorrogáveis conforme a necessidade",
+  "links": {
+    "edital": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11527/96",
+    "pagina_oficial": "https://montanha.es.gov.br/montanha-abre-processo-seletivo-simplificado-para-contratacao-temporaria-na-educacao/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "DOM/ES nº 3.102 (06/10/2026) - Edital nº 01/2026 da SEMECT de Montanha, Processo Seletivo Simplificado de Profissionais em Designação Temporária, págs. 96 a 120",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11527/96",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Prefeitura de Montanha - Montanha abre Processo Seletivo Simplificado para contratação temporária na Educação (página com edital, retificação e link de inscrição)",
+      "url": "https://montanha.es.gov.br/montanha-abre-processo-seletivo-simplificado-para-contratacao-temporaria-na-educacao/",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Prefeitura de Montanha - Edital nº 01/2026 completo (PDF de 49 páginas, link 'Acesse o edital' da página oficial)",
+      "url": "https://drive.google.com/file/d/1-HJWoGIiGKVwIoKeOe7sGnJ4mDLO4KMi/view?usp=drive_link",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Prefeitura de Montanha - Retificação do Edital 01/26, de 13/10/2026, nova redação do Anexo IV (PDF de 18 páginas, link da página oficial)",
+      "url": "https://drive.google.com/file/d/1cOHggljB35puD1vzQW47TpUnu6flfFjm/view?usp=drive_link",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Concursos no Brasil - Prefeitura de Montanha (ES) abre edital na área da educação com salários de até R$ 3,4 mil",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/10/06/prefeitura-de-montanha-es-abre-edital-na-area-da-educacao-com-salarios-de-ate-r-34-mil/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-10-06",
+      "status": "edital_publicado",
+      "observacao": "Publicação do Edital nº 01/2026 no DOM/ES nº 3.102 (págs. 96 a 120) e na página da Prefeitura de Montanha."
+    },
+    {
+      "data": "2026-10-13",
+      "status": "edital_publicado",
+      "observacao": "Retificação de 13/10/2026 disponibilizada na página oficial: nova redação do Anexo IV (critérios de pontuação), mantidas as demais condições. Não localizada no DOM/ES até a edição nº 3.109, de 16/10/2026."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "edital_publicado",
+      "observacao": "Primeiro registro no repositório, a partir do edital publicado no DOM/ES e da página oficial com a retificação. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "Seleção para contratação e cadastro de reserva SEM número de vagas: o edital não quantifica vagas (convocação conforme as vagas remanescentes e as que surgirem no ano letivo de 2027), daí vagas_imediatas = null. São 17 funções (magistério habilitado e não habilitado, equipe multiprofissional e apoio). RETIFICAÇÃO: o documento 'Retificação – Edital 01/26', datado de 13/10/2026 e disponibilizado na página oficial do processo (publicação do site alterada em 13/10/2026), substitui o Anexo IV (critérios de pontuação): retira da Categoria III formações presenciais específicas da SEMECT (Educar pra Valer, PAES/CNCA, formações do CMAES, entre outras), muda faixas de carga horária (por exemplo, 'acima de 120 horas' passa a 'acima de 121 horas') e altera a pontuação de certificados como o do Programa Agrinho; mantém datas, cargos, requisitos e remunerações ('ficam mantidas as demais condições'). A retificação NÃO foi encontrada no DOM/ES nas edições de 07 a 16/10/2026 (nº 3.103 a 3.109); a fonte dela é só a página da Prefeitura. A página oficial bloqueia cliente de script e foi lida com a ferramenta de leitura e pela API pública do WordPress do site, de onde vieram os links do edital, da retificação e da inscrição. O edital completo do site (49 páginas) traz o mesmo cronograma e as mesmas remunerações do DOM/ES. O portal Concursos no Brasil confere com o edital em datas e salários (R$ 1.708,52 a R$ 3.483,00), mas trata a seleção só como cadastro de reserva; o edital fala em 'contratação e cadastro reserva'. Remuneração dos professores proporcional à carga horária, a partir da referência de 25 horas; titulação pode ser enquadrada provisoriamente no nível IV por até 120 dias até a auditoria dos documentos. Motorista de Transporte Escolar depende de aprovação em prova prática, sem data no cronograma. Reserva de 4% das vagas para pessoas com deficiência. Quem desistir do contrato em até 90 dias fica impedido de novo contrato com a Secretaria por 2 anos. Benefícios não informados no edital."
+}

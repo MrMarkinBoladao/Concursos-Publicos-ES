@@ -1,0 +1,747 @@
+{
+  "id": "ps-santa-maria-jetiba-es-secadm-66-2026",
+  "orgao": "Prefeitura Municipal de Santa Maria de Jetibá - Secretaria Municipal de Administração (SECADM)",
+  "orgao_sigla": "PMSMJ/SECADM",
+  "esfera": "municipal",
+  "municipio": "Santa Maria de Jetibá",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Coveiro",
+      "area": "Serviços urbanos",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental incompleto",
+      "requisitos": "Ensino fundamental incompleto (nível 5º ano, antiga 4ª série do ensino fundamental)",
+      "remuneracao": "Vencimento mensal de R$ 1.711,66, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Jardineiro",
+      "area": "Serviços urbanos",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental incompleto",
+      "requisitos": "Ensino fundamental incompleto (nível 5º ano, antiga 4ª série do ensino fundamental)",
+      "remuneracao": "Vencimento mensal de R$ 1.711,66, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Motorista",
+      "area": "Transporte",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental incompleto",
+      "requisitos": "Ensino fundamental incompleto (nível 5º ano, antiga 4ª série do ensino fundamental) e CNH categoria D",
+      "remuneracao": "Vencimento mensal de R$ 2.464,79, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Operador de Máquinas",
+      "area": "Obras e infraestrutura",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental incompleto",
+      "requisitos": "Ensino fundamental incompleto (nível 5º ano, antiga 4ª série do ensino fundamental) e CNH categoria D",
+      "remuneracao": "Vencimento mensal de R$ 2.920,78, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Pedreiro",
+      "area": "Obras e infraestrutura",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental incompleto",
+      "requisitos": "Ensino fundamental incompleto (nível 5º ano, antiga 4ª série do ensino fundamental)",
+      "remuneracao": "Vencimento mensal de R$ 2.464,79, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Trabalhador Braçal",
+      "area": "Serviços gerais",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental incompleto",
+      "requisitos": "Ensino fundamental incompleto (nível 5º ano, antiga 4ª série do ensino fundamental)",
+      "remuneracao": "Vencimento mensal de R$ 1.711,66, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Auxiliar de Cuidador",
+      "area": "Assistência social",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental completo",
+      "requisitos": "Ensino fundamental completo",
+      "remuneracao": "Vencimento mensal de R$ 1.711,66, mais vale-alimentação de R$ 750,00",
+      "jornada": "Escala 12x36"
+    },
+    {
+      "nome": "Eletricista",
+      "area": "Obras e infraestrutura",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental completo",
+      "requisitos": "Ensino fundamental completo e curso básico de eletricista de no mínimo 180 horas",
+      "remuneracao": "Vencimento mensal de R$ 2.464,79, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Agente Municipal de Crédito",
+      "area": "Crédito e geração de renda",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio",
+      "requisitos": "Ensino médio completo",
+      "remuneracao": "Vencimento mensal de R$ 2.536,68, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Almoxarife",
+      "area": "Administração",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio",
+      "requisitos": "Ensino médio completo",
+      "remuneracao": "Vencimento mensal de R$ 2.536,68, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Atendente de Ambulatório",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio",
+      "requisitos": "Ensino médio completo",
+      "remuneracao": "Vencimento mensal de R$ 2.225,16, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Atendente de Farmácia",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio",
+      "requisitos": "Ensino médio completo",
+      "remuneracao": "Vencimento mensal de R$ 2.225,16, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Auxiliar de Saúde Bucal",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio",
+      "requisitos": "Ensino médio e curso de Auxiliar em Saúde Bucal ou Técnico em Saúde Bucal, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 2.536,68, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Auxiliar de Enfermagem",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio",
+      "requisitos": "Ensino médio e curso de Auxiliar de Enfermagem, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro em órgão competente",
+      "remuneracao": "Vencimento mensal de R$ 3.176,95, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Assistente Administrativo",
+      "area": "Administração",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio",
+      "requisitos": "Ensino médio completo",
+      "remuneracao": "Vencimento mensal de R$ 2.536,68, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Cuidador Social",
+      "area": "Assistência social",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio",
+      "requisitos": "Ensino médio completo",
+      "remuneracao": "Vencimento mensal de R$ 2.536,68, mais vale-alimentação de R$ 750,00",
+      "jornada": "Escala 12x36"
+    },
+    {
+      "nome": "Entrevistador Social",
+      "area": "Assistência social",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio",
+      "requisitos": "Ensino médio completo",
+      "remuneracao": "Vencimento mensal de R$ 2.536,68, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Orientador Social",
+      "area": "Assistência social",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio",
+      "requisitos": "Ensino médio completo",
+      "remuneracao": "Vencimento mensal de R$ 2.536,68, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Técnico Agrícola",
+      "area": "Agricultura",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível técnico",
+      "requisitos": "Curso técnico em Agropecuária e/ou Técnico Agrícola, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 3.549,30, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Técnico em Administração",
+      "area": "Administração",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível técnico",
+      "requisitos": "Ensino médio completo e curso técnico em Administração, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 3.549,30, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Técnico de Contabilidade",
+      "area": "Contábil",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível técnico",
+      "requisitos": "Ensino médio completo e curso técnico em Contabilidade, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 3.549,30, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Técnico em Edificações",
+      "area": "Obras e infraestrutura",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível técnico",
+      "requisitos": "Ensino médio completo e curso técnico em Edificações, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 3.549,30, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Técnico em Meio Ambiente",
+      "area": "Meio ambiente",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível técnico",
+      "requisitos": "Ensino médio completo e curso técnico em Meio Ambiente, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 3.549,30, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Técnico em Radiologia",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível técnico",
+      "requisitos": "Ensino médio completo e curso técnico em Radiologia, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 3.549,30, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Técnico em Laboratório",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível técnico",
+      "requisitos": "Ensino médio completo e curso técnico em Laboratório, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 3.549,30, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Técnico em Enfermagem",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível técnico",
+      "requisitos": "Curso técnico em Enfermagem, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro em órgão competente",
+      "remuneracao": "Vencimento mensal de R$ 3.978,81, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Analista de Compras, Contratos e Licitações",
+      "area": "Administração",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de curso de nível superior, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação",
+      "remuneracao": "Vencimento mensal de R$ 5.770,38, mais vale-alimentação de R$ 750,00",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Arquiteto Urbanista",
+      "area": "Obras e infraestrutura",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Arquitetura e Urbanismo, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 5.770,38, mais vale-alimentação de R$ 750,00",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Administrador",
+      "area": "Administração",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Administração, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 5.770,38, mais vale-alimentação de R$ 750,00",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Advogado",
+      "area": "Jurídica",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Direito, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 6.353,90, mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Arquivista",
+      "area": "Administração",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Arquivologia, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação",
+      "remuneracao": "Vencimento mensal de R$ 5.770,38, mais vale-alimentação de R$ 750,00",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Assistente Social",
+      "area": "Assistência social",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Serviço Social, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 4.499,60, mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Bibliotecário",
+      "area": "Biblioteconomia",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Biblioteconomia, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 5.770,38, mais vale-alimentação de R$ 750,00",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Biólogo",
+      "area": "Biologia",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Biologia, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 5.770,38, mais vale-alimentação de R$ 750,00",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Bioquímico",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Farmácia/Bioquímica, Farmácia Generalista ou Bioquímica, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 4.499,60, mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Contador",
+      "area": "Contábil",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Ciências Contábeis, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 5.770,38, mais vale-alimentação de R$ 750,00",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Educador Físico",
+      "area": "Educação física",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Educação Física (bacharelado), fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 3.008,38, mais vale-alimentação de R$ 750,00",
+      "jornada": "25 horas semanais"
+    },
+    {
+      "nome": "Enfermeiro",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Enfermagem, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 4.499,60, mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Enfermeiro",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Enfermagem, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 8.999,20, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Engenheiro Agrônomo",
+      "area": "Agricultura",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Engenharia Agronômica ou Agronomia, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 5.770,38, mais vale-alimentação de R$ 750,00",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Engenheiro Ambiental",
+      "area": "Meio ambiente",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Engenharia Ambiental, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 5.770,38, mais vale-alimentação de R$ 750,00",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Engenheiro Civil",
+      "area": "Obras e infraestrutura",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Engenharia Civil, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 5.770,38, mais vale-alimentação de R$ 750,00",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Farmacêutico",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Farmácia, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 4.499,60, mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Farmacêutico",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Farmácia, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 8.999,20, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Fisioterapeuta",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Fisioterapia, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 4.499,60, mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Fonoaudiólogo",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Fonoaudiologia, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 4.499,60, mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Médico Autorizador",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Medicina, com especialização na área afim, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no CRM",
+      "remuneracao": "Vencimento mensal de R$ 10.373,71, mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Médico Angiologista",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Medicina, com especialização na área afim, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no CRM",
+      "remuneracao": "Vencimento mensal de R$ 10.373,71, mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Médico Dermatologista",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Medicina, com especialização na área afim, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no CRM",
+      "remuneracao": "Vencimento mensal de R$ 10.373,71, mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Médico Radiologista",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Medicina, com especialização na área afim, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no CRM",
+      "remuneracao": "Vencimento mensal de R$ 10.373,71, mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Médico Clínico Geral",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Medicina, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no CRM",
+      "remuneracao": "Vencimento mensal de R$ 8.687,99, mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Médico Clínico Geral",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Medicina, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no CRM",
+      "remuneracao": "Vencimento mensal de R$ 17.375,97, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Médico do Trabalho",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Medicina, com especialização na área afim, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no CRM",
+      "remuneracao": "Vencimento mensal de R$ 10.373,71, mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Médico Ginecologista",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Medicina, com especialização na área afim, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no CRM",
+      "remuneracao": "Vencimento mensal de R$ 10.373,71, mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Médico Pediatra",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Medicina, com especialização na área afim, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no CRM",
+      "remuneracao": "Vencimento mensal de R$ 10.373,71, mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Médico Psiquiatra",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Medicina, com especialização na área afim, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no CRM",
+      "remuneracao": "Vencimento mensal de R$ 10.373,71, mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Médico Veterinário",
+      "area": "Medicina veterinária",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Medicina Veterinária, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 4.499,60, mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Médico Veterinário",
+      "area": "Medicina veterinária",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Medicina Veterinária, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 8.999,20, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Nutricionista",
+      "area": "Nutrição",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Nutrição, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 4.499,60, mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Odontólogo",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Odontologia, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 4.499,60, mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Odontólogo",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Odontologia, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 8.999,20, mais vale-alimentação de R$ 750,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Pedagogo Social",
+      "area": "Assistência social",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Pedagogia, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação",
+      "remuneracao": "Vencimento mensal de R$ 3.008,38, mais vale-alimentação de R$ 750,00",
+      "jornada": "25 horas semanais"
+    },
+    {
+      "nome": "Psicólogo",
+      "area": "Psicologia",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Psicologia, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 4.499,60 (valor corrigido pela Errata 001/2026; o edital publicado em 05/10/2026 trazia R$ 4.999,60), mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Terapeuta Ocupacional",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Certificado ou diploma, devidamente registrado, de conclusão de graduação de nível superior em Terapia Ocupacional, fornecido por instituição de ensino oficial reconhecida pelo Ministério da Educação, e registro no conselho da classe",
+      "remuneracao": "Vencimento mensal de R$ 4.499,60 (valor corrigido pela Errata 001/2026; o edital publicado em 05/10/2026 trazia R$ 4.999,60), mais vale-alimentação de R$ 750,00",
+      "jornada": "20 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 0,
+  "cadastro_reserva": true,
+  "escolaridade": "nível fundamental incompleto, fundamental completo, médio, técnico e superior, conforme o cargo",
+  "remuneracao": {
+    "minima": 1711.66,
+    "maxima": 17375.97,
+    "descricao": "Vencimento mensal de R$ 1.711,66 (Coveiro, Jardineiro, Trabalhador Braçal e Auxiliar de Cuidador) a R$ 17.375,97 (Médico Clínico Geral, 40 horas), conforme o cargo e a carga horária, mais vale-alimentação de R$ 750,00 (Anexo III, com a Errata 001/2026)"
+  },
+  "beneficios": [
+    "Vale-alimentação de R$ 750,00"
+  ],
+  "jornada": "20, 25, 30 ou 40 horas semanais, ou escala 12x36, conforme o cargo",
+  "edital_numero": "Edital nº 66/2026 - Processo Seletivo de Cadastro Reserva Simplificado de Cargos",
+  "publicacao": "2026-10-05",
+  "inscricoes": {
+    "inicio": "2026-10-16",
+    "fim": "2026-10-28",
+    "taxa": "Isento",
+    "local": "Sede da Câmara Municipal de Santa Maria de Jetibá - Rua Dalmácio Espíndula, nº 155, Centro, Santa Maria de Jetibá (ES), entrega presencial ou por procurador com firma reconhecida",
+    "isencao": "Inscrição gratuita",
+    "observacao": "Entrega presencial, das 08h30 às 16h30, em dias fixos por escolaridade: nível superior nos dias 16 e 20/10/2026; fundamental completo, médio e técnico nos dias 22 e 23/10/2026; fundamental incompleto nos dias 27 e 28/10/2026. Inscrição fora do dia do seu nível não é aceita. Ficha de inscrição no site da Prefeitura, entregue em envelope com cópias e originais (ou cópias autenticadas) dos documentos. Até 2 inscrições por candidato, para cargos distintos, com envelopes e fichas separados."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "Análise de experiência profissional (até 40 pontos) e prova de títulos / qualificação profissional (até 60 pontos)",
+      "Prova prática eliminatória para Motorista (ônibus e caminhão basculante) e Operador de Máquinas (retroescavadeira e pá carregadeira), prevista para 05 e 12/12/2026"
+    ],
+    "observacao": "Cronograma previsto (Anexo I): resultado parcial em 13/11/2026; recurso em 16 e 17/11/2026; resposta aos recursos e convocação para a prova prática em 25/11/2026; prova prática em 05 e 12/12/2026; resultado final da prova prática e homologação previstos para 18/12/2026. Seleção conduzida por Comissão Geral nomeada pela Portaria nº 1129/2026."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_abertas",
+  "regime": "designacao_temporaria",
+  "validade": "1 ano a contar da publicação da homologação do resultado final, prorrogável uma vez por igual período; contratos de até 12 meses, prorrogáveis por igual período",
+  "links": {
+    "edital": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11524/142",
+    "pagina_oficial": "https://portal.pmsmj.es.gov.br/concursos-e-selecoes/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "DOM/ES (AMUNES) edição nº 3.101, de 05/10/2026, pág. 142 - início do Edital nº 66/2026 (texto integral nas págs. 142 a 176)",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11524/142",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "DOM/ES edição nº 3.101, pág. 150 - assinatura do edital e início do cronograma (Anexo I)",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11524/150",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "DOM/ES edição nº 3.101, pág. 152 - início do Anexo III (cargos, vencimentos, carga horária e requisitos; continua até a pág. 156)",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11524/152",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "DOM/ES edição nº 3.103, de 07/10/2026, pág. 146 - Errata 001/2026 ao Edital nº 066/2026 (os quadros 'onde se lê' / 'leia-se' continuam na pág. 147)",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11531/146",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Processo seletivo Prefeitura de Santa Maria de Jetibá (ES) paga até R$ 17,3 mil",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/10/05/processo-seletivo-prefeitura-de-santa-maria-de-jetiba-es-paga-ate-r-173-mil/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-10-05",
+      "status": "edital_publicado",
+      "observacao": "Publicação do Edital nº 66/2026 no DOM/ES (edição nº 3.101, págs. 142 a 176). Prazo de impugnação em 06/10/2026."
+    },
+    {
+      "data": "2026-10-07",
+      "status": "edital_publicado",
+      "observacao": "Errata 001/2026 (DOM/ES edição nº 3.103, págs. 146-147) corrige o vencimento de Psicólogo e Terapeuta Ocupacional de R$ 4.999,60 para R$ 4.499,60."
+    },
+    {
+      "data": "2026-10-16",
+      "status": "inscricoes_abertas",
+      "observacao": "Primeiro dia de inscrições, para os cargos de nível superior, das 08h30 às 16h30, conforme o cronograma do edital."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "inscricoes_abertas",
+      "observacao": "Primeiro registro no repositório, a partir do edital publicado no DOM/ES e da Errata 001/2026. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "Seleção exclusivamente para cadastro de reserva: o Anexo III marca 'CR' em todas as 64 linhas do quadro e o item 1.1 diz que a finalidade é a formação de cadastro de reserva, daí vagas_imediatas_total = 0. Cada linha do quadro virou um cargo; Enfermeiro, Farmacêutico, Médico Clínico Geral, Médico Veterinário e Odontólogo aparecem duas vezes porque o edital tem linhas separadas para 20 e 40 horas. O campo 'area' é classificação pela natureza do cargo: o edital não informa a secretaria de lotação de cada um. ERRATA 001/2026 (DOM 07/10/2026): Psicólogo e Terapeuta Ocupacional passam de R$ 4.999,60 para R$ 4.499,60, valor que foi adotado. Na página 147 o texto extraído do PDF põe os quadros fora de ordem em relação às palavras 'onde se lê' e 'leia-se'; o sentido foi confirmado pelo edital original, que traz R$ 4.999,60, e pelos demais cargos de nível superior de 20 horas, todos a R$ 4.499,60. A errata não altera datas, requisitos nem outros valores. PRAZO: apesar de inicio/fim cobrirem 16 a 28/10/2026, a entrega só ocorre em seis dias, separados por escolaridade, e em 17/10 (sábado) não há recebimento. Para o nível superior, o item 3.1 e o Anexo I dizem 'dias 16 e 20 de outubro' (sexta e terça; a segunda, 19/10, não aparece). DIVERGÊNCIA: o Concursos no Brasil escreve 'de 16 a 20 de outubro'. Mantida a redação literal do edital; vale confirmar com a Prefeitura se a entrega também ocorre em 19/10. RESTRIÇÕES: pelo item 1.10, quem ainda está classificado e vigente em editais anteriores tem prioridade de convocação para cargos de mesma denominação, e os classificados de 2026 só serão chamados depois de esgotadas aquelas listas. O item 1.9 exige disponibilidade para atuar em unidades alternadas. Trabalhador Braçal, Motorista, Operador de Máquinas, Entrevistador Social e Orientador Social têm classificação por polo (Anexo IV). Reserva de 5% para PcD e de 17% para negros e 3% para indígenas (Lei Municipal nº 2.739/2023). NÃO CONFUNDIR com concurso-santa-maria-jetiba-es-guarda-municipal-2026, que é concurso público (Edital nº 001/2026, Instituto Consulplan, Guarda Municipal). Na quarentena, a pista do Concursos no Brasil e os achados do DOM 11531/146 (errata) estavam vinculados por engano a esse registro da Guarda. A pág. 147 da edição 11531, onde a errata continua, ficou fora de fontes de propósito: ela também traz a errata do Contrato nº 604/2026, e o casamento por URL vincularia esse ato alheio a este registro. FONTE: a página do portal da Prefeitura (portal.pmsmj.es.gov.br), tanto a notícia do edital quanto a de concursos e seleções, respondeu HTTP 403 ao script e à leitura por web_fetch em 17/10/2026. Por isso o registro se apoia no texto integral publicado no DOM/ES. links.pagina_oficial é o endereço que o próprio edital indica para publicações e convocações (itens 1.5 e 3.1); a ficha de inscrição, que fica nesse site, não foi conferida."
+}

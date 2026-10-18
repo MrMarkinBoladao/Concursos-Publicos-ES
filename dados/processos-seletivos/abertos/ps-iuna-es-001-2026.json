@@ -1,0 +1,282 @@
+{
+  "id": "ps-iuna-es-001-2026",
+  "orgao": "Prefeitura Municipal de Iúna",
+  "orgao_sigla": "PMI",
+  "esfera": "municipal",
+  "municipio": "Iúna",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Professor A-DT",
+      "area": "Educação",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Professor B-DT",
+      "area": "Educação",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Pedagogo",
+      "area": "Educação",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Psicopedagogo",
+      "area": "Educação",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Cuidador",
+      "area": "Educação",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Monitor de Transporte Escolar",
+      "area": "Educação",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Motorista",
+      "area": "não informado",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Psicólogo",
+      "area": "não informado",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Assistente Social",
+      "area": "Assistência social",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Orientador Social",
+      "area": "Assistência social",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Digitador do Cadastro Único",
+      "area": "Assistência social",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Agente Comunitário de Saúde",
+      "area": "Saúde",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Agente de Combate às Endemias",
+      "area": "Saúde",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Auxiliar em Saúde Bucal",
+      "area": "Saúde",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Nutricionista",
+      "area": "não informado",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Educador Físico",
+      "area": "não informado",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Auxiliar Administrativo",
+      "area": "Administrativa",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Técnico em Meio Ambiente",
+      "area": "Meio ambiente",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Técnico em Florestas",
+      "area": "Meio ambiente",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Agente de Suporte Operacional (Limpeza Pública)",
+      "area": "Serviços urbanos",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": null,
+  "cadastro_reserva": null,
+  "escolaridade": "não informado",
+  "remuneracao": {
+    "minima": null,
+    "maxima": null,
+    "descricao": "não informado na fonte oficial consultada"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "Edital do Processo Seletivo Simplificado nº 001/2026 (contratações para 2027)",
+  "publicacao": null,
+  "inscricoes": {
+    "inicio": "2026-10-14",
+    "fim": "2026-11-06",
+    "taxa": "não informado",
+    "local": "https://institutoselecao.selecao.net.br/informacoes/34/",
+    "isencao": "Pedidos de isenção apenas em 14/10/2026, segundo a listagem de certames do site do Instituto Seleção (prazo já encerrado na data da verificação); critérios não informados",
+    "observacao": "Inscrições de 14/10/2026 a 06/11/2026, exclusivamente pelo site do Instituto Seleção (www.institutoselecao.org.br), conforme a notícia oficial da Prefeitura de 15/10/2026 e a listagem da banca. Horários não informados na fonte oficial consultada."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "Prova de títulos (cargos abrangidos e datas não informados na fonte oficial consultada)"
+    ],
+    "observacao": "Seleção por provas objetivas e de títulos, conforme a notícia oficial da Prefeitura. A data da prova objetiva não consta da fonte oficial consultada."
+  },
+  "banca": "Instituto de Seleção e Tecnologia - Instituto Seleção",
+  "status": "inscricoes_abertas",
+  "regime": "designacao_temporaria",
+  "validade": "não informado",
+  "links": {
+    "edital": "https://institutoselecao.selecao.net.br/informacoes/34/",
+    "pagina_oficial": "https://iuna.es.gov.br/noticia/935",
+    "banca": "https://www.institutoselecao.org.br/"
+  },
+  "fontes": [
+    {
+      "titulo": "Prefeitura de Iúna - Prefeitura de Iúna abre processo seletivo com vagas para professores, profissionais de saúde e apoio (notícia de 15/10/2026)",
+      "url": "https://iuna.es.gov.br/noticia/935",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Instituto Seleção - listagem de certames do site da banca (entrada 'Prefeitura Municipal de Iúna /ES', edital 001/2026, status aberto)",
+      "url": "https://www.institutoselecao.org.br/api/api.php?module=competitions",
+      "tipo": "banca",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Prefeitura de Iúna (ES) oferta iniciais de até R$ 3,9 mil em seleção",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/10/15/prefeitura-de-iuna-es-oferta-iniciais-de-ate-r-39-mil-em-selecao/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-10-14",
+      "status": "inscricoes_abertas",
+      "observacao": "Início das inscrições, conforme a notícia oficial da Prefeitura e a listagem do Instituto Seleção."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "inscricoes_abertas",
+      "observacao": "Primeiro registro no repositório, a partir da notícia oficial da Prefeitura de Iúna (15/10/2026) e da listagem de certames do Instituto Seleção; edital íntegro não consultado (HTTP 403). Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "PENDÊNCIA DE VALIDAÇÃO - EDITAL ÍNTEGRO NÃO CONSULTADO: a página do edital na banca (https://institutoselecao.selecao.net.br/informacoes/34/), indicada pela própria Prefeitura, respondeu HTTP 403 ao script e à leitura via web_fetch em 17/10/2026. O edital não está na página de Processos Seletivos do portal da Prefeitura, que tem só os PSS anteriores, nem foi encontrado no DOM/AMUNES ou no DIO/ES (busca no IOES). Este registro se apoia apenas na notícia oficial da Prefeitura (número do PSS, regime de designação temporária, provas objetivas e de títulos, demandas de 2027, lista de cargos e período de inscrição) e na listagem do site da banca (período de inscrição e de isenção). NÃO CONFIRMADOS no oficial, e por isso não adotados (vêm do portal Concursos no Brasil): salários de R$ 1.267,36 a R$ 4.784,73 com jornada de até 40 horas e complementação ao salário mínimo; taxas de R$ 40,00 a R$ 85,00; prova objetiva em 29/11/2026; início às 8h de 14/10; 06/11 como 'data provável' de encerramento; contratação por no máximo 12 meses; prova de títulos só para o nível superior; seleção apenas para cadastro de reserva. DIVERGÊNCIA na lista de cargos: a notícia oficial cita Pedagogo e Digitador do Cadastro Único, que o portal não menciona; o portal descreve o Cuidador como do Programa Municipal de Educação Especial e fala em 'Professor (diferentes áreas)'. Adotada a lista da notícia oficial (20 cargos), com área atribuída pela denominação. RISCO DE DUPLICIDADE/CONFUSÃO: a Prefeitura já fez em 2026 outro 'Processo Seletivo Simplificado nº 001/2026/PMI/ES', de 06/04/2026, executado por ela mesma para as demandas de 2026, com inscrições de 06 a 12/04/2026 e validade até 31/12/2026. É um certame distinto deste, que tem o mesmo número, é executado pelo Instituto Seleção e se destina a 2027."
+}

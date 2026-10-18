@@ -1,0 +1,176 @@
+{
+  "id": "concurso-creci-es-01-2026",
+  "orgao": "Conselho Regional de Corretores de Imóveis da 13ª Região",
+  "orgao_sigla": "CRECI-ES",
+  "esfera": "federal",
+  "municipio": "Diversos (ES) - lotação não informada no extrato; provas em Colatina, Guarapari e Vitória",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Profissional de Suporte Técnico (PST) - Assistente Administrativo",
+      "area": "Administrativa",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Profissional de Suporte Técnico (PST) - Assistente Especializado",
+      "area": "Administrativa",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Profissional de Suporte Técnico (PST) - Assistente de T.I.",
+      "area": "Tecnologia da informação",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Profissional Analista Superior (PAS) - Agente Fiscal",
+      "area": "Fiscalização profissional",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Profissional Analista Superior (PAS) - Analista de T.I.",
+      "area": "Tecnologia da informação",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Profissional Analista Superior (PAS) - Especialista (Administrativo)",
+      "area": "Administrativa",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Profissional Analista Superior (PAS) - Especialista (Contas a Pagar)",
+      "area": "Financeira",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Profissional Analista Superior (PAS) - Especialista (Recursos Humanos)",
+      "area": "Recursos humanos",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Profissional Analista Superior (PAS) - Especialista (Serviços Contábeis)",
+      "area": "Contábil",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    },
+    {
+      "nome": "Profissional Analista Superior (PAS) - Especialista (Serviços Jurídicos)",
+      "area": "Jurídica",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "não informado",
+      "remuneracao": "não informado",
+      "jornada": "não informado"
+    }
+  ],
+  "vagas_imediatas_total": null,
+  "cadastro_reserva": true,
+  "escolaridade": "nível médio e nível superior, conforme o cargo",
+  "remuneracao": {
+    "minima": null,
+    "maxima": null,
+    "descricao": "não informado no extrato do edital publicado no DOU"
+  },
+  "beneficios": [],
+  "jornada": "não informado",
+  "edital_numero": "Edital nº 1, de 5 de outubro de 2026",
+  "publicacao": "2026-10-02",
+  "inscricoes": {
+    "inicio": null,
+    "fim": "2026-11-10",
+    "taxa": "R$ 66,00 (cargos de nível médio) e R$ 68,00 (cargos de nível superior)",
+    "local": "http://www.quadrix.org.br",
+    "isencao": "não informado",
+    "observacao": "Inscrições exclusivamente pela internet, no site do Instituto Quadrix, até as 23h de 10/11/2026 (horário oficial de Brasília), conforme o extrato do DOU. O extrato não informa a data de início."
+  },
+  "prova": {
+    "objetiva": "2027-01-17",
+    "outras_etapas": [
+      "Prova discursiva, eliminatória e classificatória, só para o nível superior, em 17/01/2027, junto com a objetiva"
+    ],
+    "observacao": "Provas objetivas e discursivas em 17/01/2027 (domingo), no turno da tarde, para todos os cargos, em Colatina/ES, Guarapari/ES e Vitória/ES."
+  },
+  "banca": "Instituto Quadrix",
+  "status": "inscricoes_abertas",
+  "regime": "clt",
+  "validade": "não informado",
+  "links": {
+    "edital": "https://www.in.gov.br/en/web/dou/-/edital-n-1-de-5-de-outubro-de-2026-736203938",
+    "pagina_oficial": "não informado",
+    "banca": "http://www.quadrix.org.br"
+  },
+  "fontes": [
+    {
+      "titulo": "DOU nº 187, de 02/10/2026, Seção 3, p. 171 - Edital nº 1, de 5 de outubro de 2026 - CRECI-ES (extrato do concurso público)",
+      "url": "https://www.in.gov.br/en/web/dou/-/edital-n-1-de-5-de-outubro-de-2026-736203938",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Concurso CRECI ES tem edital publicado com abertura de vagas",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/10/02/concurso-creci-es-tem-edital-publicado-com-abertura-de-vagas/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-10-02",
+      "status": "edital_publicado",
+      "observacao": "Extrato do Edital nº 1 publicado no DOU nº 187, Seção 3, p. 171."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "inscricoes_abertas",
+      "observacao": "Primeiro registro no repositório, a partir do extrato do Edital nº 1 no DOU. Achado promovido da quarentena de descobertas. Status deduzido do prazo final do extrato (10/11/2026); a data de início não foi comprovada em fonte oficial."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "PENDÊNCIA DE VALIDAÇÃO - EDITAL NORMATIVO NÃO CONSULTADO: a página do certame no Instituto Quadrix (https://quadrix.org.br/informacoes/3049/), a home e a lista de abertos da banca responderam HTTP 403 ao script e à leitura via web_fetch em 17/10/2026; o site do CRECI-ES (crecies.gov.br) também respondeu 403. O registro se apoia só no extrato do DOU, a única fonte oficial acessada; o DOU não tem outro ato do CRECI-ES desde 01/09/2026. VAGAS NÃO CONFIRMADAS: o extrato não traz quantitativo, por isso vagas_imediatas_total = null. Os portais divergem entre si: o Concursos no Brasil fala em '870 vagas entre imediatas e CR'; Gran Cursos e JC Concursos detalham 870 como 24 imediatas mais 846 de cadastro de reserva; QConcursos fala em 24 imediatas; folha.qconcursos.com, Academus e outros falam em 26 vagas. Os 870 parecem somar ao cadastro de reserva um teto quantificado; nenhum número foi adotado. Também não confirmados no oficial: salários (portais: R$ 2.341,23 a R$ 8.250,00, 40 horas semanais, vale-refeição de R$ 800,00, planos de saúde e odontológico), validade de 2 anos e prova com 120 questões. INÍCIO DAS INSCRIÇÕES: portais e o texto da página da Quadrix indexado por buscador indicam 05/10/2026 às 10h, mas a página não pôde ser aberta; inscricoes.inicio ficou null. INCONGRUÊNCIA DE DATA no DOU: o ato foi publicado em 02/10/2026, mas se intitula 'Edital nº 1, de 5 de outubro de 2026'; o texto indexado da Quadrix fala em 'Edital 01/2026 de 02/10/2026'. O extrato diz 'provas objetiva e discursiva ... para o cargo de nível superior' (no singular), mas lista sete cargos PAS e cobra taxa 'para os cargos de nível superior'. A correspondência PST = nível médio e PAS = nível superior é provável pela denominação, mas não consta do extrato, por isso a escolaridade por cargo ficou 'não informado'. Conselho de fiscalização profissional é autarquia federal, daí a esfera 'federal'. Regime CLT conforme o DOU. Lotação não informada no extrato."
+}

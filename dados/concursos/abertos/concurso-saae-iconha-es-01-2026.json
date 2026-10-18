@@ -1,0 +1,198 @@
+{
+  "id": "concurso-saae-iconha-es-01-2026",
+  "orgao": "Serviço Autônomo de Água e Esgoto de Iconha",
+  "orgao_sigla": "SAAE",
+  "esfera": "municipal",
+  "municipio": "Iconha",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Ajudante",
+      "area": "Saneamento - operação",
+      "vagas_imediatas": 4,
+      "cadastro_reserva": true,
+      "escolaridade": "4ª série do ensino fundamental completa",
+      "requisitos": "4ª série do Ensino Fundamental completa e Carteira Nacional de Habilitação categorias \"AB\". Das 4 vagas, 3 são de ampla concorrência e 1 reservada a candidatos negros, pardos ou indígenas",
+      "remuneracao": "Vencimento básico de R$ 1.660,65",
+      "jornada": "44 horas semanais"
+    },
+    {
+      "nome": "Auxiliar de Serviços Gerais",
+      "area": "Serviços gerais",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "4ª série do ensino fundamental completa",
+      "requisitos": "4ª série do Ensino Fundamental completa",
+      "remuneracao": "Vencimento básico de R$ 1.826,72",
+      "jornada": "44 horas semanais"
+    },
+    {
+      "nome": "Encanador",
+      "area": "Saneamento - operação",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "4ª série do ensino fundamental completa",
+      "requisitos": "4ª série do Ensino Fundamental completa e Carteira Nacional de Habilitação categorias \"AB\"",
+      "remuneracao": "Vencimento básico de R$ 2.009,39",
+      "jornada": "44 horas semanais"
+    },
+    {
+      "nome": "Pedreiro",
+      "area": "Saneamento - operação",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "4ª série do ensino fundamental completa",
+      "requisitos": "4ª série do Ensino Fundamental completa, Carteira Nacional de Habilitação categorias \"AB\" e 1 (um) ano de experiência na função",
+      "remuneracao": "Vencimento básico de R$ 2.431,36",
+      "jornada": "44 horas semanais"
+    },
+    {
+      "nome": "Agente Administrativo",
+      "area": "Administrativa",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio completo",
+      "requisitos": "Ensino Médio completo e noções básicas de informática",
+      "remuneracao": "Vencimento básico de R$ 2.674,49",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Agente Fiscal",
+      "area": "Fiscalização",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio completo",
+      "requisitos": "Ensino Médio completo, noções básicas de informática e Carteira Nacional de Habilitação categorias \"AB\"",
+      "remuneracao": "Vencimento básico de R$ 2.210,33",
+      "jornada": "44 horas semanais"
+    },
+    {
+      "nome": "Leiturista",
+      "area": "Atendimento comercial",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio completo",
+      "requisitos": "Ensino Médio completo, noções básicas de informática e Carteira Nacional de Habilitação categorias \"AB\"",
+      "remuneracao": "Vencimento básico de R$ 2.210,33",
+      "jornada": "44 horas semanais"
+    },
+    {
+      "nome": "Operador de Estação de Tratamento de Água - ETA",
+      "area": "Saneamento - tratamento de água",
+      "vagas_imediatas": 3,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio completo",
+      "requisitos": "Ensino Médio completo, noções básicas de informática e Carteira Nacional de Habilitação categorias \"AB\". Das 3 vagas, 2 são de ampla concorrência e 1 reservada a candidatos negros, pardos ou indígenas",
+      "remuneracao": "Vencimento básico de R$ 2.431,36",
+      "jornada": "44 horas semanais"
+    },
+    {
+      "nome": "Contador",
+      "area": "Contábil",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Ensino superior em Ciências Contábeis em instituição reconhecida pelo MEC, Certificação de Regularidade Profissional no Conselho Regional de Contabilidade e 12 (doze) meses de experiência no cargo de Contador",
+      "remuneracao": "Vencimento básico de R$ 3.236,14",
+      "jornada": "40 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 14,
+  "cadastro_reserva": true,
+  "escolaridade": "4ª série do ensino fundamental, nível médio e nível superior, conforme o cargo",
+  "remuneracao": {
+    "minima": 1660.65,
+    "maxima": 3236.14,
+    "descricao": "Vencimento básico de R$ 1.660,65 a R$ 3.236,14, conforme o cargo, mais auxílio-alimentação informado no edital como R$ 1.621,00 (ver observações)"
+  },
+  "beneficios": [
+    "Auxílio-alimentação no valor informado de R$ 1.621,00, se preenchidos os requisitos da legislação vigente do SAAE de Iconha"
+  ],
+  "jornada": "40 ou 44 horas semanais, conforme o cargo",
+  "edital_numero": "Edital de Concurso Público nº 01/2026",
+  "publicacao": "2026-10-15",
+  "inscricoes": {
+    "inicio": "2026-10-26",
+    "fim": "2026-11-10",
+    "taxa": "R$ 60,00 (nível fundamental), R$ 80,00 (nível médio) e R$ 100,00 (nível superior)",
+    "local": "https://institutoreferencia.org.br/concurso/41/concurso-publico-01-2026-saae-servico-autonomo-de-agua-e-esgoto-iconha-es",
+    "isencao": "Pedido em 26 e 27/10/2026, na modalidade do Decreto Federal nº 11.016/2022 (hipossuficiência econômica e inscrição no CadÚnico, membro de família de baixa renda). Resultado preliminar em 03/11/2026, recursos em 04 e 05/11/2026 e resultado final em 09/11/2026",
+    "observacao": "Inscrições exclusivamente pela internet, no site do Instituto Referência, das 10h de 26/10/2026 às 23h59 de 10/11/2026 (horário de Brasília). Pagamento só por boleto do Banestes; inscrições feitas no último dia fora do horário bancário podem ser pagas até o próximo dia útil. É permitido inscrever-se em mais de um cargo se as provas não coincidirem em dia e turno. A solicitação de vaga reservada e o envio da documentação vão de 26/10 a 10/11/2026."
+  },
+  "prova": {
+    "objetiva": "2026-12-13",
+    "outras_etapas": [
+      "Prova de títulos, classificatória, somente para Contador (até 10 pontos), com envio dos títulos de 11 a 13/01/2027",
+      "Avaliação biopsicossocial e procedimento de heteroidentificação, com data a ser divulgada (convocação prevista para 26/01/2027)"
+    ],
+    "observacao": "Prova objetiva com 40 questões de 4 alternativas, duração de 3 horas e 100 pontos; aprovação com no mínimo 60% do total de pontos, e nota zero em qualquer disciplina elimina. Em 13/12/2026 (domingo): turno matutino para o nível médio e vespertino para os níveis fundamental e superior. Gabarito preliminar em 14/12/2026; resultado final da fase de provas e títulos previsto para 26/01/2027."
+  },
+  "banca": "Instituto Referência",
+  "status": "edital_publicado",
+  "regime": "estatutario",
+  "validade": "2 anos a contar da publicação da homologação do resultado final, prorrogável uma vez por igual período, a critério do SAAE",
+  "links": {
+    "edital": "https://www.saaeiconha.com.br/institucional/processos-seletivos-e-concursos/download/file?fid=45.105&file_id=f_8daebc7126eff2c15a4833084488d686",
+    "pagina_oficial": "https://www.saaeiconha.com.br/institucional/processos-seletivos-e-concursos/105-edital-de-concurso-publico-no-01-2026",
+    "banca": "https://institutoreferencia.org.br/concurso/41/concurso-publico-01-2026-saae-servico-autonomo-de-agua-e-esgoto-iconha-es"
+  },
+  "fontes": [
+    {
+      "titulo": "SAAE Iconha - Edital de Concurso Público nº 01/2026 (página do processo, com Edital, Cronograma e Conteúdo Programático)",
+      "url": "https://www.saaeiconha.com.br/institucional/processos-seletivos-e-concursos/105-edital-de-concurso-publico-no-01-2026",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Edital de Concurso Público nº 01/2026 do SAAE de Iconha (PDF, 57 páginas, assinado em 15/10/2026)",
+      "url": "https://www.saaeiconha.com.br/institucional/processos-seletivos-e-concursos/download/file?fid=45.105&file_id=f_8daebc7126eff2c15a4833084488d686",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "DOM/ES - Edição nº 3.109, de 16/10/2026, p. 328 - Extrato do Edital de Concurso Público nº 01/2026 do SAAE de Iconha",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11558/328",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Instituto Referência - Concurso Público 01/2026 - SAAE Iconha/ES (página do certame, quadro de vagas e anexos)",
+      "url": "https://institutoreferencia.org.br/concurso/41/concurso-publico-01-2026-saae-servico-autonomo-de-agua-e-esgoto-iconha-es",
+      "tipo": "banca",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Instituto Referência - Anexo I (Cronograma) do Edital nº 01/2026 do SAAE de Iconha (PDF)",
+      "url": "https://anexos-r2.selecao.net.br/uploads/297/concursos/41/anexos/ab968b6e-0c90-43ad-85d8-26a74aee22ee.pdf",
+      "tipo": "banca",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Concurso SAAE Iconha (ES) dispõe de vagas com salário até R$ 3,2 mil",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/10/15/concurso-saae-iconha-es-dispoe-de-vagas-com-salario-ate-r-32-mil/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-10-15",
+      "status": "edital_publicado",
+      "observacao": "Publicação do Edital de Concurso Público nº 01/2026, assinado pelo Diretor do SAAE em 15/10/2026, conforme o Anexo I (cronograma)."
+    },
+    {
+      "data": "2026-10-16",
+      "status": "edital_publicado",
+      "observacao": "Extrato do edital publicado no DOM/ES, edição nº 3.109, p. 328."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "edital_publicado",
+      "observacao": "Primeiro registro no repositório, a partir do edital íntegro publicado no site do SAAE e no do Instituto Referência e do extrato no DOM/ES. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "Inscrições ainda não iniciadas (26/10 a 10/11/2026), por isso o status é 'edital_publicado'. PRAZO DE IMPUGNAÇÃO do edital em curso na data da verificação (16 a 20/10/2026, resultado em 23/10/2026): conferir se houve retificação antes de 26/10. VALOR A CONFERIR: a nota do quadro de cargos atribui a todos os cargos auxílio-alimentação de 'R$ 1621,00'. O valor coincide com o salário mínimo nacional e é quase igual ao vencimento de Ajudante (R$ 1.660,65), o que sugere possível erro material. Foi registrado tal como está no edital, sem incorporar à remuneração. DIVERGÊNCIA menor: o cabeçalho da página do certame no site do Instituto Referência indica '5 vagas', mas o quadro da mesma página e o edital somam 14 vagas imediatas. Adotadas as 14 do edital (Ajudante 4, Operador de ETA 3 e 1 em cada um dos demais sete cargos), todas com cadastro de reserva. Nenhuma vaga imediata está reservada a PcD no quadro; a reserva de 5% para PcD e de 20% para negros, pardos (17%) e indígenas (3%), da Lei Municipal nº 1.467/2024, vale para as vagas futuras. O edital publicado no site do SAAE é idêntico ao do site da banca (texto conferido). O Anexo IV (conteúdo programático) foi publicado em 16/10/2026. O portal Concursos no Brasil confere com o edital em vagas, salários, taxas, datas e validade."
+}

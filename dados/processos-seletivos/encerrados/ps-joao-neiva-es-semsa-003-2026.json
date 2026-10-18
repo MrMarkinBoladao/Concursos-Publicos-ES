@@ -1,0 +1,165 @@
+{
+  "id": "ps-joao-neiva-es-semsa-003-2026",
+  "orgao": "Prefeitura Municipal de João Neiva - Secretaria Municipal de Saúde (SEMSA)",
+  "orgao_sigla": "PMJN/SEMSA",
+  "esfera": "municipal",
+  "municipio": "João Neiva",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Farmacêutico",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Superior completo em Farmácia; inscrição e registro no conselho de classe e certificado de regularidade; idade de 18 a 70 anos incompletos na contratação",
+      "remuneracao": "R$ 2.939,47 mais vale-alimentação de R$ 400,00",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Profissional de Educação Física",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Superior completo em Educação Física; inscrição e registro no conselho de classe e certificado de regularidade; idade de 18 a 70 anos incompletos na contratação",
+      "remuneracao": "R$ 2.939,47 mais vale-alimentação de R$ 400,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Psicólogo I",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Superior completo em Psicologia; inscrição e registro no conselho de classe e certificado de regularidade; idade de 18 a 70 anos incompletos na contratação",
+      "remuneracao": "R$ 2.939,47 mais vale-alimentação de R$ 400,00",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Terapeuta Ocupacional da eMulti",
+      "area": "Saúde - eMulti",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Superior completo em Terapia Ocupacional; inscrição e registro no conselho de classe e certificado de regularidade; idade de 18 a 70 anos incompletos na contratação",
+      "remuneracao": "R$ 3.278,87 mais vale-alimentação de R$ 400,00",
+      "jornada": "20 horas semanais"
+    },
+    {
+      "nome": "Fonoaudiólogo da eMulti",
+      "area": "Saúde - eMulti",
+      "vagas_imediatas": 1,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Superior completo em Fonoaudiologia; inscrição e registro no conselho de classe e certificado de regularidade; idade de 18 a 70 anos incompletos na contratação",
+      "remuneracao": "R$ 3.278,87 mais vale-alimentação de R$ 400,00",
+      "jornada": "30 horas semanais"
+    },
+    {
+      "nome": "Cirurgião Dentista do Programa de Saúde Bucal",
+      "area": "Saúde bucal",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Graduação em Odontologia; inscrição e registro no conselho de classe e certificado de regularidade; idade de 18 a 70 anos incompletos na contratação",
+      "remuneracao": "R$ 4.393,45 mais vale-alimentação de R$ 400,00",
+      "jornada": "40 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 2,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 2939.47,
+    "maxima": 4393.45,
+    "descricao": "Vencimento mensal de R$ 2.939,47 a R$ 4.393,45, conforme o cargo (nível I, padrão I das Leis Municipais nº 3.181/2019 e nº 3.183/2019, alteradas pela Lei nº 3.876/2026), mais vale-alimentação de R$ 400,00"
+  },
+  "beneficios": [
+    "Vale-alimentação de R$ 400,00"
+  ],
+  "jornada": "20 a 40 horas semanais, conforme o cargo; pode haver serviço à noite, aos sábados, domingos e feriados",
+  "edital_numero": "Edital SEMSA nº 003/2026",
+  "publicacao": "2026-09-28",
+  "inscricoes": {
+    "inicio": "2026-10-05",
+    "fim": "2026-10-09",
+    "taxa": "Isento",
+    "local": "Secretaria Municipal de Saúde, Rua Plácido Vassolo, nº 48, 2º pavimento, Centro, João Neiva/ES (presencial)",
+    "isencao": "Inscrições gratuitas (itens 1.8 e 4.3 do edital)",
+    "observacao": "Inscrições presenciais em dias úteis, de 05 a 09/10/2026, com entrega de envelope com a documentação e a ficha de inscrição (Anexo I) colada na parte externa; permitida inscrição por procurador com firma reconhecida. Até 2 inscrições por CPF. O horário de atendimento não consta do texto publicado no DOM/ES."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "Análise de títulos e de experiência profissional, de caráter classificatório e eliminatório, conforme os Anexos II-A e II-B do edital íntegro"
+    ],
+    "observacao": "Sem prova objetiva. Cronograma (Anexo III): resultado preliminar em 14/10/2026; recurso em 15/10; resultado após recurso em 16/10; resultado final e homologação em 21/10/2026. O resultado preliminar, datado de 14/10, foi publicado no DOM/ES de 16/10/2026: 2 classificados para Farmacêutico, 1 para Profissional de Educação Física, 3 para Psicólogo I e 10 para Cirurgião Dentista (mais 1 desclassificado); Terapeuta Ocupacional e Fonoaudiólogo da eMulti não tiveram inscritos. Desempate: maior idade, maior experiência, maior titulação e menor número de inscrição."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "1 ano a contar da homologação, prorrogável por igual período; contratos de até 12 meses, prorrogáveis até o limite de 24 meses",
+  "links": {
+    "edital": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11508/152",
+    "pagina_oficial": "https://www.joaoneiva.es.gov.br/selecao",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "DOM/ES nº 3.096 (28/09/2026) - Edital SEMSA nº 003/2026 da Prefeitura de João Neiva, págs. 152 a 158",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11508/152",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "DOM/ES nº 3.109 (16/10/2026) - Processo Seletivo Simplificado SEMSA nº 003/2026, resultado preliminar, págs. 204 e 205",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11558/204",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Concursos no Brasil - Prefeitura de João Neiva (ES) promove seleção para profissionais da saúde",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/09/28/prefeitura-de-joao-neiva-es-promove-selecao-para-profissionais-da-saude/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Concursos no Brasil - Prefeitura de João Neiva (ES) divulga edital com vagas de até R$ 4,3 mil",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/09/30/es-prefeitura-de-joao-neiva-divulga-edital-com-vagas-de-ate-r-43-mil/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-28",
+      "status": "edital_publicado",
+      "observacao": "Publicação do Edital SEMSA nº 003/2026 no DOM/ES nº 3.096 (págs. 152 a 158). O mesmo texto foi republicado sem alterações em nove edições seguintes, até o DOM/ES nº 3.105, de 09/10/2026."
+    },
+    {
+      "data": "2026-10-05",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições presenciais na Secretaria Municipal de Saúde."
+    },
+    {
+      "data": "2026-10-09",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições, último dia útil do período."
+    },
+    {
+      "data": "2026-10-16",
+      "status": "inscricoes_encerradas",
+      "observacao": "Publicação do resultado preliminar, datado de 14/10/2026, no DOM/ES nº 3.109 (págs. 204 e 205); sem inscritos para Terapeuta Ocupacional e Fonoaudiólogo da eMulti."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, a partir do edital e do resultado preliminar publicados no DOM/ES. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "Os dois textos de DOM indicados para conferência (edição 11508, págs. 150 a 157, e edição 11510, págs. 240 a 248) contêm o MESMO Edital SEMSA nº 003/2026, e não outro edital: o texto foi publicado de forma idêntica em dez edições consecutivas do DOM/ES, de 28/09 a 09/10/2026 (protocolos 1874097 a 1874088), sem retificação. As duas matérias do portal Concursos no Brasil (28/09 e 30/09) tratam do mesmo edital. O texto publicado no DOM/ES é parcial: remete ao 'edital na íntegra' em www.joaoneiva.es.gov.br/selecao e não traz os Anexos II-A e II-B (pontuação). A página de detalhes do edital no site da Prefeitura respondeu HTTP 403 a cliente de script e à ferramenta de leitura em 17/10/2026, então os critérios de pontuação citados pelo portal na matéria de 30/09 NÃO foram conferidos em fonte oficial nem adotados. Vagas: 01 vaga e cadastro de reserva para Terapeuta Ocupacional e para Fonoaudiólogo da eMulti; só cadastro de reserva nos demais — confere com as 2 vagas imediatas das duas matérias do portal. As duas vagas imediatas ficaram sem candidatos: o resultado preliminar informa que não houve inscritos para esses cargos. O resultado preliminar fixou recurso 'somente no dia 15/10/2026', mas só saiu no DOM/ES em 16/10/2026 (pode ter sido divulgado antes no site ou no mural). Inconsistências menores: o item 2.1 cita o cronograma como Anexo IV, mas ele é o Anexo III; o edital cita a comissão da Portaria nº 15.230/2026, e o resultado preliminar, a da Portaria nº 15.291/2026."
+}
