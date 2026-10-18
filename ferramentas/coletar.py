@@ -2396,6 +2396,21 @@ def main() -> int:
             if marca and marca < limite_retencao:
                 descartados_por_retencao += 1
                 continue
+        # Recasar o herdado contra o dados/ DE HOJE. O casamento depende do
+        # repositorio, e nao da fonte: a pista do portal costuma sumir da
+        # listagem em poucos dias, e o registro que a cobre e criado depois
+        # disso. Sem este passo o achado herdado congelava o veredito da ultima
+        # vez em que foi visto — medido em 17/10/2026: as materias de Vitoria
+        # (editais 023 a 027) continuavam casadas com o registro do SAMU, e a
+        # de Joao Neiva seguia pendente, mesmo com registro curado para cada
+        # uma. Vale tambem para fonte offline, que so preserva a deteccao.
+        registro = (
+            casar(previo, indice)
+            if previo.get("categoria") == "oportunidade"
+            else casar_estrito(previo, indice)
+        )
+        previo["no_repositorio"] = registro is not None
+        previo["registro_repositorio"] = registro
         if previo.get("fonte_id") not in fontes_ok:
             finais.append(previo)  # fonte offline: preserva sem alterar
         else:
