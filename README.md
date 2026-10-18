@@ -20,7 +20,7 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **17/10/2026** |
+| Última verificação das fontes | **18/10/2026** |
 | Oportunidades monitoradas | 80 |
 | Com inscrições abertas | 14 |
 | Vagas imediatas em aberto | 104 |
@@ -35,8 +35,8 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Salário | Inscrições até | Prova |
 | ----- | ----- | ----: | ------: | -------------- | ----- |
-| [CREF22/ES](https://www.ibade.org.br/) | Advogado I; Analista Administrativo I e mais 1 cargo | 2 + CR | R$ 5.000,00 a R$ 5.500,00 | 20/10/2026 **(encerra em 3 dias)** | 13/12/2026 |
-| [PMSMJ](https://www.institutoconsulplan.org.br/pref-smj-guarda2026) | Guarda Municipal | 30 + CR | R$ 3.763,26 | 21/10/2026 (encerra em 4 dias) | 13/12/2026 |
+| [CREF22/ES](https://www.ibade.org.br/) | Advogado I; Analista Administrativo I e mais 1 cargo | 2 + CR | R$ 5.000,00 a R$ 5.500,00 | 20/10/2026 **(encerra em 2 dias)** | 13/12/2026 |
+| [PMSMJ](https://www.institutoconsulplan.org.br/pref-smj-guarda2026) | Guarda Municipal | 30 + CR | R$ 3.763,26 | 21/10/2026 **(encerra em 3 dias)** | 13/12/2026 |
 | [PMI](https://ps.idesg.org.br:443/relatorio/documento.php?f=docs&t=pdf&n=15102026_01249488848_165315) | Professor NMM - PA (Educação Infantil e anos iniciais do Ensino Fun...; Professor NMM - PA - Tempo Integral (Educação Infantil e anos inici... e mais 3 cargos | 55 + CR | R$ 2.755,87 a R$ 4.409,39 | 30/10/2026 | 22/11/2026 |
 | [CRECI-ES](https://www.in.gov.br/en/web/dou/-/edital-n-1-de-5-de-outubro-de-2026-736203938) | Profissional de Suporte Técnico (PST) - Assistente Administrativo; Profissional de Suporte Técnico (PST) - Assistente Especializado e mais 8 cargos | CR | não informado | 10/11/2026 | 17/01/2027 |
 | [SAAE](https://www.saaeiconha.com.br/institucional/processos-seletivos-e-concursos/download/file?fid=45.105&file_id=f_8daebc7126eff2c15a4833084488d686) | Ajudante; Auxiliar de Serviços Gerais e mais 7 cargos | 14 + CR | R$ 1.660,65 a R$ 3.236,14 | 10/11/2026 | 13/12/2026 |
@@ -66,7 +66,7 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Inscrições até | Fonte |
 | ----- | ----- | ----: | -------------- | ----- |
-| PMF/SEMED | Servente Escolar; Merendeira e mais 1 cargo | 3 + CR | 22/10/2026 (encerra em 5 dias) | [fonte](https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11554/112) |
+| PMF/SEMED | Servente Escolar; Merendeira e mais 1 cargo | 3 + CR | 22/10/2026 (encerra em 4 dias) | [fonte](https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11554/112) |
 | PMM/SEMECT | Professor/a Regente de Classe MAPA (Educação Infantil, Anos Iniciai...; Professor/a MAPB (componentes curriculares da Educação Infantil e d... e mais 15 cargos | CR | 26/10/2026 | [fonte](https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11527/96) |
 | PMSMJ/SECADM | Coveiro; Jardineiro e mais 62 cargos | CR | 28/10/2026 | [fonte](https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11524/142) |
 | Prefeitura Municipal de Nova Venécia | Nutricionista; Psicólogo e mais 3 cargos | CR | 29/10/2026 | [fonte](https://www.novavenecia.es.gov.br/wp-content/uploads/2026/10/EDITAL-No-030-2026-PROCESSO-SELETIVO-DE-NUTRICIONISTA-E-OUTROS.pdf) |
@@ -241,7 +241,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 17/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 18/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
