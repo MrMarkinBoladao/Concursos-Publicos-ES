@@ -1,0 +1,112 @@
+{
+  "id": "ps-pmes-es-tecnico-laboratorio-003-2026",
+  "orgao": "Polícia Militar do Estado do Espírito Santo - Diretoria de Saúde",
+  "orgao_sigla": "DS/PMES",
+  "esfera": "estadual",
+  "municipio": "Vitória",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Técnico em Laboratório/Análises Clínicas",
+      "area": "Saúde",
+      "vagas_imediatas": 10,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio técnico",
+      "requisitos": "Certificado de curso técnico em Laboratório/Análises Clínicas por instituição reconhecida pelo MEC; registro ativo no conselho de classe; experiência mínima de 12 meses no cargo de Técnico em Laboratório",
+      "remuneracao": "R$ 2.985,86 mais auxílio-alimentação de R$ 800,00",
+      "jornada": "40 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 10,
+  "cadastro_reserva": true,
+  "escolaridade": "nível médio técnico",
+  "remuneracao": {
+    "minima": 2985.86,
+    "maxima": 2985.86,
+    "descricao": "R$ 2.985,86 mais auxílio-alimentação de R$ 800,00, para 40 horas semanais"
+  },
+  "beneficios": [
+    "Auxílio-alimentação de R$ 800,00"
+  ],
+  "jornada": "40 horas semanais",
+  "edital_numero": "Edital DS/PMES nº 003/2026",
+  "publicacao": "2026-09-28",
+  "inscricoes": {
+    "inicio": "2026-10-01",
+    "fim": "2026-10-08",
+    "taxa": "não informado",
+    "local": "https://selecao.es.gov.br/",
+    "isencao": "não informado",
+    "observacao": "Inscrições exclusivamente pelo portal Seleção ES, das 9h de 01/10/2026 às 9h de 08/10/2026. Uma inscrição por CPF. Contato: dpc.ds@pm.es.gov.br."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "1ª etapa - inscrição e classificação inicial pelas informações declaradas",
+      "2ª etapa - comprovação documental dos requisitos e da pontuação (qualificação profissional e experiência, Quadros I e II do item 4.21), por processo eletrônico",
+      "3ª etapa - formalização do contrato, com avaliação de compatibilidade para candidatos PcD"
+    ],
+    "observacao": "Lotação na Diretoria de Saúde da PMES, no Hospital da Polícia Militar (HPM). Classificação geral divulgada em 08/10/2026 e 1º ato de convocação da 2ª etapa em 16/10/2026."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "1 ano, prorrogável por igual período; contratos de 12 meses, prorrogáveis (Lei Complementar nº 809/2015)",
+  "links": {
+    "edital": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32226",
+    "pagina_oficial": "https://selecao.es.gov.br/processo-seletivo/2bb038a7-dabc-4c6b-b945-7f5e69fd2c12/dspmes-edital-0032026-processo-seletivo-contratacao-tecnico-laboratorioanalises-clinicas-hpm",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Portal Seleção ES - DS/PMES Edital 003/2026 (Técnico em Laboratório/Análises Clínicas - HPM)",
+      "url": "https://selecao.es.gov.br/processo-seletivo/2bb038a7-dabc-4c6b-b945-7f5e69fd2c12/dspmes-edital-0032026-processo-seletivo-contratacao-tecnico-laboratorioanalises-clinicas-hpm",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Edital DS/PMES nº 003/2026 - Técnico em Laboratório/Análises Clínicas (PDF, 25 páginas)",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32226",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Extrato do Edital DS/PMES nº 003/2026 no DIO/ES de 30/09/2026, p. 51 (PDF disponibilizado no portal Seleção ES)",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32257",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "PM ES está com dois novos editais abertos para nível técnico",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/10/01/pm-es-esta-com-dois-novos-editais-abertos-para-nivel-tecnico/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-28",
+      "status": "edital_publicado",
+      "observacao": "Edital assinado e disponibilizado no portal Seleção ES."
+    },
+    {
+      "data": "2026-10-01",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições às 9h, pelo portal Seleção ES."
+    },
+    {
+      "data": "2026-10-08",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 9h; classificação geral publicada no mesmo dia."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, a partir do edital íntegro e do extrato no DIO/ES. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "DIVERGÊNCIA resolvida pelo edital íntegro (mesmo padrão do Edital DS/PMES 002/2026): a descrição do processo no portal fala só em formação de cadastro de reserva, mas o Anexo I fixa 'Vagas: 10'. O item 1.6 qualifica o número como teto — 'podendo ocorrer até 10 contratações imediatas ou futuras, conforme necessidade da Administração'. Adotadas as 10 vagas do Anexo I, com cadastro de reserva; não são vagas garantidas. Reserva de 5% para indígenas, 10% para PcD e 20% para negros. Município: o HPM fica em Vitória, como registrado no Edital DS/PMES 002/2026 (ps-pmes-es-medico-psiquiatra-002-2026); este edital só diz 'Hospital da Polícia Militar - HPM'. O extrato publicado no DIO/ES divide a página com resumos de ordens de fornecimento de material de construção da PMES — os valores em reais daquela página não são do certame."
+}

@@ -1,0 +1,160 @@
+{
+  "id": "concurso-iconha-es-magisterio-001-2026",
+  "orgao": "Prefeitura Municipal de Iconha - Magistério Público Municipal",
+  "orgao_sigla": "PMI",
+  "esfera": "municipal",
+  "municipio": "Iconha",
+  "uf": "ES",
+  "tipo": "concurso_publico",
+  "cargos": [
+    {
+      "nome": "Professor NMM - PA (Educação Infantil e anos iniciais do Ensino Fundamental)",
+      "area": "Educação",
+      "vagas_imediatas": 36,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Licenciatura em Pedagogia, com habilitação para atuação na Educação Infantil e nos anos iniciais do Ensino Fundamental, ou Curso Normal Superior. Distribuição: 27 ampla concorrência, 2 PcD, 6 pessoas pretas e pardas e 1 indígena",
+      "remuneracao": "R$ 2.755,87",
+      "jornada": "25 horas semanais"
+    },
+    {
+      "nome": "Professor NMM - PA - Tempo Integral (Educação Infantil e anos iniciais do Ensino Fundamental)",
+      "area": "Educação",
+      "vagas_imediatas": 5,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Licenciatura em Pedagogia, com habilitação para atuação na Educação Infantil e nos anos iniciais do Ensino Fundamental, ou Curso Normal Superior. Distribuição: 3 ampla concorrência, 1 PcD e 1 pessoa preta ou parda",
+      "remuneracao": "R$ 4.409,39",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Professor NSM - PB - Educação Física",
+      "area": "Educação",
+      "vagas_imediatas": 3,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Licenciatura em Educação Física e registro no Conselho Regional de Educação Física (CREF). Distribuição: 2 ampla concorrência e 1 pessoa preta ou parda",
+      "remuneracao": "R$ 2.755,87",
+      "jornada": "25 horas semanais"
+    },
+    {
+      "nome": "Professor NSM - PB - Arte",
+      "area": "Educação",
+      "vagas_imediatas": 2,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Licenciatura em Arte, Educação Artística, Artes Visuais, Música, Dança ou Teatro, conforme a Retificação nº 001/2026. Distribuição: 2 ampla concorrência",
+      "remuneracao": "R$ 2.755,87",
+      "jornada": "25 horas semanais"
+    },
+    {
+      "nome": "Professor Pedagogo - NSM - PP",
+      "area": "Educação",
+      "vagas_imediatas": 9,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Licenciatura em Pedagogia e experiência mínima de 3 (três) anos de docência, em qualquer nível ou rede de ensino, pública ou privada. Distribuição: 6 ampla concorrência, 1 PcD e 2 pessoas pretas e pardas",
+      "remuneracao": "R$ 4.409,39",
+      "jornada": "40 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 55,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior (licenciatura)",
+  "remuneracao": {
+    "minima": 2755.87,
+    "maxima": 4409.39,
+    "descricao": "R$ 2.755,87 (25 horas semanais) a R$ 4.409,39 (40 horas semanais), conforme o cargo"
+  },
+  "beneficios": [],
+  "jornada": "25 ou 40 horas semanais, conforme o cargo",
+  "edital_numero": "Edital nº 001/2026 - Abertura do Concurso Público nº 001/2026 (Magistério)",
+  "publicacao": "2026-10-08",
+  "inscricoes": {
+    "inicio": "2026-10-16",
+    "fim": "2026-10-30",
+    "taxa": "R$ 100,00 (todos os cargos)",
+    "local": "https://ps.idesg.org.br/processos_de_selecao/ps.html?detail=57",
+    "isencao": "Pedido de 16/10/2026 (0h01) a 19/10/2026 (23h59), para um único cargo, por candidatos inscritos no CadÚnico e membros de família de baixa renda (Lei Federal nº 13.656/2018), com informação do NIS e validação pelo SISTAC. Resultado em 21/10/2026, recursos em 22 e 23/10/2026 e resultado final em 27/10/2026",
+    "observacao": "Inscrições exclusivamente pela internet, no site do IDESG, das 0h01 de 16/10/2026 às 18h de 30/10/2026 (horário de Brasília). Pagamento só por boleto do Banestes, com vencimento em 03/11/2026. Inscrição em mais de um cargo permitida se os turnos de prova forem compatíveis. Pedidos de vaga reservada (PcD, pessoas pretas e pardas, indígenas) e de atendimento especial também de 16 a 30/10/2026."
+  },
+  "prova": {
+    "objetiva": "2026-11-22",
+    "outras_etapas": [
+      "Prova de títulos, classificatória, para todos os cargos (máximo de 5 pontos): cadastro eletrônico de 10 a 17/11/2026 e postagem dos documentos por SEDEX até 19/11/2026",
+      "Procedimento de heteroidentificação e avaliação biopsicossocial em 10/01/2027"
+    ],
+    "observacao": "Prova objetiva com 40 questões de 4 alternativas e 100 pontos (Língua Portuguesa, Informática Básica, Conhecimentos Pedagógicos e Conhecimentos Específicos); habilitação com no mínimo 50% dos pontos e sem zerar disciplina. Em 22/11/2026: turno matutino (8h30 às 11h30) para Professor NMM-PA; turno vespertino (13h30 às 16h30) para Professor NSM-PB (Educação Física e Arte) e Professor Pedagogo. Cartão de inscrição a partir de 14/11/2026. Resultado final do concurso previsto para 21/01/2027."
+  },
+  "banca": "IDESG - Instituto de Desenvolvimento Social, Gestão e Tecnologia",
+  "status": "inscricoes_abertas",
+  "regime": "estatutario",
+  "validade": "2 anos a contar da homologação, prorrogável por igual período a critério do Poder Público",
+  "links": {
+    "edital": "https://ps.idesg.org.br:443/relatorio/documento.php?f=docs&t=pdf&n=15102026_01249488848_165315",
+    "pagina_oficial": "https://iconha.es.gov.br/",
+    "banca": "https://ps.idesg.org.br/processos_de_selecao/ps.html?detail=57"
+  },
+  "fontes": [
+    {
+      "titulo": "DOM/ES - Edição nº 3.105, de 09/10/2026, p. 191 a 193 - Extrato detalhado do Edital nº 001/2026 (Concurso Público nº 001/2026 - Magistério) do Município de Iconha",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11540/191",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "IDESG - Concurso Público nº 001/2026 - Prefeitura Municipal de Iconha (página do certame)",
+      "url": "https://ps.idesg.org.br/processos_de_selecao/ps.html?detail=57",
+      "tipo": "banca",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Edital nº 001/2026 - Abertura do Concurso Público nº 001/2026 (Magistério), versão atualizada conforme a Retificação nº 001/2026 (PDF, 41 páginas)",
+      "url": "https://ps.idesg.org.br:443/relatorio/documento.php?f=docs&t=pdf&n=15102026_01249488848_165315",
+      "tipo": "banca",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Retificação nº 001/2026 ao Edital nº 001/2026, de 15/10/2026 (PDF)",
+      "url": "https://ps.idesg.org.br:443/relatorio/documento.php?f=docs&t=pdf&n=15102026_01042958703_165205",
+      "tipo": "banca",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Concurso Prefeitura de Iconha (ES) abre 55 vagas para professores",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/10/09/concurso-prefeitura-de-iconha-es-abre-55-vagas-para-professores/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-10-08",
+      "status": "edital_publicado",
+      "observacao": "Publicação do Edital nº 001/2026 (cronograma: 08/10/2026, 14h, nos sites do IDESG e da Prefeitura e no Diário Oficial)."
+    },
+    {
+      "data": "2026-10-09",
+      "status": "edital_publicado",
+      "observacao": "Extrato detalhado do edital publicado no DOM/ES, edição nº 3.105, p. 191 a 193."
+    },
+    {
+      "data": "2026-10-15",
+      "status": "edital_publicado",
+      "observacao": "Retificação nº 001/2026: amplia a escolaridade aceita para Professor NSM-PB - Arte (Música, Dança e Teatro incluídos)."
+    },
+    {
+      "data": "2026-10-16",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições às 0h01, no site do IDESG."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "inscricoes_abertas",
+      "observacao": "Primeiro registro no repositório, a partir do edital íntegro e da Retificação nº 001/2026 publicados pelo IDESG e do extrato no DOM/ES. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "PRAZO CURTO: o pedido de isenção da taxa termina em 19/10/2026, às 23h59. RETIFICAÇÃO: a Retificação nº 001/2026 (15/10/2026) ampliou o requisito de Professor NSM-PB - Arte para licenciatura em Arte, Educação Artística, Artes Visuais, Música, Dança ou Teatro. O extrato do DOM (09/10/2026) e o portal Concursos no Brasil ainda trazem o texto anterior (só Arte, Educação Artística ou Artes Visuais); adotado o texto retificado. O PDF do edital no site do IDESG continua listado com data de 08/10/2026, mas já é a versão consolidada ('Atualizado conforme Retificação nº 001/2026'). INCONSISTÊNCIA INTERNA do cronograma (Anexo I): a 2ª via do boleto aparece como '16/10/2026 a 03/11/2026' na coluna de datas e 'até 18h00min do dia 04/11/2026' na de horários; a data-limite de pagamento é 03/11/2026. Atenção: o cadastro e o envio dos títulos (10 a 19/11/2026) acontecem antes da prova objetiva (22/11/2026). Reserva de vagas: 5% PcD, 17% pessoas pretas e pardas e 3% indígenas (Lei Municipal nº 1.467/2024). Certame registrado no TCE/ES sob o código 032E0700001.2026.001. O site da Prefeitura (iconha.es.gov.br), indicado no edital como canal oficial, respondeu HTTP 403 ao script e à leitura via web_fetch em 17/10/2026; os dados vêm do edital no site da banca e do extrato no DOM. Vagas, salários, datas e taxa conferem com o portal Concursos no Brasil."
+}

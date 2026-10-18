@@ -1,0 +1,98 @@
+{
+  "orgao": "Secretaria de Estado da Educação do Espírito Santo",
+  "orgao_sigla": "SEDU",
+  "esfera": "estadual",
+  "municipio": "Âmbito estadual (ES)",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "vagas_imediatas_total": null,
+  "cadastro_reserva": null,
+  "beneficios": [],
+  "jornada": "não informado",
+  "publicacao": "2026-09-28",
+  "banca": "não informado",
+  "status": "inscricoes_abertas",
+  "regime": "estatutario",
+  "validade": "De 01/10/2026 a 02/04/2027, prorrogável até 01/10/2027 (item 8.1 do edital)",
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "id": "ps-sedu-es-casf-33-2026",
+  "cargos": [
+    {
+      "nome": "Coordenador Administrativo, de Secretaria e Financeiro (CASF)",
+      "area": "Educação - gestão escolar",
+      "vagas_imediatas": null,
+      "cadastro_reserva": null,
+      "escolaridade": "não informado",
+      "requisitos": "Ser ocupante efetivo de um dos cargos administrativos do Quadro Permanente do Poder Executivo Estadual — Agente de Serviços Administrativos, Agente de Suporte Educacional, Assistente Administrativo, Assistente de Serviços Administrativos, Assistente de Serviços Operacionais, Auxiliar de Secretaria Escolar, Oficial Administrativo ou Secretário Escolar; estar em efetivo exercício na rede pública estadual de ensino; ter disponibilidade para assumir imediatamente após a convocação; não estar respondendo a PAD",
+      "remuneracao": "Função gratificada, nos termos das Leis Complementares nº 928/2019 e nº 1.056/2023 (valor não informado no edital)",
+      "jornada": "não informado"
+    }
+  ],
+  "escolaridade": "não informado",
+  "remuneracao": {
+    "minima": null,
+    "maxima": null,
+    "descricao": "Função gratificada, nos termos das Leis Complementares nº 928/2019 e nº 1.056/2023 (valor não informado no edital)"
+  },
+  "edital_numero": "Edital de Cadastramento nº 33/2026 - SEDU",
+  "inscricoes": {
+    "inicio": "2026-10-01",
+    "fim": "2027-04-02",
+    "taxa": "não informado",
+    "local": "https://selecao.es.gov.br/",
+    "isencao": "não informado",
+    "observacao": "Cadastramento exclusivamente pelo portal Seleção ES, das 10h de 01/10/2026 às 17h de 02/04/2027 (horário de Brasília); uma inscrição por candidato. Os dados declarados devem coincidir com o SIARHES (conferência no Portal do Servidor). Exclusão de inscrição só a pedido, pelo e-mail procseletivo.interno@sedu.es.gov.br. Depois do cadastramento, o candidato precisa se inscrever na vaga de interesse quando ela for divulgada no site da SEDU."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "Avaliação do pré-requisito e dos títulos pelos dados do SIARHES e, para curso de graduação não registrado, pela comprovação enviada via e-FLOW até o último dia de inscrição na vaga de interesse (Anexo Único: tempo na função de coordenação de secretaria/administrativo-financeira desde 30/07/2018, tempo no cargo requisito e qualificação)",
+      "Processo seletivo próprio para cada vaga de CASF, com regulamento específico divulgado no site da SEDU"
+    ],
+    "observacao": "Sem prova. Os cadastrados só podem ser convocados para as etapas da seleção depois da homologação da pontuação."
+  },
+  "links": {
+    "edital": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32217",
+    "pagina_oficial": "https://selecao.es.gov.br/processo-seletivo/b372b0fa-7926-46df-8e7b-a7de193adcdf/sedu-edital-cadastramento-n-332026-fase-preliminar-processo-seletivo-casf",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Portal Seleção ES - SEDU - Edital de Cadastramento nº 33/2026 - Fase preliminar do Processo Seletivo para Coordenador Administrativo, de Secretaria e Financeiro (CASF)",
+      "url": "https://selecao.es.gov.br/processo-seletivo/b372b0fa-7926-46df-8e7b-a7de193adcdf/sedu-edital-cadastramento-n-332026-fase-preliminar-processo-seletivo-casf",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Edital de Cadastramento nº 33/2026 - SEDU (PDF, 11 páginas)",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32217",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Resumo do Edital de Cadastramento nº 33/2026 - SEDU (PDF)",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32213",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-28",
+      "status": "edital_publicado",
+      "observacao": "Edital e resumo disponibilizados no portal Seleção ES (data de upload); o edital é datado de 01/10/2026."
+    },
+    {
+      "data": "2026-10-01",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura do cadastramento às 10h, pelo portal Seleção ES."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "inscricoes_abertas",
+      "observacao": "Primeiro registro no repositório, a partir do edital íntegro no portal Seleção ES. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "observacoes": "RESTRITO A SERVIDORES EFETIVOS: o cadastramento é exclusivo para ocupantes efetivos de cargos administrativos do Quadro Permanente do Poder Executivo Estadual em exercício na rede estadual de ensino; não é oportunidade aberta ao público em geral nem gera contratação nova — o servidor selecionado é designado para função gratificada, daí o regime 'estatutario' (o registro do ciclo anterior usou 'designacao_temporaria'). Sucede o Edital de Cadastramento nº 47/2025 (ps-sedu-es-casf-47-2025), encerrado em 30/09/2026. Não há número de vagas: as vagas da função são abertas e divulgadas depois, no site da SEDU (Processos Seletivos → Gestor Escolar), e este cadastramento é pré-requisito obrigatório para concorrer a elas; a inscrição aqui não implica participação automática. A gratificação segue as Leis Complementares nº 928/2019 e nº 1.056/2023, sem valor no edital. Comissão de Processo Seletivo designada pela Portaria nº 753-S, de 11/09/2026. DATA: o edital é datado de 01/10/2026, mas foi disponibilizado no portal Seleção ES em 28/09/2026 (data de upload), adotada como publicação. Taxa de inscrição não mencionada no edital — registrada como 'não informado', não como isenta. Só conta experiência registrada no SIARHES no vínculo efetivo; experiência em outros órgãos ou na iniciativa privada não é considerada. O resultado do cadastramento não é divulgado: só a classificação de quem participar de seleções abertas para a função. A graduação não é requisito de ingresso, mas pontua como título. Ao profissional designado é vedada outra atividade, remunerada ou não, durante o horário de atuação na escola (item 7.2). Comissão de Processos Seletivos Simplificados da Subgerência de Pessoal Transitório (SUPET)."
+}

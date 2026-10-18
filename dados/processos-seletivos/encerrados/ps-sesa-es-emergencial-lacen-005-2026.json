@@ -1,0 +1,166 @@
+{
+  "id": "ps-sesa-es-emergencial-lacen-005-2026",
+  "orgao": "Secretaria de Estado da Saúde do Espírito Santo",
+  "orgao_sigla": "SESA",
+  "esfera": "estadual",
+  "municipio": "não informado",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Técnico de Nível Superior II (Biologia Molecular)",
+      "area": "Saúde - laboratório de saúde pública",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Diploma de Farmácia Bioquímica, Farmácia (Resolução CNE/CES 02/2002), Ciências Biológicas, Biomedicina ou Biotecnologia, por instituição reconhecida pelo MEC; registro no conselho; 6 meses de experiência em técnicas de diagnóstico molecular desde 01/01/2016",
+      "remuneracao": "R$ 5.813,49",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Técnico de Nível Superior III (Bioinformata)",
+      "area": "Saúde - laboratório de saúde pública",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Diploma de nível superior por instituição reconhecida pelo MEC; registro no conselho; 6 meses de experiência em bioinformática (linguagens como Python, Perl, Bash ou R, pipelines de montagem de genoma por referência e de novo, ferramentas de genômica e evolução de microrganismos) desde 01/01/2016",
+      "remuneracao": "R$ 5.813,49",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Técnico de Nível Superior V (Gestão da Qualidade I)",
+      "area": "Saúde - laboratório de saúde pública",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Diploma de Ciências Biológicas, Biomedicina, Biotecnologia, Farmácia Bioquímica ou Farmácia (Resolução CNE/CES 02/2002), por instituição reconhecida pelo MEC; registro no conselho; 6 meses de experiência em gestão da qualidade (ABNT ISO/IEC 17.025:2017) e em processos licitatórios em órgãos públicos (Lei nº 14.133/2021) desde 01/01/2016",
+      "remuneracao": "R$ 5.813,49",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Técnico de Nível Superior VI (Gestão da Qualidade II)",
+      "area": "Saúde - laboratório de saúde pública",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Diploma registrado de nível superior em Administração por instituição reconhecida pelo MEC; registro no conselho; 6 meses de experiência em gestão da qualidade desde 01/01/2016",
+      "remuneracao": "R$ 5.813,49",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Técnico de Nível Superior VIII (Especialista em Sequenciamento Genômico)",
+      "area": "Saúde - laboratório de saúde pública",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Diploma de Ciências Biológicas, Biomedicina, Biotecnologia, Farmácia Bioquímica ou Farmácia (Resolução CNE/CES 02/2002), por instituição reconhecida pelo MEC; registro no conselho; 6 meses de experiência em sequenciamento genético de nova geração (NGS) aplicado à vigilância genômica desde 01/01/2016",
+      "remuneracao": "R$ 5.813,49",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Médico Patologista",
+      "area": "Saúde - laboratório de saúde pública",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; residência médica em Patologia ou título de especialista da AMB, com RQE; 6 meses de experiência em Citopatologia desde 01/01/2016",
+      "remuneracao": "R$ 6.344,96",
+      "jornada": "20 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 0,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 5813.49,
+    "maxima": 6344.96,
+    "descricao": "Subsídio de R$ 5.813,49 (técnicos de nível superior, 40 horas) e R$ 6.344,96 (Médico Patologista, 20 horas)"
+  },
+  "beneficios": [],
+  "jornada": "20 ou 40 horas semanais, conforme o cargo",
+  "edital_numero": "Edital de Processo Seletivo Emergencial SESA nº 005/2026",
+  "publicacao": "2026-09-25",
+  "inscricoes": {
+    "inicio": "2026-09-29",
+    "fim": "2026-10-06",
+    "taxa": "não informado",
+    "local": "https://selecao.es.gov.br/",
+    "isencao": "não informado",
+    "observacao": "Inscrições exclusivamente pelo portal Seleção ES, das 10h de 29/09/2026 às 10h de 06/10/2026 (horário de Brasília). Uma inscrição por CPF. Experiência mínima exigida no requisito é condição para se inscrever."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "1ª etapa - inscrição, com classificação pelos títulos e pela experiência declarados (classificatória)",
+      "2ª etapa - comprovação do requisito, da qualificação e da experiência profissional, por envio eletrônico quando convocado (eliminatória e classificatória)",
+      "3ª etapa - formalização do contrato, com ASO e documentos originais, quando convocado"
+    ],
+    "observacao": "Sem prova. Classificação divulgada só no portal Seleção ES. Desempate: maior soma de qualificação profissional declarada, maior experiência e maior idade. Recurso só contra o indeferimento na 2ª etapa, em 24 horas. Publicações posteriores no portal: classificações geral, PcD e negros (06/10), convocação da 2ª etapa nº 01 (07/10) e resultado da 2ª etapa nº 001 (13/10/2026)."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "6 meses (edital); contratos de 12 meses, prorrogáveis por mais 12",
+  "links": {
+    "edital": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32206",
+    "pagina_oficial": "https://selecao.es.gov.br/processo-seletivo/4f9a54a9-49b8-482e-9fc5-87a1f6b784fa/sesa-edital-n-0052026-processo-seletivo-emergencial-lacen-medico-nivel-superior",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Portal Seleção ES - SESA - Edital nº 005/2026 - Processo Seletivo Emergencial - LACEN - Médico e Nível Superior",
+      "url": "https://selecao.es.gov.br/processo-seletivo/4f9a54a9-49b8-482e-9fc5-87a1f6b784fa/sesa-edital-n-0052026-processo-seletivo-emergencial-lacen-medico-nivel-superior",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Edital de Processo Seletivo Emergencial SESA nº 005/2026 (PDF, 11 páginas)",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32206",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Errata nº 001/2026 comum aos Editais SESA nº 005, 006, 007 e 008/2026 (laudo de PcD), de 29/09/2026",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32227",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Extrato dos Editais de Processos Seletivos Emergenciais SESA nº 005 a 008/2026 - DIO/ES de 25/09/2026, p. 20 (PDF disponibilizado no portal Seleção ES)",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32207",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Processo seletivo SESA (ES) abre quatro editais com salários de até R$ 12,6 mil",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/09/30/processo-seletivo-sesa-es-abre-quatro-editais-com-salarios-de-ate-r-126-mil/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-25",
+      "status": "edital_publicado",
+      "observacao": "Extrato dos Editais SESA nº 005 a 008/2026 publicado no DIO/ES (p. 20), com edital íntegro anunciado para 28/09/2026."
+    },
+    {
+      "data": "2026-09-29",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições às 10h, pelo portal Seleção ES."
+    },
+    {
+      "data": "2026-10-06",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 10h, pelo portal Seleção ES."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, a partir do edital íntegro, das erratas/retificações e do extrato no DIO/ES. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "Seleção para o Laboratório Central de Saúde Pública do Espírito Santo (LACEN/ES). O edital não informa o endereço nem o município da unidade, daí 'municipio' = 'não informado' (não foi presumido). Todos os seis cargos exigem 6 meses de experiência específica comprovada desde 01/01/2016 como condição de inscrição. Seleção emergencial exclusivamente para cadastro de reserva (item 1.1), daí vagas_imediatas_total = 0: serve só às unidades da SESA cujo cadastro do Edital SESA nº 001/2026 esteja esgotado ou a esgotar. Contratação em designação temporária (Lei Complementar nº 809/2015), contratos de 12 meses prorrogáveis por mais 12. Reserva de 10% para PcD (Lei Estadual nº 12.009/2023), 20% para pessoas pretas ou pardas e 5% para indígenas (Lei Estadual nº 12.010/2023). A Errata nº 001/2026, comum aos quatro editais emergenciais (005 a 008/2026), só altera a regra de validade do laudo de PcD (laudos de deficiência permanente, inclusive TEA, sem prazo de atualização). DATAS: o extrato saiu no DIO/ES de 25/09/2026 (adotado como publicação); o edital íntegro, assinado em 28/09/2026, foi disponibilizado no portal Seleção ES em 27-28/09. Taxa de inscrição não mencionada no edital. O portal Concursos no Brasil trata os quatro editais em uma só matéria; o coletor havia casado essa matéria, por nome de órgão, com o concurso autorizado concurso-sesa-es-2026, o que a escondia da fila de curadoria."
+}

@@ -1356,9 +1356,11 @@ class TesteCobertura(unittest.TestCase):
         self.assertEqual(bloco["total_municipios"], 78)
         # As DUAS metades do caso intermunicipal: Divino de Sao Lourenco
         # aparece somente em ps-consorcio-caparao-es-2026, que tem
-        # esfera 'intermunicipal' — logo nao credita municipio (15, e nao 16)
-        # e soma 1 em registros_intermunicipais_sem_atribuicao.
-        self.assertEqual(bloco["com_registro_curado"], 15)
+        # esfera 'intermunicipal' — logo nao credita municipio (21, e nao 22)
+        # e soma 1 em registros_intermunicipais_sem_atribuicao. Era 15 ate a
+        # curadoria de 17/10/2026, que trouxe Iconha, Irupi, Iuna, Joao Neiva,
+        # Montanha e Nova Venecia.
+        self.assertEqual(bloco["com_registro_curado"], 21)
         self.assertEqual(bloco["registros_intermunicipais_sem_atribuicao"], 4)
         self.assertNotIn("divino-de-sao-lourenco", bloco["slugs_com_sinal"])
         # Vazio desde 2026-10-02: a composicao dos tres intermunicipais foi
@@ -2763,15 +2765,15 @@ class TesteCoberturaNoReadme(unittest.TestCase):
         self.assertEqual(
             {linha.split("|")[3].strip() for linha in linhas}, {"—"}
         )
-        # ... e as duas colunas que NAO dependem da coleta seguem corretas: 15
+        # ... e as duas colunas que NAO dependem da coleta seguem corretas: 21
         # municipios com registro curado (o mesmo numero de cobertura()) e canal
         # principal preenchido nas 78 linhas.
         com_curado = [linha for linha in linhas if linha.split("|")[2].strip() != "0"]
-        self.assertEqual(len(com_curado), 15)
+        self.assertEqual(len(com_curado), 21)
         self.assertEqual(
             [linha for linha in linhas if linha.split("|")[4].strip() == "—"], []
         )
-        self.assertIn("| Vitória | 6 | — | DOM/AMUNES |", bloco)
+        self.assertIn("| Vitória | 13 | — | DOM/AMUNES |", bloco)
 
     def test_bloco_e_deterministico_entre_duas_geracoes(self):
         self._gravar()

@@ -1,0 +1,132 @@
+{
+  "id": "ps-guarapari-es-semic-002-2026",
+  "orgao": "Prefeitura Municipal de Guarapari - Secretaria Municipal de Integração da Cidade (SEMIC)",
+  "orgao_sigla": "PMG/SEMIC",
+  "esfera": "municipal",
+  "municipio": "Guarapari",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Guarda-Vidas",
+      "area": "Segurança pública",
+      "vagas_imediatas": 150,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio completo",
+      "requisitos": "Ensino médio completo (diploma e histórico podem ser entregues na formalização do contrato); certificado ou declaração de conclusão do Curso de Formação de Guarda-Vidas (CFGV) ou de reciclagem (ARGV), homologado conforme a NT-07 do Corpo de Bombeiros Militar e dentro da validade; atestado de saúde ocupacional (ASO); certidão negativa de antecedentes criminais; comprovante de residência; idade entre 18 e 75 anos na convocação",
+      "remuneracao": "Salário-base de R$ 1.686,08, mais adicional de risco de vida de 30% (R$ 505,82) e auxílio-alimentação de R$ 320,00",
+      "jornada": "40 horas semanais, em escala 12x36"
+    }
+  ],
+  "vagas_imediatas_total": 150,
+  "cadastro_reserva": true,
+  "escolaridade": "nível médio completo",
+  "remuneracao": {
+    "minima": 1686.08,
+    "maxima": 1686.08,
+    "descricao": "Salário-base de R$ 1.686,08, mais adicional de risco de vida de 30% (R$ 505,82) e auxílio-alimentação de R$ 320,00, para 40 horas semanais em escala 12x36. 13º salário e férias proporcionais são pagos ao final do contrato"
+  },
+  "beneficios": [
+    "Adicional de risco de vida de 30% (R$ 505,82)",
+    "Auxílio-alimentação de R$ 320,00",
+    "13º salário e férias acrescidas de um terço, proporcionais, pagos ao final do contrato"
+  ],
+  "jornada": "40 horas semanais, em escala 12x36",
+  "edital_numero": "Edital SEMIC nº 002/2026",
+  "publicacao": "2026-10-07",
+  "inscricoes": {
+    "inicio": "2026-10-07",
+    "fim": "2026-10-09",
+    "taxa": "não informado",
+    "local": "Secretaria Municipal de Integração da Cidade (SEMIC) - Centro Administrativo Benedito Soter Lira, Avenida Paris, nº 680, Praia do Morro, Guarapari (ES)",
+    "isencao": "não informado",
+    "observacao": "Inscrição presencial em 07, 08 e 09/10/2026 (Anexo II), com entrega de envelope lacrado contendo a ficha de inscrição (Anexo I) preenchida e assinada e a documentação exigida. O edital não informa o horário de atendimento nem trata de taxa. Não são aceitas inscrições por fax, e-mail, via postal, condicionais ou com pendência de documentos. Não há reserva de vagas para pessoas com deficiência (item 6.7). Telefone da SEMIC: (27) 3361-8200."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "Inscrição com entrega de documentos",
+      "Classificação por tempo de serviço na função pleiteada (1 ponto por mês, até 48 pontos), comprovado por CTPS ou documento de instituição pública",
+      "Convocação, conferência e análise de documentos",
+      "Formalização do contrato por processo administrativo eletrônico, com apresentação do certificado CFGV/ARGV e do ASO"
+    ],
+    "observacao": "Cronograma do Anexo II, com a errata publicada em 14/10/2026: resultado e homologação das inscrições em 14/10; recurso das inscrições em 15/10 (era 14/10); resultado final após recurso em 16/10; resultado final geral e recurso em 20/10; classificação final após recurso e convocação em 22/10; abertura de processo eletrônico e entrega de documentos para contrato de 26 a 30/10/2026. Desempate pelo maior tempo de serviço e, depois, pela maior idade. Recursos presenciais no protocolo da SEMIC."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "Contratos de 6 meses, prorrogáveis por igual período (Lei Municipal nº 5.255/2026); a minuta de contrato prevê vigência de 01/11/2026 a 01/05/2027. O edital não fixa prazo de validade do processo seletivo",
+  "links": {
+    "edital": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11531/98",
+    "pagina_oficial": "https://www.guarapari.es.gov.br/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "DOM/ES edição nº 3.103, de 07/10/2026 - Edital SEMIC nº 002/2026 (páginas 98 a 105; página inicial)",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11531/98",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "DOM/ES edição nº 3.103, de 07/10/2026 - Edital SEMIC nº 002/2026, página 102 (Anexo II - Cronograma de Atividades)",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11531/102",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "DOM/ES edição nº 3.107, de 14/10/2026 - Errata do cronograma do Edital SEMIC nº 002/2026",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11550/125",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "DOM/ES edição nº 3.107, de 14/10/2026 - Resultado e homologação das inscrições do Edital SEMIC nº 002/2026",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11550/130",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "DOM/ES edição nº 3.099, de 01/10/2026 - Lei Municipal nº 5.255/2026 (autoriza as contratações temporárias da SEMIC na temporada de verão 2026/2027)",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11517/129",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Prefeitura de Guarapari (ES) prevê 150 vagas em edital para Guarda-Vidas",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/10/07/prefeitura-de-guarapari-es-preve-150-vagas-em-edital-para-guarda-vidas/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-10-07",
+      "status": "edital_publicado",
+      "observacao": "Publicação do Edital SEMIC nº 002/2026 no DOM/ES, edição nº 3.103, páginas 98 a 105 (edital assinado em 05/10/2026)."
+    },
+    {
+      "data": "2026-10-07",
+      "status": "inscricoes_abertas",
+      "observacao": "Primeiro dia das inscrições presenciais na SEMIC."
+    },
+    {
+      "data": "2026-10-09",
+      "status": "inscricoes_encerradas",
+      "observacao": "Último dia das inscrições presenciais."
+    },
+    {
+      "data": "2026-10-14",
+      "status": "inscricoes_encerradas",
+      "observacao": "Publicados no DOM/ES (edição nº 3.107) a errata do cronograma, que move o recurso das inscrições para 15/10/2026, e o resultado e homologação das inscrições, com 140 inscrições homologadas."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, a partir do edital publicado no DOM/ES (edição nº 3.103) e das publicações de 14/10/2026. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "Registro DISTINTO do ps-guarapari-es-semtac-002-2026 (Edital SEMTAC nº 002/2026, assistência social) e do concurso-codeg-guarapari-es-2026 (CODEG): este é o Edital SEMIC nº 002/2026, da Secretaria Municipal de Integração da Cidade, para o Serviço de Salvamento Marítimo, com base na Lei Municipal nº 5.255/2026 (temporada de verão 2026/2027). As 150 vagas são 'estimadas' (item 3.1), igual ao limite de 150 guarda-vidas fixado no art. 3º da lei; podem ocorrer novas contratações dentro desse limite. Na homologação de 14/10/2026 constam 140 inscrições homologadas, menos que as 150 vagas estimadas. DIVERGÊNCIAS: (1) o edital exige ensino médio completo, enquanto o Anexo Único da Lei nº 5.255/2026 exige ensino fundamental completo; adotado o edital, que rege a seleção. (2) O edital menciona entregar o certificado 'no dia do TAF', mas nenhum Teste de Aptidão Física aparece entre as etapas, e a classificação é só por tempo de serviço. A lei prevê seleção 'mediante provas ou provas e títulos'. (3) A publicação do resultado e da homologação das inscrições, de 14/10/2026, ainda indica recursos em 14/10, mas a errata do cronograma, de 13/10/2026 e publicada na mesma edição, fixa 15/10/2026. (4) O adicional de risco de vida é descrito como '30% da remuneração' (item 3.5); o valor tabelado, R$ 505,82, corresponde a 30% do salário-base. PENDÊNCIAS: o resultado final após recurso, previsto para 16/10/2026, não foi localizado na busca do DOM/ES até 17/10/2026. A página www.guarapari.es.gov.br/selecao/ respondeu HTTP 403 em 17/10/2026, tanto ao script quanto ao web_fetch, e não foi contornada; a curadoria se apoia integralmente no DOM/ES."
+}

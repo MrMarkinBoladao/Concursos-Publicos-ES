@@ -1,0 +1,123 @@
+{
+  "id": "ps-pmes-es-tecnico-farmacia-004-2026",
+  "orgao": "Polícia Militar do Estado do Espírito Santo - Diretoria de Saúde",
+  "orgao_sigla": "DS/PMES",
+  "esfera": "estadual",
+  "municipio": "Vitória",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Técnico em Farmácia",
+      "area": "Saúde",
+      "vagas_imediatas": 10,
+      "cadastro_reserva": true,
+      "escolaridade": "nível médio técnico",
+      "requisitos": "Certificado de curso técnico em Farmácia por instituição reconhecida pelo MEC (único requisito de ingresso listado no Anexo I)",
+      "remuneracao": "R$ 2.985,86 mais auxílio-alimentação de R$ 800,00",
+      "jornada": "40 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 10,
+  "cadastro_reserva": true,
+  "escolaridade": "nível médio técnico",
+  "remuneracao": {
+    "minima": 2985.86,
+    "maxima": 2985.86,
+    "descricao": "R$ 2.985,86 mais auxílio-alimentação de R$ 800,00, para 40 horas semanais"
+  },
+  "beneficios": [
+    "Auxílio-alimentação de R$ 800,00"
+  ],
+  "jornada": "40 horas semanais",
+  "edital_numero": "Edital DS/PMES nº 004/2026",
+  "publicacao": "2026-09-30",
+  "inscricoes": {
+    "inicio": "2026-10-01",
+    "fim": "2026-10-08",
+    "taxa": "não informado",
+    "local": "https://selecao.es.gov.br/",
+    "isencao": "não informado",
+    "observacao": "Inscrições exclusivamente pelo portal Seleção ES, das 16h de 01/10/2026 às 16h de 08/10/2026, conforme a Errata nº 01/2026 (o edital e o extrato previam 9h). Uma inscrição por CPF. Contato: dpc.ds@pm.es.gov.br."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "1ª etapa - inscrição e classificação inicial pelas informações declaradas",
+      "2ª etapa - comprovação documental dos requisitos e da pontuação (qualificação profissional e experiência, Quadros I e II do item 4.21), por processo eletrônico",
+      "3ª etapa - formalização do contrato, com avaliação de compatibilidade para candidatos PcD"
+    ],
+    "observacao": "Lotação na Diretoria de Saúde da PMES, no Hospital da Polícia Militar (HPM). Classificação geral divulgada em 08/10/2026 e 1º ato de convocação da 2ª etapa em 16/10/2026."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "1 ano, prorrogável por igual período; contratos de 12 meses, prorrogáveis (Lei Complementar nº 809/2015)",
+  "links": {
+    "edital": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32277",
+    "pagina_oficial": "https://selecao.es.gov.br/processo-seletivo/25ac0486-8fd6-4110-a85c-0bc65fe9d362/dspmes-edital-0042026-processo-seletivo-contratacao-tecnico-farmacia-hpm",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Portal Seleção ES - DS/PMES Edital 004/2026 (Técnico em Farmácia - HPM)",
+      "url": "https://selecao.es.gov.br/processo-seletivo/25ac0486-8fd6-4110-a85c-0bc65fe9d362/dspmes-edital-0042026-processo-seletivo-contratacao-tecnico-farmacia-hpm",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Edital DS/PMES nº 004/2026 - Técnico em Farmácia (PDF, 25 páginas)",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32277",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Errata nº 01/2026 ao Edital DS/PMES nº 004/2026 (horário das inscrições), de 01/10/2026",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32275",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Extrato do Edital DS/PMES nº 004/2026, de 30/09/2026 (PDF disponibilizado no portal Seleção ES)",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32278",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "PM ES está com dois novos editais abertos para nível técnico",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/10/01/pm-es-esta-com-dois-novos-editais-abertos-para-nivel-tecnico/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-30",
+      "status": "edital_publicado",
+      "observacao": "Edital assinado e disponibilizado no portal Seleção ES."
+    },
+    {
+      "data": "2026-10-01",
+      "status": "edital_publicado",
+      "observacao": "Errata nº 01/2026 muda o horário das inscrições para 16h de 01/10 a 16h de 08/10/2026."
+    },
+    {
+      "data": "2026-10-01",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições às 16h, pelo portal Seleção ES."
+    },
+    {
+      "data": "2026-10-08",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 16h; classificação geral publicada no mesmo dia."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, a partir do edital íntegro e do extrato no DIO/ES. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "DIVERGÊNCIA resolvida pelo edital íntegro (mesmo padrão do Edital DS/PMES 002/2026): a descrição do processo no portal fala só em formação de cadastro de reserva, mas o Anexo I fixa 'Vagas: 10'. O item 1.6 qualifica o número como teto — 'podendo ocorrer até 10 contratações imediatas ou futuras, conforme necessidade da Administração'. Adotadas as 10 vagas do Anexo I, com cadastro de reserva; não são vagas garantidas. Reserva de 5% para indígenas, 10% para PcD e 20% para negros. Município: o HPM fica em Vitória, como registrado no Edital DS/PMES 002/2026 (ps-pmes-es-medico-psiquiatra-002-2026); este edital só diz 'Hospital da Polícia Militar - HPM'. HORÁRIO: a Errata nº 01/2026 (01/10/2026) mudou as inscrições para 16h de 01/10 a 16h de 08/10; o extrato e o texto original do edital dizem 9h — vale a errata. DUPLICIDADE NO PORTAL: a coleta viu em 30/09/2026 outro processo com o mesmo título (identificador c3e686b5-cb0e-4a8a-ab96-53eba3d14342), que saiu do portal no dia seguinte e hoje não responde; provavelmente foi substituído por este. Diferente do Edital 003/2026, o Anexo I deste não exige registro em conselho nem experiência mínima."
+}

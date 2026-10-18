@@ -1,0 +1,116 @@
+{
+  "id": "ps-vitoria-es-guarda-vidas-023-2026",
+  "orgao": "Prefeitura Municipal de Vitória - Secretaria de Gestão e Planejamento (SEGES)",
+  "orgao_sigla": "PMV/SEGES",
+  "esfera": "municipal",
+  "municipio": "Vitória",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Guarda-Vidas",
+      "area": "Segurança pública",
+      "vagas_imediatas": 25,
+      "cadastro_reserva": true,
+      "escolaridade": "nível fundamental completo",
+      "requisitos": "Ensino fundamental completo e Curso de Formação de Guarda-Vidas (CFGV) ou revalidação do curso (ARGV), emitido pelo Corpo de Bombeiros no ano de 2026 e apresentado na convocação; idade mínima de 18 anos na contratação",
+      "remuneracao": "R$ 2.010,89 (salário + equiparação ao salário mínimo + gratificação)",
+      "jornada": "200 horas mensais, em regime de escala"
+    }
+  ],
+  "vagas_imediatas_total": 25,
+  "cadastro_reserva": true,
+  "escolaridade": "nível fundamental completo",
+  "remuneracao": {
+    "minima": 2010.89,
+    "maxima": 2010.89,
+    "descricao": "R$ 2.010,89 mensais (salário + equiparação ao salário mínimo + gratificação), para 200 horas mensais em regime de escala"
+  },
+  "beneficios": [],
+  "jornada": "200 horas mensais, em regime de escala",
+  "edital_numero": "Edital nº 023/2026 - SEGES",
+  "publicacao": "2026-09-21",
+  "inscricoes": {
+    "inicio": "2026-09-28",
+    "fim": "2026-10-07",
+    "taxa": "não informado",
+    "local": "https://selecao.vitoria.es.gov.br/",
+    "isencao": "não informado",
+    "observacao": "Inscrições exclusivamente pela internet, das 8h de 28/09/2026 às 23h59 de 07/10/2026 (horário de Brasília), com login e preenchimento da Ficha de Inscrição Online no sistema de seleção da Prefeitura. O edital não menciona taxa de inscrição. Reserva de 5% das vagas para pessoas com deficiência e de 30% para candidatos negros/indígenas. Dúvidas: SEMSU (erdalmacio@vitoria.es.gov.br) e Coordenação de Recrutamento e Seleção da SEGES (processoseletivo@vitoria.es.gov.br)."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "1ª etapa - inscrição (classificatória, conforme os requisitos)",
+      "2ª etapa - Teste de Aptidão Física (TAF), eliminatório e classificatório, aplicado pelo Corpo de Bombeiros Militar na base do Salvamar (Praia da Curva da Jurema): resgate de vítima consciente e circuito de aquatlon",
+      "3ª etapa - comprovação das informações declaradas e entrega dos documentos para admissão (eliminatória)"
+    ],
+    "observacao": "Local, dia e horário do TAF serão divulgados após a homologação do resultado da 1ª etapa; o candidato deve levar laudo médico de aptidão para atividade física emitido nos últimos 30 dias. O TAF vale até 10 pontos (apto com média igual ou superior a 7,0; eliminado com nota inferior a 5,0 em qualquer prova) e o resultado final segue a ordem decrescente da nota do TAF. Em 09/10/2026 o sistema de seleção publicou a convocação dos inscritos como pessoa com deficiência para avaliação na Medicina do Trabalho em 16/10/2026."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "12 meses a partir da homologação do resultado final, prorrogável a critério do Município. Vigência registrada no sistema de seleção: 24/09/2026 a 24/09/2027",
+  "links": {
+    "edital": "https://arquivos.vitoria.es.gov.br/api/v1/files/sigep-arquivos/91539ae8b9ec127194e4fba9827077d1b925e303.pdf",
+    "pagina_oficial": "https://selecao.vitoria.es.gov.br/",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Diário Oficial do Município de Vitória - edição nº 2970, de 21/09/2026 (Edital nº 023/2026 a partir da página 17)",
+      "url": "https://diariooficial.vitoria.es.gov.br/ExibirArquivo.aspx?qs=nnmrXIDe5L4hR81FZwDXlD95Q%2fWHOCtXgeCw%2fnRIrFMxQA7S5mwuf0RM3mOCPGtiwqKwtsQd8WTWmli6Dukj2fTlTgtdib13d8p9fmI0JSUEm0iKuScCb%2fYzkrEMKIXi",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Sistema de seleção da PMV - Edital de Abertura nº 023/2026 (PDF, 15 páginas)",
+      "url": "https://arquivos.vitoria.es.gov.br/api/v1/files/sigep-arquivos/91539ae8b9ec127194e4fba9827077d1b925e303.pdf",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Sistema de seleção da PMV - dados do item do Edital 23/2026 (Guarda Vidas 200 H): período de inscrição e vigência",
+      "url": "https://apiselecao.vitoria.es.gov.br/api/Edital/GetByParamItem/2/4957/772/3",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Sistema de seleção da PMV - Convocação para avaliação dos candidatos inscritos como pessoa com deficiência (Edital nº 23/2026, 09/10/2026)",
+      "url": "https://arquivos.vitoria.es.gov.br/api/v1/files/sigep-arquivos/7e0b19d683cb477c52f96a11007baa3558702cc4.",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Edital Prefeitura de Vitória (ES) oferta 25 vagas para Guarda-Vidas",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/09/28/edital-prefeitura-de-vitoria-es-oferta-25-vagas-para-guarda-vidas/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-21",
+      "status": "edital_publicado",
+      "observacao": "Publicação do Edital nº 023/2026 no Diário Oficial do Município de Vitória, edição nº 2970 (texto do DOM datado de 18/09/2026; o PDF do sistema de seleção está datado de 11/09/2026)."
+    },
+    {
+      "data": "2026-09-28",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições às 8h, pelo sistema de seleção da Prefeitura."
+    },
+    {
+      "data": "2026-10-07",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 23h59."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, a partir do edital publicado no Diário Oficial do Município de Vitória (edição nº 2970) e do sistema de seleção da Prefeitura. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "Contratação por tempo determinado (Lei Municipal nº 7.534/2008), em caráter de urgência, para a Secretaria Municipal de Segurança Urbana (SEMSU), com autorização no Processo nº 6359029/2026. O texto do DOM (edição nº 2970) e o PDF do sistema de seleção coincidem em vagas, remuneração, período de inscrição e validade. A matéria do Concursos no Brasil, de 28/09/2026, trata o edital como recém-publicado, mas a publicação oficial ocorreu em 21/09/2026 no DOM; o PDF do edital está datado de 11/09/2026 e foi disponibilizado no sistema em 23/09/2026. A vigência de 24/09/2026 a 24/09/2027 exibida no sistema não coincide com a regra do edital (12 meses contados da homologação do resultado final). Em 17/10/2026 o sistema de seleção exibe o processo com situação 'Em Andamento'. PENDENTE: data, local e horário do TAF ainda não divulgados até 17/10/2026. O certificado do CFGV/ARGV só é aceito se emitido em 2026."
+}

@@ -21,14 +21,14 @@ efetivamente relacionada ao estado.
 | Indicador | Valor |
 | --------- | ----: |
 | Última verificação das fontes | **17/10/2026** |
-| Oportunidades monitoradas | 53 |
-| Com inscrições abertas | 2 |
-| Vagas imediatas em aberto | 32 |
+| Oportunidades monitoradas | 80 |
+| Com inscrições abertas | 14 |
+| Vagas imediatas em aberto | 104 |
 | Concursos previstos / autorizados | 16 |
-| Registros históricos (encerrados ou em andamento) | 35 |
-| Descobertas automáticas pendentes de conferência | 17 |
+| Registros históricos (encerrados ou em andamento) | 50 |
+| Descobertas automáticas pendentes de conferência | 2 |
 | Municípios do ES monitorados | 78 |
-| Municípios com registro curado | 15 |
+| Municípios com registro curado | 21 |
 | Municípios com ato detectado na janela da coleta | 35 |
 
 ## Concursos com inscrições abertas
@@ -37,6 +37,9 @@ efetivamente relacionada ao estado.
 | ----- | ----- | ----: | ------: | -------------- | ----- |
 | [CREF22/ES](https://www.ibade.org.br/) | Advogado I; Analista Administrativo I e mais 1 cargo | 2 + CR | R$ 5.000,00 a R$ 5.500,00 | 20/10/2026 **(encerra em 3 dias)** | 13/12/2026 |
 | [PMSMJ](https://www.institutoconsulplan.org.br/pref-smj-guarda2026) | Guarda Municipal | 30 + CR | R$ 3.763,26 | 21/10/2026 (encerra em 4 dias) | 13/12/2026 |
+| [PMI](https://ps.idesg.org.br:443/relatorio/documento.php?f=docs&t=pdf&n=15102026_01249488848_165315) | Professor NMM - PA (Educação Infantil e anos iniciais do Ensino Fun...; Professor NMM - PA - Tempo Integral (Educação Infantil e anos inici... e mais 3 cargos | 55 + CR | R$ 2.755,87 a R$ 4.409,39 | 30/10/2026 | 22/11/2026 |
+| [CRECI-ES](https://www.in.gov.br/en/web/dou/-/edital-n-1-de-5-de-outubro-de-2026-736203938) | Profissional de Suporte Técnico (PST) - Assistente Administrativo; Profissional de Suporte Técnico (PST) - Assistente Especializado e mais 8 cargos | CR | não informado | 10/11/2026 | 17/01/2027 |
+| [SAAE](https://www.saaeiconha.com.br/institucional/processos-seletivos-e-concursos/download/file?fid=45.105&file_id=f_8daebc7126eff2c15a4833084488d686) | Ajudante; Auxiliar de Serviços Gerais e mais 7 cargos | 14 + CR | R$ 1.660,65 a R$ 3.236,14 | 10/11/2026 | 13/12/2026 |
 
 ## Próximos concursos
 
@@ -61,7 +64,17 @@ efetivamente relacionada ao estado.
 
 ## Processos seletivos
 
-_Nenhum processo seletivo com inscrições abertas na última verificação._
+| Órgão | Cargo | Vagas | Inscrições até | Fonte |
+| ----- | ----- | ----: | -------------- | ----- |
+| PMF/SEMED | Servente Escolar; Merendeira e mais 1 cargo | 3 + CR | 22/10/2026 (encerra em 5 dias) | [fonte](https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11554/112) |
+| PMM/SEMECT | Professor/a Regente de Classe MAPA (Educação Infantil, Anos Iniciai...; Professor/a MAPB (componentes curriculares da Educação Infantil e d... e mais 15 cargos | CR | 26/10/2026 | [fonte](https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11527/96) |
+| PMSMJ/SECADM | Coveiro; Jardineiro e mais 62 cargos | CR | 28/10/2026 | [fonte](https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11524/142) |
+| Prefeitura Municipal de Nova Venécia | Nutricionista; Psicólogo e mais 3 cargos | CR | 29/10/2026 | [fonte](https://www.novavenecia.es.gov.br/wp-content/uploads/2026/10/EDITAL-No-030-2026-PROCESSO-SELETIVO-DE-NUTRICIONISTA-E-OUTROS.pdf) |
+| SEMAP | Cuidador Escolar | CR | 03/11/2026 | [fonte](https://www.irupi.es.gov.br/processo-seletivo/download/6cea12b90c0f70911fc4860be2a39f90/44456738743842) |
+| PMI | Professor A-DT; Professor B-DT e mais 18 cargos | não informado | 06/11/2026 | [fonte](https://institutoselecao.selecao.net.br/informacoes/34/) |
+| SEDU | Coordenador Administrativo, de Secretaria e Financeiro (CASF) | não informado | 02/04/2027 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32217) |
+| SEDU | Coordenador Pedagógico | não informado | 02/04/2027 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32216) |
+| SEDU | Diretor Escolar | não informado | 02/04/2027 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32212) |
 
 ## Histórico (inscrições encerradas)
 
@@ -71,22 +84,37 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | Órgão | Cargo | Vagas | Situação | Encerrou em | Fonte |
 | ----- | ----- | ----: | -------- | ----------- | ----- |
 | PMA/SEMGE | Diversos cargos das áreas Administrativa, Saúde, Fiscalização, Enge... | CR | Prova realizada | não informado | [fonte](https://idcap.selecao.net.br/informacoes/227/) |
+| PMC | Operador de Serviços de Obras Públicas e mais 11 cargos | CR | Inscrições encerradas | 16/10/2026 | [fonte](https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11554/76) |
+| ARIES | Analista de Fiscalização e Regulação (Engenharia Civil, Sanitária o... | 1 + CR | Inscrições encerradas | 15/10/2026 | [fonte](https://aries.agr.br/transparencia/processos-seletivos/198-processo-seletivo-simplificado-no-003-2026) |
+| PMV/SEGES | Arteterapeuta e mais 2 cargos | 3 + CR | Inscrições encerradas | 14/10/2026 | [fonte](https://arquivos.vitoria.es.gov.br/api/v1/files/sigep-arquivos/85f5d7a3bd39ec8031a09926f236a712f883cc21.pdf) |
+| PMV/SEGES | Assistente de Educação Infantil | 1 + CR | Inscrições encerradas | 14/10/2026 | [fonte](https://diariooficial.vitoria.es.gov.br/ExibirArquivo.aspx?qs=nnmrXIDe5L4hR81FZwDXlD95Q%2fWHOCtXgeCw%2fnRIrFMxQA7S5mwuf0RM3mOCPGtiwqKwtsQd8WTWmli6Dukj2dFXraHVhwjfSFc%2foPNG3viQrQONUns0DGg4xqXxAb5v) |
+| PMV/SEGES | Psicólogo | 1 + CR | Inscrições encerradas | 14/10/2026 | [fonte](https://arquivos.vitoria.es.gov.br/api/v1/files/sigep-arquivos/052503e61b4f3113e540cebe79a47ebb52c14e01.) |
+| PMG/SEMIC | Guarda-Vidas | 150 + CR | Inscrições encerradas | 09/10/2026 | [fonte](https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11531/98) |
+| PMJN/SEMSA | Farmacêutico e mais 5 cargos | 2 + CR | Inscrições encerradas | 09/10/2026 | [fonte](https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11508/152) |
+| PMV/SEGES | Cirurgião-Dentista - Atuação: Clínico e mais 1 cargo | 2 + CR | Inscrições encerradas | 09/10/2026 | [fonte](https://arquivos.vitoria.es.gov.br/api/v1/files/sigep-arquivos/33b9e10c2bddfed57b6f20e152d72b7896c9fc69.) |
+| DS/PMES | Técnico em Farmácia | 10 + CR | Inscrições encerradas | 08/10/2026 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32277) |
+| DS/PMES | Técnico em Laboratório/Análises Clínicas | 10 + CR | Inscrições encerradas | 08/10/2026 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32226) |
 | PMSGP | Servente e mais 2 cargos | CR | Inscrições encerradas | 08/10/2026 | [fonte](https://www.saogabriel.es.gov.br/) |
 | PMA | PEB I - Professor de Educação Básica - Educação Infantil BNCC e mais 11 cargos | 64 + CR | Inscrições encerradas | 07/10/2026 | [fonte](https://integrado.selecao.net.br/informacoes/254/) |
+| PMV/SEGES | Guarda-Vidas | 25 + CR | Inscrições encerradas | 07/10/2026 | [fonte](https://arquivos.vitoria.es.gov.br/api/v1/files/sigep-arquivos/91539ae8b9ec127194e4fba9827077d1b925e303.pdf) |
+| SESA | Técnico de Nível Superior II (Biologia Molecular) e mais 5 cargos | CR | Inscrições encerradas | 06/10/2026 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32206) |
+| SESA | Médico I e mais 43 cargos | CR | Inscrições encerradas | 06/10/2026 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32205) |
+| SESA | Auxiliar de Serviços Gerais e mais 11 cargos | CR | Inscrições encerradas | 06/10/2026 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32204) |
+| SESA | Contador e mais 9 cargos | CR | Inscrições encerradas | 06/10/2026 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32203) |
 | CRF-ES | Advogado | 1 + CR | Inscrições encerradas | 05/10/2026 | [fonte](https://institutoibest.selecao.net.br/informacoes/62/) |
+| PMF/SEMAD | Guarda-Parque | 4 | Homologado | 05/10/2026 | [fonte](https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11513/185) |
 | PMG/SEMTAC | Motorista e mais 4 cargos | CR | Inscrições encerradas | 02/10/2026 | [fonte](https://www.guarapari.es.gov.br/selecao/detalhes/222/edital-de-processo-seletivo-semtac-n-002-2026) |
 | PMI/SEME | Professor MAPA, MAPB e MAPP (Educação Infantil, Ensino Fundamental... e mais 8 cargos | 10 + CR | Inscrições encerradas | 30/09/2026 | [fonte](https://www.ibiracu.es.gov.br/uploads/2026-09-18-15-42-25-retificado---edital-no-014---2026---processo-seletivo---seme----diversos-cargos.pdf) |
 | PMST | Professor habilitado do magistério - Educação Infantil; Ensino Fund... e mais 1 cargo | CR | Inscrições encerradas | 30/09/2026 | [fonte](https://www.santateresa.es.gov.br/noticias-individual/2164/prefeitura-de-santa-teresa-abre-processos-seletivos-para-profissionais-do-magisterio-para-o-ano-letivo-de-2027) |
-| SEDU | CASF - Coordenador de Atendimento e Suporte às Famílias | não informado | Inscrições encerradas | 30/09/2026 | [fonte](https://selecao.es.gov.br/) |
-| SEDU | Coordenador Pedagógico | não informado | Inscrições encerradas | 30/09/2026 | [fonte](https://selecao.es.gov.br/) |
-| SEDU | Diretor Escolar | não informado | Inscrições encerradas | 30/09/2026 | [fonte](https://selecao.es.gov.br/) |
+| SEDU | Coordenador Administrativo, de Secretaria e Financeiro (CASF) | não informado | Inscrições encerradas | 30/09/2026 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/30188) |
+| SEDU | Coordenador Pedagógico | não informado | Inscrições encerradas | 30/09/2026 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/28514) |
+| SEDU | Diretor Escolar | não informado | Inscrições encerradas | 30/09/2026 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/28512) |
 | PMS/SESA | Auxiliar de Saúde Bucal e mais 6 cargos | CR | Inscrições encerradas | 29/09/2026 | [fonte](https://selecao.serra.es.gov.br/) |
 | PMAC | Merendeira | CR | Inscrições encerradas | 28/09/2026 | [fonte](https://www.afonsoclaudio.es.gov.br/site/edital-no-001-2026-processo-seletivo-simplificado-para-merendeira/) |
 | PMV/SEGES | Professor de Educação Básica (diversas áreas) | 310 + CR | Inscrições encerradas | 27/09/2026 | [fonte](https://integrado.selecao.net.br/informacoes/255/) |
 | PMV/SEGES | Professor de Educação Básica Especial - Bilíngue (Libras) e mais 1 cargo | 25 + CR | Inscrições encerradas | 27/09/2026 | [fonte](https://integrado.selecao.net.br/informacoes/256/) |
 | IPC | Analista Previdenciário - Administração e mais 2 cargos | 4 + CR | Inscrições encerradas | 24/09/2026 | [fonte](https://prosel.cariacica.es.gov.br/public/) |
 | PMC/SEME | Professor e mais 5 cargos | CR | Inscrições encerradas | 24/09/2026 | [fonte](https://educacao.castelo.es.gov.br/processos-seletivos) |
-| ARIES | Analista de Fiscalização e Regulação (Engenharia Civil, Sanitária o... | 1 + CR | Inscrições encerradas | 23/09/2026 | [fonte](https://aries.agr.br/transparencia/processos-seletivos/198-processo-seletivo-simplificado-no-003-2026) |
 | Prefeitura Municipal de Ibiraçu | Professor e Professor Pedagogo (escolas de tempo integral) | 1 + CR | Inscrições encerradas | 21/09/2026 | [fonte](https://educacao.ibiracu.sisp.com.br) |
 | PMF/SEMAD | Técnico de Segurança do Trabalho e mais 3 cargos | CR | Inscrições encerradas | 18/09/2026 | [fonte](https://www.fundao.es.gov.br/) |
 | CIM Polinorte | Analista Técnico em Meio Ambiente, Auxiliar Administrativo (Rede Cu... | 5 + CR | Inscrições encerradas | 16/09/2026 | [fonte](https://tribunaonline.com.br/concursos/doze-novos-concursos-com-451-vagas-no-es-330678) |
@@ -115,23 +143,8 @@ encerradas pode seguir em andamento nas etapas seguintes.
 
 | Órgão | Oportunidade | Situação na fonte | Inscrições até | Fonte |
 | ----- | ------------ | ----------------- | -------------- | ----- |
-| SEDU | [SEDU - EDITAL DE CADASTRAMENTO Nº 34/2026 - Fase preliminar do Processo Seletivo para Diretor Escolar](https://selecao.es.gov.br/processo-seletivo/f8566f9a-c3ea-4a2d-89b3-86aaf6af7d9f/sedu-edital-cadastramento-n-342026-fase-preliminar-processo-seletivo-diretor-escolar) | Inscrições abertas | 02/04/2027 | oficial |
-| SEDU | [SEDU - EDITAL DE CADASTRAMENTO Nº 35/2026 - Fase preliminar do Processo Seletivo para Coordenador Pedagógico](https://selecao.es.gov.br/processo-seletivo/31de726e-d5e8-41a1-a584-aee968b53f1f/sedu-edital-cadastramento-n-352026-fase-preliminar-processo-seletivo-coordenador-pedagogico) | Inscrições abertas | 02/04/2027 | oficial |
-| SEDU | [SEDU - EDITAL DE CADASTRAMENTO Nº 33/2026 - Fase Preliminar do Processo Seletivo para CASF](https://selecao.es.gov.br/processo-seletivo/b372b0fa-7926-46df-8e7b-a7de193adcdf/sedu-edital-cadastramento-n-332026-fase-preliminar-processo-seletivo-casf) | Inscrições abertas | 02/04/2027 | oficial |
-| PMES | [DS/PMES EDITAL 004/2026 - Processo Seletivo para Contratação de Técnico em Farmácia - HPM](https://selecao.es.gov.br/processo-seletivo/25ac0486-8fd6-4110-a85c-0bc65fe9d362/dspmes-edital-0042026-processo-seletivo-contratacao-tecnico-farmacia-hpm) | Inscrições encerradas | 08/10/2026 | oficial |
-| PMES | [DS/PMES EDITAL 003/2026 - Processo Seletivo para Contratação de Técnico em Laboratório/Análises Clínicas-HPM](https://selecao.es.gov.br/processo-seletivo/2bb038a7-dabc-4c6b-b945-7f5e69fd2c12/dspmes-edital-0032026-processo-seletivo-contratacao-tecnico-laboratorioanalises-clinicas-hpm) | Inscrições encerradas | 08/10/2026 | oficial |
-| SESA | [SESA - EDITAL Nº 008/2026 - PROCESSO SELETIVO EMERGENCIAL - NÍVEL FUNDAMENTAL, MÉDIO E MÉDIO TÉCNICO](https://selecao.es.gov.br/processo-seletivo/79332759-9ae2-4609-9dc0-4dc030d4e281/sesa-edital-n-0082026-processo-seletivo-emergencial-nivel-fundamental-medio-medio-tecnico) | Inscrições encerradas | 06/10/2026 | oficial |
-| SESA | [SESA - EDITAL Nº 006/2026 - PROCESSO SELETIVO EMERGENCIAL - MÉDICO](https://selecao.es.gov.br/processo-seletivo/bee0d13a-1da9-4f10-abfd-728072e561a0/sesa-edital-n-0062026-processo-seletivo-emergencial-medico) | Inscrições encerradas | 06/10/2026 | oficial |
-| SESA | [SESA - EDITAL Nº 005/2026 - PROCESSO SELETIVO EMERGENCIAL  - LACEN - MÉDICO E NÍVEL SUPERIOR](https://selecao.es.gov.br/processo-seletivo/4f9a54a9-49b8-482e-9fc5-87a1f6b784fa/sesa-edital-n-0052026-processo-seletivo-emergencial-lacen-medico-nivel-superior) | Inscrições encerradas | 06/10/2026 | oficial |
-| Prefeitura de Nova Venécia | [Prefeitura de Nova Venécia](https://concursosnobrasil.com/concursos/es/2026/10/16/prefeitura-de-nova-venecia-es-abre-vagas-em-seletivo-de-nivel-superior/) | não informado | não informado | portal_concursos |
-| SAAE de Iconha | [SAAE de Iconha](https://concursosnobrasil.com/concursos/es/2026/10/15/concurso-saae-iconha-es-dispoe-de-vagas-com-salario-ate-r-32-mil/) | não informado | não informado | portal_concursos |
-| Prefeitura de Irupi | [Prefeitura de Irupi](https://concursosnobrasil.com/concursos/es/2026/10/15/prefeitura-de-irupi-es-lanca-edital-de-seletivo-para-cuidador-escolar/) | não informado | não informado | portal_concursos |
-| Prefeitura de Iúna | [Prefeitura de Iúna](https://concursosnobrasil.com/concursos/es/2026/10/15/prefeitura-de-iuna-es-oferta-iniciais-de-ate-r-39-mil-em-selecao/) | não informado | não informado | portal_concursos |
 | Santa Casa de Iúna | [Santa Casa de Iúna](https://concursosnobrasil.com/concursos/es/2026/10/15/santa-casa-de-iuna-es-abre-processo-seletivo-com-salarios-de-ate-r-35-mil/) | não informado | não informado | portal_concursos |
-| Prefeitura de Iconha | [Prefeitura de Iconha](https://concursosnobrasil.com/concursos/es/2026/10/09/concurso-prefeitura-de-iconha-es-abre-55-vagas-para-professores/) | não informado | não informado | portal_concursos |
-| Prefeitura de Montanha | [Prefeitura de Montanha](https://concursosnobrasil.com/concursos/es/2026/10/06/prefeitura-de-montanha-es-abre-edital-na-area-da-educacao-com-salarios-de-ate-r-34-mil/) | não informado | não informado | portal_concursos |
 | SEMMA de Vila Velha | [SEMMA de Vila Velha](https://concursosnobrasil.com/concursos/es/2026/10/07/semma-de-vila-velha-es-disponibiliza-vagas-de-ate-r-7-mil/) | não informado | não informado | portal_concursos |
-| CRECI ES | [CRECI ES](https://concursosnobrasil.com/concursos/es/2026/10/02/concurso-creci-es-tem-edital-publicado-com-abertura-de-vagas/) | não informado | não informado | portal_concursos |
 
 ## Cobertura por município
 
@@ -164,7 +177,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Brejetuba | 0 | — | DOM/AMUNES |
 | Cachoeiro de Itapemirim | 1 | ✓ | DOM/AMUNES |
 | Cariacica | 1 | ✓ | DOM/AMUNES |
-| Castelo | 2 | ✓ | DOM/AMUNES |
+| Castelo | 3 | ✓ | DOM/AMUNES |
 | Colatina | 0 | ✓ | DOM/AMUNES |
 | Conceição da Barra | 0 | ✓ | DOM/AMUNES |
 | Conceição do Castelo | 0 | ✓ | DOM/AMUNES |
@@ -172,22 +185,22 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Domingos Martins | 0 | ✓ | DOM/AMUNES |
 | Dores do Rio Preto | 0 | ✓ | DOM/AMUNES |
 | Ecoporanga | 0 | ✓ | DOM/AMUNES |
-| Fundão | 1 | ✓ | DOM/AMUNES |
+| Fundão | 3 | ✓ | DOM/AMUNES |
 | Governador Lindenberg | 0 | ✓ | DOM/AMUNES |
 | Guaçuí | 0 | ✓ | DOM/AMUNES |
-| Guarapari | 2 | ✓ | DOM/AMUNES |
+| Guarapari | 3 | ✓ | DOM/AMUNES |
 | Ibatiba | 0 | ✓ | DOM/AMUNES |
 | Ibiraçu | 2 | ✓ | DOM/AMUNES |
 | Ibitirama | 0 | — | DOM/AMUNES |
-| Iconha | 0 | ✓ | DOM/AMUNES |
-| Irupi | 0 | ✓ | DOM/AMUNES |
+| Iconha | 2 | ✓ | DOM/AMUNES |
+| Irupi | 1 | ✓ | DOM/AMUNES |
 | Itaguaçu | 0 | ✓ | DOM/AMUNES |
 | Itapemirim | 0 | — | DOM/AMUNES |
 | Itarana | 0 | ✓ | DOM/AMUNES |
-| Iúna | 0 | — | DOM/AMUNES |
+| Iúna | 1 | — | DOM/AMUNES |
 | Jaguaré | 0 | ✓ | DOM/AMUNES |
 | Jerônimo Monteiro | 0 | — | DOM/AMUNES |
-| João Neiva | 0 | ✓ | DOM/AMUNES |
+| João Neiva | 1 | ✓ | DOM/AMUNES |
 | Laranja da Terra | 0 | ✓ | DOM/AMUNES |
 | Linhares | 0 | ✓ | DOM/AMUNES |
 | Mantenópolis | 0 | ✓ | DOM/AMUNES |
@@ -195,11 +208,11 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Marechal Floriano | 0 | ✓ | DOM/AMUNES |
 | Marilândia | 0 | ✓ | DOM/AMUNES |
 | Mimoso do Sul | 0 | — | DOM/AMUNES |
-| Montanha | 0 | ✓ | DOM/AMUNES |
+| Montanha | 1 | ✓ | DOM/AMUNES |
 | Mucurici | 0 | ✓ | DOM/AMUNES |
 | Muniz Freire | 0 | ✓ | DOM/AMUNES |
 | Muqui | 0 | ✓ | DOM/AMUNES |
-| Nova Venécia | 0 | ✓ | DOM/AMUNES |
+| Nova Venécia | 1 | ✓ | DOM/AMUNES |
 | Pancas | 0 | ✓ | DOM/AMUNES |
 | Pedro Canário | 0 | ✓ | DOM/AMUNES |
 | Pinheiros | 0 | ✓ | DOM/AMUNES |
@@ -209,7 +222,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Rio Bananal | 0 | ✓ | DOM/AMUNES |
 | Rio Novo do Sul | 0 | ✓ | DOM/AMUNES |
 | Santa Leopoldina | 0 | ✓ | DOM/AMUNES |
-| Santa Maria de Jetibá | 1 | ✓ | DOM/AMUNES |
+| Santa Maria de Jetibá | 2 | ✓ | DOM/AMUNES |
 | Santa Teresa | 1 | ✓ | DOM/AMUNES |
 | São Domingos do Norte | 0 | ✓ | DOM/AMUNES |
 | São Gabriel da Palha | 1 | ✓ | DOM/AMUNES |
@@ -224,7 +237,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Vila Pavão | 0 | — | DOM/AMUNES |
 | Vila Valério | 0 | — | DOM/AMUNES |
 | Vila Velha | 2 | ✓ | DOM/AMUNES |
-| Vitória | 6 | ✓ | DOM/AMUNES |
+| Vitória | 13 | ✓ | DOM/AMUNES |
 
 </details>
 

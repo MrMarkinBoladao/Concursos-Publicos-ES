@@ -1,0 +1,217 @@
+{
+  "id": "ps-sesa-es-emergencial-nivel-superior-007-2026",
+  "orgao": "Secretaria de Estado da Saúde do Espírito Santo",
+  "orgao_sigla": "SESA",
+  "esfera": "estadual",
+  "municipio": "Diversos (ES) - unidades da rede SESA em 10 municípios",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Contador",
+      "area": "Contábil",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Diploma de curso superior em Ciências Contábeis por instituição reconhecida pelo MEC; registro no conselho; domínio do Pacote Office. Experiência para pontuação no cargo ou no CBO 2522-10. Lotação: HINSG (Vitória), HEAC (Cariacica), SRSC e HJSN (região Central), UIJM (Jerônimo Monteiro) e HDAMF (Barra de São Francisco)",
+      "remuneracao": "R$ 5.813,49",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Enfermeiro I",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Diploma de curso superior em Enfermagem por instituição reconhecida pelo MEC; registro no conselho; domínio do Pacote Office; 6 meses de experiência no cargo. Lotação: HJSN (Baixo Guandu)",
+      "remuneracao": "R$ 5.813,49",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Enfermeiro II",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Diploma de curso superior em Enfermagem por instituição reconhecida pelo MEC; registro no conselho; domínio do Pacote Office; 6 meses de experiência no cargo em Pediatria, em unidade hospitalar ou de pronto atendimento pediátrico. Lotação: HRAS (São Mateus)",
+      "remuneracao": "R$ 5.813,49",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Farmacêutico I",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Diploma de curso superior em Farmácia por instituição reconhecida pelo MEC; registro no conselho; domínio do Pacote Office. Experiência para pontuação em aquisição, controle e/ou dispensação de medicamentos. Lotação: HEAC (Cariacica), SRSSM (São Mateus) e HDAMF (Barra de São Francisco)",
+      "remuneracao": "R$ 5.813,49",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Farmacêutico II",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Diploma de curso superior em Farmácia por instituição reconhecida pelo MEC; registro no conselho; domínio do Pacote Office; título de especialista em Oncologia (Sobrafo), residência em Oncologia ou pós-graduação em farmácia oncológica. Lotação: HINSG (Vitória)",
+      "remuneracao": "R$ 5.813,49",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Fisioterapeuta",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Diploma de curso superior em Fisioterapia por instituição reconhecida pelo MEC; registro no conselho; domínio do Pacote Office. Lotação: HJSN (Baixo Guandu) e UIJM (Jerônimo Monteiro)",
+      "remuneracao": "R$ 4.360,11 (Retificação PSE 001/2026; o edital original trazia R$ 5.813,49)",
+      "jornada": "30 horas semanais (Retificação PSE 001/2026; o edital original trazia 40 horas)"
+    },
+    {
+      "nome": "Fonoaudiólogo",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Diploma de curso superior em Fonoaudiologia por instituição reconhecida pelo MEC; registro no conselho; domínio do Pacote Office. Lotação: Central Administrativa e HINSG (Vitória), HEAC (Cariacica), HESVV (Vila Velha), HSJC (São José do Calçado), UIJM (Jerônimo Monteiro), HRAS (São Mateus) e HDAMF (Barra de São Francisco)",
+      "remuneracao": "R$ 5.813,49",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Odontólogo Cirurgião Bucomaxilofacial",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Diploma de curso superior em Odontologia por instituição reconhecida pelo MEC, com especialização em Cirurgia e Traumatologia Bucomaxilofacial; registro no conselho; domínio do Pacote Office. Lotação: HRAS (São Mateus)",
+      "remuneracao": "R$ 3.488,09",
+      "jornada": "24 horas semanais"
+    },
+    {
+      "nome": "Técnico de Nível Superior (Análises Clínicas)",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Diploma de Farmácia Bioquímica, de Farmácia (Resolução CNE/CES 02/2002) ou de Biomedicina, por instituição reconhecida pelo MEC; registro no conselho; domínio do Pacote Office. Lotação: HEMOESC (Colatina) e HSJC (São José do Calçado)",
+      "remuneracao": "R$ 5.813,49",
+      "jornada": "40 horas semanais"
+    },
+    {
+      "nome": "Terapeuta Ocupacional",
+      "area": "Saúde",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior",
+      "requisitos": "Diploma de curso superior em Terapia Ocupacional por instituição reconhecida pelo MEC; registro no conselho; domínio do Pacote Office. Lotação: HEAC (Cariacica), HESVV (Vila Velha), HJSN (Baixo Guandu) e CAPAAC e SRSCI (Cachoeiro de Itapemirim)",
+      "remuneracao": "R$ 4.360,11",
+      "jornada": "30 horas semanais"
+    }
+  ],
+  "vagas_imediatas_total": 0,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior",
+  "remuneracao": {
+    "minima": 3488.09,
+    "maxima": 5813.49,
+    "descricao": "Subsídio de R$ 3.488,09 (Odontólogo Bucomaxilofacial, 24 horas) a R$ 5.813,49 (40 horas), conforme o cargo; R$ 4.360,11 para 30 horas"
+  },
+  "beneficios": [],
+  "jornada": "24, 30 ou 40 horas semanais, conforme o cargo",
+  "edital_numero": "Edital de Processo Seletivo Emergencial SESA nº 007/2026",
+  "publicacao": "2026-09-25",
+  "inscricoes": {
+    "inicio": "2026-09-29",
+    "fim": "2026-10-06",
+    "taxa": "não informado",
+    "local": "https://selecao.es.gov.br/",
+    "isencao": "não informado",
+    "observacao": "Inscrições exclusivamente pelo portal Seleção ES, das 10h de 29/09/2026 às 10h de 06/10/2026 (horário de Brasília). Uma inscrição por CPF, com escolha de cargo e unidade (Anexo I). Experiência mínima exigida no requisito é condição para se inscrever."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "1ª etapa - inscrição, com classificação pelos títulos e pela experiência declarados (classificatória)",
+      "2ª etapa - comprovação do requisito, da qualificação e da experiência profissional, por envio eletrônico quando convocado (eliminatória e classificatória)",
+      "3ª etapa - formalização do contrato, com ASO e documentos originais, quando convocado"
+    ],
+    "observacao": "Sem prova. Classificação divulgada só no portal Seleção ES. Desempate: maior soma de qualificação profissional declarada, maior experiência e maior idade. Recurso só contra o indeferimento na 2ª etapa, em 24 horas. Publicações posteriores no portal: classificações geral, PcD, negros e indígenas (07/10), convocação da 2ª etapa nº 01 (07/10), resultado da 2ª etapa nº 01 (13/10) e 1ª convocação para formalização de contrato (16/10/2026)."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "6 meses (edital); contratos de 12 meses, prorrogáveis por mais 12",
+  "links": {
+    "edital": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32203",
+    "pagina_oficial": "https://selecao.es.gov.br/processo-seletivo/0750eabe-ff43-4e7b-ba09-59db56c54864/sesa-edital-n-0072026-processo-seletivo-emergencial-nivel-superior",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Portal Seleção ES - SESA - Edital nº 007/2026 - Processo Seletivo Emergencial - Nível Superior",
+      "url": "https://selecao.es.gov.br/processo-seletivo/0750eabe-ff43-4e7b-ba09-59db56c54864/sesa-edital-n-0072026-processo-seletivo-emergencial-nivel-superior",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Edital de Processo Seletivo Emergencial SESA nº 007/2026 (PDF, 14 páginas)",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32203",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Retificação PSE nº 001/2026 ao Edital SESA nº 007/2026 (Fisioterapeuta), de 29/09/2026",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32237",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Errata nº 001/2026 comum aos Editais SESA nº 005, 006, 007 e 008/2026 (laudo de PcD), de 29/09/2026",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32227",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Extrato dos Editais de Processos Seletivos Emergenciais SESA nº 005 a 008/2026 - DIO/ES de 25/09/2026, p. 20 (PDF disponibilizado no portal Seleção ES)",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32207",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Processo seletivo SESA (ES) abre quatro editais com salários de até R$ 12,6 mil",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/09/30/processo-seletivo-sesa-es-abre-quatro-editais-com-salarios-de-ate-r-126-mil/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-25",
+      "status": "edital_publicado",
+      "observacao": "Extrato dos Editais SESA nº 005 a 008/2026 publicado no DIO/ES (p. 20), com edital íntegro anunciado para 28/09/2026."
+    },
+    {
+      "data": "2026-09-29",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições às 10h, pelo portal Seleção ES."
+    },
+    {
+      "data": "2026-09-29",
+      "status": "inscricoes_abertas",
+      "observacao": "Retificação PSE nº 001/2026: Fisioterapeuta passa a R$ 4.360,11 para 30 horas semanais (era R$ 5.813,49 para 40 horas)."
+    },
+    {
+      "data": "2026-10-06",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 10h, pelo portal Seleção ES."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, a partir do edital íntegro, das erratas/retificações e do extrato no DIO/ES. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "RETIFICAÇÃO: a Retificação PSE nº 001/2026 (29/09/2026) mudou o cargo de Fisioterapeuta de R$ 5.813,49/40h para R$ 4.360,11/30h; adotado o valor retificado. Qualificação profissional até 8 pontos (doutorado 3, mestrado 2, especialização 1,5 até 2 títulos) e experiência até 10 pontos (Anexo II). ATENÇÃO à sigla: este é o Edital nº 007/2026 da Secretaria de ESTADO da Saúde; não confundir com o Processo Seletivo nº 007/2026 da Secretaria Municipal de Saúde da Serra (ps-serra-es-sesa-007-2026), que também usa a sigla SESA — o coletor havia casado este achado com aquele registro pelo número do edital, e por isso ele não aparecia na fila de curadoria. Seleção emergencial exclusivamente para cadastro de reserva (item 1.1), daí vagas_imediatas_total = 0: serve só às unidades da SESA cujo cadastro do Edital SESA nº 003/2026 esteja esgotado ou a esgotar. Contratação em designação temporária (Lei Complementar nº 809/2015), contratos de 12 meses prorrogáveis por mais 12. Reserva de 10% para PcD (Lei Estadual nº 12.009/2023), 20% para pessoas pretas ou pardas e 5% para indígenas (Lei Estadual nº 12.010/2023). A Errata nº 001/2026, comum aos quatro editais emergenciais (005 a 008/2026), só altera a regra de validade do laudo de PcD (laudos de deficiência permanente, inclusive TEA, sem prazo de atualização). DATAS: o extrato saiu no DIO/ES de 25/09/2026 (adotado como publicação); o edital íntegro, assinado em 28/09/2026, foi disponibilizado no portal Seleção ES em 27-28/09. Taxa de inscrição não mencionada no edital. O portal Concursos no Brasil trata os quatro editais em uma só matéria; o coletor havia casado essa matéria, por nome de órgão, com o concurso autorizado concurso-sesa-es-2026, o que a escondia da fila de curadoria."
+}

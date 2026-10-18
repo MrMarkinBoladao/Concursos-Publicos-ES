@@ -1,0 +1,140 @@
+{
+  "id": "ps-fundao-es-semad-003-2026",
+  "orgao": "Prefeitura Municipal de Fundão - Secretaria Municipal de Administração (SEMAD)",
+  "orgao_sigla": "PMF/SEMAD",
+  "esfera": "municipal",
+  "municipio": "Fundão",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Guarda-Parque",
+      "area": "Meio ambiente",
+      "vagas_imediatas": 4,
+      "cadastro_reserva": null,
+      "escolaridade": "nível médio completo",
+      "requisitos": "Ensino médio completo; idade mínima de 18 anos na contratação e inferior a 60 anos; atestado de saúde ocupacional (ASO) assinado por médico do trabalho atestando aptidão física e mental; atuação no Parque Municipal do Goiapaba-Açu",
+      "remuneracao": "Salário-base de R$ 1.673,60 (nível 6), mais adicional noturno e periculosidade",
+      "jornada": "Escala 12x36 (200 horas mensais, conforme a Lei Municipal nº 1.674/2026)"
+    }
+  ],
+  "vagas_imediatas_total": 4,
+  "cadastro_reserva": null,
+  "escolaridade": "nível médio completo",
+  "remuneracao": {
+    "minima": 1673.6,
+    "maxima": 1673.6,
+    "descricao": "Salário-base de R$ 1.673,60 (nível 6), acrescido de adicional noturno e periculosidade"
+  },
+  "beneficios": [
+    "Adicional noturno",
+    "Periculosidade",
+    "Vale-transporte nos moldes do servidor público municipal (Lei Municipal nº 1.674/2026)",
+    "Ticket-alimentação (Lei Municipal nº 1.674/2026; valor não informado)"
+  ],
+  "jornada": "Escala 12x36",
+  "edital_numero": "Edital SEMAD nº 003/2026",
+  "publicacao": "2026-09-30",
+  "inscricoes": {
+    "inicio": "2026-10-01",
+    "fim": "2026-10-05",
+    "taxa": "não informado",
+    "local": "Secretaria Municipal de Administração, Rua São José, nº 135, Centro, Fundão/ES (presencial)",
+    "isencao": "não informado",
+    "observacao": "Entrega presencial de envelope lacrado com a documentação e a ficha de inscrição (Anexo II) colada na parte externa, das 8h às 11h e das 13h às 15h; abertura às 8h de 01/10/2026 e encerramento às 15h de 05/10/2026."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "Análise de títulos: experiência profissional em vigilância, bombeiro civil ou atividades afins (2,5 pontos por mês, até 32 meses = 80 pontos) e cursos avulsos correlatos com mais de 5 horas (10 pontos por curso, até 2 cursos = 20 pontos); total máximo de 100 pontos"
+    ],
+    "observacao": "Sem prova objetiva. Cronograma (Anexo I): impugnação em 01/10/2026; classificação parcial e recurso em 06/10/2026; resultado do recurso e homologação da classificação final previstos para 07/10/2026. A homologação saiu pelo Decreto nº 1.404/2026, publicado no DOM/ES de 13/10/2026, com 6 classificados. Convocações: 1º ao 4º classificados para 09/10/2026 (DOM/ES de 09/10) e 5º classificado para 14/10/2026 (DOM/ES de 14/10). Desempate: maior tempo de experiência, maior pontuação em títulos e maior idade."
+  },
+  "banca": "não informado",
+  "status": "homologado",
+  "regime": "designacao_temporaria",
+  "validade": "12 meses a contar da homologação do resultado final, prorrogável por igual período",
+  "links": {
+    "edital": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11513/185",
+    "pagina_oficial": "https://www.fundao.es.gov.br/selecao",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "DOM/ES nº 3.098 (30/09/2026) - Lei Municipal nº 1.674/2026, que autoriza a contratação de 4 Guardas-Parque, págs. 171 e 172",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11513/171",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "DOM/ES nº 3.098 (30/09/2026) - Edital SEMAD nº 003/2026, Processo Seletivo Simplificado para Guarda-Parque, págs. 185 a 190",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11513/185",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "DOM/ES nº 3.105 (09/10/2026) - Edital de convocação do 1º ao 4º classificados (Edital/SEMAD nº 003/2026), págs. 166 e 167",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11540/166",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "DOM/ES nº 3.106 (13/10/2026) - Decreto nº 1.404/2026, homologação do resultado final do Edital 003/2026, págs. 155 e 156",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/155",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "DOM/ES nº 3.107 (14/10/2026) - Edital de convocação do 5º classificado (Edital/SEMAD nº 003/2026), págs. 113 e 114",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11550/113",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Concursos no Brasil - Prefeitura de Fundão (ES) abre vagas em novo edital de seletivo",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/09/30/prefeitura-de-fundao-es-abre-vagas-em-novo-edital-de-seletivo/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-30",
+      "status": "edital_publicado",
+      "observacao": "Publicação do Edital SEMAD nº 003/2026 no DOM/ES nº 3.098 (págs. 185 a 190), junto com a Lei Municipal nº 1.674/2026 e o Decreto nº 1.320/2026, que nomeia a comissão."
+    },
+    {
+      "data": "2026-10-01",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições presenciais às 8h na SEMAD."
+    },
+    {
+      "data": "2026-10-05",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 15h."
+    },
+    {
+      "data": "2026-10-09",
+      "status": "inscricoes_encerradas",
+      "observacao": "Convocação do 1º ao 4º classificados para formalização do contrato em 09/10/2026 (DOM/ES nº 3.105, págs. 166 e 167)."
+    },
+    {
+      "data": "2026-10-13",
+      "status": "homologado",
+      "observacao": "Homologação do resultado final pelo Decreto nº 1.404/2026, publicado no DOM/ES nº 3.106 (págs. 155 e 156), com 6 candidatos classificados."
+    },
+    {
+      "data": "2026-10-14",
+      "status": "homologado",
+      "observacao": "Convocação do 5º classificado para 14/10/2026 (DOM/ES nº 3.107, págs. 113 e 114)."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "homologado",
+      "observacao": "Primeiro registro no repositório, a partir do edital e dos atos de convocação e homologação publicados no DOM/ES. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "Edital DIFERENTE do SEMAD nº 002/2026 (ps-fundao-es-semad-002-2026, cadastro de reserva para Técnico de Segurança do Trabalho, Contador, Trabalhador Braçal e Agente Operacional de Ordenamento): este é o SEMAD nº 003/2026, só para Guarda-Parque, com 4 vagas autorizadas pela Lei Municipal nº 1.674/2026 para o Parque Municipal do Goiapaba-Açu, a serviço da Secretaria Municipal de Meio Ambiente. As 4 vagas e o salário-base de R$ 1.673,60 informados pelo portal Concursos no Brasil conferem com o item 2.1 do edital. O edital não menciona cadastro de reserva (cadastro_reserva = null), mas a classificação final tem 6 nomes e o 5º colocado foi convocado em 14/10/2026, o que indica que ao menos um dos 4 primeiros não assumiu (motivo não publicado). INCONSISTÊNCIAS NOS ATOS OFICIAIS: o Decreto nº 1.404/2026 de homologação traz assinatura em '23 de setembro de 2026', data anterior à própria publicação do edital (30/09) — provável erro material; foi publicado no DOM/ES de 13/10/2026, embora o cronograma previsse homologação em 07/10. Os editais de convocação de 09/10 e 14/10 têm no título 'Edital nº 003/2023', mas a referência interna é ao Edital/SEMAD nº 003/2026. O edital não menciona taxa de inscrição. Validade de 12 meses (o edital e o decreto contam da homologação). Na verificação de 17/10/2026 a página de detalhes deste edital no portal de seleção da Prefeitura (indicada pela matéria do Concursos no Brasil) respondeu HTTP 403 a cliente de script e à ferramenta de leitura; o PDF do edital no site não pôde ser baixado e o registro se apoia integralmente no DOM/ES."
+}

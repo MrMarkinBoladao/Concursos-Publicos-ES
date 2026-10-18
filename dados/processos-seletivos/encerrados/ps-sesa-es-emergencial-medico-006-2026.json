@@ -1,0 +1,570 @@
+{
+  "id": "ps-sesa-es-emergencial-medico-006-2026",
+  "orgao": "Secretaria de Estado da Saúde do Espírito Santo",
+  "orgao_sigla": "SESA",
+  "esfera": "estadual",
+  "municipio": "Diversos (ES) - unidades da rede SESA em 9 municípios",
+  "uf": "ES",
+  "tipo": "processo_seletivo_simplificado",
+  "cargos": [
+    {
+      "nome": "Médico I",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office. Lotação: HRAS (São Mateus)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico II",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência em Clínica Médica, Medicina Intensiva, Pediatria ou Pneumologia com área de atuação em Toxicologia Médica, ou título de especialista em Toxicologia Médica (AMB) com RQE, ou 6 meses de experiência em Centro de Informação e Assistência Toxicológica (CIATox). Lotação: Central Administrativa (Vitória)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Alergista e Imunologista",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Alergia e Imunologia reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: SRSSM (São Mateus)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Alergista e Imunologista Pediátrico",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Alergia e Imunologia ou Pediatria reconhecida pelo MEC ou título de especialista da AMB, e certificado de área de atuação em Alergia e Imunologia Pediátrica, com RQE. Lotação: HINSG (Vitória)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Anestesista",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Anestesiologia reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: UIJM (Jerônimo Monteiro)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Cardiologista I",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Cardiologia reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: SRSV (Cariacica), HSJC (São José do Calçado) e HRAS (São Mateus)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Cardiologista II",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência em Cardiologia com área de atuação em Ecocardiografia ou título de especialista em Ecocardiografia (AMB), com RQE. Lotação: SRSV (Cariacica)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Cardiologista Pediátrico",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Cardiologia ou Pediatria reconhecida pelo MEC ou título de especialista da AMB, e certificado de área de atuação em Cardiologia Pediátrica, com RQE. Lotação: HINSG (Vitória)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Cirurgião Geral",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Cirurgia Geral reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: UIJM (Jerônimo Monteiro)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Cirurgião Vascular",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Cirurgia Vascular reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: HESVV (Vila Velha), UIJM (Jerônimo Monteiro) e SRSCI (Cachoeiro de Itapemirim)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Clínica Médica",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Clínica Médica reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: HEAC (Cariacica), HESVV (Vila Velha), UIJM (Jerônimo Monteiro) e HRAS (São Mateus)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Dermatologista",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Dermatologia reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: SRSSM (São Mateus)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico do Trabalho",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Medicina do Trabalho reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: HEAC (Cariacica) e HRAS (São Mateus)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Endocrinologista Pediátrico",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Endocrinologia e Metabologia ou Pediatria reconhecida pelo MEC ou título de especialista da AMB, e certificado de área de atuação em Endocrinologia Pediátrica, com RQE. Lotação: HINSG (Vitória)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Gastroenterologista II",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência em Gastroenterologia com área de atuação em Endoscopia Digestiva ou título de especialista em Endoscopia Digestiva (AMB), com RQE. Lotação: HESVV (Vila Velha)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Gastroenterologista Pediátrico",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Gastroenterologia ou Pediatria reconhecida pelo MEC ou título de especialista da AMB, e certificado de área de atuação em Gastroenterologia Pediátrica, com RQE. Lotação: HINSG (Vitória)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Geriatra",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Geriatria reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: SRSSM (São Mateus)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Ginecologista e Obstetra",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Ginecologia e Obstetrícia reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: Central Administrativa (Vitória)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Hematologista e Hemoterapeuta",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Hematologia e Hemoterapia reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: HEMOES (Vitória), HESVV (Vila Velha), HSJC (São José do Calçado) e SRSCI (Cachoeiro de Itapemirim)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Homeopata",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Homeopatia reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: SRSV (Cariacica)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Infectologista",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Infectologia reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: Central Administrativa (Vitória)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Infectologista Pediátrico",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Infectologia ou Pediatria reconhecida pelo MEC ou título de especialista da AMB, e certificado de área de atuação em Infectologia Pediátrica, com RQE. Lotação: HINSG (Vitória)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Intensivista Pediátrico",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Medicina Intensiva ou Pediatria reconhecida pelo MEC ou título de especialista da AMB, e certificado de área de atuação em Medicina Intensiva Pediátrica, com RQE. Lotação: HINSG (Vitória)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Nefrologista",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Nefrologia reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: Central Administrativa (Vitória), SRSV (Cariacica), SRSCI (Cachoeiro de Itapemirim) e HRAS e SRSSM (São Mateus)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Nefrologista Pediátrico",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Nefrologia ou Pediatria reconhecida pelo MEC ou título de especialista da AMB, e certificado de área de atuação em Nefrologia Pediátrica, com RQE. Lotação: HINSG (Vitória)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Neurologista I",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Neurologia reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: SRSSM (São Mateus)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Neurologista Pediátrico",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Neurologia ou Pediatria reconhecida pelo MEC ou título de especialista da AMB, e certificado de área de atuação em Neurologia Pediátrica, com RQE. Lotação: HINSG (Vitória) e SRSSM (São Mateus)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Oncologista Pediátrico",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Oncologia Clínica ou Pediatria reconhecida pelo MEC ou título de especialista da AMB, e certificado de área de atuação em Oncologia Pediátrica, com RQE. Lotação: HINSG (Vitória)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Ortopedista e Traumatologista I",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Ortopedia e Traumatologia reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: SRSV (Cariacica) e SRSSM e HRAS (São Mateus)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Ortopedista e Traumatologista III (Cirurgia de Mão)",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Cirurgia de Mão reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: HESVV (Vila Velha)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Otorrinolaringologista",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Otorrinolaringologia reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: HINSG (Vitória), HESVV (Vila Velha), SRSV (Cariacica) e HSJC (São José do Calçado)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Patologista",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Patologia reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: Central Administrativa e HINSG (Vitória)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Pediatra",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Pediatria reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: HINSG (Vitória)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Pneumologista",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Pneumologia reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: SRSV (Cariacica), SRSSM (São Mateus) e HDAMF (Barra de São Francisco)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Pneumologista Pediátrico",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Pneumologia ou Pediatria reconhecida pelo MEC ou título de especialista da AMB, e certificado de área de atuação em Pneumologia Pediátrica, com RQE. Lotação: HINSG (Vitória)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Proctologista",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Proctologia reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: SRSV (Cariacica) e HRAS (São Mateus)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Psiquiatra",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Psiquiatria reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: Central Administrativa (Vitória), HEAC e SRSV (Cariacica), CAPAAC e SRSCI (Cachoeiro de Itapemirim) e SRSC (Colatina)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Psiquiatra da Infância e Adolescência",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Psiquiatria ou Pediatria reconhecida pelo MEC ou título de especialista da AMB, e certificado de área de atuação em Psiquiatria da Infância e Adolescência, com RQE. Lotação: HINSG (Vitória)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Radiologista e Diagnóstico por Imagem II",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência em Radiologia e Diagnóstico por Imagem ou título de especialista em Diagnóstico por Imagem (AMB), com RQE e área de atuação em ultrassonografia geral, transfontanela, de partes moles, articular e de superfícies, doppler e ultrassom obstétrico e ginecológico. Lotação: UIJM (Jerônimo Monteiro)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Regulador",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina devidamente registrado e certificado de residência médica em qualquer especialidade, por instituição reconhecida pelo MEC, com registro no CRM (redação da Retificação PSE 002/2026; o edital original exigia residência em Clínica Médica, Medicina Intensiva, Medicina de Emergência, Pediatria, Cardiologia ou Cirurgia Geral, ou 6 meses de experiência em regulação de leitos). Lotação: Central Administrativa (Vitória), SRSC (Colatina) e SRSSM (São Mateus)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Reumatologista",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Reumatologia reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: SRSV (Cariacica) e SRSSM (São Mateus)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Reumatologista Pediátrico",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Reumatologia ou Pediatria reconhecida pelo MEC ou título de especialista da AMB, e certificado de área de atuação em Reumatologia Pediátrica, com RQE. Lotação: HINSG (Vitória)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Socorrista",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência em Medicina de Emergência reconhecida pelo MEC ou 6 meses de experiência em pronto-socorro, urgência e emergência (UPA/PA). Lotação: HEAC (Cariacica), HRAS (São Mateus) e HDAMF (Barra de São Francisco)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    },
+    {
+      "nome": "Médico Urologista",
+      "area": "Saúde - medicina",
+      "vagas_imediatas": 0,
+      "cadastro_reserva": true,
+      "escolaridade": "nível superior (Medicina)",
+      "requisitos": "Diploma de Medicina por instituição reconhecida pelo MEC; registro no CRM; domínio do Pacote Office; residência médica em Urologia reconhecida pelo MEC ou título de especialista expedido pela AMB, com registro de qualificação de especialista (RQE). Lotação: SRSV (Cariacica), HSJC (São José do Calçado) e HDAMF (Barra de São Francisco)",
+      "remuneracao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00, conforme a carga horária definida pela Administração",
+      "jornada": "20, 24 ou 40 horas semanais, a critério da Administração"
+    }
+  ],
+  "vagas_imediatas_total": 0,
+  "cadastro_reserva": true,
+  "escolaridade": "nível superior (Medicina)",
+  "remuneracao": {
+    "minima": 6344.96,
+    "maxima": 12689.93,
+    "descricao": "R$ 6.344,96 (20h), R$ 7.613,95 (24h) ou R$ 12.689,93 (40h), conforme a carga horária definida pela Administração, mais auxílio-alimentação de R$ 400,00, R$ 480,00 ou R$ 800,00"
+  },
+  "beneficios": [
+    "Auxílio-alimentação de R$ 400,00 (20h), R$ 480,00 (24h) ou R$ 800,00 (40h)"
+  ],
+  "jornada": "20, 24 ou 40 horas semanais, a critério da Administração",
+  "edital_numero": "Edital de Processo Seletivo Emergencial SESA nº 006/2026",
+  "publicacao": "2026-09-25",
+  "inscricoes": {
+    "inicio": "2026-09-29",
+    "fim": "2026-10-06",
+    "taxa": "não informado",
+    "local": "https://selecao.es.gov.br/",
+    "isencao": "não informado",
+    "observacao": "Inscrições exclusivamente pelo portal Seleção ES, das 10h de 29/09/2026 às 10h de 06/10/2026 (horário de Brasília). Até 2 inscrições por CPF, com escolha de cargo e unidade (Anexo I). Experiência mínima exigida no requisito é condição para se inscrever."
+  },
+  "prova": {
+    "objetiva": null,
+    "outras_etapas": [
+      "1ª etapa - inscrição, com classificação pelos títulos e pela experiência declarados (classificatória)",
+      "2ª etapa - comprovação do requisito, da qualificação e da experiência profissional, por envio eletrônico quando convocado (eliminatória e classificatória)",
+      "3ª etapa - formalização do contrato, com ASO e documentos originais, quando convocado"
+    ],
+    "observacao": "Sem prova. Classificação divulgada só no portal Seleção ES. Desempate: maior soma de qualificação profissional declarada, maior experiência e maior idade. Recurso só contra o indeferimento na 2ª etapa, em 24 horas. Publicações posteriores no portal: classificações geral, PcD e negros (06/10), convocações da 2ª etapa nº 01 (07/10) e nº 02 (13/10), resultados (13/10 e 16/10) e 1ª convocação para formalização de contrato (15/10/2026)."
+  },
+  "banca": "não informado",
+  "status": "inscricoes_encerradas",
+  "regime": "designacao_temporaria",
+  "validade": "6 meses (edital); contratos de 12 meses, prorrogáveis por mais 12",
+  "links": {
+    "edital": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32205",
+    "pagina_oficial": "https://selecao.es.gov.br/processo-seletivo/bee0d13a-1da9-4f10-abfd-728072e561a0/sesa-edital-n-0062026-processo-seletivo-emergencial-medico",
+    "banca": "não informado"
+  },
+  "fontes": [
+    {
+      "titulo": "Portal Seleção ES - SESA - Edital nº 006/2026 - Processo Seletivo Emergencial - Médico",
+      "url": "https://selecao.es.gov.br/processo-seletivo/bee0d13a-1da9-4f10-abfd-728072e561a0/sesa-edital-n-0062026-processo-seletivo-emergencial-medico",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Edital de Processo Seletivo Emergencial SESA nº 006/2026 (PDF, 17 páginas)",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32205",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Errata PSE nº 02/2026 ao Edital SESA nº 006/2026 (exclui Médico Supervisor), de 29/09/2026",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32231",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Retificação PSE nº 002/2026 ao Edital SESA nº 006/2026 (requisito de Médico Regulador), de 30/09/2026",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32255",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Errata nº 001/2026 comum aos Editais SESA nº 005, 006, 007 e 008/2026 (laudo de PcD), de 29/09/2026",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32227",
+      "tipo": "oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Extrato dos Editais de Processos Seletivos Emergenciais SESA nº 005 a 008/2026 - DIO/ES de 25/09/2026, p. 20 (PDF disponibilizado no portal Seleção ES)",
+      "url": "https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32207",
+      "tipo": "diario_oficial",
+      "consultado_em": "2026-10-17"
+    },
+    {
+      "titulo": "Processo seletivo SESA (ES) abre quatro editais com salários de até R$ 12,6 mil",
+      "url": "https://concursosnobrasil.com/concursos/es/2026/09/30/processo-seletivo-sesa-es-abre-quatro-editais-com-salarios-de-ate-r-126-mil/",
+      "tipo": "portal_concursos",
+      "consultado_em": "2026-10-17"
+    }
+  ],
+  "historico_status": [
+    {
+      "data": "2026-09-25",
+      "status": "edital_publicado",
+      "observacao": "Extrato dos Editais SESA nº 005 a 008/2026 publicado no DIO/ES (p. 20), com edital íntegro anunciado para 28/09/2026."
+    },
+    {
+      "data": "2026-09-29",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura das inscrições às 10h, pelo portal Seleção ES."
+    },
+    {
+      "data": "2026-09-29",
+      "status": "inscricoes_abertas",
+      "observacao": "Errata PSE nº 02/2026 exclui do Anexo I o cargo de Médico Supervisor."
+    },
+    {
+      "data": "2026-09-30",
+      "status": "inscricoes_abertas",
+      "observacao": "Retificação PSE nº 002/2026 passa a exigir, para Médico Regulador, residência médica em qualquer especialidade."
+    },
+    {
+      "data": "2026-10-06",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento das inscrições às 10h, pelo portal Seleção ES."
+    },
+    {
+      "data": "2026-10-17",
+      "status": "inscricoes_encerradas",
+      "observacao": "Primeiro registro no repositório, a partir do edital íntegro, das erratas/retificações e do extrato no DIO/ES. Achado promovido da quarentena de descobertas."
+    }
+  ],
+  "ultima_verificacao": "2026-10-17",
+  "ultima_atualizacao": "2026-10-17",
+  "observacoes": "ALTERAÇÕES durante as inscrições: a Errata PSE nº 02/2026 (29/09) EXCLUIU o cargo de Médico Supervisor, que não consta deste registro; a Retificação PSE nº 002/2026 (30/09) trocou o requisito de Médico Regulador por residência médica em qualquer especialidade, alinhando-o ao concurso público da SESA. 44 especialidades médicas, todas só cadastro de reserva. Diferente dos demais editais emergenciais, aceita até 2 inscrições por CPF. A remuneração é por carga horária (20, 24 ou 40 horas), definida pela Administração, e não por cargo. A experiência pontua só se integralmente no cargo de médico. Seleção emergencial exclusivamente para cadastro de reserva (item 1.1), daí vagas_imediatas_total = 0: serve só às unidades da SESA cujo cadastro do Edital SESA nº 002/2026 esteja esgotado ou a esgotar. Contratação em designação temporária (Lei Complementar nº 809/2015), contratos de 12 meses prorrogáveis por mais 12. Reserva de 10% para PcD (Lei Estadual nº 12.009/2023), 20% para pessoas pretas ou pardas e 5% para indígenas (Lei Estadual nº 12.010/2023). A Errata nº 001/2026, comum aos quatro editais emergenciais (005 a 008/2026), só altera a regra de validade do laudo de PcD (laudos de deficiência permanente, inclusive TEA, sem prazo de atualização). DATAS: o extrato saiu no DIO/ES de 25/09/2026 (adotado como publicação); o edital íntegro, assinado em 28/09/2026, foi disponibilizado no portal Seleção ES em 27-28/09. Taxa de inscrição não mencionada no edital. O portal Concursos no Brasil trata os quatro editais em uma só matéria; o coletor havia casado essa matéria, por nome de órgão, com o concurso autorizado concurso-sesa-es-2026, o que a escondia da fila de curadoria."
+}
