@@ -48,7 +48,7 @@
     "observacao": "Cronograma do Anexo I, em dias úteis: publicação dos inscritos de 04 a 06/11/2026; recurso contra a não homologação em 09 e 10/11; relação final de inscritos de 18 a 23/11; análise dos currículos de 24 a 26/11; resultado preliminar de 27/11 a 01/12; recurso em 02 e 03/12; julgamento e desempate em 09 e 10/12; classificação final, homologação e edital de classificação geral de 11 a 15/12/2026. A seleção é conduzida por comissão de 5 servidores designada pelo Decreto nº 650/2026."
   },
   "banca": "não informado",
-  "status": "edital_publicado",
+  "status": "inscricoes_abertas",
   "regime": "designacao_temporaria",
   "validade": "Até 23/12/2027, prorrogável por 1 ano (item 13.13)",
   "links": {
@@ -86,6 +86,11 @@
       "data": "2026-10-17",
       "status": "edital_publicado",
       "observacao": "Primeiro registro no repositório, a partir do edital oficial em PDF publicado no site da Prefeitura. Achado promovido da quarentena de descobertas."
+    },
+    {
+      "data": "2026-10-19",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura registrada automaticamente em 19/10/2026 pela data de início das inscrições (19/10/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se a abertura não foi adiada."
     }
   ],
   "ultima_verificacao": "2026-10-17",
