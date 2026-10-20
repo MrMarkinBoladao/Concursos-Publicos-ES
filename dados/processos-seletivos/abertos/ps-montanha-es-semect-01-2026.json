@@ -209,7 +209,7 @@
     "observacao": "Sem prova objetiva. Cronograma (Anexo V): resultado das inscrições e classificação em 30/10/2026; recurso em 03/11/2026, pelo próprio site de inscrição; resultado final em 09/11/2026; chamada e contratação a partir de 16/11/2026, por e-mail; apresentação no local de trabalho em 01/02/2027."
   },
   "banca": "não informado",
-  "status": "edital_publicado",
+  "status": "inscricoes_abertas",
   "regime": "designacao_temporaria",
   "validade": "Até o fim do ano letivo de 2027, prorrogável por até 12 meses; contratos de 1º/02/2027 a 31/12/2027, prorrogáveis conforme a necessidade",
   "links": {
@@ -264,6 +264,11 @@
       "data": "2026-10-17",
       "status": "edital_publicado",
       "observacao": "Primeiro registro no repositório, a partir do edital publicado no DOM/ES e da página oficial com a retificação. Achado promovido da quarentena de descobertas."
+    },
+    {
+      "data": "2026-10-20",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura registrada automaticamente em 20/10/2026 pela data de início das inscrições (20/10/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se a abertura não foi adiada."
     }
   ],
   "ultima_verificacao": "2026-10-17",
