@@ -70,7 +70,7 @@
     "observacao": "Prova objetiva com 50 questões (Língua Portuguesa 10, Raciocínio Lógico 5, Legislação e Ética na Administração Pública 5, Conhecimentos Específicos 30), total de 100 pontos. Eliminação com menos de 50% do total ou nota zero em qualquer disciplina. Redação dissertativa de 20 a 30 linhas, máximo 20 pontos, aprovação com no mínimo 10 pontos. Duração total: 4 horas, em Vitória/ES. Resultado final previsto para 24/03/2027."
   },
   "banca": "IBADE - Instituto Brasileiro de Apoio e Desenvolvimento Executivo",
-  "status": "inscricoes_abertas",
+  "status": "inscricoes_encerradas",
   "regime": "clt",
   "validade": "2 anos a contar da publicação da homologação do resultado final, prorrogável uma vez por igual período",
   "links": {
@@ -107,6 +107,11 @@
       "data": "2026-09-22",
       "status": "inscricoes_abertas",
       "observacao": "Primeiro registro no repositório."
+    },
+    {
+      "data": "2026-10-20",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento registrado automaticamente em 21/10/2026 pelo prazo do edital (20/10/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se não houve prorrogação."
     }
   ],
   "ultima_verificacao": "2026-09-25",
