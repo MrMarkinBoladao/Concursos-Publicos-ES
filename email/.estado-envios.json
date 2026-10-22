@@ -65,6 +65,7 @@
     "vitoria": "2026-10-02"
   },
   "descobertas": {
+    "concursosnobrasil-es:prefeitura-de-dores-do-rio-preto-es-abre-mais-de-170-vagas-em-seletivo": "2026-10-22",
     "concursosnobrasil-es:santa-casa-de-iuna-es-abre-processo-seletivo-com-salarios-de-ate-r-35-mil": "2026-10-15",
     "concursosnobrasil-es:semma-de-vila-velha-es-disponibiliza-vagas-de-ate-r-7-mil": "2026-10-07",
     "selecao-es:c3e686b5-cb0e-4a8a-ab96-53eba3d14342": "2026-09-30"
@@ -93,7 +94,7 @@
     "concurso-policia-cientifica-es-2026": "ffb67d5efc7c198e",
     "concurso-procon-es-2026": "a5c77bee548a7315",
     "concurso-saae-iconha-es-01-2026": "af6c9894781a4ac8",
-    "concurso-santa-maria-jetiba-es-guarda-municipal-2026": "666fbb58a9845cc3",
+    "concurso-santa-maria-jetiba-es-guarda-municipal-2026": "ef69f9bf41858fa3",
     "concurso-seger-es-analista-executivo-2026": "0df8e235533c41b8",
     "concurso-sesa-es-2026": "d70d75b312757641",
     "concurso-tjes-tic-2026": "1e4508e88aea92ea",
@@ -152,5 +153,5 @@
     "ps-vitoria-es-professores-007-008-2026": "b1d98cee8588202a",
     "ps-vitoria-es-psicologo-025-2026": "21f12a598df18797"
   },
-  "ultima_geracao": "2026-10-21"
+  "ultima_geracao": "2026-10-22"
 }

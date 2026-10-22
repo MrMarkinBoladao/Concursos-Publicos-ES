@@ -57,7 +57,7 @@
     "observacao": "Seleção composta por nove etapas."
   },
   "banca": "Instituto Consulplan",
-  "status": "inscricoes_abertas",
+  "status": "inscricoes_encerradas",
   "regime": "estatutario",
   "validade": "2 anos a contar da homologação do resultado final, prorrogável uma única vez por igual período",
   "links": {
@@ -100,6 +100,11 @@
       "data": "2026-09-22",
       "status": "inscricoes_abertas",
       "observacao": "Primeiro registro no repositório."
+    },
+    {
+      "data": "2026-10-21",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento registrado automaticamente em 22/10/2026 pelo prazo do edital (21/10/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se não houve prorrogação."
     }
   ],
   "ultima_verificacao": "2026-09-25",
