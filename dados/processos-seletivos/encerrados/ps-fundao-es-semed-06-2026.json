@@ -72,7 +72,7 @@
     "observacao": "Sem prova objetiva; a classificação usa os dados declarados na inscrição, comprovados na convocação. Cronograma (Anexo I): classificação parcial em 23/10/2026; recurso em 26/10 até 12h (e-mail cpsssemed@gmail.com); resultado do recurso e homologação da classificação final em 27/10; convocação a partir de 28/10; entrega de documentos a partir de 30/10/2026 na Semed (Avenida José Agostini, nº 204, 3º andar, Centro, Fundão). Listas separadas por regionalização. Desempate pela maior idade."
   },
   "banca": "não informado",
-  "status": "inscricoes_abertas",
+  "status": "inscricoes_encerradas",
   "regime": "designacao_temporaria",
   "validade": "Da publicação do edital até 31/12/2026, prorrogável por 1 ano; contratos com vigência até 31/12/2026, podendo ser rescindidos antes ou prorrogados",
   "links": {
@@ -103,6 +103,11 @@
       "data": "2026-10-20",
       "status": "inscricoes_abertas",
       "observacao": "Abertura registrada automaticamente em 20/10/2026 pela data de início das inscrições (20/10/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se a abertura não foi adiada."
+    },
+    {
+      "data": "2026-10-22",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento registrado automaticamente em 23/10/2026 pelo prazo do edital (22/10/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se não houve prorrogação."
     }
   ],
   "ultima_verificacao": "2026-10-17",
