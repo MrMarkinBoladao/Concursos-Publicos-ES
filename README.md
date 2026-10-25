@@ -498,6 +498,19 @@ python3 ferramentas/enviar_email.py           # envia
 Pelo GitHub: **Actions > Monitoramento de concursos ES > Run workflow**, marcando
 `forcar_email` para ignorar o estado de envios e montar um resumo cheio.
 
+### Se o envio falhar
+
+O job **Enviar resumo por e-mail** reprova, e a anotação da execução diz em que
+fase a conversa SMTP parou e o que o servidor respondeu — sem usuário, senha,
+servidor nem endereços, porque o log é público. Credencial recusada (no Gmail,
+`535 5.7.8 Username and Password not accepted`) costuma ser senha de aplicativo
+revogada: o Google revoga todas quando a senha da conta é trocada. Gere outra e
+atualize `SMTP_SENHA`.
+
+O dia que falhou **não é reenviado sozinho**: o estado de envios avança quando o
+resumo é gerado, antes do envio. O resumo continua em `email/`, e depois de
+corrigir o secret um **Run workflow** com `forcar_email` manda um resumo cheio.
+
 ## Rotina de atualização
 
 1. Consultar as fontes de `fontes/fontes.json`, priorizando as oficiais.
