@@ -129,7 +129,7 @@
     "observacao": "Prova objetiva com 40 questões de 4 alternativas, duração de 3 horas e 100 pontos; aprovação com no mínimo 60% do total de pontos, e nota zero em qualquer disciplina elimina. Em 13/12/2026 (domingo): turno matutino para o nível médio e vespertino para os níveis fundamental e superior. Gabarito preliminar em 14/12/2026; resultado final da fase de provas e títulos previsto para 26/01/2027."
   },
   "banca": "Instituto Referência",
-  "status": "edital_publicado",
+  "status": "inscricoes_abertas",
   "regime": "estatutario",
   "validade": "2 anos a contar da publicação da homologação do resultado final, prorrogável uma vez por igual período, a critério do SAAE",
   "links": {
@@ -190,6 +190,11 @@
       "data": "2026-10-17",
       "status": "edital_publicado",
       "observacao": "Primeiro registro no repositório, a partir do edital íntegro publicado no site do SAAE e no do Instituto Referência e do extrato no DOM/ES. Achado promovido da quarentena de descobertas."
+    },
+    {
+      "data": "2026-10-26",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura registrada automaticamente em 26/10/2026 pela data de início das inscrições (26/10/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se a abertura não foi adiada."
     }
   ],
   "ultima_verificacao": "2026-10-17",

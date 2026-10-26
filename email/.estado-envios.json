@@ -1,6 +1,7 @@
 {
   "cobertura_vistos": {
     "afonso-claudio": "2026-10-02",
+    "agua-doce-do-norte": "2026-10-26",
     "aguia-branca": "2026-10-02",
     "alegre": "2026-10-02",
     "alfredo-chaves": "2026-10-02",
@@ -16,6 +17,7 @@
     "colatina": "2026-10-02",
     "conceicao-da-barra": "2026-10-02",
     "conceicao-do-castelo": "2026-10-02",
+    "divino-de-sao-lourenco": "2026-10-26",
     "domingos-martins": "2026-10-02",
     "dores-do-rio-preto": "2026-10-02",
     "ecoporanga": "2026-10-02",
@@ -25,6 +27,7 @@
     "guarapari": "2026-10-02",
     "ibatiba": "2026-10-02",
     "ibiracu": "2026-10-02",
+    "ibitirama": "2026-10-26",
     "iconha": "2026-10-02",
     "irupi": "2026-10-02",
     "itaguacu": "2026-10-02",
@@ -93,7 +96,7 @@
     "concurso-pm-es-soldado-2026": "59b1b64323f45236",
     "concurso-policia-cientifica-es-2026": "ffb67d5efc7c198e",
     "concurso-procon-es-2026": "a5c77bee548a7315",
-    "concurso-saae-iconha-es-01-2026": "af6c9894781a4ac8",
+    "concurso-saae-iconha-es-01-2026": "41a641738ab72d75",
     "concurso-santa-maria-jetiba-es-guarda-municipal-2026": "ef69f9bf41858fa3",
     "concurso-seger-es-analista-executivo-2026": "0df8e235533c41b8",
     "concurso-sesa-es-2026": "d70d75b312757641",
@@ -153,5 +156,5 @@
     "ps-vitoria-es-professores-007-008-2026": "b1d98cee8588202a",
     "ps-vitoria-es-psicologo-025-2026": "21f12a598df18797"
   },
-  "ultima_geracao": "2026-10-25"
+  "ultima_geracao": "2026-10-26"
 }

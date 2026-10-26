@@ -20,7 +20,7 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **25/10/2026** |
+| Última verificação das fontes | **26/10/2026** |
 | Oportunidades monitoradas | 80 |
 | Com inscrições abertas | 11 |
 | Vagas imediatas em aberto | 69 |
@@ -29,13 +29,13 @@ efetivamente relacionada ao estado.
 | Descobertas automáticas pendentes de conferência | 2 |
 | Municípios do ES monitorados | 78 |
 | Municípios com registro curado | 21 |
-| Municípios com ato detectado na janela da coleta | 39 |
+| Municípios com ato detectado na janela da coleta | 45 |
 
 ## Concursos com inscrições abertas
 
 | Órgão | Cargo | Vagas | Salário | Inscrições até | Prova |
 | ----- | ----- | ----: | ------: | -------------- | ----- |
-| [PMI](https://ps.idesg.org.br:443/relatorio/documento.php?f=docs&t=pdf&n=15102026_01249488848_165315) | Professor NMM - PA (Educação Infantil e anos iniciais do Ensino Fun...; Professor NMM - PA - Tempo Integral (Educação Infantil e anos inici... e mais 3 cargos | 55 + CR | R$ 2.755,87 a R$ 4.409,39 | 30/10/2026 (encerra em 5 dias) | 22/11/2026 |
+| [PMI](https://ps.idesg.org.br:443/relatorio/documento.php?f=docs&t=pdf&n=15102026_01249488848_165315) | Professor NMM - PA (Educação Infantil e anos iniciais do Ensino Fun...; Professor NMM - PA - Tempo Integral (Educação Infantil e anos inici... e mais 3 cargos | 55 + CR | R$ 2.755,87 a R$ 4.409,39 | 30/10/2026 (encerra em 4 dias) | 22/11/2026 |
 | [CRECI-ES](https://www.in.gov.br/en/web/dou/-/edital-n-1-de-5-de-outubro-de-2026-736203938) | Profissional de Suporte Técnico (PST) - Assistente Administrativo; Profissional de Suporte Técnico (PST) - Assistente Especializado e mais 8 cargos | CR | não informado | 10/11/2026 | 17/01/2027 |
 | [SAAE](https://www.saaeiconha.com.br/institucional/processos-seletivos-e-concursos/download/file?fid=45.105&file_id=f_8daebc7126eff2c15a4833084488d686) | Ajudante; Auxiliar de Serviços Gerais e mais 7 cargos | 14 + CR | R$ 1.660,65 a R$ 3.236,14 | 10/11/2026 | 13/12/2026 |
 
@@ -64,9 +64,9 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Inscrições até | Fonte |
 | ----- | ----- | ----: | -------------- | ----- |
-| PMM/SEMECT | Professor/a Regente de Classe MAPA (Educação Infantil, Anos Iniciai...; Professor/a MAPB (componentes curriculares da Educação Infantil e d... e mais 15 cargos | CR | 26/10/2026 **(encerra em 1 dia)** | [fonte](https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11527/96) |
-| PMSMJ/SECADM | Coveiro; Jardineiro e mais 62 cargos | CR | 28/10/2026 **(encerra em 3 dias)** | [fonte](https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11524/142) |
-| Prefeitura Municipal de Nova Venécia | Nutricionista; Psicólogo e mais 3 cargos | CR | 29/10/2026 (encerra em 4 dias) | [fonte](https://www.novavenecia.es.gov.br/wp-content/uploads/2026/10/EDITAL-No-030-2026-PROCESSO-SELETIVO-DE-NUTRICIONISTA-E-OUTROS.pdf) |
+| PMM/SEMECT | Professor/a Regente de Classe MAPA (Educação Infantil, Anos Iniciai...; Professor/a MAPB (componentes curriculares da Educação Infantil e d... e mais 15 cargos | CR | 26/10/2026 **(encerra em 0 dias)** | [fonte](https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11527/96) |
+| PMSMJ/SECADM | Coveiro; Jardineiro e mais 62 cargos | CR | 28/10/2026 **(encerra em 2 dias)** | [fonte](https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11524/142) |
+| Prefeitura Municipal de Nova Venécia | Nutricionista; Psicólogo e mais 3 cargos | CR | 29/10/2026 **(encerra em 3 dias)** | [fonte](https://www.novavenecia.es.gov.br/wp-content/uploads/2026/10/EDITAL-No-030-2026-PROCESSO-SELETIVO-DE-NUTRICIONISTA-E-OUTROS.pdf) |
 | SEMAP | Cuidador Escolar | CR | 03/11/2026 | [fonte](https://www.irupi.es.gov.br/processo-seletivo/download/6cea12b90c0f70911fc4860be2a39f90/44456738743842) |
 | PMI | Professor A-DT; Professor B-DT e mais 18 cargos | não informado | 06/11/2026 | [fonte](https://institutoselecao.selecao.net.br/informacoes/34/) |
 | SEDU | Coordenador Administrativo, de Secretaria e Financeiro (CASF) | não informado | 02/04/2027 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32217) |
@@ -161,7 +161,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Município | Registros curados | Ato detectado | Canal principal |
 | --------- | ----------------: | ------------- | --------------- |
 | Afonso Cláudio | 1 | ✓ | DOM/AMUNES |
-| Água Doce do Norte | 0 | — | DOM/AMUNES |
+| Água Doce do Norte | 0 | ✓ | DOM/AMUNES |
 | Águia Branca | 0 | ✓ | DOM/AMUNES |
 | Alegre | 0 | ✓ | DOM/AMUNES |
 | Alfredo Chaves | 0 | ✓ | DOM/AMUNES |
@@ -181,7 +181,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Colatina | 0 | ✓ | DOM/AMUNES |
 | Conceição da Barra | 0 | ✓ | DOM/AMUNES |
 | Conceição do Castelo | 0 | ✓ | DOM/AMUNES |
-| Divino de São Lourenço | 0 | — | DOM/AMUNES |
+| Divino de São Lourenço | 0 | ✓ | DOM/AMUNES |
 | Domingos Martins | 0 | ✓ | DOM/AMUNES |
 | Dores do Rio Preto | 0 | ✓ | DOM/AMUNES |
 | Ecoporanga | 0 | ✓ | DOM/AMUNES |
@@ -191,7 +191,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Guarapari | 3 | ✓ | DOM/AMUNES |
 | Ibatiba | 0 | ✓ | DOM/AMUNES |
 | Ibiraçu | 2 | ✓ | DOM/AMUNES |
-| Ibitirama | 0 | — | DOM/AMUNES |
+| Ibitirama | 0 | ✓ | DOM/AMUNES |
 | Iconha | 2 | ✓ | DOM/AMUNES |
 | Irupi | 1 | ✓ | DOM/AMUNES |
 | Itaguaçu | 0 | ✓ | DOM/AMUNES |
@@ -241,7 +241,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 25/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 26/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
