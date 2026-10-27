@@ -209,7 +209,7 @@
     "observacao": "Sem prova objetiva. Cronograma (Anexo V): resultado das inscrições e classificação em 30/10/2026; recurso em 03/11/2026, pelo próprio site de inscrição; resultado final em 09/11/2026; chamada e contratação a partir de 16/11/2026, por e-mail; apresentação no local de trabalho em 01/02/2027."
   },
   "banca": "não informado",
-  "status": "inscricoes_abertas",
+  "status": "inscricoes_encerradas",
   "regime": "designacao_temporaria",
   "validade": "Até o fim do ano letivo de 2027, prorrogável por até 12 meses; contratos de 1º/02/2027 a 31/12/2027, prorrogáveis conforme a necessidade",
   "links": {
@@ -269,6 +269,11 @@
       "data": "2026-10-20",
       "status": "inscricoes_abertas",
       "observacao": "Abertura registrada automaticamente em 20/10/2026 pela data de início das inscrições (20/10/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se a abertura não foi adiada."
+    },
+    {
+      "data": "2026-10-26",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento registrado automaticamente em 27/10/2026 pelo prazo do edital (26/10/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se não houve prorrogação."
     }
   ],
   "ultima_verificacao": "2026-10-17",
