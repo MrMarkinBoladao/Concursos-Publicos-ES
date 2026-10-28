@@ -86,7 +86,7 @@
     "observacao": "Cronograma do item 1.2: classificação em 02/11/2026, às 18h; recursos em 03/11/2026 (8h às 11h e 13h às 15h); classificação final em 04/11/2026, às 18h. A divulgação é no átrio da Prefeitura e em www.novavenecia.es.gov.br. A posse ocorre por chamada da Secretaria Municipal de Administração, mediante edital de convocação. Desempate pela maior idade."
   },
   "banca": "não informado",
-  "status": "edital_publicado",
+  "status": "inscricoes_abertas",
   "regime": "designacao_temporaria",
   "validade": "2 anos a contar da divulgação da homologação, prorrogável por igual período ou enquanto durar a listagem de reserva técnica",
   "links": {
@@ -124,6 +124,11 @@
       "data": "2026-10-17",
       "status": "edital_publicado",
       "observacao": "Primeiro registro no repositório, a partir do edital oficial em PDF publicado no site da Prefeitura. Achado promovido da quarentena de descobertas."
+    },
+    {
+      "data": "2026-10-28",
+      "status": "inscricoes_abertas",
+      "observacao": "Abertura registrada automaticamente em 28/10/2026 pela data de início das inscrições (28/10/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se a abertura não foi adiada."
     }
   ],
   "ultima_verificacao": "2026-10-17",
