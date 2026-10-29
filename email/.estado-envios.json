@@ -68,6 +68,7 @@
     "vitoria": "2026-10-02"
   },
   "descobertas": {
+    "concursosnobrasil-es:prefeitura-de-alfredo-chaves-es-remunera-ate-r-34-mil-em-processo-seletivo": "2026-10-29",
     "concursosnobrasil-es:prefeitura-de-dores-do-rio-preto-es-abre-mais-de-170-vagas-em-seletivo": "2026-10-22",
     "concursosnobrasil-es:santa-casa-de-iuna-es-abre-processo-seletivo-com-salarios-de-ate-r-35-mil": "2026-10-15",
     "concursosnobrasil-es:semma-de-vila-velha-es-disponibiliza-vagas-de-ate-r-7-mil": "2026-10-07",
@@ -127,7 +128,7 @@
     "ps-pmes-es-tecnico-farmacia-004-2026": "5285ee01317d9d0d",
     "ps-pmes-es-tecnico-laboratorio-003-2026": "eae60fe0d5d34720",
     "ps-samu-es-condutor-socorrista-2026": "337e289808e501d3",
-    "ps-santa-maria-jetiba-es-secadm-66-2026": "6f2173eba35cde3c",
+    "ps-santa-maria-jetiba-es-secadm-66-2026": "459da40befb0e361",
     "ps-santa-teresa-es-magisterio-007-008-2026": "b94bb8386037621d",
     "ps-sao-gabriel-da-palha-es-seme-05-2026": "6ea7dd30e8ad4598",
     "ps-sedu-es-apoio-escolar-cuidador-28-2026": "b5ec5f6a2495c172",
@@ -156,5 +157,5 @@
     "ps-vitoria-es-professores-007-008-2026": "b1d98cee8588202a",
     "ps-vitoria-es-psicologo-025-2026": "21f12a598df18797"
   },
-  "ultima_geracao": "2026-10-28"
+  "ultima_geracao": "2026-10-29"
 }

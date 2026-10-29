@@ -20,22 +20,22 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **28/10/2026** |
+| Última verificação das fontes | **29/10/2026** |
 | Oportunidades monitoradas | 80 |
-| Com inscrições abertas | 10 |
+| Com inscrições abertas | 9 |
 | Vagas imediatas em aberto | 69 |
 | Concursos previstos / autorizados | 16 |
-| Registros históricos (encerrados ou em andamento) | 54 |
-| Descobertas automáticas pendentes de conferência | 2 |
+| Registros históricos (encerrados ou em andamento) | 55 |
+| Descobertas automáticas pendentes de conferência | 3 |
 | Municípios do ES monitorados | 78 |
 | Municípios com registro curado | 21 |
-| Municípios com ato detectado na janela da coleta | 41 |
+| Municípios com ato detectado na janela da coleta | 42 |
 
 ## Concursos com inscrições abertas
 
 | Órgão | Cargo | Vagas | Salário | Inscrições até | Prova |
 | ----- | ----- | ----: | ------: | -------------- | ----- |
-| [PMI](https://ps.idesg.org.br:443/relatorio/documento.php?f=docs&t=pdf&n=15102026_01249488848_165315) | Professor NMM - PA (Educação Infantil e anos iniciais do Ensino Fun...; Professor NMM - PA - Tempo Integral (Educação Infantil e anos inici... e mais 3 cargos | 55 + CR | R$ 2.755,87 a R$ 4.409,39 | 30/10/2026 **(encerra em 2 dias)** | 22/11/2026 |
+| [PMI](https://ps.idesg.org.br:443/relatorio/documento.php?f=docs&t=pdf&n=15102026_01249488848_165315) | Professor NMM - PA (Educação Infantil e anos iniciais do Ensino Fun...; Professor NMM - PA - Tempo Integral (Educação Infantil e anos inici... e mais 3 cargos | 55 + CR | R$ 2.755,87 a R$ 4.409,39 | 30/10/2026 **(encerra em 1 dia)** | 22/11/2026 |
 | [CRECI-ES](https://www.in.gov.br/en/web/dou/-/edital-n-1-de-5-de-outubro-de-2026-736203938) | Profissional de Suporte Técnico (PST) - Assistente Administrativo; Profissional de Suporte Técnico (PST) - Assistente Especializado e mais 8 cargos | CR | não informado | 10/11/2026 | 17/01/2027 |
 | [SAAE](https://www.saaeiconha.com.br/institucional/processos-seletivos-e-concursos/download/file?fid=45.105&file_id=f_8daebc7126eff2c15a4833084488d686) | Ajudante; Auxiliar de Serviços Gerais e mais 7 cargos | 14 + CR | R$ 1.660,65 a R$ 3.236,14 | 10/11/2026 | 13/12/2026 |
 
@@ -64,9 +64,8 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Inscrições até | Fonte |
 | ----- | ----- | ----: | -------------- | ----- |
-| PMSMJ/SECADM | Coveiro; Jardineiro e mais 62 cargos | CR | 28/10/2026 **(encerra em 0 dias)** | [fonte](https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11524/142) |
-| Prefeitura Municipal de Nova Venécia | Nutricionista; Psicólogo e mais 3 cargos | CR | 29/10/2026 **(encerra em 1 dia)** | [fonte](https://www.novavenecia.es.gov.br/wp-content/uploads/2026/10/EDITAL-No-030-2026-PROCESSO-SELETIVO-DE-NUTRICIONISTA-E-OUTROS.pdf) |
-| SEMAP | Cuidador Escolar | CR | 03/11/2026 (encerra em 6 dias) | [fonte](https://www.irupi.es.gov.br/processo-seletivo/download/6cea12b90c0f70911fc4860be2a39f90/44456738743842) |
+| Prefeitura Municipal de Nova Venécia | Nutricionista; Psicólogo e mais 3 cargos | CR | 29/10/2026 **(encerra em 0 dias)** | [fonte](https://www.novavenecia.es.gov.br/wp-content/uploads/2026/10/EDITAL-No-030-2026-PROCESSO-SELETIVO-DE-NUTRICIONISTA-E-OUTROS.pdf) |
+| SEMAP | Cuidador Escolar | CR | 03/11/2026 (encerra em 5 dias) | [fonte](https://www.irupi.es.gov.br/processo-seletivo/download/6cea12b90c0f70911fc4860be2a39f90/44456738743842) |
 | PMI | Professor A-DT; Professor B-DT e mais 18 cargos | não informado | 06/11/2026 | [fonte](https://institutoselecao.selecao.net.br/informacoes/34/) |
 | SEDU | Coordenador Administrativo, de Secretaria e Financeiro (CASF) | não informado | 02/04/2027 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32217) |
 | SEDU | Coordenador Pedagógico | não informado | 02/04/2027 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32216) |
@@ -80,6 +79,7 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | Órgão | Cargo | Vagas | Situação | Encerrou em | Fonte |
 | ----- | ----- | ----: | -------- | ----------- | ----- |
 | PMA/SEMGE | Diversos cargos das áreas Administrativa, Saúde, Fiscalização, Enge... | CR | Prova realizada | não informado | [fonte](https://idcap.selecao.net.br/informacoes/227/) |
+| PMSMJ/SECADM | Coveiro e mais 63 cargos | CR | Inscrições encerradas | 28/10/2026 | [fonte](https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11524/142) |
 | PMM/SEMECT | Professor/a Regente de Classe MAPA (Educação Infantil, Anos Iniciai... e mais 16 cargos | CR | Inscrições encerradas | 26/10/2026 | [fonte](https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11527/96) |
 | PMF/SEMED | Servente Escolar e mais 2 cargos | 3 + CR | Inscrições encerradas | 22/10/2026 | [fonte](https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11554/112) |
 | PMSMJ | Guarda Municipal | 30 + CR | Inscrições encerradas | 21/10/2026 | [fonte](https://www.institutoconsulplan.org.br/pref-smj-guarda2026) |
@@ -143,6 +143,7 @@ encerradas pode seguir em andamento nas etapas seguintes.
 
 | Órgão | Oportunidade | Situação na fonte | Inscrições até | Fonte |
 | ----- | ------------ | ----------------- | -------------- | ----- |
+| Prefeitura de Alfredo Chaves | [Prefeitura de Alfredo Chaves](https://concursosnobrasil.com/concursos/es/2026/10/29/prefeitura-de-alfredo-chaves-es-remunera-ate-r-34-mil-em-processo-seletivo/) | não informado | não informado | portal_concursos |
 | Prefeitura de Dores do Rio Preto | [Prefeitura de Dores do Rio Preto](https://concursosnobrasil.com/concursos/es/2026/10/21/prefeitura-de-dores-do-rio-preto-es-abre-mais-de-170-vagas-em-seletivo/) | não informado | não informado | portal_concursos |
 | Santa Casa de Iúna | [Santa Casa de Iúna](https://concursosnobrasil.com/concursos/es/2026/10/15/santa-casa-de-iuna-es-abre-processo-seletivo-com-salarios-de-ate-r-35-mil/) | não informado | não informado | portal_concursos |
 
@@ -241,7 +242,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 28/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 29/10/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
