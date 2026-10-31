@@ -87,7 +87,7 @@
     "observacao": "Prova objetiva com 40 questões de 4 alternativas e 100 pontos (Língua Portuguesa, Informática Básica, Conhecimentos Pedagógicos e Conhecimentos Específicos); habilitação com no mínimo 50% dos pontos e sem zerar disciplina. Em 22/11/2026: turno matutino (8h30 às 11h30) para Professor NMM-PA; turno vespertino (13h30 às 16h30) para Professor NSM-PB (Educação Física e Arte) e Professor Pedagogo. Cartão de inscrição a partir de 14/11/2026. Resultado final do concurso previsto para 21/01/2027."
   },
   "banca": "IDESG - Instituto de Desenvolvimento Social, Gestão e Tecnologia",
-  "status": "inscricoes_abertas",
+  "status": "inscricoes_encerradas",
   "regime": "estatutario",
   "validade": "2 anos a contar da homologação, prorrogável por igual período a critério do Poder Público",
   "links": {
@@ -152,6 +152,11 @@
       "data": "2026-10-17",
       "status": "inscricoes_abertas",
       "observacao": "Primeiro registro no repositório, a partir do edital íntegro e da Retificação nº 001/2026 publicados pelo IDESG e do extrato no DOM/ES. Achado promovido da quarentena de descobertas."
+    },
+    {
+      "data": "2026-10-30",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento registrado automaticamente em 31/10/2026 pelo prazo do edital (30/10/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se não houve prorrogação."
     }
   ],
   "ultima_verificacao": "2026-10-17",
