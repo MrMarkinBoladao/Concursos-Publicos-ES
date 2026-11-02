@@ -20,7 +20,7 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **01/11/2026** |
+| Última verificação das fontes | **02/11/2026** |
 | Oportunidades monitoradas | 80 |
 | Com inscrições abertas | 7 |
 | Vagas imediatas em aberto | 14 |
@@ -63,8 +63,8 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Inscrições até | Fonte |
 | ----- | ----- | ----: | -------------- | ----- |
-| SEMAP | Cuidador Escolar | CR | 03/11/2026 **(encerra em 2 dias)** | [fonte](https://www.irupi.es.gov.br/processo-seletivo/download/6cea12b90c0f70911fc4860be2a39f90/44456738743842) |
-| PMI | Professor A-DT; Professor B-DT e mais 18 cargos | não informado | 06/11/2026 (encerra em 5 dias) | [fonte](https://institutoselecao.selecao.net.br/informacoes/34/) |
+| SEMAP | Cuidador Escolar | CR | 03/11/2026 **(encerra em 1 dia)** | [fonte](https://www.irupi.es.gov.br/processo-seletivo/download/6cea12b90c0f70911fc4860be2a39f90/44456738743842) |
+| PMI | Professor A-DT; Professor B-DT e mais 18 cargos | não informado | 06/11/2026 (encerra em 4 dias) | [fonte](https://institutoselecao.selecao.net.br/informacoes/34/) |
 | SEDU | Coordenador Administrativo, de Secretaria e Financeiro (CASF) | não informado | 02/04/2027 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32217) |
 | SEDU | Coordenador Pedagógico | não informado | 02/04/2027 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32216) |
 | SEDU | Diretor Escolar | não informado | 02/04/2027 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32212) |
@@ -243,7 +243,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 01/11/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 02/11/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
