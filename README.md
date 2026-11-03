@@ -20,23 +20,23 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **02/11/2026** |
+| Última verificação das fontes | **03/11/2026** |
 | Oportunidades monitoradas | 80 |
 | Com inscrições abertas | 7 |
 | Vagas imediatas em aberto | 14 |
 | Concursos previstos / autorizados | 16 |
 | Registros históricos (encerrados ou em andamento) | 57 |
-| Descobertas automáticas pendentes de conferência | 4 |
+| Descobertas automáticas pendentes de conferência | 5 |
 | Municípios do ES monitorados | 78 |
 | Municípios com registro curado | 21 |
-| Municípios com ato detectado na janela da coleta | 34 |
+| Municípios com ato detectado na janela da coleta | 35 |
 
 ## Concursos com inscrições abertas
 
 | Órgão | Cargo | Vagas | Salário | Inscrições até | Prova |
 | ----- | ----- | ----: | ------: | -------------- | ----- |
-| [CRECI-ES](https://www.in.gov.br/en/web/dou/-/edital-n-1-de-5-de-outubro-de-2026-736203938) | Profissional de Suporte Técnico (PST) - Assistente Administrativo; Profissional de Suporte Técnico (PST) - Assistente Especializado e mais 8 cargos | CR | não informado | 10/11/2026 | 17/01/2027 |
-| [SAAE](https://www.saaeiconha.com.br/institucional/processos-seletivos-e-concursos/download/file?fid=45.105&file_id=f_8daebc7126eff2c15a4833084488d686) | Ajudante; Auxiliar de Serviços Gerais e mais 7 cargos | 14 + CR | R$ 1.660,65 a R$ 3.236,14 | 10/11/2026 | 13/12/2026 |
+| [CRECI-ES](https://www.in.gov.br/en/web/dou/-/edital-n-1-de-5-de-outubro-de-2026-736203938) | Profissional de Suporte Técnico (PST) - Assistente Administrativo; Profissional de Suporte Técnico (PST) - Assistente Especializado e mais 8 cargos | CR | não informado | 10/11/2026 (encerra em 7 dias) | 17/01/2027 |
+| [SAAE](https://www.saaeiconha.com.br/institucional/processos-seletivos-e-concursos/download/file?fid=45.105&file_id=f_8daebc7126eff2c15a4833084488d686) | Ajudante; Auxiliar de Serviços Gerais e mais 7 cargos | 14 + CR | R$ 1.660,65 a R$ 3.236,14 | 10/11/2026 (encerra em 7 dias) | 13/12/2026 |
 
 ## Próximos concursos
 
@@ -63,8 +63,8 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Inscrições até | Fonte |
 | ----- | ----- | ----: | -------------- | ----- |
-| SEMAP | Cuidador Escolar | CR | 03/11/2026 **(encerra em 1 dia)** | [fonte](https://www.irupi.es.gov.br/processo-seletivo/download/6cea12b90c0f70911fc4860be2a39f90/44456738743842) |
-| PMI | Professor A-DT; Professor B-DT e mais 18 cargos | não informado | 06/11/2026 (encerra em 4 dias) | [fonte](https://institutoselecao.selecao.net.br/informacoes/34/) |
+| SEMAP | Cuidador Escolar | CR | 03/11/2026 **(encerra em 0 dias)** | [fonte](https://www.irupi.es.gov.br/processo-seletivo/download/6cea12b90c0f70911fc4860be2a39f90/44456738743842) |
+| PMI | Professor A-DT; Professor B-DT e mais 18 cargos | não informado | 06/11/2026 **(encerra em 3 dias)** | [fonte](https://institutoselecao.selecao.net.br/informacoes/34/) |
 | SEDU | Coordenador Administrativo, de Secretaria e Financeiro (CASF) | não informado | 02/04/2027 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32217) |
 | SEDU | Coordenador Pedagógico | não informado | 02/04/2027 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32216) |
 | SEDU | Diretor Escolar | não informado | 02/04/2027 | [fonte](https://classico.selecao.es.gov.br/Arquivo/DownloadArquivo/32212) |
@@ -143,6 +143,7 @@ encerradas pode seguir em andamento nas etapas seguintes.
 
 | Órgão | Oportunidade | Situação na fonte | Inscrições até | Fonte |
 | ----- | ------------ | ----------------- | -------------- | ----- |
+| Câmara de Piúma | [Câmara de Piúma](https://concursosnobrasil.com/concursos/es/2026/11/03/concurso-camara-de-piuma-es-oferece-salario-de-ate-r-9-018/) | não informado | não informado | portal_concursos |
 | Prefeitura de Marechal Floriano | [Prefeitura de Marechal Floriano](https://concursosnobrasil.com/concursos/es/2026/10/30/prefeitura-de-marechal-floriano-es-abre-seletivo-com-100-vagas/) | não informado | não informado | portal_concursos |
 | Prefeitura de Alfredo Chaves | [Prefeitura de Alfredo Chaves](https://concursosnobrasil.com/concursos/es/2026/10/29/prefeitura-de-alfredo-chaves-es-remunera-ate-r-34-mil-em-processo-seletivo/) | não informado | não informado | portal_concursos |
 | Prefeitura de Dores do Rio Preto | [Prefeitura de Dores do Rio Preto](https://concursosnobrasil.com/concursos/es/2026/10/21/prefeitura-de-dores-do-rio-preto-es-abre-mais-de-170-vagas-em-seletivo/) | não informado | não informado | portal_concursos |
@@ -243,7 +244,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 02/11/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 03/11/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
