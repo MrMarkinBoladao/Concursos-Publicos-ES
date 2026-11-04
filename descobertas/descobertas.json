@@ -1,27 +1,27 @@
 {
   "descricao": "Achados da coleta automatica. AREA DE QUARENTENA: nao e dado curado. Cada achado traz apenas o que a fonte informou. Promover para dados/ exige conferir o edital na fonte oficial.",
-  "gerado_em": "2026-11-03",
+  "gerado_em": "2026-11-04",
   "janela_dias": 90,
-  "total_achados": 1348,
-  "ja_no_repositorio": 102,
-  "pendentes_de_curadoria": 1246,
+  "total_achados": 1397,
+  "ja_no_repositorio": 105,
+  "pendentes_de_curadoria": 1292,
   "fontes_consultadas": [
     {
       "id": "concursosnobrasil-es",
       "nome": "Concursos no Brasil - Espirito Santo",
       "tipo": "portal_concursos",
       "status": "ok",
-      "achados": 12
+      "achados": 11
     },
     {
       "id": "ioes-busca-dio",
       "nome": "Busca do IOES - Diario Oficial do Estado (DIO)",
       "tipo": "diario_oficial",
       "status": "ok",
-      "achados": 75,
+      "achados": 70,
       "truncado": false,
       "limite_achados_atingido": false,
-      "total_relatado": 62,
+      "total_relatado": 38,
       "paginas_truncadas": 0
     },
     {
@@ -29,10 +29,10 @@
       "nome": "Busca do IOES - Diario Oficial dos Municipios (DOM/AMUNES)",
       "tipo": "diario_oficial",
       "status": "ok",
-      "achados": 181,
+      "achados": 187,
       "truncado": false,
       "limite_achados_atingido": false,
-      "total_relatado": 155,
+      "total_relatado": 140,
       "paginas_truncadas": 0
     },
     {
@@ -139,7 +139,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "concurso-creci-es-01-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -237,7 +237,7 @@
       "conteudo_truncado": false,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -269,7 +269,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "concurso-idaf-es-fiscalizacao-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -334,7 +334,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-afonso-claudio-es-merendeira-001-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -399,7 +399,7 @@
       "conteudo_truncado": false,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -497,7 +497,7 @@
       "conteudo_truncado": false,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-22"
     },
     {
@@ -662,7 +662,8 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-irupi-es-cuidador-escolar-029-2026",
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-15"
+      "primeira_deteccao": "2026-10-15",
+      "ausente_na_fonte": true
     },
     {
       "chave": "concursosnobrasil-es:prefeitura-de-iuna-es-oferta-iniciais-de-ate-r-39-mil-em-selecao",
@@ -693,7 +694,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-iuna-es-001-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-15"
     },
     {
@@ -791,7 +792,7 @@
       "conteudo_truncado": false,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-30"
     },
     {
@@ -889,7 +890,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -1251,7 +1252,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "concurso-saae-iconha-es-01-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-16"
     },
     {
@@ -1382,7 +1383,7 @@
       "conteudo_truncado": false,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-15"
     },
     {
@@ -1419,7 +1420,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -1457,7 +1458,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -1566,7 +1567,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -1756,7 +1757,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -1867,7 +1868,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -1906,7 +1907,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -2182,6 +2183,44 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dio:montanha:11603-85",
+      "fonte_id": "ioes-busca-dio",
+      "orgao": "Prefeitura de Montanha",
+      "orgao_sigla": "não informado",
+      "titulo": "O PREFEITO DE NOVA VENÉCIA, Estado do Espírito Santo, no uso de suas atribuições legais conferidas no art. 64, inciso XXI, da Lei Orgânica Municipal, e considerando a decisão proferida no Processo Adm",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11603/85",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "26842",
+      "editais_citados": [
+        "131/2023",
+        "10/2026",
+        "10/2027"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Montanha",
+      "municipio_codigo_ibge": 3203502,
+      "municipio_slug": "montanha",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
       "chave": "ioes-dio:montanha:11547-58",
       "fonte_id": "ioes-busca-dio",
       "orgao": "Prefeitura de Montanha",
@@ -2386,6 +2425,47 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dio:nova-venecia:edital-82-2026",
+      "fonte_id": "ioes-busca-dio",
+      "orgao": "Prefeitura de Nova Venécia",
+      "orgao_sigla": "não informado",
+      "titulo": "O PREFEITO DE NOVA VENÉCIA, Estado do Espírito Santo, no uso de suas atribuições legais conferidas no art. 64, inciso XXI, da Lei Orgânica Municipal, e considerando a decisão proferida no Processo Adm",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11603/85",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "26842",
+      "editais_citados": [
+        "173/2026",
+        "6853/2026",
+        "1/2023",
+        "818/2026",
+        "644/2026",
+        "710/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Nova Venécia",
+      "municipio_codigo_ibge": 3203908,
+      "municipio_slug": "nova-venecia",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
       "chave": "ioes-dio:nova-venecia:edital-1-2023",
       "fonte_id": "ioes-busca-dio",
       "orgao": "Prefeitura de Nova Venécia",
@@ -2417,7 +2497,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-02"
+      "primeira_deteccao": "2026-10-02",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:nova-venecia:11587-133",
@@ -2451,7 +2532,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:nova-venecia:11587-137",
@@ -2485,7 +2567,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:nova-venecia:11587-139",
@@ -2519,7 +2602,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:nova-venecia:11587-141",
@@ -2553,7 +2637,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:nova-venecia:11587-145",
@@ -2587,7 +2672,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:nova-venecia:11587-152",
@@ -2629,7 +2715,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:nova-venecia:11560-69",
@@ -2918,8 +3005,42 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
+    },
+    {
+      "chave": "ioes-dio:santa-maria-de-jetiba:11603-77",
+      "fonte_id": "ioes-busca-dio",
+      "orgao": "Prefeitura de Santa Maria de Jetibá",
+      "orgao_sigla": "não informado",
+      "titulo": "Protocolo 1896821 PROCURADORIA GERAL DO ESTADO DO ESPÍRITO SANTO EXTRATO DO COMUNICADO Nº 03 - EDITAL Nº 01/2026 - PROCESSO SELETIVO - RESIDÊNCIA JURÍDICA Ficam reabertas as inscrições de 03 a 06/11/2",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11603/77",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "26842",
+      "editais_citados": [],
+      "conteudo_truncado": false,
+      "municipio": "Santa Maria de Jetibá",
+      "municipio_codigo_ibge": 3204559,
+      "municipio_slug": "santa-maria-de-jetiba",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": true,
+      "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
     },
     {
       "chave": "ioes-dio:santa-maria-de-jetiba:11522-38",
@@ -2955,6 +3076,43 @@
       "ultima_deteccao": "2026-10-12",
       "primeira_deteccao": "2026-10-06",
       "ausente_na_fonte": true
+    },
+    {
+      "chave": "ioes-dio:santa-teresa:11603-77",
+      "fonte_id": "ioes-busca-dio",
+      "orgao": "Prefeitura de Santa Teresa",
+      "orgao_sigla": "não informado",
+      "titulo": "Protocolo 1896821 PROCURADORIA GERAL DO ESTADO DO ESPÍRITO SANTO EXTRATO DO COMUNICADO Nº 03 - EDITAL Nº 01/2026 - PROCESSO SELETIVO - RESIDÊNCIA JURÍDICA Ficam reabertas as inscrições de 03 a 06/11/2",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11603/77",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "26842",
+      "editais_citados": [
+        "278/2026",
+        "38/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Santa Teresa",
+      "municipio_codigo_ibge": 3204609,
+      "municipio_slug": "santa-teresa",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
     },
     {
       "chave": "ioes-dio:serra:11532-52",
@@ -3101,7 +3259,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -3142,6 +3300,366 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dio:vitoria:11603-30",
+      "fonte_id": "ioes-busca-dio",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Francisco, 03/11/2026 Marcos Vinicius Pimenta da Rocha Diretor Geral HDRC Protocolo 1896921 Secretaria de Estado de Gestão e Recursos Humanos SEGER GOVERNO DO ESTADO DO ESPÍRITO SANTO SECRETARIA DE ES",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11603/30",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "26842",
+      "editais_citados": [
+        "11/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Vitória",
+      "municipio_codigo_ibge": 3205309,
+      "municipio_slug": "vitoria",
+      "municipio_confianca": "baixa",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dio:indeterminado:11603-30",
+      "fonte_id": "ioes-busca-dio",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Francisco, 03/11/2026 Marcos Vinicius Pimenta da Rocha Diretor Geral HDRC Protocolo 1896921 Secretaria de Estado de Gestão e Recursos Humanos SEGER GOVERNO DO ESTADO DO ESPÍRITO SANTO SECRETARIA DE ES",
+      "esfera": null,
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11603/30",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "26842",
+      "editais_citados": [
+        "11/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "não informado",
+      "municipio_codigo_ibge": null,
+      "municipio_slug": null,
+      "municipio_confianca": null,
+      "municipio_escopo": "indeterminado",
+      "municipio_origem": null,
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dio:indeterminado:edital-48-2026",
+      "fonte_id": "ioes-busca-dio",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Francisco, 03/11/2026 Marcos Vinicius Pimenta da Rocha Diretor Geral HDRC Protocolo 1896921 Secretaria de Estado de Gestão e Recursos Humanos SEGER GOVERNO DO ESTADO DO ESPÍRITO SANTO SECRETARIA DE ES",
+      "esfera": null,
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11603/30",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "26842",
+      "editais_citados": [
+        "1/2024",
+        "2/2024",
+        "17/2025"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "não informado",
+      "municipio_codigo_ibge": null,
+      "municipio_slug": null,
+      "municipio_confianca": null,
+      "municipio_escopo": "indeterminado",
+      "municipio_origem": null,
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dio:indeterminado:11603-77",
+      "fonte_id": "ioes-busca-dio",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Protocolo 1896821 PROCURADORIA GERAL DO ESTADO DO ESPÍRITO SANTO EXTRATO DO COMUNICADO Nº 03 - EDITAL Nº 01/2026 - PROCESSO SELETIVO - RESIDÊNCIA JURÍDICA Ficam reabertas as inscrições de 03 a 06/11/2",
+      "esfera": null,
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11603/77",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "26842",
+      "editais_citados": [],
+      "conteudo_truncado": false,
+      "municipio": "não informado",
+      "municipio_codigo_ibge": null,
+      "municipio_slug": null,
+      "municipio_confianca": null,
+      "municipio_escopo": "indeterminado",
+      "municipio_origem": null,
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dio:domingos-martins:11603-77",
+      "fonte_id": "ioes-busca-dio",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Protocolo 1896821 PROCURADORIA GERAL DO ESTADO DO ESPÍRITO SANTO EXTRATO DO COMUNICADO Nº 03 - EDITAL Nº 01/2026 - PROCESSO SELETIVO - RESIDÊNCIA JURÍDICA Ficam reabertas as inscrições de 03 a 06/11/2",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11603/77",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "26842",
+      "editais_citados": [
+        "771/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Domingos Martins",
+      "municipio_codigo_ibge": 3201902,
+      "municipio_slug": "domingos-martins",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dio:vila-velha:11603-77",
+      "fonte_id": "ioes-busca-dio",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Protocolo 1896821 PROCURADORIA GERAL DO ESTADO DO ESPÍRITO SANTO EXTRATO DO COMUNICADO Nº 03 - EDITAL Nº 01/2026 - PROCESSO SELETIVO - RESIDÊNCIA JURÍDICA Ficam reabertas as inscrições de 03 a 06/11/2",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11603/77",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "26842",
+      "editais_citados": [
+        "4707/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Vila Velha",
+      "municipio_codigo_ibge": 3205200,
+      "municipio_slug": "vila-velha",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dio:aracruz:11603-77",
+      "fonte_id": "ioes-busca-dio",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Protocolo 1896821 PROCURADORIA GERAL DO ESTADO DO ESPÍRITO SANTO EXTRATO DO COMUNICADO Nº 03 - EDITAL Nº 01/2026 - PROCESSO SELETIVO - RESIDÊNCIA JURÍDICA Ficam reabertas as inscrições de 03 a 06/11/2",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11603/77",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "26842",
+      "editais_citados": [
+        "387/2024",
+        "4/2025"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Aracruz",
+      "municipio_codigo_ibge": 3200607,
+      "municipio_slug": "aracruz",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dio:castelo:11603-77",
+      "fonte_id": "ioes-busca-dio",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Protocolo 1896821 PROCURADORIA GERAL DO ESTADO DO ESPÍRITO SANTO EXTRATO DO COMUNICADO Nº 03 - EDITAL Nº 01/2026 - PROCESSO SELETIVO - RESIDÊNCIA JURÍDICA Ficam reabertas as inscrições de 03 a 06/11/2",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11603/77",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "26842",
+      "editais_citados": [
+        "387/2024",
+        "4/2025"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Castelo",
+      "municipio_codigo_ibge": 3201407,
+      "municipio_slug": "castelo",
+      "municipio_confianca": "baixa",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dio:indeterminado:edital-1-2026",
+      "fonte_id": "ioes-busca-dio",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Protocolo 1896821 PROCURADORIA GERAL DO ESTADO DO ESPÍRITO SANTO EXTRATO DO COMUNICADO Nº 03 - EDITAL Nº 01/2026 - PROCESSO SELETIVO - RESIDÊNCIA JURÍDICA Ficam reabertas as inscrições de 03 a 06/11/2",
+      "esfera": null,
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11603/77",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "26842",
+      "editais_citados": [
+        "11/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "não informado",
+      "municipio_codigo_ibge": null,
+      "municipio_slug": null,
+      "municipio_confianca": null,
+      "municipio_escopo": "indeterminado",
+      "municipio_origem": null,
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-10-02"
+    },
+    {
+      "chave": "ioes-dio:serra:11603-77",
+      "fonte_id": "ioes-busca-dio",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Protocolo 1896821 PROCURADORIA GERAL DO ESTADO DO ESPÍRITO SANTO EXTRATO DO COMUNICADO Nº 03 - EDITAL Nº 01/2026 - PROCESSO SELETIVO - RESIDÊNCIA JURÍDICA Ficam reabertas as inscrições de 03 a 06/11/2",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11603/77",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "26842",
+      "editais_citados": [],
+      "conteudo_truncado": false,
+      "municipio": "Serra",
+      "municipio_codigo_ibge": 3205002,
+      "municipio_slug": "serra",
+      "municipio_confianca": "baixa",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
       "chave": "ioes-dio:vitoria:11597-1",
       "fonte_id": "ioes-busca-dio",
       "orgao": "não informado",
@@ -3172,7 +3690,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -3206,7 +3724,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -3240,7 +3758,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -3281,7 +3799,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -3315,44 +3833,8 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
-    },
-    {
-      "chave": "ioes-dio:indeterminado:edital-1-2026",
-      "fonte_id": "ioes-busca-dio",
-      "orgao": "não informado",
-      "orgao_sigla": "não informado",
-      "titulo": "1896002 Polícia Penal do Espírito Santo - PPES PORTARIA Nº 244-S, DE 29 DE OUTUBRO DE 2026 O DIRETOR-GERAL DA POLÍCIA PENAL, no uso da atribuição que lhe confere o Art.9º, inciso IV, da Lei Complement",
-      "esfera": null,
-      "tipo": "processo_seletivo_simplificado",
-      "inscricoes": {
-        "inicio": null,
-        "fim": null
-      },
-      "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/portal/edicoes/download/11597/110",
-      "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-11-03",
-      "edicao": "26841",
-      "editais_citados": [
-        "10/2026"
-      ],
-      "conteudo_truncado": false,
-      "municipio": "não informado",
-      "municipio_codigo_ibge": null,
-      "municipio_slug": null,
-      "municipio_confianca": null,
-      "municipio_escopo": "indeterminado",
-      "municipio_origem": null,
-      "orgao_vinculado_id": null,
-      "fonte_tipo": "diario_oficial",
-      "uf": "ES",
-      "status_estimado": null,
-      "no_repositorio": false,
-      "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-02"
     },
     {
       "chave": "ioes-dio:indeterminado:edital-7-2026",
@@ -3389,7 +3871,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -3423,7 +3905,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -3457,7 +3939,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -3494,7 +3976,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -3531,7 +4013,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -3565,7 +4047,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -3601,7 +4083,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-14"
     },
     {
@@ -3641,7 +4123,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -3675,7 +4157,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -3713,7 +4195,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -3751,7 +4233,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -3785,7 +4267,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -3819,7 +4301,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -3853,7 +4335,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -3887,7 +4369,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -3924,7 +4406,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -3961,7 +4443,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -3995,7 +4477,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4029,7 +4511,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4068,7 +4550,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4104,7 +4586,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4138,7 +4620,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4175,7 +4657,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4209,7 +4691,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4243,7 +4725,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4277,7 +4759,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4311,7 +4793,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4345,7 +4827,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4379,7 +4861,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4416,7 +4898,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4454,7 +4936,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4488,7 +4970,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4527,7 +5009,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -4561,7 +5043,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4595,7 +5077,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4631,7 +5113,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4668,7 +5150,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4704,7 +5186,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4740,7 +5222,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4774,7 +5256,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4810,7 +5292,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4844,7 +5326,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4878,7 +5360,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -4913,7 +5395,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:cachoeiro-de-itapemirim:11587-5",
@@ -4947,7 +5430,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:sao-mateus:11587-5",
@@ -4981,7 +5465,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:vitoria:11587-5",
@@ -5015,7 +5500,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:sao-mateus:11587-115",
@@ -5049,7 +5535,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:indeterminado:11587-115",
@@ -5083,7 +5570,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:ibiracu:11587-115",
@@ -5120,7 +5608,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:vila-velha:11587-115",
@@ -5157,7 +5646,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:serra:11587-115",
@@ -5193,7 +5683,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:jaguare:11587-115",
@@ -5227,7 +5718,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:viana:11587-115",
@@ -5263,7 +5755,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dio:cariacica:11581-60",
@@ -9136,7 +9629,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -9173,7 +9666,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -9507,7 +10000,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -9541,7 +10034,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -9577,7 +10070,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -9613,7 +10106,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -9647,7 +10140,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -9681,7 +10174,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -9718,7 +10211,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -9942,7 +10435,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -10016,7 +10509,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -10053,7 +10546,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -10087,7 +10580,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -10123,7 +10616,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -10157,7 +10650,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -10193,7 +10686,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -10229,7 +10722,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -10724,7 +11217,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -10848,7 +11341,7 @@
       "fonte_id": "ioes-busca-dom",
       "orgao": "Prefeitura de Aracruz",
       "orgao_sigla": "não informado",
-      "titulo": "AUTORIZA A CONTRATAÇÃO DE PESSOAL NA ÁREA DA SAÚDE, POR TEMPO DETERMINADO, APROVADO NO PROCESSO SELETIVO SIMPLIFICADO SEMSA N.º 002/2026, E DÁ OUTRAS PROVIDÊNCIAS. A SECRETÁRIA DE SAÚDE, DO MUNICÍPIO ",
+      "titulo": "AUTORIZA A CONTRATAÇÃO DE PESSOAL NA ÁREA DE DESENVOLVIMENTO SOCIAL, POR TEMPO DETERMINADO, APROVADO NO PROCESSO SELETIVO SIMPLIFICADO SEMDS N.º 001/2026, E DÁ OUTRAS PROVIDÊNCIAS.",
       "esfera": "municipal",
       "tipo": "processo_seletivo_simplificado",
       "inscricoes": {
@@ -10856,16 +11349,17 @@
         "fim": null
       },
       "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11599/32",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/31",
       "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-11-03",
-      "edicao": "3119",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
       "editais_citados": [
-        "2/2026",
+        "1/2026",
         "10/2023",
         "4/2022",
+        "657/2025",
         "11/2026",
-        "4/2025"
+        "394/2025"
       ],
       "conteudo_truncado": false,
       "municipio": "Aracruz",
@@ -10878,10 +11372,51 @@
       "fonte_tipo": "diario_oficial",
       "uf": "ES",
       "status_estimado": null,
-      "no_repositorio": false,
-      "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "no_repositorio": true,
+      "registro_repositorio": "concurso-aracruz-es-semge-001-2026",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-06"
+    },
+    {
+      "chave": "ioes-dom:aracruz:11604-31",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Aracruz",
+      "orgao_sigla": "não informado",
+      "titulo": "AUTORIZA A CONTRATAÇÃO DE PESSOAL NA ÁREA DE DESENVOLVIMENTO SOCIAL, POR TEMPO DETERMINADO, APROVADO NO PROCESSO SELETIVO SIMPLIFICADO SEMDS N.º 001/2026, E DÁ OUTRAS PROVIDÊNCIAS.",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/31",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "10/2026",
+        "11/2026",
+        "868/2026",
+        "2025/2026",
+        "9/2025",
+        "505/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Aracruz",
+      "municipio_codigo_ibge": 3200607,
+      "municipio_slug": "aracruz",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": true,
+      "registro_repositorio": "concurso-aracruz-es-semge-001-2026",
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
     },
     {
       "chave": "ioes-dom:aracruz:11599-34",
@@ -10917,7 +11452,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -10953,7 +11488,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -10987,7 +11522,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -11021,7 +11556,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -11057,7 +11592,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -11095,7 +11630,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -11132,7 +11667,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:aracruz:11583-109",
@@ -12574,7 +13110,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -12611,7 +13147,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:bom-jesus-do-norte:11554-76",
@@ -12649,6 +13186,43 @@
       "ultima_deteccao": "2026-10-22",
       "primeira_deteccao": "2026-10-15",
       "ausente_na_fonte": true
+    },
+    {
+      "chave": "ioes-dom:cachoeiro-de-itapemirim:edital-5-2024",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Cachoeiro de Itapemirim",
+      "orgao_sigla": "não informado",
+      "titulo": "simplesmente CONTRATADO, têm entre si ajustado a prestação dos serviços descritos e caracterizados no campo 03 (três), nos termos da Lei Municipal nº 4.150/2022, mediante as cláusulas e condições adia",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/65",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "150/2022",
+        "638/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Cachoeiro de Itapemirim",
+      "municipio_codigo_ibge": 3201209,
+      "municipio_slug": "cachoeiro-de-itapemirim",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-10-13"
     },
     {
       "chave": "ioes-dom:cachoeiro-de-itapemirim:edital-4-2023",
@@ -12690,48 +13264,6 @@
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-29",
       "primeira_deteccao": "2026-10-22",
-      "ausente_na_fonte": true
-    },
-    {
-      "chave": "ioes-dom:cachoeiro-de-itapemirim:edital-5-2024",
-      "fonte_id": "ioes-busca-dom",
-      "orgao": "Prefeitura de Cachoeiro de Itapemirim",
-      "orgao_sigla": "não informado",
-      "titulo": "João Bley, nº 350, Nossa Senhora da Aparecida, no Município de Castelo, Estado do Espírito Santo, no Cargo de Professor M - 25h/a, com início em 06 de julho de 2026, do Processo Seletivo nº 05/2024, o",
-      "esfera": "municipal",
-      "tipo": "processo_seletivo_simplificado",
-      "inscricoes": {
-        "inicio": null,
-        "fim": null
-      },
-      "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11546/98",
-      "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-10-13",
-      "edicao": "3106",
-      "editais_citados": [
-        "565/2026",
-        "1408/2026",
-        "9/2026",
-        "1407/2026",
-        "627/2025",
-        "1415/2026"
-      ],
-      "conteudo_truncado": false,
-      "municipio": "Cachoeiro de Itapemirim",
-      "municipio_codigo_ibge": 3201209,
-      "municipio_slug": "cachoeiro-de-itapemirim",
-      "municipio_confianca": "alta",
-      "municipio_escopo": "municipal",
-      "municipio_origem": "nome",
-      "orgao_vinculado_id": null,
-      "fonte_tipo": "diario_oficial",
-      "uf": "ES",
-      "status_estimado": null,
-      "no_repositorio": false,
-      "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-20",
-      "primeira_deteccao": "2026-10-13",
       "ausente_na_fonte": true
     },
     {
@@ -12815,6 +13347,221 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dom:castelo:11604-57",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Castelo",
+      "orgao_sigla": "não informado",
+      "titulo": "Todos os Professores M, E e P Efetivos por meio do concurso público regido pelo Edital nº 002/2025/ PMCAS/ES participarão, obrigatoriamente, do processo de Remoção e Lotação Provisória. 1.4.1. Para os",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/57",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [],
+      "conteudo_truncado": false,
+      "municipio": "Castelo",
+      "municipio_codigo_ibge": 3201407,
+      "municipio_slug": "castelo",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:castelo:edital-2-2025",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Castelo",
+      "orgao_sigla": "não informado",
+      "titulo": "Todos os Professores M, E e P Efetivos por meio do concurso público regido pelo Edital nº 002/2025/ PMCAS/ES participarão, obrigatoriamente, do processo de Remoção e Lotação Provisória. 1.4.1. Para os",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/57",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [],
+      "conteudo_truncado": false,
+      "municipio": "Castelo",
+      "municipio_codigo_ibge": 3201407,
+      "municipio_slug": "castelo",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-10-29"
+    },
+    {
+      "chave": "ioes-dom:castelo:11604-63",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Castelo",
+      "orgao_sigla": "não informado",
+      "titulo": "qualificado no campo 02 (dois) chamado simplesmente CONTRATADO, têm entre si ajustado a prestação dos serviços descritos e caracterizados no campo 03 (três), nos termos da Lei Municipal nº 4.150/2022,",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/63",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "682/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Castelo",
+      "municipio_codigo_ibge": 3201407,
+      "municipio_slug": "castelo",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:castelo:edital-5-2024",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Castelo",
+      "orgao_sigla": "não informado",
+      "titulo": "qualificado no campo 02 (dois) chamado simplesmente CONTRATADO, têm entre si ajustado a prestação dos serviços descritos e caracterizados no campo 03 (três), nos termos da Lei Municipal nº 4.150/2022,",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/63",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "150/2022",
+        "640/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Castelo",
+      "municipio_codigo_ibge": 3201407,
+      "municipio_slug": "castelo",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-10-02"
+    },
+    {
+      "chave": "ioes-dom:castelo:11604-66",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Castelo",
+      "orgao_sigla": "não informado",
+      "titulo": "Parágrafo Único: O prazo do término do contrato previsto nesta cláusula poderá ser rescindido quando da nomeação de candidato aprovado em Concurso Público Municipal. CLÁUSULA QUARTA: O CONTRATADO deve",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/66",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "354/2025",
+        "150/2022"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Castelo",
+      "municipio_codigo_ibge": 3201407,
+      "municipio_slug": "castelo",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:castelo:11604-67",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Castelo",
+      "orgao_sigla": "não informado",
+      "titulo": "CLÁUSULA QUARTA - Nos moldes do § 4º, art. 7º, Lei nº 4.150, de 18 de maio de 2022, o contrato poderá ser encerrado ou alterado caso ocorra variação no número de matrículas, reordenamento de turmas, i",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/67",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "150/2022",
+        "145/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Castelo",
+      "municipio_codigo_ibge": 3201407,
+      "municipio_slug": "castelo",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
       "chave": "ioes-dom:castelo:edital-636-2026",
       "fonte_id": "ioes-busca-dom",
       "orgao": "Prefeitura de Castelo",
@@ -12850,7 +13597,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -12886,7 +13633,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -12924,7 +13671,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -12962,7 +13709,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-castelo-es-pmc-06-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -12996,7 +13743,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-castelo-es-pmc-06-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -13033,7 +13780,8 @@
       "no_repositorio": true,
       "registro_repositorio": "ps-castelo-es-pmc-06-2026",
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:castelo:11586-51",
@@ -13074,44 +13822,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
-    },
-    {
-      "chave": "ioes-dom:castelo:edital-5-2024",
-      "fonte_id": "ioes-busca-dom",
-      "orgao": "Prefeitura de Castelo",
-      "orgao_sigla": "não informado",
-      "titulo": "XXX-ES, residente e domiciliada na Rua Celsa Rosa de Oliveira Zanuncio, nº 75, Pouso Alto, no Município de Castelo, Estado do Espírito Santo, no Cargo de Professor M - 35 h/a, com início em 03 de junh",
-      "esfera": "municipal",
-      "tipo": "processo_seletivo_simplificado",
-      "inscricoes": {
-        "inicio": null,
-        "fim": null
-      },
-      "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11586/53",
-      "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-10-27",
-      "edicao": "3116",
-      "editais_citados": [
-        "571/2025",
-        "2166/2026"
-      ],
-      "conteudo_truncado": false,
-      "municipio": "Castelo",
-      "municipio_codigo_ibge": 3201407,
-      "municipio_slug": "castelo",
-      "municipio_confianca": "alta",
-      "municipio_escopo": "municipal",
-      "municipio_origem": "nome",
-      "orgao_vinculado_id": null,
-      "fonte_tipo": "diario_oficial",
-      "uf": "ES",
-      "status_estimado": null,
-      "no_repositorio": false,
-      "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-02"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:castelo:11586-54",
@@ -13147,7 +13859,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:castelo:edital-4-2026",
@@ -15388,7 +16101,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -15617,6 +16330,44 @@
       "ultima_deteccao": "2026-10-08",
       "primeira_deteccao": "2026-10-02",
       "ausente_na_fonte": true
+    },
+    {
+      "chave": "ioes-dom:domingos-martins:11604-101",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Domingos Martins",
+      "orgao_sigla": "não informado",
+      "titulo": "Domingos Martins - ES, 03 de novembro de 2026 EDUARDO JOSÉ RAMOS Prefeito Protocolo 1897394 A Prefeitura Municipal de Dores do Rio Preto, por meio da Comissão Organizadora do Processo Seletivo Simplif",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/101",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "11/2026",
+        "2/2026",
+        "6006/2025"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Domingos Martins",
+      "municipio_codigo_ibge": 3201902,
+      "municipio_slug": "domingos-martins",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
     },
     {
       "chave": "ioes-dom:domingos-martins:edital-3821-2026",
@@ -16024,7 +16775,7 @@
       "fonte_id": "ioes-busca-dom",
       "orgao": "Prefeitura de Dores do Rio Preto",
       "orgao_sigla": "não informado",
-      "titulo": "PROCESSO: 3821/2026 ID CidadES: 2026.025E0600002.01.0003 EDITAL - PE Nº 011/2026 SÔNIA MARIA MARIANO NICOLI SECRETARIA MUNICIPAL DE ASSISTÊNCIA SOCIAL Protocolo 1888618 Aditivo Protocolo 1888114 Dores",
+      "titulo": "Domingos Martins - ES, 03 de novembro de 2026 EDUARDO JOSÉ RAMOS Prefeito Protocolo 1897394 A Prefeitura Municipal de Dores do Rio Preto, por meio da Comissão Organizadora do Processo Seletivo Simplif",
       "esfera": "municipal",
       "tipo": "processo_seletivo_simplificado",
       "inscricoes": {
@@ -16032,17 +16783,11 @@
         "fim": null
       },
       "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11562/127",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/101",
       "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-10-19",
-      "edicao": "3110",
-      "editais_citados": [
-        "23/2024",
-        "10/2026",
-        "12/2026",
-        "641/2026",
-        "4/2023"
-      ],
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [],
       "conteudo_truncado": false,
       "municipio": "Dores do Rio Preto",
       "municipio_codigo_ibge": 3202009,
@@ -16056,9 +16801,8 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-26",
-      "primeira_deteccao": "2026-10-19",
-      "ausente_na_fonte": true
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-10-19"
     },
     {
       "chave": "ioes-dom:dores-do-rio-preto:11554-112",
@@ -16443,7 +17187,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -17195,6 +17939,42 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dom:governador-lindenberg:edital-905-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Governador Lindenberg",
+      "orgao_sigla": "não informado",
+      "titulo": "“DISPÕE SOBRE A HOMOLOGAÇÃO DO CONCURSO PÚBLICO Nº 02/2026 DO MUNICÍPIO DE GOVERNADOR LINDENBERG-ES”.",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/121",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "2/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Governador Lindenberg",
+      "municipio_codigo_ibge": 3202256,
+      "municipio_slug": "governador-lindenberg",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
       "chave": "ioes-dom:governador-lindenberg:edital-2-2026",
       "fonte_id": "ioes-busca-dom",
       "orgao": "Prefeitura de Governador Lindenberg",
@@ -17338,6 +18118,84 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dom:guarapari:11604-147",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Guarapari",
+      "orgao_sigla": "não informado",
+      "titulo": "OS CONTRATANTES RESOLVEM NESTE ATO E DE COMUM ACORDO, REALIZAR O DISTRATO EM CONFORMIDADE COM PROCESSO SELETIVO SIMPLIFICADO EDITAL 008/2025 À CONTRATAÇÃO EM CARÁTER TEMPORÁRIO, DE PROFISSIONAL NA ÁRE",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/147",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "1/2027",
+        "44/2026",
+        "4718/2026",
+        "11/2026",
+        "11/2027"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Guarapari",
+      "municipio_codigo_ibge": 3202405,
+      "municipio_slug": "guarapari",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:guarapari:edital-2-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Guarapari",
+      "orgao_sigla": "não informado",
+      "titulo": "OS CONTRATANTES RESOLVEM NESTE ATO E DE COMUM ACORDO, REALIZAR O DISTRATO EM CONFORMIDADE COM PROCESSO SELETIVO SIMPLIFICADO EDITAL 008/2025 À CONTRATAÇÃO EM CARÁTER TEMPORÁRIO, DE PROFISSIONAL NA ÁRE",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/147",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "400/2026",
+        "4893/2026",
+        "8/2025"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Guarapari",
+      "municipio_codigo_ibge": 3202405,
+      "municipio_slug": "guarapari",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-10-07"
+    },
+    {
       "chave": "ioes-dom:guarapari:11599-222",
       "fonte_id": "ioes-busca-dom",
       "orgao": "Prefeitura de Guarapari",
@@ -17371,7 +18229,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -17408,7 +18266,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -17446,7 +18304,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -17480,7 +18338,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -17518,7 +18376,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -17554,7 +18412,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -17590,48 +18448,8 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
-    },
-    {
-      "chave": "ioes-dom:guarapari:edital-2-2026",
-      "fonte_id": "ioes-busca-dom",
-      "orgao": "Prefeitura de Guarapari",
-      "orgao_sigla": "não informado",
-      "titulo": "DOM/ES - Edição Nº3.116 112 terça-feira, 27 de Outubro de 2026 Convocação 1ª Convocação Edital de Processo Seletivo Simplificado 0002/2026 para Contratação Temporária de pessoal no âmbito da Secretari",
-      "esfera": "municipal",
-      "tipo": "processo_seletivo_simplificado",
-      "inscricoes": {
-        "inicio": null,
-        "fim": null
-      },
-      "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11586/112",
-      "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-10-27",
-      "edicao": "3116",
-      "editais_citados": [
-        "4088/2026",
-        "10/2026",
-        "1/2026",
-        "4087/2026",
-        "6/2026"
-      ],
-      "conteudo_truncado": false,
-      "municipio": "Guarapari",
-      "municipio_codigo_ibge": 3202405,
-      "municipio_slug": "guarapari",
-      "municipio_confianca": "alta",
-      "municipio_escopo": "municipal",
-      "municipio_origem": "nome",
-      "orgao_vinculado_id": null,
-      "fonte_tipo": "diario_oficial",
-      "uf": "ES",
-      "status_estimado": null,
-      "no_repositorio": true,
-      "registro_repositorio": "ps-guarapari-es-semic-002-2026",
-      "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-07"
     },
     {
       "chave": "ioes-dom:guarapari:edital-1-2026",
@@ -18244,6 +19062,45 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dom:guacui:edital-762-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Guaçuí",
+      "orgao_sigla": "não informado",
+      "titulo": "DECRETO Nº 14.775/2026 Nomeia Comissão para realização, acompanhamento e fiscalização do Processo Seletivo Público Simplificado para contratação junto a Secretaria Municipal de Educação.",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/134",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "371/2025",
+        "775/2026",
+        "8080/2026",
+        "7663/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Guaçuí",
+      "municipio_codigo_ibge": 3202306,
+      "municipio_slug": "guacui",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
       "chave": "ioes-dom:guacui:11562-144",
       "fonte_id": "ioes-busca-dom",
       "orgao": "Prefeitura de Guaçuí",
@@ -18362,7 +19219,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -19310,6 +20167,115 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dom:itarana:edital-440-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Itarana",
+      "orgao_sigla": "não informado",
+      "titulo": "DOM/ES - Edição Nº3.120 162 quarta-feira, 4 de Novembro de 2026 Itarana Decreto DECRETO Nº 2.440/2026 HOMOLOGA O RESULTADO FINAL DO PROCESSO SELETIVO SIMPLIFICADO DESTINADO À FORMAÇÃO DE CADASTRO DE R",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/162",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "1/2026",
+        "350/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Itarana",
+      "municipio_codigo_ibge": 3202900,
+      "municipio_slug": "itarana",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:itarana:edital-1-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Itarana",
+      "orgao_sigla": "não informado",
+      "titulo": "Art. 3º O Processo Seletivo Simplificado terá validade de 12 (doze) meses, a contar da data de publicação deste Decreto, podendo ser prorrogado por igual período, nos moldes do item 10 do Edital PMI n",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/163",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [],
+      "conteudo_truncado": false,
+      "municipio": "Itarana",
+      "municipio_codigo_ibge": 3202900,
+      "municipio_slug": "itarana",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-10-02"
+    },
+    {
+      "chave": "ioes-dom:itarana:11604-163",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Itarana",
+      "orgao_sigla": "não informado",
+      "titulo": "Art. 3º O Processo Seletivo Simplificado terá validade de 12 (doze) meses, a contar da data de publicação deste Decreto, podendo ser prorrogado por igual período, nos moldes do item 10 do Edital PMI n",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/163",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "435/2026",
+        "4624/2026",
+        "388/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Itarana",
+      "municipio_codigo_ibge": 3202900,
+      "municipio_slug": "itarana",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
       "chave": "ioes-dom:itarana:11554-149",
       "fonte_id": "ioes-busca-dom",
       "orgao": "Prefeitura de Itarana",
@@ -19380,43 +20346,6 @@
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-22",
       "primeira_deteccao": "2026-10-15",
-      "ausente_na_fonte": true
-    },
-    {
-      "chave": "ioes-dom:itarana:edital-1-2026",
-      "fonte_id": "ioes-busca-dom",
-      "orgao": "Prefeitura de Itarana",
-      "orgao_sigla": "não informado",
-      "titulo": "DOM/ES - Edição Nº3.108 150 quinta-feira, 15 de Outubro de 2026 EDITAL PMI Nº 001/2026 - PROCESSO SELETIVO SIMPLIFICADO DIVULGAÇÃO DO RESULTADO PRELIMINAR FINAL A COMISSÃO ESPECIAL DE PROCESSO SELETIV",
-      "esfera": "municipal",
-      "tipo": "processo_seletivo_simplificado",
-      "inscricoes": {
-        "inicio": null,
-        "fim": null
-      },
-      "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11554/150",
-      "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-10-15",
-      "edicao": "3108",
-      "editais_citados": [
-        "350/2026"
-      ],
-      "conteudo_truncado": false,
-      "municipio": "Itarana",
-      "municipio_codigo_ibge": 3202900,
-      "municipio_slug": "itarana",
-      "municipio_confianca": "alta",
-      "municipio_escopo": "municipal",
-      "municipio_origem": "nome",
-      "orgao_vinculado_id": null,
-      "fonte_tipo": "diario_oficial",
-      "uf": "ES",
-      "status_estimado": null,
-      "no_repositorio": false,
-      "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-22",
-      "primeira_deteccao": "2026-10-02",
       "ausente_na_fonte": true
     },
     {
@@ -19725,6 +20654,74 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dom:jaguare:11604-165",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Jaguaré",
+      "orgao_sigla": "não informado",
+      "titulo": "Art. 4º As jornadas previstas no art. 2º serão aplicadas aos novos provimentos em cargo efetivo decorrentes de concurso público cujo edital seja",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/165",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [],
+      "conteudo_truncado": false,
+      "municipio": "Jaguaré",
+      "municipio_codigo_ibge": 3203056,
+      "municipio_slug": "jaguare",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:jaguare:11604-166",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Jaguaré",
+      "orgao_sigla": "não informado",
+      "titulo": "DOM/ES - Edição Nº3.120 166 quarta-feira, 4 de Novembro de 2026 publicado após a entrada em vigor desta Lei; § 1º Os editais de concurso público e os respectivos atos de admissão deverão indicar expre",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/166",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [],
+      "conteudo_truncado": false,
+      "municipio": "Jaguaré",
+      "municipio_codigo_ibge": 3203056,
+      "municipio_slug": "jaguare",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
       "chave": "ioes-dom:jaguare:11599-451",
       "fonte_id": "ioes-busca-dom",
       "orgao": "Prefeitura de Jaguaré",
@@ -19757,7 +20754,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -20022,11 +21019,11 @@
       "ausente_na_fonte": true
     },
     {
-      "chave": "ioes-dom:joao-neiva:edital-3-2026",
+      "chave": "ioes-dom:joao-neiva:11604-178",
       "fonte_id": "ioes-busca-dom",
       "orgao": "Prefeitura de João Neiva",
       "orgao_sigla": "não informado",
-      "titulo": "DOM/ES - Edição Nº3.114 190 sexta-feira, 23 de Outubro de 2026 João Neiva Edital PROCESSO SELETIVO SIMPLIFICADO SEMSA N° 003/2026. RESULTADO FINAL O MUNICÍPIO DE JOÃO NEIVA, por intermédio da Secretar",
+      "titulo": "Thays Mattos Liqui Presidente da Comissão Processo Seletivo Simplificado Semsa Nº 003/2026 Portaria n° 15.291, de 18 de setembro de 2026. Protocolo 1897132 PROCESSO SELETIVO SIMPLIFICADO - EDITAL N° 0",
       "esfera": "municipal",
       "tipo": "processo_seletivo_simplificado",
       "inscricoes": {
@@ -20034,11 +21031,16 @@
         "fim": null
       },
       "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11577/190",
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/178",
       "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-10-23",
-      "edicao": "3114",
-      "editais_citados": [],
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "562/2023",
+        "692/2024",
+        "613/2026",
+        "3/2026"
+      ],
       "conteudo_truncado": false,
       "municipio": "João Neiva",
       "municipio_codigo_ibge": 3203130,
@@ -20052,9 +21054,8 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "ps-joao-neiva-es-semsa-003-2026",
-      "ultima_deteccao": "2026-10-30",
-      "primeira_deteccao": "2026-10-02",
-      "ausente_na_fonte": true
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
     },
     {
       "chave": "ioes-dom:joao-neiva:edital-1-2026",
@@ -22350,6 +23351,86 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dom:nova-venecia:edital-82-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Nova Venécia",
+      "orgao_sigla": "não informado",
+      "titulo": "O PREFEITO DE NOVA VENÉCIA, Estado do Espírito Santo, no uso de suas atribuições legais conferidas no art. 64, inciso XXI, da Lei Orgânica Municipal, e considerando a decisão proferida no Processo Adm",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/218",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "818/2026",
+        "173/2026",
+        "710/2026",
+        "6853/2026",
+        "1/2023",
+        "644/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Nova Venécia",
+      "municipio_codigo_ibge": 3203908,
+      "municipio_slug": "nova-venecia",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:nova-venecia:11604-218",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Nova Venécia",
+      "orgao_sigla": "não informado",
+      "titulo": "O PREFEITO DE NOVA VENÉCIA, Estado do Espírito Santo, no uso de suas atribuições legais conferidas no art. 64, inciso XXI, da Lei Orgânica Municipal, e considerando a decisão proferida no Processo Adm",
+      "esfera": "municipal",
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/218",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "53/2025",
+        "16/2025",
+        "6/2025",
+        "4598/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Nova Venécia",
+      "municipio_codigo_ibge": 3203908,
+      "municipio_slug": "nova-venecia",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
       "chave": "ioes-dom:nova-venecia:edital-1-2023",
       "fonte_id": "ioes-busca-dom",
       "orgao": "Prefeitura de Nova Venécia",
@@ -22381,7 +23462,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-02"
+      "primeira_deteccao": "2026-10-02",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:nova-venecia:11586-131",
@@ -22415,7 +23497,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:nova-venecia:11586-133",
@@ -22449,7 +23532,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:nova-venecia:11586-135",
@@ -22483,7 +23567,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:nova-venecia:11586-137",
@@ -22517,7 +23602,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:nova-venecia:11586-139",
@@ -22551,7 +23637,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:nova-venecia:11586-143",
@@ -22585,7 +23672,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:nova-venecia:11586-145",
@@ -22619,7 +23707,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:nova-venecia:11586-150",
@@ -22661,7 +23750,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:nova-venecia:11562-192",
@@ -23091,7 +24181,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-08"
     },
     {
@@ -23347,7 +24437,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -23424,6 +24514,77 @@
       "ultima_deteccao": "2026-10-13",
       "primeira_deteccao": "2026-10-06",
       "ausente_na_fonte": true
+    },
+    {
+      "chave": "ioes-dom:presidente-kennedy:11604-147",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Presidente Kennedy",
+      "orgao_sigla": "não informado",
+      "titulo": "OS CONTRATANTES RESOLVEM NESTE ATO E DE COMUM ACORDO, REALIZAR O DISTRATO EM CONFORMIDADE COM PROCESSO SELETIVO SIMPLIFICADO EDITAL 008/2025 À CONTRATAÇÃO EM CARÁTER TEMPORÁRIO, DE PROFISSIONAL NA ÁRE",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/147",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "163/2026",
+        "3437/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Presidente Kennedy",
+      "municipio_codigo_ibge": 3204302,
+      "municipio_slug": "presidente-kennedy",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:rio-bananal:11604-227",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Rio Bananal",
+      "orgao_sigla": "não informado",
+      "titulo": "Art. 2º - Ficam mantidos os demais termos do PROCESSO SELETIVO SIMPLIFICADO SECTEL Nº 001/2026. Rio Bananal - ES, 03 de novembro de 2026. PEDRO JOSÉ LUCINDO SECRETÁRIO DE CULTURA, TURISMO, ESPORTE E L",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/227",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [],
+      "conteudo_truncado": false,
+      "municipio": "Rio Bananal",
+      "municipio_codigo_ibge": 3204351,
+      "municipio_slug": "rio-bananal",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
     },
     {
       "chave": "ioes-dom:rio-bananal:edital-55-2026",
@@ -23768,7 +24929,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-14"
     },
     {
@@ -23803,7 +24964,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-leopoldina:edital-615-2026",
@@ -24357,7 +25519,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -24393,7 +25555,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -24430,7 +25592,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -24464,7 +25626,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-26"
     },
     {
@@ -24498,7 +25660,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -24532,7 +25694,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -24568,7 +25730,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -24606,7 +25768,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -24643,7 +25805,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -24679,7 +25841,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -24713,7 +25875,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -24747,7 +25909,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -24781,7 +25943,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -24817,7 +25979,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -24851,7 +26013,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -24887,7 +26049,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -24921,7 +26083,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -24958,7 +26120,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -24997,7 +26159,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -25037,7 +26199,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-07"
     },
     {
@@ -25077,7 +26239,7 @@
       "status_estimado": null,
       "no_repositorio": true,
       "registro_repositorio": "concurso-santa-maria-jetiba-es-guarda-municipal-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -25119,7 +26281,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-maria-de-jetiba:11586-220",
@@ -25161,7 +26324,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-maria-de-jetiba:edital-1245-2026",
@@ -25199,7 +26363,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-21"
+      "primeira_deteccao": "2026-10-21",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-maria-de-jetiba:11586-230",
@@ -25236,7 +26401,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-maria-de-jetiba:11586-236",
@@ -25270,7 +26436,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-maria-de-jetiba:11583-397",
@@ -26617,6 +27784,194 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dom:santa-teresa:edital-3-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Santa Teresa",
+      "orgao_sigla": "não informado",
+      "titulo": ".° Convocar os candidatos abaixo relacionados, aprovados no Processo Seletivo Simplificado para o cargo de Motorista, Edital/SMAR/SUB.RH/Nº 003/2026, a comparecerem no Setor de Recursos Humanos, local",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/257",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "520/2026",
+        "865/2023"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Santa Teresa",
+      "municipio_codigo_ibge": 3204609,
+      "municipio_slug": "santa-teresa",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:santa-teresa:edital-159-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Santa Teresa",
+      "orgao_sigla": "não informado",
+      "titulo": ".° Convocar os candidatos abaixo relacionados, aprovados no Processo Seletivo Simplificado para o cargo de Motorista, Edital/SMAR/SUB.RH/Nº 003/2026, a comparecerem no Setor de Recursos Humanos, local",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/257",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "3729/2026",
+        "3/2026",
+        "474/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Santa Teresa",
+      "municipio_codigo_ibge": 3204609,
+      "municipio_slug": "santa-teresa",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:santa-teresa:11604-258",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Santa Teresa",
+      "orgao_sigla": "não informado",
+      "titulo": "DOM/ES - Edição Nº3.120 258 RELAÇÃO DE DOCUMENTOS A SEREM APRESENTADOS PARA ADMISSÃO OBRIGATÓRIO APRESENTAR A DOCUMENTAÇÃO NA ORDEM INFORMADA No ato da contratação, o candidato aprovado e classificado",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/258",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "159/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Santa Teresa",
+      "municipio_codigo_ibge": 3204609,
+      "municipio_slug": "santa-teresa",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:santa-teresa:11604-262",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Santa Teresa",
+      "orgao_sigla": "não informado",
+      "titulo": "PORTARIA/SEGOV/Nº 502/2026 NOMEIA COMISSÃO TRANSITÓRIA DE ANÁLISE DE RECURSOS DOS CANDIDATOS INSCRITOS NO PROCESSO SELETIVO SIMPLIFICADO- EDITAL/ SMAR/SUB.RH/Nº 009/2026.",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/262",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "55/2025",
+        "119/2025",
+        "350/2025",
+        "857/2022"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Santa Teresa",
+      "municipio_codigo_ibge": 3204609,
+      "municipio_slug": "santa-teresa",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:santa-teresa:edital-502-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de Santa Teresa",
+      "orgao_sigla": "não informado",
+      "titulo": "PORTARIA/SEGOV/Nº 502/2026 NOMEIA COMISSÃO TRANSITÓRIA DE ANÁLISE DE RECURSOS DOS CANDIDATOS INSCRITOS NO PROCESSO SELETIVO SIMPLIFICADO- EDITAL/ SMAR/SUB.RH/Nº 009/2026.",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/262",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "9/2026",
+        "857/2022",
+        "833/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Santa Teresa",
+      "municipio_codigo_ibge": 3204609,
+      "municipio_slug": "santa-teresa",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
       "chave": "ioes-dom:santa-teresa:edital-71-2026",
       "fonte_id": "ioes-busca-dom",
       "orgao": "Prefeitura de Santa Teresa",
@@ -26652,7 +28007,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -26688,7 +28043,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -26726,7 +28081,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -26764,7 +28119,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-14"
     },
     {
@@ -26800,7 +28155,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -26836,7 +28191,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -26872,7 +28227,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -26908,7 +28263,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -26947,7 +28302,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-teresa:11586-166",
@@ -26983,7 +28339,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-teresa:edital-155-2026",
@@ -27020,7 +28377,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-26"
+      "primeira_deteccao": "2026-10-26",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-teresa:edital-156-2026",
@@ -27058,7 +28416,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-teresa:11586-169",
@@ -27094,7 +28453,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-teresa:edital-7-2026",
@@ -27130,7 +28490,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-02"
+      "primeira_deteccao": "2026-10-02",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-teresa:11586-289",
@@ -27164,7 +28525,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-teresa:edital-9-2026",
@@ -29068,7 +30430,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:sao-domingos-do-norte:11562-212",
@@ -29225,6 +30588,156 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dom:sao-gabriel-da-palha:edital-6355-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de São Gabriel da Palha",
+      "orgao_sigla": "não informado",
+      "titulo": "“HOMOLOGA RESULTADO DE PROCESSO SELETIVO PARA CADASTRO DE RESERVA DE CARGOS ADMINISTRATIVOS NO ÂMBITO DA ADMINISTRAÇÃO PÚBLICA MUNICIPAL-SECRETARIA MUNICIPAL DE EDUCAÇÃO Nº 05/2026” TIAGO ROCHA, Prefe",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/269",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "5/2026",
+        "500/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "São Gabriel da Palha",
+      "municipio_codigo_ibge": 3204708,
+      "municipio_slug": "sao-gabriel-da-palha",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": true,
+      "registro_repositorio": "ps-sao-gabriel-da-palha-es-seme-05-2026",
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:sao-gabriel-da-palha:edital-3-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de São Gabriel da Palha",
+      "orgao_sigla": "não informado",
+      "titulo": "DOM/ES - Edição Nº3.120 272 quarta-feira, 4 de Novembro de 2026 Ana Julia Mauri da Silva Membro - Comissão Especial Portaria nº 12.500/2026 Danielle Cuquetto Arpini Membro - Comissão Especial Portaria",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/272",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "11/2026",
+        "562/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "São Gabriel da Palha",
+      "municipio_codigo_ibge": 3204708,
+      "municipio_slug": "sao-gabriel-da-palha",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-10-15"
+    },
+    {
+      "chave": "ioes-dom:sao-gabriel-da-palha:edital-260-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de São Gabriel da Palha",
+      "orgao_sigla": "não informado",
+      "titulo": "DOM/ES - Edição Nº3.120 272 quarta-feira, 4 de Novembro de 2026 Ana Julia Mauri da Silva Membro - Comissão Especial Portaria nº 12.500/2026 Danielle Cuquetto Arpini Membro - Comissão Especial Portaria",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/272",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "3/2026",
+        "6024/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "São Gabriel da Palha",
+      "municipio_codigo_ibge": 3204708,
+      "municipio_slug": "sao-gabriel-da-palha",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:sao-gabriel-da-palha:11604-273",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "Prefeitura de São Gabriel da Palha",
+      "orgao_sigla": "não informado",
+      "titulo": "DOM/ES - Edição Nº3.120 273 quarta-feira, 4 de Novembro de 2026 R E S O L V E: Art. 1.º - CONVOCAR os candidatos classificados no Processo Seletivo nº 03/2026, conforme relação constante no Anexo Únic",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/273",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "623/2026",
+        "11/2026",
+        "12/2026",
+        "2025/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "São Gabriel da Palha",
+      "municipio_codigo_ibge": 3204708,
+      "municipio_slug": "sao-gabriel-da-palha",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
       "chave": "ioes-dom:sao-gabriel-da-palha:11594-313",
       "fonte_id": "ioes-busca-dom",
       "orgao": "Prefeitura de São Gabriel da Palha",
@@ -29257,7 +30770,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -29296,7 +30809,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:sao-gabriel-da-palha:edital-258-2026",
@@ -29333,7 +30847,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:sao-gabriel-da-palha:edital-254-2026",
@@ -29784,43 +31299,6 @@
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-23",
       "primeira_deteccao": "2026-10-16",
-      "ausente_na_fonte": true
-    },
-    {
-      "chave": "ioes-dom:sao-gabriel-da-palha:edital-3-2026",
-      "fonte_id": "ioes-busca-dom",
-      "orgao": "Prefeitura de São Gabriel da Palha",
-      "orgao_sigla": "não informado",
-      "titulo": "DOM/ES - Edição Nº3.108 206 quinta-feira, 15 de Outubro de 2026 Edital EDITAL DO PROCESSO SELETIVO SIMPLIFICADO EMERGENCIAL PARA FORMAÇÃO DE CADASTRO DE RESERVA DA SECRETARIA MUNICIPAL DE ASSISTÊNCIA,",
-      "esfera": "municipal",
-      "tipo": "processo_seletivo_simplificado",
-      "inscricoes": {
-        "inicio": null,
-        "fim": null
-      },
-      "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11554/206",
-      "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-10-15",
-      "edicao": "3108",
-      "editais_citados": [
-        "562/2026"
-      ],
-      "conteudo_truncado": false,
-      "municipio": "São Gabriel da Palha",
-      "municipio_codigo_ibge": 3204708,
-      "municipio_slug": "sao-gabriel-da-palha",
-      "municipio_confianca": "alta",
-      "municipio_escopo": "municipal",
-      "municipio_origem": "nome",
-      "orgao_vinculado_id": null,
-      "fonte_tipo": "diario_oficial",
-      "uf": "ES",
-      "status_estimado": null,
-      "no_repositorio": false,
-      "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-22",
-      "primeira_deteccao": "2026-10-15",
       "ausente_na_fonte": true
     },
     {
@@ -31048,7 +32526,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-26"
     },
     {
@@ -31084,7 +32562,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -31126,7 +32604,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:viana:edital-242-2026",
@@ -32978,7 +34457,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -33014,7 +34493,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -33914,7 +35393,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-26"
     },
     {
@@ -33950,7 +35429,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -33990,7 +35469,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -34587,6 +36066,548 @@
       "ausente_na_fonte": true
     },
     {
+      "chave": "ioes-dom:viana:edital-762-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "DECRETO Nº 14.775/2026 Nomeia Comissão para realização, acompanhamento e fiscalização do Processo Seletivo Público Simplificado para contratação junto a Secretaria Municipal de Educação.",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/134",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "371/2025",
+        "775/2026",
+        "8080/2026",
+        "7663/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Viana",
+      "municipio_codigo_ibge": 3205101,
+      "municipio_slug": "viana",
+      "municipio_confianca": "baixa",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:indeterminado:11604-134",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "DECRETO Nº 14.775/2026 Nomeia Comissão para realização, acompanhamento e fiscalização do Processo Seletivo Público Simplificado para contratação junto a Secretaria Municipal de Educação.",
+      "esfera": null,
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/134",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [],
+      "conteudo_truncado": false,
+      "municipio": "não informado",
+      "municipio_codigo_ibge": null,
+      "municipio_slug": null,
+      "municipio_confianca": null,
+      "municipio_escopo": "indeterminado",
+      "municipio_origem": null,
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:guacui:11604-134",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "DECRETO Nº 14.775/2026 Nomeia Comissão para realização, acompanhamento e fiscalização do Processo Seletivo Público Simplificado para contratação junto a Secretaria Municipal de Educação.",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/134",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "58/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Guaçuí",
+      "municipio_codigo_ibge": 3202306,
+      "municipio_slug": "guacui",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:indeterminado:11604-147",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "OS CONTRATANTES RESOLVEM NESTE ATO E DE COMUM ACORDO, REALIZAR O DISTRATO EM CONFORMIDADE COM PROCESSO SELETIVO SIMPLIFICADO EDITAL 008/2025 À CONTRATAÇÃO EM CARÁTER TEMPORÁRIO, DE PROFISSIONAL NA ÁRE",
+      "esfera": null,
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/147",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [],
+      "conteudo_truncado": false,
+      "municipio": "não informado",
+      "municipio_codigo_ibge": null,
+      "municipio_slug": null,
+      "municipio_confianca": null,
+      "municipio_escopo": "indeterminado",
+      "municipio_origem": null,
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:indeterminado:11604-177",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Douglas Garcia dos Santos Presidente Cristiana Ribeiro Tavares Eluzieti de Bortoli Doano Membro Membro Protocolo 1897266 Convocação PROCESSO SELETIVO SIMPLIFICADO - EDITAL N° 001/2025 A Comissão do Pr",
+      "esfera": null,
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/177",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [],
+      "conteudo_truncado": false,
+      "municipio": "não informado",
+      "municipio_codigo_ibge": null,
+      "municipio_slug": null,
+      "municipio_confianca": null,
+      "municipio_escopo": "indeterminado",
+      "municipio_origem": null,
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:joao-neiva:edital-2-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Douglas Garcia dos Santos Presidente Cristiana Ribeiro Tavares Eluzieti de Bortoli Doano Membro Membro Protocolo 1897266 Convocação PROCESSO SELETIVO SIMPLIFICADO - EDITAL N° 001/2025 A Comissão do Pr",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/177",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "399/2022"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "João Neiva",
+      "municipio_codigo_ibge": 3203130,
+      "municipio_slug": "joao-neiva",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-10-02"
+    },
+    {
+      "chave": "ioes-dom:joao-neiva:edital-1-2025",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Douglas Garcia dos Santos Presidente Cristiana Ribeiro Tavares Eluzieti de Bortoli Doano Membro Membro Protocolo 1897266 Convocação PROCESSO SELETIVO SIMPLIFICADO - EDITAL N° 001/2025 A Comissão do Pr",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/177",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "128/2025",
+        "11/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "João Neiva",
+      "municipio_codigo_ibge": 3203130,
+      "municipio_slug": "joao-neiva",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-10-02"
+    },
+    {
+      "chave": "ioes-dom:joao-neiva:edital-2-2025",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Douglas Garcia dos Santos Presidente Cristiana Ribeiro Tavares Eluzieti de Bortoli Doano Membro Membro Protocolo 1897266 Convocação PROCESSO SELETIVO SIMPLIFICADO - EDITAL N° 001/2025 A Comissão do Pr",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/177",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "509/2025",
+        "11/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "João Neiva",
+      "municipio_codigo_ibge": 3203130,
+      "municipio_slug": "joao-neiva",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-10-02"
+    },
+    {
+      "chave": "ioes-dom:joao-neiva:edital-3-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Douglas Garcia dos Santos Presidente Cristiana Ribeiro Tavares Eluzieti de Bortoli Doano Membro Membro Protocolo 1897266 Convocação PROCESSO SELETIVO SIMPLIFICADO - EDITAL N° 001/2025 A Comissão do Pr",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/177",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "291/2026",
+        "11/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "João Neiva",
+      "municipio_codigo_ibge": 3203130,
+      "municipio_slug": "joao-neiva",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-10-02"
+    },
+    {
+      "chave": "ioes-dom:vila-velha:11604-178",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Thays Mattos Liqui Presidente da Comissão Processo Seletivo Simplificado Semsa Nº 003/2026 Portaria n° 15.291, de 18 de setembro de 2026. Protocolo 1897132 PROCESSO SELETIVO SIMPLIFICADO - EDITAL N° 0",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/178",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "562/2023",
+        "692/2024",
+        "613/2026",
+        "3/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Vila Velha",
+      "municipio_codigo_ibge": 3205200,
+      "municipio_slug": "vila-velha",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:castelo:11604-178",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Thays Mattos Liqui Presidente da Comissão Processo Seletivo Simplificado Semsa Nº 003/2026 Portaria n° 15.291, de 18 de setembro de 2026. Protocolo 1897132 PROCESSO SELETIVO SIMPLIFICADO - EDITAL N° 0",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/178",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "562/2023",
+        "692/2024",
+        "613/2026",
+        "3/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "Castelo",
+      "municipio_codigo_ibge": 3201407,
+      "municipio_slug": "castelo",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:indeterminado:11604-225",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "A organização do trabalho, a seleção, a designação, a jornada, a remuneração, a lotação e as atribuições dos profissionais observarão a legislação municipal aplicável, o plano de carreira, as normas d",
+      "esfera": null,
+      "tipo": "concurso_publico",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/225",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [],
+      "conteudo_truncado": false,
+      "municipio": "não informado",
+      "municipio_codigo_ibge": null,
+      "municipio_slug": null,
+      "municipio_confianca": null,
+      "municipio_escopo": "indeterminado",
+      "municipio_origem": null,
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:rio-bananal:edital-1-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "Art. 2º - Ficam mantidos os demais termos do PROCESSO SELETIVO SIMPLIFICADO SECTEL Nº 001/2026. Rio Bananal - ES, 03 de novembro de 2026. PEDRO JOSÉ LUCINDO SECRETÁRIO DE CULTURA, TURISMO, ESPORTE E L",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/227",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [],
+      "conteudo_truncado": false,
+      "municipio": "Rio Bananal",
+      "municipio_codigo_ibge": 3204351,
+      "municipio_slug": "rio-bananal",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-10-19"
+    },
+    {
+      "chave": "ioes-dom:santa-leopoldina:11604-257",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": ".° Convocar os candidatos abaixo relacionados, aprovados no Processo Seletivo Simplificado para o cargo de Motorista, Edital/SMAR/SUB.RH/Nº 003/2026, a comparecerem no Setor de Recursos Humanos, local",
+      "esfera": "municipal",
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/257",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [],
+      "conteudo_truncado": false,
+      "municipio": "Santa Leopoldina",
+      "municipio_codigo_ibge": 3204500,
+      "municipio_slug": "santa-leopoldina",
+      "municipio_confianca": "alta",
+      "municipio_escopo": "municipal",
+      "municipio_origem": "nome",
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
+      "chave": "ioes-dom:indeterminado:edital-500-2026",
+      "fonte_id": "ioes-busca-dom",
+      "orgao": "não informado",
+      "orgao_sigla": "não informado",
+      "titulo": "DOM/ES - Edição Nº3.120 272 quarta-feira, 4 de Novembro de 2026 Ana Julia Mauri da Silva Membro - Comissão Especial Portaria nº 12.500/2026 Danielle Cuquetto Arpini Membro - Comissão Especial Portaria",
+      "esfera": null,
+      "tipo": "processo_seletivo_simplificado",
+      "inscricoes": {
+        "inicio": null,
+        "fim": null
+      },
+      "vagas_informadas": null,
+      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11604/272",
+      "categoria": "ato_diario",
+      "data_publicacao_ato": "2026-11-04",
+      "edicao": "3120",
+      "editais_citados": [
+        "500/2026",
+        "10/2026",
+        "11/2026"
+      ],
+      "conteudo_truncado": false,
+      "municipio": "não informado",
+      "municipio_codigo_ibge": null,
+      "municipio_slug": null,
+      "municipio_confianca": null,
+      "municipio_escopo": "indeterminado",
+      "municipio_origem": null,
+      "orgao_vinculado_id": null,
+      "fonte_tipo": "diario_oficial",
+      "uf": "ES",
+      "status_estimado": null,
+      "no_repositorio": false,
+      "registro_repositorio": null,
+      "ultima_deteccao": "2026-11-04",
+      "primeira_deteccao": "2026-11-04"
+    },
+    {
       "chave": "ioes-dom:afonso-claudio:11599-11",
       "fonte_id": "ioes-busca-dom",
       "orgao": "não informado",
@@ -34617,7 +36638,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -34653,7 +36674,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -34690,7 +36711,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -34726,7 +36747,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -34763,7 +36784,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -34799,7 +36820,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -34833,7 +36854,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-09"
     },
     {
@@ -34867,7 +36888,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -34901,7 +36922,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-14"
     },
     {
@@ -34935,7 +36956,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -34969,7 +36990,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -35003,7 +37024,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -35037,7 +37058,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -35071,7 +37092,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -35112,7 +37133,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -35149,7 +37170,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -35183,7 +37204,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -35221,7 +37242,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -35258,7 +37279,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -35292,7 +37313,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -35329,7 +37350,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -35365,7 +37386,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -35399,7 +37420,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -35433,7 +37454,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -35473,7 +37494,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -35511,7 +37532,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-11-03"
     },
     {
@@ -35545,7 +37566,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-21"
     },
     {
@@ -35582,7 +37603,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -35616,7 +37637,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -35652,7 +37673,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -35686,7 +37707,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -35723,7 +37744,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -35760,7 +37781,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -35794,7 +37815,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -35832,7 +37853,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -35866,42 +37887,8 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-21"
-    },
-    {
-      "chave": "ioes-dom:castelo:edital-2-2025",
-      "fonte_id": "ioes-busca-dom",
-      "orgao": "não informado",
-      "orgao_sigla": "não informado",
-      "titulo": "Art. 3º Todos os professores ingressantes por meio do concurso público regido pelo Edital nº 002/2025/ PMCAS/ES participarão, obrigatoriamente, do processo de remoção. § 1º Para os professores ingress",
-      "esfera": "municipal",
-      "tipo": "concurso_publico",
-      "inscricoes": {
-        "inicio": null,
-        "fim": null
-      },
-      "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11594/132",
-      "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-10-29",
-      "edicao": "3118",
-      "editais_citados": [],
-      "conteudo_truncado": false,
-      "municipio": "Castelo",
-      "municipio_codigo_ibge": 3201407,
-      "municipio_slug": "castelo",
-      "municipio_confianca": "baixa",
-      "municipio_escopo": "municipal",
-      "municipio_origem": "nome",
-      "orgao_vinculado_id": null,
-      "fonte_tipo": "diario_oficial",
-      "uf": "ES",
-      "status_estimado": null,
-      "no_repositorio": false,
-      "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-29"
     },
     {
       "chave": "ioes-dom:colatina:edital-373-2025",
@@ -35938,7 +37925,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -35974,7 +37961,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-15"
     },
     {
@@ -36013,7 +38000,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -36052,7 +38039,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -36086,7 +38073,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -36123,7 +38110,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -36160,7 +38147,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -36196,7 +38183,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -36232,7 +38219,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -36266,7 +38253,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -36300,7 +38287,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-15"
     },
     {
@@ -36336,7 +38323,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -36372,7 +38359,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -36409,7 +38396,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -36445,7 +38432,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -36481,7 +38468,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-06"
     },
     {
@@ -36517,7 +38504,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -36553,7 +38540,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -36589,7 +38576,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-29"
     },
     {
@@ -36627,7 +38614,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -36665,7 +38652,7 @@
       "status_estimado": null,
       "no_repositorio": false,
       "registro_repositorio": null,
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-28"
     },
     {
@@ -36702,7 +38689,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:aracruz:11586-41",
@@ -36740,7 +38728,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:indeterminado:edital-6-2026",
@@ -36774,7 +38763,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-23"
+      "primeira_deteccao": "2026-10-23",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:castelo:11586-53",
@@ -36808,7 +38798,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:guarapari:11586-112",
@@ -36842,7 +38833,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:santa-leopoldina:11586-163",
@@ -36878,7 +38870,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:sao-domingos-do-norte:edital-259-2026",
@@ -36916,7 +38909,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-27"
+      "primeira_deteccao": "2026-10-27",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:sao-gabriel-da-palha:edital-6024-2026",
@@ -36953,7 +38947,8 @@
       "no_repositorio": false,
       "registro_repositorio": null,
       "ultima_deteccao": "2026-11-03",
-      "primeira_deteccao": "2026-10-06"
+      "primeira_deteccao": "2026-10-06",
+      "ausente_na_fonte": true
     },
     {
       "chave": "ioes-dom:indeterminado:11583-11",
@@ -39460,45 +41455,6 @@
       "ausente_na_fonte": true
     },
     {
-      "chave": "ioes-dom:joao-neiva:edital-2-2026",
-      "fonte_id": "ioes-busca-dom",
-      "orgao": "não informado",
-      "orgao_sigla": "não informado",
-      "titulo": "Comissão de Seleção e Chamamento Publico - SEMADES ________________________ Leonardo Antonio Pereira Giacomin Presidente da Comissão de Seleção Protocolo 1888948 Convocação PROCESSO SELETIVO SIMPLIFIC",
-      "esfera": "municipal",
-      "tipo": "processo_seletivo_simplificado",
-      "inscricoes": {
-        "inicio": null,
-        "fim": null
-      },
-      "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11566/115",
-      "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-10-20",
-      "edicao": "3111",
-      "editais_citados": [
-        "10/2026",
-        "1/2025",
-        "128/2025"
-      ],
-      "conteudo_truncado": false,
-      "municipio": "João Neiva",
-      "municipio_codigo_ibge": 3203130,
-      "municipio_slug": "joao-neiva",
-      "municipio_confianca": "alta",
-      "municipio_escopo": "municipal",
-      "municipio_origem": "nome",
-      "orgao_vinculado_id": null,
-      "fonte_tipo": "diario_oficial",
-      "uf": "ES",
-      "status_estimado": null,
-      "no_repositorio": false,
-      "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-27",
-      "primeira_deteccao": "2026-10-02",
-      "ausente_na_fonte": true
-    },
-    {
       "chave": "ioes-dom:joao-neiva:11566-115",
       "fonte_id": "ioes-busca-dom",
       "orgao": "não informado",
@@ -40302,41 +42258,6 @@
       "registro_repositorio": null,
       "ultima_deteccao": "2026-10-26",
       "primeira_deteccao": "2026-10-06",
-      "ausente_na_fonte": true
-    },
-    {
-      "chave": "ioes-dom:rio-bananal:edital-1-2026",
-      "fonte_id": "ioes-busca-dom",
-      "orgao": "não informado",
-      "orgao_sigla": "não informado",
-      "titulo": "BRUNO PELLA Prefeito Municipal Protocolo 1888460 RIO BANANAL SECRETARIA MUNICIPAL DE CULTURA, TURISMO, ESPORTE E LAZER DE RIO BANANAL Santa Leopoldina EDITAL DO PROCESSO SELETIVO SIMPLIFICADO SECTEL N",
-      "esfera": "municipal",
-      "tipo": "processo_seletivo_simplificado",
-      "inscricoes": {
-        "inicio": null,
-        "fim": null
-      },
-      "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11562/204",
-      "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-10-19",
-      "edicao": "3110",
-      "editais_citados": [],
-      "conteudo_truncado": false,
-      "municipio": "Rio Bananal",
-      "municipio_codigo_ibge": 3204351,
-      "municipio_slug": "rio-bananal",
-      "municipio_confianca": "alta",
-      "municipio_escopo": "municipal",
-      "municipio_origem": "nome",
-      "orgao_vinculado_id": null,
-      "fonte_tipo": "diario_oficial",
-      "uf": "ES",
-      "status_estimado": null,
-      "no_repositorio": false,
-      "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-26",
-      "primeira_deteccao": "2026-10-19",
       "ausente_na_fonte": true
     },
     {
@@ -46604,45 +48525,6 @@
       "ausente_na_fonte": true
     },
     {
-      "chave": "ioes-dom:joao-neiva:edital-1-2025",
-      "fonte_id": "ioes-busca-dom",
-      "orgao": "não informado",
-      "orgao_sigla": "não informado",
-      "titulo": "DOM/ES - Edição Nº3.100 261 sexta-feira, 2 de Outubro de 2026 Convocação Mantenópolis PROCESSO SELETIVO SIMPLIFICADO - EDITAL N° 001/2025 A Comissão do Processo Seletivo Simplificado Nº 001/2025 - SEM",
-      "esfera": "municipal",
-      "tipo": "processo_seletivo_simplificado",
-      "inscricoes": {
-        "inicio": null,
-        "fim": null
-      },
-      "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11519/261",
-      "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-10-02",
-      "edicao": "3100",
-      "editais_citados": [
-        "128/2025",
-        "10/2026",
-        "1347/2026"
-      ],
-      "conteudo_truncado": false,
-      "municipio": "João Neiva",
-      "municipio_codigo_ibge": 3203130,
-      "municipio_slug": "joao-neiva",
-      "municipio_confianca": "alta",
-      "municipio_escopo": "municipal",
-      "municipio_origem": "nome",
-      "orgao_vinculado_id": null,
-      "fonte_tipo": "diario_oficial",
-      "uf": "ES",
-      "status_estimado": null,
-      "no_repositorio": false,
-      "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-09",
-      "primeira_deteccao": "2026-10-02",
-      "ausente_na_fonte": true
-    },
-    {
       "chave": "ioes-dom:pedro-canario:11519-269",
       "fonte_id": "ioes-busca-dom",
       "orgao": "não informado",
@@ -48526,44 +50408,6 @@
       "ausente_na_fonte": true
     },
     {
-      "chave": "ioes-dom:joao-neiva:edital-2-2025",
-      "fonte_id": "ioes-busca-dom",
-      "orgao": "não informado",
-      "orgao_sigla": "não informado",
-      "titulo": "FIOS E DEFERIDA TRILHOS PROJETO CAMERATA INDEFERIDA CORDA E CELLO 50.738.271 MARLOVA MARIA CASARA 49.048.091 RICARDO ALIPRANDI RODRIGUES ASSOCIAÇÃO AMIGOS DA JUSTIÇA Douglas Garcia dos Santos Presiden",
-      "esfera": "municipal",
-      "tipo": "processo_seletivo_simplificado",
-      "inscricoes": {
-        "inicio": null,
-        "fim": null
-      },
-      "vagas_informadas": null,
-      "url": "https://ioes.dio.es.gov.br/dom/portal/edicoes/download/11508/159",
-      "categoria": "ato_diario",
-      "data_publicacao_ato": "2026-09-28",
-      "edicao": "3096",
-      "editais_citados": [
-        "509/2025",
-        "9/2026"
-      ],
-      "conteudo_truncado": false,
-      "municipio": "João Neiva",
-      "municipio_codigo_ibge": 3203130,
-      "municipio_slug": "joao-neiva",
-      "municipio_confianca": "alta",
-      "municipio_escopo": "municipal",
-      "municipio_origem": "nome",
-      "orgao_vinculado_id": null,
-      "fonte_tipo": "diario_oficial",
-      "uf": "ES",
-      "status_estimado": null,
-      "no_repositorio": false,
-      "registro_repositorio": null,
-      "ultima_deteccao": "2026-10-04",
-      "primeira_deteccao": "2026-10-02",
-      "ausente_na_fonte": true
-    },
-    {
       "chave": "ioes-dom:indeterminado:11508-285",
       "fonte_id": "ioes-busca-dom",
       "orgao": "não informado",
@@ -49425,7 +51269,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-professores-habilitados-24-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -49455,7 +51299,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-tjes-es-tic-01-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -49485,7 +51329,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-apoio-escolar-cuidador-28-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -49515,7 +51359,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-professores-tecnica-29-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -49545,7 +51389,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-professores-nao-habilitados-30-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-09-23"
     },
     {
@@ -49668,7 +51512,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-sesa-es-emergencial-nivel-medio-008-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-09-28"
     },
     {
@@ -49698,7 +51542,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-sesa-es-emergencial-nivel-superior-007-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-09-28"
     },
     {
@@ -49728,7 +51572,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-sesa-es-emergencial-medico-006-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-09-28"
     },
     {
@@ -49758,7 +51602,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-sesa-es-emergencial-lacen-005-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-09-28"
     },
     {
@@ -49788,7 +51632,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-pmes-es-tecnico-farmacia-004-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-10-02"
     },
     {
@@ -49818,7 +51662,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-pmes-es-tecnico-laboratorio-003-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-09-29"
     },
     {
@@ -49879,7 +51723,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-diretor-escolar-34-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-09-28"
     },
     {
@@ -49909,7 +51753,7 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-coordenador-pedagogico-35-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-09-28"
     },
     {
@@ -49939,20 +51783,20 @@
       "conteudo_truncado": false,
       "no_repositorio": true,
       "registro_repositorio": "ps-sedu-es-casf-33-2026",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "primeira_deteccao": "2026-09-28"
     }
   ],
   "janela_ioes_dias": 7,
   "retencao_atos_dias": 90,
   "descartados_por_retencao": 0,
-  "atos_diario_novos": 63,
+  "atos_diario_novos": 45,
   "cobertura_municipios": {
     "total_municipios": 78,
     "com_registro_curado": 21,
-    "com_achado_na_janela": 35,
+    "com_achado_na_janela": 40,
     "com_achado_acumulado": 70,
-    "sem_sinal_algum": 38,
+    "sem_sinal_algum": 35,
     "slugs_com_achado_acumulado": [
       "afonso-claudio",
       "agua-doce-do-norte",
@@ -50039,6 +51883,7 @@
       "castelo",
       "colatina",
       "domingos-martins",
+      "dores-do-rio-preto",
       "fundao",
       "governador-lindenberg",
       "guacui",
@@ -50047,6 +51892,7 @@
       "iconha",
       "irupi",
       "itaguacu",
+      "itarana",
       "iuna",
       "jaguare",
       "joao-neiva",
@@ -50057,10 +51903,11 @@
       "pinheiros",
       "piuma",
       "ponto-belo",
+      "presidente-kennedy",
+      "rio-bananal",
       "santa-leopoldina",
       "santa-maria-de-jetiba",
       "santa-teresa",
-      "sao-domingos-do-norte",
       "sao-gabriel-da-palha",
       "serra",
       "viana",
@@ -50151,12 +51998,10 @@
       "conceicao-da-barra",
       "conceicao-do-castelo",
       "divino-de-sao-lourenco",
-      "dores-do-rio-preto",
       "ecoporanga",
       "ibatiba",
       "ibitirama",
       "itapemirim",
-      "itarana",
       "jeronimo-monteiro",
       "laranja-da-terra",
       "marataizes",
@@ -50168,9 +52013,8 @@
       "muqui",
       "pancas",
       "pedro-canario",
-      "presidente-kennedy",
-      "rio-bananal",
       "rio-novo-do-sul",
+      "sao-domingos-do-norte",
       "sao-jose-do-calcado",
       "sao-mateus",
       "sao-roque-do-canaa",
@@ -50186,8 +52030,8 @@
   "municipios_nao_mapeados": [
     {
       "nome_detectado": "santa maria ate a",
-      "ocorrencias": 31,
-      "paginas_distintas": 31,
+      "ocorrencias": 32,
+      "paginas_distintas": 32,
       "com_marca_uf": false,
       "fontes": [
         "ioes-busca-dom"
@@ -50210,14 +52054,14 @@
         }
       ],
       "primeira_deteccao": "2026-10-16",
-      "ultima_deteccao": "2026-11-03",
+      "ultima_deteccao": "2026-11-04",
       "provavel_alias_de": null,
       "sugestao": "verificar"
     }
   ],
   "reconciliacao_ibge": {
     "status": "erro",
-    "consultado_em": "2026-11-03",
+    "consultado_em": "2026-11-04",
     "total_ibge": null,
     "total_cadastro": 78,
     "ausentes_no_cadastro": [],
