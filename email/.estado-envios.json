@@ -6,6 +6,7 @@
     "alegre": "2026-10-02",
     "alfredo-chaves": "2026-10-02",
     "anchieta": "2026-10-02",
+    "apiaca": "2026-11-06",
     "aracruz": "2026-10-02",
     "baixo-guandu": "2026-10-09",
     "barra-de-sao-francisco": "2026-10-15",
@@ -69,7 +70,9 @@
   },
   "descobertas": {
     "concursosnobrasil-es:concurso-camara-de-piuma-es-oferece-salario-de-ate-r-9-018": "2026-11-03",
+    "concursosnobrasil-es:concurso-de-rio-bananal-es-oferece-120-vagas-na-educacao-com-notas-da-pnd": "2026-11-06",
     "concursosnobrasil-es:prefeitura-de-alfredo-chaves-es-remunera-ate-r-34-mil-em-processo-seletivo": "2026-10-29",
+    "concursosnobrasil-es:prefeitura-de-apiaca-es-tem-vagas-abertas-na-area-da-educacao": "2026-11-06",
     "concursosnobrasil-es:prefeitura-de-dores-do-rio-preto-es-abre-mais-de-170-vagas-em-seletivo": "2026-10-22",
     "concursosnobrasil-es:prefeitura-de-marechal-floriano-es-abre-seletivo-com-100-vagas": "2026-10-30",
     "concursosnobrasil-es:santa-casa-de-iuna-es-abre-processo-seletivo-com-salarios-de-ate-r-35-mil": "2026-10-15",
@@ -159,5 +162,5 @@
     "ps-vitoria-es-professores-007-008-2026": "b1d98cee8588202a",
     "ps-vitoria-es-psicologo-025-2026": "21f12a598df18797"
   },
-  "ultima_geracao": "2026-11-04"
+  "ultima_geracao": "2026-11-06"
 }
