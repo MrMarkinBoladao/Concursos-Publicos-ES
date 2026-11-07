@@ -236,7 +236,7 @@
     "observacao": "Seleção por provas objetivas e de títulos, conforme a notícia oficial da Prefeitura. A data da prova objetiva não consta da fonte oficial consultada."
   },
   "banca": "Instituto de Seleção e Tecnologia - Instituto Seleção",
-  "status": "inscricoes_abertas",
+  "status": "inscricoes_encerradas",
   "regime": "designacao_temporaria",
   "validade": "não informado",
   "links": {
@@ -274,6 +274,11 @@
       "data": "2026-10-17",
       "status": "inscricoes_abertas",
       "observacao": "Primeiro registro no repositório, a partir da notícia oficial da Prefeitura de Iúna (15/10/2026) e da listagem de certames do Instituto Seleção; edital íntegro não consultado (HTTP 403). Achado promovido da quarentena de descobertas."
+    },
+    {
+      "data": "2026-11-06",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento registrado automaticamente em 07/11/2026 pelo prazo do edital (06/11/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se não houve prorrogação."
     }
   ],
   "ultima_verificacao": "2026-10-17",
