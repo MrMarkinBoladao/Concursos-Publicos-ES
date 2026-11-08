@@ -20,7 +20,7 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **07/11/2026** |
+| Última verificação das fontes | **08/11/2026** |
 | Oportunidades monitoradas | 80 |
 | Com inscrições abertas | 5 |
 | Vagas imediatas em aberto | 14 |
@@ -35,8 +35,8 @@ efetivamente relacionada ao estado.
 
 | Órgão | Cargo | Vagas | Salário | Inscrições até | Prova |
 | ----- | ----- | ----: | ------: | -------------- | ----- |
-| [CRECI-ES](https://www.in.gov.br/en/web/dou/-/edital-n-1-de-5-de-outubro-de-2026-736203938) | Profissional de Suporte Técnico (PST) - Assistente Administrativo; Profissional de Suporte Técnico (PST) - Assistente Especializado e mais 8 cargos | CR | não informado | 10/11/2026 **(encerra em 3 dias)** | 17/01/2027 |
-| [SAAE](https://www.saaeiconha.com.br/institucional/processos-seletivos-e-concursos/download/file?fid=45.105&file_id=f_8daebc7126eff2c15a4833084488d686) | Ajudante; Auxiliar de Serviços Gerais e mais 7 cargos | 14 + CR | R$ 1.660,65 a R$ 3.236,14 | 10/11/2026 **(encerra em 3 dias)** | 13/12/2026 |
+| [CRECI-ES](https://www.in.gov.br/en/web/dou/-/edital-n-1-de-5-de-outubro-de-2026-736203938) | Profissional de Suporte Técnico (PST) - Assistente Administrativo; Profissional de Suporte Técnico (PST) - Assistente Especializado e mais 8 cargos | CR | não informado | 10/11/2026 **(encerra em 2 dias)** | 17/01/2027 |
+| [SAAE](https://www.saaeiconha.com.br/institucional/processos-seletivos-e-concursos/download/file?fid=45.105&file_id=f_8daebc7126eff2c15a4833084488d686) | Ajudante; Auxiliar de Serviços Gerais e mais 7 cargos | 14 + CR | R$ 1.660,65 a R$ 3.236,14 | 10/11/2026 **(encerra em 2 dias)** | 13/12/2026 |
 
 ## Próximos concursos
 
@@ -243,7 +243,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 07/11/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 08/11/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
