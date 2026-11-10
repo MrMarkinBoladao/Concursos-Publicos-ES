@@ -20,23 +20,23 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **09/11/2026** |
+| Última verificação das fontes | **10/11/2026** |
 | Oportunidades monitoradas | 80 |
 | Com inscrições abertas | 5 |
 | Vagas imediatas em aberto | 14 |
 | Concursos previstos / autorizados | 16 |
 | Registros históricos (encerrados ou em andamento) | 59 |
-| Descobertas automáticas pendentes de conferência | 5 |
+| Descobertas automáticas pendentes de conferência | 6 |
 | Municípios do ES monitorados | 78 |
 | Municípios com registro curado | 21 |
-| Municípios com ato detectado na janela da coleta | 47 |
+| Municípios com ato detectado na janela da coleta | 55 |
 
 ## Concursos com inscrições abertas
 
 | Órgão | Cargo | Vagas | Salário | Inscrições até | Prova |
 | ----- | ----- | ----: | ------: | -------------- | ----- |
-| [CRECI-ES](https://www.in.gov.br/en/web/dou/-/edital-n-1-de-5-de-outubro-de-2026-736203938) | Profissional de Suporte Técnico (PST) - Assistente Administrativo; Profissional de Suporte Técnico (PST) - Assistente Especializado e mais 8 cargos | CR | não informado | 10/11/2026 **(encerra em 1 dia)** | 17/01/2027 |
-| [SAAE](https://www.saaeiconha.com.br/institucional/processos-seletivos-e-concursos/download/file?fid=45.105&file_id=f_8daebc7126eff2c15a4833084488d686) | Ajudante; Auxiliar de Serviços Gerais e mais 7 cargos | 14 + CR | R$ 1.660,65 a R$ 3.236,14 | 10/11/2026 **(encerra em 1 dia)** | 13/12/2026 |
+| [CRECI-ES](https://www.in.gov.br/en/web/dou/-/edital-n-1-de-5-de-outubro-de-2026-736203938) | Profissional de Suporte Técnico (PST) - Assistente Administrativo; Profissional de Suporte Técnico (PST) - Assistente Especializado e mais 8 cargos | CR | não informado | 10/11/2026 **(encerra em 0 dias)** | 17/01/2027 |
+| [SAAE](https://www.saaeiconha.com.br/institucional/processos-seletivos-e-concursos/download/file?fid=45.105&file_id=f_8daebc7126eff2c15a4833084488d686) | Ajudante; Auxiliar de Serviços Gerais e mais 7 cargos | 14 + CR | R$ 1.660,65 a R$ 3.236,14 | 10/11/2026 **(encerra em 0 dias)** | 13/12/2026 |
 
 ## Próximos concursos
 
@@ -144,6 +144,7 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | Órgão | Oportunidade | Situação na fonte | Inscrições até | Fonte |
 | ----- | ------------ | ----------------- | -------------- | ----- |
 | TCEES | [Processo Seletivo Simplificado - TCE-ES 02/2026](https://selecao.es.gov.br/processo-seletivo/0da7e770-8d04-4237-8d04-0071cf41cbe5/processo-seletivo-simplificado-tce-es-022026) | Inscrições não iniciadas | 18/12/2026 | oficial |
+| Prefeitura de São Roque do Canaã | [Prefeitura de São Roque do Canaã](https://concursosnobrasil.com/concursos/es/2026/11/10/es-concurso-prefeitura-de-sao-roque-do-canaa-esta-com-115-vagas-disponiveis/) | não informado | não informado | portal_concursos |
 | Prefeitura de Apiacá | [Prefeitura de Apiacá](https://concursosnobrasil.com/concursos/es/2026/11/06/prefeitura-de-apiaca-es-tem-vagas-abertas-na-area-da-educacao/) | não informado | não informado | portal_concursos |
 | Prefeitura de Rio Bananal | [Prefeitura de Rio Bananal](https://concursosnobrasil.com/concursos/es/2026/11/05/concurso-de-rio-bananal-es-oferece-120-vagas-na-educacao-com-notas-da-pnd/) | não informado | não informado | portal_concursos |
 | Câmara de Piúma | [Câmara de Piúma](https://concursosnobrasil.com/concursos/es/2026/11/03/concurso-camara-de-piuma-es-oferece-salario-de-ate-r-9-018/) | não informado | não informado | portal_concursos |
@@ -198,7 +199,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Iconha | 2 | ✓ | DOM/AMUNES |
 | Irupi | 1 | ✓ | DOM/AMUNES |
 | Itaguaçu | 0 | ✓ | DOM/AMUNES |
-| Itapemirim | 0 | — | DOM/AMUNES |
+| Itapemirim | 0 | ✓ | DOM/AMUNES |
 | Itarana | 0 | ✓ | DOM/AMUNES |
 | Iúna | 1 | ✓ | DOM/AMUNES |
 | Jaguaré | 0 | ✓ | DOM/AMUNES |
@@ -244,7 +245,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 09/11/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 10/11/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
