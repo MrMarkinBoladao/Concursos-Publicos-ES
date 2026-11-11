@@ -136,7 +136,7 @@
     "observacao": "Provas objetivas e discursivas em 17/01/2027 (domingo), no turno da tarde, para todos os cargos, em Colatina/ES, Guarapari/ES e Vitória/ES."
   },
   "banca": "Instituto Quadrix",
-  "status": "inscricoes_abertas",
+  "status": "inscricoes_encerradas",
   "regime": "clt",
   "validade": "não informado",
   "links": {
@@ -168,6 +168,11 @@
       "data": "2026-10-17",
       "status": "inscricoes_abertas",
       "observacao": "Primeiro registro no repositório, a partir do extrato do Edital nº 1 no DOU. Achado promovido da quarentena de descobertas. Status deduzido do prazo final do extrato (10/11/2026); a data de início não foi comprovada em fonte oficial."
+    },
+    {
+      "data": "2026-11-10",
+      "status": "inscricoes_encerradas",
+      "observacao": "Encerramento registrado automaticamente em 11/11/2026 pelo prazo do edital (10/11/2026) já constante do registro. A fonte não foi reconsultada nesta transição: confirmar se não houve prorrogação."
     }
   ],
   "ultima_verificacao": "2026-10-17",
