@@ -70,6 +70,7 @@
     "vitoria": "2026-10-02"
   },
   "descobertas": {
+    "concursosnobrasil-es:concurso-banestes-banescor-abre-645-vagas-em-cadastro-de-reserva": "2026-11-12",
     "concursosnobrasil-es:concurso-camara-de-piuma-es-oferece-salario-de-ate-r-9-018": "2026-11-03",
     "concursosnobrasil-es:concurso-de-rio-bananal-es-oferece-120-vagas-na-educacao-com-notas-da-pnd": "2026-11-06",
     "concursosnobrasil-es:es-concurso-prefeitura-de-sao-roque-do-canaa-esta-com-115-vagas-disponiveis": "2026-11-10",
@@ -82,6 +83,7 @@
     "concursosnobrasil-es:selecao-da-camara-de-marilandia-no-es-paga-r-53-mil-mais-beneficio": "2026-11-11",
     "concursosnobrasil-es:semma-de-vila-velha-es-disponibiliza-vagas-de-ate-r-7-mil": "2026-10-07",
     "selecao-es:0da7e770-8d04-4237-8d04-0071cf41cbe5": "2026-11-09",
+    "selecao-es:8b0b5b08-6378-43cc-90f8-70c266275160": "2026-11-12",
     "selecao-es:c3e686b5-cb0e-4a8a-ab96-53eba3d14342": "2026-09-30"
   },
   "descricao": "Impressoes digitais das oportunidades, chaves dos achados da coleta e municipios cujo primeiro ato ja foi anunciado no ultimo resumo enviado. Usado para nao reenviar informacao identica. Nao contem dados sensiveis nem credenciais.",
@@ -167,5 +169,5 @@
     "ps-vitoria-es-professores-007-008-2026": "b1d98cee8588202a",
     "ps-vitoria-es-psicologo-025-2026": "21f12a598df18797"
   },
-  "ultima_geracao": "2026-11-11"
+  "ultima_geracao": "2026-11-12"
 }
