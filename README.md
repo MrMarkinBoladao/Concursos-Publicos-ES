@@ -20,7 +20,7 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **14/11/2026** |
+| Última verificação das fontes | **15/11/2026** |
 | Oportunidades monitoradas | 80 |
 | Com inscrições abertas | 3 |
 | Vagas imediatas em aberto | 0 |
@@ -248,7 +248,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 14/11/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 15/11/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
