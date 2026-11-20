@@ -20,16 +20,16 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **19/11/2026** |
+| Última verificação das fontes | **20/11/2026** |
 | Oportunidades monitoradas | 80 |
 | Com inscrições abertas | 3 |
 | Vagas imediatas em aberto | 0 |
 | Concursos previstos / autorizados | 16 |
 | Registros históricos (encerrados ou em andamento) | 61 |
-| Descobertas automáticas pendentes de conferência | 10 |
+| Descobertas automáticas pendentes de conferência | 8 |
 | Municípios do ES monitorados | 78 |
 | Municípios com registro curado | 21 |
-| Municípios com ato detectado na janela da coleta | 57 |
+| Municípios com ato detectado na janela da coleta | 55 |
 
 ## Concursos com inscrições abertas
 
@@ -148,10 +148,8 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | Prefeitura de Muqui | [Prefeitura de Muqui](https://concursosnobrasil.com/concursos/es/2026/11/13/concurso-prefeitura-de-muqui-es-abre-157-vagas-para-todos-os-niveis/) | não informado | não informado | portal_concursos |
 | BANESTES/BANESCOR | [BANESTES/BANESCOR](https://concursosnobrasil.com/concursos/es/2026/11/11/concurso-banestes-banescor-abre-645-vagas-em-cadastro-de-reserva/) | não informado | não informado | portal_concursos |
 | Câmara de Marilândia | [Câmara de Marilândia](https://concursosnobrasil.com/concursos/es/2026/11/10/selecao-da-camara-de-marilandia-no-es-paga-r-53-mil-mais-beneficio/) | não informado | não informado | portal_concursos |
-| Prefeitura de Apiacá | [Prefeitura de Apiacá](https://concursosnobrasil.com/concursos/es/2026/11/11/espirito-santo-prefeitura-de-apiaca-divulga-novas-vagas-no-setor-da-educacao/) | não informado | não informado | portal_concursos |
 | Prefeitura de São Roque do Canaã | [Prefeitura de São Roque do Canaã](https://concursosnobrasil.com/concursos/es/2026/11/10/es-concurso-prefeitura-de-sao-roque-do-canaa-esta-com-115-vagas-disponiveis/) | não informado | não informado | portal_concursos |
 | Prefeitura de Rio Bananal | [Prefeitura de Rio Bananal](https://concursosnobrasil.com/concursos/es/2026/11/05/concurso-de-rio-bananal-es-oferece-120-vagas-na-educacao-com-notas-da-pnd/) | não informado | não informado | portal_concursos |
-| Câmara de Piúma | [Câmara de Piúma](https://concursosnobrasil.com/concursos/es/2026/11/03/concurso-camara-de-piuma-es-oferece-salario-de-ate-r-9-018/) | não informado | não informado | portal_concursos |
 
 ## Cobertura por município
 
@@ -248,7 +246,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 19/11/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 20/11/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
