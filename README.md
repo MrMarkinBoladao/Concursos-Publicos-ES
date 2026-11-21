@@ -20,7 +20,7 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **20/11/2026** |
+| Última verificação das fontes | **21/11/2026** |
 | Oportunidades monitoradas | 80 |
 | Com inscrições abertas | 3 |
 | Vagas imediatas em aberto | 0 |
@@ -29,7 +29,7 @@ efetivamente relacionada ao estado.
 | Descobertas automáticas pendentes de conferência | 8 |
 | Municípios do ES monitorados | 78 |
 | Municípios com registro curado | 21 |
-| Municípios com ato detectado na janela da coleta | 55 |
+| Municípios com ato detectado na janela da coleta | 53 |
 
 ## Concursos com inscrições abertas
 
@@ -246,7 +246,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 20/11/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 21/11/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
