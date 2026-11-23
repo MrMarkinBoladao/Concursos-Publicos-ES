@@ -20,16 +20,16 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **22/11/2026** |
+| Última verificação das fontes | **23/11/2026** |
 | Oportunidades monitoradas | 80 |
 | Com inscrições abertas | 3 |
 | Vagas imediatas em aberto | 0 |
 | Concursos previstos / autorizados | 16 |
 | Registros históricos (encerrados ou em andamento) | 61 |
-| Descobertas automáticas pendentes de conferência | 8 |
+| Descobertas automáticas pendentes de conferência | 10 |
 | Municípios do ES monitorados | 78 |
 | Municípios com registro curado | 21 |
-| Municípios com ato detectado na janela da coleta | 53 |
+| Municípios com ato detectado na janela da coleta | 54 |
 
 ## Concursos com inscrições abertas
 
@@ -144,6 +144,8 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | ----- | ------------ | ----------------- | -------------- | ----- |
 | TCEES | [Processo Seletivo Simplificado - TCE-ES 02/2026](https://selecao.es.gov.br/processo-seletivo/0da7e770-8d04-4237-8d04-0071cf41cbe5/processo-seletivo-simplificado-tce-es-022026) | Inscrições abertas | 18/12/2026 | oficial |
 | SEDU | [SEDU - EDITAL 37/2026 - Professores de Língua Inglesa e de Língua Espanhola - Centros Estaduais de Idiomas](https://selecao.es.gov.br/processo-seletivo/8b0b5b08-6378-43cc-90f8-70c266275160/sedu-edital-372026-professores-lingua-inglesa-lingua-espanhola-centros-estaduais-idiomas) | Inscrições abertas | 26/11/2026 | oficial |
+| Prefeitura de Itarana | [Prefeitura de Itarana](https://concursosnobrasil.com/concursos/es/2026/11/23/prefeitura-de-itarana-espirito-santo-abre-seletivo-edital-vagas-e-inscricao/) | não informado | não informado | portal_concursos |
+| Prefeitura de Ponto Belo | [Prefeitura de Ponto Belo](https://concursosnobrasil.com/concursos/es/2026/11/23/prefeitura-de-ponto-belo-promove-edital-de-processo-seletivo-no-es/) | não informado | não informado | portal_concursos |
 | Prefeitura de Rio Bananal | [Prefeitura de Rio Bananal](https://concursosnobrasil.com/concursos/es/2026/11/16/seletivo-da-prefeitura-de-rio-bananal-es-tem-mensais-de-ate-r-5-879/) | não informado | não informado | portal_concursos |
 | Prefeitura de Muqui | [Prefeitura de Muqui](https://concursosnobrasil.com/concursos/es/2026/11/13/concurso-prefeitura-de-muqui-es-abre-157-vagas-para-todos-os-niveis/) | não informado | não informado | portal_concursos |
 | BANESTES/BANESCOR | [BANESTES/BANESCOR](https://concursosnobrasil.com/concursos/es/2026/11/11/concurso-banestes-banescor-abre-645-vagas-em-cadastro-de-reserva/) | não informado | não informado | portal_concursos |
@@ -246,7 +248,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 22/11/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 23/11/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
