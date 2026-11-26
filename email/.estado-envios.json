@@ -82,13 +82,15 @@
     "concursosnobrasil-es:prefeitura-de-itarana-espirito-santo-abre-seletivo-edital-vagas-e-inscricao": "2026-11-23",
     "concursosnobrasil-es:prefeitura-de-marechal-floriano-es-abre-seletivo-com-100-vagas": "2026-10-30",
     "concursosnobrasil-es:prefeitura-de-ponto-belo-promove-edital-de-processo-seletivo-no-es": "2026-11-23",
+    "concursosnobrasil-es:processo-seletivo-prefeitura-de-alegre-es-edital-com-83-vagas": "2026-11-26",
     "concursosnobrasil-es:santa-casa-de-iuna-es-abre-processo-seletivo-com-salarios-de-ate-r-35-mil": "2026-10-15",
     "concursosnobrasil-es:selecao-da-camara-de-marilandia-no-es-paga-r-53-mil-mais-beneficio": "2026-11-11",
     "concursosnobrasil-es:seletivo-da-prefeitura-de-rio-bananal-es-tem-mensais-de-ate-r-5-879": "2026-11-16",
     "concursosnobrasil-es:semma-de-vila-velha-es-disponibiliza-vagas-de-ate-r-7-mil": "2026-10-07",
     "selecao-es:0da7e770-8d04-4237-8d04-0071cf41cbe5": "2026-11-09",
     "selecao-es:8b0b5b08-6378-43cc-90f8-70c266275160": "2026-11-12",
-    "selecao-es:c3e686b5-cb0e-4a8a-ab96-53eba3d14342": "2026-09-30"
+    "selecao-es:c3e686b5-cb0e-4a8a-ab96-53eba3d14342": "2026-09-30",
+    "selecao-es:ffb61064-2262-4c31-9ab2-0420881b75b8": "2026-11-26"
   },
   "descricao": "Impressoes digitais das oportunidades, chaves dos achados da coleta e municipios cujo primeiro ato ja foi anunciado no ultimo resumo enviado. Usado para nao reenviar informacao identica. Nao contem dados sensiveis nem credenciais.",
   "impressoes": {
@@ -173,5 +175,5 @@
     "ps-vitoria-es-professores-007-008-2026": "b1d98cee8588202a",
     "ps-vitoria-es-psicologo-025-2026": "21f12a598df18797"
   },
-  "ultima_geracao": "2026-11-23"
+  "ultima_geracao": "2026-11-26"
 }
