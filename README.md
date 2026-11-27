@@ -20,7 +20,7 @@ efetivamente relacionada ao estado.
 
 | Indicador | Valor |
 | --------- | ----: |
-| Última verificação das fontes | **26/11/2026** |
+| Última verificação das fontes | **27/11/2026** |
 | Oportunidades monitoradas | 80 |
 | Com inscrições abertas | 3 |
 | Vagas imediatas em aberto | 0 |
@@ -29,7 +29,7 @@ efetivamente relacionada ao estado.
 | Descobertas automáticas pendentes de conferência | 9 |
 | Municípios do ES monitorados | 78 |
 | Municípios com registro curado | 21 |
-| Municípios com ato detectado na janela da coleta | 49 |
+| Municípios com ato detectado na janela da coleta | 50 |
 
 ## Concursos com inscrições abertas
 
@@ -144,7 +144,7 @@ encerradas pode seguir em andamento nas etapas seguintes.
 | ----- | ------------ | ----------------- | -------------- | ----- |
 | TCEES | [Processo Seletivo Simplificado - TCE-ES 02/2026](https://selecao.es.gov.br/processo-seletivo/0da7e770-8d04-4237-8d04-0071cf41cbe5/processo-seletivo-simplificado-tce-es-022026) | Inscrições abertas | 18/12/2026 | oficial |
 | SEDU | [SEDU - EDITAL 38/2026 - Processo Seletivo - Agente de Integração Escolar](https://selecao.es.gov.br/processo-seletivo/ffb61064-2262-4c31-9ab2-0420881b75b8/sedu-edital-382026-processo-seletivo-agente-integracao-escolar) | Inscrições não iniciadas | 09/12/2026 | oficial |
-| SEDU | [SEDU - EDITAL 37/2026 - Professores de Língua Inglesa e de Língua Espanhola - Centros Estaduais de Idiomas](https://selecao.es.gov.br/processo-seletivo/8b0b5b08-6378-43cc-90f8-70c266275160/sedu-edital-372026-professores-lingua-inglesa-lingua-espanhola-centros-estaduais-idiomas) | Inscrições abertas | 26/11/2026 | oficial |
+| SEDU | [SEDU - EDITAL 37/2026 - Professores de Língua Inglesa e de Língua Espanhola - Centros Estaduais de Idiomas](https://selecao.es.gov.br/processo-seletivo/8b0b5b08-6378-43cc-90f8-70c266275160/sedu-edital-372026-professores-lingua-inglesa-lingua-espanhola-centros-estaduais-idiomas) | Inscrições encerradas | 26/11/2026 | oficial |
 | Prefeitura de Alegre | [Prefeitura de Alegre](https://concursosnobrasil.com/concursos/es/2026/11/25/processo-seletivo-prefeitura-de-alegre-es-edital-com-83-vagas/) | não informado | não informado | portal_concursos |
 | Prefeitura de Itarana | [Prefeitura de Itarana](https://concursosnobrasil.com/concursos/es/2026/11/23/prefeitura-de-itarana-espirito-santo-abre-seletivo-edital-vagas-e-inscricao/) | não informado | não informado | portal_concursos |
 | Prefeitura de Rio Bananal | [Prefeitura de Rio Bananal](https://concursosnobrasil.com/concursos/es/2026/11/16/seletivo-da-prefeitura-de-rio-bananal-es-tem-mensais-de-ate-r-5-879/) | não informado | não informado | portal_concursos |
@@ -213,7 +213,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 | Marataízes | 0 | ✓ | DOM/AMUNES |
 | Marechal Floriano | 0 | ✓ | DOM/AMUNES |
 | Marilândia | 0 | ✓ | DOM/AMUNES |
-| Mimoso do Sul | 0 | — | DOM/AMUNES |
+| Mimoso do Sul | 0 | ✓ | DOM/AMUNES |
 | Montanha | 1 | ✓ | DOM/AMUNES |
 | Mucurici | 0 | ✓ | DOM/AMUNES |
 | Muniz Freire | 0 | ✓ | DOM/AMUNES |
@@ -247,7 +247,7 @@ DOM/AMUNES **não** é lacuna: é o canal da maioria dos municípios do estado.
 
 </details>
 
-_Dados atualizados em 26/11/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
+_Dados atualizados em 27/11/2026. Os valores são um resumo: consulte sempre o edital oficial antes de se inscrever._
 <!-- FIM:TABELAS -->
 
 ## Como os dados estão organizados
